@@ -1,0 +1,16 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+
+// Brief tags, marked quotations and source text
+.tag { font-size: .75rem; padding: .15rem .45rem; border-radius: .6rem; margin-right: .3rem; white-space: nowrap; }
+.tag.kind { background: #e8ebf7; } .tag.ok { background: #e3f3e6; } .tag.dis { background: #fbe4e1; }
+.count { font-size: .8rem; color: var(--gray); }
+mark { background: #fff1a8; } mark:target { background: #ffd54a; outline: 2px solid #e0a800; }
+.doc { font-size: .95rem; border: 1px solid var(--lightgray); padding: .8rem; border-radius: 4px; }
+@media (min-width: 1000px) {
+  .callout[data-callout="success"], .callout[data-callout="danger"] {
+    display: inline-block; vertical-align: top; width: calc(50% - 0.6rem); box-sizing: border-box;
+  }
+  .callout[data-callout="success"] { margin-right: 1rem; }
+}
