@@ -14,3 +14,17 @@ mark { background: #fff1a8; } mark:target { background: #ffd54a; outline: 2px so
   }
   .callout[data-callout="success"] { margin-right: 1rem; }
 }
+
+// Argument pages: PRO and CON side by side in a borderless two-column table
+table.pc { width: 100%; margin: 1rem 0 2rem; padding: 0; border-collapse: collapse; table-layout: fixed; }
+table.pc tr { border-bottom: none; }
+table.pc th, table.pc td { width: 50%; vertical-align: top; text-align: left; border: none; padding: .45rem 1.2rem .9rem 0; line-height: 1.5; }
+table.pc th { font-size: 1.05rem; }
+table.pc p { margin: 0 0 .35rem; }
+table.pc ul { margin: .2rem 0 0; padding-left: 1.1rem; }
+table.pc li { margin: .2rem 0; }
+@media (max-width: 800px) {
+  table.pc tr, table.pc th, table.pc td { display: block; width: auto; }
+}
+table.pc .external-icon { display: none; } // a numbered citation needs no link icon
+.pc-sources { font-size: .9rem; }

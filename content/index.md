@@ -1,20 +1,22 @@
 ---
-title: "H.R.4405, the Epstein Files Transparency Act"
+title: Policy rationale arguments
 ---
 
-> [!note] Mock-up: only the privacy cluster from the pilot record is shown.
+For each of eight bills and six personal values, these pages ask whether the value gives a person, Morgan, a reason to favor the bill, and whether it gives a reason to oppose it. For each question, a PRO argument says yes and a CON argument answers it point by point. Two AI models wrote and reviewed each argument.
 
-## What the bill does (excerpt)
+Each bill is judged as of the last time Congress voted on it. Each citation links to the original source.
 
-> “No record shall be withheld, delayed, or redacted on the basis of embarrassment, reputational harm, or political sensitivity, including to any government official, public figure, or foreign dignitary.” [[sources/bill_text#q3|↗ source]]
+## Bills
 
-## Reasons for
+- [[arguments/sjres88/index|S.J.Res.88]]: a joint resolution terminating the national emergency declared to impose global tariffs
+- [[arguments/hr5408/index|H.R.5408]]: the Faster Labor Contracts Act
+- [[arguments/s1582/index|S.1582]]: the GENIUS Act
+- [[arguments/hr131/index|H.R.131]]: the Finish the Arkansas Valley Conduit Act
+- [[arguments/hr4405/index|H.R.4405]]: the Epstein Files Transparency Act
+- [[arguments/hr1834/index|H.R.1834]]: the House bill extending the enhanced Affordable Care Act premium tax credits (introduced as the Breaking the Gridlock Act)
+- [[arguments/hr28/index|H.R.28]]: the Protection of Women and Girls in Sports Act of 2025
+- [[arguments/s2/index|S.2]]: the Secure America Act
 
-- [[claims/release_protects|The records would be released while victims' privacy is protected.]] <span class="count">3 makers</span> <span class="tag dis">Rests on disputed point: D3</span>
-- [[claims/protects_innocent|The bill protects the innocent.]] <span class="count">1 makers</span> <span class="tag dis">Disputed: E1 (not yet checked)</span>
+## Earlier design
 
-## Reasons against
-
-- [[claims/reputations|Innocent bystanders' reputations would be ruined, making them a new group of victims.]] <span class="count">4 makers</span> <span class="tag ok">Undisputed in the record</span>
-- [[claims/victims_named|Information that could identify victims would be released.]] <span class="count">4 makers</span> <span class="tag dis">Disputed: E1 (not yet checked)</span> <span class="tag dis">Rests on disputed point: D3</span>
-- [[claims/csam_released|Child sexual abuse material could be released.]] <span class="count">1 makers</span> <span class="tag dis">Rests on disputed point: D5</span>
+- [[hr4405-mockup|H.R.4405 privacy-cluster mock-up]]
