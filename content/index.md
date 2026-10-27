@@ -19,7 +19,10 @@ Each bill is judged as of the last time Congress voted on it. Each citation link
 
 ## Version 2 preview
 
-- [[v2-preview/hr5408/index|H.R.5408]]: the Faster Labor Contracts Act, under the version 2 procedure that will be used for all eight bills
+These bills are done under the version 2 procedure that will be used for all eight bills.
+
+- [[v2-preview/hr5408/index|H.R.5408]]: the Faster Labor Contracts Act
+- [[v2-preview/sjres88/index|S.J.Res.88]]: a joint resolution terminating the national emergency declared to impose global tariffs
 
 ## Earlier design
 
