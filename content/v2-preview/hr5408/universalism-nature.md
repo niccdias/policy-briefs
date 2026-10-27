@@ -2,17 +2,15 @@
 title: "H.R.5408 × Universalism – Nature (version 2 preview)"
 ---
 
-*Version 2 preview, October 27, 2026. Sol 6.1, at maximum reasoning effort, wrote and reviewed every argument, and the reviewers also checked the reasoning. Each PRO gives every separate reason the evidence supports. Each CON answers every PRO reason and says so when it finds no sound rebuttal. Each direction is judged on its own. Version 1 of this bill is [[arguments/hr5408/index|here]]. Links to sources the arguers found in this version have not been checked yet.*
-
 **Bill:** [H.R.5408](https://www.congress.gov/bill/119th-congress/house-bill/5408), the Faster Labor Contracts Act. Judged as of June 9, 2026, when Congress last voted on it.
 
-**Value:** Universalism – Nature. A person who holds this value finds these things very important:
+**Survey question:** each respondent saw one of these three versions, with a randomly assigned name in place of [name]. The arguments call this person Morgan.
 
-- to care for nature
-- to take part in activities to defend nature
-- to protect the natural environment from destruction or pollution
+1. Imagine a person named [name]. It's very important to [name] to care for nature. Does this value give [name] a reason to favor or oppose H.R.5408?
+1. Imagine a person named [name]. It's very important to [name] to take part in activities to defend nature. Does this value give [name] a reason to favor or oppose H.R.5408?
+1. Imagine a person named [name]. It's very important to [name] to protect the natural environment from destruction or pollution. Does this value give [name] a reason to favor or oppose H.R.5408?
 
-**Survey question:** “Imagine a person named Morgan. It's very important to Morgan [statement]. Does this value give Morgan a reason to favor or oppose H.R.5408?” Each respondent saw one of the statements above.
+Answer options: A reason to favor H.R.5408 / A reason to oppose H.R.5408 / Both / Neither
 
 ## Does this value give Morgan a reason to favor H.R.5408?
 

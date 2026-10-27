@@ -28,3 +28,15 @@ table.pc li { margin: .2rem 0; }
 }
 table.pc .external-icon { display: none; } // a numbered citation needs no link icon
 .pc-sources { font-size: .9rem; }
+
+// No right sidebar (graph, contents and backlinks are off): the page takes its column
+@media all and ($desktop) {
+  .page[data-frame="default"] > #quartz-body {
+    grid-template-columns: #{$sidePanelWidth} auto;
+    grid-template-areas:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-footer";
+  }
+}
+.page[data-frame="default"] > #quartz-body > .sidebar.right:empty { display: none; }
