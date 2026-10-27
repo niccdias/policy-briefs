@@ -15,16 +15,36 @@ mark { background: #fff1a8; } mark:target { background: #ffd54a; outline: 2px so
   .callout[data-callout="success"] { margin-right: 1rem; }
 }
 
-// Argument pages: PRO and CON side by side in a borderless two-column table
-table.pc { width: 100%; margin: 1rem 0 2rem; padding: 0; border-collapse: collapse; table-layout: fixed; }
+// Argument pages: PRO and CON side by side, each point a tinted card (PRO blue, CON rust)
+table.pc {
+  --pro: var(--secondary); --con: #a0522d;
+  width: calc(100% + 1.6rem); margin: 1rem -.8rem 2rem; padding: 0;
+  border-collapse: separate; border-spacing: .8rem .7rem; table-layout: fixed;
+}
+:root[saved-theme="dark"] table.pc { --con: #d08a5f; }
 table.pc tr { border-bottom: none; }
-table.pc th, table.pc td { width: 50%; vertical-align: top; text-align: left; border: none; padding: .45rem 1.2rem .9rem 0; line-height: 1.5; }
-table.pc th { font-size: 1.05rem; }
+table.pc th, table.pc td { width: 50%; vertical-align: top; text-align: left; border: none; line-height: 1.5; }
+table.pc th { padding: 0 1rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+table.pc th:first-child { color: var(--pro); }
+table.pc th:last-child { color: var(--con); }
+table.pc td { padding: .8rem 1rem .9rem; border-radius: 6px; }
+table.pc td:first-child { background: rgba(40, 75, 99, .07); border-left: 3px solid var(--pro); }
+table.pc td:last-child { background: rgba(160, 82, 45, .07); border-left: 3px solid var(--con); }
+table.pc td:empty { background: none; border: none; }
 table.pc p { margin: 0 0 .35rem; }
-table.pc ul { margin: .2rem 0 0; padding-left: 1.1rem; }
-table.pc li { margin: .2rem 0; }
+table.pc tr:not(.main) td > p:first-child { color: var(--dark); font-weight: 600; } // the point itself
+table.pc .lbl { font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .75; }
+table.pc td > p:first-child > .lbl { display: block; margin-bottom: .1rem; opacity: 1; }
+table.pc td:first-child > p:first-child > .lbl { color: var(--pro); }
+table.pc td:last-child > p:first-child > .lbl { color: var(--con); }
+table.pc ul { margin: .5rem 0 0; padding-left: 1.1rem; font-size: .94rem; }
+table.pc li { margin: .3rem 0; }
+table.pc li.so { list-style-type: "→ "; margin-top: .55rem; color: var(--dark); }
+article:has(table.pc) h2 { margin-top: 2.5rem; }
 @media (max-width: 800px) {
+  table.pc { width: 100%; margin: 1rem 0 2rem; border-spacing: 0; }
   table.pc tr, table.pc th, table.pc td { display: block; width: auto; }
+  table.pc td { margin-bottom: .6rem; }
 }
 table.pc .external-icon { display: none; } // a numbered citation needs no link icon
 .pc-sources { font-size: .9rem; }
@@ -32,6 +52,7 @@ table.pc .external-icon { display: none; } // a numbered citation needs no link 
 // No right sidebar (graph, contents and backlinks are off): the page takes its column
 @media all and ($desktop) {
   .page[data-frame="default"] > #quartz-body {
+    padding-right: 2.5rem;
     grid-template-columns: #{$sidePanelWidth} auto;
     grid-template-areas:
       "grid-sidebar-left grid-header"
