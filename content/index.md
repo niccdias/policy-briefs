@@ -2,7 +2,7 @@
 title: Policy rationale arguments
 ---
 
-For each of eight bills and six personal values, these pages ask whether the value gives a person, Morgan, a reason to favor the bill, and whether it gives a reason to oppose it. For each question, a PRO argument says yes and a CON argument answers it point by point. Two AI models wrote and reviewed each argument.
+For each of eight bills and six personal values, these pages ask whether the value gives a person, [NAME], a reason to favor the bill, and whether it gives a reason to oppose it. For each question, a PRO argument says yes and a CON argument answers it point by point. Two AI models wrote and reviewed each argument.
 
 Each bill is judged as of the last time Congress voted on it. Each citation links to the original source.
 
