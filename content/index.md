@@ -17,6 +17,10 @@ Each bill is judged as of the last time Congress voted on it. Each citation link
 - [[arguments/hr28/index|H.R.28]]: the Protection of Women and Girls in Sports Act of 2025
 - [[arguments/s2/index|S.2]]: the Secure America Act
 
+## Version 2 preview
+
+- [[v2-preview/hr5408/index|H.R.5408]]: the Faster Labor Contracts Act, under the version 2 procedure that will be used for all eight bills
+
 ## Earlier design
 
 - [[hr4405-mockup|H.R.4405 privacy-cluster mock-up]]
