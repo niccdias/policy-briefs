@@ -16,7 +16,3 @@ Each bill is judged as of the last time Congress voted on it. Each citation link
 - [[arguments/hr1834/index|H.R.1834]]: the House bill extending the enhanced Affordable Care Act premium tax credits (introduced as the Breaking the Gridlock Act)
 - [[arguments/hr28/index|H.R.28]]: the Protection of Women and Girls in Sports Act of 2025
 - [[arguments/s2/index|S.2]]: the Secure America Act
-
-## Earlier design
-
-- [[hr4405-mockup|H.R.4405 privacy-cluster mock-up]]
