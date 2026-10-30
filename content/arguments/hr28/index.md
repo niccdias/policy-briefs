@@ -2,7 +2,7 @@
 title: "H.R.28: The Protection of Women and Girls in Sports Act of 2025"
 ---
 
-[H.R.28 on congress.gov](https://www.congress.gov/bill/119th-congress/house-bill/28). Judged as of January 14, 2025, when Congress last voted on it.
+[H.R.28 on congress.gov](https://web.archive.org/web/20260603151225/https://www.congress.gov/bill/119th-congress/house-bill/28) ([live page](https://www.congress.gov/bill/119th-congress/house-bill/28)). Judged as of January 14, 2025, when Congress last voted on it.
 
 For each value: does it give [NAME] a reason to favor H.R.28, and a reason to oppose it? Each page sets a PRO argument beside the CON argument that answers it, point by point.
 

@@ -2,7 +2,7 @@
 title: "S.1582: The GENIUS Act"
 ---
 
-[S.1582 on congress.gov](https://www.congress.gov/bill/119th-congress/senate-bill/1582). Judged as of July 17, 2025, when Congress last voted on it.
+[S.1582 on congress.gov](https://web.archive.org/web/20261013054841/https://www.congress.gov/bill/119th-congress/senate-bill/1582) ([live page](https://www.congress.gov/bill/119th-congress/senate-bill/1582)). Judged as of July 17, 2025, when Congress last voted on it.
 
 For each value: does it give [NAME] a reason to favor S.1582, and a reason to oppose it? Each page sets a PRO argument beside the CON argument that answers it, point by point.
 

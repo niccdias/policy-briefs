@@ -2,7 +2,7 @@
 title: "H.R.4405: The Epstein Files Transparency Act"
 ---
 
-[H.R.4405 on congress.gov](https://www.congress.gov/bill/119th-congress/house-bill/4405). Judged as of November 18, 2025, when Congress last voted on it.
+[H.R.4405 on congress.gov](https://web.archive.org/web/20261002112301/https://www.congress.gov/bill/119th-congress/house-bill/4405) ([live page](https://www.congress.gov/bill/119th-congress/house-bill/4405)). Judged as of November 18, 2025, when Congress last voted on it.
 
 For each value: does it give [NAME] a reason to favor H.R.4405, and a reason to oppose it? Each page sets a PRO argument beside the CON argument that answers it, point by point.
 
