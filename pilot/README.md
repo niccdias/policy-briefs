@@ -21,6 +21,8 @@ Opus 5.5 ran through the existing Claude subscription at native High effort, ver
 
 ## Coding behavior
 
+After the guide, a separate bill overview shows the bill description, main effect and source links before coding begins or resumes. The toolbar's Bill overview button and Back from the first shared claim reopen it. This reading page adds no judgment or saved-order item; existing answers, notes, order and progress remain unchanged.
+
 The guided order contains 25 shared-claim pages, all 79 argument pages and six value summaries. It is sampled once from a saved seed: prerequisite claims first, randomized ties, then randomized values → directions → arguments. Network links allow revisiting without resampling.
 
 Shared claims ask: **Does the evidence support this shared claim?** Arguments ask: **Does this argument establish a reason to SUPPORT/OPPOSE S.1582?** The actual page substitutes one direction. Both offer Yes/No and optional notes. Argument pages do not repeat judgment criteria.
