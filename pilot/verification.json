@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "content_version": "s1582-pilot-20261106-8f9bb0aef314",
+  "stage": "prepublication checks; deployment receipt is recorded separately",
+  "automated": {
+    "core_and_real_content": {"passed": 14, "failed": 0},
+    "firestore_rules": {"passed": 7, "failed": 0},
+    "quartz_build": "passed: 57 Markdown inputs, 104 emitted files",
+    "pilot_build": "passed",
+    "coverage": {"active_unique": 79, "catalog_unique": 85, "retired": 6, "claims": 25, "paths": 130, "direct_dependencies": 109, "indirect_reporting_uses": 4},
+    "semantics": ["all direct dependency answer combinations across every real argument path", "AND versus alternative OR paths", "local alternatives remain open", "unanswered claims do not block", "acceptance never auto-accepts arguments", "recursive prerequisites and cycle rejection", "dependency flags", "derived outcomes versus page completion", "retained direct judgments and reassessment", "Both-only comparison and stale comparisons", "saved randomized hierarchy and seed", "required answers and optional blank notes", "separate omitted reasons and private exports"],
+    "security": ["verified Google identity and active assignment", "reviewer cannot grant access", "own session and backups only", "another reviewer cannot read/list/write records", "coordinator export", "immutable revision required atomically", "stale and simultaneous edits cannot silently overwrite", "unassigned versions and kinds denied", "anonymous and unverified access denied"]
+  },
+  "browser": {
+    "required_answer": "Blank unblocked page rejected; Yes with blank optional notes continued",
+    "back_and_network": "Back changed progress; network links focused the selected claim or argument without resampling order",
+    "summary": "UNN Both: all 10 headings and judgments, accepted highlighting and complete expandable text. UNC Neither: all 29 headings, both evidence links and separate omitted-reason fields; blank optional opposing note accepted",
+    "comparison": "Pending accepted; changing one direct answer retained the earlier comparison but unchecked it and requested reassessment; incomplete edited page remained flagged",
+    "exports": "Production QA JSON and CSV previews contained saved answers/order/progress; revision export returned revisions 1 through 4. Private copies kept outside GitHub",
+    "production_return": "Google-authenticated QA session revision 4 survived closing and a new tab, with identical 110-item order, answer and cursor",
+    "two_contexts": "Independent localhost and 127.0.0.1 browser storage contexts read the same dummy reviewer session. Device B saved revision 11 while A retained an unsent draft; A displayed both versions. Explicitly choosing A created revision 12; B received it",
+    "interrupted_save": "Local QA storage-boundary simulation displayed Not saved, retained the draft, and prevented false confirmation. Closing the tab during the failure and reopening restored the exact note and saved it as revision 15",
+    "access": "An unassigned second dummy account displayed Reviewer access required and no coding record; its later assigned fixture had separate records",
+    "layouts": {"desktop": 1440, "narrow": 756, "phone": 390, "horizontal_overflow": false, "long_context": "capped with internal scrolling; reference person reachable", "short_context": "content height plus normal padding, below cap", "navigation": "center equals reader center at tested widths", "direction": "SUPPORT/OPPOSE visible above the argument"},
+    "source_access": "Existing HTTPS source URLs retained and rendered as external links; shared links route to claim pages; source namespaces and citation preservation checked against frozen content"
+  },
+  "preservation": {"existing_content_and_config_diff_against_base": "none", "qualtrics": "no edits or requests made", "unfinished_response": "unchanged", "production_qa": "separate --qa session; no prefilled research record", "billing": "Spark; no paid services or invitations"},
+  "limits": ["Browser contexts and viewport emulation, not a physical second device", "Connection failure was simulated at the save boundary, not a physical network outage", "Source text matching is not a new comprehensive evidence review", "29 evidence/inference gaps remain", "ESL clarity and coder effort need a human pilot; software tests establish no reliability improvement"]
+}

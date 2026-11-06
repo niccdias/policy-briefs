@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-06",
+  "source_bank_sha256": "58ee0a8afb315d3eed218025a44b939bf127748045555a81a4cebf7a16d0bfe5",
+  "website_base": "b4e514cbce8c41b19c2d22ccfa46303955812ab3",
+  "stale_checkout_not_used": "78b8cbce5aa1865349521baa67b2746009cdd464",
+  "historical_ids": 85,
+  "active_arguments": 79,
+  "retired_ids": 6,
+  "publication_manifest_files_verified": 36,
+  "authorities": [
+    {
+      "path": "docs/argument_key/quality_pass/other_bills_20261104/119_S_1582/release",
+      "scope": "Main-adjudicated final review, including last two residual CON removals."
+    },
+    {
+      "path": "docs/argument_key/qualtrics/reviewed_v5/argument_bank.json",
+      "scope": "Shared website/survey source after November 5 Tradition amendment."
+    }
+  ],
+  "reuse_from_history": [
+    "Grouped AND premises and alternative OR supporting paths",
+    "Separate premise rebuttal and inference undercut",
+    "Scoped exact propositions, dates, populations and modality",
+    "Source links and Used in navigation",
+    "Stable identifiers and frozen releases with affected-answer invalidation"
+  ],
+  "superseded": [
+    "October principal/main/substantial effect eligibility threshold",
+    "Separate multi-check questions, timing and close-call follow-ups",
+    "Early stopping after first accepted argument",
+    "Baseline-only, no-earmark, no-estimate or size-only CON",
+    "Generic religious morality as Tradition",
+    "No CON or undisputed status as automatic acceptance",
+    "Automatic migration of an unfinished Qualtrics response"
+  ],
+  "old_network_pilot": {
+    "path": "docs/panel_key/logs/v12_codex_pilot_2026-10-21",
+    "freeze_approved": false,
+    "open_findings": 22,
+    "major": 14,
+    "minor": 8,
+    "lesson": "Prior mechanical success did not establish semantic coverage or genuine dependencies. Do not import that graph as validated."
+  },
+  "history_checked": [
+    "October 19\u201320 network mockup, v12 r3 and Sol audit",
+    "October 20\u201321 Claude/Codex pilot final human and structural reviews",
+    "October 24\u201330 actual procedure and rendering decisions",
+    "October 30\u2013November 5 coding workflow changes",
+    "All eight final release chains, with S1582 main adjudication",
+    "November 5 Tradition boundary and retirement amendment",
+    "November 6 ESL and novice background procedure",
+    "Current publication manifest, remote HEAD and live Tradition aliases"
+  ],
+  "preserved": [
+    "Live briefs and source navigation",
+    "Both existing Qualtrics surveys and records",
+    "Nic unfinished survey session"
+  ],
+  "worker": {
+    "agent_id": "e62f4acd-ed88-400c-b78c-fd18ddf528d6",
+    "workspace": "/private/tmp/s1582-shared-claims-opus-20261106",
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "native_start_gate_verified": true,
+    "further_delegation": false
+  },
+  "decision_sources": [
+    {
+      "rule": "Magnitude-independent existence, every argument shown, Both-only comparison, optional notes and no repeated criteria",
+      "source": "docs/argument_key/qualtrics/reviewed_v5/reviewer_instructions.md",
+      "additional_source": "docs/argument_key/qualtrics/reviewed_v5/README.md"
+    },
+    {
+      "rule": "Necessary premises, ordinary prospective inferences and removal of baseline-only/no-earmark/no-estimate objections",
+      "source": "docs/argument_key/quality_pass/README.md",
+      "additional_source": "docs/argument_key/quality_pass/worker_task.md"
+    },
+    {
+      "rule": "Latest S1582 merits decisions and final residual removals",
+      "source": "docs/argument_key/quality_pass/other_bills_20261104/119_S_1582/release/substantive_verification.json",
+      "additional_source": "docs/argument_key/quality_pass/other_bills_20261104/119_S_1582/release/output/bounded_check.json"
+    },
+    {
+      "rule": "Narrow Tradition boundary, six retired S1582 IDs and original snapshots",
+      "source": "docs/argument_key/qualtrics/reviewed_v5/amendments/tradition_20261105.json",
+      "additional_source": "docs/argument_key/qualtrics/reviewed_v5/amendments/tradition_20261105.md"
+    },
+    {
+      "rule": "ESL and little-to-no prior policy knowledge, clarity separate from merits",
+      "source": "docs/argument_key/quality_pass/worker_task.md",
+      "history_source": "docs/argument_key/quality_pass/procedure_backups/novice-reader-20261106T103103Z/worker_task.md"
+    },
+    {
+      "rule": "Shared-premise app, Google Authentication, private saving, QA separation and preserving unfinished session",
+      "source": "Nic approved S.1582 pilot plan in this conversation, November 6, 2026"
+    },
+    {
+      "rule": "Explicit approval to create the private production assignment and labeled QA records",
+      "source": "Nic response \u201cCreate my assignment and QA records\u201d in this conversation, November 6, 2026"
+    },
+    {
+      "rule": "Old network was not an approved validated authority",
+      "source": "docs/panel_key/logs/v12_codex_pilot_2026-10-21",
+      "findings": 22
+    }
+  ]
+}

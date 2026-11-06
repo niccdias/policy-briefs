@@ -1,0 +1,209 @@
+{
+ "coverage": {
+  "expected_active": 79,
+  "found": 79,
+  "unique": 79,
+  "missing": [],
+  "extra": [],
+  "pass": true
+ },
+ "catalog": {
+  "catalog_ids": 85,
+  "pass": true
+ },
+ "retired": {
+  "listed": [
+   "S1582_TR_oppose_01",
+   "S1582_TR_oppose_05",
+   "S1582_TR_oppose_06",
+   "S1582_TR_oppose_08",
+   "S1582_TR_support_01",
+   "S1582_TR_support_03"
+  ],
+  "matches_expected": true,
+  "used_anywhere": [],
+  "pass": true
+ },
+ "reuse_and_agreement": {
+  "claims_below_2": [],
+  "member_dependency_mismatches": [],
+  "direct_uses_per_claim": {
+   "C01": 14,
+   "C02": 9,
+   "C03": 7,
+   "C04": 6,
+   "C05": 6,
+   "C06": 3,
+   "C07": 3,
+   "C08": 3,
+   "C09": 3,
+   "C10": 3,
+   "C11": 3,
+   "C12": 2,
+   "C13": 9,
+   "C14": 9,
+   "C17": 4,
+   "C18": 4,
+   "C19": 5,
+   "C20": 2,
+   "C21": 3,
+   "C22": 3,
+   "C23": 2,
+   "C24": 2,
+   "C25": 2,
+   "C27": 0,
+   "C28": 2
+  },
+  "via_prerequisite_uses": {
+   "C27": [
+    "S1582_SEP_support_01",
+    "S1582_SEP_support_05",
+    "S1582_SES_support_01",
+    "S1582_UNC_support_08"
+   ]
+  },
+  "pass": true
+ },
+ "dag": {
+  "claim_edges": {
+   "C02": [
+    "C01"
+   ],
+   "C03": [
+    "C01"
+   ],
+   "C18": [
+    "C27"
+   ],
+   "C24": [
+    "C01"
+   ]
+  },
+  "cycles": [],
+  "pass": true
+ },
+ "paths": {
+  "count": 130,
+  "open_local_paths": 30,
+  "arguments_with_or_paths": 30,
+  "problems": [],
+  "pass": true
+ },
+ "quote_preservation": {
+  "kept_in_argument": 376,
+  "moved_to_required_claim": 178,
+  "not_preserved": [],
+  "pass": true
+ },
+ "citation_url_presence": {
+  "missing": [],
+  "pass": true
+ },
+ "citation_numbers": {
+  "mismatches": [],
+  "pass": true
+ },
+ "factual_context_corrections": {
+  "declared": 4,
+  "substantive_scope_corrections_declared": 1,
+  "problems": [],
+  "pass": true
+ },
+ "quote_validity": {
+  "argument_quotes_not_in_bank": [],
+  "claim_quotes_not_in_bank_flagged_additions": [
+   [
+    "C06",
+    "to the extent compliance with section 4 of the GENIUS Act would have required additional r"
+   ],
+   [
+    "C08",
+    "It would normally follow then that the automatic stay would not apply to assets not includ"
+   ],
+   [
+    "C10",
+    "such as the collapse of a major stablecoin issuer, crypto lending platform, or crypto exch"
+   ],
+   [
+    "C11",
+    "Bank A loses a deposit, Bank B gains one"
+   ],
+   [
+    "C11",
+    "the regulatory treatment of the deposit in Bank B may be less (or more) favorable"
+   ],
+   [
+    "C28",
+    "Even if the likelihood of these attacks remains low under normal conditions, the economic "
+   ]
+  ],
+  "pass": true
+ },
+ "source_text_match": {
+  "method": "Normalized text match of cited claim quotes against the staged source bound to the cited number. A cited quote not found in its source fails this check, because it would present editorial wording as source evidence. This is text matching only, not independent verification.",
+  "matched": 129,
+  "editorial_or_unmatched_presented_as_source": [],
+  "pass": true
+ },
+ "contextual_evidence_additions": {
+  "declared": 6,
+  "detected_not_in_bank": 6,
+  "undeclared": [],
+  "declared_not_detected": [],
+  "all_classified": true,
+  "pass": true
+ },
+ "notes_verbatim": {
+  "differences": [],
+  "pass": true
+ },
+ "no_con_status": {
+  "count_preserved": 35,
+  "changed": [],
+  "wrongly_added": [],
+  "pass": true
+ },
+ "value_inference": {
+  "name_placeholder_changed": [],
+  "no_so_step": [],
+  "pass": true
+ },
+ "edits": {
+  "classification_counts": {
+   "clarity_only": 65,
+   "unchanged": 8,
+   "both": 6
+  },
+  "labelled_unchanged_but_differs": [],
+  "pass": true
+ },
+ "c17_c27_split": {
+  "problems": [],
+  "pass": true
+ },
+ "final_mapping_corrections": {
+  "problems": [],
+  "pass": true
+ },
+ "workload": {
+  "original_argument_pro_con_words": 24052,
+  "pilot_argument_pro_con_words": 20245,
+  "claim_page_words": 8239,
+  "claim_page_words_excluding_notes": 5854,
+  "pilot_total_words": 28484,
+  "metrics": {
+   "claim_count": 25,
+   "argument_count": 79,
+   "dependency_edges": 109,
+   "repeated_occurrences_grouped": 113,
+   "path_count": 130,
+   "via_prerequisite_edges": 4
+  }
+ },
+ "source_refs": {
+  "claims_without_refs": [],
+  "total": 129,
+  "pass": true
+ },
+ "all_pass": true
+}

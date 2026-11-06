@@ -1,0 +1,27 @@
+{
+  "method": "Whitelisted native scalar counts; no messages, process arguments, environment or credentials emitted.",
+  "counts": {
+    "assistant_model": {
+      "claude-opus-5-5": 97
+    },
+    "effort": {
+      "high": 97
+    },
+    "perTurnEffort": {
+      "high": 97
+    },
+    "request_model": {
+      "claude-opus-5-5": 38
+    },
+    "request_effort": {
+      "high": 38
+    }
+  },
+  "authentication": {
+    "loggedIn": true,
+    "authMethod": "claude.ai",
+    "apiProvider": "firstParty",
+    "subscriptionType": "max"
+  },
+  "effective_high_verified": true
+}

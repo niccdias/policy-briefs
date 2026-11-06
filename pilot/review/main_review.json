@@ -1,0 +1,1601 @@
+{
+  "date": "2026-11-06",
+  "mapping_sha256": "f47f3b086fea8ba2ef5c259b3a892105e32b47346b4ed61437872df25a44adbc",
+  "reviewer": "main Codex agent",
+  "scope": "All 25 shared-claim merges, all 79 rewritten arguments and all 130 argument paths; source windows for merge scope and substantive/context corrections. This is not a fresh full evidence review.",
+  "claims": [
+    {
+      "id": "C01",
+      "decision": "accept after recorded corrections",
+      "review": "Accept merge as modest overall added use; no magnitude or household claim. Exclude conditional routes that need only a narrower mechanism.",
+      "member_ids": [
+        "S1582_UNN_support_03",
+        "S1582_UNC_oppose_09",
+        "S1582_UNC_oppose_10",
+        "S1582_UNC_oppose_14",
+        "S1582_UNC_oppose_15",
+        "S1582_SEP_oppose_04",
+        "S1582_SES_support_09",
+        "S1582_SES_support_10",
+        "S1582_SES_oppose_01",
+        "S1582_SES_oppose_02",
+        "S1582_SES_oppose_04",
+        "S1582_SES_oppose_05",
+        "S1582_TR_oppose_02",
+        "S1582_TR_oppose_07"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C01-P1",
+          "requires": [],
+          "reason": "Direct route: the sources say legal uncertainty held firms back, and the bill's national framework and Section 16 permission remove part of that uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "decision": "accept after recorded corrections",
+      "review": "Keep household reach separate from overall use; C01 is necessary but insufficient. Waller and adoption limits remain visible.",
+      "member_ids": [
+        "S1582_UNC_oppose_01",
+        "S1582_UNC_oppose_02",
+        "S1582_UNC_oppose_03",
+        "S1582_UNC_oppose_06",
+        "S1582_SEP_oppose_01",
+        "S1582_SEP_oppose_02",
+        "S1582_SEP_oppose_03",
+        "S1582_SES_oppose_03",
+        "S1582_SES_oppose_04"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C02-P1",
+          "requires": [
+            "C01"
+          ],
+          "reason": "Household use can only be added by the bill if the bill adds use at all; the household step is a further and narrower claim."
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "decision": "accept after recorded corrections",
+      "review": "Accept seven shared mining uses with two routes. C01 blocks only the trading/reward route; the local legitimation forecast remains open and contested.",
+      "member_ids": [
+        "S1582_UNN_oppose_01",
+        "S1582_UNN_oppose_02",
+        "S1582_UNN_oppose_03",
+        "S1582_UNN_oppose_04",
+        "S1582_UNN_oppose_05",
+        "S1582_UNN_oppose_06",
+        "S1582_UNN_oppose_07"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C03-P1",
+          "requires": [
+            "C01"
+          ],
+          "reason": "Reward route: more stablecoin use leads to more Bitcoin trading, then higher Bitcoin value, then higher mining rewards. This route needs added stablecoin use."
+        },
+        {
+          "id": "C03-P2",
+          "requires": [],
+          "reason": "Legitimation route: DeRoche's forecast links wider acceptance of crypto generally to more mining. It does not pass through a measured rise in payment-stablecoin use, so it stays open if C01 is No, but its only support is that forecast, and the forecast joins 'legitimized' to 'used'."
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "decision": "accept after recorded corrections",
+      "review": "Legal backing duty only. Listed asset types do not establish cash availability during a run.",
+      "member_ids": [
+        "S1582_UNN_support_02",
+        "S1582_UNC_support_01",
+        "S1582_UNT_support_02",
+        "S1582_UNT_support_03",
+        "S1582_SES_support_02",
+        "S1582_TR_support_02"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C04-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 4(a)(1)(A)."
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "decision": "accept after recorded corrections",
+      "review": "Required-reserve priority only, not timing, adequacy or absolute recovery. Repo limitation is visible.",
+      "member_ids": [
+        "S1582_UNN_support_02",
+        "S1582_UNC_support_04",
+        "S1582_UNT_support_02",
+        "S1582_UNT_support_03",
+        "S1582_SES_support_03",
+        "S1582_TR_support_02"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C05-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 11(a)."
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "decision": "accept after recorded corrections",
+      "review": "Shortfall priority capped at legally required missing reserves. Opposite value uses do not change the proposition.",
+      "member_ids": [
+        "S1582_UNC_support_04",
+        "S1582_UNC_oppose_08",
+        "S1582_SES_support_03"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C06-P1",
+          "requires": [],
+          "reason": "Direct reading of the Section 11(d) amendment to 11 U.S.C. 507."
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "decision": "accept after recorded corrections",
+      "review": "Custody duties with cash-deposit and omnibus exceptions; not a guarantee of loss-free return.",
+      "member_ids": [
+        "S1582_UNC_support_04",
+        "S1582_SES_support_03",
+        "S1582_TR_support_02"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C07-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 10(b) and (c)."
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "decision": "accept after recorded corrections",
+      "review": "Bankruptcy pause and best-efforts target, not automatic payment in fourteen days or proof of a new pause relative to prior law.",
+      "member_ids": [
+        "S1582_UNC_oppose_02",
+        "S1582_SEP_oppose_01",
+        "S1582_SES_oppose_04"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C08-P1",
+          "requires": [],
+          "reason": "Direct reading of the Section 11(c) amendment, with lawyers' and CRS descriptions."
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "decision": "accept after recorded corrections",
+      "review": "Only run-to-bank withdrawal direction is necessary for every member. Fire-sale and other local routes remain independent.",
+      "member_ids": [
+        "S1582_UNC_oppose_10",
+        "S1582_SEP_oppose_04",
+        "S1582_SES_oppose_04"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C09-P1",
+          "requires": [],
+          "reason": "Mechanism described by Brookings and shown for one issuer's partner banks by New York Fed researchers."
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "decision": "accept after recorded corrections",
+      "review": "Conditional reach of a serious shock beyond users, not likelihood, size or exclusive issuer causation.",
+      "member_ids": [
+        "S1582_UNC_support_07",
+        "S1582_UNC_oppose_10",
+        "S1582_SEP_oppose_04"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C10-P1",
+          "requires": [],
+          "reason": "Brookings' warning about crypto failures and its account of how the 2008 crisis reached households."
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "decision": "accept after recorded corrections",
+      "review": "Conditional loss of usable local-lender funding. Redepositing funds at another bank and regulatory treatment qualify the mechanism.",
+      "member_ids": [
+        "S1582_UNC_oppose_09",
+        "S1582_SES_oppose_05",
+        "S1582_TR_oppose_07"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C11-P1",
+          "requires": [],
+          "reason": "Funding route from deposit loss to fewer loans. Whether stablecoin use grows is asked separately in C01."
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "decision": "accept after recorded corrections",
+      "review": "Issuer-paid yield ban removes one incentive. Does not ban every intermediary reward or determine adoption.",
+      "member_ids": [
+        "S1582_UNC_support_13",
+        "S1582_SES_support_07"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C12-P1",
+          "requires": [],
+          "reason": "Section 4 ban plus the Brookings statement about what issuer interest could do."
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "decision": "accept after recorded corrections",
+      "review": "Permitted-issuer legal blocking capacity and duties, separated from detection, compliance in practice and consequences.",
+      "member_ids": [
+        "S1582_UNN_support_01",
+        "S1582_UNC_support_08",
+        "S1582_UNT_oppose_04",
+        "S1582_SEP_support_01",
+        "S1582_SEP_support_02",
+        "S1582_SEP_support_03",
+        "S1582_SEP_support_04",
+        "S1582_SEP_support_05",
+        "S1582_SES_support_01"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C13-P1",
+          "requires": [],
+          "reason": "Direct reading of Sections 2(16), 4(a)(5)(A)(iv) and 4(a)(6)(B)."
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "decision": "accept after recorded corrections",
+      "review": "Foreign-issuer access condition is an alternative legal route. Lawful-order scope and enforcement delays remain.",
+      "member_ids": [
+        "S1582_UNN_support_01",
+        "S1582_UNC_support_08",
+        "S1582_UNT_oppose_04",
+        "S1582_SEP_support_01",
+        "S1582_SEP_support_02",
+        "S1582_SEP_support_03",
+        "S1582_SEP_support_04",
+        "S1582_SEP_support_05",
+        "S1582_SES_support_01"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C14-P1",
+          "requires": [],
+          "reason": "Direct reading of Sections 3 and 8."
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "decision": "accept after recorded corrections",
+      "review": "Identity/customer checks only. No broad inference to all blockchain users or claim that every duty is new.",
+      "member_ids": [
+        "S1582_UNT_oppose_01",
+        "S1582_UNT_oppose_02",
+        "S1582_UNT_oppose_03",
+        "S1582_TR_oppose_02"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C17-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 4(a)(5)(A)(v)."
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "decision": "accept after recorded corrections",
+      "review": "Written monitoring/reporting duty only; genuinely reused transitively by four reporting routes through C18. Proposal distinguished from bill.",
+      "member_ids": [
+        "S1582_UNC_support_08",
+        "S1582_SEP_support_01",
+        "S1582_SEP_support_05",
+        "S1582_SES_support_01"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C27-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 4(a)(5)(A)(iii)."
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "decision": "accept after recorded corrections",
+      "review": "Incremental identification inference limited to issuer account-holder dealings. Requires C27; crime-specific reach stays local.",
+      "member_ids": [
+        "S1582_UNC_support_08",
+        "S1582_SEP_support_01",
+        "S1582_SEP_support_05",
+        "S1582_SES_support_01"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C18-P1",
+          "requires": [
+            "C27"
+          ],
+          "reason": "The incremental detection inference requires the written monitoring and reporting duty in C27. The inference itself comes from that duty and from statements that such reports help investigators. The objections concern transfers after issuance."
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "decision": "accept after recorded corrections",
+      "review": "Section 9 future standards separate from Section 4 and the FinCEN proposal. Final implementation remains uncertain.",
+      "member_ids": [
+        "S1582_UNT_oppose_03",
+        "S1582_SEP_support_02",
+        "S1582_SEP_support_04",
+        "S1582_SEP_support_05",
+        "S1582_SES_support_01"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C19-P1",
+          "requires": [],
+          "reason": "Section 9(d)(3) plus Steptoe's reading of its likely effect. FinCEN's separate April 2026 proposal is the main response."
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "decision": "accept after recorded corrections",
+      "review": "Covered public nonfinancial-company approval/consent restriction only; no general commercial-data ban.",
+      "member_ids": [
+        "S1582_UNC_support_10",
+        "S1582_UNT_support_04"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C20-P1",
+          "requires": [],
+          "reason": "Direct reading of Section 4(a)(12)(B)(i)(II)."
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "decision": "accept after recorded corrections",
+      "review": "More usable commercial issuance route, not newly invented permission; private/public routes remain distinct.",
+      "member_ids": [
+        "S1582_UNC_oppose_11",
+        "S1582_UNC_oppose_12",
+        "S1582_SES_oppose_08"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C21-P1",
+          "requires": [],
+          "reason": "Brookings' reading of the private-company gap, with the arguments' inference that clear rules make the route more usable."
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "decision": "accept after recorded corrections",
+      "review": "Possibility of switching costs through data or existing businesses. Local pressure and value consequences require their own judgment.",
+      "member_ids": [
+        "S1582_UNC_oppose_11",
+        "S1582_SES_support_06",
+        "S1582_SES_oppose_08"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C22-P1",
+          "requires": [],
+          "reason": "Brookings' warning about nonfinancial firms and network effects."
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "decision": "accept after recorded corrections",
+      "review": "Outage/failure mechanism independent of Ethereum attack incentives. Both affected arguments retain an alternative C28 route.",
+      "member_ids": [
+        "S1582_SEP_oppose_02",
+        "S1582_SES_oppose_03"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C23-P1",
+          "requires": [],
+          "reason": "The 'Hidden Plumbing of Stablecoins' risk analysis, on network failure."
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "decision": "accept after recorded corrections",
+      "review": "Ethereum incentive mechanism under assumed growth, with low-normal-likelihood qualification, not an adoption forecast.",
+      "member_ids": [
+        "S1582_SEP_oppose_02",
+        "S1582_SES_oppose_03"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C28-P1",
+          "requires": [],
+          "reason": "The 'Hidden Plumbing of Stablecoins' risk analysis, on Ethereum attack incentives."
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "decision": "accept after recorded corrections",
+      "review": "Business benefit and ethics scope, not evidence of a specific official favor. Requires added use; later influence steps remain local.",
+      "member_ids": [
+        "S1582_UNC_oppose_13",
+        "S1582_SES_oppose_09"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C24-P1",
+          "requires": [
+            "C01"
+          ],
+          "reason": "The business can only gain from added use if the bill adds use."
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "decision": "accept after recorded corrections",
+      "review": "No new required complaints process in this bill only. UNC oppose 03 local refund/tools/enforcement omissions do not require C25.",
+      "member_ids": [
+        "S1582_UNC_oppose_03",
+        "S1582_SEP_oppose_03"
+      ],
+      "prerequisite_paths": [
+        {
+          "id": "C25-P1",
+          "requires": [],
+          "reason": "The Consumer Policy Center's reading of the Act."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "S1582_UNN_support_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Plain-language rewrite. Section 4 and 8 text moved to C13 and C14 by reference. Scope stays limited to lawful U.S. orders.",
+      "paths_checked": [
+        "S1582_UNN_support_01-P1",
+        "S1582_UNN_support_01-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Wildlife branch",
+          "explanation": "The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins, so this branch has no stated link to stablecoin payments. The gold branch does not have this gap."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNN_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Plain-language rewrite; reserve and priority quotes moved to C04 and C05. The limit to gifts held as coins is kept.",
+      "paths_checked": [
+        "S1582_UNN_support_02-P1",
+        "S1582_UNN_support_02-P2",
+        "S1582_UNN_support_02-P3"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_support_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Light plain-language edits; Section 16 quote moved to C01. The statement that no amount of new power is specified is kept.",
+      "paths_checked": [
+        "S1582_UNN_support_03-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Freed money reaches renewable projects",
+          "explanation": "Innovo says freed money can go 'elsewhere' without naming a destination, and the evidence notes do not map renewable-credit demand one-to-one onto new generation. The text supplies no direct link from freed money to more renewable power."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNN_oppose_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection and price-study details moved to C03 and kept there in full; local response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_01-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_02-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_03-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_04-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_05-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_06",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_06-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNN_oppose_07",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Repeated shared objection moved to C03 and kept there in full; this argument's own response stays here.",
+      "paths_checked": [
+        "S1582_UNN_oppose_07-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Plain-language edits and short glosses; backing quotes moved to C04.",
+      "paths_checked": [
+        "S1582_UNC_support_01-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Short glosses added; no claims moved.",
+      "paths_checked": [
+        "S1582_UNC_support_02-P1",
+        "S1582_UNC_support_02-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Minor plain-language edits.",
+      "paths_checked": [
+        "S1582_UNC_support_03-P1",
+        "S1582_UNC_support_03-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Statute quotes and the repo response moved to C05, C06 and C07 and kept there.",
+      "paths_checked": [
+        "S1582_UNC_support_04-P1",
+        "S1582_UNC_support_04-P2",
+        "S1582_UNC_support_04-P3",
+        "S1582_UNC_support_04-P4"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Only the point label structure is preserved; wording is unchanged.",
+      "paths_checked": [
+        "S1582_UNC_support_05-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_06",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "One gloss added; 'specified deadline' shortened to 'deadline'.",
+      "paths_checked": [
+        "S1582_UNC_support_06-P1",
+        "S1582_UNC_support_06-P2",
+        "S1582_UNC_support_06-P3"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_07",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Pensions-and-savings quote moved to C10.",
+      "paths_checked": [
+        "S1582_UNC_support_07-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_08",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Statute and detection-limit quotes moved to C13, C14, C27 and C18; both routes stay separate. Factual context correction: the company's denial is restored and the passage is attributed to a Bloomberg opinion piece.",
+      "paths_checked": [
+        "S1582_UNC_support_08-P1",
+        "S1582_UNC_support_08-P2",
+        "S1582_UNC_support_08-P3"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Do the reported transfers involve the issuer's own customers?",
+          "explanation": "C18 is limited to payments involving an issuer's own account holders. The text does not show that criminal transfers fall in that group once coins have moved away; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_support_09",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_UNC_support_09-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_10",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 4 data quote moved to C20.",
+      "paths_checked": [
+        "S1582_UNC_support_10-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Consent as fair control",
+          "explanation": "The PRO does not explain why agreement gives fair control when the paragraph does not require service to remain available to a person who refuses; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_support_11",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Two glosses added.",
+      "paths_checked": [
+        "S1582_UNC_support_11-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_support_12",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_UNC_support_12-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Comparison with prior law",
+          "explanation": "The PRO does not establish less arbitrary treatment than under the law in force on July 17, 2025; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_support_13",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Ban and deposit quotes moved to C12; the limit to issuer payments is kept there and in the notes.",
+      "paths_checked": [
+        "S1582_UNC_support_13-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Reference to C02 and one gloss added. Factual context correction: the Brookings qualification about standards reducing these risks is restored.",
+      "paths_checked": [
+        "S1582_UNC_oppose_01-P1",
+        "S1582_UNC_oppose_01-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Bankruptcy quotes moved to C08. C08 also flags a source passage this response does not discuss.",
+      "paths_checked": [
+        "S1582_UNC_oppose_02-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Complaint-process quote moved to C25. Section 6(c) quote stays here because the local route does not require C25. No change to the merits of the omissions.",
+      "paths_checked": [
+        "S1582_UNC_oppose_03-P1",
+        "S1582_UNC_oppose_03-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Rights under other law",
+          "explanation": "The PRO lists omissions from this statute. It does not establish the refund gap under the laws and contracts that govern these accounts; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Regulator named in a gloss; otherwise unchanged.",
+      "paths_checked": [
+        "S1582_UNC_oppose_04-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Two glosses added.",
+      "paths_checked": [
+        "S1582_UNC_oppose_05-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_06",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Reference to C02 added.",
+      "paths_checked": [
+        "S1582_UNC_oppose_06-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_07",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged. The ban quote stays local because this argument does not use the deposit effect in C12.",
+      "paths_checked": [
+        "S1582_UNC_oppose_07-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Why the restriction is unjust",
+          "explanation": "The PRO does not explain why funding a payment service from reserve income is unjust unless customers can also bargain for interest; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_oppose_08",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Priority quote moved to C06.",
+      "paths_checked": [
+        "S1582_UNC_oppose_08-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_09",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Deposit-flow quotes and the size objections moved to C11.",
+      "paths_checked": [
+        "S1582_UNC_oppose_09-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_10",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Bank-link and spillover quotes moved to C09 and C10; three separate routes shown.",
+      "paths_checked": [
+        "S1582_UNC_oppose_10-P1",
+        "S1582_UNC_oppose_10-P2",
+        "S1582_UNC_oppose_10-P3"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_11",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Private-company and switching quotes moved to C21 and C22. Tying is a business forcing a second purchase; the source's affiliate point is kept. Substantive scope correction: the bill's committee finding on affiliate tying is added, with a gap for the route outside it.",
+      "paths_checked": [
+        "S1582_UNC_oppose_11-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Affiliate tying outside the covered public-company route",
+          "explanation": "The committee finding covers affiliate tying for covered public companies. The quoted criticism does not separate that route from others, and the text does not show how this pressure arises outside it."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_oppose_12",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Reference to C21 added. No dependency on C20: this argument treats the limit as weak.",
+      "paths_checked": [
+        "S1582_UNC_oppose_12-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From payment data to higher prices",
+          "explanation": "The FTC finding concerns search and purchase activity, not stablecoin data, so the step to stablecoin payment data is an inference."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNC_oppose_13",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Ethics quote moved to C24. Substantive: the source attributes the ethics statement to legal experts, and this attribution is now stated in the copy. Please review.",
+      "paths_checked": [
+        "S1582_UNC_oppose_13-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_14",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Reference to C01 and one gloss added.",
+      "paths_checked": [
+        "S1582_UNC_oppose_14-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_15",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Reference to C01 added.",
+      "paths_checked": [
+        "S1582_UNC_oppose_15-P1",
+        "S1582_UNC_oppose_15-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNC_oppose_16",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Gloss distinguishes this use of 'remittances' from money sent home to family.",
+      "paths_checked": [
+        "S1582_UNC_oppose_16-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNT_support_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "CON shortened where it repeated quotes already in the PRO on this page; all quotes remain visible in the PRO.",
+      "paths_checked": [
+        "S1582_UNT_support_01-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Tolerance link",
+          "explanation": "The text asserts that listening to people who contest a licensing decision puts tolerance into practice. It gives no support that this process concerns differences in people, backgrounds or beliefs; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNT_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "References to C04 and C05 added; CON no longer repeats quotes shown in the PRO. Priority quote is in C05.",
+      "paths_checked": [
+        "S1582_UNT_support_02-P1",
+        "S1582_UNT_support_02-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Tolerance link",
+          "explanation": "The text does not show that protecting funds against issuer failure supports accepting unpopular voices. Issuer failure is a different risk from refusing a user's speech or ties; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNT_support_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "References to C04 and C05 added; CON no longer repeats quotes shown in the PRO.",
+      "paths_checked": [
+        "S1582_UNT_support_03-P1",
+        "S1582_UNT_support_03-P2",
+        "S1582_UNT_support_03-P3"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Tolerance link",
+          "explanation": "The text supplies no reason why making a useful service safer expresses acceptance of cross-border family ties or different lives; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_UNT_support_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Statute quotes moved to C20.",
+      "paths_checked": [
+        "S1582_UNT_support_04-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNT_oppose_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 4 quotes moved to C17; the Steptoe comparison stays local.",
+      "paths_checked": [
+        "S1582_UNT_oppose_01-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNT_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 4 quote moved to C17; the Steptoe comparison and the limit about alternatives stay local.",
+      "paths_checked": [
+        "S1582_UNT_oppose_02-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNT_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 9, Steptoe and FinCEN quotes moved to C17 and C19; the PRO's conditional wording is kept.",
+      "paths_checked": [
+        "S1582_UNT_oppose_03-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_UNT_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Steptoe and Section 3/4 quotes moved to C13 and C14; the local sanctions quotes stay.",
+      "paths_checked": [
+        "S1582_UNT_oppose_04-P1",
+        "S1582_UNT_oppose_04-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Tolerance link",
+          "explanation": "The text needs a premise that cutting off ordinary payments for this exercise of court power rejects the judges for their differences. It describes the work as disputed but does not support that premise; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_support_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Legal-power and identification routes separated; main-effect material referenced through C13 and C14. Reporting and FinCEN quotes moved to C27 and C18.",
+      "paths_checked": [
+        "S1582_SEP_support_01-P1",
+        "S1582_SEP_support_01-P2",
+        "S1582_SEP_support_01-P3"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Do the purchases involve the issuer's own customers?",
+          "explanation": "C18 is limited to payments involving an issuer's own account holders. The text does not show that ingredient purchases fall in that group; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 9 and FinCEN quotes moved to C19. The Garantex freeze stays local as evidence, not a required claim.",
+      "paths_checked": [
+        "S1582_SEP_support_02-P1",
+        "S1582_SEP_support_02-P2",
+        "S1582_SEP_support_02-P3"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SEP_support_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 8 quote moved to C14; CON no longer repeats quotes shown in the PRO. The PRO's own limit on homegrown attacks is kept.",
+      "paths_checked": [
+        "S1582_SEP_support_03-P1",
+        "S1582_SEP_support_03-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From frozen funds to safety in the United States",
+          "explanation": "The source says homegrown attackers' activities tend to be funded through legal means. The text relies on wider ISIS funding and promotion and does not show that the frozen funds pay for U.S. attacks or the propaganda; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_support_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Order and FinCEN quotes moved to C13 and C19. The seizure stays local as evidence, not a required claim.",
+      "paths_checked": [
+        "S1582_SEP_support_04-P1",
+        "S1582_SEP_support_04-P2",
+        "S1582_SEP_support_04-P3"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "FBI warnings",
+          "explanation": "The FBI warning evidence describes outreach to victims, which is not an issuer duty under the bill. The text does not connect the bill to those warnings."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_support_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Section 8 and FinCEN quotes moved to C14 and C18; references to C27 and the other shared claims added.",
+      "paths_checked": [
+        "S1582_SEP_support_05-P1",
+        "S1582_SEP_support_05-P2",
+        "S1582_SEP_support_05-P3",
+        "S1582_SEP_support_05-P4"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Do the marketplace payments involve the issuer's own customers?",
+          "explanation": "C18 is limited to payments involving an issuer's own account holders. The CON says payments between marketplace users would ordinarily be secondary-market transactions."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_oppose_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Stay quote moved to C08; the care statistic stays local as background and is not a required claim.",
+      "paths_checked": [
+        "S1582_SEP_oppose_01-P1",
+        "S1582_SEP_oppose_01-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SEP_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Cross-reference to 'point 1' replaced by the quote and citation from that point. Network and adoption quotes moved to C23, C28 and C02. The two mechanisms are now alternative paths.",
+      "paths_checked": [
+        "S1582_SEP_oppose_02-P1",
+        "S1582_SEP_oppose_02-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Dependence on an affected network",
+          "explanation": "The text does not show that the added activity would make households depend on an affected network for money needed for treatment; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Complaint and Section 6 quotes moved to C25; glosses added. 'Association' wording kept.",
+      "paths_checked": [
+        "S1582_SEP_oppose_03-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From issuer approval to scam losses",
+          "explanation": "The cited scam relies on fake apps. The text does not connect lawful issuer approval to increased belief in those apps or to higher fraud losses; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SEP_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Bank-link and 2008 quotes moved to C09 and C10. Point 3's depression source added here by citation, because the original relied on the reader remembering it; please review.",
+      "paths_checked": [
+        "S1582_SEP_oppose_04-P1",
+        "S1582_SEP_oppose_04-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Statute and detection quotes moved to C13, C14, C27, C18 and C19; five routes shown separately. The identity quotes stay local because C17 is not required here. The specific threat quote stays local.",
+      "paths_checked": [
+        "S1582_SES_support_01-P1",
+        "S1582_SES_support_01-P2",
+        "S1582_SES_support_01-P3",
+        "S1582_SES_support_01-P4",
+        "S1582_SES_support_01-P5"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Do threat-linked transfers involve the issuer's own customers?",
+          "explanation": "C18 is limited to payments involving an issuer's own account holders. The text does not show that threat-linked transfers after issuance fall in that group; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SES_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Backing quote moved to C04; otherwise close to the original. Factual context correction: the Brookings qualification about standards reducing these risks is restored in the CON, which stays a response.",
+      "paths_checked": [
+        "S1582_SES_support_02-P1",
+        "S1582_SES_support_02-P2",
+        "S1582_SES_support_02-P3"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Statute and lawyers' quotes moved to C05, C06 and C07 and kept there. The 14-day text stays local because C08 is not required on any path here.",
+      "paths_checked": [
+        "S1582_SES_support_03-P1",
+        "S1582_SES_support_03-P2",
+        "S1582_SES_support_03-P3",
+        "S1582_SES_support_03-P4"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "CON no longer repeats the quote shown in the PRO.",
+      "paths_checked": [
+        "S1582_SES_support_04-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_SES_support_05-P1",
+        "S1582_SES_support_05-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_06",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Brookings quotes moved to C22.",
+      "paths_checked": [
+        "S1582_SES_support_06-P1",
+        "S1582_SES_support_06-P2"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_07",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Ban and Brookings quotes moved to C12.",
+      "paths_checked": [
+        "S1582_SES_support_07-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_support_08",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_SES_support_08-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Framework keeps expertise in the United States",
+          "explanation": "The text cites a brain-drain risk and says the rules should encourage growth, but it gives no direct evidence that the bill keeps firms or expertise from moving abroad."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SES_support_09",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "CFR growth quote moved to C01.",
+      "paths_checked": [
+        "S1582_SES_support_09-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From dollar use to U.S. reach",
+          "explanation": "The text does not show that growth in regulated dollar tokens replaces rival channels with transactions the United States can newly detect and stop; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SES_support_10",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "CFR growth quote moved to C01.",
+      "paths_checked": [
+        "S1582_SES_support_10-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From lower rates to more public resources",
+          "explanation": "The text does not net out other demand for Treasury bills or lost public earnings; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SES_oppose_01",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "both",
+      "edit_reason": "Reference to C01 added. Factual context correction: 'Bloomberg reports' now says a Bloomberg opinion piece, and the company's denial is restored.",
+      "paths_checked": [
+        "S1582_SES_oppose_01-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Reference to C01 added.",
+      "paths_checked": [
+        "S1582_SES_oppose_02-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Network quotes moved to C23 and C28. The two mechanisms are now alternative paths.",
+      "paths_checked": [
+        "S1582_SES_oppose_03-P1",
+        "S1582_SES_oppose_03-P2"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Dependence of essential payments",
+          "explanation": "The text joins a general growth forecast to one network's attack incentives. It does not show that essential U.S. payments would depend on such networks; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_SES_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Run and stay quotes moved to C09 and C08; four routes shown separately.",
+      "paths_checked": [
+        "S1582_SES_oppose_04-P1",
+        "S1582_SES_oppose_04-P2",
+        "S1582_SES_oppose_04-P3",
+        "S1582_SES_oppose_04-P4"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_05",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Deposit quotes and the funding objection moved to C11.",
+      "paths_checked": [
+        "S1582_SES_oppose_05-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_06",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_SES_oppose_06-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_08",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Brookings quotes moved to C21 and C22.",
+      "paths_checked": [
+        "S1582_SES_oppose_08-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_SES_oppose_09",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "New Yorker and CRS quotes moved to C24.",
+      "paths_checked": [
+        "S1582_SES_oppose_09-P1"
+      ],
+      "local_gaps_preserved": []
+    },
+    {
+      "id": "S1582_TR_support_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Priority and custody quotes moved to C05 and C07; coverage limit kept.",
+      "paths_checked": [
+        "S1582_TR_support_02-P1",
+        "S1582_TR_support_02-P2",
+        "S1582_TR_support_02-P3"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "How long gifts stay in coins",
+          "explanation": "The PRO states that the sources do not report how long churches hold gifts as coins, so the time these protections apply is unknown."
+        }
+      ]
+    },
+    {
+      "id": "S1582_TR_oppose_02",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Identity quote moved to C17. The reporting quote stays local because C27 is not required here. CON no longer repeats one quote shown in the PRO.",
+      "paths_checked": [
+        "S1582_TR_oppose_02-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "From wider use to church gifts",
+          "explanation": "The text does not show that the bill moves church gifts from cash onto a traceable record; the CON raises this."
+        }
+      ]
+    },
+    {
+      "id": "S1582_TR_oppose_03",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "unchanged",
+      "edit_reason": "Wording unchanged.",
+      "paths_checked": [
+        "S1582_TR_oppose_03-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Reach where gambling rules apply",
+          "explanation": "Licensing a coin issuer does not approve a betting business or oblige a bank to serve it; the CON raises this, and leaves open the route for lawful operators."
+        }
+      ]
+    },
+    {
+      "id": "S1582_TR_oppose_04",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "'Above' removed so the point can be read alone.",
+      "paths_checked": [
+        "S1582_TR_oppose_04-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Inherited continuity",
+          "explanation": "The quote gives present Southern Baptist teaching. It does not itself describe the history of this teaching, though the PRO calls it what [NAME]'s tradition teaches. Flagged for main-agent review under the Tradition standard."
+        }
+      ]
+    },
+    {
+      "id": "S1582_TR_oppose_07",
+      "decision": "accept pilot copy and path mapping",
+      "edit_classification": "clarity_only",
+      "edit_reason": "Fed researcher and INET quotes moved to C11.",
+      "paths_checked": [
+        "S1582_TR_oppose_07-P1"
+      ],
+      "local_gaps_preserved": [
+        {
+          "step": "Link to ministry lenders",
+          "explanation": "The sources do not connect the source of stablecoin demand to the funding of lenders serving churches; the CON raises this."
+        }
+      ]
+    }
+  ],
+  "substantive_corrections_reviewed": [
+    {
+      "point_id": "S1582_UNC_oppose_11",
+      "section": "pro_html",
+      "citation": "UNC 3",
+      "doc_id": "bill_text",
+      "change": "Adds the bill's committee finding on affiliate tying for covered public companies, and says the criticism applies mainly outside that route. A gap records the step outside it. This is a scope limit, not a new rebuttal; the argument stays without a point-specific CON.",
+      "quotes": [
+        "the public company and the affiliates of the public company will comply with the tying prohibitions under paragraph (8)"
+      ],
+      "classification": "substantive_scope_correction",
+      "flag": "main-agent-review"
+    },
+    {
+      "point_id": "S1582_SES_oppose_01",
+      "citation": "SES 30",
+      "doc_id": "opinion_supporting_02",
+      "change": "'Bloomberg reports' now says 'a Bloomberg opinion piece says'; the denial is restored.",
+      "quotes": [
+        "(The company denies wrongdoing.)"
+      ],
+      "section": "pro_html",
+      "marker": "a Bloomberg opinion piece",
+      "classification": "factual_context_correction",
+      "flag": "main-agent-review"
+    },
+    {
+      "point_id": "S1582_UNC_support_08",
+      "citation": "UNC 16",
+      "doc_id": "opinion_supporting_02",
+      "change": "The same passage now names a Bloomberg opinion piece; the denial is restored.",
+      "quotes": [
+        "(The company denies wrongdoing.)"
+      ],
+      "section": "pro_html",
+      "marker": "a Bloomberg opinion piece",
+      "classification": "factual_context_correction",
+      "flag": "main-agent-review"
+    },
+    {
+      "point_id": "S1582_UNC_oppose_01",
+      "section": "pro_html",
+      "citation": "UNC 13",
+      "doc_id": "july_33f6e3d1eeb8",
+      "change": "The Brookings sentence behind 'risky and illiquid' now includes its qualification about standards reducing these risks. The text stays a PRO.",
+      "quotes": [
+        "raising the possibility that stablecoins backed by these assets will not offer a stable value and will be prone to runs",
+        "capital, liquidity, and risk management standards"
+      ],
+      "classification": "factual_context_correction",
+      "flag": "main-agent-review"
+    },
+    {
+      "point_id": "S1582_SES_support_02",
+      "section": "con_html",
+      "citation": "SES 12",
+      "doc_id": "july_33f6e3d1eeb8",
+      "change": "The same qualification is restored in the CON, which stays a response.",
+      "quotes": [
+        "raising the possibility that stablecoins backed by these assets will not offer a stable value and will be prone to runs",
+        "capital, liquidity, and risk management standards"
+      ],
+      "classification": "factual_context_correction",
+      "flag": "main-agent-review"
+    }
+  ],
+  "contextual_source_additions_reviewed": [
+    {
+      "claim_id": "C06",
+      "citation": "UNC 3",
+      "doc_id": "bill_text",
+      "quote": "to the extent compliance with section 4 of the GENIUS Act would have required additional reserves",
+      "rationale": "Gives the bill's exact limit on the shortfall priority. The bank states this limit only in paraphrase (note S1582_UNC-10).",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    },
+    {
+      "claim_id": "C08",
+      "citation": "UNC 38",
+      "doc_id": "new_02",
+      "quote": "It would normally follow then that the automatic stay would not apply to assets not included in the bankruptcy estate",
+      "rationale": "Qualifies the existing response that the pause is not shown to be new. The same lawyers suggest a pause on reserves may not simply repeat ordinary law; that response does not discuss this passage.",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    },
+    {
+      "claim_id": "C10",
+      "citation": "UNC 6",
+      "doc_id": "july_ef71b96b1ea8",
+      "quote": "such as the collapse of a major stablecoin issuer, crypto lending platform, or crypto exchange",
+      "rationale": "Shows the source's warning covers a wider class than stablecoin issuers, so the claim's scope is not overstated.",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    },
+    {
+      "claim_id": "C11",
+      "citation": "UNC 32",
+      "doc_id": "new_02",
+      "quote": "Bank A loses a deposit, Bank B gains one",
+      "rationale": "Shows the redeposit response concerns total deposits and leaves open which bank loses them.",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    },
+    {
+      "claim_id": "C11",
+      "citation": "UNC 32",
+      "doc_id": "new_02",
+      "quote": "the regulatory treatment of the deposit in Bank B may be less (or more) favorable",
+      "rationale": "The source's own qualifier on the redeposit response, which is relevant to whether funding stays usable for lending.",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    },
+    {
+      "claim_id": "C28",
+      "citation": "SEP 23",
+      "doc_id": "new_07",
+      "quote": "Even if the likelihood of these attacks remains low under normal conditions, the economic incentive gradient steepens with stablecoin adoption.",
+      "rationale": "Shows the source describes incentives and does not state a likelihood of attack, so the claim is not read as a forecast.",
+      "classification": "contextual_evidence_addition",
+      "flag": "main-agent-review"
+    }
+  ],
+  "limits": [
+    "Source reading used targeted surrounding passages, not complete sources or new retrieval.",
+    "All source additions were checked in packet context. Quote matching alone was not treated as evidential verification.",
+    "29 local bridges remain flagged; retaining them does not establish the argument.",
+    "No bill-value key, coder response, or strength judgment was supplied to Opus.",
+    "ESL readability and effort reduction have not been tested with human coders."
+  ]
+}
