@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-06",
+  "procedure_revision": "statutory-background-20261106-v1",
+  "base_content_version": "s1582-pilot-20261106-8f9bb0aef314",
+  "scope": {
+    "audited_claims": 25,
+    "verified_background": 10,
+    "judged_shared_claims": 15,
+    "active_arguments": 79,
+    "historical_argument_ids": 85,
+    "retired_argument_ids": 6,
+    "exact_response_relocations": 2,
+    "pro_argument_edits": 0
+  },
+  "source_verification": {
+    "frozen_bill_sha256": "669b1a844e33fe022849831c0db41c8bdd84b0fa45d0cafefe9ecb96b2c2c9bc",
+    "all_10_verified_passages_found": true,
+    "reading": "Express provisions read with their conditions and exceptions in the frozen Senate-engrossed text; no new external retrieval."
+  },
+  "automated_checks": {
+    "core_and_content_tests_passed": 16,
+    "exhaustive_argument_paths": 130,
+    "make_order_and_seed_unchanged": true,
+    "legacy_background_no_does_not_block": true,
+    "provisions_do_not_accept_arguments": true,
+    "affected_direct_answers_retained_and_reassessed": true,
+    "affected_comparisons_invalidated": true,
+    "two_relocated_source_passages_exact": true,
+    "build_passed": true
+  },
+  "browser_checks": {
+    "widths": [
+      1440,
+      756,
+      390
+    ],
+    "horizontal_overflow": false,
+    "background_provisions": 10,
+    "background_radio_controls": 0,
+    "source_links_and_notes_retained": true,
+    "background_network_navigation": true,
+    "required_argument_answers": true,
+    "blank_notes_allowed": true,
+    "local_legacy_return": {
+      "same_answers_and_order": true,
+      "saved_background_no_retained": true,
+      "initial_revision": 7,
+      "after_qa_edit_revision": 11,
+      "close_and_return_payload_unchanged": true
+    },
+    "production_existing_records_before_publication": {
+      "private_backup": true,
+      "sessions": 2,
+      "immutable_revisions": 9,
+      "both_records_validate_without_mutation": true
+    }
+  },
+  "limits": [
+    "The procedure audit is a targeted statutory reading, not a new comprehensive argument-quality review.",
+    "Browser checks use a dummy Firebase emulator account; live publication verification is recorded in the project deployment receipt.",
+    "No new human usability or reliability evidence.",
+    "Existing backend authentication, permissions and conflict handling were not changed; their original checks were not rerun solely for this amendment."
+  ]
+}

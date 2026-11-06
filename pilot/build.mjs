@@ -9,7 +9,7 @@ for (const name of ['index.html','style.css','content.json','firebase-config.jso
   await copyFile(new URL(name, import.meta.url),new URL(name,out));
 }
 await mkdir(new URL('review/',out),{recursive:true});
-for (const name of ['history_audit.json','main_review.json','mapping.json','checks.json','report.md']) {
+for (const name of ['history_audit.json','main_review.json','mapping.json','checks.json','report.md','statutory_background.json','statutory_background_verification.json']) {
   await copyFile(new URL(`review/${name}`,import.meta.url),new URL(`review/${name}`,out));
 }
 await build({entryPoints:[new URL('src/app.jsx',import.meta.url).pathname],outfile:new URL('app.js',out).pathname,bundle:true,format:'esm',target:'es2022',minify:true,jsx:'automatic',jsxImportSource:'preact'});

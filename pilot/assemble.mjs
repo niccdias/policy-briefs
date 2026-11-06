@@ -22,7 +22,18 @@ if(argumentsOut.length!==byId.size)throw new Error('Mapping has arguments outsid
 const p=authority.pages[0];
 const content={schema_version:1,draft:false,catalog,bill:{bill:p.bill,title:p.bill_title,description:p.description,main_effect_html:mainEffect(p.directions[0].main_effect_html),comparison:p.comparison,text_version:p.text_version,text_date:p.text_date,evidence_cutoff:p.evidence_cutoff,source_url:p.source_url},values,claims:mapping.claims,arguments:argumentsOut,provenance:{bank_sha256:authority.bank_sha256,mapping_sha256:createHash('sha256').update(await readFile(new URL('review/mapping.json',import.meta.url))).digest('hex'),website_base:'b4e514cbce8c41b19c2d22ccfa46303955812ab3',review_model:'claude-opus-5-5',review_effort:'high',history_audit:'./review/history_audit.json'}};
 content.version=`s1582-pilot-20261106-${createHash('sha256').update(JSON.stringify(content)).digest('hex').slice(0,12)}`;
+// Keep the frozen mapping identity and historical order. Procedure amendments
+// are explicit overlays, never a silent rewrite of that reviewed release.
+const procedure=await read('review/statutory_background.json');
+if(procedure.base_content_version!==content.version||procedure.base_mapping_sha256!==content.provenance.mapping_sha256)throw new Error('The statutory-background amendment does not match this frozen mapping.');
+content.procedure=procedure;
+for(const addition of procedure.response_context){
+ const argument=argumentsOut.find(a=>a.id===addition.argument_id);
+ if(!argument)throw new Error(`Response context has an unknown argument: ${addition.argument_id}.`);
+ if(!argument.con_html.includes(addition.before))throw new Error(`Response relocation no longer matches ${addition.argument_id}.`);
+ argument.con_html=argument.con_html.replace(addition.before,addition.after);
+}
 validateContent(content);
 for(const claim of content.claims)if(claimUsers(content,claim.id).length<2)throw new Error(`Claim without reuse: ${claim.id}`);
 await writeFile(new URL('content.json',import.meta.url),JSON.stringify(content,null,2)+'\n');
-console.log(`Assembled ${content.version}: ${content.claims.length} shared claims, ${content.arguments.length} active arguments, ${catalog.length} historical IDs.`);
+console.log(`Assembled ${content.version}, procedure ${procedure.revision}: ${content.claims.length-procedure.background.length} shared questions, ${procedure.background.length} verified provisions, ${content.arguments.length} active arguments, ${catalog.length} historical IDs.`);

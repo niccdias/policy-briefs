@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {validateContent,newState,editState,effective,paths,claimAncestors,claimUsers,makeOrder,progress} from '../src/core.mjs';
+import {validateContent,newState,editState,effective,paths,claimAncestors,claimUsers,makeOrder,progress,backgroundFact,judgedClaims,codingOrder} from '../src/core.mjs';
 const content=JSON.parse(await readFile(new URL('../content.json',import.meta.url),'utf8'));
 const authority=JSON.parse(await readFile(new URL('../review/authority.json',import.meta.url),'utf8'));
 const mapping=JSON.parse(await readFile(new URL('../review/mapping.json',import.meta.url),'utf8'));
@@ -14,12 +14,22 @@ test('frozen authority, coverage, notes, responses and source bindings survive a
  for(const argument of content.arguments){
   assert.deepEqual(argument.original,originals.find(a=>a.point_id===argument.id));
   const mapped=mapping.arguments.find(a=>a.point_id===argument.id);
-  for(const field of ['pro_html','con_html','notes_html','note_ids','paths','gaps','edits'])assert.deepEqual(argument[field],mapped[field],`${argument.id} ${field}`);
+  for(const field of ['pro_html','notes_html','note_ids','paths','gaps','edits'])assert.deepEqual(argument[field],mapped[field],`${argument.id} ${field}`);
+  const relocation=content.procedure.response_context.find(r=>r.argument_id===argument.id);
+  assert.equal(argument.con_html,relocation?mapped.con_html.replace(relocation.before,relocation.after):mapped.con_html);
  }
  for(const value of content.values)assert.deepEqual(value.source_bindings,authority.pages.find(p=>p.value_id===value.id).source_bindings);
  assert.equal(content.arguments.reduce((n,a)=>n+a.paths.length,0),130);
  assert.equal(content.arguments.reduce((n,a)=>n+new Set(a.paths.flatMap(p=>p.requires)).size,0),109);
  assert.equal(content.claims.reduce((n,c)=>n+claimUsers(content,c.id).length,0),130); // Includes all transitive prerequisites.
+ assert.equal(content.procedure.background.length,10);assert.equal(judgedClaims(content).length,15);
+ assert.deepEqual(content.claims,mapping.claims,'The frozen mapping remains unchanged; the procedure is an explicit overlay.');
+ assert.equal(codingOrder(content,newState(content,19)).length,100);
+ for(const r of content.procedure.response_context){
+  const argument=content.arguments.find(a=>a.id===r.argument_id);
+  assert.ok(argument.con_html.includes(r.after));assert.ok(!argument.con_html.includes(r.before));
+  assert.ok(mapping.claims.find(c=>c.id===r.from_claim).objection_html.includes(r.response_context_html),'Relocated evidence must be exact and retain its citations.');
+ }
 });
 test('every final path blocks only when all alternative paths have a rejected necessary claim',()=>{
  for(const arg of content.arguments){
@@ -27,11 +37,11 @@ test('every final path blocks only when all alternative paths have a rejected ne
   // Test all combinations of direct dependencies while holding their own prerequisites accepted.
   for(let mask=0;mask<2**deps.length;mask++){
    let state=newState(content,19);
-   for(const id of makeOrder(content,19).filter(id=>content.claims.some(c=>c.id===id)))state=editState(content,state,{type:'judgment',id,answer:deps.includes(id)&&mask&(1<<deps.indexOf(id))?'no':'yes'});
+   for(const id of makeOrder(content,19).filter(id=>judgedClaims(content).some(c=>c.id===id)))state=editState(content,state,{type:'judgment',id,answer:deps.includes(id)&&mask&(1<<deps.indexOf(id))?'no':'yes'});
    // Independently calculate the blocked set to include prerequisites of direct dependencies.
-   const blocked=new Set(deps.filter((id,i)=>mask&(1<<i)));
+   const blocked=new Set(deps.filter((id,i)=>!backgroundFact(content,id)&&mask&(1<<i)));
    let changed=true;
-   while(changed){changed=false;for(const c of content.claims)if(!blocked.has(c.id)&&paths(c).every(p=>p.requires.some(id=>blocked.has(id)))){blocked.add(c.id);changed=true;}}
+   while(changed){changed=false;for(const c of judgedClaims(content))if(!blocked.has(c.id)&&paths(c).every(p=>p.requires.some(id=>blocked.has(id)))){blocked.add(c.id);changed=true;}}
    const expected=paths(arg).every(p=>p.requires.some(id=>blocked.has(id)));
    assert.equal(effective(content,state,arg.id).origin==='derived',expected,`${arg.id}, ${mask}`);
    if(!expected)assert.equal(effective(content,state,arg.id).answer,null,'Accepting premises must not accept an argument.');
@@ -47,7 +57,9 @@ test('local alternative survives, written reporting stays separate, and outages 
  for(const id of ['S1582_SES_oppose_03','S1582_SEP_oppose_02'])assert.equal(effective(content,state,id).answer,null);
  set('C28','no');
  for(const id of ['S1582_SES_oppose_03','S1582_SEP_oppose_02'])assert.equal(effective(content,state,id).origin,'derived');
- set('C27','no');assert.equal(effective(content,state,'C18').origin,'derived');
+ assert.equal(effective(content,state,'C27').origin,'background');
+ assert.equal(effective(content,state,'C18').answer,null,'A written reporting duty cannot establish its practical effect.');
+ set('C18','no');assert.equal(effective(content,state,'C18').answer,'no');
  assert.equal(claimUsers(content,'C27').length,4);
  assert(!claimAncestors(content,'S1582_TR_oppose_02').includes('C27'));
  assert(claimAncestors(content,'S1582_TR_oppose_02').includes('C17'));

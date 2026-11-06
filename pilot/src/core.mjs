@@ -2,12 +2,35 @@
 export const YES='yes', NO='no';
 export function invariant(test,message){if(!test)throw new Error(message);}
 export function nodes(content){return [...content.claims,...content.arguments];}
+export function backgroundFact(content,id){return content.procedure?.background.find(f=>f.id===id);}
+export function judgedClaims(content){return content.claims.filter(c=>!backgroundFact(content,c.id));}
+// Preserve the historical randomization, including its RNG draws. Only the
+// visible sequence skips the former fact-check questions.
+export function codingOrder(content,state){return state.order.filter(id=>!backgroundFact(content,id));}
+export function nextCursor(content,state,direction){
+  invariant([1,-1].includes(direction),'Invalid navigation direction.');
+  for(let i=state.cursor+direction;i>=0&&i<state.order.length;i+=direction)if(!backgroundFact(content,state.order[i]))return i;
+  return -1;
+}
 export function paths(node){return node.paths??node.prerequisite_paths??[{id:`${node.id}-local`,requires:[]}];}
 export function validateContent(content){
   invariant(content.schema_version===1,'Unsupported content schema.');
   const all=nodes(content), ids=all.map(n=>n.id);
   invariant(new Set(ids).size===ids.length,'Duplicate claim or argument ID.');
   const claims=new Set(content.claims.map(c=>c.id)), visiting=new Set(), done=new Set();
+  if(content.procedure){
+    const p=content.procedure,background=p.background.map(f=>f.id);
+    invariant(p.base_content_version===content.version,'Procedure amendment has a different frozen content version.');
+    invariant(typeof p.revision==='string'&&p.revision.length>0,'Procedure revision is missing.');
+    invariant(new Set(background).size===background.length,'Duplicate background provision.');
+    invariant(background.every(id=>claims.has(id)),'Unknown background provision.');
+    for(const fact of p.background){
+      invariant(fact.statement&&fact.section&&fact.source_quote&&fact.source_refs?.length,'A verified provision needs wording, scope and source verification.');
+      invariant(paths(content.claims.find(c=>c.id===fact.id)).every(p=>!p.requires.length),'Verified statutory background cannot depend on a reviewer inference.');
+    }
+    const reviewed=[...background,...p.retained_questions.map(q=>q.id)];
+    invariant(reviewed.length===claims.size&&new Set(reviewed).size===claims.size&&reviewed.every(id=>claims.has(id)),'Procedure audit must classify every shared claim exactly once.');
+  }
   for(const n of all){
     invariant(paths(n).length>0,`${n.id}: missing supporting path.`);
     for(const p of paths(n)){
@@ -49,11 +72,14 @@ export function claimAncestors(content,nodeId){
 }
 export function claimUsers(content,claimId){return content.arguments.filter(a=>claimAncestors(content,a.id).includes(claimId));}
 export function basis(content,state,nodeId){
-  return stable(claimAncestors(content,nodeId).map(id=>[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0, state.flags[id]?.dependency??false]));
+  return stable(claimAncestors(content,nodeId).map(id=>backgroundFact(content,id)?[id,'verified_background',content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0, state.flags[id]?.dependency??false]));
 }
 export function effective(content,state,nodeId,seen=new Set()){
   invariant(!seen.has(nodeId),`Circular dependency at ${nodeId}.`);
   const node=nodes(content).find(n=>n.id===nodeId);invariant(node,`Unknown node ${nodeId}.`);
+  // A prepared textual fact is neither a reviewer Yes nor a rejected premise.
+  // Old responses remain stored, but have no inferential role in this procedure.
+  if(backgroundFact(content,nodeId))return {answer:null,origin:'background',stale:false,blocked:false,direct:state.judgments[nodeId]?.answer??null};
   const next=new Set(seen).add(nodeId);
   // A flagged dependency requires manual review; do not silently apply the disputed edge.
   const disputed=!!state.flags[nodeId]?.dependency;
@@ -99,9 +125,10 @@ export function makeOrder(content,seed){
   }
   return sequence;
 }
-export function newState(content,seed){return {version:content.version,seed,order:makeOrder(content,seed),cursor:0,judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
+export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
 export function validateState(content,s){
   invariant(s&&s.version===content.version,'This response belongs to a different frozen content version. No migration was applied.');
+  invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision,'This response uses a different coding procedure. No migration was applied.');
   invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed)),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
   const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.arguments.map(a=>a.value_id));
@@ -115,10 +142,12 @@ export function validateState(content,s){
 }
 export function editState(content,state,action,now=new Date().toISOString()){
   const next=structuredClone(state);
+  if(content.procedure)next.procedureRevision=content.procedure.revision;
   next.eventRevision=(state.eventRevision??0)+1;
   if(action.type==='judgment'){
     invariant([YES,NO].includes(action.answer),'Choose Yes or No.');
     invariant(nodes(content).some(n=>n.id===action.id),'Unknown judgment ID.');
+    invariant(!backgroundFact(content,action.id),'This provision is sourced background, not a judgment question.');
     invariant(typeof (action.notes??'')==='string'&&(action.notes??'').length<=2000,'Notes must be at most 2,000 characters.');
     next.judgments[action.id]={answer:action.answer,notes:action.notes??'',basis:basis(content,next,action.id),at:now,revision:next.eventRevision};
   }else if(action.type==='notes'){
@@ -159,16 +188,16 @@ export function editState(content,state,action,now=new Date().toISOString()){
   next.history.push({action:structuredClone(action),at:now});return next;
 }
 export function pageComplete(content,state,id){const saved=state.completed[id],e=effective(content,state,id);return !!saved&&saved.basis===basis(content,state,id)&&saved.answer===e.answer&&e.answer!==null;}
-export function progress(content,state){return {claims:content.claims.filter(c=>pageComplete(content,state,c.id)).length,arguments:content.arguments.filter(a=>pageComplete(content,state,a.id)).length,totalClaims:content.claims.length,totalArguments:content.arguments.length,derived:content.arguments.filter(a=>effective(content,state,a.id).origin==='derived').length};}
+export function progress(content,state){return {claims:judgedClaims(content).filter(c=>pageComplete(content,state,c.id)).length,arguments:content.arguments.filter(a=>pageComplete(content,state,a.id)).length,totalClaims:judgedClaims(content).length,totalArguments:content.arguments.length,derived:content.arguments.filter(a=>effective(content,state,a.id).origin==='derived').length};}
 export function csvExport(content,state){
   const q=x=>'"'+String(x??'').replaceAll('"','""')+'"';
-  const rows=[['id','type','value','direction','direct_answer','effective_answer','origin','needs_reassessment','page_complete','notes','dependency_flag','content_version']];
-  for(const n of nodes(content)){const e=effective(content,state,n.id);rows.push([n.id,n.kind??(n.value_id?'argument':'claim'),n.value_id,n.direction,state.judgments[n.id]?.answer,e.answer,e.origin,e.stale,pageComplete(content,state,n.id),state.nodeNotes[n.id]??state.judgments[n.id]?.notes,state.flags[n.id]?.dependency,content.version]);}
+  const rows=[['id','type','value','direction','direct_answer','effective_answer','origin','needs_reassessment','page_complete','notes','dependency_flag','content_version','procedure_revision','recorded_procedure_revision']];
+  for(const n of nodes(content)){const e=effective(content,state,n.id);rows.push([n.id,backgroundFact(content,n.id)?'background':n.kind??(n.value_id?'argument':'claim'),n.value_id,n.direction,state.judgments[n.id]?.answer,e.answer,e.origin,e.stale,pageComplete(content,state,n.id),state.nodeNotes[n.id]??state.judgments[n.id]?.notes,state.flags[n.id]?.dependency,content.version]);}
   for(const value of content.values??[]){
     const result=valueResult(content,state,value.id),comparison=state.comparisons[value.id];
     rows.push([`summary:${value.id}`,'summary',value.id,'',comparison?.answer,result.outcome,'derived',comparison?comparison.basis!==comparisonBasis(content,state,value.id):false,state.summaryCompleted[value.id]===comparisonBasis(content,state,value.id),state.comparisonNotes[value.id]??comparison?.notes,'',content.version]);
     rows.push([`strength:${value.id}`,'strength',value.id,'',comparison?.answer,strengthResult(content,state,value.id),'direct','','',state.comparisonNotes[value.id]??comparison?.notes,'',content.version]);
     for(const direction of ['support','oppose'])if(state.omissions[`${value.id}:${direction}`])rows.push([`omission:${value.id}:${direction}`,'omitted_reason',value.id,direction,'','','','', '',state.omissions[`${value.id}:${direction}`].text,'',content.version]);
   }
-  return rows.map(r=>r.map(q).join(',')).join('\r\n');
+  return rows.map((r,i)=>(i?[...r,content.procedure?.revision??'original',state.procedureRevision??'original']:r).map(q).join(',')).join('\r\n');
 }
