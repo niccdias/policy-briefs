@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-07",
+  "content_version": "other-bills-20261107-fbdcb77ade6f",
+  "stage": "Verified release candidate; live deployment and private QA recorded in the publication receipt.",
+  "coverage": {
+    "active": 424,
+    "historical": 482,
+    "retired": 58,
+    "shared_items": 127,
+    "shared_questions": 21,
+    "background": 106,
+    "values": 42,
+    "source_note_ids": 292,
+    "judged_claim_argument_uses": 57,
+    "arguments_with_a_shared_question": 53,
+    "all_shared_no_derived_arguments": 38,
+    "stored_order_items": 600,
+    "guided_pages": 494
+  },
+  "content_review": {
+    "worker_model": "claude-opus-5-5",
+    "effort": "high",
+    "authentication": "existing subscription",
+    "delegation": "none by workers",
+    "main_review": "Every shared merge, dependency and substantive change inspected. Approved mapping hashes are in main_review.json.",
+    "source_context": "Targeted context reading for consequential changes; not every source reread in full.",
+    "directly_cited_quotes": 2804,
+    "quote_failures": 0,
+    "quote_limit": "Curly quotations directly followed by citations; normalization of whitespace, case, typographic punctuation, bracketed capitalization and terminal punctuation. Text fidelity only."
+  },
+  "automated": {
+    "unit_content_and_assembly": {
+      "passed": 32,
+      "failed": 0
+    },
+    "firebase_emulator": {
+      "passed": 8,
+      "failed": 0
+    },
+    "semantics": [
+      "Every real argument tested across every combination of its relevant judged shared claims.",
+      "Necessary AND and alternative OR routes, unanswered premises and no automatic acceptance.",
+      "Derived answers still require reading; edits preserve direct answers and invalidate affected comparisons.",
+      "Persistent bill/value/direction/argument order and prerequisite order."
+    ],
+    "saving": [
+      "Complete seven-bill record with long Unicode notes exceeded 1 MB raw JSON; compressed payload saved and recovered exactly.",
+      "Save/load/watch, immutable revision backups, sign-out/return, stale edit conflicts and interrupted save recovery.",
+      "Authorization, cross-reviewer isolation, unassigned versions denied and atomic revision checks."
+    ]
+  },
+  "browser": {
+    "presentation_modes": [
+      "normal",
+      "derived",
+      "stale",
+      "summary"
+    ],
+    "pages_per_mode": 487,
+    "source_links_per_mode": 7110,
+    "failures": 0,
+    "layout_widths": [
+      1440,
+      756,
+      390
+    ],
+    "layout": "No horizontal overflow; context follows content up to cap, internally scrolls for long text; reference person reachable; navigation centered.",
+    "controls": "Exact Yes/No stems; answers required, notes optional and initially collapsed; direction shown; only Menu; no Main effect, evidence panel, usage list or dependency flag.",
+    "summary": "All headings/judgments accessible; Both-only strength with Pending, separate omitted-reason fields."
+  },
+  "preservation": {
+    "s1582_content_sha256": "ac8ecb1de171946125807261b2682378b1f2c282525e4b43a63c1a6bb1858362",
+    "existing_s1582_assignment": "Retained alongside new version.",
+    "private_backup": "Downloaded to local project history only. No private data in website repository.",
+    "qualtrics": "No requests or changes.",
+    "live_briefs": "No content changes.",
+    "billing": "No paid services enabled; no invitations sent."
+  },
+  "effort_metrics": {
+    "added_shared_questions": 21,
+    "reused_judgment_uses": 57,
+    "potential_duplicate_question_uses_avoided": 36,
+    "all_no_derived_arguments": 38,
+    "arguments_still_shown": 424,
+    "word_counts": {
+      "argument_words": 108195,
+      "original_argument_words": 102751,
+      "shared_question_words": 4856,
+      "limit": "Word counts exclude routed evidence, source lists and optional background. Not a human workload or reliability finding."
+    }
+  },
+  "limits": [
+    "Browser viewport emulation and independent test storage contexts, not physical phone or second-device hardware.",
+    "Interrupted connection tested with Firebase emulator and save-boundary control.",
+    "No new comprehensive external evidence search; evidence gaps remain visible in frozen maps.",
+    "ESL clarity has not been tested with human coders.",
+    "More definitions increased word count; reduced reading time and reliability gains are not established."
+  ]
+}
