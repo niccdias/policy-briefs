@@ -24,5 +24,7 @@
     "supportingEvidence": "Supporting evidence",
     "historicalIds": "Historical IDs"
   },
-  "claimScopeLabel": "What this claim covers and its limits"
+  "claimScopeLabel": "What this claim covers and its limits",
+  "laterEvidenceNote": "Some sources are dated after the comparison date. They are used when they bear on what the bill would have done compared with the law on that date. They do not change the law used for the comparison.",
+  "originalViewNotice": "This is the earlier wording, kept for the record. It may include wording that was later corrected."
 }

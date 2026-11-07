@@ -6,12 +6,13 @@ import {readingHTML,strengthEvidence,displayBackground} from './src/evidence.mjs
 import {releaseMetadata} from './src/release.mjs';
 import {identifyRenderedRelease} from './rendered-release.mjs';
 import {assertPublicationReady} from './publication-gate.mjs';
+import copy from './release/ui-copy.json' with {type:'json'};
 import {fromHtml} from 'hast-util-from-html';
 const root=new URL('../',import.meta.url),source=new URL('release/content.json',import.meta.url);
 const sha=value=>createHash('sha256').update(value).digest('hex');
 const escape=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const slug=value=>value.source_url.match(/\/arguments\/([^/#]+)\/([^/#]+)/)?.slice(1,3);
-function part(id,field,html){const tag=field==='value'?'ul':['title','description','comparison','statement','reference'].includes(field)?'span':'div';return `<${tag} data-release-part="${id}:${field}">${html}</${tag}>`;}
+function part(id,field,html){const tag=field==='value'?'ul':['title','description','comparison','laterEvidence','statement','reference'].includes(field)?'span':'div';return `<${tag} data-release-part="${id}:${field}">${html}</${tag}>`;}
 function comparable(tree){
  if(tree.type==='text')return tree.value.trim()?{text:tree.value.replace(/\s+/g,' ')}:null;
  if(tree.type==='comment')return null;
@@ -33,7 +34,7 @@ export function contentParts(content,value){
   result[`${node.id}:strength`]=strengthEvidence(content,[node.id]).map(e=>e.html).join('');
   if(!node.value_id){const fact=content.procedure.background.find(f=>f.id===node.id);result[`${node.id}:statement`]=escape(fact?.statement??node.statement);result[`${node.id}:background`]=(fact?.scope_html??node.scope_html??'')+displayBackground(node);}
  }
- const bill=billFor(content,value);result[`${bill.id}:description`]=escape(bill.description);result[`${bill.id}:comparison`]=escape(bill.comparison);
+ const bill=billFor(content,value);result[`${bill.id}:description`]=escape(bill.description);result[`${bill.id}:comparison`]=escape(bill.comparison);result[`${bill.id}:laterEvidence`]=escape(copy.laterEvidenceNote);
  result[`${value.id}:value`]=value.statements.map(s=>`<li>${escape(s)}</li>`).join('');result[`${value.id}:reference`]=escape(value.reference);
  for(const key of Object.keys(result))result[key]=result[key].replace(/<a\b([^>]*\bhref="\#([A-Za-z0-9_-]+)"[^>]*)>[\s\S]*?<\/a>/g,(whole,attrs,id)=>{const claim=content.claims.find(c=>c.id===id);return claim?`<a${attrs.replace(/\s+title="[^"]*"/g,'')} title="${escape(claim.title)}">${escape(claim.title)}</a>`:whole;});
  return result;
@@ -42,7 +43,7 @@ export function renderValue(content,value,previous=''){
  const bill=billFor(content,value),parts=contentParts(content,value),p=(id,field)=>part(id,field,parts[`${id}:${field}`]??'');
  const front=previous.match(/^---\n[\s\S]*?\n---/)?.[0]??`---\ntitle: ${JSON.stringify(`${bill.bill} × ${value.name}`)}\n---`;
  const args=content.arguments.filter(a=>a.value_id===value.id),ids=new Set(args.flatMap(a=>claimAncestors(content,a.id)));
- let out=`${front}\n\n<div class="approved-release" data-content-release="${content.release.content_id}" data-mapping-release="${content.release.mapping_id}">\n<p><strong>${escape(bill.bill)} · ${escape(bill.title)}</strong></p><p>${p(bill.id,'description')}</p><p><strong>Comparison:</strong> ${p(bill.id,'comparison')}</p><details><summary>Bill version and evidence cutoff</summary><p>${escape(bill.text_version)} · ${escape(bill.text_date)}. Evidence cutoff: ${escape(bill.evidence_cutoff)}.</p><a href="${escape(bill.source_url)}">Bill and sources</a></details>\n<h2>${escape(value.name)}</h2>${p(value.id,'value')}<p>${p(value.id,'reference')}</p>\n`;
+ let out=`${front}\n\n<div class="approved-release" data-content-release="${content.release.content_id}" data-mapping-release="${content.release.mapping_id}">\n<p><strong>${escape(bill.bill)} · ${escape(bill.title)}</strong></p><p>${p(bill.id,'description')}</p><p><strong>Comparison:</strong> ${p(bill.id,'comparison')}</p><details><summary>Bill version and evidence cutoff</summary><p>${escape(bill.text_version)} · ${escape(bill.text_date)}. Evidence cutoff: ${escape(bill.evidence_cutoff)}.</p><p>${p(bill.id,'laterEvidence')}</p><a href="${escape(bill.source_url)}">Bill and sources</a></details>\n<h2>${escape(value.name)}</h2>${p(value.id,'value')}<p>${p(value.id,'reference')}</p>\n`;
  for(const direction of ['support','oppose']){
   out+=`\n</div>\n\n## Does this value give [NAME] a reason to ${direction==='support'?'favor':'oppose'} ${bill.bill}?\n\n<div class="approved-arguments">\n<table class="pc"><tr><th>Argument</th><th>Response</th></tr>\n`;
   for(const a of args.filter(a=>a.direction===direction)){

@@ -1,0 +1,39 @@
+[
+ {
+  "change": "remove_edge",
+  "argument": "S2_UNN_support_02",
+  "path": "S2_UNN_support_02-P1",
+  "claim": "S2_C02",
+  "finding": "I2",
+  "reason": "The route rests on towers and habitat damage. The response still tests the step with the Forest Service passage directly."
+ },
+ {
+  "change": "remove_member",
+  "claim": "S2_C02",
+  "argument": "S2_UNN_support_02",
+  "finding": "I2"
+ },
+ {
+  "change": "retire_argument",
+  "argument": "S2_UNT_support_05",
+  "claim": "S2_C20",
+  "finding": "R1"
+ },
+ {
+  "change": "no_id_change",
+  "claims": [
+   "S2_C02",
+   "S2_C08"
+  ],
+  "arguments": [
+   "S2_UNN_support_01",
+   "S2_UNN_support_03",
+   "S2_UNN_support_04",
+   "S2_UNC_oppose_09",
+   "S2_UNT_oppose_06",
+   "S2_SES_oppose_06"
+  ],
+  "finding": "I1, I2",
+  "reason": "These edges stay. The claims give background only, and each argument's own step stays with human judgment."
+ }
+]

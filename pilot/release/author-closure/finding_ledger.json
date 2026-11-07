@@ -1,0 +1,1956 @@
+{
+ "status_note": "Author dispositions are final for this patch. Every entry stays open until a separate independent verification is recorded against the exact candidate release. Earlier Sol evidence is referenced but does not verify this candidate.",
+ "findings": [
+  {
+   "finding_id": "I1",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I1"
+    }
+   ],
+   "records": [
+    "S2_C08",
+    "S2_UNC_oppose_09",
+    "S2_UNT_oppose_06",
+    "S2_SES_oppose_06"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The Brennan Center's “The funding” follows its discussion of the bill's money and available funds. It does not refer to a technology line. C08 and two arguments tied it to that line, and S2_SES_oppose_06 gave the forecast with no attribution. The corrected text says funding that includes S.2's money. I did not write 'S.2's money alone', because the passage follows a discussion of the combined $183 billion. C08 now reports a forecast only. Each argument keeps its own step and its response.",
+   "source_locators": [
+    "input/s2/sources/debc0099b147e7ccb315ecbf0ba55387b77cf038624d63e0262ea0e8d0981f57.txt, passage before and including “The funding will also allow DHS”"
+   ],
+   "reading_limit": "Read the surrounding article passage, not the full article again.",
+   "patch_ids": [
+    "CP0165",
+    "CP0173",
+    "CP0174",
+    "CP0195",
+    "CP0254",
+    "CP0255",
+    "CP0256",
+    "CP0257",
+    "CP0304",
+    "CP0305",
+    "CP0311",
+    "CP0312",
+    "CP0313",
+    "CP0317"
+   ],
+   "comparable_scope": "All three C08 members read in full. All S.2 fields naming Brennan or surveillance funding were searched. Other Brennan uses do not tie it to one line.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I2",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I2"
+    }
+   ],
+   "records": [
+    "S2_C02",
+    "S2_UNN_support_01",
+    "S2_UNN_support_02",
+    "S2_UNN_support_03",
+    "S2_UNN_support_04"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The title and scope implied a net reduction. The sources report past local reductions and displacement, and neither measures S.2. C02 now states only that history. Arguments 01, 03 and 04 use Interior's report in their own text, so they keep C02 as background, and their own step stays local. Argument 02 rests on faster towers and Forest Service habitat damage, not on that report, so its C02 edge is removed. All four responses still test the actual step. One certainty demand in the response to 04 was softened. One overstatement in the argument for 04 was corrected.",
+   "source_locators": [
+    "Sol local-source-passages.json:I2",
+    "S2_C02 support_html and scope_html quotations"
+   ],
+   "reading_limit": "Relied on the quoted Interior and Forest Service passages in the content and Sol excerpts. Did not reread the 2006 and 2016 sources in full.",
+   "patch_ids": [
+    "CP0141",
+    "CP0142",
+    "CP0252",
+    "CP0253",
+    "CP0303",
+    "CP0308",
+    "CP0309",
+    "CP0310",
+    "CP0314",
+    "CP0315",
+    "CP0316"
+   ],
+   "comparable_scope": "All four members and routes read in full.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I3",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I3"
+    }
+   ],
+   "records": [
+    "HR131_UNN_oppose_02"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "H.R.131 eases repayment and provides no construction money, so “Financing further work” overstated the bill's role. The risk argument itself stays, tied to HR131_C03.",
+   "source_locators": [
+    "HR131_C03 statement and scope",
+    "HR131_UNN_oppose_02 notes_html",
+    "Sol local-source-passages.json:I3"
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [
+    "CP0025"
+   ],
+   "comparable_scope": "I searched H.R.131 titles and argument text for financing wording. Others say helping finance, easier financing or financing help. HR131_UNT_oppose_01's “financing that advances this risk” follows its own explanation of current financing and stays.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I3",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I4",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I4"
+    }
+   ],
+   "records": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Corrected in the earlier release: one named leader, not Chicago volunteers.",
+   "source_locators": [
+    "input/s2/sources/0b7b50758e97*"
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/a/changes.json",
+    "text": "Cristóbal Cavazos"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I4",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I5",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I5"
+    }
+   ],
+   "records": [
+    "HR131_UNC_oppose_01",
+    "HR131_SES_oppose_01",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_UNN_oppose_05",
+    "HR131_TR_support_02"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Gap wording told coders whether the argument survives. That is their judgment. Editorial conclusions are removed from the gap and its evidence node, and the factual limits stay. The earlier decision to leave this as a flag no longer holds, because the new procedure does not let a log close it.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [
+    "CP0026",
+    "CP0030",
+    "CP0034",
+    "CP0035",
+    "CP0036",
+    "CP0037",
+    "CP0271",
+    "CP0272",
+    "CP0273",
+    "CP0274",
+    "CP0275",
+    "CP0277"
+   ],
+   "comparable_scope": "All 91 gap explanations across eight bills read. Notes and objections searched for verdict wording. See N-VERDICT.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I5",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I6",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I6"
+    }
+   ],
+   "records": [
+    "S2_SEP_support_05"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The sentence about sources for this value is in notes_html only. The displayed evidence node has no such text, and reassignment evidence is visible through the route's shared claim. I agree with Sol. No patch.",
+   "source_locators": [
+    "evidence_placement.nodes.S2_SEP_support_05",
+    "S2_C01"
+   ],
+   "reading_limit": "Search of displayed node text. Did not run the app.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I6",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I7",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I7"
+    }
+   ],
+   "records": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37",
+    "S2_UNC_oppose_01",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_01",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07",
+    "S2_SES_oppose_01",
+    "S2_C08"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The contract requires an explanation for evidence dated after the comparison date, and these pages had none. S2_C08's scope now gives a specific one, and a site-wide sentence covers the rest. The Human Rights Watch sentences already give their date and are used for what Congress approved.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [
+    "CP0254",
+    "CP0304"
+   ],
+   "comparable_scope": "See N-LATER.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "ui_patch_ids": [
+    "laterEvidenceNote"
+   ],
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I7",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I8",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I8"
+    },
+    {
+     "source": "clarity/a/report.md",
+     "locator": "What I did not do: Comprehension"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "opening statement on automated checks"
+    },
+    {
+     "source": "clarity/c/report.md",
+     "locator": "Limits"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "No person has tested ESL comprehension. This is a limit of verification, not a content claim.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "I9",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I9"
+    }
+   ],
+   "records": [
+    "S2_SES_oppose_01"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Attribution added in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/a/changes.json",
+    "text": "Human Rights Watch"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I9",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I10",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I10"
+    },
+    {
+     "source": "output/procedure/evidence_date_findings.md",
+     "locator": "Result"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "The field was renamed in the current date record. Sol found two uses of introduced-stage summaries, each with separate statutory or rule support. Retrieval timestamps for original captures are unavailable, 89 press-release dates still come from search snippets, and no contemporaneous capture was verified for the nine checked documents. These limits are stated in the record.",
+   "source_locators": [
+    "date_provenance.json via Sol a:I10"
+   ],
+   "reading_limit": "I relied on Sol for the two summary uses and did not reread them.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I10",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I11",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I11"
+    }
+   ],
+   "records": [
+    "S2_C01",
+    "S2_C03",
+    "S2_C04",
+    "S2_C05",
+    "S2_C06",
+    "S2_C09",
+    "S2_C31",
+    "S2_C32",
+    "S2_C33",
+    "S2_C34",
+    "S2_C35",
+    "S2_C36",
+    "S2_C37",
+    "HR131_C13"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "11 unclear scopes were corrected in the earlier release, and reviewers B and C handled the other judged scopes. Sol's count is 21 nonempty scopes.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "output/scope_html_proposal.json",
+    "check": "The 11 scope_html values equal their approved after values"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I11",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "I12",
+   "origins": [
+    {
+     "source": "clarity/a/issues.json",
+     "locator": "I12"
+    }
+   ],
+   "records": [
+    "HR131_SES_support_05"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "F1 was retracted after the exact value statements were read. The wording about the security of the country stays.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "a:I12",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "P1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "P1"
+    }
+   ],
+   "records": [
+    "S.1582 sources"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Files were supplied and 138 bindings match by hash.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:P1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "U1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "U1"
+    }
+   ],
+   "records": [
+    "C11"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The two approved strings are byte-identical.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:U1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "J2",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "J2"
+    }
+   ],
+   "records": [
+    "C03"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Absent scopes stay hidden, and no claim text was invented.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:J2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "S2",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "S2"
+    }
+   ],
+   "records": [
+    "audit fields"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "These are frozen audit fields, not page text.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:S2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q1"
+    }
+   ],
+   "records": [
+    "S.1582, see origin"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "Here, “them” means stablecoins."
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q2",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q2"
+    }
+   ],
+   "records": [
+    "S.1582, see origin"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "Here, “either bills” means"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q3",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q3"
+    }
+   ],
+   "records": [
+    "S.1582, see origin"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "Here, “they” means stablecoins."
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q3",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q4",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q4"
+    }
+   ],
+   "records": [
+    "S.1582, see origin"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "Here, “their financial assets” means"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q4",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q5",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q5"
+    }
+   ],
+   "records": [
+    "S.1582, see origin"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "Here, “that subsection” means"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q5",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "Q6",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "Q6"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Still for root item 2"
+    }
+   ],
+   "records": [
+    "C01",
+    "C02",
+    "S1582_UNC_oppose_01"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The paraphrase omitted the source's condition and insurance limit. All notes and evidence nodes are corrected. The claims themselves concern added use and do not change.",
+   "source_locators": [
+    "added-sources/s1582/evidence/crs_07.txt"
+   ],
+   "reading_limit": "Read the crs_07 passages that mention insurance.",
+   "patch_ids": [
+    "CP0029",
+    "CP0247",
+    "CP0249",
+    "CP0264",
+    "CP0265",
+    "CP0296"
+   ],
+   "comparable_scope": "Whole corpus searched for the exact wording: three records. Other insurance wording read and left: it describes stablecoins as uninsured, which the bill text says.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:Q6",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "F2",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "F2"
+    }
+   ],
+   "records": [
+    "S.1582 interest passages"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "if holders are not paid interest"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:F2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "F3",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "F3"
+    }
+   ],
+   "records": [
+    "S.1582 AML/CFT passages"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "text": "financing of terrorism"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:F3",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "H1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "H1"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Still for root item 5"
+    }
+   ],
+   "records": [
+    "HR28_UNN_oppose_01",
+    "HR28_UNT_oppose_02",
+    "HR28_SES_oppose_02",
+    "HR28_TR_support_02",
+    "HR28_SES_oppose_03"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Only process clauses were dropped, and all factual limits stay. There are five passages, not four. One leftover process sentence is removed under N-VERDICT.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:H1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "J1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "J1"
+    }
+   ],
+   "records": [
+    "HR1834_C15",
+    "HR28_C07"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Clarity edits to the two scopes were made in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "check": "HR1834_C15 and HR28_C07 scope_html equal their logged after values"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:J1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "S1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "S1"
+    }
+   ],
+   "records": [
+    "HR1834 scope mirrors"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Ten stale mirrors were synced in the earlier release.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "prior_correction": {
+    "log": "clarity/b/changes.json",
+    "check": "The ten HR1834 claims.scope_html equal background.scope_html"
+   },
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:S1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "V1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "V1"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Still for root item 3"
+    }
+   ],
+   "records": [
+    "C08",
+    "C11",
+    "S1582_TR_oppose_04"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The wording was replaced in the earlier release. The attributes are not used by the app or public-view code I searched, and evidence nodes contain neither attribute. Root's rendered check still has to confirm this on the built pages.",
+   "source_locators": [
+    "pilot/src/app.jsx",
+    "pilot/public-view.mjs"
+   ],
+   "reading_limit": "Searched the source code. Did not open rendered pages.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:V1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "V2",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "V2"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Still for root items 3 and 4"
+    }
+   ],
+   "records": [
+    "S.1582 claim notes"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The note-id labels occur only in claims notes_html. Evidence nodes have none, and a search of the built public pages for one label found nothing. The direction words carry no new evidence. Root's rendered check still has to confirm the coding app.",
+   "source_locators": [
+    "content.json",
+    "public/arguments"
+   ],
+   "reading_limit": "One label searched in built public pages. The coding app was not run.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:V2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "G1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "G1"
+    },
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Glosses not taken from the packet"
+    },
+    {
+     "source": "clarity/c/issues.json",
+     "locator": "index 4"
+    },
+    {
+     "source": "clarity/c/report.md",
+     "locator": "Limits"
+    }
+   ],
+   "records": [
+    "glossed names and terms"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The listed definitions give ordinary meanings and add no bill effect. I know of no error in them, and Sol read them in context. They rest on general knowledge, not the packets.",
+   "source_locators": [],
+   "reading_limit": "General knowledge. Definitions were not checked against outside sources.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:G1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "D1",
+   "origins": [
+    {
+     "source": "clarity/b/issues.json",
+     "locator": "D1"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Validator: claim_vs_bg_statement 11"
+    }
+   ],
+   "records": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C13",
+    "C14",
+    "C17",
+    "C20",
+    "C27",
+    "C28"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "I read all 11 pairs. The claim statements are longer and add limits, and neither version conflicts with the other. They stay separately worded, and any later change needs a new reading.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "b:D1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "C-LINEAGE",
+   "origins": [
+    {
+     "source": "clarity/c/issues.json",
+     "locator": "index 0: HR4405_UNN_oppose_02"
+    }
+   ],
+   "records": [
+    "HR4405_UNN_oppose_02"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The lineage entry matches nothing and is not displayed.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "c:HR4405_UNN_oppose_02",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "C-NOTE",
+   "origins": [
+    {
+     "source": "clarity/c/issues.json",
+     "locator": "index 1: SJRes88_UNC_oppose_06"
+    }
+   ],
+   "records": [
+    "SJRes88_UNC_oppose_06"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The shared note names this reason but was missing from its page. Its cap, Section 301 and shared-incentive facts apply to Malaysia's promise, and C09 gives only a general version. The note and its evidence fragments are attached as exact copies. This adds visible information, so root should treat it as judgment-relevant.",
+   "source_locators": [
+    "SJRes88_UNC_oppose_02.notes_html",
+    "SJRES88_C09 scope"
+   ],
+   "reading_limit": "Copied approved text. Did not reread its sources.",
+   "patch_ids": [
+    "CP0004",
+    "CP0307"
+   ],
+   "comparable_scope": "All five named reasons checked. Only 06 lacked the note.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "c:1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "C-OVERRIDES",
+   "origins": [
+    {
+     "source": "clarity/c/issues.json",
+     "locator": "index 2"
+    }
+   ],
+   "records": [
+    "evidence nodes"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The C input had no overrides. Current nodes do carry objection_html on some claims, and this patch covers those fields.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "c:2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "C-ROUTE",
+   "origins": [
+    {
+     "source": "clarity/c/issues.json",
+     "locator": "index 3: HR5408_C01"
+    }
+   ],
+   "records": [
+    "HR5408_C01"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "“This route applies only to a first contract” is plain, and “route” adds no effect here. I agree with Sol. No patch.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "c:HR5408_C01",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "R1",
+   "origins": [
+    {
+     "source": "verification/fidelity/retained-issues.json",
+     "locator": "R1"
+    },
+    {
+     "source": "verification/fidelity/report.md",
+     "locator": "retained screen"
+    }
+   ],
+   "records": [
+    "S2_UNT_support_05"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "retired",
+   "rationale": "I decided this independently and agree with retirement. The stated reason is that people are worth protecting. CBP's priority across nationality and status is a fact about rescue practice, and it does not show listening, understanding or acceptance. The literal statement “to be tolerant toward all kinds of people” could stretch to cover it, but the procedure's boundary says general compassion alone is not enough. Equal protection fits Universalism – Concern, where S2_UNC_support_10 keeps the rescue consideration. A new mechanism would be invention. This is a corpus eligibility decision and assigns no coding answer.",
+   "source_locators": [
+    "input/s2/sources/f8d29ff6ac9f27cee6028ee6bd6f0a80fc1f4e913dbf06275720985524dfca22.txt via R1 source_check",
+    "harness/prompts/common.md Universalism – Tolerance boundary"
+   ],
+   "reading_limit": "Relied on the R1 source check for the CBP page.",
+   "patch_ids": [
+    "CP0318"
+   ],
+   "comparable_scope": "I read all active Tolerance support titles and conclusions. S2_UNT_support_04 is the nearest: it says treating people as worthy of care puts acceptance into practice, and it pairs help with nonjudgmental victim services and addresses disagreement over entry or stay. I leave it for human coding (see N-UNT04). S1582_UNT_support_03's response and gap already raise the point.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "retained:R1",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "R2",
+   "origins": [
+    {
+     "source": "verification/fidelity/retained-issues.json",
+     "locator": "R2"
+    },
+    {
+     "source": "verification/fidelity/report.md",
+     "locator": "retained screen"
+    }
+   ],
+   "records": [
+    "S1582_SES_oppose_06"
+   ],
+   "class": "genuine_uncertainty",
+   "status": "open",
+   "disposition": "qualified",
+   "rationale": "No statutory error is confirmed. (A) requires 48 hours' notice subject to (C), and (C) does not itself state a notice period. So 'faces a delay' stated more than the page's evidence settled. The page now states the (C) route and the text's silence, with no invented immediate exception. Later readings agree that notice applies, but they are outside the cutoff and are not cited on the page: the Fed proposal, FR 2026-19860, and the OCC final rule, FR 2026-21706. I read their notice passages myself. Whether the remaining supervision structure is a societal-security reason stays with coders.",
+   "source_locators": [
+    "added-sources/s1582/evidence/bill_text.txt §7(e)(1)(A),(C); §7(e)(2)(A),(C)",
+    "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm",
+    "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm"
+   ],
+   "reading_limit": "Read the notice passages of the two notices, not the whole notices. The text alone does not resolve the question, and no court reading is in the record.",
+   "patch_ids": [
+    "CP0234"
+   ],
+   "comparable_scope": "Only this active argument uses the 48-hour wording. S1582_SES_support_02 quotes the enforcement clause for the other side; I read that passage and left it.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "independent_evidence": {
+    "source": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+    "log_key": "retained:R2",
+    "note": "Earlier independent evidence. It is not a verification of this candidate."
+   }
+  },
+  {
+   "finding_id": "RA-RENDER",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "App rendering"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "The author ran no app tests. Root and Sol test the build separately.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-QUOTES",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Quotations against sources"
+    },
+    {
+     "source": "verification/fidelity/report.md",
+     "locator": "Limits"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "Quotations were preserved and targeted context was checked. Not every citation was re-verified in full.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-READING",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Source reading"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "reviewed_in_full means the visible prose was read, not the sources.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-PLAIN",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Remaining plain-language limits"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "One bounded pass leaves some long or abstract sentences. No person has tested them.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-MENTIONS",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Your quotation checker"
+    }
+   ],
+   "records": [
+    "S.2 and H.R.131 glosses"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Nine short quoted words gloss a word in a nearby quotation. They are not source quotations.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-AUDIT",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Display strings outside the permitted fields"
+    },
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Limits"
+    }
+   ],
+   "records": [
+    "audit fields"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "These lineage fields are not page text. The stale grammar in display_replacements is not displayed.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RA-DESC",
+   "origins": [
+    {
+     "source": "clarity/a/report.md",
+     "locator": "Bill descriptions"
+    }
+   ],
+   "records": [
+    "119_S_2",
+    "119_H_R_131"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Descriptions dropped dates, and the app and public pages show the comparison label beside them.",
+   "source_locators": [
+    "pilot/src/app.jsx line 134"
+   ],
+   "reading_limit": "Read the source code, not the rendered page.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RB-C19",
+   "origins": [
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Still for root item 1"
+    }
+   ],
+   "records": [
+    "C19"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The completed definition adds no reasoning step. Sol agrees.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RB-VALIDATOR",
+   "origins": [
+    {
+     "source": "clarity/b/report.md",
+     "locator": "Validator exceptions"
+    },
+    {
+     "source": "clarity/b/checks.json",
+     "locator": "exceptions"
+    }
+   ],
+   "records": [
+    "S.1582, H.R.1834, H.R.28"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The remaining hedge, number and fragment exceptions were reviewed in the earlier pass and by Sol's leaf review.",
+   "source_locators": [],
+   "reading_limit": "Relied on those reviews.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RC-GROUPS",
+   "origins": [
+    {
+     "source": "clarity/c/report.md",
+     "locator": "Limits: groups named from titles"
+    }
+   ],
+   "records": [
+    "S.J.Res.88 notes"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The note wording follows page titles and value statements. The notes were not rechecked against outside sources.",
+   "source_locators": [],
+   "reading_limit": "Did not read outside sources.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RC-SCOPES",
+   "origins": [
+    {
+     "source": "clarity/c/report.md",
+     "locator": "Judged-claim scope item"
+    }
+   ],
+   "records": [
+    "SJRES88_C11",
+    "SJRES88_C12",
+    "HR5408_C07",
+    "HR5408_C09",
+    "HR4405_C03"
+   ],
+   "class": "no_defect",
+   "status": "open",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Sol reviewed these scope edits as part of the changed-passage review.",
+   "source_locators": [],
+   "reading_limit": "Relied on Sol.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "RF-SAMPLE",
+   "origins": [
+    {
+     "source": "verification/fidelity/report.md",
+     "locator": "Limits"
+    },
+    {
+     "source": "verification/fidelity/retained-review.json",
+     "locator": "limits"
+    }
+   ],
+   "records": [
+    "release"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "The retained screen read 93 arguments and is not an audit of every citation. The next release needs its own mandatory set and sample for this patch.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "N-VERDICT",
+   "origins": [
+    {
+     "source": "output/closure/report.md",
+     "locator": "Comparable inspection"
+    }
+   ],
+   "records": [
+    "C01",
+    "C02",
+    "C08",
+    "C09",
+    "C12",
+    "HR131_SEP_support_03",
+    "HR131_UNC_support_02",
+    "HR131_UNN_support_01",
+    "HR131_UNT_oppose_01",
+    "HR28_SEP_support_01",
+    "HR28_SEP_support_02",
+    "HR28_SES_oppose_02",
+    "HR28_SES_oppose_03",
+    "HR4405_SEP_support_01",
+    "HR4405_UNN_support_02",
+    "HR5408_UNC_support_02",
+    "HR5408_UNT_support_02",
+    "S1582_SEP_oppose_01",
+    "S2_UNC_oppose_03",
+    "SJRes88_TR_support_01"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The I5 cause also appears in other bills and fields: statements that a step stands, that a limit concerns size rather than validity, or that notes do not defeat a claim. These are removed, and the factual limit stays. I left sentences that only say what a limit concerns, such as “This limits the size of the effect”, and sentences on how far a source reaches. They state a limit without saying the argument stands. Reviewers may read some of those differently, which is why Sol should check this line.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [
+    "CP0009",
+    "CP0011",
+    "CP0016",
+    "CP0023",
+    "CP0027",
+    "CP0031",
+    "CP0032",
+    "CP0040",
+    "CP0041",
+    "CP0134",
+    "CP0135",
+    "CP0136",
+    "CP0137",
+    "CP0161",
+    "CP0206",
+    "CP0248",
+    "CP0249",
+    "CP0250",
+    "CP0251",
+    "CP0260",
+    "CP0263",
+    "CP0270",
+    "CP0276",
+    "CP0278",
+    "CP0279",
+    "CP0280",
+    "CP0281",
+    "CP0282",
+    "CP0283",
+    "CP0285",
+    "CP0286",
+    "CP0287",
+    "CP0288",
+    "CP0301",
+    "CP0302",
+    "CP0306"
+   ],
+   "comparable_scope": "All 91 gap explanations read. Displayed text searched for verdict phrases. banned_phrases.json finds none after the patch. A search cannot prove no other verdict exists.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "N-PROCON",
+   "origins": [
+    {
+     "source": "output/closure/report.md",
+     "locator": "Comparable inspection"
+    }
+   ],
+   "records": [
+    "236 leaves; see content_patch.json"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "Pages say Argument and Response, and nothing defines PRO or CON for coders. The internal terms are replaced word for word. No quotation contains them. 'No point-specific CON is provided' takes the existing wording on H.R.131 pages. Audit fields are left alone.",
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "patch_ids": [
+    "CP0001",
+    "CP0002",
+    "CP0003",
+    "CP0005",
+    "CP0006",
+    "CP0007",
+    "CP0008",
+    "CP0010",
+    "CP0012",
+    "CP0013",
+    "CP0014",
+    "CP0015",
+    "CP0017",
+    "CP0018",
+    "CP0019",
+    "CP0020",
+    "CP0021",
+    "CP0022",
+    "CP0024",
+    "CP0028",
+    "CP0033",
+    "CP0038",
+    "CP0039",
+    "CP0042",
+    "CP0043",
+    "CP0044",
+    "CP0045",
+    "CP0046",
+    "CP0047",
+    "CP0048",
+    "CP0049",
+    "CP0050",
+    "CP0051",
+    "CP0052",
+    "CP0053",
+    "CP0054",
+    "CP0055",
+    "CP0056",
+    "CP0057",
+    "CP0058",
+    "CP0059",
+    "CP0060",
+    "CP0061",
+    "CP0062",
+    "CP0063",
+    "CP0064",
+    "CP0065",
+    "CP0066",
+    "CP0067",
+    "CP0068",
+    "CP0069",
+    "CP0070",
+    "CP0071",
+    "CP0072",
+    "CP0073",
+    "CP0074",
+    "CP0075",
+    "CP0076",
+    "CP0077",
+    "CP0078",
+    "CP0079",
+    "CP0080",
+    "CP0081",
+    "CP0082",
+    "CP0083",
+    "CP0084",
+    "CP0085",
+    "CP0086",
+    "CP0087",
+    "CP0088",
+    "CP0089",
+    "CP0090",
+    "CP0091",
+    "CP0092",
+    "CP0093",
+    "CP0094",
+    "CP0095",
+    "CP0096",
+    "CP0097",
+    "CP0098",
+    "CP0099",
+    "CP0100",
+    "CP0101",
+    "CP0102",
+    "CP0103",
+    "CP0104",
+    "CP0105",
+    "CP0106",
+    "CP0107",
+    "CP0108",
+    "CP0109",
+    "CP0110",
+    "CP0111",
+    "CP0112",
+    "CP0113",
+    "CP0114",
+    "CP0115",
+    "CP0116",
+    "CP0117",
+    "CP0118",
+    "CP0119",
+    "CP0120",
+    "CP0121",
+    "CP0122",
+    "CP0123",
+    "CP0124",
+    "CP0125",
+    "CP0126",
+    "CP0127",
+    "CP0128",
+    "CP0129",
+    "CP0130",
+    "CP0131",
+    "CP0132",
+    "CP0133",
+    "CP0138",
+    "CP0139",
+    "CP0140",
+    "CP0143",
+    "CP0144",
+    "CP0145",
+    "CP0146",
+    "CP0147",
+    "CP0148",
+    "CP0149",
+    "CP0150",
+    "CP0151",
+    "CP0152",
+    "CP0153",
+    "CP0154",
+    "CP0155",
+    "CP0156",
+    "CP0157",
+    "CP0158",
+    "CP0159",
+    "CP0160",
+    "CP0162",
+    "CP0163",
+    "CP0164",
+    "CP0166",
+    "CP0167",
+    "CP0168",
+    "CP0169",
+    "CP0170",
+    "CP0171",
+    "CP0172",
+    "CP0175",
+    "CP0176",
+    "CP0177",
+    "CP0178",
+    "CP0179",
+    "CP0180",
+    "CP0181",
+    "CP0182",
+    "CP0183",
+    "CP0184",
+    "CP0185",
+    "CP0186",
+    "CP0187",
+    "CP0188",
+    "CP0189",
+    "CP0190",
+    "CP0191",
+    "CP0192",
+    "CP0193",
+    "CP0194",
+    "CP0196",
+    "CP0197",
+    "CP0198",
+    "CP0199",
+    "CP0200",
+    "CP0201",
+    "CP0202",
+    "CP0203",
+    "CP0204",
+    "CP0205",
+    "CP0206",
+    "CP0207",
+    "CP0208",
+    "CP0209",
+    "CP0210",
+    "CP0211",
+    "CP0212",
+    "CP0213",
+    "CP0214",
+    "CP0215",
+    "CP0216",
+    "CP0217",
+    "CP0218",
+    "CP0219",
+    "CP0220",
+    "CP0221",
+    "CP0222",
+    "CP0223",
+    "CP0224",
+    "CP0225",
+    "CP0226",
+    "CP0227",
+    "CP0228",
+    "CP0229",
+    "CP0230",
+    "CP0231",
+    "CP0232",
+    "CP0233",
+    "CP0235",
+    "CP0236",
+    "CP0237",
+    "CP0238",
+    "CP0239",
+    "CP0240",
+    "CP0241",
+    "CP0242",
+    "CP0243",
+    "CP0244",
+    "CP0245",
+    "CP0246",
+    "CP0251",
+    "CP0258",
+    "CP0259",
+    "CP0261",
+    "CP0262",
+    "CP0266",
+    "CP0267",
+    "CP0268",
+    "CP0269",
+    "CP0284",
+    "CP0289",
+    "CP0290",
+    "CP0291",
+    "CP0292",
+    "CP0293",
+    "CP0294",
+    "CP0295",
+    "CP0297",
+    "CP0298",
+    "CP0299",
+    "CP0300"
+   ],
+   "comparable_scope": "All displayed fields in all eight bills.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  },
+  {
+   "finding_id": "N-LATER",
+   "origins": [
+    {
+     "source": "output/closure/report.md",
+     "locator": "Comparable inspection"
+    }
+   ],
+   "records": [
+    "241 arguments"
+   ],
+   "class": "declared_limit",
+   "status": "open",
+   "disposition": "disclosed",
+   "rationale": "Across the eight bills, 241 arguments cite a source dated after their comparison date, about 580 citations. Each use has not been reviewed for why it bears on the comparison. The contract says the date check is not a new audit. The site-wide sentence states the rule, and I know of no specific misuse beyond I7. A per-citation review would be a new audit.",
+   "source_locators": [],
+   "reading_limit": "Count from dates in citation titles. Undated or differently formatted titles are not counted.",
+   "patch_ids": [],
+   "comparable_scope": "All eight bills counted.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "ui_patch_ids": [
+    "laterEvidenceNote"
+   ]
+  },
+  {
+   "finding_id": "N-ORIGVIEW",
+   "origins": [
+    {
+     "source": "output/closure/report.md",
+     "locator": "For root"
+    }
+   ],
+   "records": [
+    "coding app original view"
+   ],
+   "class": "confirmed_defect",
+   "status": "open",
+   "disposition": "corrected",
+   "rationale": "The coding app has a view of original text, including wording now corrected, under the heading Original. A notice now says the wording may have been corrected. Originals stay unchanged.",
+   "source_locators": [
+    "pilot/src/app.jsx line 140"
+   ],
+   "reading_limit": "Read the source code. Did not check how often coders reach this view.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null,
+   "ui_patch_ids": [
+    "originalViewNotice"
+   ]
+  },
+  {
+   "finding_id": "N-UNT04",
+   "origins": [
+    {
+     "source": "output/closure/report.md",
+     "locator": "R1 comparison"
+    }
+   ],
+   "records": [
+    "S2_UNT_support_04"
+   ],
+   "class": "human_coding_judgment",
+   "status": "open",
+   "disposition": "left_for_human_coding",
+   "rationale": "This has the nearest wording to R1, but it adds nonjudgmental services and addresses disagreement over entry or stay. Reasonable coders could weigh that either way, and its response tests whether the money reaches this work.",
+   "source_locators": [
+    "S2_UNT_support_04 pro_html and con_html"
+   ],
+   "reading_limit": "Sol read the HSI source context. I read the page text.",
+   "patch_ids": [],
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "verification": null
+  }
+ ]
+}

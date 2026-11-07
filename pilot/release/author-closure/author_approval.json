@@ -1,0 +1,20 @@
+{
+ "author": "Opus 5.5 High",
+ "scope": "Approves the exact prose and dispositions in these files as final author text, before freeze. It is not a release approval and binds to no release ID. Root and Sol still check merges, dependencies and sources.",
+ "files": {
+  "content_patch.json": "a0d083034d7ef27e49267e5a51462db4d3c30c99976c02bb1c99ad7524e3eca0",
+  "retired_ids.json": "4e7492b617f2c83480a7df7caaf45c6186b1fc6787aa9470ceb9a1770af13f6c",
+  "dependency_changes.json": "30a0216a1f209a1d14856a3d1b4c28a692f68e3bdd32f7777b56a342fb7911af",
+  "ui_copy_additions.json": "6cbf8be0ca7253a7f262217d9c3f861560538d2428ab4079a7e48681f9650b50",
+  "finding_ledger.json": "13f4385ad25c694dffb222bdec4312809e17f5e7508b32a6afd5fd2667d05fe6",
+  "finding_sources.json": "a9195a5d7c8d7bbcbc03aeda06bbc742798484efe443f1dd56b60e56f5587a62",
+  "banned_phrases.json": "2fb26a16612b8f2892849b646eec574d7d7fdb6f8717c964084da8a9b53763e2",
+  "report.md": "a88bd2eae57957bc32ecc155713e423bb07f138230d8efb1bf16f05aa50d7a62",
+  "procedure/README.md": "e22a606753a9948f82a805b7a18516c5df43a5e02281c558a73887d0f3698a6f",
+  "procedure/common.md": "15fbfc713c1e5ec60e1ac018664ec57c58321f4e20da10b36fee86d79adaefe1",
+  "procedure/roles.md": "9f04adcaa80f3ca787799a9b80b2280244f19db9b64bdbd569a79f3dd49d04b0",
+  "procedure/worker_task.md": "8ebb144127db24c2abba48f2eeede85ce4a198cce6b450a3223293c859ae7d01",
+  "procedure/current_contract.md": "ed486920ddc3afd1685c6b9ef406d60346aa9e080d1b663218bd4e223282e283",
+  "procedure/finding_closure_gate.md": "dedb6d820830f0910cd42373e60b483f62c76dd126f15e3c164db728da660958"
+ }
+}

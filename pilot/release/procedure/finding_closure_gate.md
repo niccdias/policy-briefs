@@ -21,6 +21,7 @@ This is the machine contract for the publication gate. The main agent implements
 | `source_locators` | Path and passage for each source relied on |
 | `reading_limit` | What was not read or could not be settled |
 | `patch_ids` | The patch entries that carry out the correction, when the disposition changes content |
+| `prior_correction` | For a correction made in an earlier logged change: the log and the corrected text to find |
 | `comparable_scope` | What was inspected for the same cause, and the result |
 | `author` | The role that decided the disposition |
 | `verification` | See below |
@@ -44,10 +45,10 @@ The gate fails if any of these is true:
    - `human_coding_judgment`: `left_for_human_coding` or `merged`
    - `no_defect`: `rejected_after_inspection` or `merged`
    - `declared_limit`: `disclosed`
-5. **Audit-only closure:** a `confirmed_defect` has no patch or retirement, or a `genuine_uncertainty` has neither a patch nor a retirement. A patch may be cited by more than one finding.
+5. **Audit-only closure:** a `confirmed_defect` or `genuine_uncertainty` has no patch, no retirement and no `prior_correction`. A `prior_correction` names a logged change already in the release content, and the gate must find its corrected text there. A patch may be cited by more than one finding.
 6. **Merges:** a merged entry points to a missing entry, to another merged entry, or to an entry that does not cover its records.
 7. **Patches applied:** an `after` string is absent from its field, or a `before` string still appears in that field, unless the patch records that the `before` text remains as part of the `after` text.
-8. **Mirrors:** a record's duplicate displayed copies disagree, including claim and background copies, titles and first PRO sentences, notes and evidence nodes, and gap wording and gap nodes. Audit fields (`note_routes`, `review_evidence`, `original`) are excluded.
+8. **Mirrors:** a record's duplicate displayed copies disagree, including claim and background copies, titles and first argument sentences, notes and evidence nodes, and gap wording and gap nodes. Audit fields (`note_routes`, `review_evidence`, `original`) are excluded. Separately worded S.1582 claim and background statements may differ only where the ledger records that they were read and do not conflict, as in D1. A later change to either statement requires a new reading.
 9. **Retirements:** a retired ID is still active, is missing from the historical catalog, keeps a live dependency, or has no preserved original text. Expected active counts must match.
 10. **Dependencies:** an active argument or route requires a retired claim or has no valid path after a change.
 11. **Quotations and sources:** a quotation changed by a patch is not found in its bound source, or a citation binding changed without a recorded reason.

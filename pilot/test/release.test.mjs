@@ -14,7 +14,7 @@ test('the two omitted usage sentences still match their frozen text exactly',()=
 });
 test('48 public value pages preserve every approved argument, response, note and shared premise',()=>{
  let count=0;for(const value of content.values){const text=renderValue(content,value),row=verifyValue(content,value,text);count+=row.arguments;assert.ok(Object.keys(contentParts(content,value)).length);}
- assert.equal(count,503);const v=content.values[0],text=renderValue(content,v),a=content.arguments.find(a=>a.value_id===v.id);
+ assert.equal(count,content.expected_counts.active);assert.equal(content.values.length,48);assert.equal(content.catalog.length,567);const v=content.values[0],text=renderValue(content,v),a=content.arguments.find(a=>a.value_id===v.id);
  const body=contentParts(content,v)[`${a.id}:support`],mutated=text.replace(body,'<p>Changed content</p>');assert.notEqual(mutated,text);
  assert.throws(()=>verifyValue(content,v,mutated),/parity/);
  assert.throws(()=>verifyValue(content,v,text+text),/Duplicate/);

@@ -1,0 +1,21 @@
+[
+ {
+  "id": "S2_UNT_support_05",
+  "bill_id": "119_S_2",
+  "value_id": "S2_UNT",
+  "historical_catalog_id_kept": true,
+  "original_preserved": "argument.original and the prior release content",
+  "finding_ids": [
+   "R1"
+  ],
+  "reason": "The stated reason is that people are worth protecting. CBP's priority across nationality and status shows rescue practice. No listening, understanding or acceptance mechanism is shown, and general compassion alone is not enough for Universalism – Tolerance. Adding one would invent reasoning. The rescue consideration stays active at S2_UNC_support_10, under Universalism – Concern.",
+  "dependency_changes": [
+   "Remove from S2_C20.members",
+   "Remove arguments[S2_UNT_support_05]",
+   "Remove evidence_placement.nodes.S2_UNT_support_05",
+   "Set catalog retired true",
+   "Active count 503 to 502, historical count stays 567"
+  ],
+  "numbering": "Other points keep their numbers, as with earlier retirements such as S1582_TR_support_01."
+ }
+]

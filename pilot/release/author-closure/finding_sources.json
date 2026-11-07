@@ -1,0 +1,94 @@
+{
+ "sources": [
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/a/issues.json",
+   "sha256": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/b/issues.json",
+   "sha256": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/c/issues.json",
+   "sha256": "ade87b3db8f07aa95321573ffd90ba680cfe43d614d3e10d65d184dbecb7170d"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/a/report.md",
+   "sha256": "fdb6af966ded93a52d3aa2ff1ab71cf8fd95a8ab1c2dec915378968ef91af6bb"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/b/report.md",
+   "sha256": "f123e8c8830da8af4436634df3677a2c40a9fab889d07b5fc44ab2e1fe405d4b"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/c/report.md",
+   "sha256": "6543006886044ae73f49d41d278e4b2da845cd8cd8c0d33f617b5f08af373367"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/b/checks.json",
+   "sha256": "379ab64566991142d03fd967807e3afcceaa76483dfdce2e01ebe0ade1ec2cbb"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/c/checks.json",
+   "sha256": "fe23c7a9eddb485cfe09a129949bbe39dd209212a5ba316d46f0918dbd29e7f8"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/clarity/c/judged_scope_review.json",
+   "sha256": "24923d5af9a0d161a1f8b59e77048adcf5a3ffae0a98cebb168b2b410842c2e4"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/retained-issues.json",
+   "sha256": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/report.md",
+   "sha256": "6eaad5f07716abb217ad9c7f9a3890bde7c7ecef1c1beb83d1b73d80250a9061"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/retained-review.json",
+   "sha256": "5200e70736ade826130b73cb9080568e075f4aea2bd55a6dbdc2444af4a1e1f9"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/comparable-review.json",
+   "sha256": "350a1434ccf97f2b26ced591d390abcbfd7ab9b17f2fdd8de67450aa3560066f"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/omission-review.json",
+   "sha256": "7b294c4bc4952abb6b0349f602ed546e137d5bbd505935d16c950fa4c56c01af"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/fidelity/repair-receipt.json",
+   "sha256": "0789b35e49e0225fc9a432be9ce3dc1c65fce4acbdc41501ffa4633a74e12933"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/technical_report.md",
+   "sha256": "e367cc1a24f2ca3d805001b9abd91d0e550f1fd2de0beb81155f4be5b0bd6f62"
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/technical_findings.json",
+   "sha256": "aacc502283b493b6630c1518e91a4b4384f6718c253bebcc6e3c96f1b7801a29"
+  },
+  {
+   "path": "output/procedure/evidence_date_findings.md",
+   "sha256": "7233b32da2cf0eab0e42cc912b68a5e2b8d6176ed7393763a4008b6bf45f9628"
+  },
+  {
+   "path": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/priority-findings.json",
+   "sha256": "6c15d57233af44dcfeacae6f780ac556816a7a88fbf66878f1d89843e8a998ea"
+  },
+  {
+   "path": "/private/tmp/policy-clarity-fidelity-20261107/output/closure/issue-dispositions.json",
+   "sha256": "64da523731a55471529922c86c1a61f526c59fd440d7c2e957f4fb231db1535e"
+  }
+ ],
+ "listed_without_content_findings": [
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/technical_report.md",
+   "note": "V001 to V006 are technical defects that root fixed and Sol verified. They are not findings about release content, so they have no ledger entries."
+  },
+  {
+   "path": "/Users/niccdias/My Drive/Current Projects/policy_rationales/docs/argument_key/procedure_amendments_20261107/verification/technical_findings.json",
+   "note": "Same as technical_report.md."
+  }
+ ]
+}
