@@ -1,0 +1,27 @@
+{
+  "captured_at": "2026-11-07T22:55:49.803987+01:00",
+  "session_id_sha256_prefix": "0e9a877d0dfa",
+  "session_transcript_models": [
+    "claude-opus-5-5"
+  ],
+  "assistant_turns_observed": 271,
+  "native_model_is_claude_opus_5_5": true,
+  "request_env_effort_level": "high",
+  "session_env_effort": "high",
+  "per_record_effort_values": {
+    "assistant": [
+      "high"
+    ]
+  },
+  "effective_high_verified": true,
+  "auth": {
+    "loggedIn": true,
+    "authMethod": "claude.ai",
+    "apiProvider": "firstParty",
+    "subscriptionType": "max",
+    "apiKeySource": null
+  },
+  "anthropic_api_key_env_set": false,
+  "subscription_auth_verified": true,
+  "delegation_used": false
+}

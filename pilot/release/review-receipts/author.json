@@ -1,0 +1,4043 @@
+{
+ "receipt": "author",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "author": "Opus 5.5 High",
+ "runtime_check": {
+  "path": "output/closure/final_receipt/runtime_refresh.json",
+  "captured_at": "2026-11-07T22:55:49.803987+01:00",
+  "effective_high_verified": true,
+  "subscription_auth_verified": true,
+  "delegation_used": false
+ },
+ "issued_at": "2026-11-07T21:55:49+00:00",
+ "binding": {
+  "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+  "procedure_id": "procedure-20261107-344e19dfc7b89622",
+  "mapping_id": "mapping-236a7cfb3af2b65d",
+  "rendered_id": "rendered-299318edce1ce45c5af9",
+  "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+  "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+  "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+  "implementation_sha256": {
+   "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+   "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+   "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+   "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+   "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+   "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+   "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+   "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+   "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+   "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+   "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+   "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+   "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+   "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+   "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+   "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+  }
+ },
+ "inventory_sources": {
+  "clarity-a.json": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
+  "clarity-b.json": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
+  "clarity-c.json": "ade87b3db8f07aa95321573ffd90ba680cfe43d614d3e10d65d184dbecb7170d",
+  "closure.json": "1a9d65695e04b17d5ade7d12e5f7e40f3ab3843f04fcd2ef8a6fd1cc6ea4ad50",
+  "current-author-report.md": "a88bd2eae57957bc32ecc155713e423bb07f138230d8efb1bf16f05aa50d7a62",
+  "current-author-supplement.md": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+  "current-author-supplement_1.md": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+  "current-author-supplement_2.md": "24ad5ded9ba3787176551a54f39a73629822c2acc11b1d50f1b4e5ea8a6b014e",
+  "current-author-supplement_3.md": "003043f800efa97a514e3c02682b0dd146ac74870a1e875ec89c0372989ce72d",
+  "current-technical-findings.md": "61e2817f3568a7750b14871df97e31a91f5725346d07abef57b8ccf75139912a",
+  "origin-00-issues.md": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
+  "origin-01-issues.md": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
+  "origin-02-issues.md": "ade87b3db8f07aa95321573ffd90ba680cfe43d614d3e10d65d184dbecb7170d",
+  "origin-03-report.md": "fdb6af966ded93a52d3aa2ff1ab71cf8fd95a8ab1c2dec915378968ef91af6bb",
+  "origin-04-report.md": "f123e8c8830da8af4436634df3677a2c40a9fab889d07b5fc44ab2e1fe405d4b",
+  "origin-05-report.md": "6543006886044ae73f49d41d278e4b2da845cd8cd8c0d33f617b5f08af373367",
+  "origin-06-checks.md": "379ab64566991142d03fd967807e3afcceaa76483dfdce2e01ebe0ade1ec2cbb",
+  "origin-07-checks.md": "fe23c7a9eddb485cfe09a129949bbe39dd209212a5ba316d46f0918dbd29e7f8",
+  "origin-08-judged_scope_review.md": "24923d5af9a0d161a1f8b59e77048adcf5a3ffae0a98cebb168b2b410842c2e4",
+  "origin-09-retained-issues.md": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2",
+  "origin-10-report.md": "6eaad5f07716abb217ad9c7f9a3890bde7c7ecef1c1beb83d1b73d80250a9061",
+  "origin-11-retained-review.md": "5200e70736ade826130b73cb9080568e075f4aea2bd55a6dbdc2444af4a1e1f9",
+  "origin-12-comparable-review.md": "350a1434ccf97f2b26ced591d390abcbfd7ab9b17f2fdd8de67450aa3560066f",
+  "origin-13-omission-review.md": "7b294c4bc4952abb6b0349f602ed546e137d5bbd505935d16c950fa4c56c01af",
+  "origin-14-repair-receipt.md": "0789b35e49e0225fc9a432be9ce3dc1c65fce4acbdc41501ffa4633a74e12933",
+  "origin-15-technical_report.md": "e367cc1a24f2ca3d805001b9abd91d0e550f1fd2de0beb81155f4be5b0bd6f62",
+  "origin-16-technical_findings.md": "aacc502283b493b6630c1518e91a4b4384f6718c253bebcc6e3c96f1b7801a29",
+  "origin-17-evidence_date_findings.md": "7233b32da2cf0eab0e42cc912b68a5e2b8d6176ed7393763a4008b6bf45f9628",
+  "origin-18-priority-findings.md": "6c15d57233af44dcfeacae6f780ac556816a7a88fbf66878f1d89843e8a998ea",
+  "origin-19-issue-dispositions.md": "64da523731a55471529922c86c1a61f526c59fd440d7c2e957f4fb231db1535e",
+  "retained.json": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2"
+ },
+ "finding_sources_sha256": "c42fa3594d05c6da687e5ea7eae0385706afdf5ed0490934025027c9a64b7a89",
+ "candidate_file_sha256": "a129942ab589897ace4e520723a9d660ed8686023b8b44012e43509784c8840b",
+ "approved_findings": [
+  "clarity-a:I1",
+  "clarity-a:I10",
+  "clarity-a:I11",
+  "clarity-a:I12",
+  "clarity-a:I2",
+  "clarity-a:I3",
+  "clarity-a:I4",
+  "clarity-a:I5",
+  "clarity-a:I6",
+  "clarity-a:I7",
+  "clarity-a:I8",
+  "clarity-a:I9",
+  "clarity-b:D1",
+  "clarity-b:F2",
+  "clarity-b:F3",
+  "clarity-b:G1",
+  "clarity-b:H1",
+  "clarity-b:J1",
+  "clarity-b:J2",
+  "clarity-b:P1",
+  "clarity-b:Q1",
+  "clarity-b:Q2",
+  "clarity-b:Q3",
+  "clarity-b:Q4",
+  "clarity-b:Q5",
+  "clarity-b:Q6",
+  "clarity-b:S1",
+  "clarity-b:S2",
+  "clarity-b:U1",
+  "clarity-b:V1",
+  "clarity-b:V2",
+  "clarity-c:2",
+  "clarity-c:3",
+  "clarity-c:5",
+  "clarity-c:HR4405_UNN_oppose_02",
+  "clarity-c:HR5408_C01",
+  "closure:C-LINEAGE",
+  "closure:C-NOTE",
+  "closure:C-OVERRIDES",
+  "closure:C-ROUTE",
+  "closure:CLT001",
+  "closure:CLT002",
+  "closure:CLT003",
+  "closure:CLT004",
+  "closure:CLT005",
+  "closure:CLT006",
+  "closure:CLT007",
+  "closure:CLT008",
+  "closure:CLT009",
+  "closure:D1",
+  "closure:F2",
+  "closure:F3",
+  "closure:G1",
+  "closure:H1",
+  "closure:I1",
+  "closure:I10",
+  "closure:I11",
+  "closure:I12",
+  "closure:I2",
+  "closure:I3",
+  "closure:I4",
+  "closure:I5",
+  "closure:I6",
+  "closure:I7",
+  "closure:I8",
+  "closure:I9",
+  "closure:J1",
+  "closure:J2",
+  "closure:N-LATER",
+  "closure:N-ORIGVIEW",
+  "closure:N-PROCON",
+  "closure:N-UNT04",
+  "closure:N-VERDICT",
+  "closure:P1",
+  "closure:Q1",
+  "closure:Q2",
+  "closure:Q3",
+  "closure:Q4",
+  "closure:Q5",
+  "closure:Q6",
+  "closure:R1",
+  "closure:R2",
+  "closure:RA-AUDIT",
+  "closure:RA-DESC",
+  "closure:RA-MENTIONS",
+  "closure:RA-PLAIN",
+  "closure:RA-QUOTES",
+  "closure:RA-READING",
+  "closure:RA-RENDER",
+  "closure:RB-C19",
+  "closure:RB-VALIDATOR",
+  "closure:RC-GROUPS",
+  "closure:RC-SCOPES",
+  "closure:RF-SAMPLE",
+  "closure:S1",
+  "closure:S2",
+  "closure:U1",
+  "closure:V1",
+  "closure:V2",
+  "retained:R1",
+  "retained:R2"
+ ],
+ "dispositions": [
+  {
+   "id": "closure:I1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The Brennan Center's “The funding” follows its discussion of the bill's money and available funds. It does not refer to a technology line. C08 and two arguments tied it to that line, and S2_SES_oppose_06 gave the forecast with no attribution. The corrected text says funding that includes S.2's money. I did not write 'S.2's money alone', because the passage follows a discussion of the combined $183 billion. C08 now reports a forecast only. Each argument keeps its own step and its response.",
+   "affected_ids": [
+    "S2_C08",
+    "S2_SES_oppose_06",
+    "S2_UNC_oppose_09",
+    "S2_UNT_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0165",
+    "CP0173",
+    "CP0174",
+    "CP0195",
+    "CP0254",
+    "CP0255",
+    "CP0256",
+    "CP0257",
+    "CP0304",
+    "CP0305",
+    "CP0311",
+    "CP0312",
+    "CP0313",
+    "CP0317"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I1\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I1"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/debc0099b147e7ccb315ecbf0ba55387b77cf038624d63e0262ea0e8d0981f57.txt, passage before and including “The funding will also allow DHS”",
+     "locator": "input/s2/sources/debc0099b147e7ccb315ecbf0ba55387b77cf038624d63e0262ea0e8d0981f57.txt, passage before and including “The funding will also allow DHS”"
+    }
+   ],
+   "reading_limit": "Read the surrounding article passage, not the full article again.",
+   "comparable_scope": "All three C08 members read in full. All S.2 fields naming Brennan or surveillance funding were searched. Other Brennan uses do not tie it to one line.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I1"
+  },
+  {
+   "id": "closure:I2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The title and scope implied a net reduction. The sources report past local reductions and displacement, and neither measures S.2. C02 now states only that history. Arguments 01, 03 and 04 use Interior's report in their own text, so they keep C02 as background, and their own step stays local. Argument 02 rests on faster towers and Forest Service habitat damage, not on that report, so its C02 edge is removed. All four responses still test the actual step. One certainty demand in the response to 04 was softened. One overstatement in the argument for 04 was corrected.",
+   "affected_ids": [
+    "S2_C02",
+    "S2_UNN_support_01",
+    "S2_UNN_support_02",
+    "S2_UNN_support_03",
+    "S2_UNN_support_04"
+   ],
+   "patch_ids": [
+    "CP0141",
+    "CP0142",
+    "CP0252",
+    "CP0253",
+    "CP0303",
+    "CP0308",
+    "CP0309",
+    "CP0310",
+    "CP0314",
+    "CP0315",
+    "CP0316"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I2\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I2"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "Sol local-source-passages.json:I2",
+     "locator": "Sol local-source-passages.json:I2"
+    },
+    {
+     "path": "S2_C02 support_html and scope_html quotations",
+     "locator": "S2_C02 support_html and scope_html quotations"
+    }
+   ],
+   "reading_limit": "Relied on the quoted Interior and Forest Service passages in the content and Sol excerpts. Did not reread the 2006 and 2016 sources in full.",
+   "comparable_scope": "All four members and routes read in full.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I2"
+  },
+  {
+   "id": "closure:I3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "H.R.131 eases repayment and provides no construction money, so “Financing further work” overstated the bill's role. The risk argument itself stays, tied to HR131_C03.",
+   "affected_ids": [
+    "HR131_UNN_oppose_02"
+   ],
+   "patch_ids": [
+    "CP0025"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I3\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I3"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "HR131_C03 statement and scope",
+     "locator": "HR131_C03 statement and scope"
+    },
+    {
+     "path": "HR131_UNN_oppose_02 notes_html",
+     "locator": "HR131_UNN_oppose_02 notes_html"
+    },
+    {
+     "path": "Sol local-source-passages.json:I3",
+     "locator": "Sol local-source-passages.json:I3"
+    }
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "I searched H.R.131 titles and argument text for financing wording. Others say helping finance, easier financing or financing help. HR131_UNT_oppose_01's “financing that advances this risk” follows its own explanation of current financing and stays.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I3"
+  },
+  {
+   "id": "closure:I4",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Corrected in the earlier release: one named leader, not Chicago volunteers.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37"
+   ],
+   "patch_ids": [
+    "PRIOR-0001",
+    "PRIOR-0002",
+    "PRIOR-0003"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I4\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I4"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/0b7b50758e97*",
+     "locator": "input/s2/sources/0b7b50758e97*"
+    }
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I4"
+  },
+  {
+   "id": "closure:I5",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Gap wording told coders whether the argument survives. That is their judgment. Editorial conclusions are removed from the gap and its evidence node, and the factual limits stay. The earlier decision to leave this as a flag no longer holds, because the new procedure does not let a log close it.",
+   "affected_ids": [
+    "HR131_SES_oppose_01",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_TR_support_02",
+    "HR131_UNC_oppose_01",
+    "HR131_UNN_oppose_05"
+   ],
+   "patch_ids": [
+    "CP0026",
+    "CP0030",
+    "CP0034",
+    "CP0035",
+    "CP0036",
+    "CP0037",
+    "CP0271",
+    "CP0272",
+    "CP0273",
+    "CP0274",
+    "CP0275",
+    "CP0277"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I5\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I5"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "All 91 gap explanations across eight bills read. Notes and objections searched for verdict wording. See N-VERDICT.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I5"
+  },
+  {
+   "id": "closure:I6",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The sentence about sources for this value is in notes_html only. The displayed evidence node has no such text, and reassignment evidence is visible through the route's shared claim. I agree with Sol. No patch.",
+   "affected_ids": [
+    "S2_SEP_support_05"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I6\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I6"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "evidence_placement.nodes.S2_SEP_support_05",
+     "locator": "evidence_placement.nodes.S2_SEP_support_05"
+    },
+    {
+     "path": "S2_C01",
+     "locator": "S2_C01"
+    }
+   ],
+   "reading_limit": "Search of displayed node text. Did not run the app.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I6"
+  },
+  {
+   "id": "closure:I7",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The contract requires an explanation for evidence dated after the comparison date, and these pages had none. S2_C08's scope now gives a specific one, and a site-wide sentence covers the rest. The Human Rights Watch sentences already give their date and are used for what Congress approved.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C08",
+    "S2_C36",
+    "S2_C37",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_01",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_01",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07",
+    "release"
+   ],
+   "patch_ids": [
+    "CP0254",
+    "CP0304",
+    "UI-laterEvidenceNote"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I7\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I7"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "See N-LATER.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I7"
+  },
+  {
+   "id": "closure:I8",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "No person has tested ESL comprehension. This is a limit of verification, not a content claim.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I8\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I8"
+    },
+    {
+     "path": "origin-05-report.md",
+     "locator": "Limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I8"
+  },
+  {
+   "id": "closure:I9",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Attribution added in the earlier release.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_02",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_01",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07"
+   ],
+   "patch_ids": [
+    "PRIOR-0004",
+    "PRIOR-0005",
+    "PRIOR-0006",
+    "PRIOR-0007",
+    "PRIOR-0008",
+    "PRIOR-0009",
+    "PRIOR-0010",
+    "PRIOR-0011",
+    "PRIOR-0012",
+    "PRIOR-0013",
+    "PRIOR-0014",
+    "PRIOR-0015",
+    "PRIOR-0016"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I9\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I9"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I9"
+  },
+  {
+   "id": "closure:I10",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "The field was renamed in the current date record. Sol found two uses of introduced-stage summaries, each with separate statutory or rule support. Retrieval timestamps for original captures are unavailable, 89 press-release dates still come from search snippets, and no contemporaneous capture was verified for the nine checked documents. These limits are stated in the record.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I10\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I10"
+    },
+    {
+     "path": "origin-17-evidence_date_findings.md",
+     "locator": "Result"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "date_provenance.json via Sol a:I10",
+     "locator": "date_provenance.json via Sol a:I10"
+    }
+   ],
+   "reading_limit": "I relied on Sol for the two summary uses and did not reread them.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I10"
+  },
+  {
+   "id": "closure:I11",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "11 unclear scopes were corrected in the earlier release, and reviewers B and C handled the other judged scopes. Sol's count is 21 nonempty scopes.",
+   "affected_ids": [
+    "HR131_C13",
+    "S2_C01",
+    "S2_C03",
+    "S2_C04",
+    "S2_C05",
+    "S2_C06",
+    "S2_C09",
+    "S2_C31",
+    "S2_C32",
+    "S2_C33",
+    "S2_C34",
+    "S2_C35",
+    "S2_C36",
+    "S2_C37"
+   ],
+   "patch_ids": [
+    "PRIOR-0017",
+    "PRIOR-0018",
+    "PRIOR-0019",
+    "PRIOR-0020",
+    "PRIOR-0021",
+    "PRIOR-0022",
+    "PRIOR-0023",
+    "PRIOR-0024",
+    "PRIOR-0025",
+    "PRIOR-0026",
+    "PRIOR-0027"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I11\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I11"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I11"
+  },
+  {
+   "id": "closure:I12",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "F1 was retracted after the exact value statements were read. The wording about the security of the country stays.",
+   "affected_ids": [
+    "HR131_SES_support_05"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"I12\""
+    },
+    {
+     "path": "origin-00-issues.md",
+     "locator": "I12"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I12"
+  },
+  {
+   "id": "closure:P1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Files were supplied and 138 bindings match by hash.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"P1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "P1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "P1"
+  },
+  {
+   "id": "closure:U1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The two approved strings are byte-identical.",
+   "affected_ids": [
+    "C11"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"U1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "U1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "U1"
+  },
+  {
+   "id": "closure:J2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Absent scopes stay hidden, and no claim text was invented.",
+   "affected_ids": [
+    "C03"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"J2\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "J2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "J2"
+  },
+  {
+   "id": "closure:S2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "These are frozen audit fields, not page text.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"S2\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "S2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "S2"
+  },
+  {
+   "id": "closure:Q1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C01"
+   ],
+   "patch_ids": [
+    "PRIOR-0028"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q1"
+  },
+  {
+   "id": "closure:Q2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C01"
+   ],
+   "patch_ids": [
+    "PRIOR-0029"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q2\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q2"
+  },
+  {
+   "id": "closure:Q3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "S1582_UNC_support_01"
+   ],
+   "patch_ids": [
+    "PRIOR-0030"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q3\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q3"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q3"
+  },
+  {
+   "id": "closure:Q4",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "S1582_UNC_oppose_12"
+   ],
+   "patch_ids": [
+    "PRIOR-0031"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q4\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q4"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q4"
+  },
+  {
+   "id": "closure:Q5",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C06"
+   ],
+   "patch_ids": [
+    "PRIOR-0032"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q5\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q5"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q5"
+  },
+  {
+   "id": "closure:Q6",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The paraphrase omitted the source's condition and insurance limit. All notes and evidence nodes are corrected. The claims themselves concern added use and do not change.",
+   "affected_ids": [
+    "C01",
+    "C02",
+    "S1582_UNC_oppose_01"
+   ],
+   "patch_ids": [
+    "CP0029",
+    "CP0247",
+    "CP0249",
+    "CP0264",
+    "CP0265",
+    "CP0296"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"Q6\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "Q6"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "added-sources/s1582/evidence/crs_07.txt",
+     "locator": "added-sources/s1582/evidence/crs_07.txt"
+    }
+   ],
+   "reading_limit": "Read the crs_07 passages that mention insurance.",
+   "comparable_scope": "Whole corpus searched for the exact wording: three records. Other insurance wording read and left: it describes stablecoins as uninsured, which the bill text says.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q6"
+  },
+  {
+   "id": "closure:F2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "affected_ids": [
+    "C01",
+    "C02",
+    "S1582_SEP_oppose_01",
+    "S1582_UNC_oppose_01"
+   ],
+   "patch_ids": [
+    "PRIOR-0033",
+    "PRIOR-0034",
+    "PRIOR-0035",
+    "PRIOR-0036",
+    "PRIOR-0037",
+    "PRIOR-0038",
+    "PRIOR-0039",
+    "PRIOR-0040",
+    "PRIOR-0041"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"F2\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "F2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "F2"
+  },
+  {
+   "id": "closure:F3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "affected_ids": [
+    "C13",
+    "C18",
+    "C19",
+    "C27",
+    "S1582_SEP_support_01",
+    "S1582_SEP_support_02",
+    "S1582_SEP_support_04",
+    "S1582_SEP_support_05",
+    "S1582_SES_oppose_01",
+    "S1582_SES_support_01",
+    "S1582_TR_oppose_02",
+    "S1582_UNC_support_08",
+    "S1582_UNN_support_01",
+    "S1582_UNT_oppose_03"
+   ],
+   "patch_ids": [
+    "PRIOR-0042",
+    "PRIOR-0043",
+    "PRIOR-0044",
+    "PRIOR-0045",
+    "PRIOR-0046",
+    "PRIOR-0047",
+    "PRIOR-0048",
+    "PRIOR-0049",
+    "PRIOR-0050",
+    "PRIOR-0051",
+    "PRIOR-0052",
+    "PRIOR-0053",
+    "PRIOR-0054",
+    "PRIOR-0055",
+    "PRIOR-0056",
+    "PRIOR-0057",
+    "PRIOR-0058",
+    "PRIOR-0059",
+    "PRIOR-0060",
+    "PRIOR-0061",
+    "PRIOR-0062",
+    "PRIOR-0063",
+    "PRIOR-0064",
+    "PRIOR-0065",
+    "PRIOR-0066",
+    "PRIOR-0067",
+    "PRIOR-0068",
+    "PRIOR-0069",
+    "PRIOR-0070",
+    "PRIOR-0071",
+    "PRIOR-0072",
+    "PRIOR-0073",
+    "PRIOR-0074",
+    "PRIOR-0075"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"F3\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "F3"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "F3"
+  },
+  {
+   "id": "closure:H1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Only process clauses were dropped, and all factual limits stay. There are five passages, not four. One leftover process sentence is removed under N-VERDICT.",
+   "affected_ids": [
+    "HR28_SES_oppose_02",
+    "HR28_SES_oppose_03",
+    "HR28_TR_support_02",
+    "HR28_UNN_oppose_01",
+    "HR28_UNT_oppose_02"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"H1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "H1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "H1"
+  },
+  {
+   "id": "closure:J1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Clarity edits to the two scopes were made in the earlier release.",
+   "affected_ids": [
+    "HR1834_C15",
+    "HR28_C07"
+   ],
+   "patch_ids": [
+    "PRIOR-0076",
+    "PRIOR-0077"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"J1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "J1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "J1"
+  },
+  {
+   "id": "closure:S1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Ten stale mirrors were synced in the earlier release.",
+   "affected_ids": [
+    "HR1834_C06",
+    "HR1834_C08",
+    "HR1834_C09",
+    "HR1834_C14",
+    "HR1834_C15",
+    "HR1834_C16",
+    "HR1834_C17",
+    "HR1834_C18",
+    "HR1834_C19",
+    "HR1834_C20",
+    "HR1834_C23"
+   ],
+   "patch_ids": [
+    "PRIOR-0078",
+    "PRIOR-0079",
+    "PRIOR-0080",
+    "PRIOR-0081",
+    "PRIOR-0082",
+    "PRIOR-0083",
+    "PRIOR-0084",
+    "PRIOR-0085",
+    "PRIOR-0086",
+    "PRIOR-0087",
+    "PRIOR-0088",
+    "PRIOR-0089",
+    "PRIOR-0090",
+    "PRIOR-0091",
+    "PRIOR-0092",
+    "PRIOR-0093",
+    "PRIOR-0094",
+    "PRIOR-0095",
+    "PRIOR-0096",
+    "PRIOR-0097",
+    "PRIOR-0098"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"S1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "S1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "S1"
+  },
+  {
+   "id": "closure:V1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The wording was replaced in the earlier release. The attributes are not used by the app or public-view code I searched, and evidence nodes contain neither attribute. Root's rendered check still has to confirm this on the built pages.",
+   "affected_ids": [
+    "C08",
+    "C11",
+    "S1582_TR_oppose_04"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"V1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "V1"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "pilot/src/app.jsx",
+     "locator": "pilot/src/app.jsx"
+    },
+    {
+     "path": "pilot/public-view.mjs",
+     "locator": "pilot/public-view.mjs"
+    }
+   ],
+   "reading_limit": "Searched the source code. Did not open rendered pages.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "V1"
+  },
+  {
+   "id": "closure:V2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The note-id labels occur only in claims notes_html. Evidence nodes have none, and a search of the built public pages for one label found nothing. The direction words carry no new evidence. Root's rendered check still has to confirm the coding app.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"V2\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "V2"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "content.json",
+     "locator": "content.json"
+    },
+    {
+     "path": "public/arguments",
+     "locator": "public/arguments"
+    }
+   ],
+   "reading_limit": "One label searched in built public pages. The coding app was not run.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "V2"
+  },
+  {
+   "id": "closure:G1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The listed definitions give ordinary meanings and add no bill effect. I know of no error in them, and Sol read them in context. They rest on general knowledge, not the packets.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"G1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "G1"
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Glosses not taken from the packet"
+    },
+    {
+     "path": "origin-05-report.md",
+     "locator": "Limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "General knowledge. Definitions were not checked against outside sources.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "G1"
+  },
+  {
+   "id": "closure:D1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "I read all 11 pairs. The claim statements are longer and add limits, and neither version conflicts with the other. They stay separately worded, and any later change needs a new reading.",
+   "affected_ids": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C13",
+    "C14",
+    "C17",
+    "C20",
+    "C27",
+    "C28"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"D1\""
+    },
+    {
+     "path": "origin-01-issues.md",
+     "locator": "D1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "D1"
+  },
+  {
+   "id": "closure:C-LINEAGE",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The lineage entry matches nothing and is not displayed.",
+   "affected_ids": [
+    "HR4405_UNN_oppose_02"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"C-LINEAGE\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-LINEAGE"
+  },
+  {
+   "id": "closure:C-NOTE",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The shared note names this reason but was missing from its page. Its 19 percent cap, Section 301 and Nicaragua facts apply to Malaysia's promise, and C09 gives only a general version. The note text and both of its displayed evidence fragments are now exact copies of those on SJRes88_UNC_oppose_02 to 05: the cap in support and Section 301 in strength. The first patch missed the strength fragment because my builder copied support fragments only, and an independent check found the gap. The note intro is hidden on all five pages, as on 02 to 05. This adds visible information, so it is judgment-relevant.",
+   "affected_ids": [
+    "SJRes88_UNC_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0004",
+    "CP0307",
+    "CPS1-0001"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"C-NOTE\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "SJRes88_UNC_oppose_02.notes_html",
+     "locator": "SJRes88_UNC_oppose_02.notes_html"
+    },
+    {
+     "path": "SJRES88_C09 scope",
+     "locator": "SJRES88_C09 scope"
+    }
+   ],
+   "reading_limit": "Copied approved text. Did not reread its sources.",
+   "comparable_scope": "All five named reasons checked. Only 06 lacked the note. The 06 node now matches 02 in every destination for the shared-note fragments.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-NOTE"
+  },
+  {
+   "id": "closure:C-OVERRIDES",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The C input had no overrides. Current nodes do carry objection_html on some claims, and this patch covers those fields.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"C-OVERRIDES\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-OVERRIDES"
+  },
+  {
+   "id": "closure:C-ROUTE",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "“This route applies only to a first contract” is plain, and “route” adds no effect here. I agree with Sol. No patch.",
+   "affected_ids": [
+    "HR5408_C01"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"C-ROUTE\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-ROUTE"
+  },
+  {
+   "id": "closure:R1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "retired",
+   "rationale": "I decided this independently and agree with retirement. The stated reason is that people are worth protecting. CBP's priority across nationality and status is a fact about rescue practice, and it does not show listening, understanding or acceptance. The literal statement “to be tolerant toward all kinds of people” could stretch to cover it, but the procedure's boundary says general compassion alone is not enough. Equal protection fits Universalism – Concern, where S2_UNC_support_10 keeps the rescue consideration. A new mechanism would be invention. This is a corpus eligibility decision and assigns no coding answer.",
+   "affected_ids": [
+    "S2_UNT_support_05"
+   ],
+   "patch_ids": [
+    "CP0318"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"R1\""
+    },
+    {
+     "path": "origin-09-retained-issues.md",
+     "locator": "R1"
+    },
+    {
+     "path": "origin-10-report.md",
+     "locator": "retained screen"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/f8d29ff6ac9f27cee6028ee6bd6f0a80fc1f4e913dbf06275720985524dfca22.txt via R1 source_check",
+     "locator": "input/s2/sources/f8d29ff6ac9f27cee6028ee6bd6f0a80fc1f4e913dbf06275720985524dfca22.txt via R1 source_check"
+    },
+    {
+     "path": "harness/prompts/common.md Universalism – Tolerance boundary",
+     "locator": "harness/prompts/common.md Universalism – Tolerance boundary"
+    }
+   ],
+   "reading_limit": "Relied on the R1 source check for the CBP page.",
+   "comparable_scope": "I read all active Tolerance support titles and conclusions. S2_UNT_support_04 is the nearest: it says treating people as worthy of care puts acceptance into practice, and it pairs help with nonjudgmental victim services and addresses disagreement over entry or stay. I leave it for human coding (see N-UNT04). S1582_UNT_support_03's response and gap already raise the point.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "R1"
+  },
+  {
+   "id": "closure:R2",
+   "classification": "genuine_uncertainty",
+   "status": "closed",
+   "disposition": "qualified",
+   "rationale": "No statutory error is confirmed. (A) requires 48 hours' notice subject to (C), and (C) does not itself state a notice period. So 'faces a delay' stated more than the page's evidence settled. The page now states the (C) route and the text's silence, with no invented immediate exception. Later readings agree that notice applies, but they are outside the cutoff and are not cited on the page: the Fed proposal, FR 2026-19860, and the OCC final rule, FR 2026-21706. I read their notice passages myself. Whether the remaining supervision structure is a societal-security reason stays with coders.",
+   "affected_ids": [
+    "S1582_SES_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0234"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"R2\""
+    },
+    {
+     "path": "origin-09-retained-issues.md",
+     "locator": "R2"
+    },
+    {
+     "path": "origin-10-report.md",
+     "locator": "retained screen"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "added-sources/s1582/evidence/bill_text.txt §7(e)(1)(A),(C); §7(e)(2)(A),(C)",
+     "locator": "added-sources/s1582/evidence/bill_text.txt §7(e)(1)(A),(C); §7(e)(2)(A),(C)"
+    },
+    {
+     "path": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm",
+     "locator": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm"
+    },
+    {
+     "path": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm",
+     "locator": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm"
+    }
+   ],
+   "reading_limit": "Read the notice passages of the two notices, not the whole notices. The text alone does not resolve the question, and no court reading is in the record.",
+   "comparable_scope": "Only this active argument uses the 48-hour wording. S1582_SES_support_02 quotes the enforcement clause for the other side; I read that passage and left it.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "R2",
+   "qualifications": [
+    {
+     "id": "S1582_SES_oppose_06",
+     "field": "pro_html",
+     "text": "<p><span class=\"lbl\">Point 6</span> The bill gives one U.S. state's supervision nationwide reach with only a conditional federal backup.</p><ul><li class=\"because\"><span class=\"lbl\">Because</span> “The bill would permit a nonbank issuer with under $10 billion in outstanding stablecoins to opt in to a state regulatory regime and operate nationally.” <a href=\"https://web.archive.org/web/20261029214851/https://www.congress.gov/crs_external_products/IN/PDF/IN12553/IN12553.5.pdf\" title=\"Congressional Research Service, report IN12553, July 18, 2025\">[25]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> A federal waiver can keep larger issuers in that system too. Section 4(d)(3) allows an issuer “with a consolidated total outstanding issuance of more than $10,000,000,000 to remain solely supervised by a State payment stablecoin regulator.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” <a href=\"https://web.archive.org/web/20261029214535/https://www.congress.gov/crs_external_products/IF/PDF/IF12984/IF12984.3.pdf\" title=\"Congressional Research Service, report IF12984, June 9, 2025\">[2]</a> CRS is the Congressional Research Service, which does research for Congress.</li><li class=\"because\"><span class=\"lbl\">Because</span> Without an agreement allowing routine Federal Reserve participation, section 7's emergency enforcement route for the Federal Reserve and Comptroller requires “unusual and exigent circumstances” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> and “not less than 48 hours' prior written notice to the applicable State payment stablecoin regulator” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. The clause for each regulator is “Subject to subparagraph (C)” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, which lets these regulators restrict an issuer by directive after finding a serious risk during those circumstances. The bill's text does not separately state a notice period for those directives. This backup is a new federal power, so the concern is not that the bill reduces existing federal authority. The concern is that national reach raises the stakes of these limits.</li><li class=\"note\"><span class=\"lbl\">Note</span> Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> does not supply equal staffing or remove the federal notice requirement.</li><li class=\"so\"><span class=\"lbl\">So</span> A failure of local supervision can expose payments nationwide while the new federal backup is limited by these conditions and can face a notice period. Giving national reach to that weak point can strain the federal government's ability to contain a fast threat.</li></ul>"
+    }
+   ]
+  },
+  {
+   "id": "closure:RA-RENDER",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "The author ran no app tests. Root and Sol test the build separately.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-RENDER\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "App rendering"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-RENDER"
+  },
+  {
+   "id": "closure:RA-QUOTES",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "Quotations were preserved and targeted context was checked. Not every citation was re-verified in full.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-QUOTES\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Quotations against sources"
+    },
+    {
+     "path": "origin-10-report.md",
+     "locator": "Limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-QUOTES"
+  },
+  {
+   "id": "closure:RA-READING",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "reviewed_in_full means the visible prose was read, not the sources.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-READING\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Source reading"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-READING"
+  },
+  {
+   "id": "closure:RA-PLAIN",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "One bounded pass leaves some long or abstract sentences. No person has tested them.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-PLAIN\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Remaining plain-language limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-PLAIN"
+  },
+  {
+   "id": "closure:RA-MENTIONS",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Nine short quoted words gloss a word in a nearby quotation. They are not source quotations.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-MENTIONS\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Your quotation checker"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-MENTIONS"
+  },
+  {
+   "id": "closure:RA-AUDIT",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "These lineage fields are not page text. The stale grammar in display_replacements is not displayed.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-AUDIT\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Display strings outside the permitted fields"
+    },
+    {
+     "path": "origin-04-report.md",
+     "locator": "Limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-AUDIT"
+  },
+  {
+   "id": "closure:RA-DESC",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Descriptions dropped dates, and the app and public pages show the comparison label beside them.",
+   "affected_ids": [
+    "119_H_R_131",
+    "119_S_2"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RA-DESC\""
+    },
+    {
+     "path": "origin-03-report.md",
+     "locator": "Bill descriptions"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "pilot/src/app.jsx line 134",
+     "locator": "pilot/src/app.jsx line 134"
+    }
+   ],
+   "reading_limit": "Read the source code, not the rendered page.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RA-DESC"
+  },
+  {
+   "id": "closure:RB-C19",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The completed definition adds no reasoning step. Sol agrees.",
+   "affected_ids": [
+    "C19"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RB-C19\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RB-C19"
+  },
+  {
+   "id": "closure:RB-VALIDATOR",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The remaining hedge, number and fragment exceptions were reviewed in the earlier pass and by Sol's leaf review.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RB-VALIDATOR\""
+    },
+    {
+     "path": "origin-04-report.md",
+     "locator": "Validator exceptions"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Relied on those reviews.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RB-VALIDATOR"
+  },
+  {
+   "id": "closure:RC-GROUPS",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "The note wording follows page titles and value statements. The notes were not rechecked against outside sources.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RC-GROUPS\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Did not read outside sources.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RC-GROUPS"
+  },
+  {
+   "id": "closure:RC-SCOPES",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "rejected_after_inspection",
+   "rationale": "Sol reviewed these scope edits as part of the changed-passage review.",
+   "affected_ids": [
+    "HR4405_C03",
+    "HR5408_C07",
+    "HR5408_C09",
+    "SJRES88_C11",
+    "SJRES88_C12"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RC-SCOPES\""
+    },
+    {
+     "path": "origin-05-report.md",
+     "locator": "Judged-claim scope item"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Relied on Sol.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RC-SCOPES"
+  },
+  {
+   "id": "closure:RF-SAMPLE",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "The retained screen read 93 arguments and is not an audit of every citation. The next release needs its own mandatory set and sample for this patch.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"RF-SAMPLE\""
+    },
+    {
+     "path": "origin-10-report.md",
+     "locator": "Limits"
+    },
+    {
+     "path": "origin-11-retained-review.md",
+     "locator": "limits"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "RF-SAMPLE"
+  },
+  {
+   "id": "closure:N-VERDICT",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The I5 cause also appears in other bills and fields: statements that a step stands, that a limit concerns size rather than validity, or that notes do not defeat a claim. These are removed, and the factual limit stays. I left sentences that only say what a limit concerns, such as “This limits the size of the effect”, and sentences on how far a source reaches. They state a limit without saying the argument stands. Reviewers may read some of those differently, which is why Sol should check this line.",
+   "affected_ids": [
+    "C01",
+    "C02",
+    "C08",
+    "C09",
+    "C12",
+    "HR131_SEP_support_03",
+    "HR131_UNC_support_02",
+    "HR131_UNN_support_01",
+    "HR131_UNT_oppose_01",
+    "HR28_SEP_support_01",
+    "HR28_SEP_support_02",
+    "HR28_SES_oppose_02",
+    "HR28_SES_oppose_03",
+    "HR4405_SEP_support_01",
+    "HR4405_UNN_support_02",
+    "HR5408_UNC_support_02",
+    "HR5408_UNT_support_02",
+    "S1582_SEP_oppose_01",
+    "S2_UNC_oppose_03",
+    "SJRes88_TR_support_01"
+   ],
+   "patch_ids": [
+    "CP0009",
+    "CP0011",
+    "CP0016",
+    "CP0023",
+    "CP0027",
+    "CP0031",
+    "CP0032",
+    "CP0040",
+    "CP0041",
+    "CP0134",
+    "CP0135",
+    "CP0136",
+    "CP0137",
+    "CP0161",
+    "CP0206",
+    "CP0248",
+    "CP0249",
+    "CP0250",
+    "CP0251",
+    "CP0260",
+    "CP0263",
+    "CP0270",
+    "CP0276",
+    "CP0278",
+    "CP0279",
+    "CP0280",
+    "CP0281",
+    "CP0282",
+    "CP0283",
+    "CP0285",
+    "CP0286",
+    "CP0287",
+    "CP0288",
+    "CP0301",
+    "CP0302",
+    "CP0306"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"N-VERDICT\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "All 91 gap explanations read. Displayed text searched for verdict phrases. banned_phrases.json finds none after the patch. A search cannot prove no other verdict exists.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "N-VERDICT"
+  },
+  {
+   "id": "closure:N-PROCON",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "Pages say Argument and Response, and nothing defines PRO or CON for coders. The internal terms are replaced word for word. No quotation contains them. 'No point-specific CON is provided' takes the existing wording on H.R.131 pages. Audit fields are left alone.",
+   "affected_ids": [
+    "C09",
+    "C12",
+    "C23",
+    "C24",
+    "HR1834_SEP_oppose_01",
+    "HR1834_SEP_oppose_02",
+    "HR1834_SEP_oppose_03",
+    "HR1834_SEP_oppose_04",
+    "HR1834_SEP_support_01",
+    "HR1834_SEP_support_02",
+    "HR1834_SEP_support_03",
+    "HR1834_SEP_support_04",
+    "HR1834_SEP_support_05",
+    "HR1834_SEP_support_06",
+    "HR1834_SEP_support_07",
+    "HR1834_SEP_support_08",
+    "HR1834_SES_oppose_01",
+    "HR1834_SES_oppose_02",
+    "HR1834_SES_oppose_03",
+    "HR1834_SES_oppose_04",
+    "HR1834_SES_oppose_05",
+    "HR1834_SES_oppose_06",
+    "HR1834_SES_support_01",
+    "HR1834_SES_support_02",
+    "HR1834_SES_support_03",
+    "HR1834_SES_support_04",
+    "HR1834_SES_support_07",
+    "HR1834_TR_oppose_01",
+    "HR1834_TR_oppose_02",
+    "HR1834_TR_oppose_04",
+    "HR1834_TR_oppose_06",
+    "HR1834_TR_oppose_07",
+    "HR1834_TR_oppose_08",
+    "HR1834_TR_oppose_09",
+    "HR1834_TR_support_03",
+    "HR1834_TR_support_04",
+    "HR1834_TR_support_06",
+    "HR1834_TR_support_07",
+    "HR1834_TR_support_08",
+    "HR1834_UNC_oppose_01",
+    "HR1834_UNC_oppose_02",
+    "HR1834_UNC_oppose_03",
+    "HR1834_UNC_oppose_04",
+    "HR1834_UNC_oppose_05",
+    "HR1834_UNC_oppose_06",
+    "HR1834_UNC_oppose_07",
+    "HR1834_UNC_support_01",
+    "HR1834_UNC_support_02",
+    "HR1834_UNC_support_03",
+    "HR1834_UNC_support_04",
+    "HR1834_UNC_support_05",
+    "HR1834_UNC_support_06",
+    "HR1834_UNC_support_07",
+    "HR1834_UNC_support_08",
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10",
+    "HR1834_UNN_support_01",
+    "HR1834_UNN_support_02",
+    "HR1834_UNN_support_03",
+    "HR1834_UNN_support_04",
+    "HR1834_UNN_support_05",
+    "HR1834_UNN_support_06",
+    "HR1834_UNT_oppose_01",
+    "HR1834_UNT_oppose_02",
+    "HR1834_UNT_oppose_03",
+    "HR1834_UNT_oppose_04",
+    "HR1834_UNT_oppose_05",
+    "HR1834_UNT_support_03",
+    "HR1834_UNT_support_04",
+    "HR28_UNC_support_03",
+    "S1582_SEP_oppose_01",
+    "S1582_SEP_oppose_02",
+    "S1582_SEP_oppose_03",
+    "S1582_SEP_oppose_04",
+    "S1582_SEP_support_01",
+    "S1582_SEP_support_02",
+    "S1582_SEP_support_03",
+    "S1582_SEP_support_04",
+    "S1582_SEP_support_05",
+    "S1582_SES_oppose_01",
+    "S1582_SES_oppose_02",
+    "S1582_SES_oppose_03",
+    "S1582_SES_oppose_04",
+    "S1582_SES_oppose_05",
+    "S1582_SES_oppose_06",
+    "S1582_SES_oppose_08",
+    "S1582_SES_oppose_09",
+    "S1582_SES_support_01",
+    "S1582_SES_support_02",
+    "S1582_SES_support_03",
+    "S1582_SES_support_05",
+    "S1582_SES_support_06",
+    "S1582_SES_support_07",
+    "S1582_SES_support_08",
+    "S1582_SES_support_09",
+    "S1582_SES_support_10",
+    "S1582_TR_oppose_02",
+    "S1582_TR_oppose_03",
+    "S1582_TR_oppose_04",
+    "S1582_TR_oppose_07",
+    "S1582_TR_support_02",
+    "S1582_UNC_oppose_01",
+    "S1582_UNC_oppose_02",
+    "S1582_UNC_oppose_03",
+    "S1582_UNC_oppose_05",
+    "S1582_UNC_oppose_06",
+    "S1582_UNC_oppose_07",
+    "S1582_UNC_oppose_08",
+    "S1582_UNC_oppose_10",
+    "S1582_UNC_oppose_11",
+    "S1582_UNC_oppose_12",
+    "S1582_UNC_oppose_13",
+    "S1582_UNC_oppose_14",
+    "S1582_UNC_oppose_15",
+    "S1582_UNC_oppose_16",
+    "S1582_UNC_support_01",
+    "S1582_UNC_support_02",
+    "S1582_UNC_support_03",
+    "S1582_UNC_support_04",
+    "S1582_UNC_support_05",
+    "S1582_UNC_support_06",
+    "S1582_UNC_support_07",
+    "S1582_UNC_support_08",
+    "S1582_UNC_support_09",
+    "S1582_UNC_support_10",
+    "S1582_UNC_support_11",
+    "S1582_UNC_support_12",
+    "S1582_UNC_support_13",
+    "S1582_UNN_oppose_02",
+    "S1582_UNN_oppose_04",
+    "S1582_UNN_oppose_05",
+    "S1582_UNN_oppose_06",
+    "S1582_UNN_support_01",
+    "S1582_UNN_support_02",
+    "S1582_UNN_support_03",
+    "S1582_UNT_oppose_01",
+    "S1582_UNT_oppose_02",
+    "S1582_UNT_oppose_03",
+    "S1582_UNT_oppose_04",
+    "S1582_UNT_support_01",
+    "S1582_UNT_support_02",
+    "S1582_UNT_support_03",
+    "S1582_UNT_support_04",
+    "S2_SEP_oppose_02",
+    "S2_SEP_oppose_05",
+    "S2_SEP_oppose_06",
+    "S2_SEP_support_05",
+    "S2_SEP_support_06",
+    "S2_SEP_support_08",
+    "S2_SEP_support_09",
+    "S2_SES_oppose_03",
+    "S2_SES_oppose_08",
+    "S2_SES_oppose_09",
+    "S2_SES_oppose_11",
+    "S2_SES_support_01",
+    "S2_SES_support_02",
+    "S2_SES_support_08",
+    "S2_SES_support_14",
+    "S2_TR_oppose_01",
+    "S2_TR_oppose_02",
+    "S2_TR_oppose_04",
+    "S2_UNC_oppose_03",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_05",
+    "S2_UNC_oppose_10",
+    "S2_UNC_oppose_11",
+    "S2_UNC_support_01",
+    "S2_UNC_support_05",
+    "S2_UNC_support_07",
+    "S2_UNC_support_10",
+    "S2_UNC_support_11",
+    "S2_UNC_support_12",
+    "S2_UNN_oppose_01",
+    "S2_UNN_oppose_02",
+    "S2_UNN_oppose_03",
+    "S2_UNN_oppose_07",
+    "S2_UNN_support_05",
+    "S2_UNN_support_08",
+    "S2_UNN_support_09",
+    "S2_UNT_oppose_07",
+    "S2_UNT_support_01",
+    "S2_UNT_support_02",
+    "S2_UNT_support_03",
+    "S2_UNT_support_04",
+    "S2_UNT_support_05",
+    "SJRes88_UNT_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0001",
+    "CP0002",
+    "CP0003",
+    "CP0005",
+    "CP0006",
+    "CP0007",
+    "CP0008",
+    "CP0010",
+    "CP0012",
+    "CP0013",
+    "CP0014",
+    "CP0015",
+    "CP0017",
+    "CP0018",
+    "CP0019",
+    "CP0020",
+    "CP0021",
+    "CP0022",
+    "CP0024",
+    "CP0028",
+    "CP0033",
+    "CP0038",
+    "CP0039",
+    "CP0042",
+    "CP0043",
+    "CP0044",
+    "CP0045",
+    "CP0046",
+    "CP0047",
+    "CP0048",
+    "CP0049",
+    "CP0050",
+    "CP0051",
+    "CP0052",
+    "CP0053",
+    "CP0054",
+    "CP0055",
+    "CP0056",
+    "CP0057",
+    "CP0058",
+    "CP0059",
+    "CP0060",
+    "CP0061",
+    "CP0062",
+    "CP0063",
+    "CP0064",
+    "CP0065",
+    "CP0066",
+    "CP0067",
+    "CP0068",
+    "CP0069",
+    "CP0070",
+    "CP0071",
+    "CP0072",
+    "CP0073",
+    "CP0074",
+    "CP0075",
+    "CP0076",
+    "CP0077",
+    "CP0078",
+    "CP0079",
+    "CP0080",
+    "CP0081",
+    "CP0082",
+    "CP0083",
+    "CP0084",
+    "CP0085",
+    "CP0086",
+    "CP0087",
+    "CP0088",
+    "CP0089",
+    "CP0090",
+    "CP0091",
+    "CP0092",
+    "CP0093",
+    "CP0094",
+    "CP0095",
+    "CP0096",
+    "CP0097",
+    "CP0098",
+    "CP0099",
+    "CP0100",
+    "CP0101",
+    "CP0102",
+    "CP0103",
+    "CP0104",
+    "CP0105",
+    "CP0106",
+    "CP0107",
+    "CP0108",
+    "CP0109",
+    "CP0110",
+    "CP0111",
+    "CP0112",
+    "CP0113",
+    "CP0114",
+    "CP0115",
+    "CP0116",
+    "CP0117",
+    "CP0118",
+    "CP0119",
+    "CP0120",
+    "CP0121",
+    "CP0122",
+    "CP0123",
+    "CP0124",
+    "CP0125",
+    "CP0126",
+    "CP0127",
+    "CP0128",
+    "CP0129",
+    "CP0130",
+    "CP0131",
+    "CP0132",
+    "CP0133",
+    "CP0138",
+    "CP0139",
+    "CP0140",
+    "CP0143",
+    "CP0144",
+    "CP0145",
+    "CP0146",
+    "CP0147",
+    "CP0148",
+    "CP0149",
+    "CP0150",
+    "CP0151",
+    "CP0152",
+    "CP0153",
+    "CP0154",
+    "CP0155",
+    "CP0156",
+    "CP0157",
+    "CP0158",
+    "CP0159",
+    "CP0160",
+    "CP0162",
+    "CP0163",
+    "CP0164",
+    "CP0166",
+    "CP0167",
+    "CP0168",
+    "CP0169",
+    "CP0170",
+    "CP0171",
+    "CP0172",
+    "CP0175",
+    "CP0176",
+    "CP0177",
+    "CP0178",
+    "CP0179",
+    "CP0180",
+    "CP0181",
+    "CP0182",
+    "CP0183",
+    "CP0184",
+    "CP0185",
+    "CP0186",
+    "CP0187",
+    "CP0188",
+    "CP0189",
+    "CP0190",
+    "CP0191",
+    "CP0192",
+    "CP0193",
+    "CP0194",
+    "CP0196",
+    "CP0197",
+    "CP0198",
+    "CP0199",
+    "CP0200",
+    "CP0201",
+    "CP0202",
+    "CP0203",
+    "CP0204",
+    "CP0205",
+    "CP0206",
+    "CP0207",
+    "CP0208",
+    "CP0209",
+    "CP0210",
+    "CP0211",
+    "CP0212",
+    "CP0213",
+    "CP0214",
+    "CP0215",
+    "CP0216",
+    "CP0217",
+    "CP0218",
+    "CP0219",
+    "CP0220",
+    "CP0221",
+    "CP0222",
+    "CP0223",
+    "CP0224",
+    "CP0225",
+    "CP0226",
+    "CP0227",
+    "CP0228",
+    "CP0229",
+    "CP0230",
+    "CP0231",
+    "CP0232",
+    "CP0233",
+    "CP0235",
+    "CP0236",
+    "CP0237",
+    "CP0238",
+    "CP0239",
+    "CP0240",
+    "CP0241",
+    "CP0242",
+    "CP0243",
+    "CP0244",
+    "CP0245",
+    "CP0246",
+    "CP0251",
+    "CP0258",
+    "CP0259",
+    "CP0261",
+    "CP0262",
+    "CP0266",
+    "CP0267",
+    "CP0268",
+    "CP0269",
+    "CP0284",
+    "CP0289",
+    "CP0290",
+    "CP0291",
+    "CP0292",
+    "CP0293",
+    "CP0294",
+    "CP0295",
+    "CP0297",
+    "CP0298",
+    "CP0299",
+    "CP0300",
+    "CPS2-0001",
+    "CPS2-0002"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"N-PROCON\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "All displayed fields in all eight bills. The first pass missed catalog retirement_reason, which public pages display under Historical IDs. All 59 retirement reasons are now scanned, and two are patched. The nested retirement objects are not displayed (public-view.mjs line 59 shows only retirement_reason) and stay as audit lineage.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "N-PROCON"
+  },
+  {
+   "id": "closure:N-LATER",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "Across the eight bills, 241 arguments cite a source dated after their comparison date, about 580 citations. Each use has not been reviewed for why it bears on the comparison. The contract says the date check is not a new audit. The site-wide sentence states the rule, and I know of no specific misuse beyond I7. A per-citation review would be a new audit.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "UI-laterEvidenceNote"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"N-LATER\""
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Count from dates in citation titles. Undated or differently formatted titles are not counted.",
+   "comparable_scope": "All eight bills counted.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "N-LATER"
+  },
+  {
+   "id": "closure:N-ORIGVIEW",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "The coding app has a view of original text, including wording now corrected, under the heading Original. A notice now says the wording may have been corrected. Originals stay unchanged.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "UI-originalViewNotice"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"N-ORIGVIEW\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "pilot/src/app.jsx line 140",
+     "locator": "pilot/src/app.jsx line 140"
+    }
+   ],
+   "reading_limit": "Read the source code. Did not check how often coders reach this view.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "N-ORIGVIEW"
+  },
+  {
+   "id": "closure:N-UNT04",
+   "classification": "human_coding_judgment",
+   "status": "closed",
+   "disposition": "left_for_human_coding",
+   "rationale": "This has the nearest wording to R1, but it adds nonjudgmental services and addresses disagreement over entry or stay. Reasonable coders could weigh that either way, and its response tests whether the money reaches this work.",
+   "affected_ids": [
+    "S2_UNT_support_04"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"N-UNT04\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "S2_UNT_support_04 pro_html and con_html",
+     "locator": "S2_UNT_support_04 pro_html and con_html"
+    }
+   ],
+   "reading_limit": "Sol read the HSI source context. I read the page text.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "N-UNT04"
+  },
+  {
+   "id": "closure:CLT001",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. A merge must end in a disposition that corrects the original class, or the closure rule can be bypassed. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT001\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT001",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT001"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT001"
+  },
+  {
+   "id": "closure:CLT002",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. A patch that changes nothing cannot correct a defect. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT002\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT002",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT002"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT002"
+  },
+  {
+   "id": "closure:CLT003",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. A correction has to change the records the finding concerns. A cross-record mirror repair counts only when linked explicitly. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT003\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT003",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT003"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT003"
+  },
+  {
+   "id": "closure:CLT004",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. The contract requires inspection of every removal, substantive revision, merge and dependency, so an empty mandatory set cannot pass after substantive corrections. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT004\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT004",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT004"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT004"
+  },
+  {
+   "id": "closure:CLT005",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. banned_phrases.json already says that only a phrase matching its bound source is exempt. A blanket exemption for curly quotes contradicts that. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT005\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT005",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT005"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT005"
+  },
+  {
+   "id": "closure:CLT006",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. Bill context, interface copy, background copies and retired-ID explanations are displayed, so the scan must cover them. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT006\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT006",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT006"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT006"
+  },
+  {
+   "id": "closure:CLT007",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. finding_closure_gate.md requires these fields, so the gate must check them or an approved equivalent. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT007\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT007",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT007"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT007"
+  },
+  {
+   "id": "closure:CLT008",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. An audit-metadata edit leaves the displayed text unchanged, so it cannot correct a content defect. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT008\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT008",
+     "locator": "/private/tmp/policy-procedure-verifier-20261107/output/closure/technical-findings.json CLT008"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9"
+    }
+   ],
+   "reading_limit": "I read the finding and its receipt and confirmed the gate file hash. I did not read the gate code or run the tests.",
+   "comparable_scope": "The 22 regression tests in gate.test.mjs cover this and related bypasses, as reported by the verifier.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT008"
+  },
+  {
+   "id": "closure:CLT009",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "corrected",
+   "rationale": "I agree. The independent technical verifier found that the new catalog patch branch accepted a retirement_reason patch on an active catalog entry as the only correction. Only retired entries show that field (public-view.mjs line 59), so the patch could close a finding without changing any displayed text. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [
+    "IMPL-GATE"
+   ],
+   "origins": [
+    {
+     "path": "closure.json",
+     "locator": "\"finding_id\": \"CLT009\""
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs line 46: requireThat(record.retired===true, ...) for catalog patches",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs line 46: requireThat(record.retired===true, ...) for catalog patches"
+    },
+    {
+     "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+     "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb"
+    }
+   ],
+   "reading_limit": "I read the finding as root relayed it and line 46 of the corrected gate, and I confirmed the gate file hash. I did not read the rest of the gate code or run the tests. The verifier's 25th regression is reported as rerunning.",
+   "comparable_scope": "As reported by root: a regression test adds an active-entry case that must be rejected, and root's 15 gate tests pass. The supplement 2 patches CPS2-0001 and CPS2-0002 target retired entries only.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "CLT009"
+  },
+  {
+   "id": "clarity-a:I1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The Brennan Center's “The funding” follows its discussion of the bill's money and available funds. It does not refer to a technology line. C08 and two arguments tied it to that line, and S2_SES_oppose_06 gave the forecast with no attribution. The corrected text says funding that includes S.2's money. I did not write 'S.2's money alone', because the passage follows a discussion of the combined $183 billion. C08 now reports a forecast only. Each argument keeps its own step and its response.",
+   "affected_ids": [
+    "S2_C08",
+    "S2_SES_oppose_06",
+    "S2_UNC_oppose_09",
+    "S2_UNT_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0165",
+    "CP0173",
+    "CP0174",
+    "CP0195",
+    "CP0254",
+    "CP0255",
+    "CP0256",
+    "CP0257",
+    "CP0304",
+    "CP0305",
+    "CP0311",
+    "CP0312",
+    "CP0313",
+    "CP0317"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I1"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/debc0099b147e7ccb315ecbf0ba55387b77cf038624d63e0262ea0e8d0981f57.txt, passage before and including “The funding will also allow DHS”",
+     "locator": "input/s2/sources/debc0099b147e7ccb315ecbf0ba55387b77cf038624d63e0262ea0e8d0981f57.txt, passage before and including “The funding will also allow DHS”"
+    }
+   ],
+   "reading_limit": "Read the surrounding article passage, not the full article again.",
+   "comparable_scope": "All three C08 members read in full. All S.2 fields naming Brennan or surveillance funding were searched. Other Brennan uses do not tie it to one line.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I1",
+   "duplicate_of": "closure:I1",
+   "merged_into": "closure:I1"
+  },
+  {
+   "id": "clarity-a:I2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The title and scope implied a net reduction. The sources report past local reductions and displacement, and neither measures S.2. C02 now states only that history. Arguments 01, 03 and 04 use Interior's report in their own text, so they keep C02 as background, and their own step stays local. Argument 02 rests on faster towers and Forest Service habitat damage, not on that report, so its C02 edge is removed. All four responses still test the actual step. One certainty demand in the response to 04 was softened. One overstatement in the argument for 04 was corrected.",
+   "affected_ids": [
+    "S2_C02",
+    "S2_UNN_support_01",
+    "S2_UNN_support_02",
+    "S2_UNN_support_03",
+    "S2_UNN_support_04"
+   ],
+   "patch_ids": [
+    "CP0141",
+    "CP0142",
+    "CP0252",
+    "CP0253",
+    "CP0303",
+    "CP0308",
+    "CP0309",
+    "CP0310",
+    "CP0314",
+    "CP0315",
+    "CP0316"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I2"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "Sol local-source-passages.json:I2",
+     "locator": "Sol local-source-passages.json:I2"
+    },
+    {
+     "path": "S2_C02 support_html and scope_html quotations",
+     "locator": "S2_C02 support_html and scope_html quotations"
+    }
+   ],
+   "reading_limit": "Relied on the quoted Interior and Forest Service passages in the content and Sol excerpts. Did not reread the 2006 and 2016 sources in full.",
+   "comparable_scope": "All four members and routes read in full.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I2",
+   "duplicate_of": "closure:I2",
+   "merged_into": "closure:I2"
+  },
+  {
+   "id": "clarity-a:I3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "H.R.131 eases repayment and provides no construction money, so “Financing further work” overstated the bill's role. The risk argument itself stays, tied to HR131_C03.",
+   "affected_ids": [
+    "HR131_UNN_oppose_02"
+   ],
+   "patch_ids": [
+    "CP0025"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I3"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "HR131_C03 statement and scope",
+     "locator": "HR131_C03 statement and scope"
+    },
+    {
+     "path": "HR131_UNN_oppose_02 notes_html",
+     "locator": "HR131_UNN_oppose_02 notes_html"
+    },
+    {
+     "path": "Sol local-source-passages.json:I3",
+     "locator": "Sol local-source-passages.json:I3"
+    }
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "I searched H.R.131 titles and argument text for financing wording. Others say helping finance, easier financing or financing help. HR131_UNT_oppose_01's “financing that advances this risk” follows its own explanation of current financing and stays.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I3",
+   "duplicate_of": "closure:I3",
+   "merged_into": "closure:I3"
+  },
+  {
+   "id": "clarity-a:I4",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Corrected in the earlier release: one named leader, not Chicago volunteers.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37"
+   ],
+   "patch_ids": [
+    "PRIOR-0001",
+    "PRIOR-0002",
+    "PRIOR-0003"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I4"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/0b7b50758e97*",
+     "locator": "input/s2/sources/0b7b50758e97*"
+    }
+   ],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I4",
+   "duplicate_of": "closure:I4",
+   "merged_into": "closure:I4"
+  },
+  {
+   "id": "clarity-a:I5",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Gap wording told coders whether the argument survives. That is their judgment. Editorial conclusions are removed from the gap and its evidence node, and the factual limits stay. The earlier decision to leave this as a flag no longer holds, because the new procedure does not let a log close it.",
+   "affected_ids": [
+    "HR131_SES_oppose_01",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_TR_support_02",
+    "HR131_UNC_oppose_01",
+    "HR131_UNN_oppose_05"
+   ],
+   "patch_ids": [
+    "CP0026",
+    "CP0030",
+    "CP0034",
+    "CP0035",
+    "CP0036",
+    "CP0037",
+    "CP0271",
+    "CP0272",
+    "CP0273",
+    "CP0274",
+    "CP0275",
+    "CP0277"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I5"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "All 91 gap explanations across eight bills read. Notes and objections searched for verdict wording. See N-VERDICT.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I5",
+   "duplicate_of": "closure:I5",
+   "merged_into": "closure:I5"
+  },
+  {
+   "id": "clarity-a:I6",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The sentence about sources for this value is in notes_html only. The displayed evidence node has no such text, and reassignment evidence is visible through the route's shared claim. I agree with Sol. No patch.",
+   "affected_ids": [
+    "S2_SEP_support_05"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I6"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "evidence_placement.nodes.S2_SEP_support_05",
+     "locator": "evidence_placement.nodes.S2_SEP_support_05"
+    },
+    {
+     "path": "S2_C01",
+     "locator": "S2_C01"
+    }
+   ],
+   "reading_limit": "Search of displayed node text. Did not run the app.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I6",
+   "duplicate_of": "closure:I6",
+   "merged_into": "closure:I6"
+  },
+  {
+   "id": "clarity-a:I7",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The contract requires an explanation for evidence dated after the comparison date, and these pages had none. S2_C08's scope now gives a specific one, and a site-wide sentence covers the rest. The Human Rights Watch sentences already give their date and are used for what Congress approved.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C08",
+    "S2_C36",
+    "S2_C37",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_01",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_01",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07",
+    "release"
+   ],
+   "patch_ids": [
+    "CP0254",
+    "CP0304",
+    "UI-laterEvidenceNote"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I7"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "See N-LATER.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I7",
+   "duplicate_of": "closure:I7",
+   "merged_into": "closure:I7"
+  },
+  {
+   "id": "clarity-a:I8",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "No person has tested ESL comprehension. This is a limit of verification, not a content claim.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I8"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I8",
+   "duplicate_of": "closure:I8"
+  },
+  {
+   "id": "clarity-a:I9",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Attribution added in the earlier release.",
+   "affected_ids": [
+    "S2_C06",
+    "S2_C36",
+    "S2_C37",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_02",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_01",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07"
+   ],
+   "patch_ids": [
+    "PRIOR-0004",
+    "PRIOR-0005",
+    "PRIOR-0006",
+    "PRIOR-0007",
+    "PRIOR-0008",
+    "PRIOR-0009",
+    "PRIOR-0010",
+    "PRIOR-0011",
+    "PRIOR-0012",
+    "PRIOR-0013",
+    "PRIOR-0014",
+    "PRIOR-0015",
+    "PRIOR-0016"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I9"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I9",
+   "duplicate_of": "closure:I9",
+   "merged_into": "closure:I9"
+  },
+  {
+   "id": "clarity-a:I10",
+   "classification": "declared_limit",
+   "status": "closed",
+   "disposition": "disclosed",
+   "rationale": "The field was renamed in the current date record. Sol found two uses of introduced-stage summaries, each with separate statutory or rule support. Retrieval timestamps for original captures are unavailable, 89 press-release dates still come from search snippets, and no contemporaneous capture was verified for the nine checked documents. These limits are stated in the record.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I10"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "date_provenance.json via Sol a:I10",
+     "locator": "date_provenance.json via Sol a:I10"
+    }
+   ],
+   "reading_limit": "I relied on Sol for the two summary uses and did not reread them.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I10",
+   "duplicate_of": "closure:I10"
+  },
+  {
+   "id": "clarity-a:I11",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "11 unclear scopes were corrected in the earlier release, and reviewers B and C handled the other judged scopes. Sol's count is 21 nonempty scopes.",
+   "affected_ids": [
+    "HR131_C13",
+    "S2_C01",
+    "S2_C03",
+    "S2_C04",
+    "S2_C05",
+    "S2_C06",
+    "S2_C09",
+    "S2_C31",
+    "S2_C32",
+    "S2_C33",
+    "S2_C34",
+    "S2_C35",
+    "S2_C36",
+    "S2_C37"
+   ],
+   "patch_ids": [
+    "PRIOR-0017",
+    "PRIOR-0018",
+    "PRIOR-0019",
+    "PRIOR-0020",
+    "PRIOR-0021",
+    "PRIOR-0022",
+    "PRIOR-0023",
+    "PRIOR-0024",
+    "PRIOR-0025",
+    "PRIOR-0026",
+    "PRIOR-0027"
+   ],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I11"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I11",
+   "duplicate_of": "closure:I11",
+   "merged_into": "closure:I11"
+  },
+  {
+   "id": "clarity-a:I12",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "F1 was retracted after the exact value statements were read. The wording about the security of the country stays.",
+   "affected_ids": [
+    "HR131_SES_support_05"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-a.json",
+     "locator": "I12"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "I12",
+   "duplicate_of": "closure:I12",
+   "merged_into": "closure:I12"
+  },
+  {
+   "id": "clarity-b:P1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Files were supplied and 138 bindings match by hash.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "P1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "P1",
+   "duplicate_of": "closure:P1",
+   "merged_into": "closure:P1"
+  },
+  {
+   "id": "clarity-b:Q1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C01"
+   ],
+   "patch_ids": [
+    "PRIOR-0028"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q1",
+   "duplicate_of": "closure:Q1",
+   "merged_into": "closure:Q1"
+  },
+  {
+   "id": "clarity-b:Q2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C01"
+   ],
+   "patch_ids": [
+    "PRIOR-0029"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q2",
+   "duplicate_of": "closure:Q2",
+   "merged_into": "closure:Q2"
+  },
+  {
+   "id": "clarity-b:Q3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "S1582_UNC_support_01"
+   ],
+   "patch_ids": [
+    "PRIOR-0030"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q3"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q3",
+   "duplicate_of": "closure:Q3",
+   "merged_into": "closure:Q3"
+  },
+  {
+   "id": "clarity-b:Q4",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "S1582_UNC_oppose_12"
+   ],
+   "patch_ids": [
+    "PRIOR-0031"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q4"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q4",
+   "duplicate_of": "closure:Q4",
+   "merged_into": "closure:Q4"
+  },
+  {
+   "id": "clarity-b:Q5",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Unclear quotation referent glossed in the earlier release.",
+   "affected_ids": [
+    "C06"
+   ],
+   "patch_ids": [
+    "PRIOR-0032"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q5"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q5",
+   "duplicate_of": "closure:Q5",
+   "merged_into": "closure:Q5"
+  },
+  {
+   "id": "clarity-b:Q6",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The paraphrase omitted the source's condition and insurance limit. All notes and evidence nodes are corrected. The claims themselves concern added use and do not change.",
+   "affected_ids": [
+    "C01",
+    "C02",
+    "S1582_UNC_oppose_01"
+   ],
+   "patch_ids": [
+    "CP0029",
+    "CP0247",
+    "CP0249",
+    "CP0264",
+    "CP0265",
+    "CP0296"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "Q6"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "added-sources/s1582/evidence/crs_07.txt",
+     "locator": "added-sources/s1582/evidence/crs_07.txt"
+    }
+   ],
+   "reading_limit": "Read the crs_07 passages that mention insurance.",
+   "comparable_scope": "Whole corpus searched for the exact wording: three records. Other insurance wording read and left: it describes stablecoins as uninsured, which the bill text says.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "Q6",
+   "duplicate_of": "closure:Q6",
+   "merged_into": "closure:Q6"
+  },
+  {
+   "id": "clarity-b:F2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "affected_ids": [
+    "C01",
+    "C02",
+    "S1582_SEP_oppose_01",
+    "S1582_UNC_oppose_01"
+   ],
+   "patch_ids": [
+    "PRIOR-0033",
+    "PRIOR-0034",
+    "PRIOR-0035",
+    "PRIOR-0036",
+    "PRIOR-0037",
+    "PRIOR-0038",
+    "PRIOR-0039",
+    "PRIOR-0040",
+    "PRIOR-0041"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "F2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "F2",
+   "duplicate_of": "closure:F2",
+   "merged_into": "closure:F2"
+  },
+  {
+   "id": "clarity-b:F3",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Corrected and independently re-read in the earlier release.",
+   "affected_ids": [
+    "C13",
+    "C18",
+    "C19",
+    "C27",
+    "S1582_SEP_support_01",
+    "S1582_SEP_support_02",
+    "S1582_SEP_support_04",
+    "S1582_SEP_support_05",
+    "S1582_SES_oppose_01",
+    "S1582_SES_support_01",
+    "S1582_TR_oppose_02",
+    "S1582_UNC_support_08",
+    "S1582_UNN_support_01",
+    "S1582_UNT_oppose_03"
+   ],
+   "patch_ids": [
+    "PRIOR-0042",
+    "PRIOR-0043",
+    "PRIOR-0044",
+    "PRIOR-0045",
+    "PRIOR-0046",
+    "PRIOR-0047",
+    "PRIOR-0048",
+    "PRIOR-0049",
+    "PRIOR-0050",
+    "PRIOR-0051",
+    "PRIOR-0052",
+    "PRIOR-0053",
+    "PRIOR-0054",
+    "PRIOR-0055",
+    "PRIOR-0056",
+    "PRIOR-0057",
+    "PRIOR-0058",
+    "PRIOR-0059",
+    "PRIOR-0060",
+    "PRIOR-0061",
+    "PRIOR-0062",
+    "PRIOR-0063",
+    "PRIOR-0064",
+    "PRIOR-0065",
+    "PRIOR-0066",
+    "PRIOR-0067",
+    "PRIOR-0068",
+    "PRIOR-0069",
+    "PRIOR-0070",
+    "PRIOR-0071",
+    "PRIOR-0072",
+    "PRIOR-0073",
+    "PRIOR-0074",
+    "PRIOR-0075"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "F3"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "F3",
+   "duplicate_of": "closure:F3",
+   "merged_into": "closure:F3"
+  },
+  {
+   "id": "clarity-b:H1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Only process clauses were dropped, and all factual limits stay. There are five passages, not four. One leftover process sentence is removed under N-VERDICT.",
+   "affected_ids": [
+    "HR28_SES_oppose_02",
+    "HR28_SES_oppose_03",
+    "HR28_TR_support_02",
+    "HR28_UNN_oppose_01",
+    "HR28_UNT_oppose_02"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "H1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "H1",
+   "duplicate_of": "closure:H1",
+   "merged_into": "closure:H1"
+  },
+  {
+   "id": "clarity-b:U1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The two approved strings are byte-identical.",
+   "affected_ids": [
+    "C11"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "U1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "U1",
+   "duplicate_of": "closure:U1",
+   "merged_into": "closure:U1"
+  },
+  {
+   "id": "clarity-b:J1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Clarity edits to the two scopes were made in the earlier release.",
+   "affected_ids": [
+    "HR1834_C15",
+    "HR28_C07"
+   ],
+   "patch_ids": [
+    "PRIOR-0076",
+    "PRIOR-0077"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "J1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "J1",
+   "duplicate_of": "closure:J1",
+   "merged_into": "closure:J1"
+  },
+  {
+   "id": "clarity-b:J2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Absent scopes stay hidden, and no claim text was invented.",
+   "affected_ids": [
+    "C03"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "J2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "J2",
+   "duplicate_of": "closure:J2",
+   "merged_into": "closure:J2"
+  },
+  {
+   "id": "clarity-b:S1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "Ten stale mirrors were synced in the earlier release.",
+   "affected_ids": [
+    "HR1834_C06",
+    "HR1834_C08",
+    "HR1834_C09",
+    "HR1834_C14",
+    "HR1834_C15",
+    "HR1834_C16",
+    "HR1834_C17",
+    "HR1834_C18",
+    "HR1834_C19",
+    "HR1834_C20",
+    "HR1834_C23"
+   ],
+   "patch_ids": [
+    "PRIOR-0078",
+    "PRIOR-0079",
+    "PRIOR-0080",
+    "PRIOR-0081",
+    "PRIOR-0082",
+    "PRIOR-0083",
+    "PRIOR-0084",
+    "PRIOR-0085",
+    "PRIOR-0086",
+    "PRIOR-0087",
+    "PRIOR-0088",
+    "PRIOR-0089",
+    "PRIOR-0090",
+    "PRIOR-0091",
+    "PRIOR-0092",
+    "PRIOR-0093",
+    "PRIOR-0094",
+    "PRIOR-0095",
+    "PRIOR-0096",
+    "PRIOR-0097",
+    "PRIOR-0098"
+   ],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "S1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "S1",
+   "duplicate_of": "closure:S1",
+   "merged_into": "closure:S1"
+  },
+  {
+   "id": "clarity-b:S2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "These are frozen audit fields, not page text.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "S2"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "S2",
+   "duplicate_of": "closure:S2",
+   "merged_into": "closure:S2"
+  },
+  {
+   "id": "clarity-b:V1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The wording was replaced in the earlier release. The attributes are not used by the app or public-view code I searched, and evidence nodes contain neither attribute. Root's rendered check still has to confirm this on the built pages.",
+   "affected_ids": [
+    "C08",
+    "C11",
+    "S1582_TR_oppose_04"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "V1"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "pilot/src/app.jsx",
+     "locator": "pilot/src/app.jsx"
+    },
+    {
+     "path": "pilot/public-view.mjs",
+     "locator": "pilot/public-view.mjs"
+    }
+   ],
+   "reading_limit": "Searched the source code. Did not open rendered pages.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "V1",
+   "duplicate_of": "closure:V1",
+   "merged_into": "closure:V1"
+  },
+  {
+   "id": "clarity-b:V2",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The note-id labels occur only in claims notes_html. Evidence nodes have none, and a search of the built public pages for one label found nothing. The direction words carry no new evidence. Root's rendered check still has to confirm the coding app.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "V2"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "content.json",
+     "locator": "content.json"
+    },
+    {
+     "path": "public/arguments",
+     "locator": "public/arguments"
+    }
+   ],
+   "reading_limit": "One label searched in built public pages. The coding app was not run.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "V2",
+   "duplicate_of": "closure:V2",
+   "merged_into": "closure:V2"
+  },
+  {
+   "id": "clarity-b:G1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The listed definitions give ordinary meanings and add no bill effect. I know of no error in them, and Sol read them in context. They rest on general knowledge, not the packets.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "G1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "General knowledge. Definitions were not checked against outside sources.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "G1",
+   "duplicate_of": "closure:G1",
+   "merged_into": "closure:G1"
+  },
+  {
+   "id": "clarity-b:D1",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "I read all 11 pairs. The claim statements are longer and add limits, and neither version conflicts with the other. They stay separately worded, and any later change needs a new reading.",
+   "affected_ids": [
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C13",
+    "C14",
+    "C17",
+    "C20",
+    "C27",
+    "C28"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-b.json",
+     "locator": "D1"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "D1",
+   "duplicate_of": "closure:D1",
+   "merged_into": "closure:D1"
+  },
+  {
+   "id": "clarity-c:HR4405_UNN_oppose_02",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The lineage entry matches nothing and is not displayed.",
+   "affected_ids": [
+    "HR4405_UNN_oppose_02"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-c.json",
+     "locator": "HR4405_UNN_oppose_02"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-LINEAGE",
+   "duplicate_of": "closure:C-LINEAGE",
+   "merged_into": "closure:C-LINEAGE"
+  },
+  {
+   "id": "clarity-c:2",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The shared note names this reason but was missing from its page. Its 19 percent cap, Section 301 and Nicaragua facts apply to Malaysia's promise, and C09 gives only a general version. The note text and both of its displayed evidence fragments are now exact copies of those on SJRes88_UNC_oppose_02 to 05: the cap in support and Section 301 in strength. The first patch missed the strength fragment because my builder copied support fragments only, and an independent check found the gap. The note intro is hidden on all five pages, as on 02 to 05. This adds visible information, so it is judgment-relevant.",
+   "affected_ids": [
+    "SJRes88_UNC_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0004",
+    "CP0307",
+    "CPS1-0001"
+   ],
+   "origins": [
+    {
+     "path": "clarity-c.json",
+     "locator": "note_not_on_every_page_in_set"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "SJRes88_UNC_oppose_02.notes_html",
+     "locator": "SJRes88_UNC_oppose_02.notes_html"
+    },
+    {
+     "path": "SJRES88_C09 scope",
+     "locator": "SJRES88_C09 scope"
+    }
+   ],
+   "reading_limit": "Copied approved text. Did not reread its sources.",
+   "comparable_scope": "All five named reasons checked. Only 06 lacked the note. The 06 node now matches 02 in every destination for the shared-note fragments.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-NOTE",
+   "duplicate_of": "closure:C-NOTE",
+   "merged_into": "closure:C-NOTE"
+  },
+  {
+   "id": "clarity-c:3",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The C input had no overrides. Current nodes do carry objection_html on some claims, and this patch covers those fields.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-c.json",
+     "locator": "override_keys_absent"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-OVERRIDES",
+   "duplicate_of": "closure:C-OVERRIDES",
+   "merged_into": "closure:C-OVERRIDES"
+  },
+  {
+   "id": "clarity-c:HR5408_C01",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "“This route applies only to a first contract” is plain, and “route” adds no effect here. I agree with Sol. No patch.",
+   "affected_ids": [
+    "HR5408_C01"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-c.json",
+     "locator": "HR5408_C01"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "Read the cited fields and logs. No wider source reading.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "C-ROUTE",
+   "duplicate_of": "closure:C-ROUTE",
+   "merged_into": "closure:C-ROUTE"
+  },
+  {
+   "id": "clarity-c:5",
+   "classification": "no_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "The listed definitions give ordinary meanings and add no bill effect. I know of no error in them, and Sol read them in context. They rest on general knowledge, not the packets.",
+   "affected_ids": [
+    "release"
+   ],
+   "patch_ids": [],
+   "origins": [
+    {
+     "path": "clarity-c.json",
+     "locator": "review_of_general_language_explanations"
+    }
+   ],
+   "source_locators": [],
+   "reading_limit": "General knowledge. Definitions were not checked against outside sources.",
+   "comparable_scope": "Not a shared-cause item.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "G1",
+   "duplicate_of": "closure:G1",
+   "merged_into": "closure:G1"
+  },
+  {
+   "id": "retained:R1",
+   "classification": "confirmed_defect",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "I decided this independently and agree with retirement. The stated reason is that people are worth protecting. CBP's priority across nationality and status is a fact about rescue practice, and it does not show listening, understanding or acceptance. The literal statement “to be tolerant toward all kinds of people” could stretch to cover it, but the procedure's boundary says general compassion alone is not enough. Equal protection fits Universalism – Concern, where S2_UNC_support_10 keeps the rescue consideration. A new mechanism would be invention. This is a corpus eligibility decision and assigns no coding answer.",
+   "affected_ids": [
+    "S2_UNT_support_05"
+   ],
+   "patch_ids": [
+    "CP0318"
+   ],
+   "origins": [
+    {
+     "path": "retained.json",
+     "locator": "R1"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "input/s2/sources/f8d29ff6ac9f27cee6028ee6bd6f0a80fc1f4e913dbf06275720985524dfca22.txt via R1 source_check",
+     "locator": "input/s2/sources/f8d29ff6ac9f27cee6028ee6bd6f0a80fc1f4e913dbf06275720985524dfca22.txt via R1 source_check"
+    },
+    {
+     "path": "harness/prompts/common.md Universalism – Tolerance boundary",
+     "locator": "harness/prompts/common.md Universalism – Tolerance boundary"
+    }
+   ],
+   "reading_limit": "Relied on the R1 source check for the CBP page.",
+   "comparable_scope": "I read all active Tolerance support titles and conclusions. S2_UNT_support_04 is the nearest: it says treating people as worthy of care puts acceptance into practice, and it pairs help with nonjudgmental victim services and addresses disagreement over entry or stay. I leave it for human coding (see N-UNT04). S1582_UNT_support_03's response and gap already raise the point.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "R1",
+   "duplicate_of": "closure:R1",
+   "merged_into": "closure:R1"
+  },
+  {
+   "id": "retained:R2",
+   "classification": "genuine_uncertainty",
+   "status": "closed",
+   "disposition": "merged",
+   "rationale": "No statutory error is confirmed. (A) requires 48 hours' notice subject to (C), and (C) does not itself state a notice period. So 'faces a delay' stated more than the page's evidence settled. The page now states the (C) route and the text's silence, with no invented immediate exception. Later readings agree that notice applies, but they are outside the cutoff and are not cited on the page: the Fed proposal, FR 2026-19860, and the OCC final rule, FR 2026-21706. I read their notice passages myself. Whether the remaining supervision structure is a societal-security reason stays with coders.",
+   "affected_ids": [
+    "S1582_SES_oppose_06"
+   ],
+   "patch_ids": [
+    "CP0234"
+   ],
+   "origins": [
+    {
+     "path": "retained.json",
+     "locator": "R2"
+    }
+   ],
+   "source_locators": [
+    {
+     "path": "added-sources/s1582/evidence/bill_text.txt §7(e)(1)(A),(C); §7(e)(2)(A),(C)",
+     "locator": "added-sources/s1582/evidence/bill_text.txt §7(e)(1)(A),(C); §7(e)(2)(A),(C)"
+    },
+    {
+     "path": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm",
+     "locator": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm"
+    },
+    {
+     "path": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm",
+     "locator": "Verification only, outside the cutoff: https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm"
+    }
+   ],
+   "reading_limit": "Read the notice passages of the two notices, not the whole notices. The text alone does not resolve the question, and no court reading is in the record.",
+   "comparable_scope": "Only this active argument uses the 48-hour wording. S1582_SES_support_02 quotes the enforcement clause for the other side; I read that passage and left it.",
+   "author": "Opus 5.5 High",
+   "author_finding_id": "R2",
+   "qualifications": [
+    {
+     "id": "S1582_SES_oppose_06",
+     "field": "pro_html",
+     "text": "<p><span class=\"lbl\">Point 6</span> The bill gives one U.S. state's supervision nationwide reach with only a conditional federal backup.</p><ul><li class=\"because\"><span class=\"lbl\">Because</span> “The bill would permit a nonbank issuer with under $10 billion in outstanding stablecoins to opt in to a state regulatory regime and operate nationally.” <a href=\"https://web.archive.org/web/20261029214851/https://www.congress.gov/crs_external_products/IN/PDF/IN12553/IN12553.5.pdf\" title=\"Congressional Research Service, report IN12553, July 18, 2025\">[25]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> A federal waiver can keep larger issuers in that system too. Section 4(d)(3) allows an issuer “with a consolidated total outstanding issuance of more than $10,000,000,000 to remain solely supervised by a State payment stablecoin regulator.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” <a href=\"https://web.archive.org/web/20261029214535/https://www.congress.gov/crs_external_products/IF/PDF/IF12984/IF12984.3.pdf\" title=\"Congressional Research Service, report IF12984, June 9, 2025\">[2]</a> CRS is the Congressional Research Service, which does research for Congress.</li><li class=\"because\"><span class=\"lbl\">Because</span> Without an agreement allowing routine Federal Reserve participation, section 7's emergency enforcement route for the Federal Reserve and Comptroller requires “unusual and exigent circumstances” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> and “not less than 48 hours' prior written notice to the applicable State payment stablecoin regulator” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. The clause for each regulator is “Subject to subparagraph (C)” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, which lets these regulators restrict an issuer by directive after finding a serious risk during those circumstances. The bill's text does not separately state a notice period for those directives. This backup is a new federal power, so the concern is not that the bill reduces existing federal authority. The concern is that national reach raises the stakes of these limits.</li><li class=\"note\"><span class=\"lbl\">Note</span> Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> does not supply equal staffing or remove the federal notice requirement.</li><li class=\"so\"><span class=\"lbl\">So</span> A failure of local supervision can expose payments nationwide while the new federal backup is limited by these conditions and can face a notice period. Giving national reach to that weak point can strain the federal government's ability to contain a fast threat.</li></ul>"
+    }
+   ],
+   "duplicate_of": "closure:R2",
+   "merged_into": "closure:R2"
+  }
+ ],
+ "supersedes": {
+  "path": "output/closure/final_receipt/author_receipt_101_superseded.json",
+  "original_sha256": "4add09aa0da554ce17da4dac2b08d943e4e86c665e8ac9b3167fc03b148aec21"
+ },
+ "statement": "I approve as final author the exact prose and dispositions in this candidate: 101 findings, of which 63 are authored rows and 38 are raw-origin duplicates merged into or marked as duplicates of authored rows, and 422 patches. I checked that every authored row keeps my class, disposition, rationale, reading limit and comparable scope, with N-PROCON's comparable scope as in supplement 2. I checked that my 321 content patches are byte-identical and that every merge or duplicate targets an unmerged finding of the same class that covers its records. I also checked that R2's qualification text equals current content, that the binding recomputed with publicationBinding matches, including gate sha 0e60135d, and that the inventory and finding-source hashes match. Statuses are closed as proposed final dispositions. This receipt does not verify them independently. Refreshed after the finding-source index repair. I compared the new candidate with the frozen one at site commit 2c6e3a7: only finding_sources_sha256 differs. Binding, inventory sources, all 101 findings and dispositions, all 422 patches, coverage, mandatory arguments and banned phrases are unchanged. In the repaired index, the 31 source hashes match review-inputs, every one of the 153 rows resolves to a current finding with its locator present in its source, and every declared origin of all 101 findings is indexed.",
+ "conditions": "Install only after Sol 6.1 Max's final semantic and disposition receipt passes for this exact binding. Any change to content, procedure, mapping, implementation, inventory or finding sources voids this receipt and needs a new one.",
+ "limits": "I did not run the full gate, the build or the tests. I did not compare the copied review-inputs Markdown files byte for byte with my supplements. Source reading limits are those recorded per finding."
+}
