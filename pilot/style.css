@@ -32,7 +32,7 @@ blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid var(--line)}
 .toolbar button:hover{border-color:var(--line)}
 .tools-menu{position:relative;margin:0}
 .tools-menu>summary{font-size:.9rem;padding:.35rem .55rem;color:var(--blue)}
-.tools-list{position:absolute;right:0;top:100%;z-index:10;min-width:190px;display:flex;flex-direction:column;align-items:stretch;padding:.5rem;background:var(--page);border:1px solid var(--line);border-radius:4px;box-shadow:0 5px 16px #0001}
+.tools-list{position:absolute;right:0;top:100%;z-index:10;min-width:190px;max-height:calc(100dvh - 9rem);overflow-y:auto;display:flex;flex-direction:column;align-items:stretch;padding:.5rem;background:var(--page);border:1px solid var(--line);border-radius:4px;box-shadow:0 5px 16px #0001}
 .tools-list button{text-align:left}
 .layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,350px);gap:2.5rem;max-width:1460px;margin:auto;padding:2.5rem 2rem}
 .reader{min-width:0;align-self:start}
