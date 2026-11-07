@@ -1,6 +1,6 @@
 import {render} from 'preact';
 import {useEffect,useRef,useState} from 'preact/hooks';
-import {validateContent,validateState,billFor,nodes,paths,claimAncestors,claimUsers,backgroundFact,codingOrder,nextCursor,newState,editState,effective,basis,pageComplete,progress,valueResult,strengthResult,comparisonBasis,csvExport,stable} from './core.mjs';
+import {validateContent,validateState,billFor,nodes,paths,claimAncestors,claimUsers,backgroundFact,codingOrder,currentCursor,nextCursor,newState,editState,effective,basis,pageComplete,progress,valueResult,strengthResult,comparisonBasis,csvExport,stable} from './core.mjs';
 import {connect,ConflictError,keepDraft,readDraft,clearDraft} from './storage.mjs';
 import {readingHTML,strengthEvidence,displayBackground} from './evidence.mjs';
 import {resumePrevious} from './resume.mjs';
@@ -99,7 +99,7 @@ function App({content,service}){
  }
  function showIntro(page){setIntro(page);setHistoryOpen(false);setNetwork(false);window.scrollTo({top:0});}
  function jump(id){if(backgroundFact(content,id)){showIntro(id);return;}const cursor=current.current.order.indexOf(id);if(cursor>=0){act({type:'cursor',cursor});setIntro(null);setHistoryOpen(false);window.scrollTo({top:0});}}
- function beginCoding(){if(intro==='bill'&&state.order[state.cursor].startsWith('bill:'))navigate(1);else if(backgroundFact(content,state.order[state.cursor])){const cursor=nextCursor(content,state,1);if(cursor>=0)act({type:'cursor',cursor});}showIntro(null);}
+ function beginCoding(){const id=state.order[currentCursor(content,state)];if(intro==='bill'&&id.startsWith('bill:'))navigate(1);else if(backgroundFact(content,id)){const cursor=nextCursor(content,state,1);if(cursor>=0)act({type:'cursor',cursor});}showIntro(null);}
  function navigate(delta){const cursor=nextCursor(content,state,delta);if(cursor<0){if(delta<0)showIntro('bill');return;}act({type:'cursor',cursor});window.scrollTo({top:0});}
  function nextNode(id){if(act({type:'complete',id}))navigate(1);}
  async function exportRevisions(){try{const revisions=(await service.revisions(user.uid,session)).map(r=>({...r,recorded_release:recordedRelease(JSON.parse(r.payload))}));download(`${exportPrefix}-${isQA?'QA':'coding'}-backup.json`,JSON.stringify({version:content.version,procedure_revision:content.procedure.revision,release:releaseMetadata(content),recorded_release:recordedRelease(state),uid:user.uid,session,state:current.current,serverRevision:revision.current,revisions},null,2));}catch(e){setError(e.message);}}
@@ -116,7 +116,7 @@ function App({content,service}){
  if(!user)return login;
  if(!assignment?.active||!assignment.versions?.includes(content.version)||!assignment.kinds?.includes(isQA?'qa':'research'))return <main class="welcome"><h1>Reviewer access required</h1><p>This Google account has no assignment for this pilot{isQA?' QA session':''}. No coding record has been created.</p><p>{user.email}</p><p class="status">Account ID: {user.uid}</p><button onClick={signOut}>Sign out</button>{error&&<p class="error">{error}</p>}</main>;
  if(!state)return <main class="welcome"><p>Loading your private response…</p>{error&&<p class="error" role="alert">{error}</p>}</main>;
- const p=progress(content,state),currentId=state.order[state.cursor],node=nodes(content).find(n=>n.id===currentId),value=node?.value_id??(currentId.startsWith('summary:')?currentId.split(':')[1]:null),ctx=content.values.find(v=>v.id===value),sequence=codingOrder(content,state);
+ const p=progress(content,state),cursor=currentCursor(content,state),currentId=state.order[cursor],node=nodes(content).find(n=>n.id===currentId),value=node?.value_id??(currentId.startsWith('summary:')?currentId.split(':')[1]:null),ctx=content.values.find(v=>v.id===value),sequence=codingOrder(content,state);
  const isBillPage=currentId.startsWith('bill:'),bill=billFor(content,nodes(content).find(n=>n.id===intro)??node??ctx??currentId);
  const billDescription=content.bills?bill.description:`${bill.description} The bill also sets rules for repaying users and requires approved issuers to follow lawful orders to block payments.`;
  const comparison=<p class="status">{bill.comparison}</p>;
@@ -142,7 +142,7 @@ function App({content,service}){
     <>
      {network&&<Network content={content} state={state} focus={currentId} jump={jump}/>}
      {node&&backgroundFact(content,node.id)?<section><BackgroundCard content={content} state={state} fact={backgroundFact(content,node.id)} jump={jump} expanded/><nav class="navigation"><button onClick={()=>navigate(-1)}>Back</button><button class="primary" onClick={()=>navigate(1)}>Continue to shared claims</button></nav></section>:node?<NodePage key={node.id} content={content} state={state} node={node} act={act} jump={jump} next={()=>nextNode(node.id)} back={()=>navigate(-1)} canBack/>:
-      <Summary key={currentId} content={content} state={state} value={value} act={act} jump={jump} back={()=>navigate(-1)} next={()=>{if(act({type:'summary',value}))navigate(1);}} last={state.cursor===state.order.length-1}/>}
+      <Summary key={currentId} content={content} state={state} value={value} act={act} jump={jump} back={()=>navigate(-1)} next={()=>{if(act({type:'summary',value}))navigate(1);}} last={cursor===state.order.length-1}/>}
     </>}
   </main>{!intro&&!isBillPage&&<aside class="context" aria-label="Fixed bill and value context">{info}</aside>}</div>
  </>;

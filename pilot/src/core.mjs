@@ -5,7 +5,7 @@ export function invariant(test,message){if(!test)throw new Error(message);}
 export function nodes(content){return [...content.claims,...content.arguments];}
 export function billFor(content,node){
   if(!content.bills)return content.bill;
-  const target=typeof node==='string'?(node.startsWith('bill:')?{bill_id:node.slice(5)}:nodes(content).find(n=>n.id===node)??content.values.find(v=>v.id===node.replace(/^summary:/,''))):node;
+  const target=typeof node==='string'?(node.startsWith('bill:')?{bill_id:node.slice(5)}:nodes(content).find(n=>n.id===node)??content.catalog?.find(n=>n.id===node)??content.values.find(v=>v.id===node.replace(/^summary:/,''))):node;
   const id=target?.bill_id;
   const bill=content.bills.find(b=>b.id===id);
   invariant(bill,`Missing bill context for ${typeof node==='string'?node:node?.id}.`);
@@ -15,13 +15,28 @@ export function backgroundFact(content,id){return content.procedure?.background.
 export function judgedClaims(content){return content.claims.filter(c=>!backgroundFact(content,c.id));}
 // Preserve the historical randomization, including its RNG draws. Only the
 // visible sequence skips statements now supplied as sourced context.
-export function codingOrder(content,state){return state.order.filter(id=>!backgroundFact(content,id));}
+export function isRetired(content,id){return content.catalog?.some(n=>n.id===id&&n.retired)??false;}
+export function codingOrder(content,state){return state.order.filter(id=>!backgroundFact(content,id)&&!isRetired(content,id));}
+export function currentCursor(content,state){
+  if(!isRetired(content,state.order[state.cursor]))return state.cursor;
+  const visible=id=>!backgroundFact(content,id)&&!isRetired(content,id);
+  for(let i=state.cursor+1;i<state.order.length;i++)if(visible(state.order[i]))return i;
+  for(let i=state.cursor-1;i>=0;i--)if(visible(state.order[i]))return i;
+  invariant(false,'The saved progress is invalid.');
+}
 export function nextCursor(content,state,direction){
   invariant([1,-1].includes(direction),'Invalid navigation direction.');
-  for(let i=state.cursor+direction;i>=0&&i<state.order.length;i+=direction)if(!backgroundFact(content,state.order[i]))return i;
+  for(let i=currentCursor(content,state)+direction;i>=0&&i<state.order.length;i+=direction)if(!backgroundFact(content,state.order[i])&&!isRetired(content,state.order[i]))return i;
   return -1;
 }
 export function paths(node){return node.paths??node.prerequisite_paths??[{id:`${node.id}-local`,requires:[]}];}
+export function orderArguments(content,ids=content.release?.order_argument_ids){
+  if(ids===undefined)ids=content.arguments.map(a=>a.id);
+  const historical=(content.catalog??[]).filter(n=>n.retired&&n.original?.id===n.id).map(n=>n.original),byId=new Map([...content.arguments,...historical].map(a=>[a.id,a]));
+  invariant(Array.isArray(ids)&&new Set(ids).size===ids.length&&ids.every(id=>byId.has(id))&&content.arguments.every(a=>ids.includes(a.id)),'The saved randomized order does not match its recorded seed.');
+  for(const id of ids){const entry=content.catalog?.find(n=>n.id===id),argument=byId.get(id);if(entry?.retired)invariant(argument.bill_id===entry.bill_id&&argument.value_id&&['support','oppose'].includes(argument.direction),'Retirement mismatch.');}
+  return ids.map(id=>byId.get(id));
+}
 export function validateContent(content){
   invariant(content.schema_version===1,'Unsupported content schema.');
   const all=nodes(content), ids=all.map(n=>n.id);
@@ -85,6 +100,8 @@ export function validateContent(content){
     const active=new Set(content.arguments.map(a=>a.id));
     invariant(content.catalog.every(p=>p.retired?!active.has(p.id):active.has(p.id)),'Retirement mismatch.');
   }
+  orderArguments(content);
+  for(const history of content.release?.order_history??[])if(history.argument_ids!==undefined)orderArguments(content,history.argument_ids);
   return true;
 }
 export function stable(value){
@@ -144,12 +161,12 @@ export function strengthResult(content,state,value){
 }
 export function rng(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let x=n;x=Math.imul(x^(x>>>15),x|1);x^=x+Math.imul(x^(x>>>7),x|61);return ((x^(x>>>14))>>>0)/4294967296;};}
 export function shuffled(list,random){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function makeOrder(content,seed,sourceSeeds={},orderPaths=null){
-  const random=rng(seed),sequence=[];
+export function makeOrder(content,seed,sourceSeeds={},orderPaths=null,orderArgumentIds=undefined){
+  const random=rng(seed),sequence=[],orderedArguments=orderArguments(content,orderArgumentIds);
   for(const bill of content.bills?shuffled(content.bills,random):[null]){
    if(bill)sequence.push(`bill:${bill.id}`);
    const localClaims=bill?content.claims.filter(c=>c.bill_id===bill.id):content.claims;
-   const localArguments=bill?content.arguments.filter(a=>a.bill_id===bill.id):content.arguments;
+   const localArguments=bill?orderedArguments.filter(a=>a.bill_id===bill.id):orderedArguments;
    const remaining=new Set(localClaims.map(c=>c.id)),claimOrder=[];
    while(remaining.size){
     // All prerequisites first, including prerequisites on alternative paths.
@@ -169,16 +186,16 @@ export function makeOrder(content,seed,sourceSeeds={},orderPaths=null){
    for(const [version,sourceSeed] of Object.entries(sourceSeeds)){
     const spec=content.workflow.resume_sources.find(s=>s.version===version);
     invariant(spec&&Number.isInteger(sourceSeed),'The saved order refers to an invalid earlier release or seed.');
-    const subset={...content,workflow:undefined,bills:content.bills.filter(b=>spec.bill_ids.includes(b.id)),claims:content.claims.filter(n=>spec.bill_ids.includes(n.bill_id)),arguments:content.arguments.filter(n=>spec.bill_ids.includes(n.bill_id)),values:content.values.filter(n=>spec.bill_ids.includes(n.bill_id))};
+    const subset={...content,workflow:undefined,bills:content.bills.filter(b=>spec.bill_ids.includes(b.id)),claims:content.claims.filter(n=>spec.bill_ids.includes(n.bill_id)),arguments:orderedArguments.filter(n=>spec.bill_ids.includes(n.bill_id)),values:content.values.filter(n=>spec.bill_ids.includes(n.bill_id))};
     if(spec.single_bill)delete subset.bills;
-    const prior=makeOrder(subset,sourceSeed,{},orderPaths);
+    const prior=makeOrder(subset,sourceSeed,{},orderPaths,subset.arguments.map(a=>a.id));
     for(const id of spec.bill_ids)imported.set(id,[`bill:${id}`,...prior.filter(key=>!key.startsWith('bill:')&&billFor(content,key).id===id)]);
    }
    return sequence.filter(id=>id.startsWith('bill:')).flatMap(id=>imported.get(id.slice(5))??sequence.filter(key=>billFor(content,key).id===id.slice(5)));
   }
   return sequence;
 }
-export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,release:releaseMetadata(content),...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
+export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,release:releaseMetadata(content),...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)&&!isRetired(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
 export function validateState(content,s){
   invariant(s&&s.version===content.version,'This response belongs to a different frozen content version. No migration was applied.');
   invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision||content.procedure?.previous_revisions?.includes(s.procedureRevision),'This response uses a different coding procedure. No migration was applied.');
@@ -189,10 +206,17 @@ export function validateState(content,s){
     invariant(allowed.some(p=>stable(p)===stable(policy)),'The imported order policy is not in release history.');
    }
   }
-  const matchesOrder=history=>stable(s.order)===stable(makeOrder(content,s.seed,s.sourceSeeds??{},history||s.sourceOrderPaths?{...history,...s.sourceOrderPaths}:null));
-  invariant(Number.isInteger(s.seed)&&(matchesOrder(null)||(content.release?.order_history??[]).some(h=>matchesOrder(h.claim_paths))),'The saved randomized order does not match its recorded seed.');
+  if(s.sourceOrderArgumentIds!==undefined){
+   const saved=orderArguments(content,s.sourceOrderArgumentIds).map(a=>a.id),allowed=[orderArguments(content).map(a=>a.id),...(content.release?.order_history??[]).filter(h=>h.argument_ids!==undefined).map(h=>h.argument_ids)];
+   for(const bill of content.bills??[null]){
+    const local=ids=>ids.filter(id=>!bill||billFor(content,id).id===bill.id);
+    invariant(allowed.some(ids=>stable(local(ids))===stable(local(saved))),'The imported order policy is not in release history.');
+   }
+  }
+  const matchesOrder=history=>stable(s.order)===stable(makeOrder(content,s.seed,s.sourceSeeds??{},history?.claim_paths||s.sourceOrderPaths?{...history?.claim_paths,...s.sourceOrderPaths}:null,s.sourceOrderArgumentIds??history?.argument_ids));
+  invariant(Number.isInteger(s.seed)&&(matchesOrder(null)||(content.release?.order_history??[]).some(matchesOrder)),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
-  const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.values?.map(v=>v.id)??content.arguments.map(a=>a.value_id));
+  const ids=new Set([...nodes(content),...(content.catalog??[]).filter(n=>n.retired)].map(n=>n.id)),values=new Set(content.values?.map(v=>v.id)??content.arguments.map(a=>a.value_id));
   for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted'])invariant(s[key]&&typeof s[key]==='object'&&!Array.isArray(s[key]),`The saved response is missing ${key}.`);
   for(const [id,j] of Object.entries(s.judgments))invariant(ids.has(id)&&[YES,NO].includes(j.answer)&&Number.isInteger(j.revision),'The saved judgments contain an invalid answer.');
   for(const [id,n] of Object.entries(s.nodeNotes))invariant(ids.has(id)&&typeof n==='string'&&n.length<=2000,'The saved notes are invalid.');
@@ -256,6 +280,7 @@ export function csvExport(content,state){
   const q=x=>'"'+String(x??'').replaceAll('"','""')+'"';
   const rows=[['id','type','value','direction','direct_answer','effective_answer','origin','needs_reassessment','page_complete','notes','dependency_flag','content_version','procedure_revision','recorded_procedure_revision']];
   for(const n of nodes(content)){const e=effective(content,state,n.id);rows.push([n.id,backgroundFact(content,n.id)?'background':n.kind??(n.value_id?'argument':'claim'),n.value_id,n.direction,state.judgments[n.id]?.answer,e.answer,e.origin,e.stale,pageComplete(content,state,n.id),state.nodeNotes[n.id]??state.judgments[n.id]?.notes,state.flags[n.id]?.dependency,content.version]);}
+  for(const entry of (content.catalog??[]).filter(n=>n.retired)){const n=entry.original??entry;rows.push([entry.id,'retired_argument',n.value_id,n.direction,state.judgments[entry.id]?.answer,'','retired',false,false,state.nodeNotes[entry.id]??state.judgments[entry.id]?.notes,state.flags[entry.id]?.dependency,content.version]);}
   for(const value of content.values??[]){
     const result=valueResult(content,state,value.id),comparison=state.comparisons[value.id];
     rows.push([`summary:${value.id}`,'summary',value.id,'',comparison?.answer,result.outcome,'derived',comparison?comparison.basis!==comparisonBasis(content,state,value.id):false,state.summaryCompleted[value.id]===comparisonBasis(content,state,value.id),state.comparisonNotes[value.id]??comparison?.notes,'',content.version]);
