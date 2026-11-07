@@ -26,7 +26,9 @@ content.version=`s1582-pilot-20261106-${createHash('sha256').update(JSON.stringi
 // are explicit overlays, never a silent rewrite of that reviewed release.
 const procedure=await read('review/statutory_background.json');
 if(procedure.base_content_version!==content.version||procedure.base_mapping_sha256!==content.provenance.mapping_sha256)throw new Error('The statutory-background amendment does not match this frozen mapping.');
-content.procedure=procedure;
+const context=await read('review/uncontested_context.json');
+if(context.base_content_version!==content.version||context.base_mapping_sha256!==content.provenance.mapping_sha256||!context.previous_revisions.includes(procedure.revision))throw new Error('The shared-context amendment does not match this frozen mapping and procedure.');
+content.procedure={...procedure,revision:context.revision,previous_revisions:context.previous_revisions,background:[...procedure.background.map(f=>({...f,basis_revision:procedure.revision})),...context.additional_background],retained_questions:context.retained_questions,selection_rule:context.selection_rule};
 for(const addition of procedure.response_context){
  const argument=argumentsOut.find(a=>a.id===addition.argument_id);
  if(!argument)throw new Error(`Response context has an unknown argument: ${addition.argument_id}.`);
@@ -36,4 +38,4 @@ for(const addition of procedure.response_context){
 validateContent(content);
 for(const claim of content.claims)if(claimUsers(content,claim.id).length<2)throw new Error(`Claim without reuse: ${claim.id}`);
 await writeFile(new URL('content.json',import.meta.url),JSON.stringify(content,null,2)+'\n');
-console.log(`Assembled ${content.version}, procedure ${procedure.revision}: ${content.claims.length-procedure.background.length} shared questions, ${procedure.background.length} verified provisions, ${content.arguments.length} active arguments, ${catalog.length} historical IDs.`);
+console.log(`Assembled ${content.version}, procedure ${content.procedure.revision}: ${content.claims.length-content.procedure.background.length} shared questions, ${content.procedure.background.length} background items, ${content.arguments.length} active arguments, ${catalog.length} historical IDs.`);

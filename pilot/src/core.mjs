@@ -5,7 +5,7 @@ export function nodes(content){return [...content.claims,...content.arguments];}
 export function backgroundFact(content,id){return content.procedure?.background.find(f=>f.id===id);}
 export function judgedClaims(content){return content.claims.filter(c=>!backgroundFact(content,c.id));}
 // Preserve the historical randomization, including its RNG draws. Only the
-// visible sequence skips the former fact-check questions.
+// visible sequence skips statements now supplied as sourced context.
 export function codingOrder(content,state){return state.order.filter(id=>!backgroundFact(content,id));}
 export function nextCursor(content,state,direction){
   invariant([1,-1].includes(direction),'Invalid navigation direction.');
@@ -25,8 +25,10 @@ export function validateContent(content){
     invariant(new Set(background).size===background.length,'Duplicate background provision.');
     invariant(background.every(id=>claims.has(id)),'Unknown background provision.');
     for(const fact of p.background){
-      invariant(fact.statement&&fact.section&&fact.source_quote&&fact.source_refs?.length,'A verified provision needs wording, scope and source verification.');
-      invariant(paths(content.claims.find(c=>c.id===fact.id)).every(p=>!p.requires.length),'Verified statutory background cannot depend on a reviewer inference.');
+      invariant(fact.statement&&fact.source_refs?.length,'A background item needs wording and source references.');
+      if(fact.classification==='uncontested_sourced_context')invariant(fact.reason&&fact.scope_html&&fact.basis_revision,'Shared context needs a classification rationale and its qualifications.');
+      else invariant(fact.section&&fact.source_quote,'A verified provision needs its section and source verification.');
+      invariant(paths(content.claims.find(c=>c.id===fact.id)).every(p=>p.requires.every(id=>background.includes(id))),'Sourced background cannot hide a prerequisite that still needs judgment.');
     }
     const reviewed=[...background,...p.retained_questions.map(q=>q.id)];
     invariant(reviewed.length===claims.size&&new Set(reviewed).size===claims.size&&reviewed.every(id=>claims.has(id)),'Procedure audit must classify every shared claim exactly once.');
@@ -72,12 +74,12 @@ export function claimAncestors(content,nodeId){
 }
 export function claimUsers(content,claimId){return content.arguments.filter(a=>claimAncestors(content,a.id).includes(claimId));}
 export function basis(content,state,nodeId){
-  return stable(claimAncestors(content,nodeId).map(id=>backgroundFact(content,id)?[id,'verified_background',content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0, state.flags[id]?.dependency??false]));
+  return stable(claimAncestors(content,nodeId).map(id=>{const fact=backgroundFact(content,id);return fact?[id,fact.classification==='uncontested_sourced_context'?'sourced_context':'verified_background',fact.basis_revision??content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0,state.flags[id]?.dependency??false];}));
 }
 export function effective(content,state,nodeId,seen=new Set()){
   invariant(!seen.has(nodeId),`Circular dependency at ${nodeId}.`);
   const node=nodes(content).find(n=>n.id===nodeId);invariant(node,`Unknown node ${nodeId}.`);
-  // A prepared textual fact is neither a reviewer Yes nor a rejected premise.
+  // Sourced context is neither a reviewer Yes nor a rejected premise.
   // Old responses remain stored, but have no inferential role in this procedure.
   if(backgroundFact(content,nodeId))return {answer:null,origin:'background',stale:false,blocked:false,direct:state.judgments[nodeId]?.answer??null};
   const next=new Set(seen).add(nodeId);
@@ -128,7 +130,7 @@ export function makeOrder(content,seed){
 export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
 export function validateState(content,s){
   invariant(s&&s.version===content.version,'This response belongs to a different frozen content version. No migration was applied.');
-  invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision,'This response uses a different coding procedure. No migration was applied.');
+  invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision||content.procedure?.previous_revisions?.includes(s.procedureRevision),'This response uses a different coding procedure. No migration was applied.');
   invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed)),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
   const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.arguments.map(a=>a.value_id));
@@ -147,7 +149,7 @@ export function editState(content,state,action,now=new Date().toISOString()){
   if(action.type==='judgment'){
     invariant([YES,NO].includes(action.answer),'Choose Yes or No.');
     invariant(nodes(content).some(n=>n.id===action.id),'Unknown judgment ID.');
-    invariant(!backgroundFact(content,action.id),'This provision is sourced background, not a judgment question.');
+    invariant(!backgroundFact(content,action.id),'This item is sourced background, not a judgment question.');
     invariant(typeof (action.notes??'')==='string'&&(action.notes??'').length<=2000,'Notes must be at most 2,000 characters.');
     next.judgments[action.id]={answer:action.answer,notes:action.notes??'',basis:basis(content,next,action.id),at:now,revision:next.eventRevision};
   }else if(action.type==='notes'){

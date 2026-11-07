@@ -9756,7 +9756,7 @@
   },
   "version": "s1582-pilot-20261106-8f9bb0aef314",
   "procedure": {
-    "revision": "statutory-background-20261106-v1",
+    "revision": "uncontested-context-20261107-v1",
     "base_content_version": "s1582-pilot-20261106-8f9bb0aef314",
     "base_mapping_sha256": "f47f3b086fea8ba2ef5c259b3a892105e32b47346b4ed61437872df25a44adbc",
     "verified_at": "2026-11-06",
@@ -9816,7 +9816,8 @@
             "locator": "Section 4. Citation [SES 4]; exact excerpt: money received under repurchase agreements, with the permitted payment stablecoin issuer acting as a seller of securities"
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C05",
@@ -9852,7 +9853,8 @@
             "locator": "Citation [UNC 13]; exact excerpt: assets in segregated accounts would fall short of what is needed for 1:1 redemption."
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C06",
@@ -9888,7 +9890,8 @@
             "locator": "Citation [SES 13]; exact excerpt: The subordination of administrative claims to the shortfall claims may increase the likelihood that the estate will become administratively insolvent or that a reorganization of the debtor issuer will not be feasible."
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C07",
@@ -9919,7 +9922,8 @@
             "locator": "Section 10. Citation [SES 4]; exact excerpt: shall not be subject to any requirement relating to the separation of such cash from the property of the applicable depository institution"
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C08",
@@ -9970,7 +9974,8 @@
             "locator": "Citation [UNC 38]; exact excerpt: It would normally follow then that the automatic stay would not apply to assets not included in the bankruptcy estate"
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C13",
@@ -10016,7 +10021,8 @@
             "locator": "Citation [UNT 8]; exact excerpt: held by persons with no relationship to the issuer and regardless of whether the tokens are in a custodial or non-custodial wallet."
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C14",
@@ -10042,7 +10048,8 @@
             "locator": "Section 8. Citation [UNN 2]; exact excerpt: prohibiting digital asset service providers from facilitating secondary trading of payment stablecoins issued by the foreign payment stablecoin issuer in the United States."
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C17",
@@ -10058,7 +10065,8 @@
             "locator": "Section 4. Citation [SES 4]; exact excerpt: identification and verification of account holders with the permitted payment stablecoin issuer, high-value transactions, and appropriate enhanced due diligence"
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C27",
@@ -10079,7 +10087,8 @@
             "locator": "Citation [SEP 2]; exact excerpt: reporting requirements for anti-money laundering and countering the financing of terrorism (AML/CFT) apply equally to the transmission of crypto assets."
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
       },
       {
         "id": "C20",
@@ -10095,69 +10104,392 @@
             "locator": "Section 4. Citation [UNC 3]; exact excerpt: unless the public company receives consent from the consumer, nonpublic personal information obtained from stablecoin transaction data may not be-- (aa) used to target, personalize, or rank advertising or other content; (bb) sold to any third party; or (cc) shared with non- affiliates"
           }
         ],
-        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed."
+        "reason": "The scoped proposition states an express provision in the frozen bill. No separate reviewer judgment is needed.",
+        "basis_revision": "statutory-background-20261106-v1"
+      },
+      {
+        "id": "C01",
+        "classification": "uncontested_sourced_context",
+        "category": "Sourced forecast",
+        "statement": "Compared with the law in force on July 17, 2025, S.1582's national rules and clearer legal permission would tend to increase the issuance or use of payment stablecoins at least somewhat. This claim does not say how much, how fast, or who the new users would be.",
+        "scope_html": "<p>This is an expected direction, not a forecast of size or timing. The complete arguments still need to connect the bill to a relevant effect.</p>",
+        "source_refs": [
+          {
+            "brief_id": "TR_oppose_pro",
+            "doc_id": "crs_summary",
+            "locator": "Citation [TR 15]; exact excerpt: establishes a regulatory framework for payment stablecoins"
+          },
+          {
+            "brief_id": "TR_oppose_pro",
+            "doc_id": "july_368cc5eb2c98",
+            "locator": "Citation [TR 14]; exact excerpt: mainly a diverse set of state money transmitter licensing requirements"
+          },
+          {
+            "brief_id": "UNC_oppose_pro",
+            "doc_id": "sap_01",
+            "locator": "Citation [UNC 35]; exact excerpt: removes regulatory uncertainty that has hindered innovation and competitiveness in the digital assets sector."
+          },
+          {
+            "brief_id": "TR_oppose_pro",
+            "doc_id": "new_07",
+            "locator": "Citation [TR 16]; exact excerpt: providing clear rules and promoting responsible innovation in the stablecoin market"
+          },
+          {
+            "brief_id": "UNC_oppose_pro",
+            "doc_id": "opinion_criticizing_02",
+            "locator": "Citation [UNC 36]; exact excerpt: largely stayed away from them, put off by regulatory uncertainty and crypto’s association with illicit transactions."
+          },
+          {
+            "brief_id": "TR_support_pro",
+            "doc_id": "crs_15",
+            "locator": "Citation [TR 1]; exact excerpt: Stablecoins could be issued by banks and credit unions (through subsidiaries) or nonbanks."
+          },
+          {
+            "brief_id": "UNN_support_pro",
+            "doc_id": "bill_text",
+            "locator": "Section 16. Citation [UNN 2]; exact excerpt: Entities regulated by the primary Federal payment stablecoin regulators are authorized to engage in the payment stablecoin activities and investments contemplated by this Act"
+          },
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "crs_03",
+            "locator": "Citation [SES 28]; exact excerpt: The GENIUS Act codified permission for banks to issue their own stablecoins and perform other activities, thereby strengthening certain linkages between industries."
+          },
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "july_64dd5d525563",
+            "locator": "Citation [SES 29]; exact excerpt: The passage of either bills will likely accelerate the integration of private stablecoins into the retail banking environment."
+          },
+          {
+            "brief_id": "SES_support_pro",
+            "doc_id": "july_22d0f6a9793f",
+            "locator": "Citation [SES 22]; exact excerpt: The passage of the GENIUS Act is expected to lead to rapid growth in the circulation of bank-issued dollar stablecoins."
+          }
+        ],
+        "reason": "The bank has no response disputing some added use. The cited administration statement, CRS account of codified permission, and external forecasts support this limited inference. Existing permission and uncertainty about scale and timing remain qualifications.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C02",
+        "classification": "uncontested_sourced_context",
+        "category": "Household-use context",
+        "statement": "Some of the added stablecoin use in C01 would come from ordinary households keeping or spending everyday money in payment stablecoins, as a substitute for cash or bank transaction accounts. This claim does not say how much or how soon.",
+        "scope_html": "<p>Households and businesses would have to adopt these payment methods. The evidence does not predict how many will do so, how soon, or whether a particular household will be exposed.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "july_fb1fbdfdfb66",
+            "locator": "Citation [SEP 22]; exact excerpt: used as a substitute for cash or bank transaction accounts."
+          },
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "july_64dd5d525563",
+            "locator": "Citation [SES 29]; exact excerpt: the integration of private stablecoins into the retail banking environment"
+          },
+          {
+            "brief_id": "SEP_oppose_con",
+            "doc_id": "new_03",
+            "locator": "Citation [SEP 25]; exact excerpt: a substantial number of consumers to shift their preferences toward using stablecoins and a significant number of businesses to make necessary investments to receive payments via stablecoins."
+          }
+        ],
+        "reason": "The response identifies adoption conditions and limits scale and timing; it does not contest the scoped claim that some added use could be household use. Brookings describes the payment use and AEI predicts retail integration.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C09",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional mechanism",
+        "statement": "Because reserves may be held as bank deposits, including uninsured deposits, a rush to redeem stablecoins can pull money out of banks. This claim concerns that mechanism, not its expected size. The reverse direction, from bank trouble to a stablecoin run, is background and is not needed for a Yes.",
+        "scope_html": "<p>This explains how withdrawals can reach banks. It does not predict a bank failure, the size of withdrawals, or the bill&#x27;s net effect on stability.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "july_fb1fbdfdfb66",
+            "locator": "Citation [SEP 22]; exact excerpt: Similarly, a stablecoin issuer deemed at risk of breaking the buck could lead to a rapid withdrawal of deposits at banks that otherwise were sound."
+          },
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "july_1619d6112ea4",
+            "locator": "Citation [SES 34]; exact excerpt: Stress at the bank that holds the PPSI’s uninsured deposits could trigger a stablecoin run and a stablecoin run would accelerate the deposit outflow from the already-stressed bank."
+          },
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "july_33f6e3d1eeb8",
+            "locator": "Citation [SEP 30]; exact excerpt: Moreover, allowing stablecoins to hold uninsured bank deposits creates direct two-way interconnections between the risk of banks and the risk of stablecoins."
+          },
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "new_09",
+            "locator": "Citation [SEP 31]; exact excerpt: Stablecoins directly transmit liquidity shocks to the banking system"
+          }
+        ],
+        "reason": "No point-specific response disputes the scoped withdrawal mechanism. Brookings describes it and the New York Fed source documents liquidity-driven bank-payment effects. Precautions and rules qualify the mechanism, not its possibility.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C10",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional mechanism",
+        "statement": "A serious financial shock, including the failure of a major stablecoin issuer or crypto firm, can harm people who never used stablecoins through their pensions, savings, jobs or loans. This claim concerns who can be reached, not the size or likelihood of a shock.",
+        "scope_html": "<p>The 2008 example concerns a different crisis. The complete arguments must still support the bill-to-shock link and the value-specific consequence.</p>",
+        "source_refs": [
+          {
+            "brief_id": "UNC_support_pro",
+            "doc_id": "july_ef71b96b1ea8",
+            "locator": "Citation [UNC 6]; exact excerpt: could affect pensions, savings, small business loans, and more."
+          },
+          {
+            "brief_id": "SEP_support_pro",
+            "doc_id": "july_ef71b96b1ea8",
+            "locator": "Citation [SEP 14]; exact excerpt: millions of Americans lost their homes, jobs, and retirement savings—even those who had never received a subprime loan or made risky investments."
+          }
+        ],
+        "reason": "The evidence describes how a sufficiently serious financial shock can reach nonusers; the response does not dispute this reach. It is conditional on a shock rather than a prediction that one will occur.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C12",
+        "classification": "uncontested_sourced_context",
+        "category": "Legal rule and incentive context",
+        "statement": "S.1582 bars issuers from paying holders interest or yield solely for holding or using a coin, and this removes one incentive that could otherwise draw money away from bank deposits that support lending. The claim concerns payments by issuers; it does not say all rewards are barred.",
+        "scope_html": "<p>The rule covers payments by issuers. Other firms may offer rewards. This does not establish the size of any effect on bank deposits or loans.</p>",
+        "source_refs": [
+          {
+            "brief_id": "UNC_support_pro",
+            "doc_id": "bill_text",
+            "locator": "Section 4. Citation [UNC 3]; exact excerpt: No permitted payment stablecoin issuer or foreign payment stablecoin issuer shall pay the holder of any payment stablecoin any form of interest or yield"
+          },
+          {
+            "brief_id": "UNC_support_pro",
+            "doc_id": "july_368cc5eb2c98",
+            "locator": "Citation [UNC 5]; exact excerpt: It also could draw funds away from bank deposits that underpin lending to households and businesses and are a key transmission channel for monetary policy."
+          },
+          {
+            "brief_id": "UNC_oppose_con",
+            "doc_id": "crs_07",
+            "locator": "Citation [UNC 30]; exact excerpt: GENIUS does not explicitly prevent exchanges from paying rewards on stablecoins held on their exchange"
+          }
+        ],
+        "reason": "The exact issuer-interest prohibition and the removal of that one incentive are not challenged. Exchange rewards and the small estimated credit effect limit scope and magnitude, not that one incentive is removed.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C18",
+        "classification": "uncontested_sourced_context",
+        "category": "Scoped enforcement inference",
+        "statement": "Compared with prior law, the Section 4 monitoring and reporting duties would help issuers or investigators identify at least some illegal stablecoin payments involving an issuer's own account holders that they would otherwise miss. This claim does not say the duties reach secondary-market transfers between other people, and it does not concern the legal power to stop a known payment.",
+        "scope_html": "<p>This concerns an issuer&#x27;s own account holders. It does not establish visibility into all later transfers, the legal power to block them, or that any particular crime would be detected. Existing reporting duties remain relevant to what the bill adds.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SEP_support_pro",
+            "doc_id": "new_01",
+            "locator": "Citation [SEP 4]; exact excerpt: follow the money behind the illicit fentanyl supply chain, identify and prosecute the illicit actors"
+          },
+          {
+            "brief_id": "SEP_support_pro",
+            "doc_id": "new_07",
+            "locator": "Citation [SEP 19]; exact excerpt: may aid law enforcement in disrupting these actors and prevent further victimization."
+          },
+          {
+            "brief_id": "UNC_support_con",
+            "doc_id": "new_08",
+            "locator": "Citation [UNC 18]; exact excerpt: It is unclear, however, how issuers could address their BSA/AML monitoring responsibilities once stablecoins are off-ramped to pseudonymous public blockchains, which are not subject to issuer controls."
+          },
+          {
+            "brief_id": "SES_support_con",
+            "doc_id": "july_fb1fbdfdfb66",
+            "locator": "Citation [SES 5]; exact excerpt: a stablecoin issuer cannot easily know or control who will ultimately be using its stablecoins after issuance."
+          },
+          {
+            "brief_id": "UNC_support_con",
+            "doc_id": "sep_con_new_05",
+            "locator": "Citation [UNC 19]; exact excerpt: FinCEN is not proposing to require a PPSI as part of an AML/CFT program to monitor secondary market activity"
+          },
+          {
+            "brief_id": "SEP_support_con",
+            "doc_id": "new_05",
+            "locator": "Citation [SEP 6]; exact excerpt: FinCEN is also not proposing to require PPSIs to file SARs on secondary market transactions"
+          },
+          {
+            "brief_id": "SEP_support_con",
+            "doc_id": "new_05",
+            "locator": "Citation [SEP 6]; exact excerpt: may have limited distinct insight particularly as to the parties associated with, or the purpose of, the transfer."
+          }
+        ],
+        "reason": "FinCEN describes how reports can identify illicit actors and aid disruption. The response concerns secondary-market transfers, which this own-customer claim excludes. Prior duties and the link to each named crime remain in the complete arguments; no measured future effect or guarantee is demanded.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C21",
+        "classification": "uncontested_sourced_context",
+        "category": "Legal scope and access context",
+        "statement": "S.1582 does not bar commercial companies from issuing stablecoins, privately held ones do not face the special committee test, and by removing regulatory uncertainty the bill makes this existing route more usable. Such firms still need an issuer license.",
+        "scope_html": "<p>The combination was already possible outside banking. Private companies still need an issuer license. Each argument must explain what the bill changes and why it matters.</p>",
+        "source_refs": [
+          {
+            "brief_id": "UNC_support_con",
+            "doc_id": "july_33f6e3d1eeb8",
+            "locator": "Citation [UNC 13]; exact excerpt: privately held nonfinancial companies are not prohibited from issuing stablecoins."
+          }
+        ],
+        "reason": "The response does not dispute the route. Brookings identifies the private-company scope; the route's increased usability relies on the same limited uncertainty inference in C01. The statement preserves licensing and prior legality.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C22",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional mechanism",
+        "statement": "Nonfinancial firms involved in stablecoin payments could use their existing data or other businesses to raise the costs of switching to other payment products, making those payment systems hard to leave. This claim concerns the possibility, not any one firm.",
+        "scope_html": "<p>The complete arguments address whether the bill permits, worsens or reduces this risk. A possible switching barrier does not establish any of those conclusions.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SES_support_con",
+            "doc_id": "july_33f6e3d1eeb8",
+            "locator": "Citation [SES 12]; exact excerpt: Serious risks to economic and monetary stability could arise if nonfinancial firms can take advantage of existing private data from their platforms or raise the costs of switching to other payment products."
+          },
+          {
+            "brief_id": "SES_support_con",
+            "doc_id": "july_33f6e3d1eeb8",
+            "locator": "Citation [SES 12]; exact excerpt: the system is more valuable the more participants there are"
+          },
+          {
+            "brief_id": "SES_support_con",
+            "doc_id": "july_33f6e3d1eeb8",
+            "locator": "Citation [SES 12]; exact excerpt: it is likely there will be only a few stablecoin issuers in a concentrated market."
+          }
+        ],
+        "reason": "The arguments disagree about how the bill addresses the risk, not whether firms can raise switching costs. Brookings gives the conditional mechanism. A possibility is not a prediction of this bill's effect.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C23",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional technical mechanism",
+        "statement": "Stablecoins can run on shared networks that the issuer does not control, and a network failure or outage can interrupt payments even when reserves are safe. This claim makes no statement about attack incentives and is not an adoption forecast.",
+        "scope_html": "<p>Safe reserves do not ensure a functioning payment network. The complete arguments still need to establish relevant dependence and what the bill adds.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "new_07",
+            "locator": "Citation [SEP 23]; exact excerpt: if the underlying network is congested, attacked, or otherwise unable to process transactions, transfers and issuer operations may be delayed or fail."
+          },
+          {
+            "brief_id": "SES_oppose_con",
+            "doc_id": "pro_new_02",
+            "locator": "Citation [SES 9]; exact excerpt: A disruption to the functioning of the blockchain will disrupt the execution of stablecoin transactions that are dependent on the functioning of the blockchain."
+          },
+          {
+            "brief_id": "SES_oppose_con",
+            "doc_id": "pro_new_02",
+            "locator": "Citation [SES 9]; exact excerpt: Although some risks are in the control of the stablecoin issuer, many are not."
+          },
+          {
+            "brief_id": "SES_oppose_con",
+            "doc_id": "pro_new_02",
+            "locator": "Citation [SES 9]; exact excerpt: Our work is intended as a policy-oriented risk analysis rather than an assessment of stablecoins’ desirability, long-run adoption prospects, or impact on global currency arrangements."
+          }
+        ],
+        "reason": "The source explains that network outages can interrupt dependent transfers despite safe reserves. The response targets household or essential-payment dependence, not this technical possibility.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C28",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional risk analysis",
+        "statement": "On Ethereum, under assumed growth in stablecoin activity, the reward for an attack rises without a matching rise in its cost or punishment. The source says the likelihood of these attacks may remain low under normal conditions. This claim concerns incentives, not a stated likelihood of attack, and it is not an adoption forecast. Network failure from any cause is separate context in C23.",
+        "scope_html": "<p>This is a risk analysis under assumed growth, not a forecast of adoption or attack frequency. The source&#x27;s low-normal-likelihood qualification remains part of the claim.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SES_oppose_con",
+            "doc_id": "pro_new_02",
+            "locator": "Citation [SES 9]; exact excerpt: As stablecoin transaction volume rises, the opportunity for double spends in the stablecoin increases, while there is not necessarily a corresponding increase in the punishment for conducting an attack."
+          },
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "new_07",
+            "locator": "Citation [SEP 23]; exact excerpt: The cost to mount the attack does not scale with the economic value transacted on Ethereum, but the expected reward does."
+          },
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "new_07",
+            "locator": "Citation [SEP 23]; exact excerpt: Even if the likelihood of these attacks remains low under normal conditions, the economic incentive gradient steepens with stablecoin adoption."
+          },
+          {
+            "brief_id": "SES_oppose_con",
+            "doc_id": "pro_new_02",
+            "locator": "Citation [SES 9]; exact excerpt: Our work is intended as a policy-oriented risk analysis rather than an assessment of stablecoins’ desirability, long-run adoption prospects, or impact on global currency arrangements."
+          }
+        ],
+        "reason": "The source explains attack incentives under assumed growth, while saying normal attack likelihood may remain low. The response concerns adoption and resulting exposure, not this scoped incentive mechanism.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C24",
+        "classification": "uncontested_sourced_context",
+        "category": "Conditional business-benefit context",
+        "statement": "The President's family has a stablecoin business that stands to benefit if the bill widens stablecoin use, and the ethics provisions the bill relies on do not bar the President from owning or running it. This claim does not say any official act has been influenced.",
+        "scope_html": "<p>The business existed before the vote. This does not show that any official act was influenced, or establish the size of any added benefit.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "opinion_criticizing_02",
+            "locator": "Citation [SES 41]; exact excerpt: potentially stands to benefit greatly from an expansion in their use."
+          },
+          {
+            "brief_id": "UNC_oppose_pro",
+            "doc_id": "opinion_criticizing_02",
+            "locator": "Citation [UNC 36]; exact excerpt: wouldn’t apply to the President or Vice-President"
+          },
+          {
+            "brief_id": "SES_oppose_pro",
+            "doc_id": "crs_03",
+            "locator": "Citation [SES 28]; exact excerpt: Common interpretations of the applicable conflicts of interest statute referenced in the GENIUS Act do not include blanket limitations on ownership of any asset or activity, including an implicit ban on operating a stablecoin."
+          }
+        ],
+        "reason": "No point-specific response disputes a possible business benefit from expansion or the scoped ethics interpretation. The source account and CRS analysis support those steps. Existing business activity and the separate expansion premise remain explicit.",
+        "basis_revision": "uncontested-context-20261107-v1"
+      },
+      {
+        "id": "C25",
+        "classification": "uncontested_sourced_context",
+        "category": "Scoped statutory omission",
+        "statement": "S.1582 itself does not require issuers to set up a procedure to investigate customers' complaints about transfers. This claim does not decide what other laws or contracts already provide.",
+        "scope_html": "<p>An omission from S.1582 does not mean customers have no complaint process or rights under another law or contract. Section 6 preserves other federal rights.</p>",
+        "source_refs": [
+          {
+            "brief_id": "SEP_oppose_pro",
+            "doc_id": "new_08",
+            "locator": "Citation [SEP 28]; exact excerpt: Unlike the law for other payment systems, the Act does not require issuers to establish a procedure that requires issuers to investigate consumer complaints."
+          },
+          {
+            "brief_id": "UNC_oppose_pro",
+            "doc_id": "new_01",
+            "locator": "Citation [UNC 39]; exact excerpt: no error resolution procedure"
+          },
+          {
+            "brief_id": "SEP_support_pro",
+            "doc_id": "bill_text",
+            "locator": "Section 6. Citation [SEP 3]; exact excerpt: Nothing in this Act may be construed to modify or otherwise affect any right or remedy under any Federal consumer financial law"
+          }
+        ],
+        "reason": "The consumer-law sources identify no new required complaint process in S.1582. The response preserves rights under other law; it does not dispute this scoped omission. What existing protections supply belongs in the complete arguments.",
+        "basis_revision": "uncontested-context-20261107-v1"
       }
     ],
     "retained_questions": [
       {
-        "id": "C01",
-        "reason": "Forecast that clearer legal permission increases use."
-      },
-      {
-        "id": "C02",
-        "reason": "Inference about uptake in ordinary household payment funds."
-      },
-      {
         "id": "C03",
-        "reason": "Causal inference from stablecoin growth to Bitcoin mining."
-      },
-      {
-        "id": "C09",
-        "reason": "Mechanism linking redemptions to bank withdrawals."
-      },
-      {
-        "id": "C10",
-        "reason": "Transmission of financial shocks to nonusers."
+        "reason": "The response challenges the bill-to-mining bridge with price-null findings, the distinction between trading volume and price, and off-chain trading that pays no Bitcoin block fee. The separate forecast route remains visible.",
+        "disputed_step": "Whether added stablecoin use leads to added Bitcoin mining, not merely whether mining uses resources."
       },
       {
         "id": "C11",
-        "reason": "Inference about bank funding and lending."
-      },
-      {
-        "id": "C12",
-        "reason": "The written interest ban is combined with a claim about incentives and lending."
-      },
-      {
-        "id": "C18",
-        "reason": "Inference that written reporting duties identify otherwise missed illegal payments."
+        "reason": "The response tests whether deposits used to acquire stablecoins leave local lenders with less usable funding, given redeposit, substitute funding and differing reserve choices. Hypothetical totals alone are not a rebuttal.",
+        "disputed_step": "Whether stablecoin growth reduces usable lending funds at affected local lenders after deposits move through the system."
       },
       {
         "id": "C19",
-        "reason": "Contestable prediction about the reach of future Section 9 rules."
-      },
-      {
-        "id": "C21",
-        "reason": "Legal scope combined with a claim that removing uncertainty makes the route more usable."
-      },
-      {
-        "id": "C22",
-        "reason": "Prediction about switching costs on commercial platforms."
-      },
-      {
-        "id": "C23",
-        "reason": "Technical mechanism linking network failure to payments."
-      },
-      {
-        "id": "C28",
-        "reason": "Conditional prediction about Ethereum attack incentives."
-      },
-      {
-        "id": "C24",
-        "reason": "Inference that added stablecoin use benefits the family business."
-      },
-      {
-        "id": "C25",
-        "reason": "A legal analysis of what the bill omits, rather than an express provision. Incorporation of other law and the scope of the omission need interpretation."
+        "reason": "The response tests the scope of expected secondary-market monitoring against the separate FinCEN proposal and the research-dependent Section 9 rulemaking. The proposal is non-final and does not resolve Section 9.",
+        "disputed_step": "Whether the future Section 9 standards expand monitoring beyond issuers' own customer dealings."
       }
     ],
     "response_context": [
@@ -10188,6 +10520,10 @@
       "affected_judgments": "Retained, but require reassessment where their premise basis changed. Comparisons using those judgments become stale.",
       "content_version": "Retains the frozen authority/mapping identity. The separate procedure revision identifies this amendment in new saves and exports.",
       "argument_response_edits": "Two exact replacements relocate existing quoted evidence into the responses that use it, removing pointers to responses no longer shown on background pages."
-    }
+    },
+    "previous_revisions": [
+      "statutory-background-20261106-v1"
+    ],
+    "selection_rule": "Separate judgments require genuine reuse and a substantive challenge to the exact scoped claim or a specific unresolved support gap. Adequately supported, unchallenged possibilities and mechanisms are sourced context. No background item is a reviewer Yes or proof of the complete argument."
   }
 }

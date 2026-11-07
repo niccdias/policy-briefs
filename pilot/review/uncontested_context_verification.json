@@ -1,0 +1,65 @@
+{
+  "procedure_revision": "uncontested-context-20261107-v1",
+  "status": "checks_passed",
+  "scope": "Twelve previously judged but adequately supported unchallenged claims become sourced context; three substantive shared disputes remain. Visual styling follows the existing briefs website.",
+  "checks": [
+    {
+      "name": "content_and_core",
+      "result": "passed",
+      "tests": 18
+    },
+    {
+      "name": "firestore_authorization",
+      "result": "passed",
+      "tests": 7
+    },
+    {
+      "name": "frozen_content_preservation",
+      "result": "All 79 full argument objects, all 25 mapped claim objects, all paths, notes, citations, historical catalog, bill, values and prior response attachments equal the previous published build."
+    },
+    {
+      "name": "production_record_compatibility",
+      "result": "Existing QA revision 6 and research revision 38, including all 44 immutable revisions, validate without mutation."
+    },
+    {
+      "name": "local_legacy_record",
+      "result": "Prior-procedure fixture resumes past C01; original 110-item order, historical C01 No and existing direct argument answer retained. Current C03 No saves with blank optional notes at local revision 11."
+    },
+    {
+      "name": "required_answer",
+      "result": "Unanswered reassessment cannot continue; Yes/No required."
+    },
+    {
+      "name": "layouts",
+      "result": "1440x1000, 756x900, 390x844: no horizontal overflow; context fitted or internally scrollable; navigation centered; phone arguments stack."
+    },
+    {
+      "name": "briefs_visual_match",
+      "result": "Same Schibsted Grotesk headings, Source Sans Pro body, warm background, blue links and support panels, rust response panels; existing brief CSS/config inspected."
+    },
+    {
+      "name": "local_close_and_return",
+      "result": "Closed the QA tab after server revision 11; reopened with persisted Google test sign-in and resumed the same argument at page 4/88 without a new save."
+    }
+  ],
+  "limits": [
+    "Classification used targeted passages from the existing frozen source packet, not a comprehensive new evidence review.",
+    "Human ESL clarity, coding effort and reliability gains remain untested.",
+    "No new physical second-device test; prior storage/conflict regression coverage retained.",
+    "Existing Qualtrics session and briefs unchanged."
+  ],
+  "date": "2026-11-07",
+  "base_commit": "cfb95470dc5670586e96014fdc9a665c5bb45db1",
+  "content_version": "s1582-pilot-20261106-8f9bb0aef314",
+  "counts": {
+    "shared_questions": 3,
+    "new_context_items": 12,
+    "statutory_background_items": 10,
+    "active_arguments": 79,
+    "historical_ids": 85,
+    "visible_pages": 88,
+    "preserved_order_items": 110,
+    "judged_claim_argument_uses": 15,
+    "derived_no_if_all_three_rejected": 11
+  }
+}
