@@ -67,6 +67,9 @@ title: "S.2 × Universalism – Tolerance"
 
 <details><summary>Historical IDs</summary><div id="S2_UNT_support_05"><strong>S2_UNT_support_05</strong><p>The stated reason is that people are worth protecting. CBP's priority across nationality and status shows rescue practice. No listening, understanding or acceptance mechanism is shown, and general compassion alone is not enough for Universalism – Tolerance. Adding one would invent reasoning. The rescue consideration stays active at S2_UNC_support_10, under Universalism – Concern.</p></div><div id="S2_UNT_support_06"><strong>S2_UNT_support_06</strong><p>Generic officer recordings and complaint review do not themselves establish understanding or acceptance across differences. The camera policy does not name bias; adding “could include bias” supplies an unsupported value bridge. The accountability and camera arguments under other values remain available.</p></div></details>
 <span id="S2_C20"></span>
+<span id="s2-supports-rescue-that-puts-peoples-safety-ahead-of-nationality-or-immigration-status"></span>
+<span id="supporting-evidence-15"></span>
+<span id="response-15"></span>
 
 ## Sources
 
