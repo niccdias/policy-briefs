@@ -5,6 +5,7 @@ import {validateContent,billFor,claimAncestors,nodes,stable} from './src/core.mj
 import {readingHTML,strengthEvidence,displayBackground} from './src/evidence.mjs';
 import {releaseMetadata} from './src/release.mjs';
 import {identifyRenderedRelease} from './rendered-release.mjs';
+import {assertPublicationReady} from './publication-gate.mjs';
 import {fromHtml} from 'hast-util-from-html';
 const root=new URL('../',import.meta.url),source=new URL('release/content.json',import.meta.url);
 const sha=value=>createHash('sha256').update(value).digest('hex');
@@ -71,7 +72,8 @@ export function verifyValue(content,value,text){
  return {value_id:value.id,arguments:ids.length,parts:Object.keys(found).length,sha256:sha(stable(found))};
 }
 export async function publicView({write=false}={}){
- const content=JSON.parse(await readFile(source,'utf8'));content.release={...content.release,...await identifyRenderedRelease(content)};validateContent(content);if(content.arguments.length!==503||content.values.length!==48)throw new Error('Unexpected approved release coverage.');
+ await assertPublicationReady();
+ const content=JSON.parse(await readFile(source,'utf8'));content.release={...content.release,...await identifyRenderedRelease(content)};validateContent(content);if(content.values.length!==48||content.catalog.length!==567)throw new Error('Unexpected approved release coverage.');
  const rows=[];
  for(const value of content.values){
   const route=slug(value);if(!route)throw new Error(`Missing preserved route: ${value.id}`);
@@ -79,9 +81,9 @@ export async function publicView({write=false}={}){
   const text=write?renderValue(content,value,previous):previous;if(write)await writeFile(target,text);
   rows.push(verifyValue(content,value,text));
  }
- const manifest={...releaseMetadata(content),arguments:503,values:48,catalog:content.catalog.length,rows};
+ const manifest={...releaseMetadata(content),arguments:content.arguments.length,values:content.values.length,catalog:content.catalog.length,rows};
  await mkdir(new URL('release/',import.meta.url),{recursive:true});if(write)await writeFile(new URL('release/parity.json',import.meta.url),JSON.stringify(manifest,null,2)+'\n');
- console.log(JSON.stringify({parity:'passed',arguments:503,values:48,content_id:manifest.content_id}));return manifest;
+ console.log(JSON.stringify({parity:'passed',arguments:content.arguments.length,values:content.values.length,content_id:manifest.content_id}));return manifest;
 }
 export async function verifyRenderedPublic(content){
  const rows=[];for(const value of content.values){const route=slug(value),text=await readFile(new URL(`public/arguments/${route.join('/')}.html`,root),'utf8');rows.push(verifyValue(content,value,text));if(!text.includes(`data-content-release="${content.release.content_id}"`))throw new Error(`Rendered public version mismatch: ${value.id}`);}

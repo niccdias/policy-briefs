@@ -29,6 +29,8 @@ jobs:
         run: npm ci
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config
+      - name: Require closed findings and independent release approval
+        run: node pilot/publication-gate.mjs
       - name: Generate matching public briefs from the approved release
         run: node pilot/public-view.mjs --write
       - name: Build Quartz

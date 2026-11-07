@@ -4,6 +4,8 @@ import { createHash } from 'node:crypto';
 import {validateContent} from './src/core.mjs';
 import {identifyRenderedRelease} from './rendered-release.mjs';
 import {publicView,verifyRenderedPublic} from './public-view.mjs';
+import {assertPublicationReady} from './publication-gate.mjs';
+await assertPublicationReady();
 const routes=[{route:'s1582-pilot',source:'content.json',review:'review/'}];
 try{await stat(new URL('expansion/manifest.json',import.meta.url));routes.push({route:'other-bills',source:'expansion/content.json',review:'expansion/'});}catch(e){if(e.code!=='ENOENT')throw e;}
 try{await stat(new URL('release/content.json',import.meta.url));routes.push({route:'',source:'release/content.json',review:'expansion/'});}catch(e){if(e.code!=='ENOENT')throw e;}
