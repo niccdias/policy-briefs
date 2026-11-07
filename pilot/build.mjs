@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import {validateContent} from './src/core.mjs';
 const routes=[{route:'s1582-pilot',source:'content.json',review:'review/'}];
 try{await stat(new URL('expansion/manifest.json',import.meta.url));routes.push({route:'other-bills',source:'expansion/content.json',review:'expansion/'});}catch(e){if(e.code!=='ENOENT')throw e;}
+try{await stat(new URL('expansion/all-bills.json',import.meta.url));routes.push({route:'',source:'expansion/all-bills.json',review:'expansion/'});}catch(e){if(e.code!=='ENOENT')throw e;}
 for(const {route,source,review} of routes){
 const out = new URL(`../public/coding/${route}/`, import.meta.url);
 const content = JSON.parse(await readFile(new URL(source, import.meta.url), 'utf8'));
@@ -23,6 +24,7 @@ for (const name of reviewFiles) {
 await build({entryPoints:[new URL('src/app.jsx',import.meta.url).pathname],outfile:new URL('app.js',out).pathname,bundle:true,format:'esm',target:'es2022',minify:true,jsx:'automatic',jsxImportSource:'preact'});
 let index = await readFile(new URL('index.html', import.meta.url), 'utf8');
 if(route==='other-bills')index=index.replaceAll('S.1582 coding pilot','Other bills · argument coding');
+if(route==='')index=index.replaceAll('S.1582 coding pilot','Eight-bill argument coding');
 for (const name of ['app.js', 'style.css']) {
   const reference = `./${name}`;
   if (index.split(`"${reference}"`).length !== 2) throw new Error(`Expected one ${name} reference in pilot/index.html.`);

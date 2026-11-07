@@ -17,7 +17,7 @@ export function connect(config,emulator=false,testUser='one'){
   watch:(uid,id,callback,error)=>onSnapshot(doc(db,'responses',uid,'sessions',id),{includeMetadataChanges:true},async s=>{if(!s.metadata.fromCache&&!s.metadata.hasPendingWrites){try{callback(await decodeRecord(s.exists()?s.data():null));}catch(e){error(e);}}},error),
   save:async(uid,id,version,kind,expectedRevision,state)=>{
    if(qaNetworkPaused)throw new Error('Local QA: the simulated connection is interrupted. Your draft remains in this browser.');
-   const json=JSON.stringify(state),payload=version.startsWith('other-bills-')?await encodePayload(json):json;if(payload.length>=690000)throw new Error('The response is too large to save. Export a private backup and contact the project owner.');
+   const json=JSON.stringify(state),payload=/^(other|eight)-bills-/.test(version)?await encodePayload(json):json;if(payload.length>=690000)throw new Error('The response is too large to save. Export a private backup and contact the project owner.');
    const ref=doc(db,'responses',uid,'sessions',id);
    return runTransaction(db,async tx=>{
     const current=await tx.get(ref),remote=current.exists()?current.data():null;

@@ -8,12 +8,12 @@ import {connect,ConflictError} from '../src/storage.mjs';
 import {newState,editState,judgedClaims,validateState,valueResult} from '../src/core.mjs';
 import {decodeRecord} from '../src/payload.mjs';
 
-test('a complete seven-bill response with long notes saves, reloads and conflicts without losing revisions',async()=>{
+test('a complete eight-bill response with long notes saves, reloads and conflicts without losing revisions',async()=>{
  const env=await initializeTestEnvironment({projectId:'demo-s1582-pilot',firestore:{host:'127.0.0.1',port:8089,rules:await readFile('backend/firestore.rules','utf8')}});
  const service=connect({authDomain:'localhost',appId:'local-qa'},true,'large-record');
  let unsubscribe;
  try{
-  const {user}=await service.signIn(),c=JSON.parse(await readFile('expansion/content.json','utf8'));
+  const {user}=await service.signIn(),c=JSON.parse(await readFile('expansion/all-bills.json','utf8'));
   await env.withSecurityRulesDisabled(ctx=>setDoc(doc(ctx.firestore(),'assignments',user.uid),{active:true,role:'coordinator',versions:[c.version],kinds:['qa']}));
   let state=newState(c,20261107);const note='QA only: supporting evidence with accents é, æ, 中文. '.repeat(50).slice(0,1900);
   for(const n of [...judgedClaims(c),...c.arguments]){

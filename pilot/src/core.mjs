@@ -30,6 +30,11 @@ export function validateContent(content){
     const billIds=new Set(content.bills.map(b=>b.id)),valueIds=new Set(content.values.map(v=>v.id));
     invariant(billIds.size===content.bills.length&&billIds.size>0,'Duplicate or missing bill.');
     invariant(valueIds.size===content.values.length,'Duplicate value context.');
+    if(content.workflow){
+      const sources=content.workflow.resume_sources,covered=sources.flatMap(s=>s.bill_ids);
+      invariant(new Set(sources.map(s=>s.version)).size===sources.length&&covered.length===billIds.size&&new Set(covered).size===billIds.size&&covered.every(id=>billIds.has(id)),'Earlier releases do not cover each combined bill exactly once.');
+      invariant(sources.every(s=>/^\.\/[a-z0-9-]+\/content\.json$/.test(s.url)&&/^[a-f0-9]{64}$/.test(s.sha256)&&(!s.single_bill||s.bill_ids.length===1)),'Invalid frozen source for response import.');
+    }
     invariant([...all,...content.values,...content.catalog].every(n=>billIds.has(n.bill_id)),'Unknown bill assignment.');
     for(const n of all){
       if(n.value_id)invariant(content.values.some(v=>v.id===n.value_id&&v.bill_id===n.bill_id),'Argument has a mismatched value context.');
@@ -133,7 +138,7 @@ export function strengthResult(content,state,value){
 }
 export function rng(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let x=n;x=Math.imul(x^(x>>>15),x|1);x^=x+Math.imul(x^(x>>>7),x|61);return ((x^(x>>>14))>>>0)/4294967296;};}
 export function shuffled(list,random){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function makeOrder(content,seed){
+export function makeOrder(content,seed,sourceSeeds={}){
   const random=rng(seed),sequence=[];
   for(const bill of content.bills?shuffled(content.bills,random):[null]){
    if(bill)sequence.push(`bill:${bill.id}`);
@@ -153,13 +158,25 @@ export function makeOrder(content,seed){
     sequence.push(`summary:${value}`);
   }
   }
+  if(content.workflow&&Object.keys(sourceSeeds).length){
+   const imported=new Map();
+   for(const [version,sourceSeed] of Object.entries(sourceSeeds)){
+    const spec=content.workflow.resume_sources.find(s=>s.version===version);
+    invariant(spec&&Number.isInteger(sourceSeed),'The saved order refers to an invalid earlier release or seed.');
+    const subset={...content,workflow:undefined,bills:content.bills.filter(b=>spec.bill_ids.includes(b.id)),claims:content.claims.filter(n=>spec.bill_ids.includes(n.bill_id)),arguments:content.arguments.filter(n=>spec.bill_ids.includes(n.bill_id)),values:content.values.filter(n=>spec.bill_ids.includes(n.bill_id))};
+    if(spec.single_bill)delete subset.bills;
+    const prior=makeOrder(subset,sourceSeed);
+    for(const id of spec.bill_ids)imported.set(id,[`bill:${id}`,...prior.filter(key=>!key.startsWith('bill:')&&billFor(content,key).id===id)]);
+   }
+   return sequence.filter(id=>id.startsWith('bill:')).flatMap(id=>imported.get(id.slice(5))??sequence.filter(key=>billFor(content,key).id===id.slice(5)));
+  }
   return sequence;
 }
 export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
 export function validateState(content,s){
   invariant(s&&s.version===content.version,'This response belongs to a different frozen content version. No migration was applied.');
   invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision||content.procedure?.previous_revisions?.includes(s.procedureRevision),'This response uses a different coding procedure. No migration was applied.');
-  invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed)),'The saved randomized order does not match its recorded seed.');
+  invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed,s.sourceSeeds??{})),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
   const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.values?.map(v=>v.id)??content.arguments.map(a=>a.value_id));
   for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted'])invariant(s[key]&&typeof s[key]==='object'&&!Array.isArray(s[key]),`The saved response is missing ${key}.`);

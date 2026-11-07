@@ -6,6 +6,8 @@ For each of eight bills and six personal values, these pages ask whether the val
 
 Each bill is judged as of the last time Congress voted on it. Each citation links to the original source.
 
+Authorized reviewers: [Code all eight bills](./coding/).
+
 ## Bills
 
 - [[arguments/sjres88/index|S.J.Res.88]]: a joint resolution terminating the national emergency declared to impose global tariffs
