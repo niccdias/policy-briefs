@@ -1,11 +1,55 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {assembleEvidence,readingHTML,strengthEvidence} from '../src/evidence.mjs';
 import {validateContent,validateState,newState,editState,effective,paths,claimAncestors,claimUsers,makeOrder,progress,backgroundFact,judgedClaims,codingOrder,basis,pageComplete,comparisonBasis,strengthResult} from '../src/core.mjs';
 const content=JSON.parse(await readFile(new URL('../content.json',import.meta.url),'utf8'));
 const authority=JSON.parse(await readFile(new URL('../review/authority.json',import.meta.url),'utf8'));
 const mapping=JSON.parse(await readFile(new URL('../review/mapping.json',import.meta.url),'utf8'));
 const originals=authority.pages.flatMap(p=>p.directions.flatMap(d=>d.points));
+const evidenceReview=JSON.parse(await readFile(new URL('../review/evidence_placement.json',import.meta.url),'utf8'));
+test('evidence placement preserves all source text and separates qualifications, magnitude and audit history',()=>{
+ assert.deepEqual(content.evidence_placement,assembleEvidence(content,evidenceReview));
+ assert.equal(evidenceReview.notes.length,48);
+ assert.equal(evidenceReview.notes.reduce((sum,n)=>sum+n.uses.length,0),133);
+ assert.equal(evidenceReview.gaps.length,29);
+ for(const note of evidenceReview.notes){
+  assert.equal(note.fragments.map(f=>f.body_html).join(''),note.source_body_html);
+  for(const fragment of note.fragments)assert.ok(fragment.reason);
+ }
+ const lending=content.arguments.find(a=>a.id==='S1582_UNC_support_13');
+ assert.ok(!readingHTML(content,lending,'support').includes('$2.1 billion'));
+ assert.ok(!readingHTML(content,lending,'response').includes('$2.1 billion'));
+ assert.ok(strengthEvidence(content,[lending.id]).some(e=>e.html.includes('$2.1 billion')));
+ const fraud=content.arguments.find(a=>a.id==='S1582_SEP_support_04');
+ assert.ok(readingHTML(content,fraud,'response').includes('does not propose requiring issuers'));
+ assert.ok(readingHTML(content,fraud,'support').includes('which is not an issuer duty'));
+ const selected=['S1582_UNC_support_13','S1582_UNC_oppose_09'];
+ const strength=strengthEvidence(content,selected);
+ assert.equal(strength.filter(item=>item.id==='N14.1').length,1,'Reuse must not repeat the same evidence.');
+ assert.ok(strength.every(item=>item.arguments.every(id=>selected.includes(id))));
+ for(const node of [...content.claims,...content.arguments]){
+  const reading=content.evidence_placement.nodes[node.id];
+  assert.ok(!readingHTML(content,node,'support').includes('No evidence note in the bank'));
+  assert.ok(!readingHTML(content,node,'response').includes('stated in the note below'));
+  if(node.no_point_specific_con)assert.equal(reading.response.length,0,'Qualifications must not invent a new CON.');
+ }
+ const bad=structuredClone(evidenceReview);bad.notes.pop();
+ assert.throws(()=>assembleEvidence(content,bad),/no placement/);
+ const changed=structuredClone(content);changed.arguments[0].notes_html='';
+ assert.throws(()=>assembleEvidence(changed,evidenceReview),/missing original note/);
+});
+test('moving evidence does not change judgments, assigned order, completion or comparisons',()=>{
+ const previous=structuredClone(content);delete previous.evidence_placement;
+ let state=newState(previous,20261107);
+ for(const claim of judgedClaims(previous))state=editState(previous,state,{type:'judgment',id:claim.id,answer:'yes'});
+ for(const argument of previous.arguments){state=editState(previous,state,{type:'judgment',id:argument.id,answer:'yes'});state=editState(previous,state,{type:'complete',id:argument.id});}
+ for(const value of previous.values)state=editState(previous,state,{type:'comparison',value:value.id,answer:'Pending'});
+ const before=JSON.stringify(state);assert.equal(validateState(content,state),state);
+ for(const node of [...content.claims,...content.arguments])assert.deepEqual(effective(content,state,node.id),effective(previous,state,node.id));
+ for(const value of content.values)assert.equal(comparisonBasis(content,state,value.id),comparisonBasis(previous,state,value.id));
+ assert.equal(JSON.stringify(state),before);assert.deepEqual(progress(content,state),progress(previous,state));
+});
 test('only substantive disputed bridges require a separate shared judgment',()=>{
  assert.deepEqual(judgedClaims(content).map(c=>c.id),['C03','C11','C19']);
  const prior=JSON.parse(JSON.stringify(content));prior.procedure=JSON.parse(JSON.stringify(content.procedure));

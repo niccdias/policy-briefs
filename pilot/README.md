@@ -19,6 +19,12 @@ The authority is the final reviewed S.1582 release plus the November 5 Tradition
 
 Opus 5.5 ran through the existing Claude subscription at native High effort, verified at start and end, without further delegation. All 394 staged inputs remained unchanged. The final mapping SHA-256 is `f47f3b086fea8ba2ef5c259b3a892105e32b47346b4ed61437872df25a44adbc`.
 
+## Evidence placement
+
+The November 7 `evidence-placement-20261107-v1` overlay separates source qualifications from magnitude and editorial history. Argument and response text include the qualifications that bear on their evidence or inference. The binary coding page has no separate evidence-notes or gaps panel. When both directions qualify, the strength comparison offers size, timing and reach information for accepted arguments, including relevant shared context. Reused passages appear once there. It adds no questions or automatic verdicts.
+
+`review/evidence_placement.json` accounts for all 133 note-paragraph occurrences (48 distinct passages) and 29 gap records. Mixed passages are split at recorded sentence boundaries; original wording, IDs and citations remain recoverable. Editorial routing and review history remain in that audit and the frozen mapping. The overlay does not add a CON to any argument whose reviewed response was removed. Limited grammatical and note-routing edits are declared separately. The original content fields, dependency graph, frozen version, procedure, saving and randomized order are unchanged. No answer or comparison is migrated or reset.
+
 ## Coding behavior
 
 After the guide, a separate bill overview shows the bill description, main effect and source links, then opens or resumes coding directly. The optional Background toolbar opens a library of 10 verified statutory provisions and 12 unchallenged shared statements without Yes/No questions or completion requirements. Relevant context, supporting sources, qualifications and evidence notes also appear beside each claim or argument using them. Both pages can be reopened from the toolbar. Background provisions also open from network and argument links without changing the saved position. Substantively disputed effects and interpretations remain separate judgments.
@@ -55,7 +61,7 @@ The current procedure adds three shared decisions to 79 argument judgments, grou
 
 In current software scenarios, accepting every judged shared claim derives no argument answers; rejecting all three derives No for 11 arguments, leaving 68 with an unblocked local or background-only route. These are behavior checks, not human results. All pages remain assigned.
 
-Twenty-nine evidence/inference gaps remain visible. Source reading used targeted context and quote matching, not a new comprehensive evidence review. ESL clarity and reduced effort have not been tested with coders. The app does not demonstrate reliability gains. Assess actual coding effort before expanding to another bill.
+The 29 evidence/inference gaps are accounted for in the placement audit. Inference qualifications now appear with their argument or response; the one duration-only gap appears at the strength comparison. Source reading used targeted context and quote matching, not a new comprehensive evidence review. ESL clarity and reduced effort have not been tested with coders. The app does not demonstrate reliability gains. Assess actual coding effort before expanding to another bill.
 
 The November 7 amendment uses the briefs website’s Schibsted Grotesk/Source Sans Pro fonts, warm background, blue links, rust response panels and fine rules. `review/uncontested_context_verification.json` records its checks and limits. The three remaining claims keep 15 repeated argument uses; effort and reliability gains remain untested.
 

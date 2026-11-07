@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {validateContent,claimUsers} from './src/core.mjs';
+import {assembleEvidence} from './src/evidence.mjs';
 
 const read=async name=>JSON.parse(await readFile(new URL(name,import.meta.url),'utf8'));
 const [authority,mapping,checks]=await Promise.all(['review/authority.json','review/mapping.json','review/checks.json'].map(read));
@@ -35,6 +36,7 @@ for(const addition of procedure.response_context){
  if(!argument.con_html.includes(addition.before))throw new Error(`Response relocation no longer matches ${addition.argument_id}.`);
  argument.con_html=argument.con_html.replace(addition.before,addition.after);
 }
+content.evidence_placement=assembleEvidence(content,await read('review/evidence_placement.json'));
 validateContent(content);
 for(const claim of content.claims)if(claimUsers(content,claim.id).length<2)throw new Error(`Claim without reuse: ${claim.id}`);
 await writeFile(new URL('content.json',import.meta.url),JSON.stringify(content,null,2)+'\n');

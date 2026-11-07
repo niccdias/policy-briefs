@@ -54,7 +54,8 @@ blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid var(--line)}
 .pair p:last-child,.pair ul:last-child{margin-bottom:0}
 .notes{border-left:3px solid #c7c7c7;padding:.15rem 0 .15rem .9rem;margin:1.3rem 0;font-size:.94rem}
 .notes h2{font-size:1rem;margin-top:.2rem}
-.evidence-limits h3{font-size:1rem}
+.strength-evidence>section{border-bottom:1px solid var(--line);padding:.5rem 0}
+.strength-evidence>section:last-child{border-bottom:0}
 .notes p:last-child{margin-bottom:0}
 .lbl{font-size:.76rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-right:.3em}
 .no-point-specific-con{color:var(--muted)}
