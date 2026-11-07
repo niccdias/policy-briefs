@@ -7,6 +7,8 @@ export const sha256=value=>createHash('sha256').update(value).digest('hex');
 const paragraphs=html=>html.match(/<p>[\s\S]*?<\/p>/g)??[];
 const destinations=new Set(['support','response','strength','audit']);
 const prefixLinks=(html,prefix)=>html.replace(/href="#(C\d+)"/g,`href="#${prefix}_$1"`);
+const passageText=html=>html.replace(/<[^>]+>/g,'').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/[–—]/g,'-').replace(/\s/g,'');
+const hasPassage=(original,direction,excerpt)=>passageText(original.pro_html+original.con_html+direction.main_effect_html).includes(passageText(excerpt));
 function rewriteLinks(value,prefix){
  if(typeof value==='string')return prefixLinks(value,prefix);
  if(Array.isArray(value))return value.map(v=>rewriteLinks(v,prefix));
@@ -29,7 +31,8 @@ function routeEvidence(node,originalId){
    invariant(destinations.has(f.destination)&&f.reason,`${originalId}:${index}: invalid note destination.`);
    invariant(!(f.destination==='response'&&node.no_point_specific_con),`${originalId}: evidence routing would invent a CON.`);
    if(f.destination==='audit')continue;
-   const display=f.body_html.replace(/^<strong>(?:Evidence note|Brief context note):<\/strong>\s*/,'').replace(/\s*<span class="note-sources">[\s\S]*<\/span>$/,'');
+   let display=f.body_html.replace(/^<strong>(?:Evidence note|Brief context note):<\/strong>\s*/,'').replace(/\s*<span class="note-sources">[\s\S]*<\/span>$/,'');
+   for(const replacement of node.display_replacements??[])display=display.replaceAll(replacement.before,replacement.after);
    if(display.trim())placement[f.destination].push({id:`${originalId}:note:${index}:${part}`,html:`<p>${display}${sources}</p>`,inherit:true});
   }
  });
@@ -40,10 +43,15 @@ function routeEvidence(node,originalId){
   const escaped=gap.explanation.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
   placement[gap.destination].push({id:`${originalId}:gap:${i}`,html:`<p>${escaped}</p>`,inherit:false});
  }
+ for(const [i,entry] of (node.review_evidence??[]).entries()){
+  invariant(['support','response','strength'].includes(entry.destination)&&entry.reason,`${originalId}: invalid main evidence placement.`);
+  invariant(!(entry.destination==='response'&&node.no_point_specific_con),`${originalId}: main evidence would invent a CON.`);
+  placement[entry.destination].push({id:`${originalId}:main:${i}`,html:entry.html,inherit:true});
+ }
  return placement;
 }
 
-export function assembleOtherBills(packages,historyAudit){
+export function assembleOtherBills(packages,historyAudit,recoveredRetired=[]){
  const bills=[],values=[],claims=[],args=[],catalog=[],background=[],retainedQuestions=[],evidence={revision:'evidence-placement-20261107-v1',nodes:{}},billAudit=[];
  const bankHashes=new Set();
  for(const {slug,authority,mapping,checks,review,mappingBytes} of packages){
@@ -78,7 +86,7 @@ export function assembleOtherBills(packages,historyAudit){
     invariant(!original.no_point_specific_con||r.no_point_specific_con,`${id}: an absent CON was invented.`);
     invariant(r.edits?.classification&&r.edits.reason,`${id}: no edit audit.`);
     for(const path of r.paths){
-     invariant(path.original_excerpt&&original.pro_html.includes(path.original_excerpt),`${id}: supporting path lacks an exact original passage.`);
+     invariant(path.original_excerpt&&hasPassage(original,direction,path.original_excerpt),`${id}: supporting path lacks an exact original passage.`);
      invariant(path.necessity_reason,`${id}: supporting path lacks a necessity rationale.`);
     }
     const normalized=rewriteLinks(r,prefix);
@@ -90,7 +98,7 @@ export function assembleOtherBills(packages,historyAudit){
   for(const c of mapping.claims){
    const id=newId(c.id),normalized=rewriteLinks(c,prefix);
    invariant(c.classification_reason&&c.source_refs?.length,`${id}: missing classification evidence.`);
-   invariant(c.members.every(m=>revised.has(m.point_id)&&revised.get(m.point_id)&&originalPoints.find(p=>p.point_id===m.point_id).pro_html.includes(m.original_excerpt)),`${id}: member passage is not original or active.`);
+   invariant(c.members.every(m=>revised.has(m.point_id)&&authority.pages.some(page=>page.directions.some(direction=>direction.points.some(p=>p.point_id===m.point_id&&hasPassage(p,direction,m.original_excerpt))))),`${id}: member passage is not original or active.`);
    const node={...normalized,id,bill_id:billId,kind:'claim',prerequisite_paths:c.prerequisite_paths.map(path=>({...path,id:`${prefix}_${path.id}`,requires:path.requires.map(newId)}))};
    claims.push(node);evidence.nodes[id]=routeEvidence(node,id);
    if(c.classification==='judgment')retainedQuestions.push({id,reason:c.classification_reason});
@@ -100,6 +108,12 @@ export function assembleOtherBills(packages,historyAudit){
    }
   }
   billAudit.push({slug,bill_id:billId,mapping_sha256:review.mapping_sha256,main_review:review,arguments:revised.size,retired:retirements.size,claims:mapping.claims.length});
+ }
+ for(const retired of recoveredRetired){
+  invariant(retired.retired===true&&retired.original&&retired.provenance&&retired.retirement_reason,'Recovered historical ID lacks retirement provenance.');
+  invariant(!catalog.some(c=>c.id===retired.id),'Recovered historical ID duplicates a catalog entry.');
+  invariant(bills.some(b=>b.id===retired.bill_id),'Recovered ID belongs to a different bill.');
+  catalog.push(retired);
  }
  invariant(bankHashes.size===1,'Bills came from different authority snapshots.');
  const content={schema_version:1,draft:false,bills,values,claims,arguments:args,catalog,expected_counts:{active:args.length,historical:catalog.length},provenance:{bank_sha256:[...bankHashes][0],website_base:'7b74e0004dc7d4fc177a932e4f04c6a5a969e0d0',review_model:'claude-opus-5-5',review_effort:'high',history_audit:'./review/history_audit.json',bills:billAudit}};
@@ -125,7 +139,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
   const mappingBytes=await readFile(new URL(`${slug}/mapping.json`,root));
   packages.push({slug,authority:await read(`${slug}/authority.json`),mapping:JSON.parse(mappingBytes),mappingBytes,checks:await read(`${slug}/checks.json`),review:await read(`${slug}/main_review.json`)});
  }
- const content=assembleOtherBills(packages,await read('history_audit.json'));
+ const content=assembleOtherBills(packages,await read('history_audit.json'),await read('recovered_retired_ids.json'));
  await writeFile(new URL('content.json',root),JSON.stringify(content,null,2)+'\n');
  console.log(`Assembled ${content.version}: ${content.bills.length} bills, ${content.arguments.length} arguments, ${content.procedure.retained_questions.length} shared questions, ${content.catalog.length} historical IDs.`);
 }
