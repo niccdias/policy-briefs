@@ -1,4 +1,18 @@
-# S.1582 shared-premise coding pilot
+# Eight-bill coding workflow
+
+Current coding URL: https://niccdias.github.io/policy-briefs/coding/
+
+The combined frozen version is `eight-bills-20261107-4fcde0b566e0`: 503 active arguments, 24 disputed shared questions, 128 unvoted background items, 48 value summaries and 567 historical IDs. It combines `content.json` with `expansion/content.json` without changing any argument, response, dependency or evidence wording. Regenerate deterministically with `node assemble-all-bills.mjs`, then run `npm test` and `npm run build` before publication. The combined bank is `expansion/all-bills.json`.
+
+On first use, the app copies this reviewer's authorized earlier responses of the same kind into one combined response. It verifies both source-content hashes, preserves each bill's internal randomized order, samples the eight-bill order once, and retains current versus stale judgment and comparison status. Unsent drafts are included only when they agree with the current server revision; a conflict stops import. Original sessions and immutable revisions are never rewritten. This is a one-time transfer, not ongoing synchronization between old and combined runs. Source versions and snapshot revisions remain in the private migration audit. Subsequent saves, progress and exports cover all eight bills together.
+
+The existing Firebase project and assignment are reused. The coordinator enables the combined version alongside the earlier versions; account identifiers and answers remain outside GitHub. QA remains separate through `?qa=1`. Tests cover combined content fidelity, response transfer, current and stale states, AND/OR paths, saving, conflicts and reviewer isolation. Earlier routes remain available for recovery and link to the combined workflow.
+
+Rollback: revert the unification commits after `ace4d8a695a3d4ae7ba1a3ee764f037a6630d5a4` and redeploy. Preserve every Firebase session and revision. Removing only the combined version from assignments suspends it without deleting old or new records.
+
+## Preserved S.1582 pilot record
+
+The sections below document the original pilot and its earlier verification; their pilot-only counts are historical.
 
 Pilot: https://niccdias.github.io/policy-briefs/coding/s1582-pilot/
 

@@ -8,6 +8,7 @@ import {validateContent,validateState,newState,makeOrder,nodes,editState,billFor
 import {readingHTML,strengthEvidence} from '../src/evidence.mjs';
 const bytes=await Promise.all(['content.json','expansion/content.json'].map(p=>readFile(new URL(`../${p}`,import.meta.url))));
 const originals=bytes.map(b=>JSON.parse(b)),c=assembleAllBills(...originals,bytes.map(b=>createHash('sha256').update(b).digest('hex')));
+const frozen=JSON.parse(await readFile(new URL('../expansion/all-bills.json',import.meta.url),'utf8'));
 const stamp='2026-11-07T18:00:00.000Z';
 function source(content,seed){
  let state=newState(content,seed);
@@ -26,6 +27,7 @@ function source(content,seed){
 const sources=originals.map((content,i)=>source(content,41+i));
 
 test('one eight-bill content bank preserves every argument, shared item and evidence attachment exactly',()=>{
+ assert.deepEqual(c,frozen,'The combined release must rebuild exactly from the two frozen source releases.');
  assert.ok(validateContent(c));assert.equal(c.bills.length,8);assert.equal(c.arguments.length,503);assert.equal(c.catalog.length,567);
  assert.equal(c.values.length,48);assert.equal(judgedClaims(c).length,24);assert.equal(c.procedure.background.length,128);
  const s=newState(c,1);assert.equal(codingOrder(c,s).length,583);assert.equal(new Set(s.order).size,711);
