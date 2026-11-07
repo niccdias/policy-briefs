@@ -452,12 +452,138 @@
   {
     "path": "origin-00-issues.md",
     "sha256": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:I1",
+        "locator": "I1"
+      },
+      {
+        "id": "closure:I2",
+        "locator": "I2"
+      },
+      {
+        "id": "closure:I3",
+        "locator": "I3"
+      },
+      {
+        "id": "closure:I4",
+        "locator": "I4"
+      },
+      {
+        "id": "closure:I5",
+        "locator": "I5"
+      },
+      {
+        "id": "closure:I6",
+        "locator": "I6"
+      },
+      {
+        "id": "closure:I7",
+        "locator": "I7"
+      },
+      {
+        "id": "closure:I8",
+        "locator": "I8"
+      },
+      {
+        "id": "closure:I9",
+        "locator": "I9"
+      },
+      {
+        "id": "closure:I10",
+        "locator": "I10"
+      },
+      {
+        "id": "closure:I11",
+        "locator": "I11"
+      },
+      {
+        "id": "closure:I12",
+        "locator": "I12"
+      }
+    ]
   },
   {
     "path": "origin-01-issues.md",
     "sha256": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:P1",
+        "locator": "P1"
+      },
+      {
+        "id": "closure:U1",
+        "locator": "U1"
+      },
+      {
+        "id": "closure:J2",
+        "locator": "J2"
+      },
+      {
+        "id": "closure:S2",
+        "locator": "S2"
+      },
+      {
+        "id": "closure:Q1",
+        "locator": "Q1"
+      },
+      {
+        "id": "closure:Q2",
+        "locator": "Q2"
+      },
+      {
+        "id": "closure:Q3",
+        "locator": "Q3"
+      },
+      {
+        "id": "closure:Q4",
+        "locator": "Q4"
+      },
+      {
+        "id": "closure:Q5",
+        "locator": "Q5"
+      },
+      {
+        "id": "closure:Q6",
+        "locator": "Q6"
+      },
+      {
+        "id": "closure:F2",
+        "locator": "F2"
+      },
+      {
+        "id": "closure:F3",
+        "locator": "F3"
+      },
+      {
+        "id": "closure:H1",
+        "locator": "H1"
+      },
+      {
+        "id": "closure:J1",
+        "locator": "J1"
+      },
+      {
+        "id": "closure:S1",
+        "locator": "S1"
+      },
+      {
+        "id": "closure:V1",
+        "locator": "V1"
+      },
+      {
+        "id": "closure:V2",
+        "locator": "V2"
+      },
+      {
+        "id": "closure:G1",
+        "locator": "G1"
+      },
+      {
+        "id": "closure:D1",
+        "locator": "D1"
+      }
+    ]
   },
   {
     "path": "origin-02-issues.md",
@@ -467,17 +593,72 @@
   {
     "path": "origin-03-report.md",
     "sha256": "fdb6af966ded93a52d3aa2ff1ab71cf8fd95a8ab1c2dec915378968ef91af6bb",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:G1",
+        "locator": "Glosses not taken from the packet"
+      },
+      {
+        "id": "closure:RA-RENDER",
+        "locator": "App rendering"
+      },
+      {
+        "id": "closure:RA-QUOTES",
+        "locator": "Quotations against sources"
+      },
+      {
+        "id": "closure:RA-READING",
+        "locator": "Source reading"
+      },
+      {
+        "id": "closure:RA-PLAIN",
+        "locator": "Remaining plain-language limits"
+      },
+      {
+        "id": "closure:RA-MENTIONS",
+        "locator": "Your quotation checker"
+      },
+      {
+        "id": "closure:RA-AUDIT",
+        "locator": "Display strings outside the permitted fields"
+      },
+      {
+        "id": "closure:RA-DESC",
+        "locator": "Bill descriptions"
+      }
+    ]
   },
   {
     "path": "origin-04-report.md",
     "sha256": "f123e8c8830da8af4436634df3677a2c40a9fab889d07b5fc44ab2e1fe405d4b",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:RA-AUDIT",
+        "locator": "Limits"
+      },
+      {
+        "id": "closure:RB-VALIDATOR",
+        "locator": "Validator exceptions"
+      }
+    ]
   },
   {
     "path": "origin-05-report.md",
     "sha256": "6543006886044ae73f49d41d278e4b2da845cd8cd8c0d33f617b5f08af373367",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:I8",
+        "locator": "Limits"
+      },
+      {
+        "id": "closure:G1",
+        "locator": "Limits"
+      },
+      {
+        "id": "closure:RC-SCOPES",
+        "locator": "Judged-claim scope item"
+      }
+    ]
   },
   {
     "path": "origin-06-checks.md",
@@ -497,17 +678,48 @@
   {
     "path": "origin-09-retained-issues.md",
     "sha256": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:R1",
+        "locator": "R1"
+      },
+      {
+        "id": "closure:R2",
+        "locator": "R2"
+      }
+    ]
   },
   {
     "path": "origin-10-report.md",
     "sha256": "6eaad5f07716abb217ad9c7f9a3890bde7c7ecef1c1beb83d1b73d80250a9061",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:R1",
+        "locator": "retained screen"
+      },
+      {
+        "id": "closure:R2",
+        "locator": "retained screen"
+      },
+      {
+        "id": "closure:RA-QUOTES",
+        "locator": "Limits"
+      },
+      {
+        "id": "closure:RF-SAMPLE",
+        "locator": "Limits"
+      }
+    ]
   },
   {
     "path": "origin-11-retained-review.md",
     "sha256": "5200e70736ade826130b73cb9080568e075f4aea2bd55a6dbdc2444af4a1e1f9",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:RF-SAMPLE",
+        "locator": "limits"
+      }
+    ]
   },
   {
     "path": "origin-12-comparable-review.md",
@@ -537,7 +749,12 @@
   {
     "path": "origin-17-evidence_date_findings.md",
     "sha256": "7233b32da2cf0eab0e42cc912b68a5e2b8d6176ed7393763a4008b6bf45f9628",
-    "findings": []
+    "findings": [
+      {
+        "id": "closure:I10",
+        "locator": "Result"
+      }
+    ]
   },
   {
     "path": "origin-18-priority-findings.md",
