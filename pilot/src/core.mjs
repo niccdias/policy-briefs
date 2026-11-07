@@ -93,7 +93,9 @@ export function claimAncestors(content,nodeId){
 }
 export function claimUsers(content,claimId){return content.arguments.filter(a=>claimAncestors(content,a.id).includes(claimId));}
 export function basis(content,state,nodeId){
-  return stable(claimAncestors(content,nodeId).map(id=>{const fact=backgroundFact(content,id);return fact?[id,fact.classification==='uncontested_sourced_context'?'sourced_context':'verified_background',fact.basis_revision??content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0,state.flags[id]?.dependency??false];}));
+  // New frozen runs need only changing judgment dependencies in each answer.
+  // Preserve the original S.1582 signature exactly for existing saved records.
+  return stable(claimAncestors(content,nodeId).filter(id=>!content.bills||!backgroundFact(content,id)).map(id=>{const fact=backgroundFact(content,id);return fact?[id,fact.classification==='uncontested_sourced_context'?'sourced_context':'verified_background',fact.basis_revision??content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0,state.flags[id]?.dependency??false];}));
 }
 export function effective(content,state,nodeId,seen=new Set()){
   invariant(!seen.has(nodeId),`Circular dependency at ${nodeId}.`);
@@ -122,6 +124,7 @@ export function valueResult(content,state,value){
   return result;
 }
 export function comparisonBasis(content,state,value){
+  if(content.bills)return stable(content.arguments.filter(a=>a.value_id===value).map(a=>[a.id,effective(content,state,a.id).answer,state.judgments[a.id]?.revision??0,basis(content,state,a.id)]));
   return stable(content.arguments.filter(a=>a.value_id===value).map(a=>[a.id,effective(content,state,a.id).answer,state.judgments[a.id]??null,basis(content,state,a.id)]));
 }
 export function strengthResult(content,state,value){
