@@ -1,4 +1,5 @@
 // Pure coding semantics. No authentication, storage or UI state is inferred here.
+import {releaseMetadata,recordedRelease,semanticRevision} from './release.mjs';
 export const YES='yes', NO='no';
 export function invariant(test,message){if(!test)throw new Error(message);}
 export function nodes(content){return [...content.claims,...content.arguments];}
@@ -33,7 +34,7 @@ export function validateContent(content){
     if(content.workflow){
       const sources=content.workflow.resume_sources,covered=sources.flatMap(s=>s.bill_ids);
       invariant(new Set(sources.map(s=>s.version)).size===sources.length&&covered.length===billIds.size&&new Set(covered).size===billIds.size&&covered.every(id=>billIds.has(id)),'Earlier releases do not cover each combined bill exactly once.');
-      invariant(sources.every(s=>/^\.\/[a-z0-9-]+\/content\.json$/.test(s.url)&&/^[a-f0-9]{64}$/.test(s.sha256)&&(!s.single_bill||s.bill_ids.length===1)),'Invalid frozen source for response import.');
+      invariant(sources.every(s=>/^\.\/[a-z0-9-]+\/(?:original-)?content\.json$/.test(s.url)&&/^[a-f0-9]{64}$/.test(s.sha256)&&(!s.single_bill||s.bill_ids.length===1)),'Invalid frozen source for response import.');
     }
     invariant([...all,...content.values,...content.catalog].every(n=>billIds.has(n.bill_id)),'Unknown bill assignment.');
     for(const n of all){
@@ -100,7 +101,9 @@ export function claimUsers(content,claimId){return content.arguments.filter(a=>c
 export function basis(content,state,nodeId){
   // New frozen runs need only changing judgment dependencies in each answer.
   // Preserve the original S.1582 signature exactly for existing saved records.
-  return stable(claimAncestors(content,nodeId).filter(id=>!content.bills||!backgroundFact(content,id)).map(id=>{const fact=backgroundFact(content,id);return fact?[id,fact.classification==='uncontested_sourced_context'?'sourced_context':'verified_background',fact.basis_revision??content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0,state.flags[id]?.dependency??false];}));
+  const signature=claimAncestors(content,nodeId).filter(id=>!content.bills||!backgroundFact(content,id)).map(id=>{const fact=backgroundFact(content,id);return fact?[id,fact.classification==='uncontested_sourced_context'?'sourced_context':'verified_background',fact.basis_revision??content.procedure.revision]:[id,state.judgments[id]?.answer??null,state.judgments[id]?.revision??0,state.flags[id]?.dependency??false];});
+  for(const id of [nodeId,...claimAncestors(content,nodeId)])if(semanticRevision(content,id))signature.push([id,'judgment_revision',semanticRevision(content,id)]);
+  return stable(signature);
 }
 export function effective(content,state,nodeId,seen=new Set()){
   invariant(!seen.has(nodeId),`Circular dependency at ${nodeId}.`);
@@ -108,6 +111,9 @@ export function effective(content,state,nodeId,seen=new Set()){
   // Sourced context is neither a reviewer Yes nor a rejected premise.
   // Old responses remain stored, but have no inferential role in this procedure.
   if(backgroundFact(content,nodeId))return {answer:null,origin:'background',stale:false,blocked:false,direct:state.judgments[nodeId]?.answer??null};
+  const concern=state.mappingDispositions?.[nodeId];
+  const inheritedConcern=claimAncestors(content,nodeId).some(id=>{const d=state.mappingDispositions?.[id];return d&&(d.status==='Unresolved'||d.continued);});
+  if(inheritedConcern||concern&&(concern.status==='Unresolved'||concern.continued))return {answer:null,origin:'unresolved',stale:false,blocked:false,direct:state.judgments[nodeId]?.answer??null};
   const next=new Set(seen).add(nodeId);
   // A flagged dependency requires manual review; do not silently apply the disputed edge.
   const disputed=!!state.flags[nodeId]?.dependency;
@@ -138,7 +144,7 @@ export function strengthResult(content,state,value){
 }
 export function rng(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let x=n;x=Math.imul(x^(x>>>15),x|1);x^=x+Math.imul(x^(x>>>7),x|61);return ((x^(x>>>14))>>>0)/4294967296;};}
 export function shuffled(list,random){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function makeOrder(content,seed,sourceSeeds={}){
+export function makeOrder(content,seed,sourceSeeds={},orderPaths=null){
   const random=rng(seed),sequence=[];
   for(const bill of content.bills?shuffled(content.bills,random):[null]){
    if(bill)sequence.push(`bill:${bill.id}`);
@@ -147,7 +153,7 @@ export function makeOrder(content,seed,sourceSeeds={}){
    const remaining=new Set(localClaims.map(c=>c.id)),claimOrder=[];
    while(remaining.size){
     // All prerequisites first, including prerequisites on alternative paths.
-    const ready=[...remaining].filter(id=>paths(content.claims.find(c=>c.id===id)).every(p=>p.requires.every(d=>!remaining.has(d))));
+    const ready=[...remaining].filter(id=>(orderPaths?.[id]??paths(content.claims.find(c=>c.id===id))).every(p=>p.requires.every(d=>!remaining.has(d))));
     invariant(ready.length,'Circular shared-claim dependency.');
     for(const id of shuffled(ready,random)){claimOrder.push(id);remaining.delete(id);}
    }
@@ -165,18 +171,26 @@ export function makeOrder(content,seed,sourceSeeds={}){
     invariant(spec&&Number.isInteger(sourceSeed),'The saved order refers to an invalid earlier release or seed.');
     const subset={...content,workflow:undefined,bills:content.bills.filter(b=>spec.bill_ids.includes(b.id)),claims:content.claims.filter(n=>spec.bill_ids.includes(n.bill_id)),arguments:content.arguments.filter(n=>spec.bill_ids.includes(n.bill_id)),values:content.values.filter(n=>spec.bill_ids.includes(n.bill_id))};
     if(spec.single_bill)delete subset.bills;
-    const prior=makeOrder(subset,sourceSeed);
+    const prior=makeOrder(subset,sourceSeed,{},orderPaths);
     for(const id of spec.bill_ids)imported.set(id,[`bill:${id}`,...prior.filter(key=>!key.startsWith('bill:')&&billFor(content,key).id===id)]);
    }
    return sequence.filter(id=>id.startsWith('bill:')).flatMap(id=>imported.get(id.slice(5))??sequence.filter(key=>billFor(content,key).id===id.slice(5)));
   }
   return sequence;
 }
-export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
+export function newState(content,seed){const order=makeOrder(content,seed);return {version:content.version,release:releaseMetadata(content),...(content.procedure?{procedureRevision:content.procedure.revision}:{}),seed,order,cursor:order.findIndex(id=>!backgroundFact(content,id)),judgments:{},nodeNotes:{},completed:{},flags:{},comparisons:{},comparisonNotes:{},omissions:{},summaryCompleted:{},eventRevision:0,history:[]};}
 export function validateState(content,s){
   invariant(s&&s.version===content.version,'This response belongs to a different frozen content version. No migration was applied.');
   invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision||content.procedure?.previous_revisions?.includes(s.procedureRevision),'This response uses a different coding procedure. No migration was applied.');
-  invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed,s.sourceSeeds??{})),'The saved randomized order does not match its recorded seed.');
+  if(s.sourceOrderPaths){
+   invariant(typeof s.sourceOrderPaths==='object'&&!Array.isArray(s.sourceOrderPaths),'The imported order policy is invalid.');
+   for(const [id,policy] of Object.entries(s.sourceOrderPaths)){
+    const claim=content.claims.find(c=>c.id===id),allowed=claim?[paths(claim),...(content.release?.order_history??[]).map(h=>h.claim_paths[id]).filter(Boolean)]:[];
+    invariant(allowed.some(p=>stable(p)===stable(policy)),'The imported order policy is not in release history.');
+   }
+  }
+  const matchesOrder=history=>stable(s.order)===stable(makeOrder(content,s.seed,s.sourceSeeds??{},history||s.sourceOrderPaths?{...history,...s.sourceOrderPaths}:null));
+  invariant(Number.isInteger(s.seed)&&(matchesOrder(null)||(content.release?.order_history??[]).some(h=>matchesOrder(h.claim_paths))),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
   const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.values?.map(v=>v.id)??content.arguments.map(a=>a.value_id));
   for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted'])invariant(s[key]&&typeof s[key]==='object'&&!Array.isArray(s[key]),`The saved response is missing ${key}.`);
@@ -184,11 +198,13 @@ export function validateState(content,s){
   for(const [id,n] of Object.entries(s.nodeNotes))invariant(ids.has(id)&&typeof n==='string'&&n.length<=2000,'The saved notes are invalid.');
   for(const id of [...Object.keys(s.completed),...Object.keys(s.flags)])invariant(ids.has(id),'The saved response references an unknown claim or argument.');
   for(const [id,c] of Object.entries(s.comparisons))invariant(values.has(id)&&['support','oppose','Pending'].includes(c.answer),'The saved comparison is invalid.');
+  for(const [id,d] of Object.entries(s.mappingDispositions??{}))invariant(ids.has(id)&&['No mapping change','Mapping revised','Unresolved'].includes(d.status)&&typeof d.note==='string'&&typeof d.continued==='boolean','The saved mapping disposition is invalid.');
   invariant(Number.isInteger(s.eventRevision)&&s.eventRevision>=0&&Array.isArray(s.history),'The saved revision history is invalid.');
   return s;
 }
 export function editState(content,state,action,now=new Date().toISOString()){
   const next=structuredClone(state);
+  next.release=releaseMetadata(content);
   if(content.procedure)next.procedureRevision=content.procedure.revision;
   next.eventRevision=(state.eventRevision??0)+1;
   if(action.type==='judgment'){
@@ -196,7 +212,7 @@ export function editState(content,state,action,now=new Date().toISOString()){
     invariant(nodes(content).some(n=>n.id===action.id),'Unknown judgment ID.');
     invariant(!backgroundFact(content,action.id),'This item is sourced background, not a judgment question.');
     invariant(typeof (action.notes??'')==='string'&&(action.notes??'').length<=2000,'Notes must be at most 2,000 characters.');
-    next.judgments[action.id]={answer:action.answer,notes:action.notes??'',basis:basis(content,next,action.id),at:now,revision:next.eventRevision};
+    next.judgments[action.id]={answer:action.answer,notes:action.notes??'',basis:basis(content,next,action.id),at:now,revision:next.eventRevision,release:releaseMetadata(content)};
   }else if(action.type==='notes'){
     invariant(nodes(content).some(n=>n.id===action.id),'Unknown note ID.');
     invariant(typeof action.notes==='string'&&action.notes.length<=2000,'Notes must be at most 2,000 characters.');
@@ -232,7 +248,7 @@ export function editState(content,state,action,now=new Date().toISOString()){
   }else if(action.type==='cursor'){
     invariant(Number.isInteger(action.cursor)&&action.cursor>=0&&action.cursor<state.order.length,'Invalid page.');next.cursor=action.cursor;
   }else throw new Error('Unknown action.');
-  next.history.push({action:structuredClone(action),at:now});return next;
+  next.history.push({action:structuredClone(action),at:now,release:releaseMetadata(content)});return next;
 }
 export function pageComplete(content,state,id){const saved=state.completed[id],e=effective(content,state,id);return !!saved&&saved.basis===basis(content,state,id)&&saved.answer===e.answer&&e.answer!==null;}
 export function progress(content,state){return {claims:judgedClaims(content).filter(c=>pageComplete(content,state,c.id)).length,arguments:content.arguments.filter(a=>pageComplete(content,state,a.id)).length,totalClaims:judgedClaims(content).length,totalArguments:content.arguments.length,derived:content.arguments.filter(a=>effective(content,state,a.id).origin==='derived').length};}
@@ -246,5 +262,18 @@ export function csvExport(content,state){
     rows.push([`strength:${value.id}`,'strength',value.id,'',comparison?.answer,strengthResult(content,state,value.id),'direct','','',state.comparisonNotes[value.id]??comparison?.notes,'',content.version]);
     for(const direction of ['support','oppose'])if(state.omissions[`${value.id}:${direction}`])rows.push([`omission:${value.id}:${direction}`,'omitted_reason',value.id,direction,'','','','', '',state.omissions[`${value.id}:${direction}`].text,'',content.version]);
   }
-  return rows.map((r,i)=>(i?[...r,content.procedure?.revision??'original',state.procedureRevision??'original']:r).map(q).join(',')).join('\r\n');
+  const loaded=releaseMetadata(content),recorded=recordedRelease(state),keys=['content_id','procedure_id','mapping_id','rendered_id'];
+  return rows.map((r,i)=>(i?[...r,content.procedure?.revision??'original',state.procedureRevision??'original',...keys.map(k=>loaded[k]),...keys.map(k=>recorded[k]),state.judgments[r[0]]?.release?.rendered_id??'unknown_legacy']:[...r,...keys.map(k=>`loaded_${k}`),...keys.map(k=>`recorded_${k}`),'judgment_rendered_id']).map(q).join(',')).join('\r\n');
+}
+
+// Coordinator dispositions annotate a private export; they never overwrite a vote.
+export function recordMappingDisposition(content,state,{id,status,note,continued=false,coordinator},now=new Date().toISOString()){
+ invariant(typeof coordinator==='string'&&coordinator.trim(),'A named human coordinator is required.');
+ invariant(nodes(content).some(n=>n.id===id),'Unknown mapping concern.');
+ invariant(['No mapping change','Mapping revised','Unresolved'].includes(status),'Invalid mapping disposition.');
+ invariant(typeof note==='string'&&note.trim()&&note.length<=4000,'Record the reason for the disposition.');
+ const next=structuredClone(state),record={status,note,continued:!!continued,coordinator,at:now,mapping_id:releaseMetadata(content).mapping_id,reviewed_note:state.nodeNotes[id]??''};
+ next.mappingDispositions={...next.mappingDispositions,[id]:record};next.eventRevision++;
+ next.history.push({action:{type:'mappingDisposition',id,...record},at:now,release:releaseMetadata(content)});
+ return validateState(content,next);
 }

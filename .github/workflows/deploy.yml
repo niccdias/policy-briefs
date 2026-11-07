@@ -29,11 +29,15 @@ jobs:
         run: npm ci
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config
+      - name: Generate matching public briefs from the approved release
+        run: node pilot/public-view.mjs --write
       - name: Build Quartz
-        run: npx quartz build
+        run: npm run quartz -- build
       - name: Install coding pilot dependencies
         run: npm ci --prefix pilot
-      - name: Build separate coding pilot
+      - name: Check coding semantics and preservation
+        run: npm test --prefix pilot
+      - name: Build coding view and verify shared release parity
         run: npm run build --prefix pilot
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

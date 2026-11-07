@@ -61,3 +61,8 @@ table.pc .external-icon { display: none; } // a numbered citation needs no link 
   }
 }
 .page[data-frame="default"] > #quartz-body > .sidebar.right:empty { display: none; }
+
+// Keep the closed phone navigation completely outside the reading area.
+@media all and ($mobile) {
+  .explorer.collapsed .explorer-content { display: none; }
+}

@@ -1,5 +1,11 @@
 import {claimAncestors,invariant,nodes} from './core.mjs';
 
+export const hiddenUsageSentences=[
+ ' Each argument adds its own group: poor and rural areas, local firms and farms, or ministry lenders.',
+ ' This claim is used on both sides: some arguments want more monitoring to find crime, and one fears it exposes private ties.'
+];
+export function displayBackground(node){return hiddenUsageSentences.reduce((html,sentence)=>html.replace(sentence,''),node.background_html??'');}
+
 // The reviewed wording stays frozen. This overlay changes where its evidence is read.
 export function assembleEvidence(content,review){
  invariant(review.base_content_version===content.version,'Evidence placement has a different frozen version.');

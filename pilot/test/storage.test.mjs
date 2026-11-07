@@ -13,7 +13,8 @@ test('a complete eight-bill response with long notes saves, reloads and conflict
  const service=connect({authDomain:'localhost',appId:'local-qa'},true,'large-record');
  let unsubscribe;
  try{
-  const {user}=await service.signIn(),c=JSON.parse(await readFile('expansion/all-bills.json','utf8'));
+  const {user}=await service.signIn(),c=JSON.parse(await readFile('release/content.json','utf8'));
+  c.release.rendered_id='rendered-local-QA';
   await env.withSecurityRulesDisabled(ctx=>setDoc(doc(ctx.firestore(),'assignments',user.uid),{active:true,role:'coordinator',versions:[c.version],kinds:['qa']}));
   let state=newState(c,20261107);const note='QA only: supporting evidence with accents é, æ, 中文. '.repeat(50).slice(0,1900);
   for(const n of [...judgedClaims(c),...c.arguments]){
@@ -30,6 +31,7 @@ test('a complete eight-bill response with long notes saves, reloads and conflict
   const raw=await getDoc(doc(service.db,'responses',user.uid,'sessions','large-qa'));
   assert.ok(raw.data().payload.startsWith('gzip-base64-v1:'));assert.ok(raw.data().payload.length<690000);
   assert.deepEqual(JSON.parse((await service.load(user.uid,'large-qa')).payload),state);
+  assert.equal(JSON.parse((await service.load(user.uid,'large-qa')).payload).release.rendered_id,'rendered-local-QA');
   await assert.rejects(service.save(user.uid,'large-qa',c.version,'qa',0,state),error=>error instanceof ConflictError&&error.remote.revision===1&&JSON.parse(error.remote.payload).version===c.version);
   const watched=new Promise((resolve,reject)=>{unsubscribe=service.watch(user.uid,'large-qa',row=>{if(row?.revision===2)resolve(row);},reject);});
   const changed=editState(c,state,{type:'judgment',id:judgedClaims(c)[0].id,answer:'no',notes:''});

@@ -1,28 +1,36 @@
-import {invariant,validateContent,validateState,newState,makeOrder,nodes,basis,comparisonBasis,pageComplete,backgroundFact} from './core.mjs';
+import {invariant,validateContent,validateState,newState,makeOrder,nodes,basis,comparisonBasis,pageComplete,backgroundFact,paths,stable} from './core.mjs';
+import {semanticRevision,releaseMetadata} from './release.mjs';
+import {claimAncestors} from './core.mjs';
 
 // Copy a snapshot into the combined workflow. Earlier sessions and immutable
 // revisions remain in their original documents; nothing writes back to them.
 export function importResponses(content,sources,seed,now=new Date().toISOString()){
- const next=newState(content,seed),sourceSeeds={};
+ const next=newState(content,seed),sourceSeeds={},sourceOrderPaths={};
  for(const source of sources){
   const spec=content.workflow.resume_sources.find(s=>s.version===source.content.version);
   invariant(spec,'An earlier response belongs to an unrecognized release.');
   validateState(source.content,source.state);sourceSeeds[spec.version]=source.state.seed;
-  for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted']){
-   for(const [id,value] of Object.entries(source.state[key])){
+  const choices=[null,...(source.content.release?.order_history??[]).map(h=>h.claim_paths)];
+  const policy=choices.find(h=>stable(source.state.order)===stable(makeOrder(source.content,source.state.seed,source.state.sourceSeeds??{},h||source.state.sourceOrderPaths?{...h,...source.state.sourceOrderPaths}:null)));
+  for(const claim of source.content.claims)sourceOrderPaths[claim.id]=structuredClone(source.state.sourceOrderPaths?.[claim.id]??policy?.[claim.id]??paths(claim));
+  for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted','mappingDispositions']){
+   for(const [id,value] of Object.entries(source.state[key]??{})){
+    next[key]??={};
     invariant(!Object.hasOwn(next[key],id),`Earlier responses overlap at ${id}; no answers were combined.`);
     next[key][id]=structuredClone(value);
    }
   }
  }
- next.sourceSeeds=sourceSeeds;next.order=makeOrder(content,seed,sourceSeeds);
+ next.sourceSeeds=sourceSeeds;next.sourceOrderPaths=sourceOrderPaths;next.order=makeOrder(content,seed,sourceSeeds,sourceOrderPaths);
  const stale=(version,old)=>`earlier-unreassessed:${version}:${old}`;
  for(const source of sources){
+  const changed=id=>[id,...claimAncestors(content,id)].some(node=>semanticRevision(content,node)!==semanticRevision(source.content,node));
+  const valueChanged=value=>content.arguments.filter(a=>a.value_id===value).some(a=>changed(a.id));
   for(const key of ['judgments','completed'])for(const [id,value] of Object.entries(source.state[key])){
-   next[key][id].basis=value.basis===basis(source.content,source.state,id)?basis(content,next,id):stale(source.content.version,value.basis);
+   next[key][id].basis=!changed(id)&&value.basis===basis(source.content,source.state,id)?basis(content,next,id):stale(source.content.version,value.basis);
   }
-  for(const [id,value] of Object.entries(source.state.comparisons))next.comparisons[id].basis=value.basis===comparisonBasis(source.content,source.state,id)?comparisonBasis(content,next,id):stale(source.content.version,value.basis);
-  for(const [id,value] of Object.entries(source.state.summaryCompleted))next.summaryCompleted[id]=value===comparisonBasis(source.content,source.state,id)?comparisonBasis(content,next,id):stale(source.content.version,value);
+  for(const [id,value] of Object.entries(source.state.comparisons))next.comparisons[id].basis=!valueChanged(id)&&value.basis===comparisonBasis(source.content,source.state,id)?comparisonBasis(content,next,id):stale(source.content.version,value.basis);
+  for(const [id,value] of Object.entries(source.state.summaryCompleted))next.summaryCompleted[id]=!valueChanged(id)&&value===comparisonBasis(source.content,source.state,id)?comparisonBasis(content,next,id):stale(source.content.version,value);
  }
  const byId=new Map(nodes(content).map(n=>[n.id,n]));
  next.cursor=next.order.findIndex(id=>{
@@ -34,7 +42,7 @@ export function importResponses(content,sources,seed,now=new Date().toISOString(
  if(next.cursor<0)next.cursor=next.order.length-1;
  next.eventRevision=Math.max(0,...sources.map(s=>s.state.eventRevision))+1;
  next.migration={at:now,sources:sources.map(s=>({version:s.content.version,session:s.session,serverRevision:s.revision,includesUnsentDraft:s.draft,seed:s.state.seed,order:[...s.state.order],cursor:s.state.cursor,eventRevision:s.state.eventRevision})),judgments:Object.keys(next.judgments).length};
- next.history=[{action:{type:'import',sources:next.migration.sources.map(({order,...s})=>s)},at:now}];
+ next.history=[{action:{type:'import',sources:next.migration.sources.map(({order,...s})=>s)},at:now,release:releaseMetadata(content)}];
  return validateState(content,next);
 }
 

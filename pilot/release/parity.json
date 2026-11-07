@@ -1,0 +1,299 @@
+{
+  "content_id": "approved-20261107-7a74fc8060c9a7d72b0d",
+  "procedure_id": "procedure-20261107-0efe33af2525304b",
+  "mapping_id": "mapping-fb251640bf69056b",
+  "rendered_id": "rendered-3f12b711f7191840ebcb",
+  "arguments": 503,
+  "values": 48,
+  "catalog": 567,
+  "rows": [
+    {
+      "value_id": "UNN",
+      "arguments": 10,
+      "parts": 80,
+      "sha256": "06b53b89573da4c70e2a5e7764b481712d94c42d675389c0a10a0fb394ce8d13"
+    },
+    {
+      "value_id": "UNC",
+      "arguments": 29,
+      "parts": 240,
+      "sha256": "9f25d9f25079cf6f90b0bfccf4745c904b730774621b66d894fe84ea32ba5cf2"
+    },
+    {
+      "value_id": "UNT",
+      "arguments": 8,
+      "parts": 78,
+      "sha256": "8ac92e0a001242fbaa77b82b29c2e94a248ef382c67f650479c5377b5fb4e0cc"
+    },
+    {
+      "value_id": "SEP",
+      "arguments": 9,
+      "parts": 118,
+      "sha256": "7f387e2645408e9f72f9ae106dbcb915d663b9d28246b95d3afe6e0e3e5d7304"
+    },
+    {
+      "value_id": "SES",
+      "arguments": 18,
+      "parts": 196,
+      "sha256": "30954b476f5548e07019faac1fe5a90a637682e89193a2724abf08c63b5074a6"
+    },
+    {
+      "value_id": "TR",
+      "arguments": 5,
+      "parts": 60,
+      "sha256": "29ec444dba29716fc3f05601e1e59e464cafa4bf4f4540b6c0ba79f4bc2262a4"
+    },
+    {
+      "value_id": "SJRES88_UNN",
+      "arguments": 13,
+      "parts": 104,
+      "sha256": "8ab2ae41a048cedd3c703db6806a9756f884ee562926d79fe51b54a1ba2e024f"
+    },
+    {
+      "value_id": "SJRES88_UNC",
+      "arguments": 14,
+      "parts": 120,
+      "sha256": "6c89815e8d4d0a5a49c3341dc2bf54c33fb4cfe9e4101410e507efe5e0d9e96c"
+    },
+    {
+      "value_id": "SJRES88_UNT",
+      "arguments": 9,
+      "parts": 76,
+      "sha256": "7995ab1f38d0037bd91e59692eeb10bc59083bd052ecee09b5142a1851434e93"
+    },
+    {
+      "value_id": "SJRES88_SEP",
+      "arguments": 13,
+      "parts": 86,
+      "sha256": "3f7a71470de3c6bf2b2dfb3a650fd9fc6aa1256309358bd657138e4d014615c1"
+    },
+    {
+      "value_id": "SJRES88_SES",
+      "arguments": 14,
+      "parts": 120,
+      "sha256": "4f4afa4c18229de373e761bfbdb6d87f1cf53a8e1d310976c144a1d1dc83700a"
+    },
+    {
+      "value_id": "SJRES88_TR",
+      "arguments": 6,
+      "parts": 46,
+      "sha256": "de9f4a22406142bfc74a2c889fa8f5be065b97f2b6e8d1f22041f44f9f3cf870"
+    },
+    {
+      "value_id": "HR5408_UNN",
+      "arguments": 9,
+      "parts": 64,
+      "sha256": "7c8d0e341ae6d7412017f2f981c724547be544aeaecc7bc7866625c539208818"
+    },
+    {
+      "value_id": "HR5408_UNC",
+      "arguments": 23,
+      "parts": 156,
+      "sha256": "58ccfa9fb0c85203cda9986a0eaa08fbfa3a01cef01ad9c8a6ce630b4056b211"
+    },
+    {
+      "value_id": "HR5408_UNT",
+      "arguments": 8,
+      "parts": 66,
+      "sha256": "99fb8f5d5797ff76a30077b6f7f90f6da44ade8cff41bcb0990c34bdaff5eec7"
+    },
+    {
+      "value_id": "HR5408_SEP",
+      "arguments": 13,
+      "parts": 98,
+      "sha256": "ebb72766e130532473b85d2410e4a0c84c4679bc6eef52a1d9fdea5fe199d619"
+    },
+    {
+      "value_id": "HR5408_SES",
+      "arguments": 7,
+      "parts": 86,
+      "sha256": "71948e0e17fcae0eb029e3b3efdef904f4b4721f58c1fd1e9e0dd23cbf080c96"
+    },
+    {
+      "value_id": "HR5408_TR",
+      "arguments": 9,
+      "parts": 76,
+      "sha256": "1e06edca4b0f123944adbd98a6b28c659d7c1aa6e0c40d3325cde031a76d3730"
+    },
+    {
+      "value_id": "HR131_UNN",
+      "arguments": 11,
+      "parts": 96,
+      "sha256": "02475e116900fc47cdd3d3a0d2c360c2d602fc83f8a51c3e29080cef781f1b87"
+    },
+    {
+      "value_id": "HR131_UNC",
+      "arguments": 6,
+      "parts": 88,
+      "sha256": "3e9fe9c862e4603414db9dd4cb7a0b83e45b687dd3073dcf99e87c92a0525843"
+    },
+    {
+      "value_id": "HR131_UNT",
+      "arguments": 1,
+      "parts": 26,
+      "sha256": "71e3ab72f65730ea0f561e1722c22f1ede6431f7e539c5d0d9123e3e5efe400d"
+    },
+    {
+      "value_id": "HR131_SEP",
+      "arguments": 6,
+      "parts": 76,
+      "sha256": "7a48441dd1ed8945ae51fcecc56f8f99e82f961a03566d63960a038b780fa8ad"
+    },
+    {
+      "value_id": "HR131_SES",
+      "arguments": 7,
+      "parts": 98,
+      "sha256": "6bbaae8cd92305cea8a214c483ff3cd5ac6e0f0509960c2aca65fbfa3f9a3b06"
+    },
+    {
+      "value_id": "HR131_TR",
+      "arguments": 1,
+      "parts": 38,
+      "sha256": "342d984a6b5749f211ded287ff8936fb52265ced9774be42c736c43524671446"
+    },
+    {
+      "value_id": "HR4405_UNN",
+      "arguments": 6,
+      "parts": 58,
+      "sha256": "ca4ca77607e8f046f6d6730ae22ec18582a4bb3d091f2391d1721d5bcbbd14f3"
+    },
+    {
+      "value_id": "HR4405_UNC",
+      "arguments": 9,
+      "parts": 100,
+      "sha256": "a9522982637c1a102b11a3265ac6539e33230b433c13af623ee81ec6d211e6d6"
+    },
+    {
+      "value_id": "HR4405_UNT",
+      "arguments": 4,
+      "parts": 44,
+      "sha256": "13ec30a140bf9c58b79f582359de4bf99aa69bb6abdea6e19f5100877d7292e8"
+    },
+    {
+      "value_id": "HR4405_SEP",
+      "arguments": 10,
+      "parts": 140,
+      "sha256": "97f8f5cc434629c4dce3823f24c8b7535b75f44e5b3a426fdd1496fced9c2427"
+    },
+    {
+      "value_id": "HR4405_SES",
+      "arguments": 13,
+      "parts": 152,
+      "sha256": "6c63fb29c7ac5db9582285fd24d22e12dd228d0959f6d8b44496bd4417cc3557"
+    },
+    {
+      "value_id": "HR4405_TR",
+      "arguments": 2,
+      "parts": 18,
+      "sha256": "2d1c131e126a7bd52d6a4ac834391261dde1e8b75a8a96e4a697a6d5f15e2556"
+    },
+    {
+      "value_id": "HR1834_UNN",
+      "arguments": 16,
+      "parts": 104,
+      "sha256": "5776173572802ee1523720a87c12fc8b729b142e6dbb4bf4060904c9f4aa8dcb"
+    },
+    {
+      "value_id": "HR1834_UNC",
+      "arguments": 15,
+      "parts": 184,
+      "sha256": "bda941ed28c7c825e24d3549248120b7321d56caf9181b8d0728ace79e71fae5"
+    },
+    {
+      "value_id": "HR1834_UNT",
+      "arguments": 7,
+      "parts": 80,
+      "sha256": "ae0231f5509cee2fc272c34c5f4f614655a2dda76dc847808c7d00edac61d2c3"
+    },
+    {
+      "value_id": "HR1834_SEP",
+      "arguments": 12,
+      "parts": 142,
+      "sha256": "a9b694157eb757bf29144d578383d18a6244ff6c0f74fb100505ec206e3765ee"
+    },
+    {
+      "value_id": "HR1834_SES",
+      "arguments": 15,
+      "parts": 142,
+      "sha256": "cd842232a5819d9590a1fc36d3a1a474f3709c1c2fe459fbb0fff2825fec44a4"
+    },
+    {
+      "value_id": "HR1834_TR",
+      "arguments": 13,
+      "parts": 110,
+      "sha256": "3a9835fc94f6d2a75493217e4192520e24b9c341c553d256085d4cc8cb35902b"
+    },
+    {
+      "value_id": "HR28_UNN",
+      "arguments": 5,
+      "parts": 48,
+      "sha256": "70514e5ef1231a49d710dc38d54661ae3bb2d47c56da073e4a9997d0ddbfbfee"
+    },
+    {
+      "value_id": "HR28_UNC",
+      "arguments": 10,
+      "parts": 116,
+      "sha256": "a3e8c38618b7974e447419e3d6b0b2d378177aca389157adc3441200f89165a3"
+    },
+    {
+      "value_id": "HR28_UNT",
+      "arguments": 5,
+      "parts": 78,
+      "sha256": "7a1e525caad13618994904d2717a7c6a28e8f47c215a577e982d1e1741f46019"
+    },
+    {
+      "value_id": "HR28_SEP",
+      "arguments": 7,
+      "parts": 98,
+      "sha256": "fdd55fdca2bad4a181d3263ef43ef636962369c58e882420afc18a6c2f4789ac"
+    },
+    {
+      "value_id": "HR28_SES",
+      "arguments": 2,
+      "parts": 54,
+      "sha256": "adcf85cfd3929b53b3b72d7017a6f0536a7564ae0233d6323366e4f33c6991ed"
+    },
+    {
+      "value_id": "HR28_TR",
+      "arguments": 4,
+      "parts": 44,
+      "sha256": "1ab690fb5f1db4ae7a9e8ce56d74a2fe35215b5f45e7fb2bc6ff97e944dcba64"
+    },
+    {
+      "value_id": "S2_UNN",
+      "arguments": 16,
+      "parts": 122,
+      "sha256": "601e64c85ccc5d11f3518cb679ff28df29525765b82ea36392c8c4b1a09ec2f3"
+    },
+    {
+      "value_id": "S2_UNC",
+      "arguments": 23,
+      "parts": 264,
+      "sha256": "86be49c7e98337882bd11d2a7edfca0e12015f377bd2cac52d08b0c44d89bd2a"
+    },
+    {
+      "value_id": "S2_UNT",
+      "arguments": 12,
+      "parts": 148,
+      "sha256": "3a2266fbb9c1fcdda1dced25a87c53855a6a606fba1d2b66a2c28ba3e1409c48"
+    },
+    {
+      "value_id": "S2_SEP",
+      "arguments": 17,
+      "parts": 186,
+      "sha256": "bac399fb20eebc93bd4b25b9070aa9a6bb534c100ce63d08cc9f280ce21a859a"
+    },
+    {
+      "value_id": "S2_SES",
+      "arguments": 24,
+      "parts": 262,
+      "sha256": "e31e32a935ad21929be9f1346be89161d8da760f1030287121ec628b6d707e52"
+    },
+    {
+      "value_id": "S2_TR",
+      "arguments": 7,
+      "parts": 68,
+      "sha256": "86690c4609a66ee42e34b26e4bee6b454e7863b7f909baa722078ebdc4e6110b"
+    }
+  ]
+}

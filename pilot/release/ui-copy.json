@@ -1,0 +1,28 @@
+{
+  "strengthGuide": "Compare the overall case for each direction. Look at the different consequences in the accepted arguments. Consider all of the effects, not only the strongest one. Do not count headings. If two arguments describe the same consequence, count it once. Good evidence for an effect does not mean that the effect is large. There is no formula to calculate a winner. Choose Pending if you have no justified comparison.",
+  "mappingGuide": "Does a shared claim seem too broad for this argument? Does a supporting path seem to be missing? Explain the problem in the optional note. Change your shared-claim answer only if your view of that claim changed. A coordinator reviews these notes. Your earlier answers stay saved.",
+  "releaseDetailsLabel": "Release details",
+  "legacyReleaseLabel": "Release not recorded (saved before release tracking)",
+  "unresolvedMappingLabel": "Mapping question unresolved",
+  "coordinatorGuide": "Review each mapping note and record one outcome: No mapping change, Mapping revised or Unresolved. A corrected mapping recomputes the outcomes. An argument with a viable path needs a direct judgment. The app derives No only when every path is blocked. If the dispute continues, keep it Unresolved. Earlier answers stay saved.",
+  "releaseMismatchMessage": "This page does not match the current release (${key}). Reload this page before coding.",
+  "releaseDetailKeyLabels": {
+    "content": "Content version",
+    "procedure": "Procedure version",
+    "mapping": "Mapping version",
+    "rendered": "Rendered release"
+  },
+  "publicViewLabels": {
+    "comparison": "Comparison:",
+    "versionAndCutoff": "Bill version and evidence cutoff",
+    "billAndSources": "Bill and sources",
+    "argument": "Argument",
+    "response": "Response",
+    "strengthEvidence": "Evidence about size, timing and reach",
+    "earlierSharedClaims": "Earlier shared claims and background",
+    "sharedClaims": "Shared claims and background",
+    "supportingEvidence": "Supporting evidence",
+    "historicalIds": "Historical IDs"
+  },
+  "claimScopeLabel": "What this claim covers and its limits"
+}
