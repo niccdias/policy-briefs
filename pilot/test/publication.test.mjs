@@ -104,6 +104,12 @@ test('source limits, authorship, comparable checks and dated record verification
  }
 });
 
+test('internal-label bans match words without banning protection or consumer',()=>{
+ const c=candidate();c.content.arguments[0].title='The protection of a consumer';c.approval.banned_phrases.push('The PRO','a CON');refresh(c);
+ assert.equal(validatePublication(c).pass,true);
+ c.content.arguments[0].title='The PRO makes a claim';refresh(c);assert.throws(()=>validatePublication(c),/editorial-verdict/);
+});
+
 test('every publication entry point enforces closure before writing build output',async()=>{
  const publicView=await readFile(new URL('../public-view.mjs',import.meta.url),'utf8');
  const build=await readFile(new URL('../build.mjs',import.meta.url),'utf8');

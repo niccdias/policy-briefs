@@ -17,6 +17,10 @@ function readableText(html){
  const visit=node=>node.type==='text'?node.value:`${blocks.has(node.tagName)?' ':''}${(node.children??[]).map(visit).join('')}${blocks.has(node.tagName)?' ':''}`;
  return visit(fromHtml(html,{fragment:true})).replace(/\s+/g,' ').trim().toLowerCase();
 }
+function containsPhrase(text,phrase){
+ const escaped=readableText(phrase).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+ return new RegExp(`(?:^|\\W)${escaped}(?=$|\\W)`,'u').test(text);
+}
 const dispositions={
  confirmed_defect:['corrected','retired','merged'],
  genuine_uncertainty:['qualified','branch_removed','retired','corrected','merged'],
@@ -146,7 +150,7 @@ export function validatePublication({content,binding,inventory,approval,author,v
  requireThat(Array.isArray(approval.banned_phrases)&&approval.banned_phrases.length>0,'the editorial-verdict phrase inventory is missing.');
  for(const node of [...content.claims,...content.arguments,...content.procedure.background,...(content.bills??[]),...(content.bill?[content.bill]:[]),...content.values,...content.catalog.filter(c=>c.retired).map(c=>({id:c.id,description:c.retirement_reason}))]){
   const text=readableText(displayedText(content,node));
-  requireThat(!approval.banned_phrases.some(phrase=>text.includes(readableText(phrase))),`${node.id} contains editorial-verdict wording.`);
+  requireThat(!approval.banned_phrases.some(phrase=>containsPhrase(text,phrase)),`${node.id} contains editorial-verdict wording.`);
  }
  requireThat(approval.coverage?.arguments===content.arguments.length&&approval.coverage.values===content.values.length&&approval.coverage.historical_ids===content.catalog.length,'approved coverage differs from the candidate.');
  requireThat(unique(approval.mandatory_argument_ids)&&approval.mandatory_argument_ids.every(id=>content.catalog.some(n=>n.id===id)),'the mandatory argument inventory is invalid.');
@@ -194,7 +198,7 @@ export async function assertPublicationReady(base=release){
  }
  const uiCopy=await parse('ui-copy.json'),strings=value=>typeof value==='string'?[value]:value&&typeof value==='object'?Object.values(value).flatMap(strings):[];
  const result=validatePublication({content,binding:await publicationBinding(content,base),inventory,approval,...receipts,uiCopy});
- requireThat(!strings(uiCopy).some(text=>approval.banned_phrases.some(phrase=>readableText(text).includes(readableText(phrase)))),'interface copy contains editorial-verdict wording.');
+ requireThat(!strings(uiCopy).some(text=>approval.banned_phrases.some(phrase=>containsPhrase(readableText(text),phrase))),'interface copy contains editorial-verdict wording.');
  console.log(JSON.stringify({publication_gate:'passed',findings:result.findings,content_id:result.content_id}));return result;
 }
 

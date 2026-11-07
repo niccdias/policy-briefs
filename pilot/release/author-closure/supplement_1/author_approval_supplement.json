@@ -1,0 +1,8 @@
+{
+ "author": "Opus 5.5 High",
+ "scope": "Approves the exact prose and dispositions in these supplemental files, before freeze. It adds to output/closure/author_approval.json at cf13f33 and does not replace it. It binds to no release ID.",
+ "files": {
+  "content_patch_supplement.json": "cf54c40e245c1969a8e5a384c3d6ec25da3abbd35dba4872885542ee90f31783",
+  "ledger_supplement.json": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa"
+ }
+}

@@ -4,7 +4,7 @@ This contract states what the current combined release must do. It records requi
 
 ## Scope
 
-- One shared content source feeds both the public briefs and the coding app. It covers 503 active arguments and 48 value pages across the eight bills.
+- One shared content source feeds both the public briefs and the coding app. It covers every active argument and all 48 value pages across the eight bills. The release record states the exact counts.
 - This contract does not change Qualtrics surveys, their question wording or their records.
 
 ## Publication

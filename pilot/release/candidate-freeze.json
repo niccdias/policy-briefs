@@ -1,11 +1,11 @@
 {
   "binding": {
-    "content_id": "approved-closure-20261107-86e40468825d25340335",
-    "procedure_id": "procedure-20261107-31cdd60c361536b3",
+    "content_id": "approved-closure-20261107-ca7e63d9a715573ad8eb",
+    "procedure_id": "procedure-20261107-344e19dfc7b89622",
     "mapping_id": "mapping-236a7cfb3af2b65d",
-    "rendered_id": "rendered-44e60b61a277db7b63a0",
-    "content_sha256": "fd77788fa248e3b0b6f66751626b28fecb03346c2aedfd716fe2395b97fb1bf0",
-    "procedure_sha256": "31cdd60c361536b3b9b50cbd5df107085949ef4dd3089f9c76804da931cf087e",
+    "rendered_id": "rendered-af3e873e62571cd4cdce",
+    "content_sha256": "ab763c1fa276636f5b055a654460fa861e6cf8bbaa926a0210bf0c0689a45932",
+    "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
     "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
     "implementation_sha256": {
       "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
@@ -19,7 +19,7 @@
       "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
       "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
       "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
-      "publication-gate.mjs": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
+      "publication-gate.mjs": "333675ab823dda866c29a333060f1bab6bf93a60b854f7600670547c3d472ec8",
       "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
       "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
       "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
@@ -61,9 +61,12 @@
     "HR1834_SES_support_02",
     "HR1834_SES_support_03",
     "HR1834_SES_support_04",
+    "HR1834_SES_support_05",
     "HR1834_SES_support_07",
+    "HR1834_SES_support_08",
     "HR1834_TR_oppose_01",
     "HR1834_TR_oppose_02",
+    "HR1834_TR_oppose_03",
     "HR1834_TR_oppose_04",
     "HR1834_TR_oppose_06",
     "HR1834_TR_oppose_07",
@@ -95,6 +98,7 @@
     "HR1834_UNN_oppose_04",
     "HR1834_UNN_oppose_05",
     "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
     "HR1834_UNN_oppose_08",
     "HR1834_UNN_oppose_09",
     "HR1834_UNN_oppose_10",
@@ -432,7 +436,7 @@
     "S2_C37"
   ],
   "retained_sample": {
-    "content_id": "approved-closure-20261107-86e40468825d25340335",
+    "content_id": "approved-closure-20261107-ca7e63d9a715573ad8eb",
     "rows": [
       {
         "bill_id": "119_S_1582",
@@ -523,7 +527,7 @@
         "value_id": "SJRES88_UNN",
         "direction": "support",
         "candidates": 7,
-        "argument_id": "SJRes88_UNN_support_02"
+        "argument_id": "SJRes88_UNN_support_04"
       },
       {
         "bill_id": "119_S_J_Res_88",
@@ -537,28 +541,28 @@
         "value_id": "SJRES88_UNC",
         "direction": "support",
         "candidates": 7,
-        "argument_id": "SJRes88_UNC_support_01"
+        "argument_id": "SJRes88_UNC_support_02"
       },
       {
         "bill_id": "119_S_J_Res_88",
         "value_id": "SJRES88_UNC",
         "direction": "oppose",
         "candidates": 6,
-        "argument_id": "SJRes88_UNC_oppose_03"
+        "argument_id": "SJRes88_UNC_oppose_04"
       },
       {
         "bill_id": "119_S_J_Res_88",
         "value_id": "SJRES88_UNT",
         "direction": "support",
         "candidates": 2,
-        "argument_id": "SJRes88_UNT_support_03"
+        "argument_id": "SJRes88_UNT_support_02"
       },
       {
         "bill_id": "119_S_J_Res_88",
         "value_id": "SJRES88_UNT",
         "direction": "oppose",
         "candidates": 7,
-        "argument_id": "SJRes88_UNT_oppose_01"
+        "argument_id": "SJRes88_UNT_oppose_07"
       },
       {
         "bill_id": "119_S_J_Res_88",
@@ -586,7 +590,7 @@
         "value_id": "SJRES88_SES",
         "direction": "oppose",
         "candidates": 5,
-        "argument_id": "SJRes88_SES_oppose_03"
+        "argument_id": "SJRes88_SES_oppose_04"
       },
       {
         "bill_id": "119_S_J_Res_88",
@@ -607,21 +611,21 @@
         "value_id": "HR5408_UNN",
         "direction": "support",
         "candidates": 6,
-        "argument_id": "HR5408_UNN_support_02"
+        "argument_id": "HR5408_UNN_support_05"
       },
       {
         "bill_id": "119_H_R_5408",
         "value_id": "HR5408_UNN",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "HR5408_UNN_oppose_01"
+        "argument_id": "HR5408_UNN_oppose_03"
       },
       {
         "bill_id": "119_H_R_5408",
         "value_id": "HR5408_UNC",
         "direction": "support",
         "candidates": 13,
-        "argument_id": "HR5408_UNC_support_03"
+        "argument_id": "HR5408_UNC_support_04"
       },
       {
         "bill_id": "119_H_R_5408",
@@ -635,21 +639,21 @@
         "value_id": "HR5408_UNT",
         "direction": "support",
         "candidates": 3,
-        "argument_id": "HR5408_UNT_support_03"
+        "argument_id": "HR5408_UNT_support_04"
       },
       {
         "bill_id": "119_H_R_5408",
         "value_id": "HR5408_UNT",
         "direction": "oppose",
         "candidates": 4,
-        "argument_id": "HR5408_UNT_oppose_01"
+        "argument_id": "HR5408_UNT_oppose_04"
       },
       {
         "bill_id": "119_H_R_5408",
         "value_id": "HR5408_SEP",
         "direction": "support",
         "candidates": 9,
-        "argument_id": "HR5408_SEP_support_03"
+        "argument_id": "HR5408_SEP_support_04"
       },
       {
         "bill_id": "119_H_R_5408",
@@ -663,7 +667,7 @@
         "value_id": "HR5408_SES",
         "direction": "support",
         "candidates": 4,
-        "argument_id": "HR5408_SES_support_03"
+        "argument_id": "HR5408_SES_support_04"
       },
       {
         "bill_id": "119_H_R_5408",
@@ -677,7 +681,7 @@
         "value_id": "HR5408_TR",
         "direction": "support",
         "candidates": 3,
-        "argument_id": "HR5408_TR_support_01"
+        "argument_id": "HR5408_TR_support_02"
       },
       {
         "bill_id": "119_H_R_5408",
@@ -691,14 +695,14 @@
         "value_id": "HR131_UNN",
         "direction": "support",
         "candidates": 2,
-        "argument_id": "HR131_UNN_support_03"
+        "argument_id": "HR131_UNN_support_02"
       },
       {
         "bill_id": "119_H_R_131",
         "value_id": "HR131_UNN",
         "direction": "oppose",
         "candidates": 6,
-        "argument_id": "HR131_UNN_oppose_07"
+        "argument_id": "HR131_UNN_oppose_03"
       },
       {
         "bill_id": "119_H_R_131",
@@ -740,14 +744,14 @@
         "value_id": "HR131_SEP",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "HR131_SEP_oppose_02"
+        "argument_id": "HR131_SEP_oppose_01"
       },
       {
         "bill_id": "119_H_R_131",
         "value_id": "HR131_SES",
         "direction": "support",
         "candidates": 4,
-        "argument_id": "HR131_SES_support_02"
+        "argument_id": "HR131_SES_support_03"
       },
       {
         "bill_id": "119_H_R_131",
@@ -782,21 +786,21 @@
         "value_id": "HR4405_UNN",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "HR4405_UNN_oppose_03"
+        "argument_id": "HR4405_UNN_oppose_01"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_UNC",
         "direction": "support",
         "candidates": 5,
-        "argument_id": "HR4405_UNC_support_03"
+        "argument_id": "HR4405_UNC_support_01"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_UNC",
         "direction": "oppose",
         "candidates": 4,
-        "argument_id": "HR4405_UNC_oppose_03"
+        "argument_id": "HR4405_UNC_oppose_02"
       },
       {
         "bill_id": "119_H_R_4405",
@@ -810,35 +814,35 @@
         "value_id": "HR4405_UNT",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "HR4405_UNT_oppose_03"
+        "argument_id": "HR4405_UNT_oppose_01"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_SEP",
         "direction": "support",
         "candidates": 4,
-        "argument_id": "HR4405_SEP_support_05"
+        "argument_id": "HR4405_SEP_support_02"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_SEP",
         "direction": "oppose",
         "candidates": 5,
-        "argument_id": "HR4405_SEP_oppose_03"
+        "argument_id": "HR4405_SEP_oppose_04"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_SES",
         "direction": "support",
         "candidates": 7,
-        "argument_id": "HR4405_SES_support_05"
+        "argument_id": "HR4405_SES_support_03"
       },
       {
         "bill_id": "119_H_R_4405",
         "value_id": "HR4405_SES",
         "direction": "oppose",
         "candidates": 6,
-        "argument_id": "HR4405_SES_oppose_01"
+        "argument_id": "HR4405_SES_oppose_07"
       },
       {
         "bill_id": "119_H_R_4405",
@@ -865,8 +869,8 @@
         "bill_id": "119_H_R_1834",
         "value_id": "HR1834_UNN",
         "direction": "oppose",
-        "candidates": 1,
-        "argument_id": "HR1834_UNN_oppose_07"
+        "candidates": 0,
+        "argument_id": null
       },
       {
         "bill_id": "119_H_R_1834",
@@ -914,8 +918,8 @@
         "bill_id": "119_H_R_1834",
         "value_id": "HR1834_SES",
         "direction": "support",
-        "candidates": 3,
-        "argument_id": "HR1834_SES_support_05"
+        "candidates": 1,
+        "argument_id": "HR1834_SES_support_06"
       },
       {
         "bill_id": "119_H_R_1834",
@@ -935,22 +939,22 @@
         "bill_id": "119_H_R_1834",
         "value_id": "HR1834_TR",
         "direction": "oppose",
-        "candidates": 1,
-        "argument_id": "HR1834_TR_oppose_03"
+        "candidates": 0,
+        "argument_id": null
       },
       {
         "bill_id": "119_H_R_28",
         "value_id": "HR28_UNN",
         "direction": "support",
         "candidates": 3,
-        "argument_id": "HR28_UNN_support_02"
+        "argument_id": "HR28_UNN_support_03"
       },
       {
         "bill_id": "119_H_R_28",
         "value_id": "HR28_UNN",
         "direction": "oppose",
         "candidates": 2,
-        "argument_id": "HR28_UNN_oppose_02"
+        "argument_id": "HR28_UNN_oppose_01"
       },
       {
         "bill_id": "119_H_R_28",
@@ -964,14 +968,14 @@
         "value_id": "HR28_UNC",
         "direction": "oppose",
         "candidates": 6,
-        "argument_id": "HR28_UNC_oppose_04"
+        "argument_id": "HR28_UNC_oppose_06"
       },
       {
         "bill_id": "119_H_R_28",
         "value_id": "HR28_UNT",
         "direction": "support",
         "candidates": 2,
-        "argument_id": "HR28_UNT_support_01"
+        "argument_id": "HR28_UNT_support_02"
       },
       {
         "bill_id": "119_H_R_28",
@@ -992,7 +996,7 @@
         "value_id": "HR28_SEP",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "HR28_SEP_oppose_02"
+        "argument_id": "HR28_SEP_oppose_04"
       },
       {
         "bill_id": "119_H_R_28",
@@ -1034,7 +1038,7 @@
         "value_id": "S2_UNN",
         "direction": "oppose",
         "candidates": 2,
-        "argument_id": "S2_UNN_oppose_05"
+        "argument_id": "S2_UNN_oppose_06"
       },
       {
         "bill_id": "119_S_2",
@@ -1069,21 +1073,21 @@
         "value_id": "S2_SEP",
         "direction": "support",
         "candidates": 3,
-        "argument_id": "S2_SEP_support_02"
+        "argument_id": "S2_SEP_support_07"
       },
       {
         "bill_id": "119_S_2",
         "value_id": "S2_SEP",
         "direction": "oppose",
         "candidates": 4,
-        "argument_id": "S2_SEP_oppose_07"
+        "argument_id": "S2_SEP_oppose_08"
       },
       {
         "bill_id": "119_S_2",
         "value_id": "S2_SES",
         "direction": "support",
         "candidates": 4,
-        "argument_id": "S2_SES_support_03"
+        "argument_id": "S2_SES_support_09"
       },
       {
         "bill_id": "119_S_2",
@@ -1104,78 +1108,76 @@
         "value_id": "S2_TR",
         "direction": "oppose",
         "candidates": 3,
-        "argument_id": "S2_TR_oppose_05"
+        "argument_id": "S2_TR_oppose_07"
       }
     ],
     "argument_ids": [
       "S1582_UNC_oppose_04",
       "S1582_SES_support_04",
-      "SJRes88_UNN_support_02",
+      "SJRes88_UNN_support_04",
       "SJRes88_UNN_oppose_06",
-      "SJRes88_UNC_support_01",
-      "SJRes88_UNC_oppose_03",
-      "SJRes88_UNT_support_03",
-      "SJRes88_UNT_oppose_01",
+      "SJRes88_UNC_support_02",
+      "SJRes88_UNC_oppose_04",
+      "SJRes88_UNT_support_02",
+      "SJRes88_UNT_oppose_07",
       "SJRes88_SEP_support_11",
       "SJRes88_SEP_oppose_01",
       "SJRes88_SES_support_04",
-      "SJRes88_SES_oppose_03",
+      "SJRes88_SES_oppose_04",
       "SJRes88_TR_support_04",
       "SJRes88_TR_oppose_02",
-      "HR5408_UNN_support_02",
-      "HR5408_UNN_oppose_01",
-      "HR5408_UNC_support_03",
+      "HR5408_UNN_support_05",
+      "HR5408_UNN_oppose_03",
+      "HR5408_UNC_support_04",
       "HR5408_UNC_oppose_06",
-      "HR5408_UNT_support_03",
-      "HR5408_UNT_oppose_01",
-      "HR5408_SEP_support_03",
+      "HR5408_UNT_support_04",
+      "HR5408_UNT_oppose_04",
+      "HR5408_SEP_support_04",
       "HR5408_SEP_oppose_02",
-      "HR5408_SES_support_03",
+      "HR5408_SES_support_04",
       "HR5408_SES_oppose_03",
-      "HR5408_TR_support_01",
+      "HR5408_TR_support_02",
       "HR5408_TR_oppose_04",
-      "HR131_UNN_support_03",
-      "HR131_UNN_oppose_07",
+      "HR131_UNN_support_02",
+      "HR131_UNN_oppose_03",
       "HR131_UNC_support_03",
       "HR131_UNC_oppose_02",
       "HR131_SEP_support_01",
-      "HR131_SEP_oppose_02",
-      "HR131_SES_support_02",
+      "HR131_SEP_oppose_01",
+      "HR131_SES_support_03",
       "HR4405_UNN_support_03",
-      "HR4405_UNN_oppose_03",
-      "HR4405_UNC_support_03",
-      "HR4405_UNC_oppose_03",
+      "HR4405_UNN_oppose_01",
+      "HR4405_UNC_support_01",
+      "HR4405_UNC_oppose_02",
       "HR4405_UNT_support_03",
-      "HR4405_UNT_oppose_03",
-      "HR4405_SEP_support_05",
-      "HR4405_SEP_oppose_03",
-      "HR4405_SES_support_05",
-      "HR4405_SES_oppose_01",
+      "HR4405_UNT_oppose_01",
+      "HR4405_SEP_support_02",
+      "HR4405_SEP_oppose_04",
+      "HR4405_SES_support_03",
+      "HR4405_SES_oppose_07",
       "HR4405_TR_support_02",
       "HR4405_TR_oppose_03",
-      "HR1834_UNN_oppose_07",
-      "HR1834_SES_support_05",
-      "HR1834_TR_oppose_03",
-      "HR28_UNN_support_02",
-      "HR28_UNN_oppose_02",
+      "HR1834_SES_support_06",
+      "HR28_UNN_support_03",
+      "HR28_UNN_oppose_01",
       "HR28_UNC_support_02",
-      "HR28_UNC_oppose_04",
-      "HR28_UNT_support_01",
+      "HR28_UNC_oppose_06",
+      "HR28_UNT_support_02",
       "HR28_UNT_oppose_01",
       "HR28_SEP_support_03",
-      "HR28_SEP_oppose_02",
+      "HR28_SEP_oppose_04",
       "HR28_TR_support_02",
       "HR28_TR_oppose_02",
       "S2_UNN_support_06",
-      "S2_UNN_oppose_05",
+      "S2_UNN_oppose_06",
       "S2_UNC_support_13",
       "S2_UNC_oppose_07",
       "S2_UNT_oppose_04",
-      "S2_SEP_support_02",
-      "S2_SEP_oppose_07",
-      "S2_SES_support_03",
+      "S2_SEP_support_07",
+      "S2_SEP_oppose_08",
+      "S2_SES_support_09",
       "S2_SES_oppose_04",
-      "S2_TR_oppose_05"
+      "S2_TR_oppose_07"
     ]
   }
 }
