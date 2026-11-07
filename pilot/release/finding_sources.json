@@ -163,7 +163,7 @@
   },
   {
     "path": "closure.json",
-    "sha256": "6349cc48e386b5a12594ad36770701028cf56411c006bb25d31d1cac69e46d40",
+    "sha256": "1a9d65695e04b17d5ade7d12e5f7e40f3ab3843f04fcd2ef8a6fd1cc6ea4ad50",
     "findings": [
       {
         "id": "closure:I1",
@@ -412,6 +412,10 @@
       {
         "id": "closure:CLT008",
         "locator": "\"finding_id\": \"CLT008\""
+      },
+      {
+        "id": "closure:CLT009",
+        "locator": "\"finding_id\": \"CLT009\""
       }
     ]
   },
@@ -423,6 +427,21 @@
   {
     "path": "current-author-supplement.md",
     "sha256": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+    "findings": []
+  },
+  {
+    "path": "current-author-supplement_1.md",
+    "sha256": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+    "findings": []
+  },
+  {
+    "path": "current-author-supplement_2.md",
+    "sha256": "24ad5ded9ba3787176551a54f39a73629822c2acc11b1d50f1b4e5ea8a6b014e",
+    "findings": []
+  },
+  {
+    "path": "current-author-supplement_3.md",
+    "sha256": "003043f800efa97a514e3c02682b0dd146ac74870a1e875ec89c0372989ce72d",
     "findings": []
   },
   {

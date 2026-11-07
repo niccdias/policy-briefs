@@ -64,6 +64,28 @@ test('a retirement disposition requires the historical ID to be retired',()=>{
  assert.throws(()=>validatePublication(c),/still active/);
 });
 
+test('a patch applied before retirement is verified against the archived argument',()=>{
+ const c=candidate(),argument=c.content.arguments.shift();
+ Object.assign(c.content.catalog[0],{retired:true,original:argument});
+ c.content.expected_counts.active=1;c.approval.coverage.arguments=1;
+ refresh(c);assert.equal(validatePublication(c).pass,true);
+ c.content.catalog[0].original.pro_html='<p>Earlier uncorrected text.</p>';refresh(c);
+ assert.throws(()=>validatePublication(c),/not applied/);
+});
+
+test('a public retirement explanation can be corrected without changing archived text',()=>{
+ const c=candidate(),argument=c.content.arguments.shift();
+ Object.assign(c.content.catalog[0],{retired:true,original:argument,retirement_reason:'A limited claim.'});
+ Object.assign(c.approval.patches[0],{collection:'catalog',field_path:['retirement_reason'],after:'A limited claim.'});
+ c.content.expected_counts.active=1;c.approval.coverage.arguments=1;
+ refresh(c);assert.equal(validatePublication(c).pass,true);
+ const active=candidate();active.content.catalog[0].retirement_reason='A limited claim.';
+ Object.assign(active.approval.patches[0],{collection:'catalog',field_path:['retirement_reason'],after:'A limited claim.'});
+ refresh(active);assert.throws(()=>validatePublication(active),/active catalog entry/);
+ c.approval.patches[0].field_path=['original'];refresh(c);
+ assert.throws(()=>validatePublication(c),/audit metadata or an unsupported field/);
+});
+
 test('mandatory inspection and the seeded retained sample cannot be replaced by a pass label',()=>{
  for(const change of [c=>c.verification.mandatory_inspection.claim_ids.push('invented'),c=>c.verification.retained_sample.argument_ids=[],c=>c.verification.retained_sample.rows[0].argument_id=null,c=>c.verification.retained_sample.content_id='older']){
   const c=candidate();change(c);assert.throws(()=>validatePublication(c),/Publication blocked/);

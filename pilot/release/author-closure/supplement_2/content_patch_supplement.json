@@ -1,0 +1,51 @@
+{
+ "target": "/private/tmp/policy-procedure-closure-site-20261107/pilot/release/content.json",
+ "target_sha256": "ab763c1fa276636f5b055a654460fa861e6cf8bbaa926a0210bf0c0689a45932",
+ "application": "Set each pointer to `after` only if its current value equals `before`.",
+ "scan": {
+  "field": "catalog[].retirement_reason",
+  "values_scanned": 59,
+  "retired_entries": 65,
+  "retired_without_retirement_reason": [
+   "S1582_TR_support_01",
+   "S1582_TR_support_03",
+   "S1582_TR_oppose_01",
+   "S1582_TR_oppose_05",
+   "S1582_TR_oppose_06",
+   "S1582_TR_oppose_08"
+  ],
+  "checks": "After the patch, no value contains PRO or CON as a whole word or any phrase in banned_phrases.json."
+ },
+ "patches": [
+  {
+   "patch_id": "CPS2-0001",
+   "collection": "catalog",
+   "record_id": "SJRes88_UNT_oppose_06",
+   "field_path": "retirement_reason",
+   "pointer": "/catalog/120/retirement_reason",
+   "before": "Under the current Tolerance rule, generic access to stories or information is not enough, and this PRO's only bridge is that removing limits 'makes room for audiences to encounter people and viewpoints from other backgrounds'. No packet source connects foreign programming or film to understanding or acceptance across differences, and adding that bridge would invent it. The evidence for the promises is also limited: Malaysia's regulator said no 80 percent quota applies to private broadcasters and that licences do not restrict international content at prime time, and Thailand's framework identifies no existing film quota.",
+   "after": "Under the current Tolerance rule, generic access to stories or information is not enough, and this argument's only bridge is that removing limits 'makes room for audiences to encounter people and viewpoints from other backgrounds'. No packet source connects foreign programming or film to understanding or acceptance across differences, and adding that bridge would invent it. The evidence for the promises is also limited: Malaysia's regulator said no 80 percent quota applies to private broadcasters and that licences do not restrict international content at prime time, and Thailand's framework identifies no existing film quota.",
+   "finding_ids": [
+    "N-PROCON"
+   ],
+   "classification": "clarity_only",
+   "reason": "Replaces the internal term PRO with “argument” in the displayed retirement reason. The eligibility decision is unchanged.",
+   "source_locators": []
+  },
+  {
+   "patch_id": "CPS2-0002",
+   "collection": "catalog",
+   "record_id": "S2_UNC_oppose_11",
+   "field_path": "retirement_reason",
+   "pointer": "/catalog/561/retirement_reason",
+   "before": "Fails the required comparison. The harm is that money is not spent on Senator Baldwin's proposed childcare amendment, but that is the gap between S.2 and a hypothetical alternative bill, not a change S.2 causes relative to the law in force on June 9. S.2's money is new, deficit-financed appropriation (“out of any money in the Treasury not otherwise appropriated”). Without S.2 there would be no childcare funding either, and the PRO offers no fixed-budget or crowding-out mechanism. No bill-caused effect on families' childcare remains.",
+   "after": "Fails the required comparison. The harm is that money is not spent on Senator Baldwin's proposed childcare amendment, but that is the gap between S.2 and a hypothetical alternative bill, not a change S.2 causes relative to the law in force on June 9. S.2's money is new, deficit-financed appropriation (“out of any money in the Treasury not otherwise appropriated”). Without S.2 there would be no childcare funding either, and the argument offers no fixed-budget or crowding-out mechanism. No bill-caused effect on families' childcare remains.",
+   "finding_ids": [
+    "N-PROCON"
+   ],
+   "classification": "clarity_only",
+   "reason": "Replaces the internal term PRO with “argument” in the displayed retirement reason. The eligibility decision is unchanged.",
+   "source_locators": []
+  }
+ ]
+}

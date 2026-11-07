@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "binding": {
-    "content_id": "approved-closure-20261107-ca7e63d9a715573ad8eb",
+    "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
     "procedure_id": "procedure-20261107-344e19dfc7b89622",
     "mapping_id": "mapping-236a7cfb3af2b65d",
-    "rendered_id": "rendered-af3e873e62571cd4cdce",
-    "content_sha256": "ab763c1fa276636f5b055a654460fa861e6cf8bbaa926a0210bf0c0689a45932",
+    "rendered_id": "rendered-299318edce1ce45c5af9",
+    "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
     "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
     "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
     "implementation_sha256": {
@@ -20,7 +20,7 @@
       "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
       "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
       "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
-      "publication-gate.mjs": "333675ab823dda866c29a333060f1bab6bf93a60b854f7600670547c3d472ec8",
+      "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
       "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
       "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
       "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
@@ -31,9 +31,12 @@
     "clarity-a.json": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
     "clarity-b.json": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
     "clarity-c.json": "ade87b3db8f07aa95321573ffd90ba680cfe43d614d3e10d65d184dbecb7170d",
-    "closure.json": "6349cc48e386b5a12594ad36770701028cf56411c006bb25d31d1cac69e46d40",
+    "closure.json": "1a9d65695e04b17d5ade7d12e5f7e40f3ab3843f04fcd2ef8a6fd1cc6ea4ad50",
     "current-author-report.md": "a88bd2eae57957bc32ecc155713e423bb07f138230d8efb1bf16f05aa50d7a62",
     "current-author-supplement.md": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+    "current-author-supplement_1.md": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
+    "current-author-supplement_2.md": "24ad5ded9ba3787176551a54f39a73629822c2acc11b1d50f1b4e5ea8a6b014e",
+    "current-author-supplement_3.md": "003043f800efa97a514e3c02682b0dd146ac74870a1e875ec89c0372989ce72d",
     "current-technical-findings.md": "b47fadd8f766b67b758cbe9a8adec3497c30c3af5e07bbf6c6c1d7b939cfa083",
     "origin-00-issues.md": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
     "origin-01-issues.md": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
@@ -57,7 +60,7 @@
     "origin-19-issue-dispositions.md": "64da523731a55471529922c86c1a61f526c59fd440d7c2e957f4fb231db1535e",
     "retained.json": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2"
   },
-  "finding_sources_sha256": "c6e7b8a77b85a01ad6228611e88457351c2d3b32d5288a85f37e3e9eeccbd4dc",
+  "finding_sources_sha256": "cedee0f1259028c43c8a68ece43f690dd0fa6767b63546fa3108c7b6c6ac8109",
   "findings": [
     {
       "id": "closure:I1",
@@ -1313,7 +1316,6 @@
       "disposition": "retired",
       "rationale": "I decided this independently and agree with retirement. The stated reason is that people are worth protecting. CBP's priority across nationality and status is a fact about rescue practice, and it does not show listening, understanding or acceptance. The literal statement “to be tolerant toward all kinds of people” could stretch to cover it, but the procedure's boundary says general compassion alone is not enough. Equal protection fits Universalism – Concern, where S2_UNC_support_10 keeps the rescue consideration. A new mechanism would be invention. This is a corpus eligibility decision and assigns no coding answer.",
       "affected_ids": [
-        "S2_C20",
         "S2_UNT_support_05"
       ],
       "patch_ids": [
@@ -1983,6 +1985,7 @@
         "S2_UNC_oppose_04",
         "S2_UNC_oppose_05",
         "S2_UNC_oppose_10",
+        "S2_UNC_oppose_11",
         "S2_UNC_support_01",
         "S2_UNC_support_05",
         "S2_UNC_support_07",
@@ -2001,7 +2004,8 @@
         "S2_UNT_support_02",
         "S2_UNT_support_03",
         "S2_UNT_support_04",
-        "S2_UNT_support_05"
+        "S2_UNT_support_05",
+        "SJRes88_UNT_oppose_06"
       ],
       "patch_ids": [
         "CP0001",
@@ -2240,7 +2244,9 @@
         "CP0297",
         "CP0298",
         "CP0299",
-        "CP0300"
+        "CP0300",
+        "CPS2-0001",
+        "CPS2-0002"
       ],
       "origins": [
         {
@@ -2250,7 +2256,7 @@
       ],
       "source_locators": [],
       "reading_limit": "Read the cited fields and logs. No wider source reading.",
-      "comparable_scope": "All displayed fields in all eight bills.",
+      "comparable_scope": "All displayed fields in all eight bills. The first pass missed catalog retirement_reason, which public pages display under Historical IDs. All 59 retirement reasons are now scanned, and two are patched. The nested retirement objects are not displayed (public-view.mjs line 59 shows only retirement_reason) and stay as audit lineage.",
       "author": "Opus 5.5 High",
       "author_finding_id": "N-PROCON"
     },
@@ -2599,6 +2605,39 @@
       "author_finding_id": "CLT008"
     },
     {
+      "id": "closure:CLT009",
+      "classification": "confirmed_defect",
+      "status": "open",
+      "disposition": "corrected",
+      "rationale": "I agree. The independent technical verifier found that the new catalog patch branch accepted a retirement_reason patch on an active catalog entry as the only correction. Only retired entries show that field (public-view.mjs line 59), so the patch could close a finding without changing any displayed text. This is an implementation defect in the publication gate, not in page prose. The correction is the gate code bound to the hash below.",
+      "affected_ids": [
+        "release"
+      ],
+      "patch_ids": [
+        "IMPL-GATE"
+      ],
+      "origins": [
+        {
+          "path": "closure.json",
+          "locator": "\"finding_id\": \"CLT009\""
+        }
+      ],
+      "source_locators": [
+        {
+          "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs line 46: requireThat(record.retired===true, ...) for catalog patches",
+          "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs line 46: requireThat(record.retired===true, ...) for catalog patches"
+        },
+        {
+          "path": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+          "locator": "/private/tmp/policy-procedure-closure-site-20261107/pilot/publication-gate.mjs sha256 0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb"
+        }
+      ],
+      "reading_limit": "I read the finding as root relayed it and line 46 of the corrected gate, and I confirmed the gate file hash. I did not read the rest of the gate code or run the tests. The verifier's 25th regression is reported as rerunning.",
+      "comparable_scope": "As reported by root: a regression test adds an active-entry case that must be rejected, and root's 15 gate tests pass. The supplement 2 patches CPS2-0001 and CPS2-0002 target retired entries only.",
+      "author": "Opus 5.5 High",
+      "author_finding_id": "CLT009"
+    },
+    {
       "id": "clarity-a:I1",
       "classification": "confirmed_defect",
       "status": "open",
@@ -2642,6 +2681,7 @@
       "comparable_scope": "All three C08 members read in full. All S.2 fields naming Brennan or surveillance funding were searched. Other Brennan uses do not tie it to one line.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I1",
+      "duplicate_of": "closure:I1",
       "merged_into": "closure:I1"
     },
     {
@@ -2690,6 +2730,7 @@
       "comparable_scope": "All four members and routes read in full.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I2",
+      "duplicate_of": "closure:I2",
       "merged_into": "closure:I2"
     },
     {
@@ -2728,6 +2769,7 @@
       "comparable_scope": "I searched H.R.131 titles and argument text for financing wording. Others say helping finance, easier financing or financing help. HR131_UNT_oppose_01's “financing that advances this risk” follows its own explanation of current financing and stays.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I3",
+      "duplicate_of": "closure:I3",
       "merged_into": "closure:I3"
     },
     {
@@ -2762,6 +2804,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I4",
+      "duplicate_of": "closure:I4",
       "merged_into": "closure:I4"
     },
     {
@@ -2803,6 +2846,7 @@
       "comparable_scope": "All 91 gap explanations across eight bills read. Notes and objections searched for verdict wording. See N-VERDICT.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I5",
+      "duplicate_of": "closure:I5",
       "merged_into": "closure:I5"
     },
     {
@@ -2835,6 +2879,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I6",
+      "duplicate_of": "closure:I6",
       "merged_into": "closure:I6"
     },
     {
@@ -2873,13 +2918,14 @@
       "comparable_scope": "See N-LATER.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I7",
+      "duplicate_of": "closure:I7",
       "merged_into": "closure:I7"
     },
     {
       "id": "clarity-a:I8",
       "classification": "declared_limit",
       "status": "open",
-      "disposition": "merged",
+      "disposition": "disclosed",
       "rationale": "No person has tested ESL comprehension. This is a limit of verification, not a content claim.",
       "affected_ids": [
         "release"
@@ -2896,7 +2942,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I8",
-      "merged_into": "closure:I8"
+      "duplicate_of": "closure:I8"
     },
     {
       "id": "clarity-a:I9",
@@ -2942,13 +2988,14 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I9",
+      "duplicate_of": "closure:I9",
       "merged_into": "closure:I9"
     },
     {
       "id": "clarity-a:I10",
       "classification": "declared_limit",
       "status": "open",
-      "disposition": "merged",
+      "disposition": "disclosed",
       "rationale": "The field was renamed in the current date record. Sol found two uses of introduced-stage summaries, each with separate statutory or rule support. Retrieval timestamps for original captures are unavailable, 89 press-release dates still come from search snippets, and no contemporaneous capture was verified for the nine checked documents. These limits are stated in the record.",
       "affected_ids": [
         "release"
@@ -2970,7 +3017,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I10",
-      "merged_into": "closure:I10"
+      "duplicate_of": "closure:I10"
     },
     {
       "id": "clarity-a:I11",
@@ -3018,6 +3065,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I11",
+      "duplicate_of": "closure:I11",
       "merged_into": "closure:I11"
     },
     {
@@ -3041,6 +3089,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "I12",
+      "duplicate_of": "closure:I12",
       "merged_into": "closure:I12"
     },
     {
@@ -3064,6 +3113,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "P1",
+      "duplicate_of": "closure:P1",
       "merged_into": "closure:P1"
     },
     {
@@ -3089,6 +3139,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q1",
+      "duplicate_of": "closure:Q1",
       "merged_into": "closure:Q1"
     },
     {
@@ -3114,6 +3165,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q2",
+      "duplicate_of": "closure:Q2",
       "merged_into": "closure:Q2"
     },
     {
@@ -3139,6 +3191,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q3",
+      "duplicate_of": "closure:Q3",
       "merged_into": "closure:Q3"
     },
     {
@@ -3164,6 +3217,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q4",
+      "duplicate_of": "closure:Q4",
       "merged_into": "closure:Q4"
     },
     {
@@ -3189,6 +3243,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q5",
+      "duplicate_of": "closure:Q5",
       "merged_into": "closure:Q5"
     },
     {
@@ -3226,6 +3281,7 @@
       "comparable_scope": "Whole corpus searched for the exact wording: three records. Other insurance wording read and left: it describes stablecoins as uninsured, which the bill text says.",
       "author": "Opus 5.5 High",
       "author_finding_id": "Q6",
+      "duplicate_of": "closure:Q6",
       "merged_into": "closure:Q6"
     },
     {
@@ -3262,6 +3318,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "F2",
+      "duplicate_of": "closure:F2",
       "merged_into": "closure:F2"
     },
     {
@@ -3333,6 +3390,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "F3",
+      "duplicate_of": "closure:F3",
       "merged_into": "closure:F3"
     },
     {
@@ -3360,6 +3418,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "H1",
+      "duplicate_of": "closure:H1",
       "merged_into": "closure:H1"
     },
     {
@@ -3383,6 +3442,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "U1",
+      "duplicate_of": "closure:U1",
       "merged_into": "closure:U1"
     },
     {
@@ -3410,6 +3470,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "J1",
+      "duplicate_of": "closure:J1",
       "merged_into": "closure:J1"
     },
     {
@@ -3433,6 +3494,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "J2",
+      "duplicate_of": "closure:J2",
       "merged_into": "closure:J2"
     },
     {
@@ -3488,6 +3550,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "S1",
+      "duplicate_of": "closure:S1",
       "merged_into": "closure:S1"
     },
     {
@@ -3511,6 +3574,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "S2",
+      "duplicate_of": "closure:S2",
       "merged_into": "closure:S2"
     },
     {
@@ -3545,6 +3609,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "V1",
+      "duplicate_of": "closure:V1",
       "merged_into": "closure:V1"
     },
     {
@@ -3577,6 +3642,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "V2",
+      "duplicate_of": "closure:V2",
       "merged_into": "closure:V2"
     },
     {
@@ -3600,6 +3666,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "G1",
+      "duplicate_of": "closure:G1",
       "merged_into": "closure:G1"
     },
     {
@@ -3633,6 +3700,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "D1",
+      "duplicate_of": "closure:D1",
       "merged_into": "closure:D1"
     },
     {
@@ -3656,6 +3724,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "C-LINEAGE",
+      "duplicate_of": "closure:C-LINEAGE",
       "merged_into": "closure:C-LINEAGE"
     },
     {
@@ -3692,6 +3761,7 @@
       "comparable_scope": "All five named reasons checked. Only 06 lacked the note. The 06 node now matches 02 in every destination for the shared-note fragments.",
       "author": "Opus 5.5 High",
       "author_finding_id": "C-NOTE",
+      "duplicate_of": "closure:C-NOTE",
       "merged_into": "closure:C-NOTE"
     },
     {
@@ -3715,6 +3785,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "C-OVERRIDES",
+      "duplicate_of": "closure:C-OVERRIDES",
       "merged_into": "closure:C-OVERRIDES"
     },
     {
@@ -3738,6 +3809,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "C-ROUTE",
+      "duplicate_of": "closure:C-ROUTE",
       "merged_into": "closure:C-ROUTE"
     },
     {
@@ -3761,6 +3833,7 @@
       "comparable_scope": "Not a shared-cause item.",
       "author": "Opus 5.5 High",
       "author_finding_id": "G1",
+      "duplicate_of": "closure:G1",
       "merged_into": "closure:G1"
     },
     {
@@ -3770,7 +3843,6 @@
       "disposition": "merged",
       "rationale": "I decided this independently and agree with retirement. The stated reason is that people are worth protecting. CBP's priority across nationality and status is a fact about rescue practice, and it does not show listening, understanding or acceptance. The literal statement “to be tolerant toward all kinds of people” could stretch to cover it, but the procedure's boundary says general compassion alone is not enough. Equal protection fits Universalism – Concern, where S2_UNC_support_10 keeps the rescue consideration. A new mechanism would be invention. This is a corpus eligibility decision and assigns no coding answer.",
       "affected_ids": [
-        "S2_C20",
         "S2_UNT_support_05"
       ],
       "patch_ids": [
@@ -3796,6 +3868,7 @@
       "comparable_scope": "I read all active Tolerance support titles and conclusions. S2_UNT_support_04 is the nearest: it says treating people as worthy of care puts acceptance into practice, and it pairs help with nonjudgmental victim services and addresses disagreement over entry or stay. I leave it for human coding (see N-UNT04). S1582_UNT_support_03's response and gap already raise the point.",
       "author": "Opus 5.5 High",
       "author_finding_id": "R1",
+      "duplicate_of": "closure:R1",
       "merged_into": "closure:R1"
     },
     {
@@ -3841,6 +3914,7 @@
           "text": "<p><span class=\"lbl\">Point 6</span> The bill gives one U.S. state's supervision nationwide reach with only a conditional federal backup.</p><ul><li class=\"because\"><span class=\"lbl\">Because</span> “The bill would permit a nonbank issuer with under $10 billion in outstanding stablecoins to opt in to a state regulatory regime and operate nationally.” <a href=\"https://web.archive.org/web/20261029214851/https://www.congress.gov/crs_external_products/IN/PDF/IN12553/IN12553.5.pdf\" title=\"Congressional Research Service, report IN12553, July 18, 2025\">[25]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> A federal waiver can keep larger issuers in that system too. Section 4(d)(3) allows an issuer “with a consolidated total outstanding issuance of more than $10,000,000,000 to remain solely supervised by a State payment stablecoin regulator.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></li><li class=\"because\"><span class=\"lbl\">Because</span> That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” <a href=\"https://web.archive.org/web/20261029214535/https://www.congress.gov/crs_external_products/IF/PDF/IF12984/IF12984.3.pdf\" title=\"Congressional Research Service, report IF12984, June 9, 2025\">[2]</a> CRS is the Congressional Research Service, which does research for Congress.</li><li class=\"because\"><span class=\"lbl\">Because</span> Without an agreement allowing routine Federal Reserve participation, section 7's emergency enforcement route for the Federal Reserve and Comptroller requires “unusual and exigent circumstances” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> and “not less than 48 hours' prior written notice to the applicable State payment stablecoin regulator” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. The clause for each regulator is “Subject to subparagraph (C)” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, which lets these regulators restrict an issuer by directive after finding a serious risk during those circumstances. The bill's text does not separately state a notice period for those directives. This backup is a new federal power, so the concern is not that the bill reduces existing federal authority. The concern is that national reach raises the stakes of these limits.</li><li class=\"note\"><span class=\"lbl\">Note</span> Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> does not supply equal staffing or remove the federal notice requirement.</li><li class=\"so\"><span class=\"lbl\">So</span> A failure of local supervision can expose payments nationwide while the new federal backup is limited by these conditions and can face a notice period. Giving national reach to that weak point can strain the federal government's ability to contain a fast threat.</li></ul>"
         }
       ],
+      "duplicate_of": "closure:R2",
       "merged_into": "closure:R2"
     }
   ],
@@ -9678,6 +9752,40 @@
       ]
     },
     {
+      "patch_id": "CPS2-0001",
+      "collection": "catalog",
+      "record_id": "SJRes88_UNT_oppose_06",
+      "field_path": [
+        "retirement_reason"
+      ],
+      "pointer": "/catalog/120/retirement_reason",
+      "before": "Under the current Tolerance rule, generic access to stories or information is not enough, and this PRO's only bridge is that removing limits 'makes room for audiences to encounter people and viewpoints from other backgrounds'. No packet source connects foreign programming or film to understanding or acceptance across differences, and adding that bridge would invent it. The evidence for the promises is also limited: Malaysia's regulator said no 80 percent quota applies to private broadcasters and that licences do not restrict international content at prime time, and Thailand's framework identifies no existing film quota.",
+      "after": "Under the current Tolerance rule, generic access to stories or information is not enough, and this argument's only bridge is that removing limits 'makes room for audiences to encounter people and viewpoints from other backgrounds'. No packet source connects foreign programming or film to understanding or acceptance across differences, and adding that bridge would invent it. The evidence for the promises is also limited: Malaysia's regulator said no 80 percent quota applies to private broadcasters and that licences do not restrict international content at prime time, and Thailand's framework identifies no existing film quota.",
+      "finding_ids": [
+        "N-PROCON"
+      ],
+      "classification": "clarity_only",
+      "reason": "Replaces the internal term PRO with “argument” in the displayed retirement reason. The eligibility decision is unchanged.",
+      "source_locators": []
+    },
+    {
+      "patch_id": "CPS2-0002",
+      "collection": "catalog",
+      "record_id": "S2_UNC_oppose_11",
+      "field_path": [
+        "retirement_reason"
+      ],
+      "pointer": "/catalog/561/retirement_reason",
+      "before": "Fails the required comparison. The harm is that money is not spent on Senator Baldwin's proposed childcare amendment, but that is the gap between S.2 and a hypothetical alternative bill, not a change S.2 causes relative to the law in force on June 9. S.2's money is new, deficit-financed appropriation (“out of any money in the Treasury not otherwise appropriated”). Without S.2 there would be no childcare funding either, and the PRO offers no fixed-budget or crowding-out mechanism. No bill-caused effect on families' childcare remains.",
+      "after": "Fails the required comparison. The harm is that money is not spent on Senator Baldwin's proposed childcare amendment, but that is the gap between S.2 and a hypothetical alternative bill, not a change S.2 causes relative to the law in force on June 9. S.2's money is new, deficit-financed appropriation (“out of any money in the Treasury not otherwise appropriated”). Without S.2 there would be no childcare funding either, and the argument offers no fixed-budget or crowding-out mechanism. No bill-caused effect on families' childcare remains.",
+      "finding_ids": [
+        "N-PROCON"
+      ],
+      "classification": "clarity_only",
+      "reason": "Replaces the internal term PRO with “argument” in the displayed retirement reason. The eligibility decision is unchanged.",
+      "source_locators": []
+    },
+    {
       "patch_id": "PRIOR-0001",
       "collection": "claims",
       "record_id": "S2_C06",
@@ -11918,7 +12026,7 @@
         "publication-gate.mjs"
       ],
       "before": "af773cc0ba5283c3e3f962ff44c2e0060801b392edc0138b47d25019d71e9282",
-      "after": "333675ab823dda866c29a333060f1bab6bf93a60b854f7600670547c3d472ec8",
+      "after": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
       "classification": "implementation_correction",
       "reason": "CLT001–CLT008",
       "source_locators": []
@@ -12179,6 +12287,7 @@
     "S2_UNC_oppose_08",
     "S2_UNC_oppose_09",
     "S2_UNC_oppose_10",
+    "S2_UNC_oppose_11",
     "S2_UNC_support_01",
     "S2_UNC_support_03",
     "S2_UNC_support_04",
@@ -12213,6 +12322,7 @@
     "S2_UNT_support_04",
     "S2_UNT_support_05",
     "SJRes88_TR_support_01",
-    "SJRes88_UNC_oppose_06"
+    "SJRes88_UNC_oppose_06",
+    "SJRes88_UNT_oppose_06"
   ]
 }

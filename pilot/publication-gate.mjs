@@ -38,11 +38,12 @@ function patchValue(content,patch,binding,uiCopy){
   requireThat(patch.record_id==='release'&&patch.field_path?.length===1&&nonempty(uiCopy?.[patch.field_path[0]]),`${patch.patch_id} has an invalid interface target.`);
   return uiCopy[patch.field_path[0]];
  }
- const editable={arguments:['title','pro_html','con_html','notes_html','gaps','paths','source_bindings'],claims:['title','statement','scope_html','background_html','support_html','objection_html','notes_html','gaps','prerequisite_paths','members','source_refs'],background:['statement','scope_html','section','source_quote','source_refs'],evidence:['support','response','strength','pro_html','con_html','support_html','objection_html'],bills:['title','description','comparison','text_version','text_date','evidence_cutoff','source_url'],values:['name','statements','reference']};
+ const editable={arguments:['title','pro_html','con_html','notes_html','gaps','paths','source_bindings'],catalog:['retirement_reason'],claims:['title','statement','scope_html','background_html','support_html','objection_html','notes_html','gaps','prerequisite_paths','members','source_refs'],background:['statement','scope_html','section','source_quote','source_refs'],evidence:['support','response','strength','pro_html','con_html','support_html','objection_html'],bills:['title','description','comparison','text_version','text_date','evidence_cutoff','source_url'],values:['name','statements','reference']};
  requireThat(editable[patch.collection]?.includes(patch.field_path?.[0]),`${patch.patch_id} changes only audit metadata or an unsupported field.`);
  const list=patch.collection==='background'?content.procedure.background:patch.collection==='evidence'?Object.entries(content.evidence_placement.nodes).map(([id,fields])=>({id,...fields})):content[patch.collection];
- const record=list?.find(n=>n.id===patch.record_id);
+ const record=list?.find(n=>n.id===patch.record_id)??(patch.collection==='arguments'?content.catalog.find(n=>n.id===patch.record_id&&n.retired)?.original:undefined);
  requireThat(record&&Array.isArray(patch.field_path)&&patch.field_path.length,`${patch.patch_id} has an invalid target.`);
+ if(patch.collection==='catalog')requireThat(record.retired===true,`${patch.patch_id} targets an active catalog entry, whose retirement explanation is not displayed.`);
  return patch.field_path.reduce((value,key)=>value?.[key],record);
 }
 
