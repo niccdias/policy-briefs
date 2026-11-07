@@ -37,7 +37,7 @@
     "current-author-supplement_1.md": "9fdb4a33944dee3d61e422aa646945a435da7fcc627f88d5c6a054434a42cdfa",
     "current-author-supplement_2.md": "24ad5ded9ba3787176551a54f39a73629822c2acc11b1d50f1b4e5ea8a6b014e",
     "current-author-supplement_3.md": "003043f800efa97a514e3c02682b0dd146ac74870a1e875ec89c0372989ce72d",
-    "current-technical-findings.md": "b47fadd8f766b67b758cbe9a8adec3497c30c3af5e07bbf6c6c1d7b939cfa083",
+    "current-technical-findings.md": "61e2817f3568a7750b14871df97e31a91f5725346d07abef57b8ccf75139912a",
     "origin-00-issues.md": "49acec97e7641a68f4060c591b43d3528f752070b6366143c763d1594de903fe",
     "origin-01-issues.md": "50cd3c7332a0f81fff2d7a016f1cb8b0ee45a3614dee292c2c1e943fe73172fd",
     "origin-02-issues.md": "ade87b3db8f07aa95321573ffd90ba680cfe43d614d3e10d65d184dbecb7170d",
@@ -60,7 +60,7 @@
     "origin-19-issue-dispositions.md": "64da523731a55471529922c86c1a61f526c59fd440d7c2e957f4fb231db1535e",
     "retained.json": "bb07c8ed4fee60c6ff32473160defd96d0a444cc1d91e9c090f51c91ca1169e2"
   },
-  "finding_sources_sha256": "cedee0f1259028c43c8a68ece43f690dd0fa6767b63546fa3108c7b6c6ac8109",
+  "finding_sources_sha256": "f74ce6ec1d00dcd1c9538ddfb0c6cd9c3399903023d72c998103c86106d18b7b",
   "findings": [
     {
       "id": "closure:I1",

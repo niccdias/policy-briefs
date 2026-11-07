@@ -14,10 +14,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -31,10 +59,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -48,10 +104,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -65,10 +149,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -82,10 +194,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -99,10 +239,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       },
       "additional_regressions": [
         "Retired-ID explanations are scanned.",
@@ -121,10 +289,38 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     },
     {
@@ -138,10 +334,83 @@
       "verification": {
         "pass": true,
         "verifier": "Sol 6.1 Max independent technical verification",
-        "gate_sha256": "13a6c93956f17c9f571c512cae2cf896fbe26a7d18e9872ef487a54d452a5ba9",
-        "source_commit": "da1bfd99e284ea05f496636b3c814c2c02ea2640",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
         "regressions": "output/closure/gate.test.mjs",
-        "result": "22/22 independent regressions pass; the original invalid candidate is now rejected."
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
+      }
+    },
+    {
+      "id": "CLT009",
+      "classification": "confirmed_defect",
+      "status": "closed",
+      "issue": "A catalog retirement_reason patch on an active ID could serve as the sole correction despite never being displayed.",
+      "evidence": "The 25th independent regression accepted the active-catalog correction before the retired-only target guard. The failure is retained at ae18f9d7cce95e14db0f427401d623ee65424bd4.",
+      "required_result": "Catalog correction targets must be retired, with only retirement_reason eligible.",
+      "disposition": "corrected",
+      "verification": {
+        "pass": true,
+        "verifier": "Sol 6.1 Max independent technical verification",
+        "checked_at": "2026-11-07T21:41:13.683Z",
+        "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+        "source_commit": "a03677ff5fb47c9e280d570228ce3e95424160d3",
+        "binding": {
+          "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+          "procedure_id": "procedure-20261107-344e19dfc7b89622",
+          "mapping_id": "mapping-236a7cfb3af2b65d",
+          "rendered_id": "rendered-299318edce1ce45c5af9",
+          "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+          "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+          "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+          "implementation_sha256": {
+            "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+            "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+            "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+            "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+            "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+            "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+            "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+            "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+            "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+            "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+            "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+            "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+            "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+            "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+            "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+            "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+          }
+        },
+        "regressions": "output/closure/gate.test.mjs",
+        "result": "25/25 independent regressions pass; the corresponding invalid candidate is rejected."
       }
     }
   ],
@@ -153,8 +422,8 @@
     "Final built parity, actual import-source bytes, anchors and public-output exclusion checks await root final artifacts."
   ],
   "test_results": {
-    "independent_gate": "22/22 pass",
-    "root_publication_suite": "12/12 pass",
+    "independent_gate": "25/25 pass",
+    "root_publication_suite": "15/15 pass",
     "filesystem_checks": [
       "Changed or newly added issue reports expire approval.",
       "Absent required sources and changed independent receipts block publication.",
@@ -168,6 +437,36 @@
       "Missing affected coverage, self-target and merge-chain targets reject.",
       "The resolved correction must cite a patch related to the original finding."
     ],
-    "implementation_patch": "The actual bound current file hash passes; an invented after hash rejects."
+    "implementation_patch": "The actual bound current file hash passes; an invented after hash rejects.",
+    "integrated_source": "67/67 pass",
+    "archived_argument_target": "An absent active argument resolves only through the matching retired catalog.original; stale original text rejects; an active argument takes precedence.",
+    "catalog_target": "A retired explanation correction passes; the active-catalog explanation bypass rejects."
+  },
+  "binding": {
+    "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+    "procedure_id": "procedure-20261107-344e19dfc7b89622",
+    "mapping_id": "mapping-236a7cfb3af2b65d",
+    "rendered_id": "rendered-299318edce1ce45c5af9",
+    "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+    "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+    "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+    "implementation_sha256": {
+      "src/app.jsx": "f33ce8c37be5619c9d4a26bf33bf16241787dd2af2ae44ec519a31ac9a718bea",
+      "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+      "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+      "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+      "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+      "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+      "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+      "style.css": "f6cf0c1387bf402f1e3b1a6e5ee9d4a4a3984a9fddea21fc0e6a862fdb1e0853",
+      "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+      "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+      "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+      "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+      "rendered-release.mjs": "fdcd5a1c49fb2427d517a8cac17651f3f918c502f8178d04857cf752ae575b82",
+      "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+      "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+      "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+    }
   }
 }
