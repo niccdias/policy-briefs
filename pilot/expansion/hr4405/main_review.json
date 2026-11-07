@@ -1,0 +1,870 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "86d0c17c307fa694e744558e332986f27f26be0e44228ec48c3a0f4f0b7e77b7",
+  "accepted_retirements": [
+    "HR4405_UNT_support_01",
+    "HR4405_UNT_support_02",
+    "HR4405_UNT_oppose_04",
+    "HR4405_SES_oppose_05"
+  ],
+  "decisions": "Inspected all 17 merges and 52 routes, the nine substantive edits and the four retirements. C03 remains a narrow legal-coverage dispute, with Privacy Act and privilege limits. Methods and undercover-officer facts have no extra vote. Generic empathy, information access and possible misuse do not establish Tolerance; documented group blame remains distinct.",
+  "source_context_read": "Targeted passages of FOIA/Privacy Act materials, Brown/Clemente and the law-enforcement-privilege opinion, secrecy evidence and value-linked examples; no new live retrieval.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR4405_UNN_oppose_03",
+        "HR4405_UNC_support_01",
+        "HR4405_UNC_oppose_02",
+        "HR4405_UNT_oppose_01",
+        "HR4405_SEP_oppose_04",
+        "HR4405_SES_oppose_07"
+      ],
+      "decision": "Direct text of the bill, verified against the packet bill text. Background only; it is not a judgment on any complete argument."
+    },
+    {
+      "id": "C02",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR4405_SES_oppose_03",
+        "HR4405_SES_oppose_04",
+        "HR4405_TR_oppose_03",
+        "HR4405_UNN_oppose_02",
+        "HR4405_UNC_oppose_03",
+        "HR4405_SEP_oppose_01",
+        "HR4405_SES_oppose_01",
+        "HR4405_UNC_oppose_04",
+        "HR4405_SEP_oppose_03",
+        "HR4405_SEP_oppose_02",
+        "HR4405_SES_oppose_02",
+        "HR4405_UNC_oppose_01",
+        "HR4405_UNT_oppose_03"
+      ],
+      "decision": "The list and its limits are direct text; the absences are checked by reading the complete list. This claim does not decide whether other laws, such as the Privacy Act, also apply; that question is in C03 and in local qualifications."
+    },
+    {
+      "id": "C03",
+      "classification": "judgment",
+      "users": [
+        "HR4405_UNN_oppose_02",
+        "HR4405_UNC_oppose_03",
+        "HR4405_SEP_oppose_01",
+        "HR4405_SES_oppose_01"
+      ],
+      "decision": "Four active arguments need this risk premise and no more. Two things make it a judgment: the responses on UNC_oppose_03, SEP_oppose_01 and SES_oppose_01 say other law protects source names, and whether protections outside the bill cover all such secrecy is a specific unresolved legal gap. No packet passage read decides it. Editorial issues on SES_oppose_01 and UNN_oppose_02 record the premise as unresolved. A universal version (every source must be exposed) is not needed by any user and is not claimed."
+    },
+    {
+      "id": "C04",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNN_oppose_02",
+        "HR4405_UNC_oppose_03",
+        "HR4405_SEP_oppose_01",
+        "HR4405_SES_oppose_01"
+      ],
+      "decision": "No retained response disputes this conditional mechanism. Editorial issues on SES_oppose_01 and UNN_oppose_02 treat it as supported and remove the blanket objection to it. Disputes concern whether exposure occurs (C03) and transfer to other settings, which is local."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNC_oppose_04",
+        "HR4405_SEP_oppose_03",
+        "HR4405_SES_oppose_03"
+      ],
+      "decision": "No retained response challenges this statement: SES_oppose_03’s response expressly leaves the methods route alone, and the other two users have no response. The notes record a legal limit from a possible law-enforcement privilege, but no packet source shows it applied under the Act, so it stays a qualification, not a new objection."
+    },
+    {
+      "id": "C06",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_oppose_02",
+        "HR4405_SES_oppose_02"
+      ],
+      "decision": "Neither user has a response. Notes record that DOJ described the reported exposure as its own failure and that its instructions hide employee names. Those limit how often exposure occurs but do not challenge this statement."
+    },
+    {
+      "id": "C07",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNN_oppose_01",
+        "HR4405_SEP_oppose_05",
+        "HR4405_SES_oppose_06"
+      ],
+      "decision": "No user has a response. Notes on exemptions, hours and other sources of workload concern size, not whether this happened."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNC_oppose_01",
+        "HR4405_UNT_oppose_03",
+        "HR4405_SEP_oppose_01"
+      ],
+      "decision": "No retained response challenges this statement. Notes limit its attribution and causation but do not dispute that some details were exposed."
+    },
+    {
+      "id": "C09",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNC_oppose_02",
+        "HR4405_UNT_oppose_01",
+        "HR4405_SEP_oppose_04",
+        "HR4405_SES_oppose_07"
+      ],
+      "decision": "No retained response disputes this statement; the responses on UNT_oppose_01 and SEP_oppose_04 target later steps. The source is an attributed legal analyst and House-record analysis, with no contrary packet evidence."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_support_05",
+        "HR4405_SES_support_07",
+        "HR4405_SEP_oppose_04",
+        "HR4405_SES_oppose_07"
+      ],
+      "decision": "A DOJ report that is the same in all four users, on both the support and oppose sides. No response challenges it."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_oppose_04",
+        "HR4405_SES_oppose_07"
+      ],
+      "decision": "A reported fact, with no response. Snopes’ conclusion that the files did not confirm the story is retained as a qualification."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_support_05",
+        "HR4405_SES_support_07"
+      ],
+      "decision": "A reported fact-check finding, with no response. The separate question whether replies change belief stays local and has its own response in SES_support_07."
+    },
+    {
+      "id": "C13",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_support_02",
+        "HR4405_SES_support_02"
+      ],
+      "decision": "No response disputes this: SEP_support_02’s response targets only the Cerberus example and expressly leaves this route alone. It is an ordinary inference from a regulator finding and Treasury guidance."
+    },
+    {
+      "id": "C14",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNC_support_03",
+        "HR4405_SEP_support_04",
+        "HR4405_SES_support_01"
+      ],
+      "decision": "No user has a response. A supported ordinary inference with attributed testimony. The note that the statement names no lesson limits the evidence but is not an objection."
+    },
+    {
+      "id": "C15",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR4405_UNC_support_01",
+        "HR4405_UNC_support_03",
+        "HR4405_SEP_support_03",
+        "HR4405_SES_support_03",
+        "HR4405_SES_oppose_03"
+      ],
+      "decision": "Direct text of the bill, verified against the packet bill text."
+    },
+    {
+      "id": "C16",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_SEP_support_03",
+        "HR4405_SES_support_03"
+      ],
+      "decision": "DOJ’s own published finding, with no response. Notes say the review was already public, which is baseline on how much release adds."
+    },
+    {
+      "id": "C17",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR4405_UNC_support_03",
+        "HR4405_SES_support_04"
+      ],
+      "decision": "Direct bill coverage plus the watchdog’s published finding. No response challenges it. Notes on its published report and recommendations are baseline."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "HR4405_UNN_support_01",
+      "paths": [
+        {
+          "id": "HR4405_UNN_support_01-P1",
+          "requires": [],
+          "original_excerpt": "Releasing the exchanges gives [NAME] and local nature groups evidence to compare private requests with public enforcement decisions and challenge pressure to relax habitat protections.",
+          "necessity_reason": "Local route: the habitat facts, the governor’s message and the value of public information jointly carry this argument; no shared claim is needed."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNN_support_02",
+      "paths": [
+        {
+          "id": "HR4405_UNN_support_02-P1",
+          "requires": [],
+          "original_excerpt": "The bill supplies bank records for checking TerraMar’s past spending against its aim of protecting oceans.",
+          "necessity_reason": "Local route: only this argument uses the TerraMar records and donor guidance."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNN_support_03",
+      "paths": [
+        {
+          "id": "HR4405_UNN_support_03-P1",
+          "requires": [],
+          "original_excerpt": "Publishing these exchanges gives advocates a documented account of climate myths being shared, their sources and the replies.",
+          "necessity_reason": "Local route: only this argument uses the climate exchanges and IPCC material."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "HR4405_UNN_oppose_01-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "The bill adds a large, urgent task to offices that prosecute pollution and wildlife crime. Those cases must compete for staff time assigned to disclosure work.",
+          "necessity_reason": "The time pressure on these offices requires the shared fact that review under the Act drew lawyers away from criminal work; the nature-enforcement link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "HR4405_UNN_oppose_02-P1",
+          "requires": [
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "Undercutting trust in federal promises of secrecy threatens the cooperation needed to uncover environmental crime.",
+          "necessity_reason": "The route needs the shared legal premise that source secrecy is put at risk (C03) and the shared expectation mechanism (C04). The move to environmental tips is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_UNN_oppose_03-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Scrutiny sparked by disclosure creates risks of lost support and rejected donations.",
+          "necessity_reason": "Reputational exposure can only reach donors if reputation is not a ground for withholding (C01). The Earthshot and guidance evidence is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_support_01",
+      "paths": [
+        {
+          "id": "HR4405_UNC_support_01-P1",
+          "requires": [
+            "C01",
+            "C15"
+          ],
+          "original_excerpt": "Victims, advocates, and investigators gain evidence to examine favored treatment",
+          "necessity_reason": "Examining favored treatment needs the deal and charging records (C15) and the bar on withholding for status (C01)."
+        },
+        {
+          "id": "HR4405_UNC_support_01-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "pursue abuse across borders",
+          "necessity_reason": "The foreign-investigation route uses the bar on withholding for status (C01) and the local French evidence, but not the deal records."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_support_02",
+      "paths": [
+        {
+          "id": "HR4405_UNC_support_02-P1",
+          "requires": [],
+          "original_excerpt": "Access to evidence about abuse and its support makes an existing route to compensation more usable.",
+          "necessity_reason": "Local route: only this argument uses the civil-suit statute and the survivors’ lawyer."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_support_03",
+      "paths": [
+        {
+          "id": "HR4405_UNC_support_03-P1",
+          "requires": [
+            "C15"
+          ],
+          "original_excerpt": "demand better treatment of victims",
+          "necessity_reason": "The victim-treatment route needs the internal charging records (C15); the 2020 review is local to this route."
+        },
+        {
+          "id": "HR4405_UNC_support_03-P2",
+          "requires": [
+            "C17"
+          ],
+          "original_excerpt": "safer jails",
+          "necessity_reason": "The jail route needs the detention records and watchdog finding (C17)."
+        },
+        {
+          "id": "HR4405_UNC_support_03-P3",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "It also gives future trafficking investigators a case to learn from.",
+          "necessity_reason": "The investigator route needs the shared case-lessons statement (C14)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_support_04",
+      "paths": [
+        {
+          "id": "HR4405_UNC_support_04-P1",
+          "requires": [],
+          "original_excerpt": "Giving survivors access to answers and documentary support for their earlier reports treats them as people whose suffering and accounts matter.",
+          "necessity_reason": "Local route: survivor statements and the redaction-reasons duty are used only here in this form."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_support_05",
+      "paths": [
+        {
+          "id": "HR4405_UNC_support_05-P1",
+          "requires": [],
+          "original_excerpt": "Readers gain evidence to distinguish allegations from findings and challenge claims the records do not support.",
+          "necessity_reason": "Local route: AP’s check of investigators’ assessments is used only here."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "HR4405_UNC_oppose_01-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Ordering broad, searchable publication creates a risk of exposing survivors through missed clues.",
+          "necessity_reason": "The risk claim needs the shared statement that victim protection depends on finding details first and that the production exposed some (C08)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "HR4405_UNC_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes a ground for protecting people from being treated as guilty because of an unproved claim or mere contact with Epstein.",
+          "necessity_reason": "The route needs the shared statement that covered records can hold unconfirmed claims and mere mentions that reputation cannot keep private (C09). The harm to strangers is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_UNC_oppose_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "The bill puts helpers at risk even after a case closes. Breaking a promise made to secure their help also treats them unjustly.",
+          "necessity_reason": "Risk to helpers and the broken promise both need the disputed exposure premise (C03), and no more."
+        },
+        {
+          "id": "HR4405_UNC_oppose_03-P2",
+          "requires": [
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "Losing that cooperation weakens a way to uncover child abuse.",
+          "necessity_reason": "The future-cooperation route needs the exposure premise (C03) and the shared expectation mechanism (C04)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "HR4405_UNC_oppose_04-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "The bill removes protection for methods whose usefulness extends beyond the current case.",
+          "necessity_reason": "The route needs the shared statement about protected methods and the missing separate exception (C05). The link to vulnerable people is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNT_support_03",
+      "paths": [
+        {
+          "id": "HR4405_UNT_support_03-P1",
+          "requires": [],
+          "original_excerpt": "Wider access lets [NAME] check what claims about particular people actually rest on and challenge the leap from individual conduct to blame of Jews as a group.",
+          "necessity_reason": "Local route: this collective-blame branch is the only surviving route and uses no shared claim."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "HR4405_UNT_oppose_01-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Requiring publication while barring withholding for harm to reputation increases the risk of treating a mention or an untested claim as proof against someone.",
+          "necessity_reason": "The route needs the shared statement about unconfirmed claims and mere mentions that reputation cannot keep private (C09). The Tolerance link is local and is what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "HR4405_UNT_oppose_02-P1",
+          "requires": [],
+          "original_excerpt": "claiming that it confirmed their longstanding beliefs about secret Jewish control",
+          "necessity_reason": "Local route: documented antisemitic use of the release is the only surviving route and uses no shared claim."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_UNT_oppose_03-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Broad publication creates a route from private records to unwanted exposure and public rejection.",
+          "necessity_reason": "The route needs the shared statement that victim protection depends on finding details first and that the production exposed some (C08). The rejection and Tolerance link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_support_01",
+      "paths": [
+        {
+          "id": "HR4405_SEP_support_01-P1",
+          "requires": [],
+          "original_excerpt": "Action against offenders limits their chance to harm more people.",
+          "necessity_reason": "Local route: outside scrutiny and renewed inquiries are used only here in this form; no shared claim carries it."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_support_02",
+      "paths": [
+        {
+          "id": "HR4405_SEP_support_02-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "The records give banks payment patterns to check and let regulators examine failures to act.",
+          "necessity_reason": "The route needs the shared statement that financial-network records can give banks and regulators case details (C13). The link to [NAME]’s community is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_support_03",
+      "paths": [
+        {
+          "id": "HR4405_SEP_support_03-P1",
+          "requires": [
+            "C15",
+            "C16"
+          ],
+          "original_excerpt": "The decision records let Congress and the public check where supervision failed and demand tighter review before future abuse cases are closed.",
+          "necessity_reason": "The route needs coverage of internal charging records (C15) and the DOJ review’s finding of a supervision failure (C16). The personal safety link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_support_04",
+      "paths": [
+        {
+          "id": "HR4405_SEP_support_04-P1",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "Searchable records let officers outside the original investigation study how recruitment, contacts and travel supported abuse.",
+          "necessity_reason": "The route needs the shared case-lessons statement (C14). The personal-safety link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_support_05",
+      "paths": [
+        {
+          "id": "HR4405_SEP_support_05-P1",
+          "requires": [
+            "C10",
+            "C12"
+          ],
+          "original_excerpt": "Public records let fact checkers show the context behind false accusations.",
+          "necessity_reason": "The route needs the Comet attack as the danger (C10) and the files as a source of corrections (C12). The experiment and bystander link are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "HR4405_SEP_oppose_01-P1",
+          "requires": [
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "Putting source recruitment and safe reporting at risk threatens warnings that police use to prevent harm.",
+          "necessity_reason": "The source-recruitment route needs the disputed exposure premise (C03) and the shared expectation mechanism (C04)."
+        },
+        {
+          "id": "HR4405_SEP_oppose_01-P2",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Publication also threatens victims' confidence in reporting.",
+          "necessity_reason": "The independent victim-reporting route needs only the shared statement on exposed victims (C08). It is not blocked if C03 is rejected."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "HR4405_SEP_oppose_02-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "Losing an officer's cover weakens future work against dangerous crime.",
+          "necessity_reason": "The route needs the shared statement on exposed undercover identities (C06). The protection link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_SEP_oppose_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Giving offenders knowledge they can use to escape detection weakens the crime prevention that helps protect [NAME] from harm.",
+          "necessity_reason": "The route needs the shared statement about protected methods and the missing separate exception (C05). The personal-safety link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_04",
+      "paths": [
+        {
+          "id": "HR4405_SEP_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Publishing names and untested claims supplies targets for threats",
+          "necessity_reason": "The named-target route needs the shared statement about unconfirmed claims and mentions (C09). The response disputes this route’s reach to bystanders."
+        },
+        {
+          "id": "HR4405_SEP_oppose_04-P2",
+          "requires": [
+            "C09",
+            "C10",
+            "C11"
+          ],
+          "original_excerpt": "risks attacks of a kind that also endangers nearby workers and customers",
+          "necessity_reason": "The bystander route needs C09, the Comet attack (C10) and the revived story (C11). It stays open if the named-target route fails."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_05",
+      "paths": [
+        {
+          "id": "HR4405_SEP_oppose_05-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "Review time comes out of time available to investigate threats and prosecute crime.",
+          "necessity_reason": "The route needs the shared statement that review drew lawyers from criminal and national-security work (C07). The personal-safety link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_01",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_01-P1",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "Police beyond the original case team gain material for studying trafficking patterns and investigative methods.",
+          "necessity_reason": "The route needs the shared case-lessons statement (C14). The state-capacity link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_02",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_02-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Opening the financial-network records gives banks and regulators case details for checking missed warning signs and improving transaction checks.",
+          "necessity_reason": "The route needs the shared banking statement (C13). The link to national defenses against crime is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_03",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_03-P1",
+          "requires": [
+            "C15",
+            "C16"
+          ],
+          "original_excerpt": "Access to the underlying records lets Congress and the public check prosecutors’ choices and press for stronger review of decisions to end investigations.",
+          "necessity_reason": "The route needs coverage of deal and charging records (C15) and the review’s finding of a supervision failure (C16). The state-capacity link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_04",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_04-P1",
+          "requires": [
+            "C17"
+          ],
+          "original_excerpt": "Outside reviewers gain records for comparing staff logs with witness accounts and identifying failed safety checks.",
+          "necessity_reason": "The route needs the shared statement on detention records and the watchdog finding (C17). The state-capacity link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_05",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_05-P1",
+          "requires": [],
+          "original_excerpt": "Disclosure gives Congress specific earlier business connections to check against a senior defense official’s duties and ethics disclosures.",
+          "necessity_reason": "Local route: only this argument uses the Feinberg evidence."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_06",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_06-P1",
+          "requires": [],
+          "original_excerpt": "People gain evidence for checking the government’s account and its reasons for leaving details out.",
+          "necessity_reason": "Local route: the trust and stability evidence is used only here."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_support_07",
+      "paths": [
+        {
+          "id": "HR4405_SES_support_07-P1",
+          "requires": [
+            "C10",
+            "C12"
+          ],
+          "original_excerpt": "Reporters and public officials gain primary records for checking specific claims and preparing evidence-based replies.",
+          "necessity_reason": "The route needs the Comet attack as the danger (C10) and the files as a source of corrections (C12). The study and stability link are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_01",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_01-P1",
+          "requires": [
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "Breaking those promises discourages future cooperation",
+          "necessity_reason": "The confidential-source route needs the disputed exposure premise (C03) and the shared expectation mechanism (C04)."
+        },
+        {
+          "id": "HR4405_SES_oppose_01-P2",
+          "requires": [],
+          "original_excerpt": "Persons called upon to testify will consider the likelihood that their testimony may one day be disclosed to outside parties.",
+          "necessity_reason": "Independent local route through grand-jury secrecy. It uses no shared claim and stays open if C03 is rejected."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_02",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_02-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "Losing useful cover weakens the ability to enter criminal groups undetected and stop their crimes.",
+          "necessity_reason": "The route needs the shared statement on exposed undercover identities (C06). The state-capacity link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "These files contain such material.",
+          "necessity_reason": "The methods route needs the shared statement about protected methods and the missing separate exception (C05)."
+        },
+        {
+          "id": "HR4405_SES_oppose_03-P2",
+          "requires": [
+            "C02",
+            "C15"
+          ],
+          "original_excerpt": "Its mandate expressly includes internal DOJ records",
+          "necessity_reason": "The enforcement-priorities route needs the charging-records coverage (C15) and the limits of the listed exceptions (C02). The response disputes this route only."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_04",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_04-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "It gives no separate protection to an expected future case when neither condition applies, or to a state-only investigation before prosecution.",
+          "necessity_reason": "The route needs the limits of the listed exceptions (C02). The expected-case and state-case evidence is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_06",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_06-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "The release duty forces a competing use of staff time needed to investigate and prosecute other threats.",
+          "necessity_reason": "The route needs the shared statement that review drew lawyers from criminal and national-security work (C07). The state-security link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_SES_oppose_07",
+      "paths": [
+        {
+          "id": "HR4405_SES_oppose_07-P1",
+          "requires": [
+            "C09",
+            "C10",
+            "C11"
+          ],
+          "original_excerpt": "Compulsory publication of unchecked accusations feeds a known route from false trafficking claims to violence.",
+          "necessity_reason": "The route needs unconfirmed claims reaching publication (C09), the Comet attack (C10) and the revived story (C11). The stability link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_TR_support_02",
+      "paths": [
+        {
+          "id": "HR4405_TR_support_02-P1",
+          "requires": [],
+          "original_excerpt": "Making the case records public, searchable, and downloadable gives parents who want documented facts evidence to draw on in that teaching.",
+          "necessity_reason": "Local route: the inherited teaching practice is specific to this argument and uses no shared claim."
+        }
+      ]
+    },
+    {
+      "point_id": "HR4405_TR_oppose_03",
+      "paths": [
+        {
+          "id": "HR4405_TR_oppose_03-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill permits withholding material that would",
+          "necessity_reason": "The route needs the listed exceptions (C02), which include child sexual abuse material but no general adult-pornography ground. The tradition evidence is local."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "HR4405_UNN_support_02",
+      "reason": "Clarified wording. Response narrowed to one defective step: payment data to conservation results and current choices. Dropped “no lesson they add for judging an active conservation effort” as a separate demand, moved the earlier public warning to the later strength comparison as a baseline fact, and added an explicit concession that spending can be checked. Sources unchanged."
+    },
+    {
+      "point_id": "HR4405_UNN_oppose_02",
+      "reason": "Removed the blanket response under editorial issue HR4405_UNN_oppose_02: a measured bill-specific change or a named environmental informant is not required, and unchanged protection for unrelated files does not alone rebut a reputational spillover. Preserved those scope facts as a Note in the support, citing the same bill text and FOIA sources. The exposure premise stays separately disputed in shared claim C03. No-response marker now applies."
+    },
+    {
+      "point_id": "HR4405_UNC_oppose_03",
+      "reason": "Plain “people who secretly helped investigators” in title; “FOIA” explained as public-records law; quotations unchanged. Response now states its reach: names the Privacy Act protects, not other source information or people it does not cover, so that it matches the rescoped risk premise in C03."
+    },
+    {
+      "point_id": "HR4405_UNT_support_03",
+      "reason": "Applied editorial issue HR4405_UNT_support_03. Cut the political-opponents and listening branch, plus the political-embarrassment bullet that served it. The response targeted only that cut branch and said it did not address the collective-blame branch, so it has no remaining target: no-response marker now applies. NPR’s speculation quotation left with the response. Mixed-effects note stays visible in support."
+    },
+    {
+      "point_id": "HR4405_UNT_oppose_02",
+      "reason": "Applied editorial issue HR4405_UNT_oppose_02. Title and argument made specific to documented exploitation for antisemitic collective blame. Omitted the less directly supported political-group extension and NPR quotation. The absence of a measured change in beliefs or audience is routed to strength by main adjudication, not added to support. “Massie–Khanna” glossed. No general rule against publishing misusable information. No-response status preserved."
+    },
+    {
+      "point_id": "HR4405_SEP_support_01",
+      "reason": "Clarified wording. Narrowed the response: removed the demand to identify a person or a finding of continuing abuse, and treated the New Mexico inquiry as supporting an earlier step. Retained the actual defect: contrary evidence on the step from inquiry to protection. Same sources."
+    },
+    {
+      "point_id": "HR4405_SEP_oppose_01",
+      "reason": "Explained source, inspector general and House memo; simplified the legal canon; quotations unchanged. Response narrowed to names the Privacy Act protects and now states what it leaves unaddressed, so that it matches the rescoped risk premise in C03."
+    },
+    {
+      "point_id": "HR4405_SES_support_06",
+      "reason": "Clarified wording. Response restated around contrary evidence on one step, so that it does not imply a certainty requirement. Same sources."
+    },
+    {
+      "point_id": "HR4405_SES_oppose_01",
+      "reason": "Applied editorial issue HR4405_SES_oppose_01. Removed the blanket “does not connect this limited release to less cooperation” allegation from the Response and the So. Moved the point about other grand juries to a support Note. Added from the same August 2025 opinion that the agent gave hearsay accounts of select witnesses, so the Maxwell fact is not overread, and stated that the fact covers Maxwell only. Source-identity objection kept on its own evidence and limited to names the Privacy Act protects, matching the rescoped risk premise in C03."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

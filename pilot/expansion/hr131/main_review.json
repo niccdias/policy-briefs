@@ -1,0 +1,786 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "278661565cdc1a9b502015991ae810b390a7b8e54858cd9b7509236c5059768e",
+  "accepted_retirements": [
+    "HR131_UNT_support_01",
+    "HR131_UNT_support_02",
+    "HR131_UNT_support_03"
+  ],
+  "decisions": "Inspected all 13 merges, 44 original routes and eight substantive edits. Interested statements and repayment history support qualified help toward later construction; federal funding remains a stated limit. C13 concerns expected federal receipts, not merely the arithmetic of contract terms. Removed the identified-grave demand and three generic negotiation/welfare Tolerance arguments. The named caroling continuity remains distinct.",
+  "source_context_read": "Long and district statements, Reclamation history, condition-precedent law, federal funding dependence, CBO table and collection-method limits, environmental passages behind the removal and inherited local caroling practice. The July CBO table is dated and is not represented as a precise estimate of all later text.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR131_UNN_support_01",
+        "HR131_UNN_support_02",
+        "HR131_UNN_support_03",
+        "HR131_UNN_oppose_01",
+        "HR131_UNN_oppose_02",
+        "HR131_UNN_oppose_03",
+        "HR131_UNN_oppose_04",
+        "HR131_UNN_oppose_05",
+        "HR131_UNN_oppose_06",
+        "HR131_UNN_oppose_07",
+        "HR131_UNN_oppose_08",
+        "HR131_UNC_support_01",
+        "HR131_UNC_support_02",
+        "HR131_UNC_support_03",
+        "HR131_UNC_support_04",
+        "HR131_UNC_oppose_01",
+        "HR131_UNC_oppose_02",
+        "HR131_UNT_oppose_01",
+        "HR131_SEP_support_01",
+        "HR131_SEP_support_02",
+        "HR131_SEP_support_03",
+        "HR131_SEP_oppose_01",
+        "HR131_SEP_oppose_02",
+        "HR131_SEP_oppose_03",
+        "HR131_SES_support_01",
+        "HR131_SES_support_02",
+        "HR131_SES_support_03",
+        "HR131_SES_support_04",
+        "HR131_SES_support_05",
+        "HR131_SES_support_06",
+        "HR131_SES_oppose_01",
+        "HR131_TR_support_02"
+      ],
+      "decision": "Direct statement of the bill text and of the existing law printed in the committee report. No source in the packet disputes what the text says. Secondary descriptions of a hardship 'forgiveness' option differ from the text and are noted in the scope."
+    },
+    {
+      "id": "C02",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_01",
+        "HR131_UNN_support_02",
+        "HR131_UNN_support_03",
+        "HR131_UNN_oppose_01",
+        "HR131_UNN_oppose_02",
+        "HR131_UNN_oppose_03",
+        "HR131_UNN_oppose_04",
+        "HR131_UNN_oppose_05",
+        "HR131_UNN_oppose_06",
+        "HR131_UNN_oppose_07",
+        "HR131_UNN_oppose_08",
+        "HR131_UNC_support_01",
+        "HR131_UNC_support_02",
+        "HR131_UNC_support_03",
+        "HR131_UNC_support_04",
+        "HR131_UNT_oppose_01",
+        "HR131_SEP_support_01",
+        "HR131_SEP_support_02",
+        "HR131_SEP_support_03",
+        "HR131_SEP_oppose_01",
+        "HR131_SEP_oppose_02",
+        "HR131_SEP_oppose_03",
+        "HR131_SES_support_01",
+        "HR131_SES_support_02",
+        "HR131_SES_support_03",
+        "HR131_SES_support_04",
+        "HR131_SES_support_05",
+        "HR131_SES_support_06",
+        "HR131_TR_support_02"
+      ],
+      "decision": "Sourced to the repayment district, Reclamation, the bill's Senate sponsor and the arithmetic of the terms. The veto message objects to who bears the cost; it does not deny that local repayment becomes easier. No point-specific response challenges this step. The limit on reaching household bills is kept in the scope."
+    },
+    {
+      "id": "C03",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_01",
+        "HR131_UNN_support_02",
+        "HR131_UNN_support_03",
+        "HR131_UNN_oppose_01",
+        "HR131_UNN_oppose_02",
+        "HR131_UNN_oppose_03",
+        "HR131_UNN_oppose_04",
+        "HR131_UNN_oppose_05",
+        "HR131_UNN_oppose_06",
+        "HR131_UNN_oppose_07",
+        "HR131_UNN_oppose_08",
+        "HR131_UNC_support_01",
+        "HR131_UNC_support_03",
+        "HR131_UNC_support_04",
+        "HR131_UNT_oppose_01",
+        "HR131_SEP_support_01",
+        "HR131_SEP_support_02",
+        "HR131_SEP_oppose_01",
+        "HR131_SEP_oppose_02",
+        "HR131_SEP_oppose_03",
+        "HR131_SES_support_01",
+        "HR131_SES_support_02",
+        "HR131_SES_support_04",
+        "HR131_SES_support_05",
+        "HR131_SES_support_06",
+        "HR131_TR_support_02"
+      ],
+      "decision": "Directly stated by the president of the district overseeing construction and supported by Reclamation, the House committee chair and a House floor manager. No source in the packet denies it and no point-specific response attacks it. A bill that removes one obstacle can help without paying for the work, so needing other funding limits this claim but does not contradict it. The funding dependence is carried in the scope. This is the most consequential classification choice; the report explains the competing reading."
+    },
+    {
+      "id": "C04",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_01",
+        "HR131_UNN_support_02",
+        "HR131_UNN_support_03",
+        "HR131_UNC_support_01",
+        "HR131_SEP_support_01",
+        "HR131_SES_support_01",
+        "HR131_SES_support_04",
+        "HR131_SES_support_05",
+        "HR131_SES_support_06",
+        "HR131_TR_support_02"
+      ],
+      "decision": "Stated by Reclamation and the repayment district and repeated in the federal environmental review. No source in the packet disputes it and no response challenges it."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNC_support_01",
+        "HR131_SEP_support_01",
+        "HR131_SES_support_01"
+      ],
+      "decision": "Sourced to Reclamation, the repayment district and EPA. Sources differ on the number of affected systems; none disputes that the problem exists. No response challenges it."
+    },
+    {
+      "id": "C06",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_03",
+        "HR131_SES_support_04"
+      ],
+      "decision": "Stated in Reclamation's decision record and kept by the 2022 review. Both members use the same mechanism. No source disputes it and no response challenges it."
+    },
+    {
+      "id": "C07",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_01",
+        "HR131_SES_support_05"
+      ],
+      "decision": "Stated by the district president and reported by Rocky Mountain PBS and the Colorado Sun. The packet's limits concern timing and baseline, not whether the mechanism works. No response challenges it."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_support_02",
+        "HR131_UNC_support_01",
+        "HR131_TR_support_02"
+      ],
+      "decision": "Stated on the House floor and confirmed by local reporting and the 2022 review. The note that taste and home filters also matter limits how much would change; it does not dispute the link. No response challenges it."
+    },
+    {
+      "id": "C09",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNC_support_01",
+        "HR131_SEP_support_02",
+        "HR131_SES_support_02"
+      ],
+      "decision": "Stated by the district, Reclamation and House members. The members reach it from different local problems (sources running short and treatment that is hard to sustain), so both are kept as supports. No source disputes it and no response challenges it."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNC_support_01",
+        "HR131_SEP_support_02",
+        "HR131_SES_support_02"
+      ],
+      "decision": "Stated by Colorado's two senators and consistent with the conduit's planned route through La Junta and Lamar. No source disputes it and no response challenges it. It is an advocacy source, so its attribution is kept."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNC_support_02",
+        "HR131_UNC_support_03",
+        "HR131_SES_support_06"
+      ],
+      "decision": "Sourced to the repayment district, Reclamation and the project plan. No source disputes it and no response challenges it."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR131_UNN_oppose_08",
+        "HR131_SEP_oppose_01"
+      ],
+      "decision": "An ordinary inference from project documents that require dust control because earthwork emits dust. Controls are meant to minimize dust, not to end it. No source disputes it and no response challenges it."
+    },
+    {
+      "id": "C13",
+      "classification": "judgment",
+      "users": [
+        "HR131_UNC_oppose_01",
+        "HR131_SES_oppose_01"
+      ],
+      "decision": "Two active arguments need this exact step, and it is disputed in the record. The veto message says the bill forces federal taxpayers to bear more cost; Senator Bennet says it costs the taxpayer nothing. Both arguments' paired responses object that the old terms' higher payments may not actually be collected."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "HR131_UNN_support_01",
+      "paths": [
+        {
+          "id": "HR131_UNN_support_01-P1",
+          "requires": [
+            "C03",
+            "C07"
+          ],
+          "original_excerpt": "Helping communities make this switch reduces the need to produce and discharge polluted concentrate.",
+          "necessity_reason": "The switch needs later segments to be built (C03), and less waste needs conduit water to replace the treated groundwater (C07). Without either step this route has no effect on the river."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_support_02",
+      "paths": [
+        {
+          "id": "HR131_UNN_support_02-P1",
+          "requires": [
+            "C03",
+            "C08"
+          ],
+          "original_excerpt": "Helping provide clean tap water removes the water-quality problem driving those bottled-water purchases.",
+          "necessity_reason": "Fewer bottles need delivered water (C03) and cleaner tap water reducing bottled-water use (C08). The lifecycle findings apply only if some families switch."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_support_03",
+      "paths": [
+        {
+          "id": "HR131_UNN_support_03-P1",
+          "requires": [
+            "C03",
+            "C06"
+          ],
+          "original_excerpt": "Helping deliver lower-mineral water protects nature through less discarded equipment",
+          "necessity_reason": "The result needs later segments to be built (C03) and lower-mineral water to reduce equipment damage (C06). The step from less damage to less manufacturing stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_01-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Repayment relief supports further temporary loss of plant cover and disturbance of living habitats.",
+          "necessity_reason": "The harm comes from further work, so this route needs relief to help that work go forward (C03). The plant effects themselves stay local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_02-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Financing further work supports a source of invasive-plant risk.",
+          "necessity_reason": "The risk comes from further work, so this route needs relief to help that work go forward (C03)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Individual roundtail horned lizards and common kingsnakes could be killed by construction activities under all alternatives.",
+          "necessity_reason": "The risk to reptiles comes from further work, so this route needs C03. It stands without the bird route."
+        },
+        {
+          "id": "HR131_UNN_oppose_03-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "That spur is later work: the review’s tentative schedules “estimate construction of the Eads Spur will not occur until around 2032.”",
+          "necessity_reason": "The bird route comes from later work, so it needs C03. It stands without the reptile route."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_04",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "The 2022 review says both pipeline designs “generally decrease streamflow in the Arkansas River”",
+          "necessity_reason": "Less water in the river happens once built segments operate, so this route needs C03."
+        },
+        {
+          "id": "HR131_UNN_oppose_04-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "The updated review retains “negligible to minor adverse effects of AVC Project on aquatic resources and water quality”",
+          "necessity_reason": "The water-quality route also needs built segments to operate, so it needs C03. It stands without the flow route."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_05",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_05-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Repayment relief supports completion and the resulting increase in salt entering the river.",
+          "necessity_reason": "The salt effect follows from the conduit operating, so this route needs C03."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_06",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_06-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Relief supports further earthwork that creates this runoff risk.",
+          "necessity_reason": "The risk comes from further earthwork, so this route needs C03."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_07",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_07-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Repayment relief supports further work involving these pollution risks.",
+          "necessity_reason": "The risk comes from further work, so this route needs C03."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNN_oppose_08",
+      "paths": [
+        {
+          "id": "HR131_UNN_oppose_08-P1",
+          "requires": [
+            "C03",
+            "C12"
+          ],
+          "original_excerpt": "Helping finance further earthwork supports another source of air pollution.",
+          "necessity_reason": "The dust needs further earthwork (C03) that emits dust even with controls (C12). The harm to the environment stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_support_01",
+      "paths": [
+        {
+          "id": "HR131_UNC_support_01-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "original_excerpt": "Helping replace contaminated sources protects people whose communities lack the money to solve this problem under the usual repayment terms.",
+          "necessity_reason": "Health protection needs later segments built (C03), cleaner water delivered (C04) and a real contamination threat (C05)."
+        },
+        {
+          "id": "HR131_UNC_support_01-P2",
+          "requires": [
+            "C03",
+            "C08"
+          ],
+          "original_excerpt": "Access to safe tap water would reduce reliance on costly alternatives and make meeting basic daily needs easier.",
+          "necessity_reason": "The family-cost route needs delivered water (C03) and reduced reliance on alternatives (C08). It stands without the health route."
+        },
+        {
+          "id": "HR131_UNC_support_01-P3",
+          "requires": [
+            "C03",
+            "C04",
+            "C09",
+            "C10"
+          ],
+          "original_excerpt": "Helping supply homes, schools, hospitals, and businesses protects vulnerable residents and gives rural people basic conditions needed to learn and earn a living.",
+          "necessity_reason": "The opportunity route needs delivered (C03), clean (C04), dependable (C09) water reaching these institutions (C10). It stands without the other routes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_support_02",
+      "paths": [
+        {
+          "id": "HR131_UNC_support_02-P1",
+          "requires": [
+            "C02",
+            "C11"
+          ],
+          "original_excerpt": "A lower interest rate and more time to repay would ease annual pressure on local water budgets.",
+          "necessity_reason": "The relief needs a lower local burden (C02) and a real local need (C11). This route does not need more construction, because relief applies to whatever must be repaid."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_support_03",
+      "paths": [
+        {
+          "id": "HR131_UNC_support_03-P1",
+          "requires": [
+            "C03",
+            "C11"
+          ],
+          "original_excerpt": "Helping construction proceed supports work and business activity in a struggling rural economy.",
+          "necessity_reason": "Temporary work needs further construction (C03) in the struggling area (C11). The step to equal opportunities stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_support_04",
+      "paths": [
+        {
+          "id": "HR131_UNC_support_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Easier repayment helps carry out the commitment",
+          "necessity_reason": "Keeping the commitment means getting the conduit built, so this route needs C03. The commitment premise and the justice inference stay local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "HR131_UNC_oppose_01-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "The bill charges half that rate on the same unpaid balance and lets public financing last longer. Taxpayers cover more of the cost of lending.",
+          "necessity_reason": "Competition for public money needs a real federal cost, so this route needs C13. The step to other water needs stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "HR131_UNC_oppose_02-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "The new terms apply to “the contract for the Arkansas Valley Conduit”",
+          "necessity_reason": "The objection rests on the bill's project-limited text, so this route needs C01. The fairness inference stays local and is what the response targets."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "HR131_UNT_oppose_01-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Easing the financial barrier helps more construction proceed with a remaining risk to ancestral places and graves.",
+          "necessity_reason": "The ancestral-places route needs further work (C03). It does not depend on any grave being reached."
+        },
+        {
+          "id": "HR131_UNT_oppose_01-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Disturbing graves can violate the beliefs expressed through burial traditions.",
+          "necessity_reason": "The graves route needs further work too (C03). It is a risk claim, supported by the plan's own handling of possible burials."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_support_01",
+      "paths": [
+        {
+          "id": "HR131_SEP_support_01-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "original_excerpt": "Easier financing helps complete a safer water source, with local disinfection, that reduces cancer, kidney and infection risks",
+          "necessity_reason": "The cancer and kidney route needs later segments (C03), cleaner water (C04) and the radium and uranium threat (C05)."
+        },
+        {
+          "id": "HR131_SEP_support_01-P2",
+          "requires": [
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "Some groundwater is affected by surface water that “contains harmful microorganisms and pollutants.”",
+          "necessity_reason": "The infection route needs later segments (C03) and cleaner filtered water (C04). It does not need the radium and uranium fact."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_support_02",
+      "paths": [
+        {
+          "id": "HR131_SEP_support_02-P1",
+          "requires": [
+            "C03",
+            "C09"
+          ],
+          "original_excerpt": "Lack of access to safe water and sanitation can create obstacles to maintain hygiene and prevent the spread of diseases.",
+          "necessity_reason": "The hygiene route needs later segments (C03) and a more dependable supply (C09). It does not need the hospital fact."
+        },
+        {
+          "id": "HR131_SEP_support_02-P2",
+          "requires": [
+            "C03",
+            "C09",
+            "C10"
+          ],
+          "original_excerpt": "Supporting dependable supplies protects water for drinking, staying clean and receiving safe hospital care",
+          "necessity_reason": "The patient-care route also needs the conduit to supply hospitals' towns (C10)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_support_03",
+      "paths": [
+        {
+          "id": "HR131_SEP_support_03-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Lower interest and more time to repay ease the annual costs that water providers must cover.",
+          "necessity_reason": "This route needs a lower local repayment burden (C02). It does not need more construction, because the terms apply to whatever must be repaid. The step to household bills stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "HR131_SEP_oppose_01-P1",
+          "requires": [
+            "C03",
+            "C12"
+          ],
+          "original_excerpt": "Easing the payment barrier helps the remaining work go ahead, along with its dust emissions.",
+          "necessity_reason": "The exposure needs further work (C03) that emits dust despite controls (C12). The effect on eyes and airways stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "HR131_SEP_oppose_02-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Helping this roadwork proceed adds crash hazards from sudden stops and vehicles entering traffic for people traveling these roads.",
+          "necessity_reason": "The hazard needs further work near roads, so this route needs C03. The work-zone guidance is general and stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "HR131_SEP_oppose_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Helping noisy work proceed near homes and public places can add the risk of missed danger warnings for people nearby.",
+          "necessity_reason": "The risk needs further work near people, so this route needs C03."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_01",
+      "paths": [
+        {
+          "id": "HR131_SES_support_01-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "original_excerpt": "Helping finish a shared safe-water system strengthens the government's ability to defend U.S. communities against a documented health threat.",
+          "necessity_reason": "Protection needs later segments (C03), cleaner water (C04) and the contamination threat (C05). The collective-security inference stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_02",
+      "paths": [
+        {
+          "id": "HR131_SES_support_02-P1",
+          "requires": [
+            "C03",
+            "C09"
+          ],
+          "original_excerpt": "Easier financing helps meet water needs despite local shortages and future demand.",
+          "necessity_reason": "The community-supply route needs later segments (C03) and a more dependable supply (C09)."
+        },
+        {
+          "id": "HR131_SES_support_02-P2",
+          "requires": [
+            "C03",
+            "C09",
+            "C10"
+          ],
+          "original_excerpt": "Keeping communities, schools, and hospitals supplied supports the United States' ability to protect people and maintain stable daily life.",
+          "necessity_reason": "The essential-services route also needs the conduit to serve towns with those institutions (C10)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_03",
+      "paths": [
+        {
+          "id": "HR131_SES_support_03-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Reducing the yearly repayment burden makes the shared supply more affordable for strained providers.",
+          "necessity_reason": "This route needs a lower local repayment burden (C02). The step to public capacity stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_04",
+      "paths": [
+        {
+          "id": "HR131_SES_support_04-P1",
+          "requires": [
+            "C03",
+            "C06"
+          ],
+          "original_excerpt": "Helping deliver less damaging water slows wear on essential water systems.",
+          "necessity_reason": "The result needs later segments (C03) and lower-mineral water reducing damage (C06). The step to public capacity stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_05",
+      "paths": [
+        {
+          "id": "HR131_SES_support_05-P1",
+          "requires": [
+            "C03",
+            "C07"
+          ],
+          "original_excerpt": "Helping finance that change protects a shared U.S. water resource from this source of pollution.",
+          "necessity_reason": "The result needs later segments (C03) and less treatment waste (C07). The step to a secure country stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_support_06",
+      "paths": [
+        {
+          "id": "HR131_SES_support_06-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C11"
+          ],
+          "original_excerpt": "Helping finance a usable new supply removes a water barrier to business activity and supports viable towns, including ranching communities.",
+          "necessity_reason": "The result needs later segments (C03), cleaner usable water (C04) and the weak economy it would help (C11). The step to a stable country stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_SES_oppose_01",
+      "paths": [
+        {
+          "id": "HR131_SES_oppose_01-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "The cheaper financing adds a federal cost. Keeping the current terms preserves the federal resources that cover it.",
+          "necessity_reason": "Competition with defense and emergencies needs a real federal cost, so this route needs C13. The step to those uses stays local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR131_TR_support_02",
+      "paths": [
+        {
+          "id": "HR131_TR_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "H.R.131 addresses local affordability by “cutting local costs by lowering the interest rate and providing more flexible repayment terms.”",
+          "necessity_reason": "The cost route needs a lower local burden (C02). The steps from cost to staying in town and to the custom stay local."
+        },
+        {
+          "id": "HR131_TR_support_02-P2",
+          "requires": [
+            "C03",
+            "C08"
+          ],
+          "original_excerpt": "Easing the cost of a safer supply supports the households and towns where these families can keep living.",
+          "necessity_reason": "The water-quality route needs delivered water (C03) and less reliance on costly alternatives (C08). It stands without the cost route."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "HR131_UNN_support_01",
+      "reason": "Clarity: explained reject stream and simplified sentences. Substance: added that the 2014 'too thick' passage was about possible stricter limits, as the source's context shows (Colorado Water 2014). 'Concentrate' became 'waste'."
+    },
+    {
+      "point_id": "HR131_UNN_support_02",
+      "reason": "Clarity: simplified and attributed the first quotation. Substance: 'removes' became 'reduces' and the title says 'some families', because taste and other coping methods remain (UNN-N3; Colorado Water 2014)."
+    },
+    {
+      "point_id": "HR131_UNN_oppose_05",
+      "reason": "Clarity: simplified. Substance: added the source's limit 'for most alternatives' to the first bullet (2013 EIS, groundwater-quality passage)."
+    },
+    {
+      "point_id": "HR131_UNC_support_01",
+      "reason": "Clarity: attributed the speech, glossed potable and Reclamation and simplified sentences. All routes, conditions and sources are retained. Substance: 'water safe to drink' became 'water that can be made safe to drink', because the 2022 review describes delivered water as filtered and non-potable until local systems add disinfectant."
+    },
+    {
+      "point_id": "HR131_UNT_oppose_01",
+      "reason": "PRO clarity: glossed PA and dated the review. PRO substance: added the source's next clause, which plans for burials and names the Native American graves law (2022 EA, section on historic resources). Proposed removal of the paired response. It rested on the work not being shown to reach a Native grave, which demands a named affected case against a risk claim. The plan itself anticipates this risk, and surveys are incomplete. The original response is preserved in consistency_screen.json and report.md."
+    },
+    {
+      "point_id": "HR131_SES_support_01",
+      "reason": "Clarity: glossed Reclamation and dated the speech. Substance: attribution corrected to show the chair was citing the district ('According to the Southeastern Colorado Water Conservancy District', House floor, January 8, 2026)."
+    },
+    {
+      "point_id": "HR131_SES_support_06",
+      "reason": "Clarity: attributed the first quotation to the district official. Substance: removed 'directly' from 'directly serves', because no source supports a direct link to national stability."
+    },
+    {
+      "point_id": "HR131_SES_oppose_01",
+      "reason": "Clarity: glossed CBO, JEC and Reclamation, 'subsidy' became 'financing help', 'PRO' became 'the argument'. Substance: the response's CBO default bullet now says this is a general method, as the CBO paper's context shows. The objection is also carried on shared claim C13."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

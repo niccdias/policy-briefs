@@ -1,0 +1,68 @@
+{
+  "version": "other-bills-20261107-bf5aa9d1b697",
+  "bills": [
+    {
+      "id": "119_S_J_Res_88",
+      "arguments": 69,
+      "shared_questions": 2,
+      "shared_items": 12
+    },
+    {
+      "id": "119_H_R_5408",
+      "arguments": 69,
+      "shared_questions": 2,
+      "shared_items": 12
+    },
+    {
+      "id": "119_H_R_131",
+      "arguments": 32,
+      "shared_questions": 1,
+      "shared_items": 13
+    },
+    {
+      "id": "119_H_R_4405",
+      "arguments": 44,
+      "shared_questions": 1,
+      "shared_items": 17
+    },
+    {
+      "id": "119_H_R_1834",
+      "arguments": 78,
+      "shared_questions": 1,
+      "shared_items": 23
+    },
+    {
+      "id": "119_H_R_28",
+      "arguments": 33,
+      "shared_questions": 1,
+      "shared_items": 14
+    },
+    {
+      "id": "119_S_2",
+      "arguments": 99,
+      "shared_questions": 13,
+      "shared_items": 36
+    }
+  ],
+  "counts": {
+    "active": 424,
+    "historical": 482,
+    "retired": 58,
+    "shared_items": 127,
+    "shared_questions": 21,
+    "background": 106,
+    "values": 42,
+    "source_note_ids": 292,
+    "judged_claim_argument_uses": 57,
+    "arguments_with_a_shared_question": 53,
+    "all_shared_no_derived_arguments": 38,
+    "stored_order_items": 600,
+    "guided_pages": 494
+  },
+  "reading": {
+    "argument_words": 108195,
+    "original_argument_words": 102751,
+    "shared_question_words": 4856,
+    "limit": "Word counts exclude routed evidence, source lists and optional background. Not a human workload or reliability finding."
+  }
+}

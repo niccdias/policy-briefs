@@ -1,0 +1,1279 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "545565cb5a326f76ec2cda71416f7450b5fd7d5d2ebdcbdebf6bbc3da4eb65c8",
+  "accepted_retirements": [
+    "SJRes88_UNT_oppose_06",
+    "SJRes88_UNT_support_01"
+  ],
+  "decisions": "Inspected all 13 worker merges, route passages and three substantive edits. C09 concerns available commitment leverage, not guaranteed compliance; agreement enforcement covers the whole agreement. Kept uncertainty and Chinese matching-cut disputes scoped. Local family/congregation risks do not require overall net manufacturing employment. Retired generic trade-as-acceptance.",
+  "source_context_read": "Order and enforcement provisions, trade agreement clauses and monitoring statements, replacement-tariff announcements, China/USDA accounts, pass-through and input costs, hospital/water costs, and manufacturing null/offset evidence. Later replacement-policy observations are kept separate from the frozen comparison.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "SJRes88_UNN_support_01",
+        "SJRes88_UNN_support_02",
+        "SJRes88_UNN_support_03",
+        "SJRes88_UNN_support_04",
+        "SJRes88_UNN_support_05",
+        "SJRes88_UNN_support_06",
+        "SJRes88_UNN_support_07",
+        "SJRes88_UNN_oppose_01",
+        "SJRes88_UNN_oppose_02",
+        "SJRes88_UNN_oppose_03",
+        "SJRes88_UNN_oppose_04",
+        "SJRes88_UNN_oppose_05",
+        "SJRes88_UNN_oppose_06",
+        "SJRes88_UNC_support_01",
+        "SJRes88_UNC_support_02",
+        "SJRes88_UNC_support_03",
+        "SJRes88_UNC_support_04",
+        "SJRes88_UNC_support_05",
+        "SJRes88_UNC_support_06",
+        "SJRes88_UNC_support_07",
+        "SJRes88_UNC_oppose_01",
+        "SJRes88_UNC_oppose_02",
+        "SJRes88_UNC_oppose_03",
+        "SJRes88_UNC_oppose_04",
+        "SJRes88_UNC_oppose_05",
+        "SJRes88_UNC_oppose_06",
+        "SJRes88_UNC_oppose_07",
+        "SJRes88_UNT_support_02",
+        "SJRes88_UNT_support_03",
+        "SJRes88_UNT_oppose_01",
+        "SJRes88_UNT_oppose_02",
+        "SJRes88_UNT_oppose_03",
+        "SJRes88_UNT_oppose_04",
+        "SJRes88_UNT_oppose_05",
+        "SJRes88_UNT_oppose_07",
+        "SJRes88_UNT_oppose_08",
+        "SJRes88_SEP_support_01",
+        "SJRes88_SEP_support_02",
+        "SJRes88_SEP_support_03",
+        "SJRes88_SEP_support_04",
+        "SJRes88_SEP_support_05",
+        "SJRes88_SEP_support_06",
+        "SJRes88_SEP_support_07",
+        "SJRes88_SEP_support_08",
+        "SJRes88_SEP_support_09",
+        "SJRes88_SEP_support_10",
+        "SJRes88_SEP_support_11",
+        "SJRes88_SEP_support_12",
+        "SJRes88_SEP_oppose_01",
+        "SJRes88_SES_support_01",
+        "SJRes88_SES_support_02",
+        "SJRes88_SES_support_03",
+        "SJRes88_SES_support_04",
+        "SJRes88_SES_support_05",
+        "SJRes88_SES_support_06",
+        "SJRes88_SES_support_07",
+        "SJRes88_SES_support_08",
+        "SJRes88_SES_support_09",
+        "SJRes88_SES_oppose_01",
+        "SJRes88_SES_oppose_02",
+        "SJRes88_SES_oppose_03",
+        "SJRes88_SES_oppose_04",
+        "SJRes88_SES_oppose_05",
+        "SJRes88_TR_support_01",
+        "SJRes88_TR_support_02",
+        "SJRes88_TR_support_04",
+        "SJRes88_TR_support_05",
+        "SJRes88_TR_oppose_01",
+        "SJRes88_TR_oppose_02"
+      ],
+      "decision": "Direct bill text, checked word for word against the packet's bill text. No packet source disputes what the text says."
+    },
+    {
+      "id": "C02",
+      "classification": "verified_statutory_background",
+      "users": [
+        "SJRes88_UNN_support_01",
+        "SJRes88_UNN_support_02",
+        "SJRes88_UNN_support_03",
+        "SJRes88_UNN_support_04",
+        "SJRes88_UNN_support_05",
+        "SJRes88_UNN_support_06",
+        "SJRes88_UNN_support_07",
+        "SJRes88_UNN_oppose_01",
+        "SJRes88_UNN_oppose_02",
+        "SJRes88_UNN_oppose_03",
+        "SJRes88_UNN_oppose_04",
+        "SJRes88_UNN_oppose_05",
+        "SJRes88_UNN_oppose_06",
+        "SJRes88_UNC_support_01",
+        "SJRes88_UNC_support_02",
+        "SJRes88_UNC_support_04",
+        "SJRes88_UNC_support_05",
+        "SJRes88_UNC_support_06",
+        "SJRes88_UNC_oppose_01",
+        "SJRes88_UNC_oppose_02",
+        "SJRes88_UNC_oppose_03",
+        "SJRes88_UNC_oppose_04",
+        "SJRes88_UNC_oppose_05",
+        "SJRes88_UNC_oppose_06",
+        "SJRes88_UNC_oppose_07",
+        "SJRes88_UNT_support_02",
+        "SJRes88_UNT_support_03",
+        "SJRes88_UNT_oppose_01",
+        "SJRes88_UNT_oppose_02",
+        "SJRes88_UNT_oppose_03",
+        "SJRes88_UNT_oppose_04",
+        "SJRes88_UNT_oppose_05",
+        "SJRes88_UNT_oppose_07",
+        "SJRes88_UNT_oppose_08",
+        "SJRes88_SEP_support_01",
+        "SJRes88_SEP_support_02",
+        "SJRes88_SEP_support_03",
+        "SJRes88_SEP_support_04",
+        "SJRes88_SEP_support_05",
+        "SJRes88_SEP_support_06",
+        "SJRes88_SEP_support_07",
+        "SJRes88_SEP_support_08",
+        "SJRes88_SEP_support_09",
+        "SJRes88_SEP_support_10",
+        "SJRes88_SEP_support_11",
+        "SJRes88_SEP_support_12",
+        "SJRes88_SEP_oppose_01",
+        "SJRes88_SES_support_01",
+        "SJRes88_SES_support_02",
+        "SJRes88_SES_support_03",
+        "SJRes88_SES_support_04",
+        "SJRes88_SES_support_05",
+        "SJRes88_SES_support_06",
+        "SJRes88_SES_oppose_01",
+        "SJRes88_SES_oppose_02",
+        "SJRes88_SES_oppose_03",
+        "SJRes88_SES_oppose_04",
+        "SJRes88_SES_oppose_05",
+        "SJRes88_TR_support_01",
+        "SJRes88_TR_support_02",
+        "SJRes88_TR_support_04",
+        "SJRes88_TR_support_05",
+        "SJRes88_TR_oppose_01",
+        "SJRes88_TR_oppose_02"
+      ],
+      "decision": "Follows directly from the termination law's text applied to taxes the order imposes under this emergency. The packet has no objection; an analysis of ending the same emergency reaches the same result."
+    },
+    {
+      "id": "C03",
+      "classification": "verified_statutory_background",
+      "users": [
+        "SJRes88_UNC_support_07",
+        "SJRes88_SES_support_09"
+      ],
+      "decision": "Direct statutory text; the bill itself cites the provision. Whether this emergency was unlawful or harmful is a different question and is not part of this statement."
+    },
+    {
+      "id": "C04",
+      "classification": "verified_statutory_background",
+      "users": [
+        "SJRes88_UNN_support_02",
+        "SJRes88_UNN_support_05",
+        "SJRes88_UNC_support_03",
+        "SJRes88_UNC_support_04",
+        "SJRes88_UNT_support_03",
+        "SJRes88_SES_support_07",
+        "SJRes88_SES_support_08"
+      ],
+      "decision": "Direct legal text of the executive order, checked against the Federal Register copy. It is an order and not a statute; it is treated as verified legal text. No packet source disputes the wording."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_UNC_support_01",
+        "SJRes88_SEP_support_07",
+        "SJRes88_SEP_support_08",
+        "SJRes88_SES_support_06",
+        "SJRes88_TR_support_05"
+      ],
+      "decision": "Adequately sourced and not challenged by any retained response. The notes on slow price falls limit timing and size, and do not deny the direction of the effect."
+    },
+    {
+      "id": "C06",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_UNN_support_03",
+        "SJRes88_SEP_support_10",
+        "SJRes88_SES_support_04"
+      ],
+      "decision": "Sourced to a water-industry analysis of the April 2 order and related warnings, with no retained response on this step. The delay is stated as a possibility, as in the source."
+    },
+    {
+      "id": "C07",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_SEP_support_01",
+        "SJRes88_SEP_support_02",
+        "SJRes88_SEP_support_03",
+        "SJRes88_SES_support_05"
+      ],
+      "decision": "Sourced to hospital and device-maker statements, with no retained response on this step. The response to SEP_support_02 targets the later step to patient charges and stays local."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_UNN_oppose_01",
+        "SJRes88_UNN_oppose_02",
+        "SJRes88_UNN_oppose_03",
+        "SJRes88_UNN_oppose_04",
+        "SJRes88_UNN_oppose_05",
+        "SJRes88_UNC_oppose_02",
+        "SJRes88_UNC_oppose_03",
+        "SJRes88_UNC_oppose_04",
+        "SJRes88_UNC_oppose_05",
+        "SJRes88_UNC_oppose_06",
+        "SJRes88_UNC_oppose_07",
+        "SJRes88_UNT_oppose_01",
+        "SJRes88_UNT_oppose_02",
+        "SJRes88_UNT_oppose_03",
+        "SJRes88_UNT_oppose_04",
+        "SJRes88_UNT_oppose_05",
+        "SJRes88_UNT_oppose_07",
+        "SJRes88_UNT_oppose_08",
+        "SJRes88_SES_oppose_02",
+        "SJRes88_SES_oppose_03",
+        "SJRes88_SES_oppose_04",
+        "SJRes88_SES_oppose_05"
+      ],
+      "decision": "Direct text of the agreements, the framework statement and the September order. No packet source disputes these terms. Whether the terms give pressure for the promises is a separate statement."
+    },
+    {
+      "id": "C09",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_UNN_oppose_01",
+        "SJRes88_UNN_oppose_02",
+        "SJRes88_UNN_oppose_03",
+        "SJRes88_UNN_oppose_04",
+        "SJRes88_UNN_oppose_05",
+        "SJRes88_UNC_oppose_02",
+        "SJRes88_UNC_oppose_03",
+        "SJRes88_UNC_oppose_04",
+        "SJRes88_UNC_oppose_05",
+        "SJRes88_UNC_oppose_06",
+        "SJRes88_UNT_oppose_01",
+        "SJRes88_UNT_oppose_02",
+        "SJRes88_UNT_oppose_03",
+        "SJRes88_UNT_oppose_04",
+        "SJRes88_UNT_oppose_05",
+        "SJRes88_UNT_oppose_07",
+        "SJRes88_SES_oppose_02",
+        "SJRes88_SES_oppose_03",
+        "SJRes88_SES_oppose_04",
+        "SJRes88_SES_oppose_05"
+      ],
+      "decision": "Adequately sourced, and no retained response challenges this step. The April 2 order itself lists weak labor and environmental standards among the practices it addresses and allows lower rates if a partner remedies such practices. The September order ties relief to partners' commitments, and the deals contain these promises and allow action for not following 'a provision'. The Trade Representative says tariffs can go back into place. The remaining limits (not yet in force, no tariff action yet, general clause, other tools) do not deny that the tool existed on the comparison date. The response to SES_oppose_04 targets a later link and stays local."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "SJRes88_UNC_oppose_07",
+        "SJRes88_UNT_oppose_08"
+      ],
+      "decision": "Reported by several sources and in the official transcript, with no retained response. The limits below concern how much the pressure mattered, not whether it was used."
+    },
+    {
+      "id": "C11",
+      "classification": "judgment",
+      "users": [
+        "SJRes88_UNN_support_02",
+        "SJRes88_UNC_support_03",
+        "SJRes88_SES_support_07"
+      ],
+      "decision": "Substantive objection to this exact statement: officials announced they would replace the tariffs under other laws, so uncertainty might only move. The evidence points in both directions and no packet source measures uncertainty after such a repeal."
+    },
+    {
+      "id": "C12",
+      "classification": "judgment",
+      "users": [
+        "SJRes88_UNN_support_05",
+        "SJRes88_UNC_support_04"
+      ],
+      "decision": "Substantive objection already attached to UNN_support_05: the cited Chinese cut came from negotiation, a repeal would be one-sided, and China's decision is its own. UNC_support_04's easing route uses the same May negotiated example."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "SJRes88_UNN_support_01",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these extra taxes reduces a cost barrier both to installing clean power and to building factories that supply it.",
+          "necessity_reason": "The cost relief exists only if the emergency's taxes stop on new imports."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending this emergency removes its taxes and rate changes from that work.",
+          "necessity_reason": "Cost route: the company pays less for imported parts only if these taxes stop on new imports."
+        },
+        {
+          "id": "SJRes88_UNN_support_02-P2",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "The time involved in managing the uncertainty is keeping us from focusing on creating innovative products",
+          "necessity_reason": "Uncertainty route: time is freed only if ending the emergency makes future tariff rates less uncertain; the cost route stands without this step."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_03-P1",
+          "requires": [
+            "C02",
+            "C06"
+          ],
+          "original_excerpt": "Removing these extra taxes from treatment equipment leaves more project money for cleaning water and sustaining habitats.",
+          "necessity_reason": "The added project money depends on these taxes raising utilities' equipment costs and on those taxes ending."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_04",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_04-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the emergency tax on covered recycling machinery lowers a barrier to expanding this work.",
+          "necessity_reason": "The lower barrier exists only if the tax stops on new imports of covered machinery."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_05",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_05-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "makes a matching Chinese cut more plausible, though that remains China's choice",
+          "necessity_reason": "Cut route: lower demand for Brazilian soy needs China to lower its charge after the U.S. repeal."
+        },
+        {
+          "id": "SJRes88_UNN_support_05-P2",
+          "requires": [
+            "C02",
+            "C04"
+          ],
+          "original_excerpt": "Ending the U.S. taxes behind that retaliation, and their escalation under this emergency, removes one source of a trade conflict that puts habitats at risk",
+          "necessity_reason": "Escalation route: it needs the taxes to stop and the power to raise them to end; the response expressly leaves this route open."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_06",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_06-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the emergency takes away its import taxes as a lever for these demands.",
+          "necessity_reason": "The tool is removed only if the taxes that give the demands force stop."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_support_07",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_support_07-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending this emergency removes its tariff pressure to expand purchases with those pollution costs.",
+          "necessity_reason": "The pressure ends only if the taxes behind it stop."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_01-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Removing their tariff backing weakens an incentive for those protections, giving [NAME] a reason to oppose the bill.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes a tariff incentive for carrying them out.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_03-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Removing their tariff backing weakens pressure for those protections, which [NAME] has a reason to preserve.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_04",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes a tariff incentive for those steps.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_05",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_05-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Removing a tariff incentive for this public involvement gives [NAME] another reason to oppose the bill.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNN_oppose_06",
+      "paths": [
+        {
+          "id": "SJRes88_UNN_oppose_06-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending this extra import cost removes a restraint on orders for new clothing.",
+          "necessity_reason": "The restraint is removed only if the tax stops on new clothing imports."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_01",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_01-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Ending these taxes removes pressure on the price of necessities, protecting food and clothing budgets where money is tightest.",
+          "necessity_reason": "Relief for poorer families needs the end of the taxes to reduce cost pressure on household purchases."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the emergency's taxes frees money that affected firms need to operate and hire.",
+          "necessity_reason": "The money is freed only if these taxes stop on the firms' new imports."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_03-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Ending the emergency removes its power to make these tax rates change again. That removes a source of pressure to hold back hiring and safety improvements.",
+          "necessity_reason": "The hiring and safety effects need ending this power to make future rates less uncertain."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_04",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_04-P1",
+          "requires": [
+            "C02",
+            "C04"
+          ],
+          "original_excerpt": "Ending this tariff trigger and its power to fuel new rounds of retaliation reduces an avoidable risk to export sales.",
+          "necessity_reason": "New-rounds route: it needs the taxes to stop and the power to raise them to end, but no Chinese cut."
+        },
+        {
+          "id": "SJRes88_UNC_support_04-P2",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "Reducing the U.S. taxes has already helped ease this conflict.",
+          "necessity_reason": "Easing route: it needs ending the U.S. taxes to make China more likely to lower its charges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_05",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_05-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing the added tax supports demand for workers' goods and investment in future production.",
+          "necessity_reason": "The support for demand exists only if the tax stops on new imports from these countries."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_06",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_06-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the reciprocal taxes removes a charge on people whose countries have little ability to buy U.S. goods and contribute little to the stated problem.",
+          "necessity_reason": "The charge is removed only if the taxes stop on new imports from these countries."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_support_07",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_support_07-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Ending this emergency enforces Congress's check on a route that skips required investigation.",
+          "necessity_reason": "The check operates only if enacting this resolution is the legal way Congress ends the emergency."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing this price protection puts vulnerable workers’ opportunities and their families’ security at risk.",
+          "necessity_reason": "The price protection is removed only if the taxes stop. This route rests on named employers' orders, not on a net rise in manufacturing jobs, so the Tradition factory-jobs judgment is not required."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes these U.S. import taxes without requiring governments to agree to or carry out such changes.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_03-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes this emergency’s tariff option from that enforcement backing.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Ending this emergency removes a tariff tool for pressing Cambodia to carry out those promises.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_05",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_05-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Removing the tariff backing weakens a way to press for enforcement that safeguards these families’ food and work.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_06",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_06-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes a tariff tool for enforcing the promise to keep this source open.",
+          "necessity_reason": "The loss exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNC_oppose_07",
+      "paths": [
+        {
+          "id": "SJRes88_UNC_oppose_07-P1",
+          "requires": [
+            "C02",
+            "C08",
+            "C10"
+          ],
+          "original_excerpt": "Ending this emergency’s tariff power removes an incentive already used to bring the parties toward a truce and keep commerce tied to peace.",
+          "necessity_reason": "The incentive needs this emergency's tariffs to be what the talks offered relief from."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending this added tax removes a cost that makes familiar foods harder to stock and afford.",
+          "necessity_reason": "Food-tradition route: the relief exists only if the tax stops on these new imports."
+        },
+        {
+          "id": "SJRes88_UNT_support_02-P2",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The same relief helps sustain shared spaces for meeting people and learning about their cultures.",
+          "necessity_reason": "Shared-space route: it stands apart from the food-tradition inference but needs the same tax relief."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_support_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_support_03-P1",
+          "requires": [
+            "C02",
+            "C04"
+          ],
+          "original_excerpt": "Ending this tariff program and its power to raise taxes in retaliation removes one source of the conflict behind that warning.",
+          "necessity_reason": "The source of conflict is removed only if both the program's taxes and its power to raise them end."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_01-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Tariff pressure backs a promise to protect people at work despite differences in origin, faith, or political views.",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "gives a reason to oppose removing tariff pressure for this inclusion",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_03-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "supports keeping tariff pressure behind those protections",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_04",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "gives a reason to oppose removing pressure for a barrier against treating their members as a captive workforce",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_05",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_05-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "so losing tariff pressure for this practice gives [NAME] a reason to oppose the bill",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_07",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_07-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "giving [NAME] a reason to oppose removing tariff pressure for that protection",
+          "necessity_reason": "The reason exists only if these taxes actually back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_UNT_oppose_08",
+      "paths": [
+        {
+          "id": "SJRes88_UNT_oppose_08-P1",
+          "requires": [
+            "C02",
+            "C08",
+            "C10"
+          ],
+          "original_excerpt": "The bill removes that pressure while the trade deal and these steps still require follow-through.",
+          "necessity_reason": "The pressure needs this emergency's tariffs to be what the talks offered relief from."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_01",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_01-P1",
+          "requires": [
+            "C02",
+            "C07"
+          ],
+          "original_excerpt": "Removing this added burden helps keep supplies available for surgery and infection control when [NAME] needs care.",
+          "necessity_reason": "Supplies are helped only if these taxes add cost and supply risk for covered devices and those taxes end."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_02-P1",
+          "requires": [
+            "C02",
+            "C07"
+          ],
+          "original_excerpt": "Removing these taxes eases pressure on medical bills and insurance costs, helping [NAME] obtain care that protects their health.",
+          "necessity_reason": "Lower charges can follow only if these taxes add hospital costs and those taxes end. The later step to patient charges stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_03",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_03-P1",
+          "requires": [
+            "C02",
+            "C07"
+          ],
+          "original_excerpt": "Removing taxes on covered supplies eases pressure to cut staff, services, or equipment spending.",
+          "necessity_reason": "The pressure eases only if these taxes add hospital costs and those taxes end."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_04",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_04-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing these costs protects the research that better tests and treatments depend on",
+          "necessity_reason": "The costs are removed only if the taxes stop on covered imports used in research."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_05",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_05-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these taxes lowers a barrier to nutritious food, helping [NAME] protect their health.",
+          "necessity_reason": "The barrier falls only if the tax stops on new imports of covered food."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_06",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_06-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these added costs reduces pressure on employers to cut jobs and the related threat to health",
+          "necessity_reason": "The pressure falls only if the taxes stop on the employers' new imports."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_07",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_07-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Removing these added charges leaves more income available for medicine and medical visits, helping [NAME] keep up needed treatment.",
+          "necessity_reason": "More income is left only if ending the taxes reduces cost pressure on household purchases."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_08",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_08-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Ending this source of higher prices removes a cause of financial worry and its health risks, serving [NAME]’s concern for health.",
+          "necessity_reason": "The worry falls only if ending the taxes reduces cost pressure on household purchases."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_09",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_09-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing taxes on covered safety products lowers a barrier to protection against intrusion and fire",
+          "necessity_reason": "The barrier falls only if the taxes stop on new imports of covered safety products."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_10",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_10-P1",
+          "requires": [
+            "C02",
+            "C06"
+          ],
+          "original_excerpt": "Removing taxes on covered equipment helps utilities fund the treatment and maintenance that protect [NAME] from contaminated drinking water.",
+          "necessity_reason": "The help depends on these taxes raising utilities' equipment costs and on those taxes ending."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_11",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_11-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing these added taxes lowers a barrier to wearing protection during an ordinary activity",
+          "necessity_reason": "The barrier falls only if the taxes stop on new helmet imports."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_support_12",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_support_12-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these taxes removes pressure to cut workplace protection, reducing an injury risk [NAME] has reason to avoid.",
+          "necessity_reason": "The pressure falls only if these taxes stop on covered safety gear."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_SEP_oppose_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the tax removes a price advantage for domestic gloves and support for keeping that capacity available during disruptions to overseas supplies.",
+          "necessity_reason": "The price advantage is removed only if the tax stops on new imports. The later step to backup production stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_01",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these taxes on covered stock outside the defense exemption removes a cost from military production.",
+          "necessity_reason": "The cost is removed only if the taxes stop on new imports of covered stock."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these taxes removes a source of distrust and political resistance to cooperation.",
+          "necessity_reason": "The source of distrust is removed only if these taxes stop."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_03",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_03-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending these taxes lowers the cost of importing covered goods from those alternative suppliers.",
+          "necessity_reason": "The cost falls only if the taxes stop on new imports from those suppliers. The later step to protection from Chinese pressure stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_04",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_04-P1",
+          "requires": [
+            "C02",
+            "C06"
+          ],
+          "original_excerpt": "Ending these taxes on covered treatment equipment removes a cost obstacle to timely repairs and upgrades.",
+          "necessity_reason": "The obstacle falls only if these taxes raise utilities' equipment costs and those taxes end."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_05",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_05-P1",
+          "requires": [
+            "C02",
+            "C07"
+          ],
+          "original_excerpt": "Ending these taxes on covered medical devices removes a cost and supply risk from hospitals.",
+          "necessity_reason": "The risk falls only if these taxes add cost and supply risk for covered devices and those taxes end."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_06",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_06-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Removing these taxes eases costs and trade disruption for U.S. firms and households.",
+          "necessity_reason": "The nationwide relief needs ending the taxes to reduce cost pressure, including on households. The later step to national stability stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_07",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_07-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Removing that source of uncertainty helps firms plan investments in the production capacity the country needs to remain strong and withstand shocks.",
+          "necessity_reason": "The investment effect needs ending this power to make future tariff rates less uncertain."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_08",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_08-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Ending this tariff program removes a source of sudden policy news that has strained trading in U.S. government debt.",
+          "necessity_reason": "The market effect needs ending this program to reduce sudden changes and uncertainty about tariff rates."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_support_09",
+      "paths": [
+        {
+          "id": "SJRes88_SES_support_09-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Enacting the resolution applies Congress's legal check to this emergency.",
+          "necessity_reason": "The check operates only if enacting this resolution is the legal way Congress ends the emergency."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_SES_oppose_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill removes an extra incentive to buy U.S.-made batteries and invest in their production.",
+          "necessity_reason": "The incentive is removed only if the tax stops on new battery imports. The later step to military supply stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_oppose_02",
+      "paths": [
+        {
+          "id": "SJRes88_SES_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Tariff relief gives the United States something to offer for help stopping companies abroad from supplying restricted buyers.",
+          "necessity_reason": "The bargaining tool exists only if these taxes back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_oppose_03",
+      "paths": [
+        {
+          "id": "SJRes88_SES_oppose_03-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Ending these taxes gives up a tool for securing and backing access to alternative mineral supplies.",
+          "necessity_reason": "The tool exists only if these taxes back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_oppose_04",
+      "paths": [
+        {
+          "id": "SJRes88_SES_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "The bill removes an extra lever for getting foreign help closing these financing routes.",
+          "necessity_reason": "The tool exists only if these taxes back this promise in the deal. The link to this oil network stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_SES_oppose_05",
+      "paths": [
+        {
+          "id": "SJRes88_SES_oppose_05-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Ending tariff leverage gives up a way to press for that help.",
+          "necessity_reason": "The way to press exists only if these taxes back this promise in the deal."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_support_01",
+      "paths": [
+        {
+          "id": "SJRes88_TR_support_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "When churches buy or replace covered imported instruments, the bill removes an added cost of keeping their familiar worship music.",
+          "necessity_reason": "The added cost is removed only if the tax stops on new imports of covered instruments."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_support_02",
+      "paths": [
+        {
+          "id": "SJRes88_TR_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing the added tax on covered Christmas goods cuts an ongoing cost of buying or replacing what these customs use.",
+          "necessity_reason": "The cost falls only if the tax stops on new imports of covered Christmas goods."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_support_04",
+      "paths": [
+        {
+          "id": "SJRes88_TR_support_04-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending the remaining reciprocal tax removes an added cost from these imported teaching aids.",
+          "necessity_reason": "The cost is removed only if the tax stops on new imports. The later link to inherited teaching stays local and is the step the response challenges."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_support_05",
+      "paths": [
+        {
+          "id": "SJRes88_TR_support_05-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Relieving this pressure on household budgets helps protect families' ability to keep regular offerings and fund church work.",
+          "necessity_reason": "Offerings route: it needs ending the taxes to reduce cost pressure on household purchases."
+        },
+        {
+          "id": "SJRes88_TR_support_05-P2",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Removing the added tax on commercially imported toys bought for these gifts lowers a cost of continuing this outreach.",
+          "necessity_reason": "Outreach route: it needs the tax to stop on new toy imports, but not any general effect on household budgets."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_oppose_01",
+      "paths": [
+        {
+          "id": "SJRes88_TR_oppose_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "By removing a defense against import-driven job and pay losses, the bill puts marriage and the provider role at greater risk.",
+          "necessity_reason": "The family risk needs ending these taxes to reduce men's factory jobs or pay."
+        }
+      ]
+    },
+    {
+      "point_id": "SJRes88_TR_oppose_02",
+      "paths": [
+        {
+          "id": "SJRes88_TR_oppose_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Ending this protection puts the jobs and income that help sustain local congregations at risk.",
+          "necessity_reason": "The risk to congregations needs ending these taxes to reduce factory jobs or pay; the response's challenge to this step is also the shared objection."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "SJRes88_UNN_support_05",
+      "reason": "Factual correction: 'when Congress voted' becomes 'when the Senate voted', because the packet text is the version engrossed in the Senate on October 30, 2025 (input bill record; bill text citation 1). Other edits are plain-language only; PRO and response meaning unchanged."
+    },
+    {
+      "point_id": "SJRes88_UNC_support_07",
+      "reason": "Factual precision: 'a route that skips required investigation' becomes 'a route that does not require an investigation', which is what CRS says (citation 24); Executive Order 14257 says the President received results of earlier investigations, and that note is routed to support (citations 10 and 24). Other edits are plain-language only."
+    },
+    {
+      "point_id": "SJRes88_SES_support_08",
+      "reason": "Shorter sentences and plain terms; quotes, citations, conditions and meaning unchanged. Main review: The PRO removes this program as one documented source of shocks. The reply asks for an end to sudden tariff news generally. Announced replacement powers do not rebut that narrower source-removal claim; their timing and reach remain relevant to strength."
+    },
+    {
+      "point_id": "SJRes88_TR_oppose_01",
+      "reason": "Substantive placement: the price-protection and American Giant premise moves from the retired Main effect panel into the PRO, because the response answers that premise and the panel no longer appears. No new source; the quotes are from the input Main effect (citations 25 and 26). Other edits are plain-language only."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

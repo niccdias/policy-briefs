@@ -1,0 +1,1592 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "234b429ae9165fb8d1df83b9f9610c59ad13cfe52b94ed4c852e8aa6773d0cae",
+  "accepted_retirements": [
+    "HR1834_UNT_support_01"
+  ],
+  "decisions": "Inspected all claim merges, original and final paths, four worker substantive edits and Tradition amendment. Removed the overbroad coverage-transition and state-option votes, separated general care evidence from the bill forecast, and retired generic diverse-beneficiary Tolerance. C15 preserves current enrollment controls and a separate larger-payment route.",
+  "source_context_read": "Bill/CBO and amendment authority, Baker/ACA transition passages, New Jersey and other-state abortion coverage conditions, HHS/GAO/CMS enrollment controls and risk mechanism. Not every source behind unchanged points was reread.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR1834_UNN_support_01",
+        "HR1834_UNN_support_02",
+        "HR1834_UNN_support_03",
+        "HR1834_UNN_support_04",
+        "HR1834_UNN_support_05",
+        "HR1834_UNN_support_06",
+        "HR1834_UNN_oppose_01",
+        "HR1834_UNN_oppose_02",
+        "HR1834_UNN_oppose_03",
+        "HR1834_UNN_oppose_04",
+        "HR1834_UNN_oppose_05",
+        "HR1834_UNN_oppose_06",
+        "HR1834_UNN_oppose_07",
+        "HR1834_UNN_oppose_08",
+        "HR1834_UNN_oppose_09",
+        "HR1834_UNN_oppose_10",
+        "HR1834_UNC_support_01",
+        "HR1834_UNC_support_02",
+        "HR1834_UNC_support_03",
+        "HR1834_UNC_support_04",
+        "HR1834_UNC_support_07",
+        "HR1834_UNC_support_08",
+        "HR1834_UNC_oppose_02",
+        "HR1834_UNC_oppose_03",
+        "HR1834_UNC_oppose_04",
+        "HR1834_UNC_oppose_05",
+        "HR1834_UNC_oppose_06",
+        "HR1834_UNC_oppose_07",
+        "HR1834_UNT_support_03",
+        "HR1834_UNT_support_04",
+        "HR1834_UNT_oppose_01",
+        "HR1834_UNT_oppose_02",
+        "HR1834_UNT_oppose_03",
+        "HR1834_UNT_oppose_04",
+        "HR1834_UNT_oppose_05",
+        "HR1834_SEP_support_01",
+        "HR1834_SEP_support_02",
+        "HR1834_SEP_support_03",
+        "HR1834_SEP_support_04",
+        "HR1834_SEP_support_05",
+        "HR1834_SEP_support_06",
+        "HR1834_SEP_support_07",
+        "HR1834_SEP_support_08",
+        "HR1834_SEP_oppose_01",
+        "HR1834_SEP_oppose_02",
+        "HR1834_SEP_oppose_03",
+        "HR1834_SEP_oppose_04",
+        "HR1834_SES_support_01",
+        "HR1834_SES_support_02",
+        "HR1834_SES_support_03",
+        "HR1834_SES_support_04",
+        "HR1834_SES_support_05",
+        "HR1834_SES_support_06",
+        "HR1834_SES_support_07",
+        "HR1834_SES_support_08",
+        "HR1834_SES_oppose_01",
+        "HR1834_SES_oppose_02",
+        "HR1834_SES_oppose_03",
+        "HR1834_SES_oppose_04",
+        "HR1834_SES_oppose_05",
+        "HR1834_SES_oppose_06",
+        "HR1834_SES_oppose_07",
+        "HR1834_TR_support_03",
+        "HR1834_TR_support_06",
+        "HR1834_TR_support_07",
+        "HR1834_TR_support_08",
+        "HR1834_TR_oppose_01",
+        "HR1834_TR_oppose_02",
+        "HR1834_TR_oppose_03",
+        "HR1834_TR_oppose_04",
+        "HR1834_TR_oppose_06",
+        "HR1834_TR_oppose_07",
+        "HR1834_TR_oppose_08",
+        "HR1834_TR_oppose_09"
+      ],
+      "decision": "Direct provision of the engrossed bill text. Checked word for word against the bill; it is background, not a vote."
+    },
+    {
+      "id": "C02",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR1834_UNC_support_05",
+        "HR1834_UNC_support_06",
+        "HR1834_UNC_oppose_01",
+        "HR1834_SEP_support_05",
+        "HR1834_TR_support_04"
+      ],
+      "decision": "Direct provision of the engrossed bill text. Checked word for word against the bill; it is background, not a vote."
+    },
+    {
+      "id": "C03",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNN_support_01",
+        "HR1834_UNN_support_02",
+        "HR1834_UNN_support_03",
+        "HR1834_UNN_support_04",
+        "HR1834_UNN_support_05",
+        "HR1834_UNN_support_06",
+        "HR1834_UNN_oppose_01",
+        "HR1834_UNN_oppose_02",
+        "HR1834_UNN_oppose_03",
+        "HR1834_UNN_oppose_04",
+        "HR1834_UNN_oppose_05",
+        "HR1834_UNN_oppose_06",
+        "HR1834_UNN_oppose_07",
+        "HR1834_UNN_oppose_08",
+        "HR1834_UNN_oppose_09",
+        "HR1834_UNN_oppose_10",
+        "HR1834_UNC_support_01",
+        "HR1834_UNC_support_02",
+        "HR1834_UNC_support_03",
+        "HR1834_UNC_support_04",
+        "HR1834_UNC_support_07",
+        "HR1834_UNC_support_08",
+        "HR1834_UNC_oppose_03",
+        "HR1834_UNC_oppose_07",
+        "HR1834_UNT_support_03",
+        "HR1834_UNT_support_04",
+        "HR1834_UNT_oppose_01",
+        "HR1834_UNT_oppose_02",
+        "HR1834_UNT_oppose_03",
+        "HR1834_UNT_oppose_04",
+        "HR1834_UNT_oppose_05",
+        "HR1834_SEP_support_01",
+        "HR1834_SEP_support_02",
+        "HR1834_SEP_support_03",
+        "HR1834_SEP_support_04",
+        "HR1834_SEP_support_05",
+        "HR1834_SEP_support_06",
+        "HR1834_SEP_support_07",
+        "HR1834_SEP_support_08",
+        "HR1834_SEP_oppose_02",
+        "HR1834_SEP_oppose_03",
+        "HR1834_SEP_oppose_04",
+        "HR1834_SES_support_01",
+        "HR1834_SES_support_02",
+        "HR1834_SES_support_03",
+        "HR1834_SES_support_04",
+        "HR1834_SES_support_05",
+        "HR1834_SES_support_06",
+        "HR1834_SES_support_07",
+        "HR1834_SES_support_08",
+        "HR1834_TR_support_03",
+        "HR1834_TR_support_06",
+        "HR1834_TR_support_07",
+        "HR1834_TR_support_08",
+        "HR1834_TR_oppose_01",
+        "HR1834_TR_oppose_02",
+        "HR1834_TR_oppose_03",
+        "HR1834_TR_oppose_04",
+        "HR1834_TR_oppose_06",
+        "HR1834_TR_oppose_07",
+        "HR1834_TR_oppose_08"
+      ],
+      "decision": "Stated by CBO and supported by other cited analyses. No response in the bank disputes this statement. Whether a particular benefit follows is judged in each argument."
+    },
+    {
+      "id": "C04",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNN_support_05",
+        "HR1834_UNN_support_06",
+        "HR1834_UNN_oppose_01",
+        "HR1834_UNN_oppose_02",
+        "HR1834_UNN_oppose_03",
+        "HR1834_UNN_oppose_04",
+        "HR1834_UNN_oppose_05",
+        "HR1834_UNN_oppose_06",
+        "HR1834_UNN_oppose_07",
+        "HR1834_UNN_oppose_08",
+        "HR1834_UNN_oppose_09",
+        "HR1834_UNN_oppose_10",
+        "HR1834_UNC_support_01",
+        "HR1834_UNC_support_04",
+        "HR1834_UNC_support_08",
+        "HR1834_UNT_support_04",
+        "HR1834_SEP_support_01",
+        "HR1834_SEP_support_08",
+        "HR1834_SES_support_01",
+        "HR1834_SES_support_02",
+        "HR1834_SES_support_03",
+        "HR1834_SES_support_04",
+        "HR1834_SES_support_05",
+        "HR1834_TR_support_07"
+      ],
+      "decision": "Direct CBO estimate. No response in the bank disputes this estimate. This is a forecast, not an observed result."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_07",
+        "HR1834_SEP_support_06",
+        "HR1834_SEP_support_07",
+        "HR1834_SES_support_08"
+      ],
+      "decision": "Direct CBO estimate. No response in the bank disputes this estimate."
+    },
+    {
+      "id": "C06",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_03",
+        "HR1834_UNT_oppose_01",
+        "HR1834_UNT_oppose_04",
+        "HR1834_UNT_oppose_05",
+        "HR1834_SEP_oppose_02",
+        "HR1834_SEP_oppose_03",
+        "HR1834_SEP_oppose_04"
+      ],
+      "decision": "Direct CBO estimate. No response disputes the national number. Responses dispute only what it shows about particular plans or benefits, and those objections stay with those arguments."
+    },
+    {
+      "id": "C07",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNN_oppose_01",
+        "HR1834_UNN_oppose_02",
+        "HR1834_UNN_oppose_03",
+        "HR1834_UNN_oppose_04",
+        "HR1834_UNN_oppose_05",
+        "HR1834_UNN_oppose_06",
+        "HR1834_UNN_oppose_07",
+        "HR1834_UNN_oppose_08",
+        "HR1834_UNN_oppose_09",
+        "HR1834_UNN_oppose_10",
+        "HR1834_UNC_support_01",
+        "HR1834_SEP_support_01",
+        "HR1834_SES_support_01",
+        "HR1834_SES_support_03",
+        "HR1834_SES_support_04"
+      ],
+      "decision": "Supported by randomized and comparison studies in the packet. No response in the bank disputes this general statement. Which health or environmental result follows is judged in each argument."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNN_oppose_01",
+        "HR1834_UNN_oppose_02",
+        "HR1834_UNN_oppose_03",
+        "HR1834_UNN_oppose_04",
+        "HR1834_UNN_oppose_05",
+        "HR1834_UNN_oppose_06",
+        "HR1834_UNN_oppose_07",
+        "HR1834_UNN_oppose_08",
+        "HR1834_UNN_oppose_09",
+        "HR1834_UNN_oppose_10"
+      ],
+      "decision": "An ordinary causal step supported by US health-care footprint research. No response in the bank disputes this general step; the three responses in this group concern later steps. Source limits on size stay as qualifications."
+    },
+    {
+      "id": "C09",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNN_support_06",
+        "HR1834_UNC_support_08",
+        "HR1834_UNT_support_04",
+        "HR1834_SEP_support_08",
+        "HR1834_SES_support_02",
+        "HR1834_SES_support_05",
+        "HR1834_TR_support_07"
+      ],
+      "decision": "Forecast by several cited analyses. No response in the bank disputes this statement. It states pressure and risk, not that a particular service would close."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_07",
+        "HR1834_SEP_support_06",
+        "HR1834_SES_support_08"
+      ],
+      "decision": "Direct CBO estimate and explanation. Responses do not dispute this estimate; they dispute what it shows about job loss, which is handled in C14."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_07",
+        "HR1834_SEP_support_07"
+      ],
+      "decision": "Stated by the cited analysis and not disputed by any response. It describes a risk, not an observed exit."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_03",
+        "HR1834_SEP_support_02"
+      ],
+      "decision": "Direct statement in the cited analysis, not disputed by any response."
+    },
+    {
+      "id": "C13",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_05",
+        "HR1834_UNC_support_06",
+        "HR1834_SEP_support_05",
+        "HR1834_TR_support_04"
+      ],
+      "decision": "Explained by the Urban Institute and consistent with the bill's rule. No response in the bank disputes this mechanism. Later fairness and family inferences are judged in each argument."
+    },
+    {
+      "id": "C14",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_support_01",
+        "HR1834_SEP_support_05",
+        "HR1834_SES_support_08"
+      ],
+      "decision": "The 2014–2019 ACA stability result does not dispute the narrower affordability claim. The cited Baker analysis supports replacing job coverage; demanding a measured bill-specific transition overstates the claim."
+    },
+    {
+      "id": "C15",
+      "classification": "judgment",
+      "users": [
+        "HR1834_UNC_oppose_02",
+        "HR1834_SEP_oppose_01",
+        "HR1834_SES_oppose_06",
+        "HR1834_SES_oppose_07"
+      ],
+      "decision": "Responses dispute this exact claim. They point to rules adopted after the cited problems and to free plans that remain available without the larger credits. Other cited facts remain open, so the claim needs a separate judgment."
+    },
+    {
+      "id": "C16",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_04",
+        "HR1834_UNC_oppose_05",
+        "HR1834_UNC_oppose_06",
+        "HR1834_SES_oppose_01",
+        "HR1834_SES_oppose_02",
+        "HR1834_SES_oppose_03",
+        "HR1834_SES_oppose_04",
+        "HR1834_SES_oppose_05"
+      ],
+      "decision": "Direct CBO estimate. No response in the bank disputes this estimate. It is small compared with total debt, which affects strength and not whether the addition exists."
+    },
+    {
+      "id": "C17",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_04",
+        "HR1834_SES_oppose_01"
+      ],
+      "decision": "Direct CBO statement, used by two arguments with the same scope. No response in the bank disputes it."
+    },
+    {
+      "id": "C18",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_05",
+        "HR1834_SES_oppose_04"
+      ],
+      "decision": "Direct CBO statement, used by two arguments with the same scope. No response in the bank disputes it."
+    },
+    {
+      "id": "C19",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_06",
+        "HR1834_SES_oppose_02"
+      ],
+      "decision": "Direct CBO statement, used by two arguments with the same scope. No response in the bank disputes it."
+    },
+    {
+      "id": "C20",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_07",
+        "HR1834_UNT_support_03",
+        "HR1834_UNT_oppose_01",
+        "HR1834_UNT_oppose_02",
+        "HR1834_TR_oppose_01",
+        "HR1834_TR_oppose_02",
+        "HR1834_TR_oppose_03"
+      ],
+      "decision": "Stated by KFF and federal rules. No response disputes these facts. Responses dispute what follows for the values and for whether an objector has another plan (C21)."
+    },
+    {
+      "id": "C21",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNT_oppose_01",
+        "HR1834_TR_oppose_03"
+      ],
+      "decision": "New Jersey supplies the scoped example. Washington and Oregon exceptions do not refute a claim limited to at least some states; the local argument itself is conditional on no acceptable option. Missing an exhaustive plan inventory does not create a separate dispute."
+    },
+    {
+      "id": "C22",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNT_oppose_03",
+        "HR1834_TR_oppose_08"
+      ],
+      "decision": "Stated by the cited sources and accepted by the response, which disputes only what the wider gap means for a value."
+    },
+    {
+      "id": "C23",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR1834_UNC_oppose_03",
+        "HR1834_SEP_oppose_02"
+      ],
+      "decision": "Reported by KFF and used by two arguments with the same scope. No response in the bank disputes it."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "HR1834_UNN_support_01",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_01-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower insurance bills help these farms keep owners and workers on the land.",
+          "necessity_reason": "The route needs lower premium payments for eligible farm households; the farm evidence is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_support_02",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_02-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower premiums ease this kind of insurance-cost barrier for eligible owners doing this work.",
+          "necessity_reason": "The route needs lower premium payments for eligible owners."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_support_03",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "For an eligible worker buying ACA coverage, larger credits lower a personal cost of taking this job.",
+          "necessity_reason": "The route needs lower premium payments for a worker who is eligible and buys Marketplace coverage."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_support_04",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Larger credits make personal coverage less costly for eligible volunteers who buy it through the ACA.",
+          "necessity_reason": "The route needs lower premium payments for a volunteer who is eligible and buys Marketplace coverage."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_support_05",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_05-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Helping people keep insurance protects access to these medicines",
+          "necessity_reason": "The route needs more people with insurance; the medicine and pollution evidence is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_support_06",
+      "paths": [
+        {
+          "id": "HR1834_UNN_support_06-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Restoring the credits eases a source of financial pressure to cut local care.",
+          "necessity_reason": "The route needs the provider-finance step; the driving pollution step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_01-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "The added care brings emissions that increase threats to the natural world",
+          "necessity_reason": "The route needs added care and its demand for energy and supplies; the climate harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_02-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Meeting the bill's added demand for care adds pressure on waters, wildlife and vegetation",
+          "necessity_reason": "The route needs added care and its demand for electricity; the acid harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_03-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "The bill's added medical activity contributes to smog that threatens trees and forests",
+          "necessity_reason": "The route needs added care and its demand for energy and supplies; the smog harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_04-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Added nutrient pollution threatens both aquatic habitats and the variety of plants",
+          "necessity_reason": "The route needs added care and its demand for energy and supplies; the nutrient harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_05",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_05-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "The bill supports more drug use and production, adding water pollution that threatens wild species.",
+          "necessity_reason": "The route needs added care, including added prescriptions; the drug pollution harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_06",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_06-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "More care adds chemical pollution and hazardous material to handle",
+          "necessity_reason": "The route needs added care and its waste; the toxic harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_07",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_07-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Added disposable supplies create more lasting waste and more risk",
+          "necessity_reason": "The route needs added care and its disposable supplies; the habitat harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_08",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_08-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "The bill's added care increases water demand in facilities and their supply chains",
+          "necessity_reason": "The route needs added care and its demand for supplies; the water harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_09",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_09-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Greater demand for medical goods and energy adds pressure to mine",
+          "necessity_reason": "The route needs added care and its demand for goods and energy; the mining harm is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNN_oppose_10",
+      "paths": [
+        {
+          "id": "HR1834_UNN_oppose_10-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "By supporting more hospital care, the bill adds occasions for ozone-damaging emissions",
+          "necessity_reason": "The route needs added hospital care; the nitrous oxide and ozone steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_01",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_01-P1",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "Bringing more people into coverage protects those exposed to untreated illness, early death and financial hardship.",
+          "necessity_reason": "This health route needs more insured people who then get more care."
+        },
+        {
+          "id": "HR1834_UNC_support_01-P2",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "A randomized Oregon study found that",
+          "necessity_reason": "This separate financial route needs more insured people; it does not need added medical care."
+        },
+        {
+          "id": "HR1834_UNC_support_01-P3",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "Keeping treatment within reach helps stop illness from blocking work and education",
+          "necessity_reason": "This opportunity route needs care to be easier to reach."
+        },
+        {
+          "id": "HR1834_UNC_support_01-P4",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "Replacement coverage matters when people lose jobs.",
+          "necessity_reason": "This route needs larger credits to help people replace coverage after job loss."
+        },
+        {
+          "id": "HR1834_UNC_support_01-P5",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Some families have few public alternatives.",
+          "necessity_reason": "This route needs more people to have coverage where other public options are limited."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_02",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_02-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower insurance payments leave more of these households’ budgets for basic needs.",
+          "necessity_reason": "The route needs lower premium payments for eligible households."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_03",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_03-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "Helping people buy plans with lower treatment bills reduces a barrier",
+          "necessity_reason": "The route needs larger credits to make such plans easier to choose."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_04",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_04-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "counters coverage losses that widen racial gaps",
+          "necessity_reason": "This route needs the bill to keep more people insured."
+        },
+        {
+          "id": "HR1834_UNC_support_04-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Restoring help with insurance costs reduces the effect of unequal earnings on access to care",
+          "necessity_reason": "This route needs lower premium payments for people with lower earnings."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_05",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_05-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Restoring income-based help protects people from high bills tied to age or location.",
+          "necessity_reason": "This route needs removal of the sudden cutoff of help."
+        },
+        {
+          "id": "HR1834_UNC_support_05-P2",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Removing that cutoff also protects households from a sudden repayment bill",
+          "necessity_reason": "This route needs removal of the cutoff for advance credits; it stands apart from high bills."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_06",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_06-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Restoring help above the cutoff reduces the disadvantage",
+          "necessity_reason": "The route needs help to continue above the 400 percent line."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_07",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_07-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Bringing healthier buyers into the same market spreads medical costs and lowers the price others must pay themselves.",
+          "necessity_reason": "This price route needs CBO's lower full prices."
+        },
+        {
+          "id": "HR1834_UNC_support_07-P2",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Supporting a larger market also reduces the risk that fewer insurance choices disrupt access to care",
+          "necessity_reason": "This separate route needs the risk that comes with a smaller market."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_support_08",
+      "paths": [
+        {
+          "id": "HR1834_UNC_support_08-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "By increasing coverage, the bill reduces pressure from unpaid care and lost revenue.",
+          "necessity_reason": "This route needs the provider-finance step and protects local services."
+        },
+        {
+          "id": "HR1834_UNC_support_08-P2",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Reducing this pressure protects workers’ livelihoods and their households from hardship.",
+          "necessity_reason": "This separate route also starts from provider finances but reaches workers and local tax money."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "Adding aid for that high-income group while keeping these poorest people excluded",
+          "necessity_reason": "The route needs credits above the 400 percent line; the comparison with the poorest group is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_02-P1",
+          "requires": [
+            "C15"
+          ],
+          "original_excerpt": "The bill expands a route to enrollment that victims can miss until treatment stops or a tax bill arrives.",
+          "necessity_reason": "This route needs added exposure to unauthorized enrollment."
+        },
+        {
+          "id": "HR1834_UNC_oppose_02-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Larger advance credits increase the money at stake when an ineligible enrollment remains uncorrected.",
+          "necessity_reason": "This separate debt route needs larger amounts only; it does not need more unauthorized enrollments."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_03-P1",
+          "requires": [
+            "C06",
+            "C23"
+          ],
+          "original_excerpt": "Drawing people away from job plans into this market adds a risk of losing covered access to a treating doctor",
+          "necessity_reason": "Both are necessary: people must leave job plans, and the move must risk losing their doctor."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_04-P1",
+          "requires": [
+            "C17"
+          ],
+          "original_excerpt": "Adding debt strengthens a barrier to funding help when people become vulnerable.",
+          "necessity_reason": "The route needs the added debt and CBO's statement about lawmakers feeling constrained."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_05",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_05-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "The bill's added borrowing creates pressure on the earnings future workers need",
+          "necessity_reason": "The route needs the added borrowing and CBO's statement about private investment."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_06",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_06-P1",
+          "requires": [
+            "C19"
+          ],
+          "original_excerpt": "The bill adds to debt that creates this risk to savings and livelihoods at home and abroad.",
+          "necessity_reason": "The route needs the added debt and CBO's statement about crisis risk."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_07",
+      "paths": [
+        {
+          "id": "HR1834_UNC_oppose_07-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Helping people obtain coverage for procedures that end developing human lives gives [NAME], on that premise, a reason",
+          "necessity_reason": "The route needs cheaper plans that include this coverage; the moral premise is local and stated as a condition."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_support_03",
+      "paths": [
+        {
+          "id": "HR1834_UNT_support_03-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "restoring the credits makes the whole insurance plan more affordable for eligible people while keeping separate payment for those abortions",
+          "necessity_reason": "The route needs the state coverage and separate-payment facts; the link to acceptance is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_support_04",
+      "paths": [
+        {
+          "id": "HR1834_UNT_support_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Restoring premium help supports these patients' coverage and protects a source of income for their health centers.",
+          "necessity_reason": "The route needs the provider-finance step for these centers; the language and board steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_UNT_oppose_01-P1",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "In such markets, the bill increases the help an eligible objector must pass up to avoid the abortion payment.",
+          "necessity_reason": "This route needs a market where the objector has no subsidized plan without the payment."
+        },
+        {
+          "id": "HR1834_UNT_oppose_01-P2",
+          "requires": [
+            "C06",
+            "C21"
+          ],
+          "original_excerpt": "Reducing job coverage also puts workers with that religious exemption at risk of needing a marketplace plan",
+          "necessity_reason": "This route needs both: job coverage must fall for these workers, and the replacement market must lack an acceptable subsidized plan."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_UNT_oppose_02-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Expanding the public financing these taxpayers reject",
+          "necessity_reason": "The route needs larger credits for plans that include this coverage; the value step is local and is what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_UNT_oppose_03-P1",
+          "requires": [
+            "C22"
+          ],
+          "original_excerpt": "the bill increases the subsidy they forgo when they use religious sharing in place of insurance",
+          "necessity_reason": "The route needs the wider price gap; the link to acceptance is local and is what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_UNT_oppose_04-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "Reducing job coverage exposes workers whose employers pay for those abortion benefits directly",
+          "necessity_reason": "The route needs the fall in job coverage; the benefit, state and teaching steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_UNT_oppose_05",
+      "paths": [
+        {
+          "id": "HR1834_UNT_oppose_05-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "The bill’s reduction in job coverage creates a risk that workers whose plans cover transition care will need replacement plans",
+          "necessity_reason": "The route needs the fall in job coverage; the benefit and acceptance steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_01",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_01-P1",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "restoring affordable coverage strengthens access to prevention, medicines, and treatment",
+          "necessity_reason": "The route needs more insured people who then get more care."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_02",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_02-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "making a plan with lower treatment bills easier to buy reduces the risk of going without needed care",
+          "necessity_reason": "The route needs larger credits to make such plans easier to choose."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_03",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower monthly premiums and protection from large medical bills leave more resources for essentials.",
+          "necessity_reason": "The route needs lower premium payments; the health effects of food and housing are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_04",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "restoring that premium relief may protect against harmful distress",
+          "necessity_reason": "The route needs lower premium payments; the distress step is local and is what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_05",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_05-P1",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "A stronger fallback after job loss",
+          "necessity_reason": "This route needs larger credits to help people replace coverage after job loss."
+        },
+        {
+          "id": "HR1834_SEP_support_05-P2",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "removal of this income cutoff reduce threats to affordable coverage",
+          "necessity_reason": "This separate route needs removal of the income cutoff; it does not need job loss."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_06",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_06-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "lower full prices make coverage easier to buy and keep",
+          "necessity_reason": "The route needs CBO's lower full prices."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_07",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_07-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Sustaining coverage options reduces the risk of losing a workable plan",
+          "necessity_reason": "The route needs the risk that comes with a smaller market."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_support_08",
+      "paths": [
+        {
+          "id": "HR1834_SEP_support_08-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "More insured patients support paid care and reduce pressure to cut services.",
+          "necessity_reason": "The route needs the provider-finance step."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_SEP_oppose_01-P1",
+          "requires": [
+            "C15"
+          ],
+          "original_excerpt": "Restoring this incentive increases exposure to unwanted coverage changes",
+          "necessity_reason": "The route needs added exposure to unauthorized enrollment; the interruption of care is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_SEP_oppose_02-P1",
+          "requires": [
+            "C06",
+            "C23"
+          ],
+          "original_excerpt": "Replacing employer coverage with Marketplace coverage risks losing an established doctor",
+          "necessity_reason": "Both are necessary: people must leave job plans, and the move must risk losing their doctor."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_SEP_oppose_03-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "For workers moving into these plans without extra help with treatment costs, the bill’s coverage shift risks making illness harder to treat or prevent.",
+          "necessity_reason": "The route needs the fall in job coverage; the plan and deductible steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SEP_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_SEP_oppose_04-P1",
+          "requires": [
+            "C06"
+          ],
+          "original_excerpt": "The bill’s shift away from employer coverage therefore creates a risk of gaps in dental care.",
+          "necessity_reason": "The route needs the fall in job coverage; the dental steps are local and are what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_01",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_01-P1",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "By making coverage affordable for more people, the bill reduces a barrier to diagnosis and care.",
+          "necessity_reason": "The route needs more insured people who then get more care; the outbreak step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_02",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Supporting payments for care helps preserve hospitals and services that emergency responders need.",
+          "necessity_reason": "The route needs the provider-finance step; the emergency capacity step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_03",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_03-P1",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "Making treatment coverage more affordable strengthens the response to a deadly drug threat",
+          "necessity_reason": "The route needs more insured people who then reach more treatment."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_04",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_04-P1",
+          "requires": [
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "Supporting care that prevents and manages illness helps preserve people’s ability to work.",
+          "necessity_reason": "The route needs more insured people who then get more care; the workforce step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_05",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_05-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Restoring the credits supports payments to providers, workers, and suppliers",
+          "necessity_reason": "The route needs the provider-finance step; the national jobs and tax steps are local and are what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_06",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_06-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "By lowering premiums for eligible policyholders, the bill preserves money for other purchases.",
+          "necessity_reason": "The route needs lower premium payments; the national stability step is local and is what the response disputes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_07",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_07-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Restoring federal help meets more of that premium need",
+          "necessity_reason": "The route needs federal credits to cover more of the premium need; the state budget step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_support_08",
+      "paths": [
+        {
+          "id": "HR1834_SES_support_08-P1",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "The bill makes an available route to coverage outside work more affordable, through larger credits",
+          "necessity_reason": "This route needs larger credits to help people replace coverage after job loss."
+        },
+        {
+          "id": "HR1834_SES_support_08-P2",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Even those not eligible for PTCs see lower premiums",
+          "necessity_reason": "This separate route needs lower full prices, for job losers who receive no credit."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_01-P1",
+          "requires": [
+            "C17"
+          ],
+          "original_excerpt": "The bill adds debt and interest demands that put defense and crisis response under greater budget pressure.",
+          "necessity_reason": "The route needs the added debt and CBO's statement about lawmakers feeling constrained."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_02-P1",
+          "requires": [
+            "C19"
+          ],
+          "original_excerpt": "The bill adds to the debt burden behind this crisis risk.",
+          "necessity_reason": "The route needs the added debt and CBO's statement about crisis risk."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_03-P1",
+          "requires": [
+            "C16"
+          ],
+          "original_excerpt": "Adding debt adds risks to stable funding and financial influence",
+          "necessity_reason": "The route needs the added debt; the currency and national-security steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_04-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "The bill's borrowing puts pressure on investment and production",
+          "necessity_reason": "The route needs the added borrowing and CBO's statement about private investment."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_05",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_05-P1",
+          "requires": [
+            "C16"
+          ],
+          "original_excerpt": "Added borrowing carries an income cost through interest paid abroad",
+          "necessity_reason": "The route needs the added borrowing; the interest and strength steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_06",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_06-P1",
+          "requires": [
+            "C15"
+          ],
+          "original_excerpt": "expands the money and incentives exposed to a proven fraud mechanism",
+          "necessity_reason": "This route needs added exposure to improper enrollment through plans with no monthly payment."
+        },
+        {
+          "id": "HR1834_SES_oppose_06-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Restoring larger subsidies expands the money",
+          "necessity_reason": "This separate route needs larger amounts only: each improper enrollment involves more public money."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_SES_oppose_07",
+      "paths": [
+        {
+          "id": "HR1834_SES_oppose_07-P1",
+          "requires": [
+            "C15"
+          ],
+          "original_excerpt": "By expanding plans that hide unauthorized enrollment, the bill increases exposure to organized abuse",
+          "necessity_reason": "The route needs added exposure to unauthorized enrollment; the national system step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_support_03",
+      "paths": [
+        {
+          "id": "HR1834_TR_support_03-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "the bill lowers the cost of keeping a mother at home",
+          "necessity_reason": "The route needs lower premium payments for eligible families; the religious practice steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_support_04",
+      "paths": [
+        {
+          "id": "HR1834_TR_support_04-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "marrying no longer causes all aid to disappear merely because their combined income crosses it",
+          "necessity_reason": "The route needs removal of the income cutoff; the marriage example is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_support_06",
+      "paths": [
+        {
+          "id": "HR1834_TR_support_06-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Restoring those credits eases the strain on pastoral families and churches",
+          "necessity_reason": "This route needs lower premium payments for clergy households and the churches that help them."
+        },
+        {
+          "id": "HR1834_TR_support_06-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower bills leave members more room to continue customary giving",
+          "necessity_reason": "This separate route needs lower premium payments for church members."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_support_07",
+      "paths": [
+        {
+          "id": "HR1834_TR_support_07-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Keeping more patients insured eases unpaid bills and the added demand for free care",
+          "necessity_reason": "The route needs the provider-finance step for these ministries; the religious mission step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_support_08",
+      "paths": [
+        {
+          "id": "HR1834_TR_support_08-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Lower insurance costs leave farm families more money to meet farm debts",
+          "necessity_reason": "The route needs lower premium payments for eligible farm families; the inherited-farm steps are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_01",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_01-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Larger credits lower the price of entering plans with abortion benefits.",
+          "necessity_reason": "The route needs cheaper plans that include this coverage; the religious rule is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_02",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_02-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Larger credits increase public support for the plans these religious bodies reject.",
+          "necessity_reason": "The route needs larger credits for plans that include this coverage; the religious teaching is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_03",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_03-P1",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "Where every Marketplace option includes this charge, refusing it means giving up Marketplace aid.",
+          "necessity_reason": "The route needs the condition that an objecting buyer has no subsidized plan without the payment."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_04",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Cheaper enrollment opens access to these plans’ transition benefits.",
+          "necessity_reason": "The route needs lower premium payments; the Washington benefit and religious teaching are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_06",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_06-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Cheaper access to IVF expands access to a substitute for marital intercourse.",
+          "necessity_reason": "The route needs lower premium payments; the state benefit and religious teaching are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_07",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_07-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Larger credits expand access to plans with these benefits.",
+          "necessity_reason": "The route needs lower premium payments; the benefit rule and teaching are local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_08",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_08-P1",
+          "requires": [
+            "C22"
+          ],
+          "original_excerpt": "This gives them a stronger financial reason to choose insurance instead of contributing through a ministry.",
+          "necessity_reason": "The route needs the wider price gap; the religious practice step is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR1834_TR_oppose_09",
+      "paths": [
+        {
+          "id": "HR1834_TR_oppose_09-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "The bill adds about $1,729 to this couple’s annual cost of being married rather than unmarried.",
+          "necessity_reason": "The route needs the restored larger-credit schedule; the worked example and marriage teaching are local."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "HR1834_UNN_support_01",
+      "reason": "Corrected attribution: the quoted Allen sentences are a reporter's words, not the owner's own explanation. Other changes are simpler words."
+    },
+    {
+      "point_id": "HR1834_UNC_oppose_01",
+      "reason": "Narrowed the response's final sentence: an unchanged baseline does not rebut the PRO by itself; the challenged step is the inference that the rule unfairly favors wealth. Other changes are simpler words."
+    },
+    {
+      "point_id": "HR1834_SES_support_08",
+      "reason": "Narrowed the response's last sentence. It said the closest cited evidence did not show the effect, but the shared claim also cites a Baker Institute statement about the larger credits and job loss. The null result is kept and its limit stated. Other changes are simpler words. Main review: The 2014–2019 ACA stability result does not dispute the narrower affordability claim. The cited Baker analysis supports replacing job coverage; demanding a measured bill-specific transition overstates the claim."
+    },
+    {
+      "point_id": "HR1834_TR_oppose_03",
+      "reason": "Simplified words and explained terms; no change to sources or meaning. Main review: New Jersey supplies the scoped example. Washington and Oregon exceptions do not refute a claim limited to at least some states; the local argument itself is conditional on no acceptable option. Missing an exhaustive plan inventory does not create a separate dispute."
+    },
+    {
+      "point_id": "HR1834_TR_oppose_06",
+      "reason": "Removed references to a retired point (\"described above\" and the separate-reason comparison with embryo destruction), restoring the IVF definition needed here. The Catholic teaching route is unchanged."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "all_pass": true,
+  "checks": {
+    "coverage": true,
+    "unique_ids": true,
+    "retired": true,
+    "source_hashes": true,
+    "notes_exact": true,
+    "absent_response_not_invented": true,
+    "paths_exist": true,
+    "exact_original_passages": true,
+    "dependency_reasons": true,
+    "note_route_coverage": true,
+    "note_reconstruction": true,
+    "note_destinations": true,
+    "no_invented_note_response": true,
+    "acyclic_known_claims": true,
+    "known_dependencies": true,
+    "reuse": true,
+    "members_match_uses": true,
+    "judgment_basis": true,
+    "source_refs": true,
+    "statutory_quote": true,
+    "safe_html": true,
+    "safe_source_links": true
+  },
+  "failures": [],
+  "counts": {
+    "active_arguments": 33,
+    "proposed_retirements": 5,
+    "shared_claims": 14,
+    "judgments": 1,
+    "paths": 43,
+    "exact_original_passages": 126,
+    "source_files_hashed": 125
+  },
+  "mapping_sha256": "9ddb2013aa0a9b1d469d37e54085d251b4467b0236409dcfac091585b37a70c4",
+  "limits": [
+    "Source hashes and exact passages verify provenance and wording, not evidential support.",
+    "Main source-context reading is documented separately; no ESL reader test is claimed."
+  ]
+}

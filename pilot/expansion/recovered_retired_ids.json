@@ -1,0 +1,116 @@
+[
+  {
+    "id": "S2_UNC_oppose_11",
+    "bill_id": "119_S_2",
+    "retired": true,
+    "retirement_reason": "Fails the required comparison. The harm is that money is not spent on Senator Baldwin's proposed childcare amendment, but that is the gap between S.2 and a hypothetical alternative bill, not a change S.2 causes relative to the law in force on June 9. S.2's money is new, deficit-financed appropriation (“out of any money in the Treasury not otherwise appropriated”). Without S.2 there would be no childcare funding either, and the PRO offers no fixed-budget or crowding-out mechanism. No bill-caused effect on families' childcare remains.",
+    "original": {
+      "point_id": "S2_UNC_oppose_11",
+      "value": "UNC",
+      "direction": "oppose",
+      "number": 11,
+      "pro": "11. It commits new public money to enforcement instead of a concrete proposal to help families afford care.\n   - **Because:** Section 202's money is “In addition to amounts otherwise available” [bill_text]. It commits new resources to the operations described above.\n   - **Because:** Senator Baldwin proposed another use for some of this funding: “my amendment would redirect just some of that funding to ensure millions of American families have childcare.” [floor_07_233]\n   - **Because:** She described a direct cost to parents' livelihoods: “employees are leaving because someone has to stay home with the kids.” [floor_07_233]\n   - **So:** Choosing enforcement over this proposed relief leaves those dollars unavailable for childcare that helps parents keep working. Protecting struggling families and their children's opportunities gives Morgan a reason to oppose that spending choice.",
+      "con": "11. **Response:** The childcare amendment does not establish that S.2 takes childcare resources away from families under the law in force at the vote.\n    - **Because:** Baldwin described a proposed benefit: “my amendment would redirect just some of that funding to ensure millions of American families have childcare.” [floor_07_233]\n    - **Because:** S.2 appropriates money “not otherwise appropriated” [bill_text]. CRS describes the budget instructions as directing legislation that “will increase the deficit” [crs_summary].\n   - **So:** The amendment describes gains from a different bill. Rejecting S.2 would not enact those gains, and the PRO shows no fixed budget that makes this spending displace childcare aid. It has not established lost support or more parents leaving work compared with existing law."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/s2/universalism-concern#S2_UNC_oppose_11",
+    "provenance": {
+      "docs/argument_key/quality_pass/s2_20261104/packet/points.json": "14d17cd943197c3a00edd654825992843ff888bbf81f8d8cbf56d2fa93993565",
+      "docs/argument_key/quality_pass/s2_20261104/release_20261104/point_ledger.json": "c7a83372f443b8c1ec0a52fd80ec8c3a843bd49f34ef9208315bce45255444e0"
+    }
+  },
+  {
+    "id": "HR1834_UNT_support_02",
+    "bill_id": "119_H_R_1834",
+    "retired": true,
+    "retirement_reason": "Merged into point 1. It relies on the same mechanism (help reaches a mixed group of users through non-conditional rules), and it does not separate the two options on this value, since agreement is required under neither. The survey facts are preserved in point 1.",
+    "original": {
+      "point_id": "HR1834_UNT_support_02",
+      "value": "UNT",
+      "direction": "support",
+      "number": 2,
+      "pro": "2. It supports people across political disagreements.\n   - **Because:** A 2025 survey found enrollees in different political camps: “about four in ten Marketplace enrollees (39%) are Republicans or Republican-leaning independents” [new_02]; “Just over four in ten Marketplace enrollees (45%) identify as Democrats or Democratic-leaning independents, while 17% do not identify or lean toward either political party.” [new_02]\n   - **Because:** The help follows income and local insurance costs, as shown in the main effect. The bill restores it “with no additional reforms or changes to the program.” [press_07]\n   - **So:** Restoring help across these camps makes acceptance despite disagreement practical. Morgan can support eligible people's coverage without requiring them to share Morgan's politics.",
+      "con": "2. **Response:** The recipients' party labels do not show why accepting political opponents favors the larger payment.\n   - **Because:** The survey identifies recipients by party: “about four in ten Marketplace enrollees (39%) are Republicans or Republican-leaning independents” [pro_new_02].\n   - **Because:** Payment follows financial rules: “These credits lower monthly premiums upfront and are calculated based on a consumer's household income and the cost of coverage in their local market.” [press_07] The bill extends the larger credits “with no additional reforms or changes to the program.” [press_07]\n   - **Because:** Accepting people despite disagreement is a judgment about how to regard them. Choosing the amount of public help for their insurance requires a further judgment about that help. Neither the current credit nor the extension makes agreement with Morgan a condition.\n   - **So:** The PRO's rule against requiring political similarity does not distinguish the two options. Benefits crossing party lines leave the reason for preferring the larger payment unstated."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/hr1834/universalism-tolerance#HR1834_UNT_support_02",
+    "provenance": {
+      "docs/argument_key/quality_pass/other_bills_20261104/119_H_R_1834/packet/points.json": "978ffb58f761a7169184e658c2bf7c0ce6c91090c3865d0dd13112b9e830ae7d",
+      "docs/argument_key/quality_pass/other_bills_20261104/119_H_R_1834/release/output/ledger/UNT.json": "9a53b1e163036dcd95689102b42e6fd9541f3b2508f46e788cc1b2c8b30771ef"
+    }
+  },
+  {
+    "id": "HR1834_UNT_support_05",
+    "bill_id": "119_H_R_1834",
+    "retired": true,
+    "retirement_reason": "Value drift. The bill's effect is financial relief, and supporting a policy that its beneficiaries asked for is not itself understanding people who are different. The accounts identify hardship, not a difference to be understood, and the same logic would apply to any policy with supportive testimony. There is no bill effect specific to this value, so narrowing would leave only the welfare claim already covered under concern.",
+    "original": {
+      "point_id": "HR1834_UNT_support_05",
+      "value": "UNT",
+      "direction": "support",
+      "number": 5,
+      "pro": "5. It acts on people's accounts of lives and needs Morgan may not share.\n   - **Because:** In interviews reported in 2025, Olivia explained how losing the larger credits could threaten her mental health treatment: “I might have to go without my psych meds, which would not be ideal.” [july_79cd59e88d33]\n   - **Because:** Ximena, a nurse buying coverage for herself and her children, asked lawmakers to understand her family's situation: “I would want lawmakers to put themselves in that position before making any decisions that would affect not just me, but lots of Americans like me.” [july_79cd59e88d33]\n   - **So:** These accounts explain how insurance costs shape treatment and family decisions. The bill acts on the obstacle they identify by restoring premium help. Supporting that response lets Morgan put understanding into practice by letting other people's accounts inform decisions about their lives.",
+      "con": "5. **Response:** Hearing and using people's accounts does not by itself make financial relief an act of tolerance.\n   - **Because:** The interviews identify financial hardship: “Most interviewees said that they are already struggling with higher prices and that a spike in their health insurance costs would require difficult tradeoffs.” [july_79cd59e88d33]\n   - **Because:** Ximena asks lawmakers to understand before deciding: “I would want lawmakers to put themselves in that position before making any decisions that would affect not just me, but lots of Americans like me.” [july_79cd59e88d33]\n   - **Because:** Understanding a person's account and relieving the need it describes are separate steps. The second calls for concern with health and welfare; it cannot simply stand in for the stated wish to understand different people.\n   - **So:** These accounts explain treatment and household risks. The PRO's reason for restoring the credits is that they relieve those risks. It has not shown why that relief advances acceptance or understanding of differences. Taking testimony seriously cannot supply that missing connection on its own."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/hr1834/universalism-tolerance#HR1834_UNT_support_05",
+    "provenance": {
+      "docs/argument_key/quality_pass/other_bills_20261104/119_H_R_1834/packet/points.json": "978ffb58f761a7169184e658c2bf7c0ce6c91090c3865d0dd13112b9e830ae7d",
+      "docs/argument_key/quality_pass/other_bills_20261104/119_H_R_1834/release/output/ledger/UNT.json": "9a53b1e163036dcd95689102b42e6fd9541f3b2508f46e788cc1b2c8b30771ef"
+    }
+  },
+  {
+    "id": "SJRes88_SEP_oppose_02",
+    "bill_id": "119_S_J_Res_88",
+    "retired": true,
+    "retirement_reason": "Value drift. The fixed Security - Personal reference is ordinary personal health and safety risks of an average American in U.S. circumstances. Protection from foreign military attack through the defense supply base belongs to Security - Societal. The mechanism, price protection helping U.S. defense suppliers, is carried at the correct value in SES oppose 1 (batteries). The Jergens evidence is preserved in a note for destination review.",
+    "original": {
+      "point_id": "SJRes88_SEP_oppose_02",
+      "value": "SEP",
+      "direction": "oppose",
+      "number": 2,
+      "pro": "2. It removes support for U.S. suppliers needed to build and replace military equipment.\n   - **Because:** Import taxes have brought business to a U.S. toolmaker that also serves defense customers. Jergens reported gains “partly owing to new orders from customers looking to avoid paying import tariffs, and partly because of increased demand over the last 18 months from the defense industry.” [new_07]\n   - **Because:** Weapons production depends on a broad supply base. The order says the ability to “defend its citizens and homeland” [order_01] requires “a large upstream manufacturing and goods-producing ecosystem to manufacture these products without undue reliance on imports for key inputs.” [order_01]\n   - **Because:** The Administration identifies the bill's effect on that protection: “this resolution would curtail President Trump’s ability to combat China’s non-market policies and practices that limit U.S. manufacturing capacity in industrial sectors critical to national security.” [sap_01]\n   - **So:** Ending these taxes takes away price protection that helps covered U.S. suppliers win orders. Keeping those suppliers able to make equipment and parts supports dependable defenses. Morgan relies on those defenses for protection from attack.",
+      "con": "2. **Response:** The PRO does not connect Jergens’s extra sales to a stronger supply of military equipment.\n   - **Because:** The report gives two reasons for the toolmaker’s gains: “partly owing to new orders from customers looking to avoid paying import tariffs, and partly because of increased demand over the last 18 months from the defense industry.” [pro_new_07] It does not identify the tariff-driven orders as military orders or tie them to keeping defense production available.\n   - **Because:** Qualifying imports for Pentagon deliveries already have a route to entry without import taxes. An October 6 legal report explains that the contract rule covers “goods purchased specifically for incorporation into end items delivered to the DoD.” [new_02] It confirms that the rule “does in fact apply to tariffs as well as duties.” [new_02]\n   - **So:** The report does not trace its tariff-driven orders, military or civilian, to capacity needed for military deliveries. Nor does the PRO show that imports competing for defense orders face these taxes despite the exemption.\n   - **So:** General claims about factories and national security do not fill that gap. The PRO has not shown that ending these particular taxes would reduce suppliers’ ability to equip the military and protect Morgan."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/sjres88/security-personal#SJRes88_SEP_oppose_02",
+    "provenance": {
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/packet/points.json": "c5017e8884e57350d630f266eecc0ea10c308d635d3be577bb8a12296b6d3453",
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/release/output/ledger/SEP.json": "22ade60e0d26032604b30ae4a5c90b45dc562020cae6f44e6528f1cf1179ecd8"
+    }
+  },
+  {
+    "id": "SJRes88_SEP_oppose_03",
+    "bill_id": "119_S_J_Res_88",
+    "retired": true,
+    "retirement_reason": "Value drift. The fixed Security - Personal reference is ordinary personal health and safety risks of an average American in U.S. circumstances. Protection from foreign military attack through the defense supply base belongs to Security - Societal. Merge destination: SES oppose 3, same Malaysia mineral bargaining path with fuller evidence.",
+    "original": {
+      "point_id": "SJRes88_SEP_oppose_03",
+      "value": "SEP",
+      "direction": "oppose",
+      "number": 3,
+      "pro": "3. It gives up bargaining power for getting reliable supplies of materials needed by U.S. defenses.\n   - **Because:** The order lets the President offer lower import taxes when a partner takes significant steps to “remedy non-reciprocal trade arrangements and align sufficiently with the United States on economic and national security matters” [law_order_1]. It allows him to “decrease or limit in scope the duties imposed under this order.” [law_order_1]\n   - **Because:** The October 26 Malaysia tariff deal includes a supply promise for critical minerals and rare earths, a group of metals used to make magnets: “Malaysia has committed to refrain from banning, or imposing quotas on, exports to the United States of critical minerals or rare earth elements.” [new_05] It also promises: “Malaysia has committed to ensure no restrictions are imposed on the sale of rare earth magnets to U.S. companies.” [new_05]\n   - **Because:** The signed agreement provides a response to broken promises: “If a Party considers that the other Party has not complied with a provision of this Agreement, the Party may review the terms of this Agreement and take action in accordance with applicable domestic law.” [new_11]\n   - **Because:** These magnets are defense inputs. The Pentagon calls them “essential components in a range of defense capabilities” [new_09] and warns: “Continued U.S. reliance on foreign sources for rare earth products poses a risk to national security.” [new_09]\n   - **So:** Ending the emergency removes the option to offer or withdraw tax cuts under it to press for these supplies. Keeping that bargaining tool helps protect access to materials needed for the defenses that shield Morgan from attack.",
+      "con": "3. **Response:** The PRO does not show that losing this tariff option would make Malaysia’s mineral supplies less reliable.\n   - **Because:** The bill ends the April 2 emergency, while the signed trade agreement has its own ending rule: “Either Party may terminate this Agreement by written notification to the other Party. Termination shall take effect 180 days after the date of the notification.” [pro_new_11]\n   - **Because:** Signing did not itself put the agreement into effect. The October 26 joint statement said: “In the coming weeks, the United States and Malaysia will undertake domestic formalities in advance of the Agreement entering into force.” [pro_new_05]\n   - **Because:** The agreement’s rule for broken promises allows a party to “review the terms of this Agreement and take action in accordance with applicable domestic law.” [pro_new_11] That is permission to choose a response, rather than evidence of how Malaysia would respond to this bill.\n   - **So:** The bill does not itself give notice ending the agreement. The PRO’s claim about lost pressure needs a further link: why removing this tariff option would make Malaysia more likely to restrict mineral exports needed for U.S. defenses. Neither the signed promises nor the enforcement clause establishes that change in behavior.\n   - **So:** Showing that defense equipment needs rare earths does not establish that this bill would make those materials harder to obtain."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/sjres88/security-personal#SJRes88_SEP_oppose_03",
+    "provenance": {
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/packet/points.json": "c5017e8884e57350d630f266eecc0ea10c308d635d3be577bb8a12296b6d3453",
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/release/output/ledger/SEP.json": "22ade60e0d26032604b30ae4a5c90b45dc562020cae6f44e6528f1cf1179ecd8"
+    }
+  },
+  {
+    "id": "SJRes88_SEP_oppose_04",
+    "bill_id": "119_S_J_Res_88",
+    "retired": true,
+    "retirement_reason": "Value drift. The fixed Security - Personal reference is ordinary personal health and safety risks of an average American in U.S. circumstances. Protection from foreign military attack through the defense supply base belongs to Security - Societal. Merge destination: SES oppose 2, the same export-control bargaining path with the same agreement text.",
+    "original": {
+      "point_id": "SJRes88_SEP_oppose_04",
+      "value": "SEP",
+      "direction": "oppose",
+      "number": 4,
+      "pro": "4. It gives up tariff pressure for stopping sensitive technology from helping foreign militaries threaten Americans.\n   - **Because:** The order offers import-tax cuts for fairer trade and security cooperation. It allows cuts for significant steps to “remedy non-reciprocal trade arrangements and align sufficiently with the United States on economic and national security matters” [law_order_1].\n   - **Because:** The signed Malaysia tariff agreement includes cooperation with U.S. export controls—rules limiting sales of sensitive goods abroad. Malaysia must “align with all unilateral export controls in force by the United States, and ensure that its companies do not backfill or undermine these controls.” [new_11]\n   - **Because:** Those controls address weapons threats. The Commerce Department says its chip controls target equipment used to make “advanced integrated circuits needed for the next generation of advanced weapon systems” [new_14] and chips used for “artificial intelligence (AI) used in military applications.” [new_14]\n   - **So:** Ending these tariff powers gives up a way to reward and press for cooperation against the spread of weapons technology. Keeping that pressure supports protection from military threats to Americans, including Morgan.",
+      "con": "4. **Response:** The PRO does not connect the loss of tariff pressure to weaker controls on weapons technology.\n   - **Because:** Malaysia announced a permit rule in July: “all exports, tranships and transits of high-performance AI chips of US origin are subject to a Strategic Trade Permit.” [new_04] The ministry identified its legal basis: “These powers are provided for under Section 12 of the Strategic Trade Act 2010” [new_04].\n   - **Because:** The signed agreement also lists a separate way to encourage security cooperation: “the United States may take such cooperation into account in administering its domestic laws and regulations pertaining to export controls, investment reviews, and other measures.” [pro_new_11]\n   - **So:** The bill does not repeal Malaysia’s permit rule or those separate U.S. powers. The PRO does not show how losing this tariff option would weaken the rule or change Malaysia’s cooperation or enforcement.\n   - **So:** Its evidence explains why sensitive chips matter for weapons. It does not establish that ending this tariff tool would let more weapons technology reach foreign militaries or weaken Morgan’s protection from attack."
+    },
+    "url": "https://niccdias.github.io/policy-briefs/arguments/sjres88/security-personal#SJRes88_SEP_oppose_04",
+    "provenance": {
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/packet/points.json": "c5017e8884e57350d630f266eecc0ea10c308d635d3be577bb8a12296b6d3453",
+      "docs/argument_key/quality_pass/other_bills_20261104/119_S_J_Res_88/release/output/ledger/SEP.json": "22ade60e0d26032604b30ae4a5c90b45dc562020cae6f44e6528f1cf1179ecd8"
+    }
+  }
+]

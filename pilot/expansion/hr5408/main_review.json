@@ -1,0 +1,1249 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "ba1a9ce57b317d1396d58f3fdb1be15e042e1e783a18a087683a9eb85bf6ac79",
+  "accepted_retirements": [],
+  "decisions": "Inspected all 13 worker merges, 74 routes and 17 substantive edits, including all response rewrites. Localized different non-pay protections instead of imposing a single compound vote. The modest settlement-route inference is context; Canadian effect transfer remains qualified. Pay and unaffordable-award disputes remain separate. Checked the election-source asymmetry, FMCS limits and bill-over-summary rule.",
+  "source_context_read": "Bill and current-law differences; first-contract study and bargaining-power context; conservative-arbitrator and Canadian award passages; Treasury election-design caveat and wage null study; Canadian stop rule; FMCS service limits and outside-arbitrator distinction; election/decertification authorities. Other source checks retain the worker reading limits.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR5408_UNN_oppose_02",
+        "HR5408_UNC_support_01",
+        "HR5408_UNC_oppose_02",
+        "HR5408_UNC_oppose_06",
+        "HR5408_UNC_oppose_07",
+        "HR5408_UNT_support_02",
+        "HR5408_UNT_oppose_01",
+        "HR5408_UNT_oppose_02",
+        "HR5408_SES_support_04",
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNN_support_04",
+        "HR5408_UNN_support_05",
+        "HR5408_UNN_support_06",
+        "HR5408_UNN_oppose_01",
+        "HR5408_UNN_oppose_03",
+        "HR5408_UNC_support_04",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNC_support_14",
+        "HR5408_UNC_oppose_01",
+        "HR5408_UNC_oppose_03",
+        "HR5408_UNC_oppose_04",
+        "HR5408_UNC_oppose_05",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_UNT_oppose_03",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SEP_support_09",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SEP_oppose_02",
+        "HR5408_SEP_oppose_03",
+        "HR5408_SEP_oppose_04",
+        "HR5408_SES_support_01",
+        "HR5408_SES_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_SES_oppose_01",
+        "HR5408_SES_oppose_02",
+        "HR5408_SES_oppose_03",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03",
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06",
+        "HR5408_TR_oppose_07"
+      ],
+      "decision": "Direct statement of the engrossed bill text; verified against the bill. It is background, not a vote and not acceptance of any argument that uses it."
+    },
+    {
+      "id": "C02",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR5408_UNN_support_05",
+        "HR5408_SES_support_04",
+        "HR5408_TR_support_01"
+      ],
+      "decision": "Direct statement of the engrossed bill text; verified against the bill. The lack of a stated priority is an observation about that same text."
+    },
+    {
+      "id": "C03",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR5408_UNC_support_02",
+        "HR5408_UNC_oppose_09",
+        "HR5408_UNT_support_01",
+        "HR5408_UNT_oppose_04"
+      ],
+      "decision": "Direct statement of the engrossed bill text; verified against the bill. The CRS summary words this differently (“even if a representative has been decertified”), so the bill text is used."
+    },
+    {
+      "id": "C04",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNC_support_03",
+        "HR5408_UNC_oppose_08",
+        "HR5408_SEP_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_TR_support_02"
+      ],
+      "decision": "Bill wording plus an attributed legal reading. No point or source in the packet disputes the reading, so it does not need a vote. Whether this is good or bad for workers remains in each argument."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNN_support_05",
+        "HR5408_UNN_support_06",
+        "HR5408_UNN_oppose_03",
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNN_support_04",
+        "HR5408_UNC_support_04",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03",
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06"
+      ],
+      "decision": "Follows from the statutory route and is sourced. Heritage warns the process could be slow and FMCS lacks staff, which concerns timing and service capacity for some cases; no source disputes that at least some otherwise stalled disputes would end in a contract. No vote is needed. Delay and capacity remain stated limits."
+    },
+    {
+      "id": "C07",
+      "classification": "judgment",
+      "users": [
+        "HR5408_UNC_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SES_support_03"
+      ],
+      "decision": "Separate judgment: a relevant null result challenges this exact proposition (close-election wage estimates near zero), while the supporting estimate concerns union membership generally. Three arguments need it."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNC_support_14",
+        "HR5408_SEP_support_09",
+        "HR5408_SES_support_01"
+      ],
+      "decision": "The response expressly leaves the ordinary settlement-route inference unanswered. The Canadian stop-rule and pooled-system limits qualify the study, not the narrower claim of some reduction. Keep those limits visible without an extra vote about an unopposed modest inference."
+    },
+    {
+      "id": "C09",
+      "classification": "judgment",
+      "users": [
+        "HR5408_UNC_oppose_04",
+        "HR5408_SES_oppose_02"
+      ],
+      "decision": "Separate judgment: both arguments rest on this exact risk, and both responses bring the same objection. The panel must use the employer’s finances, and reported practice is conservative."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNN_oppose_01",
+        "HR5408_UNC_oppose_01",
+        "HR5408_UNT_oppose_01",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SEP_oppose_02",
+        "HR5408_SEP_oppose_03",
+        "HR5408_SEP_oppose_04",
+        "HR5408_TR_oppose_07"
+      ],
+      "decision": "The first sentence is an attributed factual statement and the second follows from the bill text. No point or source disputes either one, so no vote is needed. Whether that loss matters remains in each argument."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNC_oppose_03",
+        "HR5408_UNT_oppose_03",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SES_oppose_03"
+      ],
+      "decision": "An attributed warning about a possibility. No point has a response and no source gives an exact objection to the possibility; a mere possibility does not justify a vote. Panel membership, the size-and-type factor and arbitrator rules are stated as limits."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_UNC_oppose_05",
+        "HR5408_SES_oppose_01"
+      ],
+      "decision": "Bill text plus attributed reports. The responses in the two arguments challenge later steps (loss of help to poorer unions; displacement of urgent disputes), not this statement, so it does not need a vote."
+    },
+    {
+      "id": "C13",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06"
+      ],
+      "decision": "Direct reading of union constitutions plus the first-contract step. No point has a response and no source disputes that some added payments would follow; the absence of a measured effect is not a defect, because a measured estimate is not required. Scope limits are stated."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "HR5408_UNN_support_01",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_01-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "These terms give workers information, a voice and a way to enforce environmental duties.",
+          "necessity_reason": "The route needs the bill’s binding process to make contract terms of this kind more reachable; without that, the U.S. Steel terms show only what other contracts contain."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_support_02",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_02-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "A stronger first-contract process helps workers secure these protections.",
+          "necessity_reason": "The route needs the binding process to make contract protections of this kind more reachable; the Delaware City terms alone do not show that."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_support_03",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "By strengthening the route to a first agreement, the bill helps workers bargain for environmental programs and resources to carry them out.",
+          "necessity_reason": "The route needs the binding process to make contract terms of this kind more reachable; existing examples alone do not show an added effect."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_support_04",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_04-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Giving newly organized conservation staff a binding route through stalled talks supports their efforts to secure pay, benefits and training.",
+          "necessity_reason": "The route needs the binding process to make contract terms of this kind more reachable for these staff."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_support_05",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_05-P1",
+          "requires": [
+            "C02",
+            "C05"
+          ],
+          "original_excerpt": "For clean-energy workplaces that newly organize, a binding route to settling wages and benefits can ease part of the financial insecurity these workers identify.",
+          "necessity_reason": "The route needs both a first contract that would otherwise be missing or later, and the panel’s family-support factor that the argument names."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_support_06",
+      "paths": [
+        {
+          "id": "HR5408_UNN_support_06-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "For workers organizing to defend nature through their union, limiting first-contract delay helps protect a group they can use for that action.",
+          "necessity_reason": "The route needs the bill to reduce the time new units go without a first contract; the environmental record alone does not connect to the bill."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_UNN_oppose_01-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Workers cannot reject that result, and changing it during the two-year term requires the employer's written consent.",
+          "necessity_reason": "The route depends on an arbitrated first contract taking effect without the member vote that would otherwise let workers insist on these terms."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_UNN_oppose_02-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "A panel can impose a strike ban that workers never accepted, putting contract limits on walkouts beyond their control.",
+          "necessity_reason": "The route needs the panel’s power to bind the parties to first-contract terms; without that power no ban could be imposed over workers’ objection."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_UNN_oppose_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "The bill's route to binding contracts can give unions organizing coal and other fossil-fuel workers a firmer base of members and dues income.",
+          "necessity_reason": "The route needs first contracts that would otherwise be missing or later, since those contracts are the source of the added members and dues."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_01",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_01-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Workers gain a settlement route beyond persuading the stronger party to agree.",
+          "necessity_reason": "The route is the bill’s statutory referral and binding decision; without those provisions workers would have no settlement route beyond agreement."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_02",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_02-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Requiring a vote before ending that protection gives workers a fairer process, serving [NAME]'s concern for just treatment.",
+          "necessity_reason": "The route rests entirely on the statutory change that the duty continues until an election removes the representative."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_03",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_03-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Workers gain protection against cuts while seeking a contract.",
+          "necessity_reason": "The whole argument depends on the duty to maintain current terms replacing the employer’s option after impasse."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_04",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_04-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "The binding-contract route gives workers stronger access to wage settlements, with basic living needs expressly counted.",
+          "necessity_reason": "This route protects vulnerable workers only if the bill’s route actually raises some newly organized workers’ pay."
+        },
+        {
+          "id": "HR5408_UNC_support_04-P2",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "The income path also reaches children's education and workers outside the union.",
+          "necessity_reason": "The wider opportunity route runs through the same pay gain; without it there is no income to reach children or to spread through competition."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_05",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_05-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Helping workers reach first contracts strengthens access to care, paid time away and retirement income.",
+          "necessity_reason": "The route needs the binding process to make benefit terms of this kind more reachable; the study describes contracts already reached."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_06",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_06-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "A stronger path to a contract makes enforceable safety protections more reachable.",
+          "necessity_reason": "The route needs the binding process to make safety terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_07",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_07-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Easier access to these contracts gives workers a stronger route to rules against arbitrary punishment and a hearing outside the employer's sole control.",
+          "necessity_reason": "The route needs the binding process to make discipline and hearing terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_08",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_08-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Helping workers reach contracts extends access to shared pay rules that reduce unequal treatment.",
+          "necessity_reason": "The route needs the binding process to make pay-rule terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_09",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_09-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Making these contracts more reachable gives workers facing bias a more accessible way to defend fair treatment.",
+          "necessity_reason": "The route needs the binding process to make anti-discrimination terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_10",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_10-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Helping workers secure predictable hours reduces a barrier to holding a job while caring for dependents.",
+          "necessity_reason": "The route needs the binding process to make schedule terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_11",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_11-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Broadening access to these rules supports [NAME]'s concern for equal opportunities.",
+          "necessity_reason": "The route needs the binding process to make promotion and posting terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_12",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_12-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Contract training and help with tuition open a route to skills for workers whose own resources limit their choices.",
+          "necessity_reason": "The route needs the binding process to make training terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_13",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_13-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Making such limits more reachable gives workers a way to defend the jobs their households rely on.",
+          "necessity_reason": "The route needs the binding process to make outsourcing terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_support_14",
+      "paths": [
+        {
+          "id": "HR5408_UNC_support_14-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Reducing reliance on harmful stoppages protects workers' incomes and people who depend on their services.",
+          "necessity_reason": "The conclusion protects incomes and services only if the bill’s route reduces first-contract stoppages at least somewhat."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_01-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Removing that safeguard weakens fair treatment in decisions governing their livelihoods.",
+          "necessity_reason": "The argument rests on an arbitrated contract taking effect without the member vote that is the safeguard at issue."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_02-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "An employer can start the move to outside decision-makers while workers still want time to assess proposals or press their demands.",
+          "necessity_reason": "The pressure depends on the statutory rule that either side can start the route and that extensions require both sides’ agreement."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_03-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Giving such a rule binding force despite workers’ objections puts the protection of people facing those hazards at risk.",
+          "necessity_reason": "The argument needs the warned possibility that a panel’s binding terms may not fit a particular workplace."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_04-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "Unsustainable costs threaten workers’ jobs and small owners’ livelihoods.",
+          "necessity_reason": "Every later step in the argument follows from the bill adding a risk of binding terms a small employer cannot sustain."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_05",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_05-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "Adding compulsory work to a depleted service creates competition for scarce help and another source of delay.",
+          "necessity_reason": "The argument needs the statutory duties to add demand on a reduced agency; without that strain nothing reaches poorly funded unions."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_06",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_06-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "When the parties cannot fill the seats, federal choices determine who can impose their terms.",
+          "necessity_reason": "The route needs the statutory designation power and the binding decision that gives those appointments their effect."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_07",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_07-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Compulsory hearings and new legal fights can consume money for wages, benefits, and representation.",
+          "necessity_reason": "The costs and legal attacks all arise from contracts set by the statutory panel route."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_08",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_08-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Where an otherwise lawful final offer would improve pay without cutting other terms, the bill blocks the employer from delivering those gains on its own after deadlock.",
+          "necessity_reason": "The argument depends on the duty to maintain current terms replacing the employer’s option after impasse, including in later contract talks."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_09",
+      "paths": [
+        {
+          "id": "HR5408_UNC_oppose_09-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "That adds an obstacle to ending representation they no longer want.",
+          "necessity_reason": "The argument rests on the statutory rule that the duty continues until an election removes the representative."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_support_01",
+      "paths": [
+        {
+          "id": "HR5408_UNT_support_01-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "These rules strengthen workers’ chance to have their chosen group heard despite management’s opposition.",
+          "necessity_reason": "This route depends on the statutory continuation of the duty to bargain; the ten-day deadline alone does not keep that voice in place."
+        },
+        {
+          "id": "HR5408_UNT_support_01-P2",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Protecting continuing union relationships also supports a setting for cooperation across racial differences.",
+          "necessity_reason": "This independent route needs the union relationship to continue, which the statutory duty is said to protect."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_support_02",
+      "paths": [
+        {
+          "id": "HR5408_UNT_support_02-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Either side gains a legal route to help with a difficult conversation.",
+          "necessity_reason": "The route rests on the statutory right to request mediation and the panel structure the argument describes."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_support_03",
+      "paths": [
+        {
+          "id": "HR5408_UNT_support_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "It strengthens their route to enforceable protection from mistreatment for who they are or what they believe, and to practical acceptance of differences.",
+          "necessity_reason": "The route needs the binding process to make contract terms of this kind more reachable; the cited contracts were negotiated, not arbitrated."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_support_04",
+      "paths": [
+        {
+          "id": "HR5408_UNT_support_04-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "By providing a route through first-contract deadlock, the bill helps workers turn proposals for continuing discussion and learning into workplace rules.",
+          "necessity_reason": "The route needs the binding process to make contract terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_UNT_oppose_01-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Arbitration bypasses their existing route to withhold approval and press negotiators to answer their objections.",
+          "necessity_reason": "This route depends on an arbitrated contract taking effect without the member vote."
+        },
+        {
+          "id": "HR5408_UNT_oppose_01-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "An imposed contract containing a lawful fee clause also makes workers fund a bargaining voice they reject.",
+          "necessity_reason": "This independent route depends only on the panel’s power to impose a binding contract that contains a lawful fee clause, not on the lost vote."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_UNT_oppose_02-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Failure to agree triggers the bill's route to imposed terms even after sincere, good-faith talks.",
+          "necessity_reason": "The argument rests on the statutory rule that a failure to agree can send the dispute to a binding panel over one side’s objection."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_UNT_oppose_03-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "The bill removes the need for both sides' agreement before unfamiliar decision makers set binding terms.",
+          "necessity_reason": "The argument needs the warned possibility that a panel’s binding terms may not fit local practice."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_04",
+      "paths": [
+        {
+          "id": "HR5408_UNT_oppose_04-P1",
+          "requires": [
+            "C03"
+          ],
+          "original_excerpt": "Closing a lawful route for acting on those changed wishes gives [NAME] a reason to oppose the bill.",
+          "necessity_reason": "The argument rests on the statutory rule that the duty continues until an election removes the representative."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_01",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_01-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "The bill’s binding route to a first contract helps workers secure and enforce these safeguards sooner.",
+          "necessity_reason": "The route needs the binding process to make contract protections of this kind more reachable or earlier; the studies describe contracts already reached."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_02",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_02-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "The bill closes that route to cuts in existing health coverage, sick leave, and safety rules while workers await a deal.",
+          "necessity_reason": "The whole argument depends on the duty to maintain current terms replacing the employer’s option after impasse."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_03",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Speeding access to these contract benefits lowers a cost barrier to medical care.",
+          "necessity_reason": "The route needs the binding process to make health-benefit terms of this kind more reachable or earlier."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_04",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_04-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Bringing paid sick leave forward supports treatment and recovery and reduces exposure to infectious workers.",
+          "necessity_reason": "The route needs the binding process to make sick-leave terms of this kind more reachable or earlier."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_05",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_05-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "Bringing negotiated pay gains forward strengthens the means to afford care and healthy food, including through competition for workers.",
+          "necessity_reason": "The whole income-to-health route needs the bill’s route to raise some newly organized workers’ pay."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_06",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_06-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Faster contracts bring forward rules that protect sleep and recovery.",
+          "necessity_reason": "The route needs the binding process to make schedule and rest terms of this kind more reachable or earlier."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_07",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_07-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Quicker first contracts give workers tools to contest unhealthy demands and unfair treatment.",
+          "necessity_reason": "The route needs the binding process to make discipline and review terms of this kind more reachable or earlier."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_08",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_08-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "The bill’s binding first-contract process brings a route to patient-protecting staffing rules forward.",
+          "necessity_reason": "The route needs the binding process to make staffing terms of this kind more reachable or earlier; the Austin contract followed strikes rather than a panel."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_support_09",
+      "paths": [
+        {
+          "id": "HR5408_SEP_support_09-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Replacing unresolved first-contract disputes with binding settlement reduces a source of disruption in private hospitals.",
+          "necessity_reason": "The conclusion protects patients only if the bill’s route reduces first-contract stoppages at least somewhat."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_SEP_oppose_01-P1",
+          "requires": [
+            "C10",
+            "C11"
+          ],
+          "original_excerpt": "Bypassing approval removes workers’ final chance to block a binding contract over safety flaws they identify.",
+          "necessity_reason": "Both are required: the lost member vote is the check at issue, and the warned poor fit is what workers would use that check against."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_SEP_oppose_02-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "In arbitrated first contracts, the bill bypasses this way for workers to challenge exhausting schedules before accepting a binding contract.",
+          "necessity_reason": "The argument rests on an arbitrated contract taking effect without the member vote."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_SEP_oppose_03-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "The bill removes workers’ final chance to reject a binding deal over inadequate sick leave.",
+          "necessity_reason": "The argument rests on an arbitrated contract taking effect without the member vote."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SEP_oppose_04",
+      "paths": [
+        {
+          "id": "HR5408_SEP_oppose_04-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "Bypassing workers’ approval removes a check on binding health benefits they find inadequate.",
+          "necessity_reason": "The argument rests on an arbitrated contract taking effect without the member vote."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_support_01",
+      "paths": [
+        {
+          "id": "HR5408_SES_support_01-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Reducing first-contract stoppages protects steady production, military support needed to defend citizens, and medical care needed to protect their lives.",
+          "necessity_reason": "All national-security consequences follow only if the bill’s route reduces first-contract stoppages at least somewhat."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_support_02",
+      "paths": [
+        {
+          "id": "HR5408_SES_support_02-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Binding settlement gives newly organized care workers a route to enforceable safeguards that an employer cannot block simply by refusing to sign any contract.",
+          "necessity_reason": "The route needs the binding process to make infection-protection terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_support_03",
+      "paths": [
+        {
+          "id": "HR5408_SES_support_03-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "Making gains from first contracts attainable and protecting pay during talks helps households withstand lost income.",
+          "necessity_reason": "The income-gain route needs the bill’s route to raise some newly organized workers’ pay."
+        },
+        {
+          "id": "HR5408_SES_support_03-P2",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Making gains from first contracts attainable and protecting pay during talks helps households withstand lost income.",
+          "necessity_reason": "This independent route needs only the duty to maintain current terms, which protects existing pay during talks whether or not new gains follow."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_support_04",
+      "paths": [
+        {
+          "id": "HR5408_SES_support_04-P1",
+          "requires": [
+            "C01",
+            "C02"
+          ],
+          "original_excerpt": "The bill brings a similar planning benefit through settled, lasting terms.",
+          "necessity_reason": "The planning benefit needs both the binding two-year decision and the financial factor the argument relies on for terms tied to the business’s circumstances."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_SES_oppose_01-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "New compulsory cases compete for the resources used to prevent disruptions to power and health care.",
+          "necessity_reason": "The argument needs the statutory duties to add demand on a reduced agency before any effect on essential services can follow."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_SES_oppose_02-P1",
+          "requires": [
+            "C09"
+          ],
+          "original_excerpt": "An unaffordable award that closes a covered defense supplier threatens the supply of military parts and capabilities.",
+          "necessity_reason": "The national-defense step follows only if the bill adds a risk of binding terms a small employer cannot sustain."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_SES_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_SES_oppose_03-P1",
+          "requires": [
+            "C11"
+          ],
+          "original_excerpt": "Rules that obstruct safe work at food or medical distributors put essential deliveries at risk.",
+          "necessity_reason": "The argument needs the warned possibility that a panel’s binding rules may not fit a particular facility."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_support_01",
+      "paths": [
+        {
+          "id": "HR5408_TR_support_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill gives workers a legal claim to have the costs of supporting a family counted in binding pay decisions.",
+          "necessity_reason": "The argument rests on the statutory family-support factor; the religious sources alone do not connect to the bill."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_support_02",
+      "paths": [
+        {
+          "id": "HR5408_TR_support_02-P1",
+          "requires": [
+            "C04"
+          ],
+          "original_excerpt": "Preserving existing schedules protects worship routines.",
+          "necessity_reason": "This route depends only on the duty to maintain current terms; it does not need any new first-contract term."
+        },
+        {
+          "id": "HR5408_TR_support_02-P2",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "A binding route to first contracts strengthens workers’ means to obtain religious holiday and advance-notice rules.",
+          "necessity_reason": "This independent route needs the binding process to make schedule terms of this kind more reachable."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_support_03",
+      "paths": [
+        {
+          "id": "HR5408_TR_support_03-P1",
+          "requires": [
+            "C05"
+          ],
+          "original_excerpt": "Binding first-contract settlement strengthens workers’ route to paid parental leave.",
+          "necessity_reason": "The route needs the binding process to make leave terms of this kind more reachable; the museum contract was negotiated and ratified."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_01",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_01-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "A firmer income and membership base strengthens an organization working against a teaching [NAME]'s tradition calls on Christians to uphold in law.",
+          "necessity_reason": "The argument needs first contracts to add income supporting the union’s national work; the positions alone do not connect to the bill."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_02",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_02-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Protecting paying membership in affiliated unions supports a federation that lobbied in 2022 for a marriage policy this Christian tradition seeks to change.",
+          "necessity_reason": "The argument needs first contracts to add paying membership that reaches the federation."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_03",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_03-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Strengthening AFT's member-funded political work supports concrete efforts to change public rules away from the understanding of sex [NAME] seeks to preserve.",
+          "necessity_reason": "The argument needs first contracts to add income that supports AFT’s political work."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_04",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_04-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "Stronger AFT resources support an opponent of aid that makes Christian schooling affordable.",
+          "necessity_reason": "The argument needs first contracts to add income that supports AFT’s political work."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_06",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_06-P1",
+          "requires": [
+            "C13"
+          ],
+          "original_excerpt": "To the extent AFT maintains that pledge, strengthening it supports opposition to protection for practicing inherited Christian beliefs while serving others.",
+          "necessity_reason": "The argument needs first contracts to add income that supports AFT’s political work."
+        }
+      ]
+    },
+    {
+      "point_id": "HR5408_TR_oppose_07",
+      "paths": [
+        {
+          "id": "HR5408_TR_oppose_07-P1",
+          "requires": [
+            "C10"
+          ],
+          "original_excerpt": "The bill removes their collective vote as a way to keep shared health coverage in line with inherited Christian teaching.",
+          "necessity_reason": "The argument rests on an arbitrated contract taking effect without the member vote."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "HR5408_UNN_support_01",
+      "reason": "Plain-language rewrite and gloss of contract terms; quotes, citations and stated limits unchanged. Response’s “None names pollution oversight” removed from the factor sentence because absence of an earmark is not itself the defect; legal scope remains the challenged step."
+    },
+    {
+      "point_id": "HR5408_UNN_oppose_02",
+      "reason": "Plain-language rewrite. Response lead changed from “adds little”, which reads as a size claim, to the legal-scope step actually challenged; the evidence and unanswered branches are unchanged."
+    },
+    {
+      "point_id": "HR5408_UNC_support_01",
+      "reason": "Plain-language rewrite; “the process above” replaced by a self-contained statement because the Main effect heading is retired. Response lead narrowed from a general question about “how quickly and usefully” to the documented constraint and the step it challenges; evidence and limits unchanged."
+    },
+    {
+      "point_id": "HR5408_UNC_support_02",
+      "reason": "CON removed (no point-specific response remains). Original CON targeted baseline facts (first-year protection and the 45-day option) and said the argument gave no reason for fairness, while conceding an election is fair; UNC_oppose_09’s response relies on packet sources calling an election the preferred method and protective of a private choice, so the “no reason” defect is not genuine. Validity qualification on the 45-day option added to support with citation; first-year protection moved to strength. Original CON retained in output/consistency_screen.json."
+    },
+    {
+      "point_id": "HR5408_UNC_support_14",
+      "reason": "Plain-language rewrite; “as set out above” replaced because the Main effect heading is retired. Response’s conclusion now states the actual defect (a legal difference, the stop rule) so it does not read as a demand for a bill-specific estimate. Shared objection also recorded on C08."
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_04",
+      "reason": "Plain-language rewrite. Response’s “it offers no example of such an award” removed because a named case is not required; the retained defect is contrary evidence on the outsider step. Added the existing Canadian-practice limit from the original note so the response states its own scope. Shared objection also recorded on C09."
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_05",
+      "reason": "Plain-language rewrite. Factual correction in the response: the Connecticut 250-employee description is now reported alongside FMCS’s own 250/1,000 limit from the same page’s budget source, with attribution for each; the inference is unchanged."
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_06",
+      "reason": "Plain-language rewrite. Removed “gives no example” so the response does not demand a named case; the retained defect is a necessary step resting only on an unsupported prediction, within the legal scope of unfilled seats."
+    },
+    {
+      "point_id": "HR5408_UNC_oppose_07",
+      "reason": "Plain-language rewrite. Canadian settlement bullet (“it is common for the parties to settle…”, “reduce the time and cost of arbitration”) moved from response to strength because it concerns how much cost arises, not a defect. Response lead changed from “overstate” to the legal-scope step; remaining legal authorities, quotes and limits unchanged."
+    },
+    {
+      "point_id": "HR5408_UNT_support_02",
+      "reason": "Plain-language rewrite. Response narrowed: the “mediation already exists” baseline and the FMCS mediator count, which the original said limit “how much” help, moved to strength as baseline/size facts; the retained objection is the Tolerance inference from settlement to mutual understanding, with the mediation step now stated as unanswered."
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_01",
+      "reason": "Plain-language rewrite. Response narrowed to the Tolerance inference from less control to less listening; added an explicit statement of what it does not answer, so continuing feedback and speech rights are not read as a baseline rebuttal of the lost vote."
+    },
+    {
+      "point_id": "HR5408_UNT_oppose_02",
+      "reason": "Plain-language rewrite. Added the study’s stop-rule limit to the response so it is treated the same way the study is treated in UNC_support_14, SES_support_01 and SEP_support_09; the limit comes from this point’s original note."
+    },
+    {
+      "point_id": "HR5408_SEP_support_09",
+      "reason": "Plain-language rewrite. Response lead changed from “does not establish the claimed reduction” to the scope and legal differences actually challenged, so it does not read as a demand for a hospital-specific or bill-specific estimate. Shared objection also recorded on C08."
+    },
+    {
+      "point_id": "HR5408_SES_support_01",
+      "reason": "Plain-language rewrite. Response lead changed from “how much this bill would reduce”, a size framing, to the legal difference and case-scope defects actually challenged; evidence and unanswered branch unchanged. Shared objection also recorded on C08."
+    },
+    {
+      "point_id": "HR5408_SES_support_04",
+      "reason": "Plain-language rewrite. Response’s final “fails” softened to “lacks support”, which matches the unsupported-step defect it shows; evidence unchanged."
+    },
+    {
+      "point_id": "HR5408_SES_oppose_01",
+      "reason": "Plain-language rewrite. Response narrowed to the displacement step: the “already handles first-contract cases” baseline bullet moved to strength. Added the study’s stop-rule limit so Johnson is treated consistently with UNC_support_14, SES_support_01 and SEP_support_09. Date added to McFerran attribution because the source addresses the earlier proposal."
+    },
+    {
+      "point_id": "HR5408_SES_oppose_02",
+      "reason": "Plain-language rewrite. “Under the rule above” replaced with a self-contained statement because the Main effect heading is retired; response wording, evidence and limit are otherwise unchanged. Shared objection also recorded on C09. Classified both only for the replaced legal reference."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

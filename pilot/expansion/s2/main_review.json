@@ -1,0 +1,1969 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "b7bd0c6906cb8cc66a505dee16069e621f30d40efdfcdcc3b882de89fcce1ebd",
+  "accepted_retirements": [
+    "S2_SES_oppose_02",
+    "S2_UNT_support_06"
+  ],
+  "decisions": "Inspected all worker merges, route passages and 32 substantive edits. Separated HSI work assignments and three street practices; removed the unsupported Tolerance camera bridge and isolated custody/Societal relabeling. Local conditional environmental benefits and the attributed surveillance forecast do not require stronger shared votes. Specific harm and allocation bridges remain local.",
+  "source_context_read": "Bill spending limits and baseline-law passages; HSI reassignment reports and advocacy accounts; Interior/Forest Service observations; GAO scanner constraints; drug replacement and crime null evidence; May 2026 tactics reports; Brennan forecast; warehouse water constraints and injunction. Sources were targeted passages, not a full new evidence review.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "judgment",
+      "users": [
+        "S2_SEP_support_05",
+        "S2_SES_support_07",
+        "S2_UNC_support_03"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C02",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_UNN_support_01",
+        "S2_UNN_support_02",
+        "S2_UNN_support_03",
+        "S2_UNN_support_04"
+      ],
+      "decision": "The original arguments claim local or conditional protection, not a net reduction across all wild land. The two historical observations are sourced context; displacement and faster interception remain local inferences rather than one stronger shared test."
+    },
+    {
+      "id": "C03",
+      "classification": "judgment",
+      "users": [
+        "S2_SEP_support_01",
+        "S2_SES_support_04",
+        "S2_TR_support_06"
+      ],
+      "decision": "Substantive objection: GAO and the DHS inspector general report limits on the use of existing scanners. All three arguments need added scanning that is really used."
+    },
+    {
+      "id": "C04",
+      "classification": "judgment",
+      "users": [
+        "S2_SEP_support_01",
+        "S2_SES_support_04",
+        "S2_TR_support_06",
+        "S2_UNC_support_06"
+      ],
+      "decision": "Substantive objection: drug-policy researchers argue that traffickers cheaply replace seized fentanyl. This same step carries health and family arguments."
+    },
+    {
+      "id": "C05",
+      "classification": "judgment",
+      "users": [
+        "S2_SEP_support_03",
+        "S2_SES_support_05",
+        "S2_UNC_support_07"
+      ],
+      "decision": "Substantive objection: published studies of similar programs found no measured effect on overall crime or violent victimization. The same step carries three arguments."
+    },
+    {
+      "id": "C06",
+      "classification": "judgment",
+      "users": [
+        "S2_UNC_oppose_02",
+        "S2_UNT_oppose_01"
+      ],
+      "decision": "Reports of changed tactics bear on this precise continuation premise. Other practices receive separate judgments."
+    },
+    {
+      "id": "C07",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SEP_oppose_04",
+        "S2_SES_oppose_04"
+      ],
+      "decision": "The response narrows the public-profile or mask route but explicitly leaves the FBI’s enforcement-volume link unanswered. It therefore does not dispute the shared modest opportunity claim. The narrower local responses stay visible."
+    },
+    {
+      "id": "C08",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SES_oppose_06",
+        "S2_UNC_oppose_09",
+        "S2_UNT_oppose_06"
+      ],
+      "decision": "The shared passage is an attributed forecast. Broader spending eligibility and the lack of a named project do not rebut that modest forecast. The different local bridges to unfair use or intimidation remain in each argument and its response."
+    },
+    {
+      "id": "C09",
+      "classification": "judgment",
+      "users": [
+        "S2_SES_oppose_10",
+        "S2_UNN_oppose_04"
+      ],
+      "decision": "Substantive objection: a city’s water lock, a court order and permit requirements stand between the money and unsafe operation. Both arguments rely on the same step from different local evidence."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_TR_oppose_01",
+        "S2_UNC_oppose_05",
+        "S2_UNT_oppose_02"
+      ],
+      "decision": "Adequately sourced and not challenged on this point. No response disputes that separation happens. The response in S2_UNT_oppose_02 challenges the later step about tolerance."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SEP_oppose_02",
+        "S2_UNC_oppose_04"
+      ],
+      "decision": "Attributed, sourced and not challenged in any response. Keeps Human Rights Watch’s attribution, place and year."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SEP_oppose_06",
+        "S2_SES_oppose_09"
+      ],
+      "decision": "Sourced by surveys and health groups, and not challenged by any response. Self-reported, with no bill-specific estimate."
+    },
+    {
+      "id": "C13",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SES_oppose_08",
+        "S2_UNC_oppose_10"
+      ],
+      "decision": "Attributed source statement. No response challenges this general link. The original response in S2_UNC_oppose_10 said it did not answer this link."
+    },
+    {
+      "id": "C14",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SES_oppose_01",
+        "S2_UNC_oppose_04"
+      ],
+      "decision": "Bill text plus an attributed description; not challenged. Whether this weakens Congress’s power to demand changes stays local to each argument."
+    },
+    {
+      "id": "C16",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SEP_support_09",
+        "S2_SES_support_14",
+        "S2_UNC_support_10"
+      ],
+      "decision": "Directly sourced from CBP accounts and not challenged. No added rescues from S.2 are identified."
+    },
+    {
+      "id": "C17",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "S2_SEP_oppose_03",
+        "S2_SEP_support_04",
+        "S2_SES_oppose_03",
+        "S2_SES_support_05",
+        "S2_UNT_oppose_03"
+      ],
+      "decision": "Directly sourced from ICE and from a description of the program. It is reused with different results by arguments on both sides, so it is context, not a vote."
+    },
+    {
+      "id": "C18",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_support_02",
+        "S2_SEP_support_05",
+        "S2_SEP_support_06",
+        "S2_SES_support_06",
+        "S2_SES_support_07",
+        "S2_SES_support_09",
+        "S2_SES_support_10",
+        "S2_SES_support_11",
+        "S2_SES_support_12",
+        "S2_SES_support_13",
+        "S2_UNC_support_02",
+        "S2_UNC_support_03",
+        "S2_UNC_support_04",
+        "S2_UNC_support_05",
+        "S2_UNC_support_08",
+        "S2_UNC_support_09",
+        "S2_UNT_support_01",
+        "S2_UNT_support_02",
+        "S2_UNT_support_03",
+        "S2_UNT_support_04"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C19",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SES_support_08",
+        "S2_UNC_support_01"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C20",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_support_08",
+        "S2_SES_support_01",
+        "S2_UNC_support_10",
+        "S2_UNN_support_05",
+        "S2_UNN_support_07",
+        "S2_UNT_support_05"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C21",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_support_09",
+        "S2_SES_support_02",
+        "S2_SES_support_14",
+        "S2_UNC_support_10",
+        "S2_UNN_oppose_07",
+        "S2_UNN_support_08",
+        "S2_UNN_support_09"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C22",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_support_01",
+        "S2_SES_support_04",
+        "S2_TR_support_06",
+        "S2_UNC_support_06"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C23",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_support_07",
+        "S2_UNN_oppose_05",
+        "S2_UNN_oppose_06",
+        "S2_UNN_support_01",
+        "S2_UNN_support_03",
+        "S2_UNN_support_04",
+        "S2_UNN_support_06",
+        "S2_UNT_oppose_01"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C24",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_oppose_01",
+        "S2_SEP_support_03",
+        "S2_SES_oppose_05",
+        "S2_SES_support_05",
+        "S2_UNC_oppose_02",
+        "S2_UNC_oppose_05",
+        "S2_UNC_support_07",
+        "S2_UNN_oppose_06",
+        "S2_UNT_support_01"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C25",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_oppose_05",
+        "S2_SEP_support_03",
+        "S2_SES_oppose_08",
+        "S2_SES_support_05",
+        "S2_TR_oppose_01",
+        "S2_TR_oppose_03",
+        "S2_TR_oppose_07",
+        "S2_UNC_oppose_10",
+        "S2_UNC_support_07",
+        "S2_UNN_oppose_01",
+        "S2_UNT_oppose_02"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C26",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_oppose_02",
+        "S2_SEP_oppose_07",
+        "S2_SES_oppose_10",
+        "S2_TR_oppose_05",
+        "S2_UNC_oppose_01",
+        "S2_UNC_oppose_04",
+        "S2_UNC_oppose_07",
+        "S2_UNC_support_12",
+        "S2_UNN_oppose_02",
+        "S2_UNN_oppose_03",
+        "S2_UNN_oppose_04",
+        "S2_UNT_oppose_05",
+        "S2_UNT_oppose_07"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C27",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_UNC_oppose_01",
+        "S2_UNT_oppose_02"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C28",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_UNC_oppose_03",
+        "S2_UNT_oppose_04"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C29",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SES_support_02",
+        "S2_UNN_support_02"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C30",
+      "classification": "verified_statutory_background",
+      "users": [
+        "S2_SEP_oppose_03",
+        "S2_SEP_support_04",
+        "S2_SES_oppose_03",
+        "S2_SES_support_05",
+        "S2_UNC_oppose_02",
+        "S2_UNT_oppose_03"
+      ],
+      "decision": "Direct statutory text, verified against the bill."
+    },
+    {
+      "id": "C31",
+      "classification": "judgment",
+      "users": [
+        "S2_SES_support_06",
+        "S2_UNC_support_08"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C32",
+      "classification": "judgment",
+      "users": [
+        "S2_SES_support_10",
+        "S2_UNC_support_04"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C33",
+      "classification": "judgment",
+      "users": [
+        "S2_SES_support_11",
+        "S2_UNC_support_09"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C34",
+      "classification": "judgment",
+      "users": [
+        "S2_UNC_support_05",
+        "S2_UNT_support_01"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C35",
+      "classification": "judgment",
+      "users": [
+        "S2_UNT_support_03",
+        "S2_UNT_support_04",
+        "S2_UNC_support_03"
+      ],
+      "decision": "The reported reassignment of existing HSI staff is a concrete challenge to this assignment step. The legal spending limit cuts the other way. Reports do not show where new hires would work. Other HSI assignments are separate propositions."
+    },
+    {
+      "id": "C36",
+      "classification": "judgment",
+      "users": [
+        "S2_SEP_oppose_01",
+        "S2_SES_oppose_01",
+        "S2_UNC_oppose_08",
+        "S2_UNT_oppose_05"
+      ],
+      "decision": "Reports of changed tactics bear on this precise continuation premise. Other practices receive separate judgments."
+    },
+    {
+      "id": "C37",
+      "classification": "judgment",
+      "users": [
+        "S2_SES_oppose_07",
+        "S2_UNC_oppose_06"
+      ],
+      "decision": "Reports of changed tactics bear on this precise continuation premise. Other practices receive separate judgments."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "S2_UNN_support_01",
+      "paths": [
+        {
+          "id": "S2_UNN_support_01-P1",
+          "requires": [
+            "C02",
+            "C23"
+          ],
+          "original_excerpt": "Section 201's staffing and section 103's surveillance funds support patrols of the kind Interior credits with these local reductions. Where added patrols cut crossings through wild areas, they can reduce this pollution. Protecting wildlife water serves [NAME]'s care for nature.",
+          "necessity_reason": "Less pollution of wildlife water needs funded patrols that reduce traffic near that water, not only move it."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_02",
+      "paths": [
+        {
+          "id": "S2_UNN_support_02-P1",
+          "requires": [
+            "C02",
+            "C29"
+          ],
+          "original_excerpt": "Funding staff and faster detection strengthens the ability to stop damaging traffic and fence damage. That protects plants, wildlife habitat, and soil from destruction, which [NAME] values.",
+          "necessity_reason": "Faster interception protects habitat only if funded surveillance reduces damaging traffic overall."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_03",
+      "paths": [
+        {
+          "id": "S2_UNN_support_03-P1",
+          "requires": [
+            "C02",
+            "C23"
+          ],
+          "original_excerpt": "Added staffing and surveillance support interception of this traffic. Less unlawful travel through parks and refuges can reduce one route by which harmful species spread there. Reducing such introductions is a way to protect nature.",
+          "necessity_reason": "Fewer introduced species through this route needs less unlawful travel through parks and refuges."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_04",
+      "paths": [
+        {
+          "id": "S2_UNN_support_04-P1",
+          "requires": [
+            "C02",
+            "C23"
+          ],
+          "original_excerpt": "Supporting interception before people travel and camp through natural areas strengthens prevention of these ignitions. Avoiding fires that destroy nature gives [NAME] another reason to favor S.2.",
+          "necessity_reason": "Fewer abandoned campfires needs fewer people traveling and camping in wild areas, not only moved traffic."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_05",
+      "paths": [
+        {
+          "id": "S2_UNN_support_05-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "S.2 supports staff who detect fires and bring in the crews needed to control them. This strengthens protection of natural areas from spreading fire.",
+          "necessity_reason": "The fire-warning benefit reaches S.2 through Section 101 staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_06",
+      "paths": [
+        {
+          "id": "S2_UNN_support_06-P1",
+          "requires": [
+            "C23"
+          ],
+          "original_excerpt": "S.2 supports the border-enforcement side of this division of work. Preserving land officers' time for protecting natural resources serves [NAME]'s care for nature.",
+          "necessity_reason": "The argument assigns added immigration work to Section 201 staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_07",
+      "paths": [
+        {
+          "id": "S2_UNN_support_07-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Section 101's support for duties outside immigration and customs enforcement backs staff who help secure these work areas. Enabling people to carry out this care for vegetation supports the active defense of nature that [NAME] values.",
+          "necessity_reason": "The planned-burn benefit reaches S.2 through Section 101 staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_08",
+      "paths": [
+        {
+          "id": "S2_UNN_support_08-P1",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "S.2 funds equipment used in this work. Strengthening the ability to stop illegal fishing protects marine life and serves [NAME]'s concern for nature.",
+          "necessity_reason": "The benefit reaches S.2 through Section 103 aircraft and boat money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_support_09",
+      "paths": [
+        {
+          "id": "S2_UNN_support_09-P1",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "S.2's platform funds add to the fleet whose crews have been called on for this support. The use is occasional and depends on which aircraft are bought, but it can add to the capacity to coordinate pollution cleanup. Helping contain oil pollution serves [NAME]'s aim of protecting nature.",
+          "necessity_reason": "The benefit reaches S.2 through Section 103 aircraft money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_01-P1",
+          "requires": [
+            "C25"
+          ],
+          "original_excerpt": "Added transport funding supports flights with both kinds of pollution. [NAME]'s wish to protect the environment from pollution gives a reason to oppose that support.",
+          "necessity_reason": "Flight pollution reaches S.2 through Section 202 transport money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_02-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "S.2 gives ICE more resources to run facilities with this effect. The disturbance at this already-cleared site is small, but protecting wildlife still gives [NAME] a reason to oppose that added support.",
+          "necessity_reason": "The site effect reaches S.2 through money to keep enforcement facilities running."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_03",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_03-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "Added money for these facilities and vehicle fleets supports activities that emit air pollution. [NAME]'s wish to prevent pollution gives a reason to oppose it.",
+          "necessity_reason": "The emissions reach S.2 through facility and vehicle money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_04",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_04-P1",
+          "requires": [
+            "C09",
+            "C26"
+          ],
+          "original_excerpt": "More operating money supports a detention network pursuing warehouse conversions with documented sewage risks, as Social Circle's plans show. Protecting land, water, and the wildlife that depends on them gives [NAME] a reason to oppose that support.",
+          "necessity_reason": "Pollution risk needs operating money that adds to the risk from planned warehouse sites."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_05",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_05-P1",
+          "requires": [
+            "C23"
+          ],
+          "original_excerpt": "Extra money for these patrols supports off-road driving that damages soil, plants, and habitat. Protecting wild places gives [NAME] a reason to oppose it.",
+          "necessity_reason": "The patrol harm reaches S.2 through Section 201 staffing money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_06",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_06-P1",
+          "requires": [
+            "C23",
+            "C24"
+          ],
+          "original_excerpt": "More capacity to arrest and remove these workers puts time-sensitive forest care at risk. Protecting forests gives [NAME] a reason to oppose that added capacity.",
+          "necessity_reason": "The risk to crews reaches S.2 through enforcement staff money in both sections."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNN_oppose_07",
+      "paths": [
+        {
+          "id": "S2_UNN_oppose_07-P1",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "S.2's platform money can enlarge or upgrade the aerial fleet whose drones have been lent for monitoring environmental defenders, although the bill does not specify drones. The added risk of deterring their participation gives [NAME], who values taking part in defending nature, a reason to oppose it.",
+          "necessity_reason": "The drone concern reaches S.2 only through Section 103 platform money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_01",
+      "paths": [
+        {
+          "id": "S2_UNC_support_01-P1",
+          "requires": [
+            "C19"
+          ],
+          "original_excerpt": "More investigators, analysts and trained police strengthen the work of finding these children and helping them escape abuse. Protecting children who cannot secure their own safety serves [NAME]'s concern for vulnerable people and their chance of a safe childhood.",
+          "necessity_reason": "The rescue benefit comes from the reserved child exploitation money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_02",
+      "paths": [
+        {
+          "id": "S2_UNC_support_02-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "S.2's general HSI funds can help sustain or expand this teaching, although the bill does not direct money to it. The teaching gives families tools to spot danger and seek help before abuse takes hold. Helping children protect themselves serves [NAME]'s concern for vulnerable people.",
+          "necessity_reason": "More teaching needs general HSI money to reach agents’ time for this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_03",
+      "paths": [
+        {
+          "id": "S2_UNC_support_03-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "More resources for investigations and victim support strengthen both escape from coercion and help afterward. Freedom from forced sex and work, access to help, and justice against abusers serve [NAME]'s concern for vulnerable people and equal opportunities.",
+          "necessity_reason": "Added investigations and survivor help need general HSI money to reach this work."
+        },
+        {
+          "id": "S2_UNC_support_03-P2",
+          "requires": [
+            "C35"
+          ],
+          "original_excerpt": "HSI's victim program",
+          "necessity_reason": "Victim assistance is a separate benefit from successful trafficking investigations. It requires staff support for services, not acceptance of the investigation-assignment claim."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_04",
+      "paths": [
+        {
+          "id": "S2_UNC_support_04-P1",
+          "requires": [
+            "C32"
+          ],
+          "original_excerpt": "More capacity to investigate these scams, secure convictions and seize criminals' proceeds strengthens protection against financial exploitation. [NAME] has a reason to protect victims' resources and seek justice for them, including strangers targeted because of age or trust.",
+          "necessity_reason": "More scam cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_05",
+      "paths": [
+        {
+          "id": "S2_UNC_support_05-P1",
+          "requires": [
+            "C34"
+          ],
+          "original_excerpt": "Resources for investigating and prosecuting these crimes strengthen efforts to hold abusers accountable. [NAME]'s concern for justice extends to victims abroad, including people [NAME] has never met.",
+          "necessity_reason": "More atrocity cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_06",
+      "paths": [
+        {
+          "id": "S2_UNC_support_06-P1",
+          "requires": [
+            "C04",
+            "C22"
+          ],
+          "original_excerpt": "Finding and intercepting these drugs keeps seized supplies from reaching people. More resources for that work strengthen protection for people at risk of overdose, whose lives matter to [NAME].",
+          "necessity_reason": "Protection from overdoses needs Section 103 work that reduces the drugs reaching people."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_07",
+      "paths": [
+        {
+          "id": "S2_UNC_support_07-P1",
+          "requires": [
+            "C05",
+            "C24",
+            "C25"
+          ],
+          "original_excerpt": "Added staff and transport resources support taking convicted violent offenders into custody after prison release. Custody limits their access to potential victims in the community, giving [NAME] a reason to support protection against further attacks.",
+          "necessity_reason": "Protection needs funded staff and transport that add custody of violent offenders and reduce violence."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_08",
+      "paths": [
+        {
+          "id": "S2_UNC_support_08-P1",
+          "requires": [
+            "C31"
+          ],
+          "original_excerpt": "Resources for investigating and disrupting terrorist threats strengthen protection for people exposed to violence. [NAME]'s concern includes potential victims who are strangers.",
+          "necessity_reason": "More terrorism cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_09",
+      "paths": [
+        {
+          "id": "S2_UNC_support_09-P1",
+          "requires": [
+            "C33"
+          ],
+          "original_excerpt": "Resources to stop attacks on hospitals, utilities and emergency services protect people who depend on those services for safety and care. This serves [NAME]'s concern for people least able to protect themselves during an emergency.",
+          "necessity_reason": "More cyber protection needs general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_10",
+      "paths": [
+        {
+          "id": "S2_UNC_support_10-P1",
+          "requires": [
+            "C16",
+            "C21"
+          ],
+          "original_excerpt": "Section 103 funds “new platforms for rapid air and marine response capabilities” [1].",
+          "necessity_reason": "Air-response route: Section 103 aircraft and boats are used by crews that perform rescues."
+        },
+        {
+          "id": "S2_UNC_support_10-P2",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Section 101 funds Border Patrol personnel for “functions other than immigration enforcement and customs functions.” [1].",
+          "necessity_reason": "Personnel route: Section 101 pays for Border Patrol staff who give rescue care."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_11",
+      "paths": [
+        {
+          "id": "S2_UNC_support_11-P1",
+          "requires": [],
+          "original_excerpt": "Added resources for camera use support evidence about how officers treat people. Evidence for reviewing disputed encounters serves [NAME]'s concern that people facing government power be treated justly.",
+          "necessity_reason": "The argument relies on the camera funding and on the recordings being reviewable."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_12",
+      "paths": [
+        {
+          "id": "S2_UNC_support_12-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "More resources available to staff and run custody health services support care for people who depend on the government for treatment. Protecting people in this dependent position serves [NAME]'s concern for vulnerable people regardless of nationality.",
+          "necessity_reason": "Custody health care reaches S.2 through the operating money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_support_13",
+      "paths": [
+        {
+          "id": "S2_UNC_support_13-P1",
+          "requires": [],
+          "original_excerpt": "Resources for protective equipment and safety training support safer work. Providing protection against known job hazards is part of treating workers justly, which gives [NAME] a reason to favor this funding too.",
+          "necessity_reason": "Local route: the bill’s train-and-equip money pays for protection of staff. No shared premise carries it."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_01-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "The strategy being funded already includes “locking up immigrants who pose no public safety threat” [18].",
+          "necessity_reason": "Capacity route: operating money adds to custody under a strategy that reaches people who pose no safety threat."
+        },
+        {
+          "id": "S2_UNC_oppose_01-P2",
+          "requires": [
+            "C27"
+          ],
+          "original_excerpt": "For this pool, the bill rules out spending on release or alternatives such as check-ins, except when existing law requires it",
+          "necessity_reason": "Spending-limit route: the targeted fund cannot pay for release except as existing law requires."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_02-P1",
+          "requires": [
+            "C06",
+            "C24",
+            "C30"
+          ],
+          "original_excerpt": "More staff and a wider enforcement network extend the reach of an operation with documented race-based stops. Exposure to detention because of someone's background conflicts with equal opportunities and just treatment.",
+          "necessity_reason": "The race-based harm depends on added staff and agreements carrying the earlier tactics forward."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_03-P1",
+          "requires": [
+            "C28"
+          ],
+          "original_excerpt": "A person unable to reach a lawyer has less chance to challenge the government's case. Increasing removal capacity in a system with these barriers increases exposure to removal without a fair chance to defend oneself. Concern for just treatment extends to these strangers.",
+          "necessity_reason": "The argument reaches S.2 through the added government lawyers."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_04-P1",
+          "requires": [
+            "C11",
+            "C26"
+          ],
+          "original_excerpt": "The bill sustains a system with these hazards",
+          "necessity_reason": "Sustaining route: facility money continues custody where these dangers were documented."
+        },
+        {
+          "id": "S2_UNC_oppose_04-P2",
+          "requires": [
+            "C11",
+            "C14"
+          ],
+          "original_excerpt": "That makes withholding a future year's operating funds a weaker tool for demanding safer conditions.",
+          "necessity_reason": "Oversight route: multi-year money weakens the yearly tool for demanding safer conditions."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_05",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_05-P1",
+          "requires": [
+            "C10",
+            "C24"
+          ],
+          "original_excerpt": "Paying for more arrests, detention and removals increases exposure to the loss of daily parental care, including for infants who need it urgently. Protecting dependent children gives [NAME] a reason to oppose that expansion.",
+          "necessity_reason": "Separation reaches S.2 through added arrest and removal staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_06",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_06-P1",
+          "requires": [
+            "C37"
+          ],
+          "original_excerpt": "Senator Smith described help needed during Minnesota's enforcement operation",
+          "necessity_reason": "Operations route: the food, medicine and school harms come from operations using these tactics."
+        },
+        {
+          "id": "S2_UNC_oppose_06-P2",
+          "requires": [],
+          "original_excerpt": "A research review reports that “negative academic impacts following immigration enforcement actions extended to U.S.-born students with U.S.-born parents.” [29]",
+          "necessity_reason": "Research route: the review links enforcement actions to school harm, without relying on the earlier street tactics."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_07",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_07-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "S.2's operating money would fund operations under which such entries could resume after the review, and it adds no condition requiring a judge's approval. Protecting people from unchecked entry into their homes is part of treating strangers justly, so that risk gives [NAME] a reason to oppose the funding.",
+          "necessity_reason": "The risk reaches S.2 through operating money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_08",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_08-P1",
+          "requires": [
+            "C36"
+          ],
+          "original_excerpt": "More funding without the needed reforms extends the risk of injury, death and unjust detention to people caught in enforcement operations and those peacefully helping or defending others. Protecting them and treating peaceful advocacy justly gives [NAME] a reason to oppose it.",
+          "necessity_reason": "Added violence depends on the earlier tactics continuing in added operations."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_09",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_09-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "This adds capacity to collect people's information without distinguishing those involved in wrongdoing from everyone else. Just treatment gives [NAME] a reason to oppose exposing strangers to that intrusion and scrutiny.",
+          "necessity_reason": "The justice objection depends on the money adding to broad collection."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNC_oppose_10",
+      "paths": [
+        {
+          "id": "S2_UNC_oppose_10-P1",
+          "requires": [
+            "C13",
+            "C25"
+          ],
+          "original_excerpt": "Funding further removals threatens jobs and earnings beyond those of the people removed. Lost pay makes basic needs harder to meet for families with little money. Protecting their livelihoods and chances in life gives [NAME] a reason to oppose the added removal funding.",
+          "necessity_reason": "Job harm needs the general economic link and added removal money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_support_01",
+      "paths": [
+        {
+          "id": "S2_UNT_support_01-P1",
+          "requires": [
+            "C34"
+          ],
+          "original_excerpt": "Section 102 adds resources for criminal human rights investigations",
+          "necessity_reason": "Criminal route: general Section 102 money must reach human rights investigations."
+        },
+        {
+          "id": "S2_UNT_support_01-P2",
+          "requires": [
+            "C24"
+          ],
+          "original_excerpt": "section 202 adds resources for immigration cases against persecutors",
+          "necessity_reason": "Immigration-case route: Section 202 staff handle immigration cases against persecutors, without Section 102."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_support_02",
+      "paths": [
+        {
+          "id": "S2_UNT_support_02-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "Section 102 adds resources for investigators whose existing work includes countering these threats. Protecting critics from coercion defends their ability to hold and express views others reject. [NAME]'s acceptance of people despite disagreement gives a reason to support that protection.",
+          "necessity_reason": "Protection needs general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_support_03",
+      "paths": [
+        {
+          "id": "S2_UNT_support_03-P1",
+          "requires": [
+            "C35"
+          ],
+          "original_excerpt": "Section 102 supports staff and services that help people explain experiences across differences in language and culture. Funding that work directly serves [NAME]'s wish to listen to and understand people who are different.",
+          "necessity_reason": "Listening services need general HSI money to reach these staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_support_04",
+      "paths": [
+        {
+          "id": "S2_UNT_support_04-P1",
+          "requires": [
+            "C35"
+          ],
+          "original_excerpt": "Section 102 supports help for victims in HSI cases across differences in immigration status. Treating these people as worthy of care puts acceptance into practice, including when someone disagrees with their entry or stay. [NAME]'s tolerance gives a reason to fund that help.",
+          "necessity_reason": "Victim help needs general HSI money to reach these staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_support_05",
+      "paths": [
+        {
+          "id": "S2_UNT_support_05-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Section 101 adds resources for personnel whose work includes these rescues. Helping people across nationality and immigration status treats them as people worth protecting. That gives [NAME] a reason to support the funding.",
+          "necessity_reason": "The rescue benefit reaches S.2 through Section 101 staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_01-P1",
+          "requires": [
+            "C06",
+            "C23"
+          ],
+          "original_excerpt": "Accepting different ethnic and national groups gives [NAME] a reason to oppose added support for treating their background as grounds for suspicion.",
+          "necessity_reason": "Added ethnic targeting depends on the earlier tactics continuing in Section 201 operations."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_02-P1",
+          "requires": [
+            "C10",
+            "C25"
+          ],
+          "original_excerpt": "The added deportation funding",
+          "necessity_reason": "Removal route: added removal money adds to family separation."
+        },
+        {
+          "id": "S2_UNT_oppose_02-P2",
+          "requires": [
+            "C27"
+          ],
+          "original_excerpt": "the arrest fund's preference for custody",
+          "necessity_reason": "Custody route: the targeted fund cannot pay for release except as existing law requires."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_03-P1",
+          "requires": [
+            "C17",
+            "C30"
+          ],
+          "original_excerpt": "[NAME]'s wish to listen to and understand different people gives a reason to oppose this added barrier to everyday contact.",
+          "necessity_reason": "The barrier depends on which local police role the agreements create."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_04",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_04-P1",
+          "requires": [
+            "C28"
+          ],
+          "original_excerpt": "[NAME]'s wish to hear and understand those people gives a reason to oppose that spending priority.",
+          "necessity_reason": "The priority argument reaches S.2 through added government lawyers."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_05",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_05-P1",
+          "requires": [
+            "C36",
+            "C26"
+          ],
+          "original_excerpt": "Accepting people who disagree gives [NAME] a reason to oppose added support for that intimidation.",
+          "necessity_reason": "Added intimidation depends on the earlier tactics continuing in funded operations."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_06",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_06-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "[NAME]'s acceptance of disagreement gives a reason to oppose extending this pressure on peaceful expression.",
+          "necessity_reason": "Pressure on critics needs the money to add to broad collection first."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_UNT_oppose_07",
+      "paths": [
+        {
+          "id": "S2_UNT_oppose_07-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "Accepting different religious groups gives [NAME] a reason to oppose added funding for holding people under conditions that block their faith.",
+          "necessity_reason": "The worship barrier reaches S.2 through facility money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_01",
+      "paths": [
+        {
+          "id": "S2_SEP_support_01-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C22"
+          ],
+          "original_excerpt": "Finding and seizing concealed drug loads keeps those drugs out of circulation. Funding more of this work strengthens protection against a poison in the U.S. drug supply, serving [NAME]'s wish to protect their health.",
+          "necessity_reason": "Health protection needs usable added scanning and fewer drugs reaching people."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_02",
+      "paths": [
+        {
+          "id": "S2_SEP_support_02-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "Added funding supports finding these sellers and removing their poisoned pills from sale. That protects people seeking medicine, giving [NAME] a health reason to favor this added capacity.",
+          "necessity_reason": "More cases against fake pharmacies need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_03",
+      "paths": [
+        {
+          "id": "S2_SEP_support_03-P1",
+          "requires": [
+            "C05",
+            "C24",
+            "C25"
+          ],
+          "original_excerpt": "Holding convicted violent offenders after prison release, and carrying out their removal, separates them from people they could attack here. Added funding for staff and transport backs that protection for U.S. residents such as [NAME].",
+          "necessity_reason": "Protection needs funded staff and transport that add custody of violent offenders and reduce violence."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_04",
+      "paths": [
+        {
+          "id": "S2_SEP_support_04-P1",
+          "requires": [
+            "C17",
+            "C30"
+          ],
+          "original_excerpt": "Funding these partnerships supports more arrests in controlled settings. Keeping those confrontations out of public places protects nearby residents, giving [NAME] a separate reason grounded in personal safety.",
+          "necessity_reason": "Safer arrests depend on which kind of agreement grows."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_05",
+      "paths": [
+        {
+          "id": "S2_SEP_support_05-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Added funding supports identifying violent exploitation and bringing victims into protection and care. Protection against abuse through everyday work and relationships serves the personal safety [NAME] values.",
+          "necessity_reason": "Protection needs general HSI money to reach trafficking work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_06",
+      "paths": [
+        {
+          "id": "S2_SEP_support_06-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "Section 102 funds HSI agents “to hire, pay, train, and equip” [1].",
+          "necessity_reason": "Investigator route: general HSI money must reach gang cases."
+        },
+        {
+          "id": "S2_SEP_support_06-P2",
+          "requires": [],
+          "original_excerpt": "Section 203 also allows support for state and local crime prevention through “paragraph (3) or (7) of section 100051 of Public Law 119-21” [1]",
+          "necessity_reason": "Local-partner route: Section 203 can support state and local crime prevention, without HSI staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_07",
+      "paths": [
+        {
+          "id": "S2_SEP_support_07-P1",
+          "requires": [
+            "C23"
+          ],
+          "original_excerpt": "Paying and equipping agents supports a screen for security threats before people enter U.S. communities. That protection against terrorism serves [NAME]'s wish to avoid danger.",
+          "necessity_reason": "Screening reaches S.2 through Section 201 staff."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_08",
+      "paths": [
+        {
+          "id": "S2_SEP_support_08-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Funding personnel who carry out these existing health safeguards backs efforts to keep infection from reaching U.S. communities while the health orders apply. [NAME]'s wish to avoid disease gives [NAME] a reason to support that added backing.",
+          "necessity_reason": "The health duties reach S.2 through Section 101 staff, if this work qualifies."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_support_09",
+      "paths": [
+        {
+          "id": "S2_SEP_support_09-P1",
+          "requires": [
+            "C16",
+            "C21"
+          ],
+          "original_excerpt": "Better aircraft and boats add means to reach people in emergencies and bring them to safety. That serves [NAME]'s interest in surviving accidents and getting help when in danger.",
+          "necessity_reason": "Rescue needs funded aircraft and boats and crews who perform rescues."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_01-P1",
+          "requires": [
+            "C36",
+            "C24"
+          ],
+          "original_excerpt": "More operations using these practices create more chances for dangerous encounters during work and travel. [NAME]'s wish to avoid injury or death gives [NAME] a reason to oppose that added exposure.",
+          "necessity_reason": "Added danger depends on the earlier tactics continuing in added operations."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_02-P1",
+          "requires": [
+            "C11",
+            "C26"
+          ],
+          "original_excerpt": "Funding more arrests and custody expands exposure to a system where even citizens have been denied urgent care. Avoiding that danger to health and personal safety gives [NAME] a reason to oppose the funding.",
+          "necessity_reason": "The risk needs custody money and the documented lack of care."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_03-P1",
+          "requires": [
+            "C17",
+            "C30"
+          ],
+          "original_excerpt": "Paying to expand this police role expands a barrier to reporting crime and helping investigations. [NAME] relies on police being able to identify and stop dangerous offenders, so this loss of cooperation gives [NAME] a personal safety reason to oppose S.2.",
+          "necessity_reason": "The loss of reporting depends on the local police role that the agreements create."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_04",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_04-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "More operations in this form give impersonators more of the cover they already exploit and make fake arrests harder to recognize. Avoiding robbery, kidnapping and assault gives [NAME] a safety reason to oppose this expansion.",
+          "necessity_reason": "The danger needs added enforcement to give impersonators more opportunity."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_05",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_05-P1",
+          "requires": [
+            "C25"
+          ],
+          "original_excerpt": "[NAME] depends on timely care, whether at home, in a nursing home or in a hospital. Protecting access to that care gives [NAME] a health reason to oppose the added enforcement funding.",
+          "necessity_reason": "The care risk reaches S.2 through removal money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_06",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_06-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "Expanding enforcement around these services adds barriers to finding and treating infections. [NAME] shares the community's exposure to contagious disease, so protecting disease control gives [NAME] a health reason to oppose S.2.",
+          "necessity_reason": "The disease risk needs fear of enforcement to keep people from care."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_07",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_07-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "More arrests feeding this system, and money to sustain it, increase opportunities for infections to reach the public through staff. [NAME]'s interest in avoiding disease gives [NAME] a reason to oppose this added exposure.",
+          "necessity_reason": "Infection risk reaches S.2 through facility money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SEP_oppose_08",
+      "paths": [
+        {
+          "id": "S2_SEP_oppose_08-P1",
+          "requires": [],
+          "original_excerpt": "Funding more of these operations exposes the wider community to fear and trauma. [NAME]'s wish to protect mental health and be personally secure gives [NAME] a reason to oppose that expansion.",
+          "necessity_reason": "Local route: the harm is fear from enforcement. No shared premise carries it."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_01",
+      "paths": [
+        {
+          "id": "S2_SES_support_01-P1",
+          "requires": [
+            "C20"
+          ],
+          "original_excerpt": "Funding that carries across budget years, pays officers, and covers unexpected costs supports a ready security workforce. That serves [NAME]'s concern for a strong state able to defend people.",
+          "necessity_reason": "The argument relies on the money to pay and equip Border Patrol staff across years."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_02",
+      "paths": [
+        {
+          "id": "S2_SES_support_02-P1",
+          "requires": [
+            "C29"
+          ],
+          "original_excerpt": "It funds “Upgrades and procurement of border surveillance technologies along the southwest, northern, and maritime borders.” [1]",
+          "necessity_reason": "Surveillance route: detection supports interception."
+        },
+        {
+          "id": "S2_SES_support_02-P2",
+          "requires": [
+            "C21"
+          ],
+          "original_excerpt": "It also funds new air and sea equipment for “rapid air and marine response capabilities.” [1]",
+          "necessity_reason": "Response route: aircraft and boats support response."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_03",
+      "paths": [
+        {
+          "id": "S2_SES_support_03-P1",
+          "requires": [],
+          "original_excerpt": "More reliable identity and departure checks make false identities harder to use and strengthen checks against security records. This supports the state's ability to control who crosses its borders and detect threats.",
+          "necessity_reason": "Local route through Section 103(a)(4). Only this argument relies on it."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_04",
+      "paths": [
+        {
+          "id": "S2_SES_support_04-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C22"
+          ],
+          "original_excerpt": "keep them out of our communities",
+          "necessity_reason": "Community route: drugs stay out of communities only if seizures reduce the supply overall."
+        },
+        {
+          "id": "S2_SES_support_04-P2",
+          "requires": [
+            "C03",
+            "C22"
+          ],
+          "original_excerpt": "deny TCOs valuable profits",
+          "necessity_reason": "Capacity route: more usable inspection adds to state capacity and takes profits from criminal groups."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_05",
+      "paths": [
+        {
+          "id": "S2_SES_support_05-P1",
+          "requires": [
+            "C05",
+            "C24",
+            "C25"
+          ],
+          "original_excerpt": "More staff, custody transfers, and transport give ICE more means",
+          "necessity_reason": "Staff and transport route: added custody and removal must reduce violence."
+        },
+        {
+          "id": "S2_SES_support_05-P2",
+          "requires": [
+            "C05",
+            "C17",
+            "C30"
+          ],
+          "original_excerpt": "Under the jail version of these agreements, local officers help",
+          "necessity_reason": "Jail-agreement route: local officers identify people in jail for transfer to ICE."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_06",
+      "paths": [
+        {
+          "id": "S2_SES_support_06-P1",
+          "requires": [
+            "C31"
+          ],
+          "original_excerpt": "Funding investigators who build these cases strengthens the state's ability to disrupt organized violence and terrorism. That directly serves [NAME]'s concern that the United States defend itself against threats.",
+          "necessity_reason": "More cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_07",
+      "paths": [
+        {
+          "id": "S2_SES_support_07-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "Supporting this work gives the state more means to stop coercion and abuse within U.S. communities. Protecting people from organized predatory crime serves [NAME]'s concern for a secure country.",
+          "necessity_reason": "More cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_08",
+      "paths": [
+        {
+          "id": "S2_SES_support_08-P1",
+          "requires": [
+            "C19"
+          ],
+          "original_excerpt": "Additional investigators, evidence analysts, and training strengthen the country's ability to find abused children, rescue them, and pursue their attackers. This is a direct gain in the state's ability to protect people.",
+          "necessity_reason": "The benefit comes from the reserved child exploitation money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_09",
+      "paths": [
+        {
+          "id": "S2_SES_support_09-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "Supporting investigations that seize criminal earnings removes resources used to keep criminal networks operating. That strengthens the state against organized threats to public safety.",
+          "necessity_reason": "More seizures need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_10",
+      "paths": [
+        {
+          "id": "S2_SES_support_10-P1",
+          "requires": [
+            "C32"
+          ],
+          "original_excerpt": "Supporting investigators who pursue scammers and seize their funds strengthens protection against financial predators. That serves [NAME]'s concern for a state able to defend people and the country's financial security.",
+          "necessity_reason": "More scam cases need general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_11",
+      "paths": [
+        {
+          "id": "S2_SES_support_11-P1",
+          "requires": [
+            "C33"
+          ],
+          "original_excerpt": "Supporting this work strengthens defenses for services people depend on for power, medical care, emergency help, and government. Keeping those services secure supports the national stability [NAME] values.",
+          "necessity_reason": "More cyber work needs general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_12",
+      "paths": [
+        {
+          "id": "S2_SES_support_12-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "More means to investigate this fraud help protect the people and equipment the country relies on for defense. That directly serves [NAME]'s concern for a strong state able to defend its citizens.",
+          "necessity_reason": "More equipment-fraud work needs general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_13",
+      "paths": [
+        {
+          "id": "S2_SES_support_13-P1",
+          "requires": [
+            "C18"
+          ],
+          "original_excerpt": "Supporting this pool of trained officers strengthens protection at public gatherings and major government events. That serves [NAME]'s concern for public safety and stable national institutions.",
+          "necessity_reason": "More event protection needs general HSI money to reach this work."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_support_14",
+      "paths": [
+        {
+          "id": "S2_SES_support_14-P1",
+          "requires": [
+            "C16",
+            "C21"
+          ],
+          "original_excerpt": "Funding additional air and sea response capacity gives the government more means to bring help and rescue people in danger. That strengthens the country's ability to protect people during emergencies.",
+          "necessity_reason": "Rescue needs funded aircraft and boats and crews who perform rescues."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_01",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_01-P1",
+          "requires": [
+            "C36"
+          ],
+          "original_excerpt": "More operating money through 2029 gives these operations more resources",
+          "necessity_reason": "Tactics route: more harm depends on the earlier tactics continuing."
+        },
+        {
+          "id": "S2_SES_oppose_01-P2",
+          "requires": [
+            "C14"
+          ],
+          "original_excerpt": "That weakens a practical way for Congress to demand safer conduct.",
+          "necessity_reason": "Oversight route: multi-year money weakens the yearly way for Congress to demand safer conduct."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_03",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_03-P1",
+          "requires": [
+            "C17",
+            "C30"
+          ],
+          "original_excerpt": "S.2 expands agreements that include a form of policing with documented costs to public safety. The reporting evidence also shows how linking police to deportation can weaken crime control. [NAME] has a reason to oppose weakening the state's ability to protect communities from offenders.",
+          "necessity_reason": "The harm depends on the local police role that the agreements create."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_04",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_04-P1",
+          "requires": [
+            "C07"
+          ],
+          "original_excerpt": "Funding more operations without addressing this confusion sustains opportunities for criminals to borrow federal authority. That threatens residents' safety and their ability to recognize genuine protection.",
+          "necessity_reason": "The danger needs added enforcement to give impersonators more opportunity."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_05",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_05-P1",
+          "requires": [
+            "C24"
+          ],
+          "original_excerpt": "S.2 finances a campaign that uses investigators for deportation work at the expense of other protective duties. Sustaining that diversion leaves serious crimes and national security threats less fully covered, contrary to [NAME]'s concern that the country defend itself against all threats.",
+          "necessity_reason": "The diversion reaches S.2 through Section 202 staff money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_06",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_06-P1",
+          "requires": [
+            "C08"
+          ],
+          "original_excerpt": "Funding further monitoring equips officials to intimidate people who document their conduct. A state that silences peaceful warnings about its own abuses becomes less answerable for protecting citizens. That threatens safe, stable government.",
+          "necessity_reason": "Intimidation needs the money to add to broad collection first."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_07",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_07-P1",
+          "requires": [
+            "C37"
+          ],
+          "original_excerpt": "During the Minneapolis enforcement operation",
+          "necessity_reason": "Operations route: disruption like Minneapolis depends on similar tactics continuing."
+        },
+        {
+          "id": "S2_SES_oppose_07-P2",
+          "requires": [],
+          "original_excerpt": "KFF reports that immigrants and family members avoided activities",
+          "necessity_reason": "Survey route: fear of enforcement causes avoided activities, without relying on those tactics."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_08",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_08-P1",
+          "requires": [
+            "C13",
+            "C25"
+          ],
+          "original_excerpt": "Financing wider removals threatens workers who supply care, food, and shelter. The resulting loss of production and tax resources also weakens the country's means to fund protection and withstand shocks. Both bear directly on the strong, secure country [NAME] values.",
+          "necessity_reason": "National harm needs the general economic link and added removal money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_09",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_09-P1",
+          "requires": [
+            "C12"
+          ],
+          "original_excerpt": "Sustaining enforcement that drives people away from clinics weakens disease prevention. Protection against infectious disease is part of protecting the country against threats, giving [NAME] another reason to oppose this funding.",
+          "necessity_reason": "Weaker disease defense needs fear of enforcement to keep people from care."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_10",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_10-P1",
+          "requires": [
+            "C09",
+            "C26"
+          ],
+          "original_excerpt": "Money for running the planned detention network supports demands that essential local systems cannot meet. Threats to drinking water and sewage disposal undermine public health and the basic services on which stable communities depend.",
+          "necessity_reason": "The risk needs operating money that adds to the risk from planned warehouse sites."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_SES_oppose_11",
+      "paths": [
+        {
+          "id": "S2_SES_oppose_11-P1",
+          "requires": [],
+          "original_excerpt": "S.2 adds borrowing and interest costs to the financial pressures facing future defense and emergency decisions. Increasing that burden weakens the financial resilience needed for a state that can protect its citizens.",
+          "necessity_reason": "Local route: the bill’s added cost and debt. No shared premise carries it."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_support_06",
+      "paths": [
+        {
+          "id": "S2_TR_support_06-P1",
+          "requires": [
+            "C03",
+            "C04",
+            "C22"
+          ],
+          "original_excerpt": "By addressing opioid abuse that separates children from parents, drug-detection work could help preserve the family setting for parents' continuing religious teaching. That transmission, rather than a general religious endorsement of drug control, supplies the Tradition connection.",
+          "necessity_reason": "Family teaching is protected only if added scanning is used and reduces the drugs reaching people."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_01",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_01-P1",
+          "requires": [
+            "C10",
+            "C25"
+          ],
+          "original_excerpt": "Living apart disrupts shared family life and parents' daily teaching. Preserving these family duties gives [NAME] a reason to oppose the added funding.",
+          "necessity_reason": "Family teaching is threatened through added removal money and family separation."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_02",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_02-P1",
+          "requires": [],
+          "original_excerpt": "Adding resources to enforcement that already keeps people from church puts shared worship, teaching and rites under greater pressure. [NAME] has a reason to oppose that threat to practicing and passing on the faith.",
+          "necessity_reason": "Local route: the threat to worship is specific to this argument."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_03",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_03-P1",
+          "requires": [
+            "C25"
+          ],
+          "original_excerpt": "Added removal capacity puts congregations' leaders and membership at greater risk. Losing a congregation breaks the continuity of a community that carries Christian teaching, worship and customs. Preserving that community gives [NAME] a reason to oppose S.2.",
+          "necessity_reason": "The threat to congregations reaches S.2 through removal money."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_04",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_04-P1",
+          "requires": [],
+          "original_excerpt": "More resources for operations that have interrupted this church's ministry increase the risk of further interruptions to its continuing communal religious work. Maintaining that established ministry, rather than endorsing care for strangers in the abstract, supplies [NAME]'s Tradition reason.",
+          "necessity_reason": "Local route: the interrupted ministry is specific to this argument."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_05",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_05-P1",
+          "requires": [
+            "C26"
+          ],
+          "original_excerpt": "Supporting more custody exposes more Christians and their pastors to these access barriers. [NAME] has a reason to oppose that risk to prayer, pastoral care and an inherited duty of the church.",
+          "necessity_reason": "Access barriers reach S.2 through added custody."
+        }
+      ]
+    },
+    {
+      "point_id": "S2_TR_oppose_07",
+      "paths": [
+        {
+          "id": "S2_TR_oppose_07-P1",
+          "requires": [
+            "C25"
+          ],
+          "original_excerpt": "Additional removal capacity supports a system that has returned Christians to danger and puts accompanying relatives' worship at risk. Preserving their freedom to live by their faith gives [NAME] a reason to oppose S.2.",
+          "necessity_reason": "The danger reaches S.2 through removal money."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "S2_UNN_oppose_04",
+      "reason": "Plain wording. Substance: the response keeps documented limits on these sites (water lock, court order, permits). It is restated as a limit on the claimed risk, and it says that those limits could change."
+    },
+    {
+      "point_id": "S2_UNC_support_03",
+      "reason": "Plain wording. Substance: the response no longer relies on the absence of reserved money. It keeps reported reassignment and limits the earlier-precedent point to what that precedent shows."
+    },
+    {
+      "point_id": "S2_UNC_support_04",
+      "reason": "Plain wording. Substance: removes the absence of money reserved for scams as a ground. Reported reassignment stays as the actual defect."
+    },
+    {
+      "point_id": "S2_UNC_support_08",
+      "reason": "Plain wording. Substance: removes the absence of a reserved counterterrorism staff increase as a ground. Reported redeployment stays as the actual defect."
+    },
+    {
+      "point_id": "S2_UNC_support_09",
+      "reason": "Plain wording. Substance: removes the absence of a separate cyber allocation as a ground. Reported reassignment stays as the actual defect."
+    },
+    {
+      "point_id": "S2_UNC_support_13",
+      "reason": "Plain wording. Substance: narrows the response to training. The original also challenged the equipment step, but the source reports that most interviewed ICE staff wanted more equipment and the bill pays to equip staff."
+    },
+    {
+      "point_id": "S2_UNC_oppose_01",
+      "reason": "Plain wording. Substance: adds the legal scope that the cited Supreme Court case concerned people already ordered removed, from the same source, and removes an unqualified statement of how courts test detention."
+    },
+    {
+      "point_id": "S2_UNC_oppose_03",
+      "reason": "Plain wording. Substance: removes the original response. It asked which added proceedings the new lawyers would enable and whether those people face the barrier, which demands named affected cases. No-CON marker added; the single-facility limit goes to the strength comparison."
+    },
+    {
+      "point_id": "S2_UNC_oppose_07",
+      "reason": "Plain wording. Explains warrants. Substance: restates the response so it challenges added exposure given the pause, and states what it does not answer (the argument’s conditional risk if the pause ends)."
+    },
+    {
+      "point_id": "S2_UNC_oppose_10",
+      "reason": "Plain wording. Substance: removes the original response. It challenged only what the Minnesota figure says about the size of S.2’s effect and stated that it did not answer the general link. No-CON marker added; the point about size goes to the strength comparison."
+    },
+    {
+      "point_id": "S2_UNT_oppose_01",
+      "reason": "Plain wording. Substance: removes the ground that the salary and training language does not identify methods, which is a no-guarantee demand. Keeps changed practice as the defect and adds that such stops have not been shown to end. “Reforms described above” replaced with the attributed quotation."
+    },
+    {
+      "point_id": "S2_UNT_oppose_03",
+      "reason": "Plain wording. Explains 287(g). Substance: removes the ground that the survey did not compare changes after S.2-funded agreements, which is a demand for a bill-specific estimate. Keeps the real limits: other agreement types, and a recent article about federal raids where the sheriff disclaims this role."
+    },
+    {
+      "point_id": "S2_UNT_oppose_04",
+      "reason": "Plain wording. Substance: removes the ground that the existing system already gives the government a lawyer (a baseline fact). Keeps the actual value objection that hearing someone does not require helping them win."
+    },
+    {
+      "point_id": "S2_UNT_oppose_05",
+      "reason": "Plain wording. Substance: removes the ground that the provision does not direct a return to earlier sweeps, which is a no-guarantee demand. Keeps changed practice as the defect. “Reforms described above” replaced with the attributed quotation."
+    },
+    {
+      "point_id": "S2_SEP_support_03",
+      "reason": "Plain wording. Substance: removes two baseline grounds from the response (the detention happened before S.2; the 2025 law funded detention). Keeps the relevant null results as the actual defect and states their limit."
+    },
+    {
+      "point_id": "S2_SEP_support_04",
+      "reason": "Plain wording. Explains 287(g) and detainers. Substance: removes the ground that the cited transfer already happened (prior activity). Keeps the actual defect: more authority does not mean that public arrests are replaced by jail transfers."
+    },
+    {
+      "point_id": "S2_SEP_oppose_01",
+      "reason": "Plain wording. Substance: removes the ground that the provision also pays attorneys and support staff and does not identify tactics, which is a no-guarantee demand. Keeps changed practice as the defect and adds that such practices have not been shown to end."
+    },
+    {
+      "point_id": "S2_SEP_oppose_07",
+      "reason": "Plain wording. Substance: narrows the response to the source-stated condition for crowding and the documented disease response. It states what stays unanswered, instead of treating funding for departures as a rebuttal or requiring proof of added contacts."
+    },
+    {
+      "point_id": "S2_SES_support_03",
+      "reason": "Plain wording. Explains biometrics. Substance: narrows the response to documented constraints (the matching service already has capacity; airline participation is voluntary). Moves the 2025-law funding and earlier final rule out of the response, because existing funding alone does not rebut an added amount."
+    },
+    {
+      "point_id": "S2_SES_support_05",
+      "reason": "Plain wording. Substance: removes the ground that the 2025 law already funded these uses (a baseline). Keeps the null result as the actual defect and the scope point that a violent conviction is not required, and states the study’s limit."
+    },
+    {
+      "point_id": "S2_SES_support_06",
+      "reason": "Plain wording. Substance: removes the ground that Section 102 assigns no added terrorism or gang team, which is an earmark demand. Keeps reported redeployment as the actual defect. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_support_07",
+      "reason": "Plain wording. Substance: removes the ground that the money does not direct a larger trafficking team, which is an earmark demand. Keeps the reported suspension of investigations as the actual defect. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_support_09",
+      "reason": "Plain wording. Explains money laundering. Substance: removes the ground that Section 102 sets aside no money for these task forces, which is an earmark demand. Keeps reported reassignment. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_support_10",
+      "reason": "Plain wording. Substance: removes the ground that nothing links the money to an expanded fraud team, which is an earmark demand. Keeps reported diversion. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_support_11",
+      "reason": "Plain wording. Substance: removes the ground that the money does not direct an expansion of this operation, which is an earmark demand. Keeps the reported suspension. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_support_13",
+      "reason": "Plain wording. Substance: removes the ground that the money directs no increase in officers for these details, which is an earmark demand. Keeps reported reassignment. The shared objection stays attached."
+    },
+    {
+      "point_id": "S2_SES_oppose_10",
+      "reason": "Plain wording. Substance: removes the earlier $45 billion appropriation as a ground, because existing funding alone does not rebut an added amount. It goes to the strength comparison. Keeps the documented constraint (the water lock) and adds the limit that the response does not cover other sites."
+    },
+    {
+      "point_id": "S2_SES_oppose_11",
+      "reason": "Plain wording. Explains interest and deficits. Substance: removes the original response. It demanded a shown loss of readiness when the argument claims added pressure and the source warning is conditional. No-CON marker added; size and CBO’s scope go to the strength comparison."
+    },
+    {
+      "point_id": "S2_TR_support_06",
+      "reason": "Plain wording. Keeps the reference to continuing family teaching and the “could.” The response stays focused on replacement of seized drugs. Factual correction: the original’s “It also identifies” read as if GAO made the statements cited to [13] and [14]; those sources are Southern Baptist statements, so the attribution is now explicit."
+    },
+    {
+      "point_id": "S2_TR_oppose_03",
+      "reason": "Plain wording. Substance: narrows the response. It is partial: the warning is conditional and outside the source’s study, and succession planning answers part of the leader route. It no longer asks for proof that S.2 itself would close congregations, and it says the loss-of-members route is not answered."
+    },
+    {
+      "point_id": "S2_TR_oppose_07",
+      "reason": "Plain wording. Substance: narrows the response to the legal bar and the funding’s lack of control over destinations. Removes the ground that the money was not shown to go beyond existing removal operations, which is a baseline. States that the response does not show unsafe returns will not happen."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}

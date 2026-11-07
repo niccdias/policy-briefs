@@ -21,5 +21,84 @@
     "Separate Main effect panel, usage lists on claim pages, dependency-flag control, and evidence-notes/gaps panels."
   ],
   "protection": "No keys, manuscript judgments, coder records, Qualtrics changes, live brief changes, or S.1582 saved-state changes.",
-  "current_shared_claim_rule": "Only genuinely reused, substantively disputed claims or exact unresolved support gaps receive separate votes. Direct provisions and adequately supported unchallenged statements are sourced context."
+  "current_shared_claim_rule": "Only genuinely reused, substantively disputed claims or exact unresolved support gaps receive separate votes. Direct provisions and adequately supported unchallenged statements are sourced context.",
+  "prior_pilot_audit": {
+    "sha256": "410a331601e1ad8f02cc7902b6e195418d7456c0526461649e23e21576e91b99",
+    "path": "pilot/review/history_audit.json",
+    "history_checked": [
+      "October 19–20 network mockup, v12 r3 and Sol audit",
+      "October 20–21 Claude/Codex pilot final human and structural reviews",
+      "October 24–30 actual procedure and rendering decisions",
+      "October 30–November 5 coding workflow changes",
+      "All eight final release chains, with S1582 main adjudication",
+      "November 5 Tradition boundary and retirement amendment",
+      "November 6 ESL and novice background procedure",
+      "Current publication manifest, remote HEAD and live Tradition aliases"
+    ],
+    "old_network_pilot": {
+      "path": "docs/panel_key/logs/v12_codex_pilot_2026-10-21",
+      "freeze_approved": false,
+      "open_findings": 22,
+      "major": 14,
+      "minor": 8,
+      "lesson": "Prior mechanical success did not establish semantic coverage or genuine dependencies. Do not import that graph as validated."
+    }
+  },
+  "decision_sources": [
+    {
+      "rule": "Magnitude-independent existence, every argument shown, Both-only comparison, optional notes and no repeated criteria",
+      "source": "docs/argument_key/qualtrics/reviewed_v5/reviewer_instructions.md",
+      "additional_source": "docs/argument_key/qualtrics/reviewed_v5/README.md"
+    },
+    {
+      "rule": "Necessary premises, ordinary prospective inferences and removal of baseline-only/no-earmark/no-estimate objections",
+      "source": "docs/argument_key/quality_pass/README.md",
+      "additional_source": "docs/argument_key/quality_pass/worker_task.md"
+    },
+    {
+      "rule": "Latest S1582 merits decisions and final residual removals",
+      "source": "docs/argument_key/quality_pass/other_bills_20261104/119_S_1582/release/substantive_verification.json",
+      "additional_source": "docs/argument_key/quality_pass/other_bills_20261104/119_S_1582/release/output/bounded_check.json"
+    },
+    {
+      "rule": "Narrow Tradition boundary, six retired S1582 IDs and original snapshots",
+      "source": "docs/argument_key/qualtrics/reviewed_v5/amendments/tradition_20261105.json",
+      "additional_source": "docs/argument_key/qualtrics/reviewed_v5/amendments/tradition_20261105.md"
+    },
+    {
+      "rule": "ESL and little-to-no prior policy knowledge, clarity separate from merits",
+      "source": "docs/argument_key/quality_pass/worker_task.md",
+      "history_source": "docs/argument_key/quality_pass/procedure_backups/novice-reader-20261106T103103Z/worker_task.md"
+    },
+    {
+      "rule": "Only exact disputed shared propositions; unchallenged possibilities and direct legal text need no extra vote.",
+      "source": "Nic’s November 7 approved pilot corrections; docs/argument_key/shared_premise_pilot/uncontested_context_20261107/verification.json"
+    },
+    {
+      "rule": "Focused argument/response first, optional earlier context, no usage list on question pages.",
+      "source": "docs/argument_key/shared_premise_pilot/focused_reading_20261107/verification.json"
+    },
+    {
+      "rule": "Validity material before judgment; size/timing/reach at Both-only comparison; editorial history hidden.",
+      "source": "docs/argument_key/shared_premise_pilot/evidence_placement_20261107/verification.json"
+    },
+    {
+      "rule": "No dependency-flag control, no separate Main effect section; single Menu.",
+      "source": "docs/argument_key/shared_premise_pilot/dependency_flag_removal.json",
+      "additional_source": "docs/argument_key/shared_premise_pilot/main_effect_menu.json"
+    },
+    {
+      "rule": "Societal Security concerns the state’s protection of citizens collectively; Tolerance requires substantive understanding/acceptance across differences.",
+      "source": "Nic’s HR4405 feedback and corrections in this conversation, November 5–7; staged editorial_issues and value rules in every frozen authority."
+    },
+    {
+      "rule": "Extend the finalized S.1582 procedure to the other seven bills, without changing S.1582 records or live briefs/Qualtrics.",
+      "source": "Nic: “Great. Let’s update the other bills”, November 7, 2026."
+    },
+    {
+      "rule": "Recover historical IDs omitted from the later bank, without reactivating them.",
+      "source": "docs/argument_key/shared_premise_expansion/recovered_retired_ids.json"
+    }
+  ],
+  "recovered_retired_ids_sha256": "cc91dd01fb3b1628b527758b2e9ce17d0f912e330ff467e66b3b0ae1a8036073"
 }

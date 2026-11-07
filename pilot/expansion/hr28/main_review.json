@@ -1,0 +1,790 @@
+{
+  "approved": true,
+  "reviewed_by": "main",
+  "date": "2026-11-07",
+  "mapping_sha256": "9ddb2013aa0a9b1d469d37e54085d251b4467b0236409dcfac091585b37a70c4",
+  "accepted_retirements": [
+    "HR28_UNT_support_03",
+    "HR28_SES_support_01",
+    "HR28_SES_support_02",
+    "HR28_SES_oppose_01",
+    "HR28_TR_support_04"
+  ],
+  "decisions": "Inspected all 17 worker merges, all 37 arguments' routes and seven substantive edits. Accepted the generic committee-report Tolerance retirement; retired three isolated-harm/Societal relabelings and generic religious privacy-as-Tradition. Collision-risk possibility is qualified context. The education/health benefit route does not require the fairness premise; fairness, changing-space coverage and enforcement facts are local when only one user remains. Kept bodily-check pressure as the sole shared judgment, with record-based alternatives and independent routes visible.",
+  "source_context_read": "Bill text; World Rugby modeling, international scope and domestic flexibility; 2024 athlete study policy passage and mixed measures; 2026 review abstract/correction limits; Hecox state-law comparison and invasive-check procedure; Societal Security definition; religious resolution privacy passage. All were existing packet text, with targeted context rather than a new exhaustive evidence review.",
+  "all_merges_dependencies_substantive_changes_inspected": true,
+  "merges": [
+    {
+      "id": "C01",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR28_UNN_oppose_01",
+        "HR28_UNN_oppose_02",
+        "HR28_UNC_support_01",
+        "HR28_UNC_support_02",
+        "HR28_UNC_support_03",
+        "HR28_UNC_oppose_01",
+        "HR28_UNC_oppose_02",
+        "HR28_UNC_oppose_03",
+        "HR28_UNC_oppose_04",
+        "HR28_UNC_oppose_05",
+        "HR28_UNC_oppose_06",
+        "HR28_UNC_oppose_07",
+        "HR28_UNT_support_01",
+        "HR28_UNT_support_02",
+        "HR28_UNT_oppose_01",
+        "HR28_UNT_oppose_02",
+        "HR28_UNT_oppose_03",
+        "HR28_SEP_support_01",
+        "HR28_SEP_support_02",
+        "HR28_SEP_support_03",
+        "HR28_SEP_oppose_01",
+        "HR28_SEP_oppose_02",
+        "HR28_SEP_oppose_03",
+        "HR28_SEP_oppose_04",
+        "HR28_SES_oppose_02",
+        "HR28_SES_oppose_03",
+        "HR28_TR_support_01",
+        "HR28_TR_support_02",
+        "HR28_TR_oppose_02",
+        "HR28_TR_oppose_03"
+      ],
+      "decision": "Direct statutory text, checked word for word against the bill as passed by the House. It is background, not a vote. Accepting it does not accept any argument that uses it."
+    },
+    {
+      "id": "C02",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR28_UNN_support_01",
+        "HR28_UNN_support_02",
+        "HR28_UNN_support_03",
+        "HR28_UNN_oppose_01",
+        "HR28_UNN_oppose_02",
+        "HR28_UNC_support_02",
+        "HR28_UNC_oppose_01",
+        "HR28_UNT_support_02",
+        "HR28_UNT_oppose_01",
+        "HR28_SEP_support_02",
+        "HR28_SEP_oppose_03",
+        "HR28_SES_oppose_03"
+      ],
+      "decision": "Direct statutory text, checked word for word. The last sentence follows from the text’s limit to training and practice. It is background, not a vote."
+    },
+    {
+      "id": "C03",
+      "classification": "verified_statutory_background",
+      "users": [
+        "HR28_UNN_oppose_02",
+        "HR28_UNC_oppose_01",
+        "HR28_UNT_oppose_01",
+        "HR28_SEP_support_03"
+      ],
+      "decision": "Direct statutory text, checked word for word. Whether a particular activity meets this condition is a separate question. It is background, not a vote."
+    },
+    {
+      "id": "C04",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNN_oppose_01",
+        "HR28_UNN_oppose_02",
+        "HR28_UNC_oppose_07",
+        "HR28_UNT_oppose_03",
+        "HR28_SEP_support_01",
+        "HR28_SES_oppose_03",
+        "HR28_TR_support_02",
+        "HR28_TR_oppose_02",
+        "HR28_TR_oppose_03"
+      ],
+      "decision": "Adequately sourced by Congress’s research office and the sports rules themselves, and no response challenges it. It sets the comparison; it is not a vote and does not show that any change is good or bad."
+    },
+    {
+      "id": "C05",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_support_03",
+        "HR28_SEP_support_01"
+      ],
+      "decision": "This modest collision-risk proposition has no retained response disputing it. Modeling limits, international scope and low-certainty fitness evidence remain visible qualifications; they do not require an extra shared vote about a possibility."
+    },
+    {
+      "id": "C07",
+      "classification": "judgment",
+      "users": [
+        "HR28_UNC_oppose_05",
+        "HR28_SEP_oppose_01",
+        "HR28_TR_oppose_03"
+      ],
+      "decision": "Substantive objection repeated in four responses: the text adds no examination procedure, Idaho’s exams came from a separate statute, and most comparable states used birth certificates."
+    },
+    {
+      "id": "C09",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_oppose_06",
+        "HR28_UNT_oppose_03",
+        "HR28_SEP_oppose_02",
+        "HR28_SES_oppose_02"
+      ],
+      "decision": "Sourced by official findings and news reports and not challenged by any response. It is context for an ordinary causal inference. The limits below stay with it, and accepting it does not accept a complete argument."
+    },
+    {
+      "id": "C10",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_oppose_03",
+        "HR28_UNT_oppose_01",
+        "HR28_SEP_oppose_04",
+        "HR28_SES_oppose_03"
+      ],
+      "decision": "The statement that the groups say this is verified, and no response challenges it. It is stated with attribution because no packet study compares stigma under different eligibility rules. It is context, not a vote."
+    },
+    {
+      "id": "C11",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_oppose_01",
+        "HR28_UNT_oppose_02",
+        "HR28_SES_oppose_03"
+      ],
+      "decision": "The groups’ statement is verified and unchallenged, and no response disputes it. It stays attributed because the letter gives no worked example. It is context, not a vote."
+    },
+    {
+      "id": "C12",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_SEP_support_02",
+        "HR28_SEP_oppose_01",
+        "HR28_SEP_oppose_03"
+      ],
+      "decision": "Adequately sourced by federal health guidance, and no response challenges the general statement. It is an association, not a vote on whether the bill changes anyone’s exercise."
+    },
+    {
+      "id": "C13",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_SEP_oppose_03",
+        "HR28_SES_oppose_03"
+      ],
+      "decision": "Sourced by a 2022 survey and a 2025 study’s summary, and no response challenges it. It is context, not a vote on the size of any effect."
+    },
+    {
+      "id": "C14",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_oppose_02",
+        "HR28_UNT_oppose_01"
+      ],
+      "decision": "Verified from the opinions and CRS, and no response challenges this legal history. It is context for the January 14, 2025 comparison, not a vote on whether the ruling was right."
+    },
+    {
+      "id": "C16",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_oppose_05",
+        "HR28_TR_oppose_03"
+      ],
+      "decision": "Documented by the Associated Press and the National Women’s Law Center. Responses expressly do not answer it. It is one case under a state law, stated as context and not a vote."
+    },
+    {
+      "id": "C17",
+      "classification": "uncontested_sourced_context",
+      "users": [
+        "HR28_UNC_support_02",
+        "HR28_UNT_support_02",
+        "HR28_SEP_support_02"
+      ],
+      "decision": "Supported by testimony and a news report, and no response disputes this basic step. It is context, not a vote on how often it happens or whether it is unfair."
+    }
+  ],
+  "paths": [
+    {
+      "point_id": "HR28_UNN_support_01",
+      "paths": [
+        {
+          "id": "HR28_UNN_support_01-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill would allow males to practice with female teams only if",
+          "necessity_reason": "The whole route starts from the practice condition: without its protection of a female athlete’s team place, the bill would give no protection to the team projects that follow."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNN_support_02",
+      "paths": [
+        {
+          "id": "HR28_UNN_support_02-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill’s safeguard for male practice also protects a female athlete’s",
+          "necessity_reason": "The route depends on the practice condition: it is the only bill provision the argument uses to protect practice time."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNN_support_03",
+      "paths": [
+        {
+          "id": "HR28_UNN_support_03-P1",
+          "requires": [
+            "C02"
+          ],
+          "original_excerpt": "The bill would allow males to train or practice only if no female lost a",
+          "necessity_reason": "The route depends on the practice condition: its scholarship protection is the only link between the bill and this money."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNN_oppose_01",
+      "paths": [
+        {
+          "id": "HR28_UNN_oppose_01-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C04"
+          ],
+          "original_excerpt": "The ban would remove women’s outdoor competition from the opportunities available to otherwise eligible transgender students.",
+          "necessity_reason": "The route needs the ban and birth-based definition (the exclusion), the law-in-force eligibility the ban would end, and the practice exception’s limit (practice does not restore competition)."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNN_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_UNN_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C03",
+            "C04"
+          ],
+          "original_excerpt": "The bill would restrict access to these posts for otherwise eligible students it excludes from women’s programs.",
+          "necessity_reason": "The route needs the exclusion rule, the team-linked-activities clause that reaches these positions, the law-in-force eligibility, and the practice exception’s limit."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_support_01",
+      "paths": [
+        {
+          "id": "HR28_UNC_support_01-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "In strength-dependent events, the bill would keep retained male-puberty strength advantages out of the female category.",
+          "necessity_reason": "The route needs the exclusion rule and the disputed claim that an advantage remains in these events; without either, the bill would not change a fair chance."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_support_02",
+      "paths": [
+        {
+          "id": "HR28_UNC_support_02-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C17"
+          ],
+          "original_excerpt": "Where places or sports aid are limited, the competition ban and the practice condition protect female athletes from losing them to male participants.",
+          "necessity_reason": "The education and health-benefit route does not require a retained physiological advantage. The local response can challenge its equal-opportunity interpretation without automatically blocking that separate benefit."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_support_03",
+      "paths": [
+        {
+          "id": "HR28_UNC_support_03-P1",
+          "requires": [
+            "C01",
+            "C05"
+          ],
+          "original_excerpt": "excluding male competitors who have gone through male puberty removes this source of size and force mismatch.",
+          "necessity_reason": "The collision route needs the exclusion rule and the disputed claim that a size and force mismatch remains in contact competition."
+        },
+        {
+          "id": "HR28_UNC_support_03-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "the bill also removes that reason for a school to withdraw its girls' team.",
+          "necessity_reason": "The forfeit route needs only the exclusion rule. It rests on schools withdrawing over safety concerns, not on whether the collision risk is proven, so it stays open if the collision claim is rejected."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_01",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_01-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "original_excerpt": "Blocking team competition and the activities tied to it takes away chances to learn and advance.",
+          "necessity_reason": "The route needs the exclusion rule, the team-linked-activities clause and the practice exception’s limit; together they show which chances are lost."
+        },
+        {
+          "id": "HR28_UNC_oppose_01-P2",
+          "requires": [
+            "C01",
+            "C11"
+          ],
+          "original_excerpt": "Girls born with variations in sex traits also face uncertain eligibility.",
+          "necessity_reason": "This separate route concerns girls who may remain eligible but are deterred. It needs the birth-based definition and the groups’ statement about intersex variations, and it does not depend on the excluded-student route."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C14"
+          ],
+          "original_excerpt": "H.R.28 would make birth sex decisive even in cases where a court had held, under the law then in force, that exclusion treated an individual girl worse than comparable students.",
+          "necessity_reason": "The route needs the birth-sex rule and the court holding that was in force on the comparison date; together they show the protection that would be replaced."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_03",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_03-P1",
+          "requires": [
+            "C01",
+            "C10"
+          ],
+          "original_excerpt": "Taking away this source of support while adding stigma burdens students who already need protection.",
+          "necessity_reason": "The route needs the exclusion rule and the coalition’s statement that exclusion isolates and stigmatizes these students; the distress data show who is affected but do not by themselves show the bill’s effect."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_04",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_04-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "H.R.28 removes girls’ team eligibility even in these circumstances.",
+          "necessity_reason": "The route needs the exclusion rule. The boys’-team danger is local to this argument and is not reused as the same proposition elsewhere."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_05",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_05-P1",
+          "requires": [
+            "C01",
+            "C16"
+          ],
+          "original_excerpt": "A comparable Florida ban led to inquiries into a child’s private history.",
+          "necessity_reason": "The documented-inquiry route needs the birth-sex duty and the Florida investigation as its comparison. It does not need bodily examinations."
+        },
+        {
+          "id": "HR28_UNC_oppose_05-P2",
+          "requires": [
+            "C01",
+            "C07"
+          ],
+          "original_excerpt": "Women’s rights organizations warn that sex verification may involve",
+          "necessity_reason": "The examination route needs the birth-sex duty and the disputed claim that it would bring invasive bodily checks. Rejecting that claim blocks only this route."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_06",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_06-P1",
+          "requires": [
+            "C01",
+            "C09"
+          ],
+          "original_excerpt": "Extending this eligibility rule nationwide exposes students to harassment for their appearance",
+          "necessity_reason": "The route needs the birth-sex rule and the sourced statement that sex-based eligibility disputes can turn appearance into grounds for accusation."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNC_oppose_07",
+      "paths": [
+        {
+          "id": "HR28_UNC_oppose_07-P1",
+          "requires": [
+            "C01",
+            "C04"
+          ],
+          "original_excerpt": "Schools that keep including these students would put aid for the affected program at risk",
+          "necessity_reason": "The route needs the new violation, the inclusion that some schools then allowed, and Title IX’s existing ways of ending federal money."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNT_support_01",
+      "paths": [
+        {
+          "id": "HR28_UNT_support_01-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "In covered girls' competitions, the bill removes the matchup that triggers this objection.",
+          "necessity_reason": "The route needs the exclusion rule, because that rule removes the matchup. The objection and value link are local to this argument."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNT_support_02",
+      "paths": [
+        {
+          "id": "HR28_UNT_support_02-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C17"
+          ],
+          "original_excerpt": "Protecting girls against this loss of places and practice access preserves their access to those shared learning experiences.",
+          "necessity_reason": "The route needs the competition rule and practice condition, plus the sourced point that places can be lost. The tolerance link itself is local and challenged by the paired response."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNT_oppose_01",
+      "paths": [
+        {
+          "id": "HR28_UNT_oppose_01-P1",
+          "requires": [
+            "C01",
+            "C14"
+          ],
+          "original_excerpt": "The bill would close a route to acceptance that the law then in force protected.",
+          "necessity_reason": "The hearing route needs the birth-sex rule and the court holding in force on the comparison date."
+        },
+        {
+          "id": "HR28_UNT_oppose_01-P2",
+          "requires": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "original_excerpt": "Required exclusion takes away shared competition and team-linked opportunities to build understanding",
+          "necessity_reason": "The contact route needs the exclusion rule, the team-linked-activities clause and the practice exception’s limit. It does not need the court holding or the stigma statement."
+        },
+        {
+          "id": "HR28_UNT_oppose_01-P3",
+          "requires": [
+            "C01",
+            "C10"
+          ],
+          "original_excerpt": "Exclusion also marks students as outsiders.",
+          "necessity_reason": "The stigma route needs the exclusion rule and the coalition’s statement. It stays open if the contact route is rejected."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNT_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_UNT_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C11"
+          ],
+          "original_excerpt": "Exposing these girls to exclusion because their bodies do not fit a simple birth-based test conflicts with that acceptance.",
+          "necessity_reason": "The route needs the birth-based definition and the groups’ statement about how it applies to intersex variations."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_UNT_oppose_03",
+      "paths": [
+        {
+          "id": "HR28_UNT_oppose_03-P1",
+          "requires": [
+            "C01",
+            "C04",
+            "C09"
+          ],
+          "original_excerpt": "Where schools have included transgender girls, the bill would make a claim that a girl was born male grounds to challenge her eligibility.",
+          "necessity_reason": "The route needs the birth-sex duty, the inclusion some schools then allowed, and the sourced statement that sex-based eligibility disputes can turn appearance into accusations."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_support_01",
+      "paths": [
+        {
+          "id": "HR28_SEP_support_01-P1",
+          "requires": [
+            "C01",
+            "C04",
+            "C05"
+          ],
+          "original_excerpt": "Where hormone-based rules allowed these matchups, H.R.28 would prevent them in covered female competitions.",
+          "necessity_reason": "The route needs the exclusion rule, the hormone-based eligibility in force on the comparison date, and the disputed claim that a collision mismatch remains."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_support_02",
+      "paths": [
+        {
+          "id": "HR28_SEP_support_02-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C12",
+            "C17"
+          ],
+          "original_excerpt": "It prevents that source of exclusion from female competition and practice.",
+          "necessity_reason": "The route needs the competition rule and practice condition, the point that places can be lost, and the sourced link between youth sports and health benefits."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_support_03",
+      "paths": [
+        {
+          "id": "HR28_SEP_support_03-P1",
+          "requires": [
+            "C01",
+            "C03"
+          ],
+          "original_excerpt": "A changing activity designated for women or girls and made conditional on team participation falls within its female-only participation rule.",
+          "necessity_reason": "The legal-coverage route needs the exclusion rule, the team-linked clause and the disputed claim that the changing activity is covered."
+        },
+        {
+          "id": "HR28_SEP_support_03-P2",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "a person excluded from female competition would no longer have that competition as a reason to use its changing area.",
+          "necessity_reason": "This route needs only the exclusion rule. The paired response identifies it as separate and unanswered, so rejecting the coverage claim does not block it."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_oppose_01",
+      "paths": [
+        {
+          "id": "HR28_SEP_oppose_01-P1",
+          "requires": [
+            "C01",
+            "C07"
+          ],
+          "original_excerpt": "The new federal eligibility rule creates risks of bodily intrusion, abuse, and distress in an ordinary school activity.",
+          "necessity_reason": "The bodily-check route needs the birth-sex rule and the disputed claim that it would bring invasive checks."
+        },
+        {
+          "id": "HR28_SEP_oppose_01-P2",
+          "requires": [
+            "C01",
+            "C12"
+          ],
+          "original_excerpt": "Fear of checks threatens participation too.",
+          "necessity_reason": "The fear route needs the birth-sex rule and the sourced link between sports and health. It does not need actual exams, and the paired response leaves it open."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_SEP_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C09"
+          ],
+          "original_excerpt": "Making birth sex a federal condition for playing gives these accusations a new role in decisions about who can play.",
+          "necessity_reason": "The route needs the birth-sex rule and the sourced statement that such eligibility disputes can turn appearance into accusations and threats."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_oppose_03",
+      "paths": [
+        {
+          "id": "HR28_SEP_oppose_03-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C12",
+            "C13"
+          ],
+          "original_excerpt": "Closing access to competition removes a way to sustain exercise and supportive relationships.",
+          "necessity_reason": "The route needs the competition ban and the practice exception’s limit, the sourced link between sports and health, and the point that some excluded students leave sports rather than join boys’ teams."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SEP_oppose_04",
+      "paths": [
+        {
+          "id": "HR28_SEP_oppose_04-P1",
+          "requires": [
+            "C01",
+            "C10"
+          ],
+          "original_excerpt": "The law's rejection of some students threatens the supportive school ties that protect mental health, even without anyone leaving a sport.",
+          "necessity_reason": "The route needs the exclusion rule and the sourced statement that exclusion isolates and stigmatizes. The mental-health link is local to this argument."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SES_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_SES_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C09"
+          ],
+          "original_excerpt": "Extending birth-sex eligibility rules to federally funded schools nationwide creates more occasions for this intimidation.",
+          "necessity_reason": "The route needs the birth-sex rule and the sourced statement that eligibility disputes can turn appearance into accusations and threats. The community link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_SES_oppose_03",
+      "paths": [
+        {
+          "id": "HR28_SES_oppose_03-P1",
+          "requires": [
+            "C01",
+            "C02",
+            "C04",
+            "C13"
+          ],
+          "original_excerpt": "Where schools now include them, the bill cuts off a route into sport for students it excludes or deters.",
+          "necessity_reason": "The route through departing transgender students needs the competition ban and the practice exception’s limit, then-existing inclusion, and the point that assignment to birth-sex teams drives some students out."
+        },
+        {
+          "id": "HR28_SES_oppose_03-P2",
+          "requires": [
+            "C01",
+            "C11"
+          ],
+          "original_excerpt": "The loss also reaches girls born with variations in sex traits, often called intersex variations.",
+          "necessity_reason": "This separate route concerns girls discouraged by the birth-based definition. It needs the definition and the groups’ statement about intersex variations."
+        },
+        {
+          "id": "HR28_SES_oppose_03-P3",
+          "requires": [
+            "C01",
+            "C04",
+            "C10"
+          ],
+          "original_excerpt": "School sports build community ties.",
+          "necessity_reason": "The community-tie route needs exclusion from existing inclusion and the sourced statement that exclusion isolates and stigmatizes. It does not need students to leave all sports."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_TR_support_01",
+      "paths": [
+        {
+          "id": "HR28_TR_support_01-P1",
+          "requires": [
+            "C01"
+          ],
+          "original_excerpt": "The bill uses that distinction for female sports eligibility:",
+          "necessity_reason": "The route needs the birth-based definition, because it is what makes the public rule match the inherited belief. The religious link is local."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_TR_support_02",
+      "paths": [
+        {
+          "id": "HR28_TR_support_02-P1",
+          "requires": [
+            "C01",
+            "C04"
+          ],
+          "original_excerpt": "Reserving female competition and its titles for female athletes preserves this form of women’s sports.",
+          "necessity_reason": "The route needs the birth-sex rule and the law in force: the older rule permitted separate teams, but no national rule required this exclusion."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_TR_oppose_02",
+      "paths": [
+        {
+          "id": "HR28_TR_oppose_02-P1",
+          "requires": [
+            "C01",
+            "C04"
+          ],
+          "original_excerpt": "the federal rule would bar girls' competition if it classifies that child as male.",
+          "necessity_reason": "The route needs the birth-sex rule and the local rules then in force, which it says would be displaced. The religious authority link is local and challenged in the paired response."
+        }
+      ]
+    },
+    {
+      "point_id": "HR28_TR_oppose_03",
+      "paths": [
+        {
+          "id": "HR28_TR_oppose_03-P1",
+          "requires": [
+            "C01",
+            "C04",
+            "C16"
+          ],
+          "original_excerpt": "Intimate questioning has occurred under a comparable state ban.",
+          "necessity_reason": "The questioning route needs the birth-sex rule, the schools then allowing participation, and the Florida investigation. It does not need bodily examinations."
+        },
+        {
+          "id": "HR28_TR_oppose_03-P2",
+          "requires": [
+            "C01",
+            "C04",
+            "C07"
+          ],
+          "original_excerpt": "the organizations also warn of invasive checks.",
+          "necessity_reason": "The examination route needs the birth-sex rule, existing inclusion, and the disputed claim about invasive checks. Rejecting that claim blocks only this route."
+        }
+      ]
+    }
+  ],
+  "substantive_edits": [
+    {
+      "point_id": "HR28_UNC_support_01",
+      "reason": "Clarity: terms explained. Factual correction in the response: the unsupported paraphrase that the athlete study’s authors call it ‘not sufficient to guide policy’ was replaced by their exact sentence on sports-specific studies, after reading the study’s policy passage."
+    },
+    {
+      "point_id": "HR28_UNC_oppose_01",
+      "reason": "Clarity: terms explained. Added qualification in the response: its advantage premise is disputed, with an exact quotation from the 2026 review already cited on this page. Without it the response cited 2021 evidence alone. Limits on its reach are preserved."
+    },
+    {
+      "point_id": "HR28_SEP_support_01",
+      "reason": "Clarity: terms explained. Added context: World Rugby’s stated international-level scope and flexibility for national bodies, with exact quotations from the World Rugby news release already cited here, because this argument applies that conclusion to covered U.S. school competition."
+    },
+    {
+      "point_id": "HR28_SEP_support_02",
+      "reason": "Clarity: JV, varsity and CDC explained. Narrowed wording in the response: ‘the roster example’ and ‘the evidence does not supply’ now refer to the evidence given, so the response does not read as demanding a named case; its stated limit is kept."
+    },
+    {
+      "point_id": "HR28_SEP_support_03",
+      "reason": "Clarity: terms explained. Substantive surfacing: the separate route already named in the reviewed response is now stated in the PRO so that the two texts agree; no new evidence or argument was added."
+    }
+  ],
+  "limits": [
+    "Targeted source context, not exhaustive independent verification of all sources.",
+    "Mechanical quote and provenance checks do not establish evidential support.",
+    "ESL clarity has not been tested with human coders.",
+    "No reliability or workload improvement is inferred from software tests."
+  ]
+}
