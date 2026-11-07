@@ -1,5 +1,5 @@
 ---
-title: Policy rationale arguments
+title: Policy Stake Briefs
 ---
 
 For each of eight bills and six personal values, these pages ask whether the value gives a person, [NAME], a reason to favor the bill, and whether it gives a reason to oppose it. For each question, a PRO argument says yes and a CON argument answers it point by point. An AI model, Sol 6.1 at its maximum reasoning effort, wrote each argument, and a separate session of the same model reviewed it.
