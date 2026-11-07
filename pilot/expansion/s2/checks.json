@@ -34,7 +34,7 @@
     "exact_original_passages": 266,
     "source_files_hashed": 189
   },
-  "mapping_sha256": "b7bd0c6906cb8cc66a505dee16069e621f30d40efdfcdcc3b882de89fcce1ebd",
+  "mapping_sha256": "c61370b821763246c1af72ef0663901a2290f9e82306cf819b8f215b954fc02c",
   "limits": [
     "Source hashes and exact passages verify provenance and wording, not evidential support.",
     "Main source-context reading is documented separately; no ESL reader test is claimed."
