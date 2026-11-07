@@ -2,6 +2,14 @@
 export const YES='yes', NO='no';
 export function invariant(test,message){if(!test)throw new Error(message);}
 export function nodes(content){return [...content.claims,...content.arguments];}
+export function billFor(content,node){
+  if(!content.bills)return content.bill;
+  const target=typeof node==='string'?(node.startsWith('bill:')?{bill_id:node.slice(5)}:nodes(content).find(n=>n.id===node)??content.values.find(v=>v.id===node.replace(/^summary:/,''))):node;
+  const id=target?.bill_id;
+  const bill=content.bills.find(b=>b.id===id);
+  invariant(bill,`Missing bill context for ${typeof node==='string'?node:node?.id}.`);
+  return bill;
+}
 export function backgroundFact(content,id){return content.procedure?.background.find(f=>f.id===id);}
 export function judgedClaims(content){return content.claims.filter(c=>!backgroundFact(content,c.id));}
 // Preserve the historical randomization, including its RNG draws. Only the
@@ -18,6 +26,16 @@ export function validateContent(content){
   const all=nodes(content), ids=all.map(n=>n.id);
   invariant(new Set(ids).size===ids.length,'Duplicate claim or argument ID.');
   const claims=new Set(content.claims.map(c=>c.id)), visiting=new Set(), done=new Set();
+  if(content.bills){
+    const billIds=new Set(content.bills.map(b=>b.id)),valueIds=new Set(content.values.map(v=>v.id));
+    invariant(billIds.size===content.bills.length&&billIds.size>0,'Duplicate or missing bill.');
+    invariant(valueIds.size===content.values.length,'Duplicate value context.');
+    invariant([...all,...content.values,...content.catalog].every(n=>billIds.has(n.bill_id)),'Unknown bill assignment.');
+    for(const n of all){
+      if(n.value_id)invariant(content.values.some(v=>v.id===n.value_id&&v.bill_id===n.bill_id),'Argument has a mismatched value context.');
+      for(const p of paths(n))for(const id of p.requires)invariant(content.claims.some(c=>c.id===id&&c.bill_id===n.bill_id),'A dependency crosses bills or is missing.');
+    }
+  }
   if(content.procedure){
     const p=content.procedure,background=p.background.map(f=>f.id);
     invariant(p.base_content_version===content.version,'Procedure amendment has a different frozen content version.');
@@ -54,9 +72,10 @@ export function validateContent(content){
     invariant(users.length>=2,`${c.id}: a separate question needs genuine reuse.`);
   }
   if(content.catalog){
-    invariant(content.arguments.length===79,'S.1582 must contain all 79 active arguments.');
-    invariant(content.catalog.length===85,'Historical catalog must preserve 85 IDs.');
-    invariant(new Set(content.catalog.map(p=>p.id)).size===85,'Duplicate historical ID.');
+    const expected=content.expected_counts??{active:79,historical:85};
+    invariant(content.arguments.length===expected.active,'Active argument coverage differs from the frozen release.');
+    invariant(content.catalog.length===expected.historical,'Historical ID coverage differs from the frozen release.');
+    invariant(new Set(content.catalog.map(p=>p.id)).size===expected.historical,'Duplicate historical ID.');
     const active=new Set(content.arguments.map(a=>a.id));
     invariant(content.catalog.every(p=>p.retired?!active.has(p.id):active.has(p.id)),'Retirement mismatch.');
   }
@@ -112,18 +131,24 @@ export function strengthResult(content,state,value){
 export function rng(seed){let n=seed>>>0;return ()=>{n+=0x6D2B79F5;let x=n;x=Math.imul(x^(x>>>15),x|1);x^=x+Math.imul(x^(x>>>7),x|61);return ((x^(x>>>14))>>>0)/4294967296;};}
 export function shuffled(list,random){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function makeOrder(content,seed){
-  const random=rng(seed), remaining=new Set(content.claims.map(c=>c.id)), claimOrder=[];
-  while(remaining.size){
+  const random=rng(seed),sequence=[];
+  for(const bill of content.bills?shuffled(content.bills,random):[null]){
+   if(bill)sequence.push(`bill:${bill.id}`);
+   const localClaims=bill?content.claims.filter(c=>c.bill_id===bill.id):content.claims;
+   const localArguments=bill?content.arguments.filter(a=>a.bill_id===bill.id):content.arguments;
+   const remaining=new Set(localClaims.map(c=>c.id)),claimOrder=[];
+   while(remaining.size){
     // All prerequisites first, including prerequisites on alternative paths.
     const ready=[...remaining].filter(id=>paths(content.claims.find(c=>c.id===id)).every(p=>p.requires.every(d=>!remaining.has(d))));
     invariant(ready.length,'Circular shared-claim dependency.');
     for(const id of shuffled(ready,random)){claimOrder.push(id);remaining.delete(id);}
-  }
-  const sequence=[...claimOrder];
-  const values=shuffled([...new Set(content.arguments.map(a=>a.value_id))],random);
+   }
+  sequence.push(...claimOrder);
+  const values=shuffled(bill?content.values.filter(v=>v.bill_id===bill.id).map(v=>v.id):[...new Set(localArguments.map(a=>a.value_id))],random);
   for(const value of values){
-    for(const direction of shuffled(['support','oppose'],random))sequence.push(...shuffled(content.arguments.filter(a=>a.value_id===value&&a.direction===direction).map(a=>a.id),random));
+    for(const direction of shuffled(['support','oppose'],random))sequence.push(...shuffled(localArguments.filter(a=>a.value_id===value&&a.direction===direction).map(a=>a.id),random));
     sequence.push(`summary:${value}`);
+  }
   }
   return sequence;
 }
@@ -133,7 +158,7 @@ export function validateState(content,s){
   invariant(!s.procedureRevision||s.procedureRevision===content.procedure?.revision||content.procedure?.previous_revisions?.includes(s.procedureRevision),'This response uses a different coding procedure. No migration was applied.');
   invariant(Number.isInteger(s.seed)&&stable(s.order)===stable(makeOrder(content,s.seed)),'The saved randomized order does not match its recorded seed.');
   invariant(Number.isInteger(s.cursor)&&s.cursor>=0&&s.cursor<s.order.length,'The saved progress is invalid.');
-  const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.arguments.map(a=>a.value_id));
+  const ids=new Set(nodes(content).map(n=>n.id)),values=new Set(content.values?.map(v=>v.id)??content.arguments.map(a=>a.value_id));
   for(const key of ['judgments','nodeNotes','completed','flags','comparisons','comparisonNotes','omissions','summaryCompleted'])invariant(s[key]&&typeof s[key]==='object'&&!Array.isArray(s[key]),`The saved response is missing ${key}.`);
   for(const [id,j] of Object.entries(s.judgments))invariant(ids.has(id)&&[YES,NO].includes(j.answer)&&Number.isInteger(j.revision),'The saved judgments contain an invalid answer.');
   for(const [id,n] of Object.entries(s.nodeNotes))invariant(ids.has(id)&&typeof n==='string'&&n.length<=2000,'The saved notes are invalid.');
@@ -164,7 +189,7 @@ export function editState(content,state,action,now=new Date().toISOString()){
     invariant(typeof (action.notes??'')==='string'&&(action.notes??'').length<=2000,'Dependency notes must be at most 2,000 characters.');
     next.flags[action.id]={dependency:!!action.dependency,notes:action.notes??'',at:now};
   }else if(action.type==='comparisonNotes'){
-    invariant(content.arguments.some(a=>a.value_id===action.value),'Unknown value.');
+    invariant(content.values?.some(v=>v.id===action.value)||content.arguments.some(a=>a.value_id===action.value),'Unknown value.');
     invariant(typeof action.notes==='string'&&action.notes.length<=2000,'Comparison notes must be at most 2,000 characters.');
     next.comparisonNotes[action.value]=action.notes;
   }else if(action.type==='comparison'){
@@ -174,12 +199,12 @@ export function editState(content,state,action,now=new Date().toISOString()){
     next.comparisons[action.value]={answer:action.answer,notes:action.notes??'',basis:comparisonBasis(content,next,action.value),at:now};
   }else if(action.type==='omission'){
     invariant(['support','oppose'].includes(action.direction),'Invalid omitted-reason direction.');
-    invariant(content.arguments.some(a=>a.value_id===action.value),'Unknown value.');
+    invariant(content.values?.some(v=>v.id===action.value)||content.arguments.some(a=>a.value_id===action.value),'Unknown value.');
     invariant(typeof (action.text??'')==='string'&&(action.text??'').length<=4000,'Omitted reasons must be at most 4,000 characters.');
     next.omissions[`${action.value}:${action.direction}`]={text:action.text??'',at:now};
   }else if(action.type==='summary'){
     const args=content.arguments.filter(a=>a.value_id===action.value);
-    invariant(args.length>0,'Unknown value.');
+    invariant(content.values?.some(v=>v.id===action.value)||args.length>0,'Unknown value.');
     invariant(args.every(a=>pageComplete(content,next,a.id)),'Review every argument before completing the value.');
     invariant(valueResult(content,next,action.value).outcome!=='Pending','Unresolved judgments remain.');
     if(valueResult(content,next,action.value).outcome==='Both')invariant(next.comparisons[action.value]?.basis===comparisonBasis(content,next,action.value),'Choose a comparison, including Pending if needed.');
