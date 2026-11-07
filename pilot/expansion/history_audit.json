@@ -1,0 +1,25 @@
+{
+  "verified_date": "2026-11-07",
+  "bank_sha256": "58ee0a8afb315d3eed218025a44b939bf127748045555a81a4cebf7a16d0bfe5",
+  "authority": "Final reviewed releases, followed by the November 5 Tradition amendment; preserve original text and historical IDs.",
+  "rules": [
+    "No minimum effect size. Existence of a supported reason is separate from comparative strength.",
+    "Every argument is shown; no early stopping.",
+    "Only genuinely reused, substantively disputed claims or exact unresolved support gaps receive separate votes.",
+    "Direct bill provisions and adequately supported unchallenged claims are sourced context, never automatic Yes.",
+    "Combined necessary premises are AND; independent routes are OR.",
+    "CON targets actual necessary premise or inference; baseline, magnitude, no earmark or no bill-specific observation alone is insufficient.",
+    "Tradition requires identifiable inherited practice and continuity, not generic religiously endorsed morality.",
+    "Societal Security concerns collective/state protective capacity, not relabeled isolated individual harms.",
+    "Tolerance requires substantive understanding/acceptance across relevant differences, not generic information or compassion.",
+    "ESL wording assumes little or no prior policy/legal/US-government knowledge.",
+    "Validity qualifications accompany reasoning; size/timing/reach goes to Both-only comparison; editorial history stays in audit."
+  ],
+  "superseded": [
+    "Main-effect eligibility thresholds, four separate check questions, close-call follow-ups and required explanations.",
+    "Separate votes on every reused provision, uncontested possibility or adequately supported unchallenged statement.",
+    "Separate Main effect panel, usage lists on claim pages, dependency-flag control, and evidence-notes/gaps panels."
+  ],
+  "protection": "No keys, manuscript judgments, coder records, Qualtrics changes, live brief changes, or S.1582 saved-state changes.",
+  "current_shared_claim_rule": "Only genuinely reused, substantively disputed claims or exact unresolved support gaps receive separate votes. Direct provisions and adequately supported unchallenged statements are sourced context."
+}

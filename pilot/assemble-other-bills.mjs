@@ -69,7 +69,7 @@ export function assembleOtherBills(packages,historyAudit){
    values.push({id:valueId,bill_id:billId,value_code:page.value_id,name:page.value,statements:page.statements,reference:page.reference,source_url:page.source_url,source_bindings:page.source_bindings});
    for(const direction of page.directions)for(const original of direction.points){
     const id=original.point_id,retirement=retirements.get(id);
-    catalog.push({id,bill_id:billId,retired:!!original.retired||!!retirement,retirement:retirement??original.retirement??null,url:`${page.source_url}#${id}`,original});
+    catalog.push({id,bill_id:billId,retired:!!original.retired||!!retirement,retirement:retirement??original.retirement??null,retirement_reason:retirement?.reason??original.retirement_reason,url:`${page.source_url}#${id}`,original});
     if(original.retired){invariant(!revised.has(id)&&!retirement,`${id}: retired ID reused.`);continue;}
     invariant(revised.has(id)!==!!retirement,`${id}: missing or conflicting editorial decision.`);seen.add(id);
     if(retirement)continue;
