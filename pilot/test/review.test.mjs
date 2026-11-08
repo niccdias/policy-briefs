@@ -45,6 +45,13 @@ test('summary work includes comparison notes and omitted reasons, preserving dis
  assert.equal(summary.answer,'Oppose');assert.equal(summary.strength,null);assert.equal(summary.earlierAnswer,'support');assert.equal(summary.stale,true);
  assert.equal(s.comparisons.V.answer,'support');
 });
+test('a current comparison is not labeled earlier when summary completion needs renewal',()=>{
+ let s=newState(content,3);for(const id of ['C','A','B'])s=set(s,id,'yes');
+ for(const id of ['A','B'])s=editState(content,s,{type:'complete',id});
+ s=editState(content,s,{type:'comparison',value:'V',answer:'support'});s=editState(content,s,{type:'summary',value:'V'});
+ s=set(s,'A','no');s=set(s,'A','yes');s=editState(content,s,{type:'comparison',value:'V',answer:'oppose'});
+ const row=rows(s).find(r=>r.type==='summary');assert.equal(row.stale,true);assert.equal(row.strength,'oppose');assert.equal(row.earlierAnswer,undefined);
+});
 test('summary completion and Pending strength are independent statuses',()=>{
  let s=newState(content,3);for(const id of ['C','A','B'])s=set(s,id,'yes');
  for(const id of ['A','B'])s=editState(content,s,{type:'complete',id});

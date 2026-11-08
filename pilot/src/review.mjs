@@ -26,12 +26,13 @@ export function reviewRows(content,state,index){
   const row=index.get(id),statuses=[],summary=row.type==='summary',value=row.valueIds[0];
   const saved=summary?state.comparisons[value]:state.judgments[id];
   const notes=summary?[state.comparisonNotes[value]??saved?.notes??'',...['support','oppose'].map(d=>state.omissions[`${value}:${d}`]?.text??'')].join(' '):state.nodeNotes[id]??saved?.notes??'';
-  const complete=summary?state.summaryCompleted[value]===comparisonBasis(content,state,value):pageComplete(content,state,id);
+  const summaryBasis=summary?comparisonBasis(content,state,value):null;
+  const complete=summary?state.summaryCompleted[value]===summaryBasis:pageComplete(content,state,id);
   const worked=summary?!!(saved||Object.hasOwn(state.summaryCompleted,value)||Object.hasOwn(state.comparisonNotes,value)||['support','oppose'].some(d=>Object.hasOwn(state.omissions,`${value}:${d}`))):!!(saved||state.completed[id]||Object.hasOwn(state.nodeNotes,id));
   let answer,origin,stale,strength=null;
   if(summary){
    answer=valueResult(content,state,value).outcome;origin='summary';
-   stale=!!(saved&&saved.basis!==comparisonBasis(content,state,value)||Object.hasOwn(state.summaryCompleted,value)&&!complete);
+   stale=!!(saved&&saved.basis!==summaryBasis||Object.hasOwn(state.summaryCompleted,value)&&!complete);
    if(answer==='Both')strength=strengthResult(content,state,value);
    statuses.push(answer);if(strength==='Pending')statuses.push('strengthPending');
   }else{
@@ -43,7 +44,7 @@ export function reviewRows(content,state,index){
   if(stale&&origin!=='derived')statuses.push('reassess');
   statuses.push(complete?'complete':'needsReview');if(notes.trim())statuses.push('hasNotes');
   const strengthText=summary&&answer==='Both'?row.strengthEvidence.filter(item=>item.arguments.some(id=>effective(content,state,id).answer==='yes')).map(item=>item.text).join(' '):'';
-  return {...row,answer,origin,stale,strength,earlierAnswer:saved?.answer,complete,worked,notes,statuses,search:[row.search,normalize(notes),strengthText].join(' ')};
+  return {...row,answer,origin,stale,strength,earlierAnswer:summary&&saved?.basis===summaryBasis?undefined:saved?.answer,complete,worked,notes,statuses,search:[row.search,normalize(notes),strengthText].join(' ')};
  });
 }
 
