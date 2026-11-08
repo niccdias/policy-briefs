@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-08T10:41:37.692Z",
+  "verifier": "Codex main agent",
+  "source_commit": "eecda5296dbb79f2cf8975b4ae1ffe7c41dde487",
+  "binding": {
+    "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+    "procedure_id": "procedure-20261107-344e19dfc7b89622",
+    "mapping_id": "mapping-236a7cfb3af2b65d",
+    "rendered_id": "rendered-1407ed0b8bf4b90a2cf8",
+    "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+    "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+    "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+    "implementation_sha256": {
+      "src/app.jsx": "4adb9b384279a673d7e70dfd684e4c1791b063f162f0ef9d39334c3d9b6552ee",
+      "src/review.mjs": "6956dade99ae512d9b78b1eb8276063ae20b9bb2fb3bfc6f946bf44b35380d7f",
+      "release/review-copy.json": "2f968938baeacada7b48e2a208015bf321789e3b19985904de0871756678cbb5",
+      "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+      "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+      "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+      "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+      "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+      "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+      "style.css": "aabf77f2429a28643f4ff3a1d5032f2326ceef3fe3a81cab46ffbfc1df55e2ab",
+      "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+      "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+      "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+      "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+      "rendered-release.mjs": "ce36400541b96c7bd371980de4c92b8b49f540207f93b5208f6c0a59cda3b777",
+      "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+      "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+      "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+    }
+  },
+  "scope": "Synthetic QA of the review interface, with demo Firebase Auth/Firestore emulators only.",
+  "fixture": {
+    "seed": 20261108,
+    "assigned_decisions": 574,
+    "previously_worked_decisions": 41,
+    "target": "S1582_UNN_oppose_01",
+    "shared_claim": "C03",
+    "background": "C01",
+    "value": "UNN",
+    "preserved_cursor": 43,
+    "preserved_current_id": "S1582_SES_support_10"
+  },
+  "tests": {
+    "regression": {
+      "command": "npm test --prefix pilot",
+      "passed": 78,
+      "failed": 0
+    },
+    "security_and_storage": {
+      "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8089 node --test --test-concurrency=1 test/rules.test.mjs test/storage.test.mjs",
+      "passed": 8,
+      "failed": 0
+    },
+    "browser": {
+      "route": "http://127.0.0.1:8778/coding/?qa=1&emulator=1",
+      "checks": [
+        "Default includes saved work in assigned order: 41",
+        "All assigned items includes574 decisions, excludes background/retired",
+        "No-results message and zero count",
+        "Displayed linked titles + summary strength evidence searchable",
+        "Combined search/bill/value/type/direct-answer filters and Unicode case search",
+        "Clear filters preserves chosen scope",
+        "Browsing/search/filter/reload creates no draft, revision or coding-state change (full exported-state equality)",
+        "Argument opens correct bill/value/evidence/saved notes and focuses heading",
+        "Save and return preserves filters, including now-empty note search",
+        "Related claim link opens existing shared-claim judgment with review context",
+        "Premise No immediately derives No, retains earlier Yes, distinguishes direct-answer filter and completion status",
+        "Changed premise immediately invalidates summary/comparison, retaining earlier stronger reason separately",
+        "Summary completion rejects incomplete derived pages using existing validation",
+        "Summary comparison + notes edit saves/completes and returns with initial Both distinct from stronger Oppose",
+        "Combined filters with real bill ID confirmed119_S_1582+UNN+argument+yes+Unicode note query",
+        "Edit results resume restores original cursor43 / S1582_SES_support_10",
+        "Full export comparison: only intended note/comparison/completion records changed; judgment/order/cursor/omission/flag records equal",
+        "Related background opens full sources without leaving review",
+        "Back to results restores exact scroll position and focused originating result after related background",
+        "Interrupted emulator network retains draft; reload restores active target + draft and resumes autosave",
+        "Mobile390×844 screenshot visually inspected; controls/results have no horizontal overflow",
+        "Synthetic account2 starts with independent defaults, no account1 target/filter/notes; separate account namespace",
+        "Desktop1280×800 screenshot visually inspected; two-column filters, visible review entry, no overflow",
+        "QA/research session-kind isolation on synthetic emulator account: independent default review/no QA notes",
+        "Keyboard/accessibility semantics: native focusable buttons/radios/search/selects with labels and no negative tab stops; open/back heading/result focus verified"
+      ]
+    }
+  },
+  "pass": true,
+  "limits": [
+    "Paseo browser_keypress dispatch did not activate native Enter defaults; physical keyboard/assistive technology testing not claimed. Automatic approval review rejected alternate CUA browser inspection because Paseo is required; no alternate route used.",
+    "Screenshots and layout checks use WebKit desktop/mobile viewports, not physical mobile devices.",
+    "No human usability study; no production-record writes in QA."
+  ]
+}
