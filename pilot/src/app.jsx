@@ -1,5 +1,5 @@
 import {render} from 'preact';
-import {useEffect,useMemo,useRef,useState} from 'preact/hooks';
+import {useEffect,useLayoutEffect,useMemo,useRef,useState} from 'preact/hooks';
 import {validateContent,validateState,billFor,nodes,paths,claimAncestors,claimUsers,backgroundFact,codingOrder,currentCursor,nextCursor,newState,editState,effective,basis,pageComplete,progress,valueResult,strengthResult,comparisonBasis,csvExport,stable} from './core.mjs';
 import {connect,ConflictError,keepDraft,readDraft,clearDraft} from './storage.mjs';
 import {readingHTML,strengthEvidence,displayBackground} from './evidence.mjs';
@@ -99,7 +99,7 @@ function App({content,service}){
   addEventListener('online',online);addEventListener('beforeunload',unload);
   return()=>{removeEventListener('online',online);removeEventListener('beforeunload',unload);watch.current?.();clearTimeout(timer.current);};
  },[]);
- useEffect(()=>{
+ useLayoutEffect(()=>{
   if(!user||!state||!reviewReady.current)return;
   const persist=()=>{try{sessionStorage.setItem(reviewKey(user.uid,session),JSON.stringify({...review,scroll:review.open&&!review.target?window.scrollY:review.scroll}));}catch{setReviewError(reviewCopy.storageError);}};
   persist();addEventListener('pagehide',persist);
