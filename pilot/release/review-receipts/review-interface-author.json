@@ -4108,7 +4108,7 @@
     "limits": "I did not run the full gate, the build or the tests. I did not compare the copied review-inputs Markdown files byte for byte with my supplements. Source reading limits are those recorded per finding."
   },
   "interface_change": {
-    "source_commit": "eecda527",
+    "source_commit": "eecda5296dbb79f2cf8975b4ae1ffe7c41dde487",
     "files_with_changed_hashes": [
       "release/review-copy.json",
       "rendered-release.mjs",

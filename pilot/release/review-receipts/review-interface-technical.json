@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "receipt": "review-interface-technical",
+  "model": "gpt-6.1-sol",
+  "effort": "max",
+  "verifier": "Independent native Codex source and interface verification agent",
+  "checked_at": "2026-11-08T10:46:46.866Z",
+  "source_commit": "eecda5296dbb79f2cf8975b4ae1ffe7c41dde487",
+  "repository_head_at_check": "edfde4c96e43356df98f60c3d75ea1a2d5060115",
+  "binding": {
+    "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+    "procedure_id": "procedure-20261107-344e19dfc7b89622",
+    "mapping_id": "mapping-236a7cfb3af2b65d",
+    "rendered_id": "rendered-1407ed0b8bf4b90a2cf8",
+    "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+    "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+    "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+    "implementation_sha256": {
+      "src/app.jsx": "4adb9b384279a673d7e70dfd684e4c1791b063f162f0ef9d39334c3d9b6552ee",
+      "src/review.mjs": "6956dade99ae512d9b78b1eb8276063ae20b9bb2fb3bfc6f946bf44b35380d7f",
+      "release/review-copy.json": "2f968938baeacada7b48e2a208015bf321789e3b19985904de0871756678cbb5",
+      "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+      "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+      "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+      "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+      "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+      "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+      "style.css": "aabf77f2429a28643f4ff3a1d5032f2326ceef3fe3a81cab46ffbfc1df55e2ab",
+      "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+      "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+      "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+      "publication-gate.mjs": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+      "rendered-release.mjs": "ce36400541b96c7bd371980de4c92b8b49f540207f93b5208f6c0a59cda3b777",
+      "build.mjs": "70779f640a9b3ea544ed2ec477fb038809caf806616df944f1f32cd233502ab8",
+      "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+      "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+    }
+  },
+  "scope": "Independent source review, local regression execution, frozen-content provenance checks and bounded interface-copy scan. No new semantic/source reading of the inherited 101 content findings and no independent browser or production-record access.",
+  "runtime_check": {
+    "route": "Native Codex subagent under the parent session; no external worker, further delegation or inference API.",
+    "model_effort_basis": "Task-assigned Sol 6.1 Max and inherited native subagent configuration; no separate runtime introspection claimed."
+  },
+  "pass": true,
+  "open_material_findings": [],
+  "inherited_content": {
+    "baseline_commit": "809c988471197c9b5f5df3a8ea9851d1df92fe28",
+    "publication_sha256": "b8b6a76d8486cfa0e4d350f671e66a520b246ae718dd00afeeadeebd112cea2c",
+    "verification_receipt": {
+      "path": "review-receipts/verification.json",
+      "sha256": "531b4cc277aab565a0449b53dca003d004479b0645b4c0e9cecac340ef85ddd2",
+      "checked_at": "2026-11-07T22:02:40.700Z"
+    },
+    "author_receipt": {
+      "path": "review-receipts/author.json",
+      "sha256": "b31c18dd0a8049677205f3bf35b90e64a58d069113448af62c778510e92dd641"
+    },
+    "semantic_binding": {
+      "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+      "procedure_id": "procedure-20261107-344e19dfc7b89622",
+      "mapping_id": "mapping-236a7cfb3af2b65d",
+      "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+      "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+      "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864"
+    },
+    "findings": 101,
+    "matching_current_finding_record_hashes": 101,
+    "unchanged_patches": 422,
+    "unchanged_inventory_sources": 31,
+    "finding_sources_sha256": "c42fa3594d05c6da687e5ea7eae0385706afdf5ed0490934025027c9a64b7a89",
+    "unchanged_procedure_files": [
+      "README.md",
+      "common.md",
+      "current_contract.md",
+      "finding_closure_gate.md",
+      "roles.md",
+      "worker_task.md"
+    ],
+    "baseline_byte_comparison_paths": [
+      "content.json",
+      "expansion/content.json",
+      "release/content.json",
+      "src/core.mjs",
+      "src/storage.mjs",
+      "src/evidence.mjs",
+      "src/resume.mjs",
+      "src/payload.mjs",
+      "src/release.mjs",
+      "release/ui-copy.json",
+      "release/publication.json",
+      "release/finding_sources.json",
+      "release/review-receipts/author.json",
+      "release/review-receipts/verification.json",
+      "publication-gate.mjs",
+      "build.mjs",
+      "public-view.mjs"
+    ],
+    "evidence_scope": "All copied finding rows, their original dates and evidence, mandatory inspection, retained sample, semantic checks and artifact references are reused from the exact original verification receipt. Equality checks establish unchanged bytes and applicability; they do not claim new full-source or semantic rereading."
+  },
+  "implementation_review": {
+    "frozen_source_paths": [
+      "src/app.jsx",
+      "src/review.mjs",
+      "release/review-copy.json",
+      "src/core.mjs",
+      "src/evidence.mjs",
+      "src/storage.mjs",
+      "src/resume.mjs",
+      "src/payload.mjs",
+      "src/release.mjs",
+      "style.css",
+      "index.html",
+      "release/ui-copy.json",
+      "public-view.mjs",
+      "publication-gate.mjs",
+      "rendered-release.mjs",
+      "build.mjs",
+      "package.json",
+      "test/review.test.mjs",
+      "test/review-browser.mjs",
+      "release/review-copy-approval.json"
+    ],
+    "changed_rendered_paths": [
+      "release/review-copy.json",
+      "rendered-release.mjs",
+      "src/app.jsx",
+      "src/review.mjs",
+      "style.css"
+    ],
+    "unchanged_other_rendered_paths": [
+      "src/core.mjs",
+      "src/evidence.mjs",
+      "src/storage.mjs",
+      "src/resume.mjs",
+      "src/payload.mjs",
+      "src/release.mjs",
+      "index.html",
+      "release/ui-copy.json",
+      "public-view.mjs",
+      "publication-gate.mjs",
+      "build.mjs",
+      "../.github/workflows/deploy.yml",
+      "../quartz/styles/custom.scss"
+    ],
+    "gate_sha256": "0e60135d668d841b1976b246940a93dc738765a9d47f718daa5c99eadb65bdfb",
+    "gate_implementation_patch": "IMPL-GATE remains applied at its original after hash.",
+    "findings": [
+      {
+        "id": "REVIEW-SEARCH",
+        "status": "resolved",
+        "evidence": "makeReviewIndex receives the same cleanHTML wording used on screen, includes summary argument/response bodies, and adds strength evidence only for currently accepted arguments when the outcome is Both. Regression coverage and the main-observed browser report cover the original missing linked-title/strength search cases."
+      },
+      {
+        "id": "REVIEW-RESTORE",
+        "status": "resolved",
+        "evidence": "readReviewView permits assigned active decision IDs and background IDs; bill:* targets fail validation, so restored review targets cannot expose ordinary bill cursor navigation."
+      }
+    ],
+    "reviewed_behavior": [
+      "Review browsing, filters and target selection use component/sessionStorage state rather than editState or the saved cursor.",
+      "Related shared claims and background stay in review; save-and-return uses the existing judgment/completion actions and preserves the saved coding cursor.",
+      "Current direct Yes/No, derived No, reassessment, unresolved mappings, initial outcomes and stronger-reason Pending have separate status handling. Retained direct answers and stale comparisons are not presented as current answers.",
+      "Autosave, draft retention, conflict resolution and completion validators remain in their existing implementation; core, storage, resume, payload, evidence and release modules match the baseline bytes.",
+      "sessionStorage keys include account UID and content-version/session-kind; useLayoutEffect writes the current view before browser navigation, and the existing heading/result focus handling preserves return context.",
+      "Search uses displayed argument/claim/summary wording and current personal notes, applies combined bill/value/type/status filters, and retains assigned order.",
+      "New controls use native buttons, radios, search inputs and selects with associated labels; source inspection supports native focus semantics. Actual keyboard default activation and assistive-technology behavior are not independently tested."
+    ]
+  },
+  "independent_tests": [
+    {
+      "command": "npm test --prefix pilot",
+      "passed": 78,
+      "failed": 0,
+      "includes_review_tests": 11
+    },
+    {
+      "name": "Frozen content approval validation",
+      "pass": true,
+      "findings": 101
+    },
+    {
+      "name": "Baseline bytes, source inventory and all current findingRecordHash values",
+      "pass": true,
+      "baseline_paths": 17,
+      "inventory_sources": 31,
+      "findings": 101,
+      "patches": 422
+    }
+  ],
+  "review_copy_scan": {
+    "path": "release/review-copy.json",
+    "sha256": "2f968938baeacada7b48e2a208015bf321789e3b19985904de0871756678cbb5",
+    "string_keys": 50,
+    "banned_phrase_count": 29,
+    "comparisons": 1450,
+    "matches": [],
+    "method": "HTML-to-text decoding, whitespace normalization, lowercase matching and word-boundary phrase checks matching the unchanged publication gate semantics. This independent scan covers the new copy file, which the existing gate does not scan."
+  },
+  "fresh_author_approval": {
+    "path": "review-receipts/review-interface-author.json",
+    "sha256": "95fb542b4d7253cef8f67842b6770ff8225ded6dbbe3545314569af8f6839c0b",
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "binding_matches": true,
+    "unchanged_dispositions": 101
+  },
+  "main_observed_qa": {
+    "path": "review-interface-qa.json",
+    "sha256": "09472816b516ffadb6d7028ff7ecfcc0d36c16b4cb74043f6cec71cc019b7849",
+    "observer": "Codex main agent",
+    "source_commit": "eecda5296dbb79f2cf8975b4ae1ffe7c41dde487",
+    "binding_matches": true,
+    "pass": true,
+    "browser_checks": 25,
+    "emulator_rules_storage": {
+      "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8089 node --test --test-concurrency=1 test/rules.test.mjs test/storage.test.mjs",
+      "passed": 8,
+      "failed": 0
+    },
+    "attribution": "Report and exact binding reviewed independently; browser interactions, screenshots and emulator tests in this report were performed by the main agent, not repeated by this verifier.",
+    "limits": [
+      "Paseo browser_keypress dispatch did not activate native Enter defaults; physical keyboard/assistive technology testing not claimed. Automatic approval review rejected alternate CUA browser inspection because Paseo is required; no alternate route used.",
+      "Screenshots and layout checks use WebKit desktop/mobile viewports, not physical mobile devices.",
+      "No human usability study; no production-record writes in QA."
+    ]
+  },
+  "publication_validation": {
+    "frozen_content_approval": {
+      "pass": true,
+      "findings": 101
+    },
+    "proposed_fresh_binding": {
+      "pass": true,
+      "findings": 101,
+      "method": "validatePublication against an in-memory publication wrapper with the current binding, the fresh Opus author continuation and this new verification wrapper. No on-disk publication edit."
+    },
+    "official_build_parity_and_live_smoke": "Pending; root owns these final checks after receipt installation."
+  },
+  "limits": [
+    "No independent browser testing, production account or record access, external source retrieval, new source-truth/semantic judgment, coding key, R execution, PDF work or final public prose editing.",
+    "Physical keyboard activation and assistive-technology testing are not claimed. The main agent reports Paseo synthetic keypress did not activate Enter defaults; automatic review rejected alternate CUA inspection because the required route was Paseo. Native control/focus semantics were inspected, and main-observed heading/result focus checks are recorded in the QA report.",
+    "Main-observed layout checks use desktop/mobile WebKit viewports, not physical mobile hardware; no human novice/ESL usability study.",
+    "Original semantic evidence and technical artifact references remain historical and retain their own source-reading limits. Current technical verification does not convert them into newly performed reviews.",
+    "Official production build, built parity and live smoke remain pending with the main agent."
+  ]
+}
