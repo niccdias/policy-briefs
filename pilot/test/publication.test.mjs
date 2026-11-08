@@ -5,7 +5,8 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
-import {validatePublication,retainedSample,publicationBinding,assertPublicationReady,findingRecordHash} from '../publication-gate.mjs';
+import {validatePublication,retainedSample,publicationBinding,assertPublicationReady,findingRecordHash,verificationEvidenceFields,verificationEvidence,expandVerification} from '../publication-gate.mjs';
+import {stable} from '../src/core.mjs';
 
 function candidate(){
  const content={schema_version:1,version:'frozen',claims:[],arguments:[{id:'A',value_id:'V',direction:'support',paths:[{requires:[]}],pro_html:'<p>A limited claim.</p>'},{id:'B',value_id:'V',direction:'support',paths:[{requires:[]}],pro_html:'<p>Another claim.</p>'}],values:[{id:'V',bill_id:'BILL'}],catalog:[{id:'A',retired:false},{id:'B',retired:false}],expected_counts:{active:2,historical:2},release:{content_id:'content-1'},procedure:{base_content_version:'frozen',revision:'p1',background:[],retained_questions:[]}};
@@ -15,7 +16,13 @@ function candidate(){
  const author={model:'claude-opus-5-5',effort:'high',binding:structuredClone(binding),approved_findings:['F1'],dispositions:structuredClone(findings)};
  const verification={model:'gpt-6.1-sol',effort:'max',binding:structuredClone(binding),pass:true,open_material_findings:[],checked_findings:['F1'],findings:[{id:'F1',classification:'confirmed_defect',disposition:'corrected',pass:true,evidence:'The source and corrected text were inspected.',verifier:'Independent Sol verifier',checked_at:'2026-11-07T12:00:00Z',record_sha256:findingRecordHash(content,findings[0]),...Object.fromEntries(['content_id','procedure_id','mapping_id'].map(key=>[key,binding[key]]))}],mandatory_inspection:{pass:true,argument_ids:['A'],claim_ids:[]},retained_sample:{pass:true,content_id:'content-1',rows:retainedSample(content,['A']),argument_ids:['B']}};
  verification.checks=Object.fromEntries(['mirrors','quotations','source_bindings','retirements','dependencies','comparable_cases'].map(k=>[k,{pass:true,evidence:'Inspected the candidate.'}]));
+ verification.inventory_sources={'clarity-a.json':'synthetic-source-hash'};verification.finding_sources_sha256='synthetic-source-index-hash';
  return {content,binding,inventory:[{id:'F1'}],approval,author,verification};
+}
+
+function minimalVerification(verification){
+ const receipt={...verification};for(const key of verificationEvidenceFields)delete receipt[key];
+ return {...receipt,evidence_sha256:createHash('sha256').update(stable(verificationEvidence(verification))).digest('hex')};
 }
 
 function refresh(c){
@@ -27,6 +34,58 @@ function refresh(c){
 
 test('the closure gate accepts a complete independently checked candidate',()=>{
  assert.equal(validatePublication(candidate()).pass,true);
+});
+
+test('author approval can bind the exact dispositions by digest without duplicating them',()=>{
+ const c=candidate();c.author.dispositions_sha256=createHash('sha256').update(stable(c.approval.findings)).digest('hex');delete c.author.dispositions;
+ assert.equal(validatePublication(c).pass,true);
+});
+
+test('digest approval rejects missing or wrong hashes, changed dispositions and mixed formats',()=>{
+ for(const change of [
+  c=>delete c.author.dispositions_sha256,
+  c=>c.author.dispositions_sha256=undefined,
+  c=>c.author.dispositions_sha256='0'.repeat(64),
+  c=>c.approval.findings[0].disposition='retired',
+  c=>c.author.dispositions=structuredClone(c.approval.findings),
+  c=>c.author.dispositions=undefined,
+ ]){
+  const c=candidate();c.author.dispositions_sha256=createHash('sha256').update(stable(c.approval.findings)).digest('hex');delete c.author.dispositions;
+  change(c);assert.throws(()=>validatePublication(c),/dispositions differ from those approved by Opus/);
+ }
+});
+
+test('minimal verification expands only required public evidence and preserves the new approval metadata',()=>{
+ const c=candidate(),baseline=structuredClone(c.verification),receipt=minimalVerification({...c.verification,issue_release:{content_id:'synthetic-issue'},version:'synthetic-version'});
+ Object.assign(baseline,{binding:{rendered_id:'earlier'},model:'earlier model',pass:false,open_material_findings:['earlier'],internal_audit:'excluded'});
+ baseline.findings[0].origins=['excluded'];baseline.mandatory_inspection.internal_audit='excluded';baseline.retained_sample.internal_audit='excluded';
+ const before=JSON.stringify([receipt,baseline]),expanded=expandVerification(receipt,baseline);
+ assert.equal(JSON.stringify([receipt,baseline]),before);assert.deepEqual(expanded.binding,receipt.binding);assert.deepEqual(expanded.issue_release,receipt.issue_release);assert.equal(expanded.version,receipt.version);assert.equal(expanded.model,receipt.model);assert.equal(expanded.pass,true);assert.deepEqual(expanded.open_material_findings,[]);
+ assert.equal(expanded.internal_audit,undefined);assert.equal(expanded.findings[0].origins,undefined);assert.equal(expanded.mandatory_inspection.internal_audit,undefined);assert.equal(expanded.retained_sample.internal_audit,undefined);
+ assert.equal(validatePublication({...c,verification:expanded}).pass,true);assert.strictEqual(expandVerification(c.verification),c.verification);
+});
+
+test('minimal verification rejects missing, malformed, wrong, mixed and stale evidence approvals',()=>{
+ const baseline=candidate().verification,receipt=minimalVerification(baseline);
+ for(const digest of [undefined,null,'bad','0'.repeat(64),receipt.evidence_sha256.toUpperCase()])assert.throws(()=>expandVerification({...receipt,evidence_sha256:digest},baseline),/Publication blocked/);
+ const missing={...receipt};delete missing.evidence_sha256;assert.throws(()=>expandVerification(missing,baseline),/evidence is missing/);
+ for(const key of verificationEvidenceFields){
+  assert.throws(()=>expandVerification({...receipt,[key]:undefined},baseline),/mixes inline evidence/);
+  const incomplete=structuredClone(baseline);delete incomplete[key];assert.throws(()=>expandVerification(receipt,incomplete),/baseline verification evidence is incomplete/);
+ }
+ for(const change of [b=>b.findings[0].evidence+=' changed',b=>b.inventory_sources['clarity-a.json']='changed']){const stale=structuredClone(baseline);change(stale);assert.throws(()=>expandVerification(receipt,stale),/differs from the approved public baseline/);}
+ const incomplete=structuredClone(baseline);delete incomplete.findings[0].record_sha256;assert.throws(()=>expandVerification(receipt,incomplete),/baseline verification evidence is incomplete/);
+ assert.throws(()=>expandVerification(receipt,undefined),/baseline verification evidence is incomplete/);assert.throws(()=>expandVerification(null,baseline),/evidence is missing/);
+});
+
+test('digest verification still requires all binding, inventory, patch, record, inspection and sample checks',()=>{
+ for(const change of [
+  c=>c.verification.binding.rendered_id='older',c=>c.verification.model='other',c=>c.verification.effort='low',c=>c.verification.pass=false,c=>c.verification.open_material_findings.push('F1'),
+  c=>c.inventory.push({id:'F2'}),c=>c.verification.checked_findings=[],c=>c.approval.patches[0].after='<p>Not applied.</p>',c=>c.verification.findings[0].record_sha256='older',
+  c=>c.verification.mandatory_inspection.argument_ids=[],c=>c.verification.retained_sample.argument_ids=[],c=>c.verification.checks.mirrors.pass=false,
+ ]){
+  const c=candidate();change(c);c.verification=expandVerification(minimalVerification(c.verification),c.verification);assert.throws(()=>validatePublication(c),/Publication blocked/);
+ }
 });
 
 test('an audit log, human-judgment waiver, or missing inventory row cannot close a defect',()=>{
@@ -168,6 +227,10 @@ test('on-disk inventory edits, missing sources and changed receipts block public
   }
   await put('publication.json',c.approval);
   assert.equal((await assertPublicationReady(base)).pass,true);
+  await put('review-receipts/review-interface-verification.json',c.verification);
+  const minimalBytes=JSON.stringify(minimalVerification(c.verification));await put('review-receipts/verification.json',minimalBytes);c.approval.receipts.verification.sha256=sha(minimalBytes);await put('publication.json',c.approval);
+  assert.equal((await assertPublicationReady(base)).pass,true);
+  const stale=structuredClone(c.verification);stale.findings[0].evidence+=' changed';await put('review-receipts/review-interface-verification.json',stale);await assert.rejects(assertPublicationReady(base),/differs from the approved public baseline/);await put('review-receipts/review-interface-verification.json',c.verification);
   await put('review-inputs/report.md','A new finding F2.');await assert.rejects(assertPublicationReady(base),/inventory changed/);
   await put('review-inputs/report.md',report);
   await put('review-receipts/verification.json',{});await assert.rejects(assertPublicationReady(base),/receipt hash/);

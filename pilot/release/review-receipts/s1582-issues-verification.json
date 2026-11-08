@@ -1,0 +1,59 @@
+{
+  "model": "gpt-6.1-sol",
+  "effort": "max",
+  "binding": {
+    "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+    "procedure_id": "procedure-20261107-344e19dfc7b89622",
+    "mapping_id": "mapping-236a7cfb3af2b65d",
+    "rendered_id": "rendered-b91bff2229bf49288c1f",
+    "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+    "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
+    "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
+    "implementation_sha256": {
+      "src/app.jsx": "d0c6fe7415e0ec10cfddd7a917069df1bf634327b93c52b11b45100d522df93e",
+      "src/review.mjs": "a656789bc1a5620d0f8cb136c15287c364576e74ef10b409085f86d9346d6751",
+      "src/issues.mjs": "4bb2ffaff22585997d7318a29b64bacf324a63d694d199a7b5c1902152f93db6",
+      "src/issue-review.mjs": "499f7412c0ea69ab1e7f5d57925852df3fd72f309a56cec651841cdea5a9bb18",
+      "src/issue-ui.jsx": "f0ca194e086d185dc6ce9ef8af82e5ddc5eddee21698f35a160735cfc00f6f7a",
+      "assemble-issues.mjs": "dbf47de95437f04cc541863dfd3c6d9e05833f49b413688034d3eb768eac0978",
+      "issues/issue-map.json": "94b4ce15e199c7eb2ccdb696b6cd44d9a51ba2f8d63e53f18833cdcf50375d21",
+      "issues/ui-copy.json": "c9f0ba6ccb2545ebcf1855c28f8231964ec9c4bae369c7faffccf6729489214f",
+      "issues/REVIEW.md": "4a7037755afe6538563385963d45d74c605dd0e06c1ad0d6d35234aeb21024da",
+      "release/review-copy.json": "2f968938baeacada7b48e2a208015bf321789e3b19985904de0871756678cbb5",
+      "src/core.mjs": "3cdf6ca62ad985caa1480e859961e2432e4d6f9b72baaf5822617aca3f30a124",
+      "src/evidence.mjs": "5125ecf09aea1d81171317975cbed88d1a5469cf35ded2bb6e1e589d97b5cbb3",
+      "src/storage.mjs": "458c38f48f3ae6f4843c23b89dc4975b399d32f93f089faee0f50c81d682ebc1",
+      "src/resume.mjs": "0591497b6d4a20a419901c87ecf50de9ec3772e44c861c28c154a0e77420a36c",
+      "src/payload.mjs": "b77336d886f3cfd9a1676bd4677957b29d16a6250bdba553dee86d133e0d19bc",
+      "src/release.mjs": "ad73cbee0c4a740916dface6cb65b519b8c2902eb3b28f2a84082615772948a2",
+      "style.css": "8d216b2f4d9defce93ad7eb700ca5cd0eee710ad9b7de038694017332739e71f",
+      "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
+      "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
+      "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+      "publication-gate.mjs": "ac8a867b2ff20d7c78a3eede276c68b44d9b3c721a58acfebc2592889548ac4a",
+      "rendered-release.mjs": "1cdde3f8ad75479a99180ed81becc0529929975b6f52da263fd59e26262df538",
+      "build.mjs": "8cb17aba4b6b400f8bc3264e77a1b9340689c01ed5ddbf57b4bd23ef0b9fc53f",
+      "../.github/workflows/deploy.yml": "7c7622babbf580e9182f4a58ccf4e221f516f18800157180374c0278ad2f39aa",
+      "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
+    }
+  },
+  "pass": true,
+  "open_material_findings": [],
+  "evidence_sha256": "4cc1418702bd6cf5f294e250eb8f95b50abbb7587d3311317f0b3a2a354cbf13",
+  "issue_release": {
+    "content_id": "s1582-issues-fdb283b53f1d794906b5",
+    "procedure_id": "issue-procedure-94bfdb115940db9006ac",
+    "mapping_id": "issue-mapping-9ab06b42b9afd8196e6b",
+    "rendered_id": "rendered-1aa1f935d40db7414f26"
+  },
+  "issue_source": {
+    "source_content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+    "source_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+    "map_sha256": "9ab06b42b9afd8196e6bcc5dcc525e7768685d8afa0a571cec2cf4db3b23b125",
+    "copy_sha256": "0d12db31ff627751f672f95d4eaaecadb8b68ccc4fa0c74b8cd52a9bad7c0ca2"
+  },
+  "issue_version": "s1582-issues-20261108-v1",
+  "statement": "I independently verify that the S.1582 pilot covers79 original arguments in49 issues across6 values and preserves their evidence, responses, notes, qualifications and paths. All102 non-emulator tests and65 evidence-projection/expansion cases passed. No material findings remain open. App/content/map/copy checks carry forward unchanged; only the gate changed. I approve the inherited required checks by their exact evidence digest.",
+  "inheritance": "The digest is SHA-256 of stable(verificationEvidence()) for the fixed existing public review-receipts/review-interface-verification.json. Required finding values, mandatory inspection, retained selection and six check fields exactly equal that public baseline after source/record/inventory hash verification; ancillary fields are omitted. Historical dates, evidence and reading limits remain attributed to that review. This is unchanged-evidence carryforward, without a new full-corpus or primary-source review.",
+  "limits": "Fresh reading covered79 displayed argument/response pairs and25 shared/context claims. Earlier wording retention was checked mechanically and through interface code. No new reading of all502 arguments/primary sources, complete historical-wording or source-capture audit, human comprehension/workload/reliability study, new coding key or production-data work is claimed. Browser/emulator QA was not independently repeated. Multi-member issue answers do not identify accepted members; cross-issue overlaps require retaining each distinct accepted effect, including weaker sides. Inherited bounded reading and sample limits continue to apply."
+}

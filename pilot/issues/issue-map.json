@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "source_content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
+  "source_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+  "bill_id": "119_S_1582",
+  "issues": [
+    {
+      "id": "S1582_UNN_I01",
+      "value_id": "UNN",
+      "title": "Climate pollution",
+      "introduction": "One argument says clearer rules for stablecoin payments would help finance renewable electricity. Another says the bill would add to Bitcoin mining and to the climate pollution from the power that mining uses.",
+      "argument_ids": [
+        "S1582_UNN_support_03",
+        "S1582_UNN_oppose_01"
+      ],
+      "grouping_rationale": "Common endpoint: greenhouse-gas pollution and the climate harm it does to forests and ecosystems. SUPPORT_03 runs through C01 (added institutional use after Section 16 clarity) to faster settlement in renewable-energy markets; its own gap is the missing link from freed money to added renewable generation. OPPOSE_01 runs only through C03 (more mining) to fossil-heavy marginal electricity and displaced renewable supply. The mechanisms are independent: neither argument answers the other's reasoning, so they are compared as separate climate effects on the same endpoint, not as rebuttals."
+    },
+    {
+      "id": "S1582_UNN_I02",
+      "value_id": "UNN",
+      "title": "Damage to forests, land and wildlife",
+      "introduction": "One argument says the bill's freezing duties would help stop payments for illegal gold mining and wildlife trafficking. Two arguments say added Bitcoin mining would damage land through its fuel supply and would disturb wildlife with noise.",
+      "argument_ids": [
+        "S1582_UNN_support_01",
+        "S1582_UNN_oppose_05",
+        "S1582_UNN_oppose_07"
+      ],
+      "grouping_rationale": "Common endpoint: physical damage to land habitats and the wildlife living in them. SUPPORT_01 is a safeguard: legal freezing power over named payments (C13, C14 background) applied to crimes that clear forest, poison soil and remove wildlife; its wildlife branch has a recorded gap (sources do not name stablecoins). OPPOSE_05 (fuel extraction and combustion waste) and OPPOSE_07 (fan noise near rural habitats) are exposures that each depend only on C03. The two OPPOSE members keep distinct mechanisms (land degradation versus noise); they are grouped because both reach habitats and wildlife, not because both concern mining. Air, water and equipment-waste harms are kept as separate issues."
+    },
+    {
+      "id": "S1582_UNN_I03",
+      "value_id": "UNN",
+      "title": "Air pollution that harms forests and lakes",
+      "introduction": "One argument says added Bitcoin mining would increase nitrogen oxide pollution from power plants, which helps form acid rain that harms forests and lakes.",
+      "argument_ids": [
+        "S1582_UNN_oppose_02"
+      ],
+      "grouping_rationale": "Single OPPOSE argument with a distinct pollutant and endpoint (nitrogen oxides, acid rain on lakes and forests). Kept apart from the climate issue because its harm pathway and evidence differ from greenhouse-gas effects. Depends only on C03. No SUPPORT argument addresses this endpoint."
+    },
+    {
+      "id": "S1582_UNN_I04",
+      "value_id": "UNN",
+      "title": "Freshwater and waterways",
+      "introduction": "Two arguments say added Bitcoin mining would harm water: one through water used up in cooling and power production in dry areas, the other through cooling water that power plants take from and return to rivers and lakes.",
+      "argument_ids": [
+        "S1582_UNN_oppose_03",
+        "S1582_UNN_oppose_04"
+      ],
+      "grouping_rationale": "Common endpoint: freshwater resources and aquatic life affected by mining's cooling and power supply. Distinctions kept: OPPOSE_03 concerns quantity (consumptive use in water-stressed areas); OPPOSE_04 concerns quality and wildlife (withdrawal and heated, chemical-bearing discharge from once-through cooling). Both depend only on C03, and each response notes a separate missing link (change in cooling or power use; added use of those plants). No SUPPORT argument addresses this endpoint."
+    },
+    {
+      "id": "S1582_UNN_I05",
+      "value_id": "UNN",
+      "title": "Discarded mining equipment",
+      "introduction": "One argument says added Bitcoin mining would create more discarded mining equipment, which can pollute air and water when it is not disposed of properly.",
+      "argument_ids": [
+        "S1582_UNN_oppose_06"
+      ],
+      "grouping_rationale": "Single OPPOSE argument with a distinct endpoint: electronic waste from short-lived mining chips. Kept apart from fuel-supply waste (OPPOSE_05) because the source of waste and the pollution route differ. Depends only on C03. No SUPPORT argument addresses this endpoint."
+    },
+    {
+      "id": "S1582_UNN_I06",
+      "value_id": "UNN",
+      "title": "Donations for forest protection",
+      "introduction": "One argument says the bill's backing and bankruptcy rules would better protect stablecoin donations to a forest-protection group while the gifts are held as stablecoins.",
+      "argument_ids": [
+        "S1582_UNN_support_02"
+      ],
+      "grouping_rationale": "Single SUPPORT argument with a distinct mechanism: protecting conservation funding (C04, C05, and a local bankruptcy-estate route) during the short time gifts stay in stablecoins. Kept apart from SUPPORT_01 because it protects money for conservation rather than interrupting destructive crime. No OPPOSE argument addresses this endpoint."
+    },
+    {
+      "id": "S1582_UNC_I01",
+      "value_id": "UNC",
+      "title": "Safety of money held in stablecoins",
+      "introduction": "One argument says required full backing would protect small savings and aid payments held in stablecoins. Another says moving household money out of insured bank accounts into stablecoins would expose it to losses, including through the reserves the bill allows.",
+      "argument_ids": [
+        "S1582_UNC_support_01",
+        "S1582_UNC_oppose_01"
+      ],
+      "grouping_rationale": "Common endpoint: whether essential money held in stablecoins keeps its value. Safeguard versus exposure is preserved: SUPPORT_01 (C04 backing and reuse limits) protects people who already hold coins against under-backed issuance; OPPOSE_01 (C02 household substitution) concerns people who move money out of insured accounts, with two local loss routes (uninsured-deposit reserves; repo collateral seized by a lender). The populations overlap but are not identical, and a reviewer may accept both effects."
+    },
+    {
+      "id": "S1582_UNC_I02",
+      "value_id": "UNC",
+      "title": "When an issuer fails",
+      "introduction": "One argument says customer ownership rules, repayment priority and a regulator's role in court would protect users when a firm fails. Other arguments say a bankruptcy pause could still block access to payment money, and that holders' priority would push workers' unpaid wages further back.",
+      "argument_ids": [
+        "S1582_UNC_support_04",
+        "S1582_UNC_oppose_02",
+        "S1582_UNC_oppose_08"
+      ],
+      "grouping_rationale": "Common event and endpoint: who is protected, and how quickly, when an issuer or custodian fails. SUPPORT_04 has four routes (C07 custody, C05 reserve priority, C06 shortfall priority, local regulator standing). OPPOSE_02 concerns timing for holders (C02 and C08 pause). OPPOSE_08 concerns a different population, workers with wage claims, harmed by the same C06 priority that SUPPORT_04 relies on. These are distinct effects of one set of failure rules; OPPOSE_08 is an independent cost to another group, not a rebuttal of the holder benefit."
+    },
+    {
+      "id": "S1582_UNC_I03",
+      "value_id": "UNC",
+      "title": "Cashing out and fees",
+      "introduction": "One argument says rules on issuers' cash-out limits and advance notice of fee changes would protect people who need ready access to their money. Another says wider use would leave small holders facing uncapped fees, unequal terms and dependence on middlemen.",
+      "argument_ids": [
+        "S1582_UNC_support_02",
+        "S1582_UNC_oppose_06"
+      ],
+      "grouping_rationale": "Common endpoint: ordinary holders' ability to turn coins into money promptly and affordably. SUPPORT_02 has two local routes (regulator-only discretionary limits; 7-day fee notice), and its response limits them to direct issuer redemption. OPPOSE_06 (C02) concerns small holders reached by wider use, with no fee cap, no equal-terms rule and intermediated access. Direct-issuer protection versus secondary-market exposure is recorded as a real distinction."
+    },
+    {
+      "id": "S1582_UNC_I04",
+      "value_id": "UNC",
+      "title": "Accurate information and fraud enforcement",
+      "introduction": "One argument says checked reserve reports and a ban on false claims of government backing would protect people who cannot investigate a firm. Another says removing permitted stablecoins from commodity-fraud law would take away a fraud watchdog already used for stablecoin customers.",
+      "argument_ids": [
+        "S1582_UNC_support_03",
+        "S1582_UNC_oppose_04"
+      ],
+      "grouping_rationale": "Common endpoint: protection of customers against misleading claims about reserves and safety. SUPPORT_03 has two local routes (audited monthly reports with executive certification; marketing ban). OPPOSE_04 is local: Section 17 removes permitted coins from the CFTC's commodity-fraud reach, with the Tether reserve case as precedent; its response cites the bill's replacement duties. Distinct mechanisms (new duties versus removed enforcement route) are kept, and the two do not answer each other directly."
+    },
+    {
+      "id": "S1582_UNC_I05",
+      "value_id": "UNC",
+      "title": "Official checks before issuers serve the public",
+      "introduction": "One argument says screening of managers and public enforcement powers would protect customers from misconduct. Another says a missed deadline could approve an issuer without a completed safety decision, while stopping other states from requiring their own license.",
+      "argument_ids": [
+        "S1582_UNC_support_06",
+        "S1582_UNC_oppose_05"
+      ],
+      "grouping_rationale": "Common endpoint: official vetting of issuers before and while they serve the public. SUPPORT_06 has three local routes (conviction bar, licensing review of managers, correction and enforcement powers). OPPOSE_05 is local and joins deemed approval with state preemption. OPPOSE_05 bears directly on SUPPORT_06's licensing-review route but not on its conviction bar or enforcement powers; that partial overlap is recorded rather than treated as a full rebuttal."
+    },
+    {
+      "id": "S1582_UNC_I06",
+      "value_id": "UNC",
+      "title": "Theft, payment failures and remedies",
+      "introduction": "One argument says required safeguards for issuers' computer systems would address theft and payment failures. Another says the bill would expand payments without establishing refund rights and help for users after theft or mistakes.",
+      "argument_ids": [
+        "S1582_UNC_support_05",
+        "S1582_UNC_oppose_03"
+      ],
+      "grouping_rationale": "Common endpoint: users' losses from theft, unauthorized transfers and payment errors. Safeguard versus exposure is preserved: SUPPORT_05 concerns prevention (local Section 4 IT standards); OPPOSE_03 concerns remedies after loss (C02 plus C25 or local omissions), with a response about rights under other law. Prevention and remedy are distinct mechanisms; a reviewer may accept both."
+    },
+    {
+      "id": "S1582_UNC_I07",
+      "value_id": "UNC",
+      "title": "Criminal funds and their victims",
+      "introduction": "One argument says required controls would help block criminal transfers and preserve stolen money so that it can be returned to victims.",
+      "argument_ids": [
+        "S1582_UNC_support_08"
+      ],
+      "grouping_rationale": "Single SUPPORT argument: victims' recovery and justice through freezing (C13, C14) and detection (C18). Its endpoint, recovery for crime victims, is not addressed by any OPPOSE argument for this value. Kept apart from the information and vetting issues because the beneficiaries are victims of third-party crime, not customers dealing with an issuer."
+    },
+    {
+      "id": "S1582_UNC_I08",
+      "value_id": "UNC",
+      "title": "Risks to people who never use stablecoins",
+      "introduction": "One argument says oversight of wider financial risks would protect people who never use stablecoins. Another says wider use would enlarge routes by which a run could reach those people and the public: through banks, forced asset sales and pressure for a public rescue.",
+      "argument_ids": [
+        "S1582_UNC_support_07",
+        "S1582_UNC_oppose_10"
+      ],
+      "grouping_rationale": "Common endpoint and population: spillover harm to non-users' pensions, savings, jobs, loans and taxes. SUPPORT_07 (C10 plus local examination and diversification rules) is a safeguard. OPPOSE_10 is an exposure from added scale with three routes, all needing C01: bank withdrawals (C09 and C10), forced asset sales (C10) and pressure for a public rescue (C01 only). SUPPORT_07 and OPPOSE_10's first two routes rely on C10's reach to non-users and differ on whether the bill reduces or enlarges that risk. The rescue route reaches taxpayers without C10, a population SUPPORT_07 does not address."
+    },
+    {
+      "id": "S1582_UNC_I09",
+      "value_id": "UNC",
+      "title": "Public income for shared needs",
+      "introduction": "Two arguments say the bill would reduce public income: one because issuers, not governments, would earn the income from issuing money, the other because the public helps pay for oversight of the new payment business.",
+      "argument_ids": [
+        "S1582_UNC_oppose_15",
+        "S1582_UNC_oppose_16"
+      ],
+      "grouping_rationale": "Common endpoint: public resources available for shared needs. Distinct mechanisms kept: OPPOSE_15 is seigniorage shifting to issuers in the U.S. and abroad (needs C01); OPPOSE_16 is the CBO-estimated oversight cost borne by the Treasury (local, needs no added use), with a response that non-users also benefit from that oversight. No SUPPORT argument for this value claims a public-revenue gain."
+    },
+    {
+      "id": "S1582_UNC_I10",
+      "value_id": "UNC",
+      "title": "Lending in poor and rural communities",
+      "introduction": "One argument says the ban on issuer-paid interest would remove one pull on deposits that fund community loans. Another says added stablecoin use would draw deposits away from community banks that lend in poor and rural places.",
+      "argument_ids": [
+        "S1582_UNC_support_13",
+        "S1582_UNC_oppose_09"
+      ],
+      "grouping_rationale": "Common endpoint: deposit funding for loans in poor and rural communities. SUPPORT_13 uses C12 (removing one incentive); OPPOSE_09 uses C01 and the judged C11 (growth reduces local deposit funding). The arguments are not mirror images: one concerns a single incentive removed, the other a net outflow from growth. Evidence notes about exchange rewards and the size of deposit effects bear on both."
+    },
+    {
+      "id": "S1582_UNC_I11",
+      "value_id": "UNC",
+      "title": "Interest earnings for direct holders",
+      "introduction": "One argument says the ban on issuer-paid interest unfairly stops people who hold coins directly with an issuer from bargaining for a share of what their money earns.",
+      "argument_ids": [
+        "S1582_UNC_oppose_07"
+      ],
+      "grouping_rationale": "Single OPPOSE argument. It uses the same interest-ban text as SUPPORT_13, but its endpoint is fairness between issuers and their direct customers, not community lending, and it does not depend on C12. Grouping it with the lending issue would join different endpoints only because they share a provision."
+    },
+    {
+      "id": "S1582_UNC_I12",
+      "value_id": "UNC",
+      "title": "Tied products and pressure from platforms",
+      "introduction": "One argument says the ban on forced purchases and on blocking rivals would protect customers from unfair terms. Another says commercial platforms would gain another way to pressure the sellers and workers who depend on them, partly beyond that ban's reach.",
+      "argument_ids": [
+        "S1582_UNC_support_09",
+        "S1582_UNC_oppose_11"
+      ],
+      "grouping_rationale": "Common endpoint: unfair pressure through tied products and switching costs. SUPPORT_09 is the local tying ban protecting customers. OPPOSE_11 (C21, C22) concerns sellers and workers dependent on commercial platforms and argues the ban is narrower than bank tying rules and misses affiliates outside the covered public-company route. Populations differ (customers versus dependent sellers and workers), and OPPOSE_11 itself limits its scope."
+    },
+    {
+      "id": "S1582_UNC_I13",
+      "value_id": "UNC",
+      "title": "Commercial use of payment data",
+      "introduction": "One argument says consent limits would give customers a say over commercial use of their payment data. Another says commercial issuance would give firms more payment data to steer customers' choices and prices.",
+      "argument_ids": [
+        "S1582_UNC_support_10",
+        "S1582_UNC_oppose_12"
+      ],
+      "grouping_rationale": "Common endpoint: commercial firms' use of customers' private payment data. SUPPORT_10 (C20) concerns covered public companies and a consent requirement; OPPOSE_12 (C21) concerns the wider commercial route and price steering, treating the consent exception as weak. The covered-company scope and the step from FTC search data to stablecoin data are recorded distinctions."
+    },
+    {
+      "id": "S1582_UNC_I14",
+      "value_id": "UNC",
+      "title": "Opportunity for new payment providers",
+      "introduction": "One argument says replacing repeated state licenses with a nationwide route would give new providers a fairer chance and lower costs for people who need bankless payments or cheaper transfers abroad.",
+      "argument_ids": [
+        "S1582_UNC_support_11"
+      ],
+      "grouping_rationale": "Single SUPPORT argument about entry for new providers and the migrant families and small firms they serve. Kept apart from SUPPORT_12 because the mechanism (state preemption lowering entry cost) and the response position (no point-specific response) differ from procedural fairness. OPPOSE_05 uses the same preemption text but concerns safety vetting, so it sits with the vetting issue."
+    },
+    {
+      "id": "S1582_UNC_I15",
+      "value_id": "UNC",
+      "title": "Fair process for license applicants",
+      "introduction": "One argument says stated approval criteria, reasons for refusal and a right to appeal would require officials to treat new applicants fairly.",
+      "argument_ids": [
+        "S1582_UNC_support_12"
+      ],
+      "grouping_rationale": "Single SUPPORT argument about procedural fairness toward applicants. Its response and gap concern comparison with prior law (the bill creates the permission it then constrains). Kept apart from SUPPORT_11 because it is about how officials decide, not the cost of entry."
+    },
+    {
+      "id": "S1582_UNC_I16",
+      "value_id": "UNC",
+      "title": "The President's family stablecoin business",
+      "introduction": "One argument says expanding the President's family stablecoin business would increase the risk that wealthy interests gain privileged access to public power.",
+      "argument_ids": [
+        "S1582_UNC_oppose_13"
+      ],
+      "grouping_rationale": "Single OPPOSE argument about just treatment and privileged access, via C24 (which itself requires C01). No other argument for this value concerns officials' financial conflicts."
+    },
+    {
+      "id": "S1582_UNC_I17",
+      "value_id": "UNC",
+      "title": "Financial stability abroad",
+      "introduction": "One argument says wider use of dollar tokens would threaten financial stability and monetary control in vulnerable foreign economies.",
+      "argument_ids": [
+        "S1582_UNC_oppose_14"
+      ],
+      "grouping_rationale": "Single OPPOSE argument about people in weaker foreign economies (C01). SUPPORT_01 mentions dollar coins helping people facing unstable currencies, but its mechanism is backing, so it stays with the money-safety issue; that relation is recorded in REVIEW.md."
+    },
+    {
+      "id": "S1582_UNT_I01",
+      "value_id": "UNT",
+      "title": "Payment exclusion of disfavored groups",
+      "introduction": "One argument says the bill would protect a payment route outside the banks and companies that can shut out unpopular voices. Another says more detailed customer checks would raise the risk that issuers reject religious and ethnic communities as suspect groups.",
+      "argument_ids": [
+        "S1582_UNT_support_02",
+        "S1582_UNT_oppose_01"
+      ],
+      "grouping_rationale": "Common endpoint and overlapping population: people refused payment services because of their religion, ethnicity or views (SUPPORT_02's EFF examples include payments associated with Islam or Arab ethnicity; OPPOSE_01 concerns Muslim, Arab, Middle Eastern and South Asian Americans). SUPPORT_02 runs through C04 or C05 protecting funds on open networks, with a recorded tolerance-link gap; OPPOSE_01 runs through C17 and de-risking incentives. Opposite mechanisms acting on the same exclusion risk."
+    },
+    {
+      "id": "S1582_UNT_I02",
+      "value_id": "UNT",
+      "title": "Access for people whose lives or documents differ",
+      "introduction": "One argument says the bill would protect payment choices that fit the lives of migrants and displaced people. Another says added identity checks could exclude people whose documents or life histories do not fit an issuer's usual process.",
+      "argument_ids": [
+        "S1582_UNT_support_03",
+        "S1582_UNT_oppose_02"
+      ],
+      "grouping_rationale": "Common endpoint: access to payment services for people outside usual banking patterns. Populations overlap (refugees and displaced people) but OPPOSE_02 also names Indigenous ID holders, transgender and nonbinary people and people leaving prison. SUPPORT_03 runs through C04, C05 or local fee disclosure, with a recorded tolerance-link gap; OPPOSE_02 runs through C17 and is limited by its own text to issuers that do not adopt alternative verification."
+    },
+    {
+      "id": "S1582_UNT_I03",
+      "value_id": "UNT",
+      "title": "Exposure of beliefs and group ties",
+      "introduction": "One argument says consent limits would restrict commercial use of payment data that reveals people's beliefs and group ties. Another says wider monitoring of transfers would put private ties to unpopular groups at greater risk of exposure.",
+      "argument_ids": [
+        "S1582_UNT_support_04",
+        "S1582_UNT_oppose_03"
+      ],
+      "grouping_rationale": "Common endpoint: exposure of beliefs and associations through payment records. Distinct mechanisms kept: SUPPORT_04 (C20) limits commercial advertising, sale and sharing by covered public companies; OPPOSE_03 (C17 and the judged C19) concerns compliance monitoring reaching beyond issuers' own dealings. Commercial exposure and monitoring exposure are different routes; SUPPORT_04's evidence note states it does not cover government access."
+    },
+    {
+      "id": "S1582_UNT_I04",
+      "value_id": "UNT",
+      "title": "Payment blocking and disputed judicial work",
+      "introduction": "One argument says required blocking powers would make it easier to cut off payments to people sanctioned for international court work that the U.S. government rejects.",
+      "argument_ids": [
+        "S1582_UNT_oppose_04"
+      ],
+      "grouping_rationale": "Single OPPOSE argument about state sanctions enforcement (C13 or C14) against people over disputed judicial work. Kept apart from OPPOSE_01, whose exclusion comes from private de-risking of religious and ethnic communities rather than government orders, and with a recorded tolerance-link gap."
+    },
+    {
+      "id": "S1582_UNT_I05",
+      "value_id": "UNT",
+      "title": "Hearing applicants who challenge a refusal",
+      "introduction": "One argument says the licensing system would require officials to hear applicants who challenge a refusal.",
+      "argument_ids": [
+        "S1582_UNT_support_01"
+      ],
+      "grouping_rationale": "Single SUPPORT argument about a hearing for refused applicants (local), with a recorded tolerance-link gap. No other argument for this value concerns licensing procedure."
+    },
+    {
+      "id": "S1582_SEP_I01",
+      "value_id": "SEP",
+      "title": "Scam losses and mental health",
+      "introduction": "One argument says the bill would help disrupt investment scams and the severe distress they cause. Another says official approval would draw household money into a market used by scammers, without a required process for complaints.",
+      "argument_ids": [
+        "S1582_SEP_support_04",
+        "S1582_SEP_oppose_03"
+      ],
+      "grouping_rationale": "Common endpoint: mental-health harm from fraud losses. SUPPORT_04 runs through freezing (C13, C14) or the judged C19 tracing route; OPPOSE_03 runs through C02 and C25, with a recorded gap from issuer approval to belief in fake apps. Prevention of scams versus added exposure to them are opposite mechanisms acting on the same harm."
+    },
+    {
+      "id": "S1582_SEP_I02",
+      "value_id": "SEP",
+      "title": "Household money needed for medical care",
+      "introduction": "Two arguments say moving everyday money into stablecoins would put funds for medical care at risk: one through loss of value or a bankruptcy freeze, the other through failures of or attacks on shared networks.",
+      "argument_ids": [
+        "S1582_SEP_oppose_01",
+        "S1582_SEP_oppose_02"
+      ],
+      "grouping_rationale": "Common endpoint and population: households that hold payment money in stablecoins and need it for care. Distinct mechanisms kept: OPPOSE_01 is issuer-side (secondary-market price, C08 pause), OPPOSE_02 is network-side (C23 outage, C28 attack incentive). Both require C02. No SUPPORT argument for this value addresses protection of held funds."
+    },
+    {
+      "id": "S1582_SEP_I03",
+      "value_id": "SEP",
+      "title": "Financial shocks and the health of people who never use crypto",
+      "introduction": "One argument says closer links between stablecoins and banks would spread financial shocks to the health-care budgets and mental health of people who never use crypto.",
+      "argument_ids": [
+        "S1582_SEP_oppose_04"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (C01, C09, C10) about non-users. Kept apart from the household-money issue to preserve the different population (non-users reached through banks versus holders)."
+    },
+    {
+      "id": "S1582_SEP_I04",
+      "value_id": "SEP",
+      "title": "Fentanyl poisoning",
+      "introduction": "One argument says the bill would help disrupt payments for fentanyl ingredients and so help prevent fatal poisoning.",
+      "argument_ids": [
+        "S1582_SEP_support_01"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (C13, C14 freezing; C18 identification). The crime-disruption arguments for this value share freezing and tracing tools but have distinct crimes, evidence and endpoints (poisoning, hospital disruption, terrorist violence, coercion and suicide), and each has its own local gap; they are not merged."
+    },
+    {
+      "id": "S1582_SEP_I05",
+      "value_id": "SEP",
+      "title": "Ransomware and hospital care",
+      "introduction": "One argument says the bill would help deny ransomware profits and so help protect hospital care and emergency services.",
+      "argument_ids": [
+        "S1582_SEP_support_02"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (C13, C14 freezing; judged C19 tracing). Distinct endpoint: disruption of hospital and emergency services by ransomware. Not grouped with the household medical-money issue, which concerns access to personal funds rather than the operation of care services."
+    },
+    {
+      "id": "S1582_SEP_I06",
+      "value_id": "SEP",
+      "title": "Terrorist violence",
+      "introduction": "One argument says blocking terrorist funds would help protect people in the United States from violence.",
+      "argument_ids": [
+        "S1582_SEP_support_03"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (C14 or C13). Its recorded gap concerns whether frozen overseas funds pay for attacks in the United States, a step specific to this endpoint."
+    },
+    {
+      "id": "S1582_SEP_I07",
+      "value_id": "SEP",
+      "title": "Sexual blackmail",
+      "introduction": "One argument says the bill would help disrupt payments to sexual blackmailers and so help protect victims' health and safety.",
+      "argument_ids": [
+        "S1582_SEP_support_05"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (C13, C14 freezing; judged C19 and C18 identification). Kept apart from the scam issue: the crime is coercion with intimate images and its endpoint includes suicide risk, and the investment-scam pair has its own OPPOSE counterpart that does not address blackmail."
+    },
+    {
+      "id": "S1582_SES_I01",
+      "value_id": "SES",
+      "title": "Funding for terrorists, cartels and sanctions evaders",
+      "introduction": "Two arguments say the bill would help the state find and cut off funding for security threats: through issuer duties, and through wider use of regulated dollar payments. Another says wider use would expand payment channels that move beyond bank identity checks.",
+      "argument_ids": [
+        "S1582_SES_support_01",
+        "S1582_SES_support_09",
+        "S1582_SES_oppose_01"
+      ],
+      "grouping_rationale": "Common endpoint: the state's ability to detect and stop threat financing and enforce sanctions. SUPPORT_01 has five routes (C13, C14, C18, judged C19, local licensing screens). SUPPORT_09 (C01) argues that regulated dollar use keeps finance within U.S. reach. OPPOSE_01 (C01) argues that added use expands transfers beyond identity checks and overloads request-based freezing. SUPPORT_09's response makes OPPOSE_01's point, so the three are read together; the distinct mechanisms (tools, currency reach, channel growth) are retained."
+    },
+    {
+      "id": "S1582_SES_I02",
+      "value_id": "SES",
+      "title": "Runs, failures and wider financial stress",
+      "introduction": "Three arguments say the bill would limit how stablecoin trouble spreads: through reserve and oversight rules, protection of payment funds when a firm fails, and limits on commercial issuers and issuer activities. Another says the bill would enlarge a path from runs to banking stress, disrupted payments and emergency public support.",
+      "argument_ids": [
+        "S1582_SES_support_02",
+        "S1582_SES_support_03",
+        "S1582_SES_support_05",
+        "S1582_SES_oppose_04"
+      ],
+      "grouping_rationale": "Common endpoint: national financial stability, meaning whether stablecoin runs or failures become wider crisis and payment disruption. Distinct safeguards kept: SUPPORT_02 (C04 plus local reserve and oversight routes) targets run causes; SUPPORT_03 (C07, C05, C06, local court route) targets disruption after failure; SUPPORT_05 (local committee gate and activity limits) targets spread from commercial groups. OPPOSE_04 has four routes (C01 with C09; borrowing costs; C02 with C08 freeze; rescue pressure). This is the broadest issue in the map; it is kept together because OPPOSE_04's routes answer the same stability endpoint that each SUPPORT member addresses, and splitting it would leave OPPOSE_04 paired with only one safeguard."
+    },
+    {
+      "id": "S1582_SES_I03",
+      "value_id": "SES",
+      "title": "State supervision with national reach",
+      "introduction": "One argument says the bill gives one state's supervision nationwide reach, with federal backup only under limited conditions.",
+      "argument_ids": [
+        "S1582_SES_oppose_06"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (local) about the capacity of state supervision once it has national reach. SUPPORT_02's oversight route mentions state certification and emergency federal action, but SUPPORT_02 is placed with the broader stability issue where most of its routes apply; the overlap is recorded in REVIEW.md."
+    },
+    {
+      "id": "S1582_SES_I04",
+      "value_id": "SES",
+      "title": "Technical failures and network attacks",
+      "introduction": "One argument says required issuer standards would strengthen defenses against technical failures and cyberattacks on payments. Another says essential payments would become a more valuable target on shared networks that issuers do not control.",
+      "argument_ids": [
+        "S1582_SES_support_04",
+        "S1582_SES_oppose_03"
+      ],
+      "grouping_rationale": "Common endpoint: interruption of payments by technical failure or attack. SUPPORT_04 (local IT standards) concerns issuer-level defenses; OPPOSE_03 (C02 with C23 or C28) concerns shared networks outside the issuer's control. SUPPORT_04's response limits it to issuer systems, which is the distinction between the two."
+    },
+    {
+      "id": "S1582_SES_I05",
+      "value_id": "SES",
+      "title": "Concentrated private control of payments",
+      "introduction": "One argument says the tying ban and the power to set compatibility standards would limit corporate barriers that put payments under concentrated private control. Another says the bill would make it easier for commercial platforms to concentrate control over essential payments.",
+      "argument_ids": [
+        "S1582_SES_support_06",
+        "S1582_SES_oppose_08"
+      ],
+      "grouping_rationale": "Common endpoint: concentration of control over payments by private firms. Both rely on C22; SUPPORT_06 adds the tying ban and Section 12 standards power, OPPOSE_08 adds C21 (a more usable commercial route, including privately held firms)."
+    },
+    {
+      "id": "S1582_SES_I06",
+      "value_id": "SES",
+      "title": "Bank funding for lending",
+      "introduction": "One argument says the ban on issuer-paid interest removes one incentive to move money out of banks. Another says wider use would reduce the deposits that fund loans to local businesses and farms.",
+      "argument_ids": [
+        "S1582_SES_support_07",
+        "S1582_SES_oppose_05"
+      ],
+      "grouping_rationale": "Common endpoint: bank deposit funding for lending, and through it economic stability. SUPPORT_07 uses C12; OPPOSE_05 uses C01 and the judged C11, and cites exchange rewards outside the ban. One concerns an incentive removed, the other a net outflow from growth."
+    },
+    {
+      "id": "S1582_SES_I07",
+      "value_id": "SES",
+      "title": "Government borrowing costs",
+      "introduction": "One argument says demand from stablecoin reserves would lower the government's short-term borrowing costs and leave more public money for defense and emergencies.",
+      "argument_ids": [
+        "S1582_SES_support_10"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (C01). OPPOSE_04's second route (outflows raising Treasury yields) touches the same endpoint, but OPPOSE_04 is placed with the stability issue, where all four of its routes apply; the relation is recorded in REVIEW.md."
+    },
+    {
+      "id": "S1582_SES_I08",
+      "value_id": "SES",
+      "title": "Keeping payment-technology capacity at home",
+      "introduction": "One argument says a workable U.S. framework would keep payment-technology firms and expertise in the United States, so the country can build and oversee technology central to its financial power.",
+      "argument_ids": [
+        "S1582_SES_support_08"
+      ],
+      "grouping_rationale": "Single SUPPORT argument (local route; recorded gap: no direct evidence that the bill keeps firms or expertise from moving abroad). Its endpoint is domestic capacity to build and oversee payment technology. An earlier draft paired it with OPPOSE_02; independent scope review found that 'control of payment infrastructure' was an umbrella, not a shared concrete endpoint, because retaining domestic expertise differs from screening foreign issuers for hidden adversarial ownership. The two are therefore separate one-sided issues (see S1582_SES_I10)."
+    },
+    {
+      "id": "S1582_SES_I09",
+      "value_id": "SES",
+      "title": "Foreign interests and the President's business",
+      "introduction": "One argument says the bill expands a way for foreign interests to reward the President's family business while he directs U.S. policy.",
+      "argument_ids": [
+        "S1582_SES_oppose_09"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (C24). Kept apart from OPPOSE_02 because the mechanism is a personal financial conflict at the top of government, not foreign control of issuers."
+    },
+    {
+      "id": "S1582_SES_I10",
+      "value_id": "SES",
+      "title": "Hidden foreign control of foreign issuers",
+      "introduction": "One argument says the foreign-issuer route would let foreign issuers into the expanded payment system without a thorough check for hidden control by adversaries.",
+      "argument_ids": [
+        "S1582_SES_oppose_02"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (C01). Endpoint: adversary influence through unscreened ownership or control of foreign issuers. Kept apart from SUPPORT_08 (domestic capacity; see S1582_SES_I08) and from OPPOSE_09 (a personal financial conflict at the top of government). Numbered I10 so that no existing issue ID changes."
+    },
+    {
+      "id": "S1582_TR_I01",
+      "value_id": "TR",
+      "title": "Church giving through stablecoins",
+      "introduction": "One argument says the bill would better protect stablecoin gifts that sustain church life. Another says wider use of traceable tokens would put the practice of private giving at risk.",
+      "argument_ids": [
+        "S1582_TR_support_02",
+        "S1582_TR_oppose_02"
+      ],
+      "grouping_rationale": "Common endpoint: the inherited practice of church giving. Distinct mechanisms kept: SUPPORT_02 concerns the financial safety of gifts held in approved coins (C04, C05, C07; gap on holding time); OPPOSE_02 concerns privacy of giving (C01, C17), with a gap on whether the bill moves church gifts onto a traceable record. Safety and confidentiality are different effects on the same practice."
+    },
+    {
+      "id": "S1582_TR_I02",
+      "value_id": "TR",
+      "title": "Payments to online betting businesses",
+      "introduction": "One argument says the framework helps online betting businesses receive payments, against a longstanding Christian rule against gambling.",
+      "argument_ids": [
+        "S1582_TR_oppose_03"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (local). It shares Segpay evidence with OPPOSE_04 but has a distinct moral rule and a response that reaches gambling only; the mapping already keeps the two apart for that reason."
+    },
+    {
+      "id": "S1582_TR_I03",
+      "value_id": "TR",
+      "title": "Payments to pornography businesses",
+      "introduction": "One argument says better payment access for pornography businesses conflicts with preserving Christian sexual morals.",
+      "argument_ids": [
+        "S1582_TR_oppose_04"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (local), with no point-specific response and a recorded gap on inherited continuity. Kept apart from OPPOSE_03 for the reasons given there."
+    },
+    {
+      "id": "S1582_TR_I04",
+      "value_id": "TR",
+      "title": "Lending to churches and ministries",
+      "introduction": "One argument says competition for deposits puts lending that supports churches and ministries at risk.",
+      "argument_ids": [
+        "S1582_TR_oppose_07"
+      ],
+      "grouping_rationale": "Single OPPOSE argument (C01 and the judged C11) about deposit-funded ministry lending. No SUPPORT argument for this value addresses church lending."
+    }
+  ]
+}

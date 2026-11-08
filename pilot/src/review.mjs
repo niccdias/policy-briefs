@@ -1,5 +1,6 @@
 import {judgedClaims,billFor,claimUsers,backgroundFact,pageComplete,effective,valueResult,strengthResult,comparisonBasis} from './core.mjs';
 import {readingHTML,displayBackground,strengthEvidence} from './evidence.mjs';
+import {makeIssueReviewIndex,issueReviewRows} from './issue-review.mjs';
 
 export const reviewFilters={scope:'worked',query:'',bill:'',value:'',type:'',status:''};
 export const reviewStatuses=['yes','no','derived','reassess','unresolved','unanswered','Pending','Support','Oppose','Both','Neither','strengthPending','complete','needsReview','hasNotes'];
@@ -9,6 +10,7 @@ const normalize=text=>text.normalize('NFKC').replace(/\s+/g,' ').trim().toLowerC
 
 // Index only the current displayed wording, once; personal notes stay in memory.
 export function makeReviewIndex(content,plainText){
+ if(content.issue_review)return makeIssueReviewIndex(content,plainText);
  const values=new Map(content.values.map(v=>[v.id,v]));
  const rows=[...judgedClaims(content),...content.arguments].map(node=>{
   const valueIds=node.value_id?[node.value_id]:[...new Set(claimUsers(content,node.id).map(a=>a.value_id))];
@@ -22,6 +24,7 @@ export function makeReviewIndex(content,plainText){
 }
 
 export function reviewRows(content,state,index){
+ if(content.issue_review)return issueReviewRows(content,state,index);
  return state.order.filter(id=>index.has(id)).map(id=>{
   const row=index.get(id),statuses=[],summary=row.type==='summary',value=row.valueIds[0];
   const saved=summary?state.comparisons[value]:state.judgments[id];
@@ -56,8 +59,8 @@ export function filterReviewRows(rows,filters){
 export function readReviewView(raw,content,state){
  if(raw===null)return newReviewView();
  const view=JSON.parse(raw),f=view?.filters;
- const decisions=new Set([...judgedClaims(content),...content.arguments].map(n=>n.id).concat(content.values.map(v=>`summary:${v.id}`)));
+ const decisions=new Set([...judgedClaims(content),...(content.issue_review?.issues??content.arguments)].map(n=>n.id).concat(content.values.map(v=>`summary:${v.id}`)));
  const validTarget=id=>id===null||typeof id==='string'&&(decisions.has(id)&&state.order.includes(id)||!!backgroundFact(content,id));
- if(typeof view.open!=='boolean'||!validTarget(view.target)||!validTarget(view.focus)||!Number.isFinite(view.scroll)||view.scroll<0||!f||!['worked','all'].includes(f.scope)||typeof f.query!=='string'||f.query.length>2000||!['',...((content.bills??[content.bill]).map(b=>b.id??b.bill))].includes(f.bill)||!['',...content.values.map(v=>v.id)].includes(f.value)||!['','argument','claim','summary'].includes(f.type)||!['',...reviewStatuses].includes(f.status))throw new Error('Invalid review view.');
+ if(typeof view.open!=='boolean'||!validTarget(view.target)||!validTarget(view.focus)||!Number.isFinite(view.scroll)||view.scroll<0||!f||!['worked','all'].includes(f.scope)||typeof f.query!=='string'||f.query.length>2000||!['',...((content.bills??[content.bill]).map(b=>b.id??b.bill))].includes(f.bill)||!['',...content.values.map(v=>v.id)].includes(f.value)||!['',content.issue_review?'issue':'argument','claim','summary'].includes(f.type)||!['',...reviewStatuses].includes(f.status))throw new Error('Invalid review view.');
  return {open:view.open,target:view.target,filters:Object.fromEntries(Object.keys(reviewFilters).map(key=>[key,f[key]])),scroll:view.scroll,focus:view.focus};
 }

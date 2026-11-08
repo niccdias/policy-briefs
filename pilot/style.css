@@ -127,6 +127,12 @@ dialog{max-width:90vw;max-height:85vh;overflow:auto;background:var(--page);borde
 .review-badges{display:flex;flex-wrap:wrap;gap:.35rem .8rem;font-size:.9rem}
 .review-reassess{color:var(--rust)}
 .review-accepted{border-left:3px solid var(--green)}
+.issue-member+.issue-member{border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.5rem}
+.issue-member h3{margin:.3rem 0 .6rem}
+.issue-member h4{font-size:1rem;margin:1rem 0 .35rem}
+.issue-member .path{font-size:.88rem}
+.issue-context>section+section{border-top:1px solid var(--line);padding-top:.5rem}
+.choice.unavailable{opacity:.6;cursor:default}
 
 @media(min-width:1500px){.layout{grid-template-columns:minmax(0,1fr) 370px}}
 @media(max-width:1000px){

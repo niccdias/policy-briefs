@@ -12,6 +12,27 @@ const requireThat=(test,message)=>{if(!test)throw new Error(`Publication blocked
 const same=(a,b)=>stable(a)===stable(b);
 const unique=list=>Array.isArray(list)&&new Set(list).size===list.length;
 const nonempty=value=>typeof value==='string'&&value.trim().length>0;
+export const verificationEvidenceFields=['inventory_sources','finding_sources_sha256','checked_findings','findings','mandatory_inspection','retained_sample','checks'];
+export function verificationEvidence(source){
+ const pick=(value,keys)=>{requireThat(value&&keys.every(key=>Object.hasOwn(value,key)&&value[key]!==undefined),'the public baseline verification evidence is incomplete.');return Object.fromEntries(keys.map(key=>[key,value[key]]));};
+ const evidence=pick(source,verificationEvidenceFields);
+ requireThat(Array.isArray(evidence.findings),'the public baseline verification evidence is incomplete.');
+ evidence.findings=evidence.findings.map(finding=>pick(finding,['id','classification','disposition','pass','verifier','checked_at','record_sha256','content_id','procedure_id','mapping_id','evidence']));
+ evidence.mandatory_inspection=pick(evidence.mandatory_inspection,['pass','argument_ids','claim_ids']);
+ evidence.retained_sample=pick(evidence.retained_sample,['pass','content_id','rows','argument_ids']);
+ return evidence;
+}
+export function expandVerification(verification,baselineEvidence){
+ requireThat(verification&&typeof verification==='object','verification evidence is missing.');
+ if(!Object.hasOwn(verification,'evidence_sha256')){
+  requireThat(verificationEvidenceFields.every(key=>Object.hasOwn(verification,key)&&verification[key]!==undefined),'verification evidence is missing.');
+  return verification;
+ }
+ requireThat(typeof verification.evidence_sha256==='string'&&/^[a-f0-9]{64}$/.test(verification.evidence_sha256)&&verificationEvidenceFields.every(key=>!Object.hasOwn(verification,key)),'verification evidence approval is malformed or mixes inline evidence.');
+ const evidence=verificationEvidence(baselineEvidence);
+ requireThat(verification.evidence_sha256===sha(stable(evidence)),'verification evidence differs from the approved public baseline.');
+ return {...verification,...structuredClone(evidence)};
+}
 function readableText(html){
  const blocks=new Set(['p','div','li','ul','ol','section','article','h1','h2','h3','h4','br']);
  const visit=node=>node.type==='text'?node.value:`${blocks.has(node.tagName)?' ':''}${(node.children??[]).map(visit).join('')}${blocks.has(node.tagName)?' ':''}`;
@@ -109,7 +130,7 @@ export function validatePublication({content,binding,inventory,approval,author,v
  requireThat(unique(author.approved_findings)&&same([...author.approved_findings].sort(),ids),'Opus approval does not cover the full inventory.');
  requireThat(unique(verification.checked_findings)&&same([...verification.checked_findings].sort(),ids),'independent review does not cover the full inventory.');
  requireThat(verification.pass===true&&verification.open_material_findings?.length===0,'independent review has unresolved material findings.');
- requireThat(same(author.dispositions,approval.findings),'the dispositions differ from those approved by Opus.');
+ requireThat(Object.hasOwn(author,'dispositions_sha256')?!Object.hasOwn(author,'dispositions')&&author.dispositions_sha256===sha(stable(approval.findings)):same(author.dispositions,approval.findings),'the dispositions differ from those approved by Opus.');
  const checked=new Map(verification.findings?.map(f=>[f.id,f]));
  requireThat(checked.size===ids.length&&verification.findings.length===ids.length,'independent disposition checks are incomplete or duplicated.');
  requireThat(unique(approval.patches?.map(p=>p.patch_id)),'the applied patch inventory is missing or duplicated.');
@@ -195,6 +216,7 @@ export async function assertPublicationReady(base=release){
   const spec=approval.receipts?.[key];
   requireThat(/^review-receipts\/[a-zA-Z0-9_.-]+\.json$/.test(spec?.path??''),`invalid ${key} receipt path.`);
   const bytes=await readFile(new URL(spec.path,base));requireThat(sha(bytes)===spec.sha256,`${key} receipt hash differs.`);receipts[key]=JSON.parse(bytes);
+  if(key==='verification')receipts[key]=expandVerification(receipts[key],receipts[key]&&Object.hasOwn(receipts[key],'evidence_sha256')?await parse('review-receipts/review-interface-verification.json'):undefined);
   requireThat(same(receipts[key].inventory_sources,inputHashes)&&receipts[key].finding_sources_sha256===approval.finding_sources_sha256,`${key} review used a different finding inventory.`);
  }
  const uiCopy=await parse('ui-copy.json'),strings=value=>typeof value==='string'?[value]:value&&typeof value==='object'?Object.values(value).flatMap(strings):[];
