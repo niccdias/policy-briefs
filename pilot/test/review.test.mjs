@@ -30,7 +30,7 @@ test('derived No retains direct Yes distinctly and becomes stale after premise e
  s=editState(content,s,{type:'complete',id:'A'});s=set(s,'C','no');
  const row=rows(s).find(r=>r.id==='A');
  assert.equal(row.answer,'no');assert.equal(row.origin,'derived');assert.equal(row.earlierAnswer,'yes');assert.equal(row.complete,false);
- assert.ok(row.statuses.includes('derived'));assert.ok(row.statuses.includes('reassess'));
+ assert.ok(row.statuses.includes('derived'));assert.ok(!row.statuses.includes('reassess'));
  assert.ok(!filtered(s,{status:'yes'}).some(r=>r.id==='A'));
  s=set(s,'C','yes');assert.equal(rows(s).find(r=>r.id==='A').origin,'reassess');
 });
@@ -49,7 +49,15 @@ test('summary completion and Pending strength are independent statuses',()=>{
  let s=newState(content,3);for(const id of ['C','A','B'])s=set(s,id,'yes');
  for(const id of ['A','B'])s=editState(content,s,{type:'complete',id});
  s=editState(content,s,{type:'comparison',value:'V',answer:'Pending'});s=editState(content,s,{type:'summary',value:'V'});
- const row=rows(s).find(r=>r.type==='summary');assert.equal(row.complete,true);assert.equal(row.answer,'Both');assert.equal(row.strength,'Pending');assert.ok(row.statuses.includes('Pending'));
+ const row=rows(s).find(r=>r.type==='summary');assert.equal(row.complete,true);assert.equal(row.answer,'Both');assert.equal(row.strength,'Pending');assert.ok(row.statuses.includes('strengthPending'));assert.ok(!row.statuses.includes('Pending'));
+});
+test('direct answers, derived results, reassessment and mapping disputes have distinct filters',()=>{
+ let s=newState(content,2);for(const id of ['C','A','B'])s=set(s,id,'yes');s=set(s,'C','no');
+ assert.deepEqual(filtered(s,{status:'no'}).map(r=>r.id),['C']);
+ assert.equal(filtered(s,{status:'derived'}).length,2);assert.equal(filtered(s,{status:'reassess',type:'argument'}).length,0);
+ s=set(s,'C','yes');assert.equal(filtered(s,{status:'reassess',type:'argument'}).length,2);
+ s.mappingDispositions={C:{status:'Unresolved'}};
+ assert.equal(filtered(s,{status:'unresolved',type:'argument'}).length,2);assert.equal(filtered(s,{status:'reassess',type:'argument'}).length,0);
 });
 test('indexing, filtering and restoring review leave the complete saved record unchanged',()=>{
  let s=set(newState(content,8),'C','yes');s=set(s,'A','yes','Keep these notes');

@@ -2,7 +2,7 @@ import {judgedClaims,billFor,claimUsers,backgroundFact,pageComplete,effective,va
 import {readingHTML,displayBackground,strengthEvidence} from './evidence.mjs';
 
 export const reviewFilters={scope:'worked',query:'',bill:'',value:'',type:'',status:''};
-export const reviewStatuses=['yes','no','derived','reassess','unanswered','Pending','Support','Oppose','Both','Neither','complete','needsReview','hasNotes'];
+export const reviewStatuses=['yes','no','derived','reassess','unresolved','unanswered','Pending','Support','Oppose','Both','Neither','strengthPending','complete','needsReview','hasNotes'];
 export const newReviewView=()=>({open:false,target:null,filters:{...reviewFilters},scroll:0,focus:null});
 export const reviewKey=(uid,session)=>`policy-review:${uid}:${session}`;
 const normalize=text=>text.normalize('NFKC').replace(/\s+/g,' ').trim().toLowerCase();
@@ -33,14 +33,14 @@ export function reviewRows(content,state,index){
    answer=valueResult(content,state,value).outcome;origin='summary';
    stale=!!(saved&&saved.basis!==comparisonBasis(content,state,value)||Object.hasOwn(state.summaryCompleted,value)&&!complete);
    if(answer==='Both')strength=strengthResult(content,state,value);
-   statuses.push(answer);if(strength==='Pending')statuses.push('Pending');
+   statuses.push(answer);if(strength==='Pending')statuses.push('strengthPending');
   }else{
    const result=effective(content,state,id);({answer,origin,stale}=result);
-   if(answer)statuses.push(answer);else if(!stale&&origin!=='unresolved')statuses.push('unanswered');
+   if(origin==='direct')statuses.push(answer);else if(origin==='unanswered')statuses.push('unanswered');
    if(origin==='derived')statuses.push('derived');
-   if(origin==='unresolved')stale=true;
+   if(origin==='unresolved')statuses.push('unresolved');
   }
-  if(stale)statuses.push('reassess');
+  if(stale&&origin!=='derived')statuses.push('reassess');
   statuses.push(complete?'complete':'needsReview');if(notes.trim())statuses.push('hasNotes');
   const strengthText=summary&&answer==='Both'?row.strengthEvidence.filter(item=>item.arguments.some(id=>effective(content,state,id).answer==='yes')).map(item=>item.text).join(' '):'';
   return {...row,answer,origin,stale,strength,earlierAnswer:saved?.answer,complete,worked,notes,statuses,search:[row.search,normalize(notes),strengthText].join(' ')};

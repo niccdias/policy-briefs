@@ -1,8 +1,13 @@
 {
   "artifact": "pilot/release/review-copy.json",
-  "approved_copy_sha256": "c41aa2116d965d40dc49efda12b118087d55ee256db28c2f247aaf3b623b3c65",
+  "approved_copy_sha256": "2f968938baeacada7b48e2a208015bf321789e3b19985904de0871756678cbb5",
   "approved_on": "2026-11-08",
-  "base_commit": "809c988471197c9b5f5df3a8ea9851d1df92fe28",
+  "base_commit": "078db9f",
+  "supersedes": {
+    "approved_copy_sha256": "c41aa2116d965d40dc49efda12b118087d55ee256db28c2f247aaf3b623b3c65",
+    "recorded_at": "078db9f",
+    "change": "Added four keys (earlierStrength, supportDirection, opposeDirection, pageStatusGroup) after the read-only wording review. All 46 earlier keys and values are unchanged."
+  },
   "author": {
     "role": "Bounded wording owner for the review-judgments interface copy",
     "model": "claude-opus-5-5 (Opus 5.5)",
@@ -15,8 +20,8 @@
     }
   },
   "scope": {
-    "approved": "Short interface labels and explanations for the new review view: 46 keys, including the 45 required keys and one added key, answerLabel.",
-    "not_changed": "No coding criteria, argument/response/claim content, procedure, guide meaning, saved records or other repository files. No search, filter, order or saving logic was written or verified here; the main agent owns implementation and verification.",
+    "approved": "The complete file: 50 short interface labels and explanations for the review view. These are the 45 required keys, answerLabel, and the four additions earlierStrength, supportDirection, opposeDirection and pageStatusGroup.",
+    "not_changed": "No coding criteria, argument/response/claim content, procedure, guide meaning, saved records, publication receipts or other repository files. No search, filter, order or saving logic was written or verified here; the main agent owns implementation and verification.",
     "tone_sources": [
       "pilot/src/app.jsx",
       "pilot/release/ui-copy.json"
@@ -28,18 +33,29 @@
       "initialOutcome": "Initial outcome (app.jsx value summary, without the colon)",
       "earlierAnswer": "Earlier answer (app.jsx stale notice, without the colon)",
       "outcome_values": "Support, Oppose, Both, Neither, Pending (core.mjs valueResult outcomes)",
-      "guideReview_fragments": "“Saved to server” and \"assigned order stays the same when you return\" kept from the guide sentence being replaced"
+      "direction_style": "supportDirection and opposeDirection follow the capitalization of the app.jsx heading \"Reasons to SUPPORT/OPPOSE {bill}\"",
+      "guideReview_fragments": "“Saved to server” and \"assigned order stays the same when you return\" kept from the guide sentence being replaced",
+      "unresolved_mapping": "Use the existing ui-copy.json unresolvedMappingLabel (\"Mapping question unresolved\") for unresolved mapping rows and their filter option. It is not duplicated in this file."
     },
-    "added_key": {
-      "answerLabel": "Your answer. Use it only before a direct Yes, No, Reassess or Not yet judged. Do not put it before Derived No. Derived No is a result, not the coder's direct answer. If a direct judgment was kept, show it after Earlier answer."
+    "added_keys": {
+      "answerLabel": "Your answer. Use it only before a current direct Yes, No or Not yet judged. Do not put it before Derived No, Reassess or an unresolved mapping.",
+      "earlierStrength": "Earlier stronger reason. Use it on value-summary rows for a stale saved comparison, instead of earlierAnswer.",
+      "supportDirection": "Reason to SUPPORT. Use it for an argument's direction in the row eyebrow, so a direction cannot be read as an initial outcome.",
+      "opposeDirection": "Reason to OPPOSE. Use it the same way as supportDirection.",
+      "pageStatusGroup": "Page progress. Use it as the status-filter group label for Complete, Needs review and Has notes."
     },
-    "usage_notes_for_implementer": [
-      "Show argument and shared-claim rows with answerLabel plus a direct answer, or with derivedNo by itself, and earlierAnswer when a judgment was kept or must be reassessed. Do not combine a direct answer and Derived No into one value.",
-      "Show value-summary rows with initialOutcome (Support, Oppose, Both, Neither or Pending) and strength (Support, Oppose or Pending). When the initial outcome is not Both, show noDecision under strength. Do not show Pending there. The strength label is Stronger reason, not Comparison, so it does not look like the existing bill 'Comparison:' label.",
+    "accepted_meaning_rules_for_implementer": [
+      "The Yes and No filter statuses match current direct answers only. Derived No, Reassess and Mapping question unresolved are separate statuses.",
+      "An argument or claim row shows exactly one of the following. A current direct answer appears as answerLabel plus Yes or No. An unanswered item appears as answerLabel plus Not yet judged. A derived result appears as derivedNo alone. A stale judgment shows the Reassess badge. An unresolved mapping shows unresolvedMappingLabel. Use earlierAnswer for a retained direct judgment.",
+      "A Derived No row has no Reassess badge, matching the NodePage, which suppresses the stale notice for derived results.",
+      "Group the status-filter options. Under answerLabel: Yes, No and Not yet judged. Then Derived No, Reassess and Mapping question unresolved. Under initialOutcome: Support, Oppose, Both, Neither and Pending. Under strength: Pending, with a distinct status ID such as strengthPending. Under pageStatusGroup: Complete, Needs review and Has notes.",
+      "A value-summary row shows initialOutcome and strength. When the initial outcome is not Both, strength shows noDecision rather than Pending. The strength label is Stronger reason, not Comparison, so it does not look like the existing bill 'Comparison:' label.",
       "needsReview means the page is not complete, matching the existing 'page needs review'. It is separate from reassess, which means a judgment is stale.",
       "resultsLabel uses the {count} and {total} placeholders, which the app fills in."
-    ]
+    ],
+    "clear_filters_label": "Acceptable. The main agent will make Clear filters clear the search text and the bill, value, type and status filters while keeping the Previously worked on/All assigned items scope. In this interface the search box acts as a filter, and the scope is a separate view choice, so the label \"Clear filters\" describes the action accurately.",
+    "unused_key_note": "openItem (\"Open\") is currently not rendered, because each row title is the open button. It is kept so the earlier approved values stay unchanged."
   },
-  "verification_performed": "The JSON parsed and has 46 string keys. Every required key is present, and the user-specified values for title, previouslyWorked, allAssigned, backToResults, saveReturn and returnCoding match exactly. The SHA-256 above was computed from the saved file. No UI, browser, build or human readability tests were run.",
+  "verification_performed": "The JSON parsed and has 50 string keys. A comparison with the committed version at 078db9f showed exactly four added keys and no changed or removed values. The SHA-256 above was computed from the saved file. A read-only review of pilot/src/app.jsx ReviewList, the review controls and pilot/src/review.mjs reviewRows at 078db9f plus uncommitted edits produced the meaning rules above. No UI, browser, build or human readability tests were run, and the main agent's follow-up logic changes have not been reviewed here.",
   "not_committed": "Both files were left uncommitted at the main agent's direction because it is editing other paths in the same repository."
 }

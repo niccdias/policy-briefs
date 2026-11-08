@@ -7,7 +7,7 @@ import {resumePrevious} from './resume.mjs';
 import {releaseMetadata,recordedRelease,assertLoadedRelease} from './release.mjs';
 import copy from '../release/ui-copy.json';
 import {decodeRecord} from './payload.mjs';
-import {reviewFilters,reviewStatuses,newReviewView,reviewKey,makeReviewIndex,reviewRows,filterReviewRows,readReviewView} from './review.mjs';
+import {reviewFilters,newReviewView,reviewKey,makeReviewIndex,reviewRows,filterReviewRows,readReviewView} from './review.mjs';
 import reviewCopy from '../release/review-copy.json';
 
 const $params=new URLSearchParams(location.search);
@@ -245,7 +245,7 @@ function Summary({content,state,value,act,jump,back,next,last,backLabel='Back',n
   {state.summaryCompleted[value]===comparisonBasis(content,state,value)&&<p class="status">Value summary completed.</p>}
  </section>;
 }
-const reviewLabel=status=>({derived:reviewCopy.derivedNo,unanswered:reviewCopy.notJudged}[status]??reviewCopy[status.charAt(0).toLowerCase()+status.slice(1)]);
+const reviewLabel=status=>({derived:reviewCopy.derivedNo,unanswered:reviewCopy.notJudged,unresolved:copy.unresolvedMappingLabel,strengthPending:reviewCopy.pending}[status]??reviewCopy[status.charAt(0).toLowerCase()+status.slice(1)]);
 function ReviewList({content,state,index,filters,update,open}){
  const rows=useMemo(()=>reviewRows(content,state,index),[content,state,index]),visible=filterReviewRows(rows,filters),bills=content.bills??[content.bill];
  const set=(key,value)=>update({...filters,[key]:value,...(key==='bill'?{value:''}:{})});
@@ -257,18 +257,18 @@ function ReviewList({content,state,index,filters,update,open}){
    <label>{reviewCopy.billLabel}<select value={filters.bill} onChange={e=>set('bill',e.currentTarget.value)}><option value="">{reviewCopy.allBills}</option>{state.order.filter(id=>id.startsWith('bill:')).map(id=>bills.find(b=>b.id===id.slice(5))).filter(Boolean).concat(content.bills?[]:bills).map(b=><option key={b.id??b.bill} value={b.id??b.bill}>{b.bill}</option>)}</select></label>
    <label>{reviewCopy.valueLabel}<select value={filters.value} onChange={e=>set('value',e.currentTarget.value)}><option value="">{reviewCopy.allValues}</option>{orderedValues.filter(v=>!filters.bill||(billFor(content,v).id??billFor(content,v).bill)===filters.bill).map(v=><option key={v.id} value={v.id}>{content.bills&&!filters.bill?`${billFor(content,v).bill} · `:''}{v.name}</option>)}</select></label>
    <label>{reviewCopy.typeLabel}<select value={filters.type} onChange={e=>set('type',e.currentTarget.value)}><option value="">{reviewCopy.allTypes}</option>{['argument','claim','summary'].map(type=><option key={type} value={type}>{reviewCopy[`${type}Type`]}</option>)}</select></label>
-   <label>{reviewCopy.statusLabel}<select value={filters.status} onChange={e=>set('status',e.currentTarget.value)}><option value="">{reviewCopy.anyStatus}</option>{reviewStatuses.map(status=><option key={status} value={status}>{reviewLabel(status)}</option>)}</select></label>
+   <label>{reviewCopy.statusLabel}<select value={filters.status} onChange={e=>set('status',e.currentTarget.value)}><option value="">{reviewCopy.anyStatus}</option>{[['answerLabel',['yes','no','unanswered']],[null,['derived','reassess','unresolved']],['initialOutcome',['Support','Oppose','Both','Neither','Pending']],['strength',['strengthPending']],['pageStatusGroup',['complete','needsReview','hasNotes']]].map(([group,statuses])=>group?<optgroup key={group} label={reviewCopy[group]}>{statuses.map(status=><option key={status} value={status}>{reviewLabel(status)}</option>)}</optgroup>:statuses.map(status=><option key={status} value={status}>{reviewLabel(status)}</option>))}</select></label>
   </div>
-  <div class="review-results-heading"><p class="status" role="status" aria-live="polite">{reviewCopy.resultsLabel.replace('{count}',visible.length).replace('{total}',rows.length)}</p><button class="link" onClick={()=>update({...reviewFilters})}>{reviewCopy.clearFilters}</button></div>
+  <div class="review-results-heading"><p class="status" role="status" aria-live="polite">{reviewCopy.resultsLabel.replace('{count}',visible.length).replace('{total}',rows.length)}</p><button class="link" onClick={()=>update({...reviewFilters,scope:filters.scope})}>{reviewCopy.clearFilters}</button></div>
   {!visible.length&&<p class="notice">{filters.scope==='worked'&&!rows.some(row=>row.worked)?reviewCopy.emptyWorked:reviewCopy.noResults}</p>}
   <ol class="review-results">{visible.map(row=><li key={row.id} class={row.answer==='yes'?'review-accepted':''}>
-   <p class="eyebrow">{row.bill.bill} · {reviewCopy[`${row.type}Type`]}{row.direction?` · ${reviewLabel(row.direction)}`:''}</p>
+   <p class="eyebrow">{row.bill.bill} · {reviewCopy[`${row.type}Type`]}{row.direction?` · ${reviewCopy[`${row.direction}Direction`]}`:''}</p>
    <h2><button class="link" data-review-id={row.id} onClick={()=>open(row.id)}>{row.title}</button></h2>
    {row.type!=='summary'&&<p class="status">{row.valueIds.map(id=>content.values.find(v=>v.id===id).name).join(' · ')}</p>}
    <div class="review-badges">
-    {row.type==='summary'?<><span>{reviewCopy.initialOutcome}: <strong>{reviewLabel(row.answer)}</strong></span><span>{reviewCopy.strength}: <strong>{row.strength?reviewLabel(row.strength):reviewCopy.noDecision}</strong></span></>:row.origin==='derived'?<strong>{reviewCopy.derivedNo}</strong>:<span>{reviewCopy.answerLabel}: <strong>{row.answer?reviewLabel(row.answer):row.stale?reviewCopy.reassess:reviewCopy.notJudged}</strong></span>}
-    {row.stale&&<strong class="review-reassess">{reviewCopy.reassess}</strong>}
-    {row.earlierAnswer&&(row.stale||row.origin==='derived')&&<span>{reviewCopy.earlierAnswer}: {reviewLabel(row.earlierAnswer)}</span>}
+    {row.type==='summary'?<><span>{reviewCopy.initialOutcome}: <strong>{reviewLabel(row.answer)}</strong></span><span>{reviewCopy.strength}: <strong>{row.strength?reviewLabel(row.strength):reviewCopy.noDecision}</strong></span></>:row.origin==='derived'?<strong>{reviewCopy.derivedNo}</strong>:!['reassess','unresolved'].includes(row.origin)&&<span>{reviewCopy.answerLabel}: <strong>{row.answer?reviewLabel(row.answer):reviewCopy.notJudged}</strong></span>}
+    {row.statuses.includes('reassess')&&<strong class="review-reassess">{reviewCopy.reassess}</strong>}{row.origin==='unresolved'&&<strong>{copy.unresolvedMappingLabel}</strong>}
+    {row.earlierAnswer&&(row.stale||['derived','unresolved'].includes(row.origin))&&<span>{row.type==='summary'?reviewCopy.earlierStrength:reviewCopy.earlierAnswer}: {reviewLabel(row.earlierAnswer)}</span>}
     <span>{row.complete?reviewCopy.complete:reviewCopy.needsReview}</span>{row.notes.trim()&&<span>{reviewCopy.hasNotes}</span>}
    </div><p class="status">{reviewCopy.idLabel}: {row.id}</p>
   </li>)}</ol>
