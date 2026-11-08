@@ -1,0 +1,45 @@
+{
+  "artifact": "pilot/release/review-copy.json",
+  "approved_copy_sha256": "c41aa2116d965d40dc49efda12b118087d55ee256db28c2f247aaf3b623b3c65",
+  "approved_on": "2026-11-08",
+  "base_commit": "809c988471197c9b5f5df3a8ea9851d1df92fe28",
+  "author": {
+    "role": "Bounded wording owner for the review-judgments interface copy",
+    "model": "claude-opus-5-5 (Opus 5.5)",
+    "effort": "high",
+    "route": "Claude Code CLI child session under the existing Claude Max subscription; no further delegation",
+    "runtime_evidence": {
+      "model": "Session system context names the model as Opus 5.5 with exact ID claude-opus-5-5, at start and end of this task",
+      "effort": "Session environment CLAUDE_CODE_EFFORT_LEVEL=high and CLAUDE_EFFORT=high, read at start and end of this task; ~/.claude/settings.json model \"opus\", effortLevel \"high\"",
+      "cli_version": "2.1.316"
+    }
+  },
+  "scope": {
+    "approved": "Short interface labels and explanations for the new review view: 46 keys, including the 45 required keys and one added key, answerLabel.",
+    "not_changed": "No coding criteria, argument/response/claim content, procedure, guide meaning, saved records or other repository files. No search, filter, order or saving logic was written or verified here; the main agent owns implementation and verification.",
+    "tone_sources": [
+      "pilot/src/app.jsx",
+      "pilot/release/ui-copy.json"
+    ],
+    "reused_exact_existing_strings": {
+      "notJudged": "Not yet judged (app.jsx label())",
+      "derivedNo": "Derived No (app.jsx derived banner)",
+      "reassess": "Reassess (app.jsx label())",
+      "initialOutcome": "Initial outcome (app.jsx value summary, without the colon)",
+      "earlierAnswer": "Earlier answer (app.jsx stale notice, without the colon)",
+      "outcome_values": "Support, Oppose, Both, Neither, Pending (core.mjs valueResult outcomes)",
+      "guideReview_fragments": "“Saved to server” and \"assigned order stays the same when you return\" kept from the guide sentence being replaced"
+    },
+    "added_key": {
+      "answerLabel": "Your answer. Use it only before a direct Yes, No, Reassess or Not yet judged. Do not put it before Derived No. Derived No is a result, not the coder's direct answer. If a direct judgment was kept, show it after Earlier answer."
+    },
+    "usage_notes_for_implementer": [
+      "Show argument and shared-claim rows with answerLabel plus a direct answer, or with derivedNo by itself, and earlierAnswer when a judgment was kept or must be reassessed. Do not combine a direct answer and Derived No into one value.",
+      "Show value-summary rows with initialOutcome (Support, Oppose, Both, Neither or Pending) and strength (Support, Oppose or Pending). When the initial outcome is not Both, show noDecision under strength. Do not show Pending there. The strength label is Stronger reason, not Comparison, so it does not look like the existing bill 'Comparison:' label.",
+      "needsReview means the page is not complete, matching the existing 'page needs review'. It is separate from reassess, which means a judgment is stale.",
+      "resultsLabel uses the {count} and {total} placeholders, which the app fills in."
+    ]
+  },
+  "verification_performed": "The JSON parsed and has 46 string keys. Every required key is present, and the user-specified values for title, previouslyWorked, allAssigned, backToResults, saveReturn and returnCoding match exactly. The SHA-256 above was computed from the saved file. No UI, browser, build or human readability tests were run.",
+  "not_committed": "Both files were left uncommitted at the main agent's direction because it is editing other paths in the same repository."
+}
