@@ -43,7 +43,7 @@ function App({content,service}){
  const [exported,setExported]=useState(null);
  const [review,setReview]=useState(newReviewView),[reviewError,setReviewError]=useState('');
  const reviewReady=useRef(false);
- const reviewIndex=useMemo(()=>makeReviewIndex(content,html=>{const template=document.createElement('template');template.innerHTML=html.replace(/<[^>]+>/g,' ');return template.content.textContent;}),[content]);
+ const reviewIndex=useMemo(()=>makeReviewIndex(content,html=>{const template=document.createElement('template');template.innerHTML=cleanHTML(html,content.claims).replace(/<[^>]+>/g,' ');return template.content.textContent;}),[content]);
  function download(filename,body,type='application/json'){setExported({filename,body,type});window.scrollTo({top:0});}
  const [user,setUser]=useState(undefined),[assignment,setAssignment]=useState(null),[state,setState]=useState(null),[error,setError]=useState(''),[saveStatus,setSaveStatus]=useState(''),[conflict,setConflict]=useState(null),[network,setNetwork]=useState(false),[intro,setIntro]=useState('guide'),[historyOpen,setHistoryOpen]=useState(false),[networkPaused,setNetworkPaused]=useState(false);
  const current=useRef(null),revision=useRef(0),dirty=useRef(false),saving=useRef(false),timer=useRef(null),watch=useRef(null),sent=useRef(''),userRef=useRef(null),authGeneration=useRef(0),session=`${content.version}--${isQA?'qa':'research'}`,conflictRef=useRef(null);

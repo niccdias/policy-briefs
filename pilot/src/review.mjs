@@ -1,5 +1,5 @@
 import {judgedClaims,billFor,claimUsers,backgroundFact,pageComplete,effective,valueResult,strengthResult,comparisonBasis} from './core.mjs';
-import {readingHTML,displayBackground} from './evidence.mjs';
+import {readingHTML,displayBackground,strengthEvidence} from './evidence.mjs';
 
 export const reviewFilters={scope:'worked',query:'',bill:'',value:'',type:'',status:''};
 export const reviewStatuses=['yes','no','derived','reassess','unanswered','Pending','Support','Oppose','Both','Neither','complete','needsReview','hasNotes'];
@@ -12,9 +12,12 @@ export function makeReviewIndex(content,plainText){
  const values=new Map(content.values.map(v=>[v.id,v]));
  const rows=[...judgedClaims(content),...content.arguments].map(node=>{
   const valueIds=node.value_id?[node.value_id]:[...new Set(claimUsers(content,node.id).map(a=>a.value_id))];
-  return {id:node.id,type:node.value_id?'argument':'claim',bill:billFor(content,node),valueIds,title:node.title,direction:node.direction??'',html:[node.statement,node.scope_html,displayBackground(node),readingHTML(content,node,'support'),readingHTML(content,node,'response')].filter(Boolean).join(' ')};
+  return {id:node.id,type:node.value_id?'argument':'claim',bill:billFor(content,node),valueIds,title:node.title,direction:node.direction??'',html:[node.statement,node.scope_html,node.value_id?node.background_html:displayBackground(node),readingHTML(content,node,'support'),readingHTML(content,node,'response')].filter(Boolean).join(' ')};
  });
- for(const value of content.values)rows.push({id:`summary:${value.id}`,type:'summary',bill:billFor(content,value),valueIds:[value.id],title:value.name,direction:'',html:''});
+ for(const value of content.values){
+  const argumentsForValue=content.arguments.filter(a=>a.value_id===value.id);
+  rows.push({id:`summary:${value.id}`,type:'summary',bill:billFor(content,value),valueIds:[value.id],title:value.name,direction:'',html:argumentsForValue.map(a=>[a.title,readingHTML(content,a,'support'),readingHTML(content,a,'response')].join(' ')).join(' '),strengthEvidence:strengthEvidence(content,argumentsForValue.map(a=>a.id)).map(item=>({arguments:item.arguments,text:normalize(plainText(item.html))}))});
+ }
  return new Map(rows.map(({html,...row})=>[row.id,{...row,bill:{...row.bill,id:row.bill.id??row.bill.bill},search:normalize([row.id,row.title,row.type,row.bill.bill,row.bill.title,row.direction,...row.valueIds.map(id=>values.get(id).name),plainText(html)].join(' '))}]));
 }
 
@@ -39,7 +42,8 @@ export function reviewRows(content,state,index){
   }
   if(stale)statuses.push('reassess');
   statuses.push(complete?'complete':'needsReview');if(notes.trim())statuses.push('hasNotes');
-  return {...row,answer,origin,stale,strength,earlierAnswer:saved?.answer,complete,worked,notes,statuses,search:row.search+' '+normalize(notes)};
+  const strengthText=summary&&answer==='Both'?row.strengthEvidence.filter(item=>item.arguments.some(id=>effective(content,state,id).answer==='yes')).map(item=>item.text).join(' '):'';
+  return {...row,answer,origin,stale,strength,earlierAnswer:saved?.answer,complete,worked,notes,statuses,search:[row.search,normalize(notes),strengthText].join(' ')};
  });
 }
 
@@ -51,7 +55,8 @@ export function filterReviewRows(rows,filters){
 export function readReviewView(raw,content,state){
  if(raw===null)return newReviewView();
  const view=JSON.parse(raw),f=view?.filters;
- const validTarget=id=>id===null||typeof id==='string'&&(state.order.includes(id)&&!content.catalog?.some(n=>n.id===id&&n.retired)||!!backgroundFact(content,id));
+ const decisions=new Set([...judgedClaims(content),...content.arguments].map(n=>n.id).concat(content.values.map(v=>`summary:${v.id}`)));
+ const validTarget=id=>id===null||typeof id==='string'&&(decisions.has(id)&&state.order.includes(id)||!!backgroundFact(content,id));
  if(typeof view.open!=='boolean'||!validTarget(view.target)||!validTarget(view.focus)||!Number.isFinite(view.scroll)||view.scroll<0||!f||!['worked','all'].includes(f.scope)||typeof f.query!=='string'||f.query.length>2000||!['',...((content.bills??[content.bill]).map(b=>b.id??b.bill))].includes(f.bill)||!['',...content.values.map(v=>v.id)].includes(f.value)||!['','argument','claim','summary'].includes(f.type)||!['',...reviewStatuses].includes(f.status))throw new Error('Invalid review view.');
  return {open:view.open,target:view.target,filters:Object.fromEntries(Object.keys(reviewFilters).map(key=>[key,f[key]])),scroll:view.scroll,focus:view.focus};
 }

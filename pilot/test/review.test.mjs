@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {newState,editState,basis,comparisonBasis,validateState} from '../src/core.mjs';
+import {newState,editState,validateState} from '../src/core.mjs';
 import {reviewFilters,newReviewView,reviewKey,makeReviewIndex,reviewRows,filterReviewRows,readReviewView} from '../src/review.mjs';
 
 const content={schema_version:1,version:'review-test',bill:{bill:'S.1',title:'Test bill'},values:[{id:'V',name:'Concern'}],claims:[{id:'C',title:'Shared money claim',statement:'The funding reaches local lenders.',prerequisite_paths:[{id:'cp',requires:[]}],support_html:'<p>Claim evidence.</p>',objection_html:'<p>A disputed inference.</p>'}],arguments:[{id:'A',title:'Health access',value_id:'V',direction:'support',paths:[{id:'ap',requires:['C']}],pro_html:'<p>Lower treatment costs.</p>',con_html:'<p>Limited rural reach.</p>'},{id:'B',title:'Service risk',value_id:'V',direction:'oppose',paths:[{id:'bp',requires:['C']}],pro_html:'<p>Loss of local services.</p>',con_html:'<p>Other services remain.</p>'}],evidence_placement:{nodes:Object.fromEntries(['C','A','B'].map(id=>[id,{support:[],response:[],strength:[]}]))}};
@@ -66,6 +66,15 @@ test('review restoration validates local data and namespaces accounts and sessio
  for(const patch of [{target:'missing'},{scroll:-1},{filters:{...reviewFilters,status:'invalid'}},{filters:{...reviewFilters,value:'missing'}},{open:'yes'}])assert.throws(()=>readReviewView(JSON.stringify({...view,...patch}),content,s));
  assert.throws(()=>readReviewView('broken',content,s));
 });
+test('summary search includes displayed argument bodies and only current strength evidence',()=>{
+ const c=structuredClone(content);c.evidence_placement.nodes.A.strength=[{id:'strength-A',html:'<p>A unique measure of reach.</p>',inherit:true}];
+ const i=makeReviewIndex(c,html=>html.replace(/<[^>]+>/g,' '));
+ let s=newState(c,3);const matches=query=>filterReviewRows(reviewRows(c,s,i),{...reviewFilters,scope:'all',type:'summary',query});
+ assert.equal(matches('treatment costs').length,1);assert.equal(matches('unique measure').length,0);
+ for(const id of ['C','A','B'])s=editState(c,s,{type:'judgment',id,answer:'yes'});
+ assert.equal(matches('unique measure').length,1);
+ s=editState(c,s,{type:'judgment',id:'A',answer:'no'});assert.equal(matches('unique measure').length,0);
+});
 test('real release index covers every active decision and excludes background and retired IDs',async()=>{
  const c=JSON.parse(await readFile(new URL('../release/content.json',import.meta.url))),s=newState(c,51),before=JSON.stringify(s),realIndex=makeReviewIndex(c,html=>html.replace(/<[^>]+>/g,' '));
  const result=reviewRows(c,s,realIndex),background=new Set(c.procedure.background.map(f=>f.id));
@@ -73,4 +82,6 @@ test('real release index covers every active decision and excludes background an
  assert.ok(result.every(row=>!background.has(row.id)&&!c.catalog.some(a=>a.id===row.id&&a.retired)));
  assert.deepEqual(result.map(r=>r.id),s.order.filter(id=>realIndex.has(id)));assert.equal(JSON.stringify(s),before);assert.ok(validateState(c,s));
  for(const row of result.filter(r=>r.type==='claim'))assert.ok(row.valueIds.length>0);
+ const bill=s.order.find(id=>id.startsWith('bill:'));
+ assert.ok(bill);assert.throws(()=>readReviewView(JSON.stringify({...newReviewView(),open:true,target:bill}),c,s));
 });
