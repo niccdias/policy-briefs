@@ -6,6 +6,8 @@ The earlier H.R.5408 pilot procedure (`../bill_reasoning_pilot_20261108/hr5408/d
 
 ## What reviewers do
 
+A new review opens with the bill's short description alone. Continue opens the review, with its sign-in controls; signing in does not show the description again. A saved session resumes at its saved position.
+
 Reviewers walk through one bill one decision at a time. Each decision shows its claim, the evidence, challenges and limits that bear on that exact claim, and one Yes/No question beside it. Bill provisions and sourced background facts are shown as context beside the decisions that use them; they are never asked as questions.
 
 There are two kinds of decision.

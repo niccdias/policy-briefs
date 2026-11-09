@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {plainText} from './source.mjs';
-import {createState,nextDecision,answerDecision,derivedResults,saveComparison,completion} from './model.mjs';
+import {createState,nextDecision,answerDecision,derivedResults,saveComparison,completion,navigate} from './model.mjs';
 import {renderDecision,renderResults,renderShell} from './app.js';
 
 // Count default-open content, including prompts and reminders, but not source disclosures.
@@ -25,7 +25,7 @@ export function visibleText(html,{excludeClasses=[]}={}){
 export const words=(html,options)=>(visibleText(html,options).match(/[\p{L}\p{N}]+(?:['’\-][\p{L}\p{N}]+)*/gu)??[]).length;
 
 export function measurePath(model,release,{name='path',choose=()=> 'Yes'}={}){
- let state=createState(model,release,'benchmark_'+name,'2026-11-09T00:00:00.000Z');const visited=[],contextIds=new Set(),blockIds=new Set();let referenceWords=0;
+ let state=createState(model,release,'benchmark_'+name,'2026-11-09T00:00:00.000Z');state=navigate(model,state,{page:'review',decision_id:null,anchor:'reading'},state.updated_at);const visited=[],contextIds=new Set(),blockIds=new Set();let referenceWords=0;
  const countReferences=()=>{const shell=renderShell(model,state,'review',release,{writable:true}),aside=shell.match(/<aside\b[\s\S]*?<\/aside>/)?.[0];assert(aside,'The rendered reference panel is missing.');return words(aside,{excludeClasses:['bill-context']});};
  for(let guard=0;guard<=model.nodes.size;guard++){
   const node=nextDecision(model,state);if(!node)break;

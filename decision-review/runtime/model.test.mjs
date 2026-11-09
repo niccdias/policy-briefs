@@ -75,8 +75,19 @@ test('strict import replays the entire history, rejects tampering and opens a ne
 test('CSV includes every node judgment and six derived records with explicit blanks, stale and Pending',()=>{const model=make();let state=allYes(model);state=saveComparison(model,state,source.values[0].id,'pending',at(30));const csv=csvExport(model,state);assert.equal(csv.split('\r\n').length,model.nodes.size+source.values.length+2);assert(csv.includes(copy.strength_labels.pending));assert(csv.includes(release.rendered_id));state=answerDecision(model,state,'A',null,at(31));const changed=csvExport(model,state);assert(changed.includes(copy.unanswered));assert(changed.includes(copy.decision_stale));});
 
 const markers=(html,name)=>[...html.matchAll(new RegExp(name+'="([^"]+)"','g'))].map(match=>match[1]);
+test('a new review shows only the short bill description; Continue persists without recording an answer',()=>{
+ const model=make(),state=fresh(model),html=renderShell(model,state,'review',release,{writable:true,status:'cloud_saved'});
+ assert(html.startsWith('<main class="bill-intro"'));assert(html.includes(model.copy.bill_context_label));
+ assert(html.includes(model.sourceIndex.source.bill.description.replaceAll('&','&amp;').replaceAll('"','&quot;')));
+ assert.deepEqual(markers(html,'id'),['reading','begin-review']);assert(!html.includes('<aside')&&!html.includes('<header')&&!html.includes('<form')&&!html.includes(copy.tree_intro));
+ const started=navigate(model,state,{page:'review',decision_id:null,anchor:'reading'},at(1));
+ assert.deepEqual(started.answers,{});validateState(started,model,release);
+ const resumed=validateState(JSON.parse(JSON.stringify(started)),model,release),coding=renderShell(model,resumed,'review',release,{writable:true});
+ assert(!coding.includes('class="bill-intro"'));assert.deepEqual(markers(coding,'data-decision-id'),['A']);
+ const imported=importBackup(exportBackup(started),model,release,'session_intro_import',at(2));assert(!renderShell(model,imported,'review',release).includes('class="bill-intro"'));
+});
 test('renderer keeps one active question and local goals, with full value definitions only at comparisons',()=>{
- const model=make();let state=fresh(model),html=renderShell(model,state,'review',release,{writable:true});
+ const model=make();let state=navigate(model,fresh(model),{page:'review',decision_id:null,anchor:'reading'},at(0)),html=renderShell(model,state,'review',release,{writable:true});
  assert.deepEqual(markers(html,'data-decision-id'),['A']);assert.equal(markers(html,'data-value-definition').length,0);
  assert.equal((html.match(/class="decision-form"/g)??[]).length,1);assert.equal((html.match(/data-decision-answer=/g)??[]).length,2);assert(html.includes(copy.causal_question));
  assert(!html.includes('>A</h1>'),'The labelled claim replaces the redundant decision title.');

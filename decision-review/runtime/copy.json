@@ -252,5 +252,6 @@
  "cloud_use_server": "Use the server version",
  "cloud_keep_draft": "Keep this browser’s version as a new session",
  "pending_leave": "Some answers have not been confirmed by the server. They stay saved in this browser for this account, and you can send them with Retry when you return. Leave anyway?",
- "cloud_load_error": "Your saved sessions could not be loaded. Try again when you are online. Your saved data have not been changed."
+ "cloud_load_error": "Your saved sessions could not be loaded. Try again when you are online. Your saved data have not been changed.",
+ "intro_continue": "Continue"
 }

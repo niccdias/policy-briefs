@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {join,resolve,dirname,extname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash,randomUUID} from 'node:crypto';
-import {createDecisionTree,decisionStates,nextDecision,completion,navigate} from './runtime/model.mjs';
+import {createDecisionTree,createState,decisionStates,nextDecision,completion,navigate} from './runtime/model.mjs';
 import {storagePrefix} from './runtime/storage.mjs';
 import {connectFirebase} from './runtime/firebase.mjs';
 import {initializeTestEnvironment} from '@firebase/rules-unit-testing';
@@ -39,7 +39,27 @@ function client(target){
  const waitFor=selector=>until(()=>evaluate(selector=>Boolean(document.querySelector(selector)),selector),'Missing selector: '+selector);
  const page={send,evaluate,click,waitFor,close:async()=>{socket.close();await fetch(endpoint+'/json/close/'+target.id);}};clients.push(page);return page;
 }
-async function newPage(path,writable=true){const target=await(await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json(),page=client(target);await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:new URL(path+'?firebaseEmulator=1&testUser='+encodeURIComponent(testUser),base).href});await until(()=>page.evaluate(()=>Boolean(document.querySelector('.save-status.auth_signed_out,#sign-out'))),'Auth did not load.');if(await page.evaluate(()=>Boolean(document.querySelector('#sign-in'))))await page.click('#sign-in');await page.waitFor('#session-id');if(writable)await waitSaved(page);return page;}
+async function inspectIntroduction(page){
+ const intro=await page.evaluate(()=>{const p=JSON.parse(document.getElementById('pilot-data').textContent),main=document.querySelector('.bill-intro');return {title:main.querySelector('h1').textContent,description:main.querySelector('p').textContent,expectedTitle:p.copy.bill_context_label,expectedDescription:p.source.bill.description,children:main.children.length,screens:document.getElementById('pilot').children.length,extra:document.querySelectorAll('header,aside,form,.page-heading,.decision-outline,.trail,.release-details').length};});
+ assert.equal(intro.title,intro.expectedTitle);assert.equal(intro.description,intro.expectedDescription);assert.equal(intro.children,3);assert.equal(intro.screens,1);assert.equal(intro.extra,0);
+}
+async function newPage(path,writable=true){
+ let unstartedId=null;const target=await(await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json(),page=client(target);await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:new URL(path+'?firebaseEmulator=1&testUser='+encodeURIComponent(testUser),base).href});
+ await until(()=>page.evaluate(()=>Boolean(document.querySelector('#begin-review:not(:disabled),.save-status.auth_signed_out,#sign-out'))),'Auth did not load.');
+ if(await page.evaluate(()=>Boolean(document.querySelector('#begin-review')))){
+  await inspectIntroduction(page);await page.evaluate(()=>location.hash='results');await pause(80);await inspectIntroduction(page);
+  for(const [width,height] of [[320,740],[390,844],[768,1000],[1280,900],[1600,1000]]){await page.send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Introduction overflows.');layouts.push({slug:path.split('/')[1],width,height,fragment:'introduction',overflow:false});}
+  await page.send('Emulation.setDeviceMetricsOverride',{width:1280,height:900,deviceScaleFactor:1,mobile:false});
+  await mkdir(join(root,'private/screenshots'),{recursive:true});const shot=await page.send('Page.captureScreenshot',{format:'png'});await writeFile(join(root,'private/screenshots',path.split('/')[1]+'-introduction.png'),Buffer.from(shot.data,'base64'));
+  if(await page.evaluate(()=>!window.__qaStore())){
+   const data=await payload(page),model=createDecisionTree(data.source,data.decisions,data.coverage,data.copy,data.hashes),unstarted=createState(model,data.release,'unstarted_'+data.source.bill.id,new Date().toISOString());
+   await qaService.save(qaUser.uid,unstarted.session_id,data.release,'qa',0,unstarted);unstartedId=unstarted.session_id;checks.push(path.split('/')[1]+': pre-existing untouched cloud session seeded before anonymous Continue and sign-in.');
+  }
+  await page.click('#begin-review');await until(()=>page.evaluate(()=>Boolean(document.querySelector('.save-status.auth_signed_out,#sign-out'))),'Continue did not open the review.');
+  checks.push(path.split('/')[1]+': first screen contains only the exact short bill description, bill title and Continue; navigation cannot bypass it; five viewport sizes fit.');
+ }
+ if(await page.evaluate(()=>Boolean(document.querySelector('#sign-in'))))await page.click('#sign-in');await page.waitFor('#session-id');if(writable)await waitSaved(page);else await until(()=>page.evaluate(()=>!document.querySelector('.save-status.cloud_loading')),'Session did not load.');if(unstartedId)assert.equal(await page.evaluate(()=>document.getElementById('session-id').textContent),unstartedId,'Continue must resume the existing untouched session without a conflict.');assert.equal(await page.evaluate(()=>document.querySelector('.bill-intro')),null,'Signing in repeated the introduction.');return page;
+}
 const payload=page=>page.evaluate(()=>JSON.parse(document.getElementById('pilot-data').textContent));
 const savedState=(page,prefix)=>page.evaluate(prefix=>JSON.parse(localStorage.getItem(prefix+'session:'+document.getElementById('session-id').textContent))?.state,prefix);
 const activeId=page=>page.evaluate(()=>document.querySelector('.active-decision')?.dataset.decisionId??null);
@@ -64,7 +84,10 @@ try{
   if(first.kind==='causal'){
    await answer(page,prefix,'No');const state=await savedState(page,prefix),statuses=decisionStates(model,state),pruned=[...statuses].filter(([,item])=>item.status==='pruned').map(([id])=>id);assert(pruned.length>0,'The highest-priority root should prune a dependent question.');assert(pruned.every(id=>!state.answers[id]));
    bills.push({slug:entry.slug,release:data.release,root:first.id,root_no_pruned:pruned.length});
-   await page.click('#new-session');await until(async()=>(await savedState(page,prefix)).session_id!==state.session_id,'New session did not open.');await waitSaved(page);
+   await page.click('#new-session');await page.waitFor('#begin-review:not(:disabled)');await inspectIntroduction(page);
+   const introOrigin=await page.evaluate(()=>performance.timeOrigin);await page.send('Page.reload',{ignoreCache:true});await until(async()=>{try{return await page.evaluate(()=>performance.timeOrigin)!==introOrigin;}catch{return false;}},'Introduction reload did not complete.');await page.waitFor('#begin-review:not(:disabled)');await inspectIntroduction(page);await page.click('#begin-review');await page.waitFor('#session-id');
+   await until(async()=>(await savedState(page,prefix)).session_id!==state.session_id,'New session did not open.');await waitSaved(page);
+   const started=await savedState(page,prefix);assert.deepEqual(started.answers,{});assert.equal(started.navigation.anchor,'reading');assert.equal(started.history.at(-1).type,'navigation');checks.push(entry.slug+': a new session and its reload show the introduction; Continue is persisted as navigation with no judgment.');
   }else bills.push({slug:entry.slug,release:data.release,root:first.id,root_no_pruned:0});
   const order=[],panels=[];
   for(let guard=0;guard<=model.nodes.size;guard++){
@@ -107,7 +130,7 @@ try{
    await go(page,'decision-'+first.id);const raceLocal=await savedState(page,prefix),raceRemote=await qaService.load(qaUser.uid,raceLocal.session_id),raceState=navigate(model,raceLocal,{page:'results',decision_id:null,anchor:''},new Date(Math.max(Date.now(),Date.parse(raceLocal.updated_at))).toISOString());await qaService.save(qaUser.uid,raceLocal.session_id,data.release,'qa',raceRemote.revision,raceState);
    await page.click('[data-decision-answer="No"]');await page.waitFor('.save-status.cloud_conflict');await page.evaluate(()=>{const store=window.__qaStore(),original=store.useServer.bind(store);store.useServer=async()=>{const next=await original();await new Promise(resolve=>window.__qaResumeResolution=resolve);return next;};});await page.click('#use-server');await until(()=>page.evaluate(()=>typeof window.__qaResumeResolution==='function'),'The real server resolution did not reach the delayed completion.');
    await page.click('#sign-out');await page.waitFor('.save-status.auth_signed_out');await page.evaluate(()=>window.__qaResumeResolution());await pause(100);assert(await page.evaluate(()=>Boolean(document.querySelector('.save-status.auth_signed_out'))),'A stale resolution must not repaint a signed-out account.');assert.equal(await activeId(page),first.id,'A stale resolution must not restore private session navigation after sign-out.');assert.equal(await page.evaluate(()=>document.querySelectorAll('[data-reopen-decision],.saved-verdict').length),0,'Old private answers must stay hidden after a delayed completion.');assert.equal(await page.evaluate(()=>document.querySelector('#session-id')),null,'Signed-out view must not expose account sessions.');assert(await page.evaluate(()=>document.querySelector('[data-decision-answer]').matches(':disabled')));
-   await page.click('#sign-in');await waitSaved(page);assert.equal((await savedState(page,prefix)).session_id,(await qaService.list(qaUser.uid,data.release,'qa'))[0].session_id);
+   const expectedResume=(await qaService.list(qaUser.uid,data.release,'qa'))[0];await page.click('#sign-in');await waitSaved(page);assert.equal((await savedState(page,prefix)).session_id,expectedResume.session_id);assert.deepEqual((await savedState(page,prefix)).navigation,expectedResume.state.navigation,'Sign-in must preserve the saved position rather than the generic Continue destination.');
    checks.push(entry.slug+': offline answer stays in account cache until Retry confirms cloud save; independent Firebase client creates a real stale-revision conflict; both explicit resolution paths preserve server history; sign-out during a delayed conflict resolution keeps old private answers hidden and sign-in resumes.');
 
   }
