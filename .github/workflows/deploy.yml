@@ -41,6 +41,14 @@ jobs:
         run: npm test --prefix pilot
       - name: Build coding view and verify shared release parity
         run: npm run build --prefix pilot
+      - name: Install guided review dependencies
+        run: npm ci --prefix decision-review
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Check guided review account access and immutable cloud history
+        run: npm run test:rules --prefix decision-review
       - name: Require verified decision-review packages
         run: node decision-review/publication-gate.mjs
       - name: Check guided review decisions and saved sessions

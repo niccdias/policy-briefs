@@ -10,7 +10,7 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 
 export async function approvalInputs(){
  const manifest=JSON.parse(await readFile(join(root,'input-manifest.json'),'utf8'));
- const files=['input-manifest.json','PROCEDURE.md','site-copy.json','build-site.mjs','publication-gate.mjs','browser-qa.mjs','audit-content.mjs','content-audit-findings.json'];
+ const files=['input-manifest.json','PROCEDURE.md','site-copy.json','build-site.mjs','publication-gate.mjs','browser-qa.mjs','audit-content.mjs','content-audit-findings.json','package.json','package-lock.json','firebase-config.json','firebase.json','backend/firestore.rules'];
  for(const name of (await readdir(join(root,'runtime'))).sort()){
   assert(/^[a-z0-9.-]+\.(?:mjs|js|json|css)$/.test(name),'Unexpected file in public runtime: '+name);
   files.push('runtime/'+name);
@@ -19,7 +19,7 @@ export async function approvalInputs(){
   assert(/^[a-z0-9]+$/.test(bill.slug),'Invalid bill slug.');
   for(const name of ['input/source.json','decisions.json','coverage.json','copy.json',bill.slug==='hr5408'?'conversion.json':'EDITORIAL_REVIEW.md'])files.push('bills/'+bill.slug+'/'+name);
  }
- for(const name of ['content-verification.json','browser-verification.json'])files.push(name);
+ for(const name of ['content-verification.json','browser-verification.json','cloud-verification.json'])files.push(name);
  return Object.fromEntries(await Promise.all(files.map(async name=>[name,sha(await readFile(join(root,name)))])));
 }
 
@@ -28,7 +28,7 @@ export async function checkPublication(){
  assert.equal(approval.schema_version,1,'Unsupported decision-review approval schema.');
  assert.equal(approval.status,'approved','Decision-review publication is not approved.');
  assert.deepEqual(approval.open_findings,[],'Decision-review findings remain open.');
- for(const field of ['content_review','browser_review'])assert(typeof approval[field]==='string'&&approval[field].trim(),'Missing verification reference: '+field);
+ for(const field of ['content_review','browser_review','cloud_review'])assert(typeof approval[field]==='string'&&approval[field].trim(),'Missing verification reference: '+field);
  assert.deepEqual(await approvalInputs(),approval.input_sha256,'Decision-review approval is stale; reverify the changed inputs.');
  for(const name of ['content-verification.json','browser-verification.json']){
   const report=JSON.parse(await readFile(join(root,name),'utf8'));
@@ -40,6 +40,10 @@ export async function checkPublication(){
  const manifest=JSON.parse(await readFile(join(root,'input-manifest.json'),'utf8'));
  const audit=JSON.parse(await readFile(join(root,'content-audit-findings.json'),'utf8'));
  const browser=JSON.parse(await readFile(join(root,'browser-verification.json'),'utf8'));
+ const cloud=JSON.parse(await readFile(join(root,'cloud-verification.json'),'utf8'));
+ assert.equal(cloud.status,'passed','Cloud verification has not passed.');
+ assert.deepEqual(cloud.open_findings,[],'Cloud verification has unresolved findings.');
+ for(const name of ['runtime/firebase.mjs','runtime/firebase.test.mjs','runtime/app.js','runtime/build.mjs','runtime/copy.json','site-copy.json','package.json','package-lock.json','firebase-config.json','firebase.json','backend/firestore.rules','browser-qa.mjs'])assert.equal(cloud.input_sha256[name],sha(await readFile(join(root,name))),'Cloud verification is stale: '+name);
  assert.equal(audit.schema_version,1,'Unsupported content-audit schema.');
  assert(audit.findings.every(finding=>finding.status==='resolved'),'Independent content-audit findings remain open.');
  assert.deepEqual(Object.keys(audit.bills).sort(),manifest.bills.map(bill=>bill.slug).sort(),'Independent content audit must cover all eight bills.');

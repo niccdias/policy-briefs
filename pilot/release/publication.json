@@ -4,7 +4,7 @@
     "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
     "procedure_id": "procedure-20261107-344e19dfc7b89622",
     "mapping_id": "mapping-236a7cfb3af2b65d",
-    "rendered_id": "rendered-80f2f6091a0af8643aa8",
+    "rendered_id": "rendered-dc1dfac91d99fa3fe475",
     "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
     "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
     "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
@@ -32,7 +32,7 @@
       "publication-gate.mjs": "ac8a867b2ff20d7c78a3eede276c68b44d9b3c721a58acfebc2592889548ac4a",
       "rendered-release.mjs": "1cdde3f8ad75479a99180ed81becc0529929975b6f52da263fd59e26262df538",
       "build.mjs": "8cb17aba4b6b400f8bc3264e77a1b9340689c01ed5ddbf57b4bd23ef0b9fc53f",
-      "../.github/workflows/deploy.yml": "2ccafc7a17c4ce84e7f7f06af0869f35c4680737aeb1f58c0ebb76e843e0ac30",
+      "../.github/workflows/deploy.yml": "90961f61f4d0d4d47bc8582b89f8350685f86e5907a333c597b608b492f35778",
       "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
     }
   },
@@ -12336,12 +12336,12 @@
   ],
   "receipts": {
     "author": {
-      "path": "review-receipts/decision-review-build-author.json",
-      "sha256": "4fc96234b8250acd4e092873d33f96f50d92a3b62923a54c37099fcc75d76e36"
+      "path": "review-receipts/guided-cloud-build-author.json",
+      "sha256": "1b4df585acbcbb8abe602928fc922c2983ad2856fd01628cf91bb70e8e888f98"
     },
     "verification": {
-      "path": "review-receipts/decision-review-build-verification.json",
-      "sha256": "97a60f2a9bb4d0bd4361dedfc2261ab3af49fe8f81914632c0571653c05b46d3"
+      "path": "review-receipts/guided-cloud-build-verification.json",
+      "sha256": "954c56fd166d9e219ad411667106f2a4f6dc3227aefa9efa17709b3a083705fb"
     }
   }
 }

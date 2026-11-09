@@ -1,0 +1,93 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null && request.auth.token.email_verified == true; }
+    function assignment() { return get(/databases/$(database)/documents/assignments/$(request.auth.uid)); }
+    function coordinator() { return signedIn() && assignment().data.active == true && assignment().data.role == 'coordinator'; }
+    function own(uid, version, kind) {
+      return signedIn() && request.auth.uid == uid && assignment().data.active == true
+        && version in assignment().data.versions && kind in assignment().data.kinds;
+    }
+    function valid(data, version, kind) {
+      return data.keys().hasOnly(['version','kind','revision','payload','modifiedAt'])
+        && data.version == version && data.kind == kind && data.revision is int
+        && data.payload is string && data.payload.size() < 700000
+        && data.modifiedAt == request.time;
+    }
+    match /assignments/{uid} {
+      allow get: if signedIn() && (request.auth.uid == uid || coordinator());
+      allow list: if coordinator();
+      allow write: if false; // Only the project owner provisions assignments with administrative tooling.
+    }
+    match /responses/{uid}/sessions/{session} {
+      allow get: if coordinator() || (signedIn() && request.auth.uid == uid && assignment().data.active == true && (!exists(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)) || own(uid,resource.data.version,resource.data.kind)));
+      allow list: if coordinator();
+      allow create: if own(uid,request.resource.data.version,request.resource.data.kind)
+        && valid(request.resource.data,request.resource.data.version,request.resource.data.kind)
+        && request.resource.data.revision == 1
+        && getAfter(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)/revisions/1).data.payload == request.resource.data.payload;
+      allow update: if own(uid,resource.data.version,resource.data.kind)
+        && valid(request.resource.data,resource.data.version,resource.data.kind)
+        && request.resource.data.revision == resource.data.revision + 1
+        && getAfter(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)/revisions/$(request.resource.data.revision)).data.payload == request.resource.data.payload;
+      allow delete: if false;
+      match /revisions/{revision} {
+        function currentAfter() { return getAfter(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)); }
+        allow read: if coordinator() || own(uid, get(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)).data.version, get(/databases/$(database)/documents/responses/$(uid)/sessions/$(session)).data.kind);
+        allow create: if own(uid,request.resource.data.version,request.resource.data.kind)
+          && valid(request.resource.data,request.resource.data.version,request.resource.data.kind)
+          && request.resource.data.revision == int(revision)
+          && currentAfter().data.revision == request.resource.data.revision
+          && currentAfter().data.payload == request.resource.data.payload;
+        allow update, delete: if false;
+      }
+    }
+    function guidedSignedIn() {
+      return signedIn() && request.auth.token.firebase.sign_in_provider == 'google.com';
+    }
+    function guidedCoordinator() { return guidedSignedIn() && coordinator(); }
+    function guidedOwn(uid, kind) {
+      return guidedSignedIn() && request.auth.uid == uid && assignment().data.active == true
+        && kind in ['qa','research'] && kind in assignment().data.kinds;
+    }
+    function guidedValid(data, session) {
+      return data.keys().hasAll(['version','bill_id','rendered_id','kind','revision','payload','modifiedAt'])
+        && data.keys().hasOnly(['version','bill_id','rendered_id','kind','revision','payload','modifiedAt'])
+        && session.matches('^[A-Za-z0-9_-]{8,100}$')
+        && data.version == 'decision-review-v1'
+        && data.bill_id in ['119_H_R_131','119_H_R_1834','119_H_R_28','119_H_R_4405','119_H_R_5408','119_S_1582','119_S_2','119_S_J_Res_88']
+        && data.rendered_id is string && data.rendered_id.matches('^rendered-[a-f0-9]{64}$')
+        && data.kind in ['qa','research'] && data.revision is int && data.revision > 0
+        && data.payload is string && data.payload.size() > 0 && data.payload.size() < 700000
+        && data.modifiedAt == request.time;
+    }
+    match /decisionReviews/{uid}/sessions/{session} {
+      allow get: if guidedCoordinator() || (guidedSignedIn() && request.auth.uid == uid && assignment().data.active == true
+        && (!exists(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)) || guidedOwn(uid,resource.data.kind)));
+      allow list: if guidedCoordinator() || (guidedOwn(uid,resource.data.kind) && resource.data.version == 'decision-review-v1');
+      allow create: if guidedOwn(uid,request.resource.data.kind) && guidedValid(request.resource.data,session)
+        && request.resource.data.revision == 1
+        && getAfter(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)/revisions/1).data == request.resource.data;
+      allow update: if guidedOwn(uid,resource.data.kind) && guidedValid(request.resource.data,session)
+        && request.resource.data.version == resource.data.version
+        && request.resource.data.bill_id == resource.data.bill_id
+        && request.resource.data.rendered_id == resource.data.rendered_id
+        && request.resource.data.kind == resource.data.kind
+        && request.resource.data.revision == resource.data.revision + 1
+        && getAfter(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)/revisions/$(request.resource.data.revision)).data == request.resource.data;
+      allow delete: if false;
+      match /revisions/{revision} {
+        function current() { return get(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)); }
+        function currentAfter() { return getAfter(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)); }
+        allow read: if guidedCoordinator() || guidedOwn(uid,current().data.kind);
+        allow create: if guidedOwn(uid,request.resource.data.kind) && guidedValid(request.resource.data,session)
+          && revision == string(request.resource.data.revision)
+          && currentAfter().data == request.resource.data
+          && ((!exists(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)) && request.resource.data.revision == 1)
+            || (exists(/databases/$(database)/documents/decisionReviews/$(uid)/sessions/$(session)) && request.resource.data.revision == current().data.revision + 1));
+        allow update, delete: if false;
+      }
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

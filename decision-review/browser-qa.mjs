@@ -5,9 +5,17 @@ import {spawn} from 'node:child_process';
 import {tmpdir} from 'node:os';
 import {join,resolve,dirname,extname} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {createHash} from 'node:crypto';
-import {createDecisionTree,decisionStates,nextDecision,completion} from './runtime/model.mjs';
+import {createHash,randomUUID} from 'node:crypto';
+import {createDecisionTree,decisionStates,nextDecision,completion,navigate} from './runtime/model.mjs';
 import {storagePrefix} from './runtime/storage.mjs';
+import {connectFirebase} from './runtime/firebase.mjs';
+import {initializeTestEnvironment} from '@firebase/rules-unit-testing';
+import {doc,setDoc} from 'firebase/firestore';
+
+assert(process.env.FIRESTORE_EMULATOR_HOST==='127.0.0.1:8095'&&process.env.FIREBASE_AUTH_EMULATOR_HOST==='127.0.0.1:9105','Browser checks require the isolated decision-review emulators.');
+const testUser='browser-'+randomUUID(),qaService=connectFirebase({}, {emulator:true,testUser}),qaUser=(await qaService.signIn()).user;
+const qaEnvironment=await initializeTestEnvironment({projectId:'demo-decision-review',firestore:{host:'127.0.0.1',port:8095}});
+await qaEnvironment.withSecurityRulesDisabled(context=>setDoc(doc(context.firestore(),'assignments',qaUser.uid),{active:true,kinds:['qa'],versions:[],role:'reviewer'}));
 
 const root=dirname(fileURLToPath(import.meta.url));
 assert(process.argv[2],'Usage: node browser-qa.mjs <built-public-directory>');
@@ -16,7 +24,7 @@ const checks=[],layouts=[],errors=[],clients=[],bills=[];
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function until(probe,message){const deadline=Date.now()+30000;while(Date.now()<deadline){const result=await probe();if(result)return result;await pause(20);}throw new Error(message);}
-const server=createServer(async(request,response)=>{try{let path=decodeURIComponent(new URL(request.url,'http://localhost').pathname);if(path.endsWith('/'))path+='index.html';const file=resolve(publicDir,'.'+path);assert(file.startsWith(publicDir+'/'));const bytes=await readFile(file);response.writeHead(200,{'Content-Type':extname(file)==='.html'?'text/html; charset=utf-8':'application/json'});response.end(bytes);}catch{response.writeHead(404);response.end('Not found');}});
+const server=createServer(async(request,response)=>{try{let path=decodeURIComponent(new URL(request.url,'http://localhost').pathname);if(path.endsWith('/'))path+='index.html';const file=resolve(publicDir,'.'+path);assert(file.startsWith(publicDir+'/'));let bytes=await readFile(file);if(extname(file)==='.html')bytes=Buffer.from(bytes.toString().replace('connect-src https://*.googleapis.com','connect-src http://127.0.0.1:8095 http://127.0.0.1:9105 ws://127.0.0.1:8095 https://*.googleapis.com'));response.writeHead(200,{'Content-Type':extname(file)==='.html'?'text/html; charset=utf-8':extname(file)==='.js'?'text/javascript; charset=utf-8':'application/json'});response.end(bytes);}catch{response.writeHead(404);response.end('Not found');}});
 await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const base='http://127.0.0.1:'+server.address().port+'/';
 const child=spawn(process.env.REVIEW_CHROME_BIN??'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',['--headless=new','--no-first-run','--no-default-browser-check','--disable-background-networking','--disable-sync','--disable-component-update','--disable-default-apps','--remote-debugging-port=0','--user-data-dir='+profile,'about:blank'],{stdio:'ignore'});
@@ -27,15 +35,15 @@ function client(target){
  socket.onmessage=event=>{const message=JSON.parse(event.data);if(message.id){const task=pending.get(message.id);pending.delete(message.id);if(message.error)task.reject(new Error(JSON.stringify(message.error)));else task.resolve(message.result);}else if(message.method==='Runtime.exceptionThrown')errors.push(message.params.exceptionDetails.text);};
  const send=async(method,params={})=>{await ready;return new Promise((resolve,reject)=>{const id=++sequence;pending.set(id,{resolve,reject});socket.send(JSON.stringify({id,method,params}));});};
  const evaluate=async(fn,...args)=>{const result=await send('Runtime.evaluate',{expression:'('+fn.toString()+')(...'+JSON.stringify(args)+')',awaitPromise:true,returnByValue:true});assert(!result.exceptionDetails,JSON.stringify(result.exceptionDetails));return result.result.value;};
- const click=selector=>evaluate(selector=>{const element=document.querySelector(selector);if(!element||element.disabled)throw new Error('Missing or disabled control: '+selector);element.click();},selector);
+ const click=selector=>evaluate(selector=>{const element=document.querySelector(selector);if(!element||element.matches(':disabled'))throw new Error('Missing or disabled control: '+selector);element.click();},selector);
  const waitFor=selector=>until(()=>evaluate(selector=>Boolean(document.querySelector(selector)),selector),'Missing selector: '+selector);
  const page={send,evaluate,click,waitFor,close:async()=>{socket.close();await fetch(endpoint+'/json/close/'+target.id);}};clients.push(page);return page;
 }
-async function newPage(path,writable=true){const target=await(await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json(),page=client(target);await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:new URL(path,base).href});await page.waitFor('#session-id');if(writable)await waitSaved(page);return page;}
+async function newPage(path,writable=true){const target=await(await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json(),page=client(target);await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:new URL(path+'?firebaseEmulator=1&testUser='+encodeURIComponent(testUser),base).href});await until(()=>page.evaluate(()=>Boolean(document.querySelector('.save-status.auth_signed_out,#sign-out'))),'Auth did not load.');if(await page.evaluate(()=>Boolean(document.querySelector('#sign-in'))))await page.click('#sign-in');await page.waitFor('#session-id');if(writable)await waitSaved(page);return page;}
 const payload=page=>page.evaluate(()=>JSON.parse(document.getElementById('pilot-data').textContent));
-const savedState=(page,prefix)=>page.evaluate(prefix=>JSON.parse(localStorage.getItem(prefix+'session:'+document.getElementById('session-id').textContent)),prefix);
+const savedState=(page,prefix)=>page.evaluate(prefix=>JSON.parse(localStorage.getItem(prefix+'session:'+document.getElementById('session-id').textContent))?.state,prefix);
 const activeId=page=>page.evaluate(()=>document.querySelector('.active-decision')?.dataset.decisionId??null);
-const waitSaved=page=>until(()=>page.evaluate(()=>document.querySelector('#save-status')?.classList.contains('saved')),'Save did not finish.');
+const waitSaved=page=>until(()=>page.evaluate(()=>document.querySelector('#save-status')?.classList.contains('cloud_saved')),'Save did not finish.');
 async function answer(page,prefix,choice){const before=await savedState(page,prefix);await page.click('[data-decision-answer="'+choice+'"]');await until(async()=>(await savedState(page,prefix)).revision>before.revision,'Answer was not saved.');await waitSaved(page);}
 async function go(page,fragment){await page.evaluate(fragment=>{location.hash=fragment;},fragment);await page.waitFor(fragment==='results'?'#results':fragment==='originals'?'#source-search':'#'+fragment);await waitSaved(page);}
 async function inspect(page,data,model){
@@ -51,7 +59,7 @@ try{
  const selected=process.argv[3]?manifest.bills.filter(entry=>entry.slug===process.argv[3]):manifest.bills;
  assert(selected.length,'Unknown test bill.');
  for(const entry of selected){
-  const page=await newPage('arguments/'+entry.slug+'/'),data=await payload(page),model=createDecisionTree(data.source,data.decisions,data.coverage,data.copy,data.hashes),prefix=storagePrefix(data.release),first=nextDecision(model,await savedState(page,prefix));
+  const page=await newPage('arguments/'+entry.slug+'/'),data=await payload(page),model=createDecisionTree(data.source,data.decisions,data.coverage,data.copy,data.hashes),prefix='policy-rationales:decision-review:account:'+encodeURIComponent(qaUser.uid)+':qa:'+storagePrefix(data.release),first=nextDecision(model,await savedState(page,prefix));
   assert.equal(data.source.bill.id,entry.bill_id);assert.equal(await activeId(page),first.id);await inspect(page,data,model);
   if(first.kind==='causal'){
    await answer(page,prefix,'No');const state=await savedState(page,prefix),statuses=decisionStates(model,state),pruned=[...statuses].filter(([,item])=>item.status==='pruned').map(([id])=>id);assert(pruned.length>0,'The highest-priority root should prune a dependent question.');assert(pruned.every(id=>!state.answers[id]));
@@ -68,7 +76,7 @@ try{
    const before=await savedState(page,prefix);await page.evaluate(()=>{const form=document.querySelector('.comparison-form'),radio=form.querySelector('input[value="pending"]');radio.checked=true;radio.dispatchEvent(new Event('change',{bubbles:true}));form.requestSubmit();});await until(async()=>(await savedState(page,prefix)).revision>before.revision,'Comparison did not save.');await waitSaved(page);assert(++comparisons<=data.source.values.length);
   }
   assert(completion(model,await savedState(page,prefix)).complete);
-  const before=await savedState(page,prefix),origin=await page.evaluate(()=>performance.timeOrigin);await page.send('Page.reload',{ignoreCache:true});await until(async()=>{try{return await page.evaluate(()=>performance.timeOrigin)!==origin;}catch{return false;}},'Reload did not complete.');await page.waitFor('#session-id');await waitSaved(page);assert.deepEqual(await savedState(page,prefix),before);
+  const before=await savedState(page,prefix),serverBefore=await qaService.load(qaUser.uid,before.session_id),origin=await page.evaluate(()=>performance.timeOrigin);await page.send('Page.reload',{ignoreCache:true});await until(async()=>{try{return await page.evaluate(()=>performance.timeOrigin)!==origin;}catch{return false;}},'Reload did not complete.');await page.waitFor('#session-id');await waitSaved(page);assert.deepEqual(await savedState(page,prefix),before);assert.equal((await qaService.load(qaUser.uid,before.session_id)).revision,serverBefore.revision,'Returning must not create a new server revision.');
   const second=await newPage('arguments/'+entry.slug+'/review.html',false);
   await second.waitFor('.save-status.read_only');await second.close();
   if(entry===selected[0]&&first.kind==='causal'){
@@ -81,6 +89,25 @@ try{
    const backupPath=join(downloads,names.find(name=>name.endsWith('.json'))),backup=JSON.parse(await readFile(backupPath,'utf8'));assert.deepEqual(backup.state,await savedState(page,prefix));
    const previousId=backup.state.session_id,doc=await page.send('DOM.getDocument'),input=await page.send('DOM.querySelector',{nodeId:doc.root.nodeId,selector:'#backup-import'});await page.send('DOM.setFileInputFiles',{nodeId:input.nodeId,files:[backupPath]});await until(async()=>(await savedState(page,prefix)).session_id!==previousId,'Import did not open a new session.');await waitSaved(page);const imported=await savedState(page,prefix);assert.deepEqual(imported.answers,backup.state.answers);assert.deepEqual(imported.stale,backup.state.stale);assert.equal(imported.history.at(-1).type,'import');
    checks.push(entry.slug+': actual browser backtracking/reopening retains saved descendants and comparisons, marks reassessment, and JSON/CSV export plus isolated import work.');
+   await go(page,'decision-'+first.id);
+   const offlineBase=await savedState(page,prefix),offlineServer=await qaService.load(qaUser.uid,offlineBase.session_id);
+   await page.evaluate(async()=>{const p=JSON.parse(document.getElementById('pilot-data').textContent),module=await import(p.firebase.module);await module.connectFirebase(p.firebase.config,{emulator:true}).network(false);});
+   await page.click('[data-decision-answer="No"]');await page.waitFor('.save-status.cloud_pending');await until(async()=>(await savedState(page,prefix)).answers[first.id]?.answer==='No','Offline answer was not cached.');
+   assert.equal((await qaService.load(qaUser.uid,offlineBase.session_id)).revision,offlineServer.revision,'Offline UI must not claim a server write.');
+   await page.evaluate(async()=>{const p=JSON.parse(document.getElementById('pilot-data').textContent),module=await import(p.firebase.module);await module.connectFirebase(p.firebase.config,{emulator:true}).network(true);});
+   await page.click('#retry-cloud');await waitSaved(page);assert.deepEqual((await qaService.load(qaUser.uid,offlineBase.session_id)).state,await savedState(page,prefix));
+   for(const resolution of ['use-server','keep-draft']){
+    await go(page,'decision-'+first.id);const local=await savedState(page,prefix),remote=await qaService.load(qaUser.uid,local.session_id),remoteState=navigate(model,local,{page:'results',decision_id:null,anchor:''},new Date(Math.max(Date.now(),Date.parse(local.updated_at))).toISOString());
+    assert.notDeepEqual(remoteState,local);await qaService.save(qaUser.uid,local.session_id,data.release,'qa',remote.revision,remoteState);
+    await page.click('[data-decision-answer="Yes"]');await page.waitFor('.save-status.cloud_conflict');assert(await page.evaluate(()=>document.querySelector('[data-decision-answer]').matches(':disabled')),'Conflict must pause editing.');
+    const draft=await savedState(page,prefix);assert.equal(draft.answers[first.id].answer,'Yes');assert.deepEqual((await qaService.load(qaUser.uid,local.session_id)).state,remoteState);
+    await page.click('#'+resolution);await waitSaved(page);const resolved=await savedState(page,prefix);
+    if(resolution==='use-server')assert.deepEqual(resolved,remoteState);else{assert.notEqual(resolved.session_id,local.session_id);assert.deepEqual(resolved.answers,draft.answers);assert.deepEqual((await qaService.load(qaUser.uid,local.session_id)).state,remoteState);assert.deepEqual((await qaService.load(qaUser.uid,resolved.session_id)).state,resolved);}
+   }
+   await page.click('#sign-out');await page.waitFor('.save-status.auth_signed_out');assert.equal(await page.evaluate(()=>document.querySelector('#session-id')),null,'Signed-out view must not expose account sessions.');assert(await page.evaluate(()=>document.querySelector('[data-decision-answer]').matches(':disabled')));
+   await page.click('#sign-in');await waitSaved(page);assert.equal((await savedState(page,prefix)).session_id,(await qaService.list(qaUser.uid,data.release,'qa'))[0].session_id);
+   checks.push(entry.slug+': offline answer stays in account cache until Retry confirms cloud save; independent Firebase client creates a real stale-revision conflict; both explicit resolution paths preserve server history; sign-out hides private answers and sign-in resumes.');
+
   }
   const value=panels.find(panel=>panel.kind==='value');assert(value);
   for(const [width,height] of [[320,740],[390,844],[768,1000],[1280,900],[1600,1000]]){
@@ -105,7 +132,7 @@ try{
   await page.close();console.log(JSON.stringify({bill:entry.slug,decisions:order.length,comparisons,layouts:20}));
  }
  assert.deepEqual(errors,[]);
- const report={schema_version:1,status:'passed',open_findings:[],browser:'Isolated headless Chrome; synthetic sessions only.',script_sha256:sha(await readFile(fileURLToPath(import.meta.url))),checks,bills,layouts,limits:['No human reading-time or comprehension measurement, physical-device or screen-reader test.','No production reviewer records or cloud storage accessed.']};
+ const report={schema_version:1,status:'passed',open_findings:[],browser:'Isolated headless Chrome with Firebase Auth/Firestore emulators; synthetic assigned Google accounts only. The test server adds only the emulator loopback endpoints to connect-src; published CSP has no localhost endpoints.',script_sha256:sha(await readFile(fileURLToPath(import.meta.url))),checks,bills,layouts,limits:['No human reading-time or comprehension measurement, physical-device or screen-reader test.','No production reviewer records accessed; all cloud writes used the demo-decision-review emulator project.']};
  const reportPath=process.argv[3]?join(root,'private','browser-'+process.argv[3]+'.json'):join(root,'browser-verification.json');
  await writeFile(reportPath,JSON.stringify(report,null,2)+'\n');
-}finally{for(const page of clients){try{await page.close();}catch{}}child.kill('SIGTERM');server.close();await pause(250);await rm(profile,{recursive:true,force:true});}
+}finally{for(const page of clients){try{await page.close();}catch{}}child.kill('SIGTERM');server.close();await pause(250);await rm(profile,{recursive:true,force:true});await qaEnvironment.cleanup();await qaService.signOut();}

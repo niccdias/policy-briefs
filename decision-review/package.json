@@ -1,0 +1,11 @@
+{
+  "name": "policy-stake-decision-reviews",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test runtime/*.test.mjs",
+    "test:rules": "firebase emulators:exec --project demo-decision-review --only auth,firestore 'node --test --test-concurrency=1 runtime/firebase.test.mjs'"
+  },
+  "dependencies": { "firebase": "13.2.0" },
+  "devDependencies": { "esbuild": "0.28.2", "firebase-tools": "15.35.0", "@firebase/rules-unit-testing": "6.0.0" }
+}

@@ -7,10 +7,13 @@ import {Script} from 'node:vm';
 import {createDecisionTree,createState,nextDecision,answerDecision,decisionStates,derivedResults,completion} from './model.mjs';
 import {renderDecision,renderReview,renderResults,renderShell} from './app.js';
 import {measurePaths} from './measure.mjs';
+import {build} from 'esbuild';
 
 const runtimeDir=dirname(fileURLToPath(import.meta.url));
 const catalogStyle=await readFile(new URL('./style.css',import.meta.url),'utf8');
-const runtimeFiles=['source.mjs','validators.mjs','originals.mjs','model.mjs','storage.mjs','app.js','style.css','build.mjs','measure.mjs','copy.json'];
+const runtimeFiles=['source.mjs','validators.mjs','originals.mjs','model.mjs','storage.mjs','firebase.mjs','app.js','style.css','build.mjs','measure.mjs','copy.json'];
+let firebaseBundle;
+function bundledFirebase(){return firebaseBundle??=build({entryPoints:[join(runtimeDir,'firebase.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',minify:true,legalComments:'none'}).then(result=>result.outputFiles[0].text);}
 const sha=value=>createHash('sha256').update(value).digest('hex');
 const parts=items=>sha(JSON.stringify(items.map(([name,value])=>[name,sha(value)])));
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -33,7 +36,6 @@ function bundle(bytes){
  const scope=(name,names)=>`const {${names.join(',')}}=(()=>{\n${inline(bytes['runtime/'+name])}\nreturn {${names.join(',')}};\n})();\n`;
  const code=scope('source.mjs',['plainText','sourceField'])+scope('validators.mjs',['sourceValidators','validateCopy'])+scope('originals.mjs',['renderOriginals'])+scope('model.mjs',['createDecisionTree','createState','decisionStates','nextDecision','answerDecision','derivedResults','saveComparison','completion','navigate','exportBackup','importBackup','csvExport','validateState','validateRelease'])+scope('storage.mjs',['createSessionStore'])+scope('app.js',['renderShell']);
  assert(!/<\/script/i.test(code)&&!/<\/style/i.test(bytes['runtime/style.css']),'Unexpected inline closing tag.');
- assert(!/\b(?:fetch|XMLHttpRequest|WebSocket|sendBeacon)\s*\(/.test(code),'The browser-only review must not make network requests.');
  return code;
 }
 
@@ -63,6 +65,8 @@ export async function loadBill({billDir,procedurePath=join(runtimeDir,'..','PROC
  if(commonCopyOverrides===undefined)commonCopyOverrides=await commonOverrides();
  const files=[...runtimeFiles.map(name=>['runtime/'+name,join(runtimeDir,name)]),['input/source.json',join(billDir,'input/source.json')],['decisions.json',join(billDir,'decisions.json')],['coverage.json',join(billDir,'coverage.json')],['PROCEDURE.md',resolve(procedurePath)]];
  const bytes=Object.fromEntries(await Promise.all(files.map(async([name,path])=>[name,await read(path)])));bytes['copy-override.json']=await optional(join(billDir,'copy.json'));bytes['common-copy-override.json']=JSON.stringify(commonCopyOverrides);
+ for(const name of ['firebase-config.json','package.json','package-lock.json'])bytes[name]=await read(join(runtimeDir,'..',name));
+ bytes['firebase-bundle.js']=await bundledFirebase();
  assert(bytes['PROCEDURE.md'].trim(),'PROCEDURE.md must describe this decision procedure.');
  const source=parse(bytes['input/source.json'],'input/source.json'),decisions=parse(bytes['decisions.json'],'decisions.json'),coverage=parse(bytes['coverage.json'],'coverage.json');
  const base=parse(bytes['runtime/copy.json'],'runtime/copy.json'),commonCopy=prepareCopy(source,base,commonCopyOverrides),copy=prepareCopy(source,commonCopy,parse(bytes['copy-override.json'],'copy.json')),hashes={source_sha256:sha(bytes['input/source.json'])};
@@ -75,13 +79,17 @@ export async function buildBill({billDir,outputDir,procedurePath,commonCopyOverr
  assert(outputDir,'outputDir is required.');outputDir=resolve(outputDir);
  const {bytes,source,decisions,coverage,copy,hashes,model,release}=await loadBill({billDir,procedurePath,commonCopyOverrides});
  const parity=verifyParity(model,release),measurement=measurePaths(model,release),standalone=bundle(bytes);
- const payload=JSON.stringify({source,decisions,coverage,copy,hashes,release,mode:'review'}).replaceAll('<','\\u003c');
+ const config=parse(bytes['firebase-config.json'],'firebase-config.json'),firebaseAsset='firebase-'+sha(bytes['firebase-bundle.js'])+'.js';
+ assert(/^[a-z0-9-]+\.firebaseapp\.com$/.test(config.authDomain)&&typeof config.projectId==='string'&&config.apiKey,'Invalid public Firebase configuration.');
+ const payload=JSON.stringify({source,decisions,coverage,copy,hashes,release,mode:'review',firebase:{config,module:'./'+firebaseAsset}}).replaceAll('<','\\u003c');
  const bundledOriginals=new Script(standalone+`\nconst checkData=JSON.parse(verificationPayload),checkModel=createDecisionTree(checkData.source,checkData.decisions,checkData.coverage,checkData.copy,checkData.hashes),checkState=createState(checkModel,checkData.release,'session_bundle_check','2026-11-09T00:00:00.000Z');checkState.navigation={page:'originals',decision_id:null,anchor:''};renderShell(checkModel,checkState,'review',checkData.release,{status:'saved'});`,{filename:'standalone-originals-regression.js'}).runInNewContext({verificationPayload:payload},{timeout:10000});
  assert.deepEqual(markers(bundledOriginals,'data-source-record-id'),[...source.claims,...source.arguments].map(record=>record.id),'Compiled standalone Originals must render every frozen source record.');
- const initial=createState(model,release,'session_pending','2026-11-09T00:00:00.000Z'),shell=renderShell(model,initial,'review',release,{status:'saving'});
- const html=`<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'; form-action 'none'"><title>${escape(copy.tree_title)}</title><style>${bytes['runtime/style.css']}</style></head><body><div id="pilot">${shell}</div><script type="application/json" id="pilot-data">${payload}</script><script type="module">${standalone}</script></body></html>\n`;
- const descriptor={schema_version:1,release,input_sha256:Object.fromEntries(Object.entries(bytes).map(([name,value])=>[name,sha(value)])),html_sha256:{'index.html':sha(html),'review.html':sha(html)},semantic_coverage_sha256:parity.semantic_coverage_sha256};
+ const initial=createState(model,release,'session_pending','2026-11-09T00:00:00.000Z'),shell=renderShell(model,initial,'review',release,{status:'auth_loading'});
+ const csp=`default-src 'none'; connect-src https://*.googleapis.com https://${config.authDomain}; script-src 'self' 'unsafe-inline' https://apis.google.com; frame-src https://${config.authDomain}; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'; form-action 'none'`;
+ const html=`<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="${escape(csp)}"><title>${escape(copy.tree_title)}</title><style>${bytes['runtime/style.css']}</style></head><body><div id="pilot">${shell}</div><script type="application/json" id="pilot-data">${payload}</script><script type="module">${standalone}</script></body></html>\n`;
+ const descriptor={schema_version:1,release,input_sha256:Object.fromEntries(Object.entries(bytes).map(([name,value])=>[name,sha(value)])),html_sha256:{'index.html':sha(html),'review.html':sha(html)},asset_sha256:{[firebaseAsset]:sha(bytes['firebase-bundle.js'])},semantic_coverage_sha256:parity.semantic_coverage_sha256};
  await mkdir(outputDir,{recursive:true});for(const name of ['index.html','review.html'])await writeFile(join(outputDir,name),html);
+ await writeFile(join(outputDir,firebaseAsset),bytes['firebase-bundle.js']);
  for(const [name,value] of [['release.json',descriptor],['parity.json',parity],['path-benchmark.json',measurement]])await writeFile(join(outputDir,name),JSON.stringify(value,null,2)+'\n');
  return {bill:source.bill,release,outputDir,descriptor,parity,measurement};
 }
