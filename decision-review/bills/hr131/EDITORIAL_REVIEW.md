@@ -69,6 +69,10 @@ Effect on the all-Yes path: 19,977 presented words before, 17,543 after; the lar
 - 189 source references; each quotation is an exact plain-text substring of its named field. All 216 citation links copy a frozen href/title pair. The runtime validator accepts the package; `node --test runtime/*.test.mjs` passes 34 of 34.
 - Paths (others Yes): all Yes answers 48 decisions; root No sets aside 36; Clean No sets aside 13; answering every causal claim No leaves 6 decisions answered (4 root causal claims and the 2 provision-based Concern claims) and 42 set aside.
 
+## Definitions
+
+On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 44 edits in 30 fields (2 contexts and 28 blocks) removed lexical definitions (for example nonfederal, simple interest, total dissolved solids, fugitive dust, acre-feet, reject stream and “in perpetuity”), the CBO and DWSRF definitions and appositives, and parenthetical glosses such as vetoed (rejected), spur line (a smaller branch pipe) and radionuclides (radioactive substances). 33 glossary entries were added. The terms context names miscellaneous revenues where it had said “these revenues”. The short description is unchanged. Kept in the text: the introductions of the conduit, Reclamation, the Interior Department and the district, because who builds, who decides hardship and who repays matter to the claims; the Treasury's role in setting the interest rate; and the note explaining the quoted phrase “for most alternatives compared to No Action”.
+
 ## Limits
 
 Which claims became questions and where limits sit are editorial judgments for independent verification. The checks above do not show that any inference is valid or any prediction true. Reading time and workload are untested.

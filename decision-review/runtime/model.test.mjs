@@ -76,14 +76,15 @@ test('CSV includes every node judgment and six derived records with explicit bla
 
 const markers=(html,name)=>[...html.matchAll(new RegExp(name+'="([^"]+)"','g'))].map(match=>match[1]);
 test('a new review shows only the short bill description; Continue persists without recording an answer',()=>{
- const model=make(),state=fresh(model),html=renderShell(model,state,'review',release,{writable:true,status:'cloud_saved'});
+ const f=fixture();f.copy.bill_description='A shorter displayed description.';const model=make(f),state=fresh(model),html=renderShell(model,state,'review',release,{writable:true,status:'cloud_saved'});
  assert(html.startsWith('<main class="bill-intro"'));assert(html.includes(model.copy.bill_context_label));
- assert(html.includes(model.sourceIndex.source.bill.description.replaceAll('&','&amp;').replaceAll('"','&quot;')));
- assert.deepEqual(markers(html,'id'),['reading','begin-review']);assert(!html.includes('<aside')&&!html.includes('<header')&&!html.includes('<form')&&!html.includes(copy.tree_intro));
+ assert(html.includes(model.copy.bill_description));assert(!html.includes(model.sourceIndex.source.bill.description));
+ assert.deepEqual(markers(html,'id'),['reading','begin-review','glossary-popover']);assert(html.includes('class="term-popover" hidden'));assert(!html.includes('<aside')&&!html.includes('<header')&&!html.includes('<form')&&!html.includes(copy.tree_intro));
  const started=navigate(model,state,{page:'review',decision_id:null,anchor:'reading'},at(1));
  assert.deepEqual(started.answers,{});validateState(started,model,release);
  const resumed=validateState(JSON.parse(JSON.stringify(started)),model,release),coding=renderShell(model,resumed,'review',release,{writable:true});
  assert(!coding.includes('class="bill-intro"'));assert.deepEqual(markers(coding,'data-decision-id'),['A']);
+ assert(coding.includes(model.copy.bill_description));assert(!coding.includes(model.sourceIndex.source.bill.description));
  const imported=importBackup(exportBackup(started),model,release,'session_intro_import',at(2));assert(!renderShell(model,imported,'review',release).includes('class="bill-intro"'));
 });
 test('renderer keeps one active question and local goals, with full value definitions only at comparisons',()=>{

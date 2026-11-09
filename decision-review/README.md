@@ -7,7 +7,7 @@ This is a frozen-corpus migration. No evidence was gathered or checked anew. It 
 ## Layout
 
 - `input-manifest.json`: the eight bills, their frozen source hashes and counts, and the upstream website commit they were staged from.
-- `bills/<slug>/`: one package per bill. `input/source.json` is frozen and never edited. The authored files are `decisions.json`, `coverage.json`, `copy.json` and `EDITORIAL_REVIEW.md` (H.R.5408 has `conversion.json` instead of an editorial review, because it was converted losslessly from its approved pilot). `private/` is ignored by Git and holds working files only.
+- `bills/<slug>/`: one package per bill. `input/source.json` is frozen and never edited. The authored files are `decisions.json`, `coverage.json`, `copy.json` and `EDITORIAL_REVIEW.md` (H.R.5408 has `conversion.json` instead of an editorial review: it was first converted losslessly from its approved pilot, and that file also records its later definition-only amendments). Definitions live in each package's glossary rather than in the reading text (see [PROCEDURE.md](PROCEDURE.md#reading-at-each-decision)); `copy.json` can set `bill_description` when the displayed short description needed definitions removed. `private/` is ignored by Git and holds working files only.
 - `runtime/`: the shared model, validators, rendering, local and cloud storage (`firebase.mjs`), path measurement, build and tests. `runtime/copy.json` holds the common interface text; `site-copy.json` holds public-copy overrides.
 - `package.json`, `package-lock.json`: pinned Firebase client, bundler and emulator test tools.
 - `firebase-config.json`: the public web configuration of the existing Firebase project. It is not a secret; access is controlled by Google sign-in and the security rules.

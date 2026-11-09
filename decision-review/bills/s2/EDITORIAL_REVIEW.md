@@ -252,6 +252,10 @@ Claims shared across values:
 - **Generator change:** qualification rows now credit only blocks shown on decisions that carry one of the row's own arguments. This removed credits for the shared "money already in law" context note at decisions on other arguments' paths. No block text changed for this.
 - **08, surveillance baseline:** the shared "money already in law" note (SESCTX_LIM) shown at the surveillance, sewer and debt claims now also includes two points: about $62 billion of ICE's 2025 money was still uncommitted at the end of May 2026, and unspent money does not by itself show that S.2 adds nothing. Both now carry locators to UNC_oppose_09's note. UNC_oppose_09's qualification row, credited at the surveillance claim, is therefore shown in full there. The surveillance claim still does not depend on added immigration enforcement; no other node or block changed.
 
+## Definitions
+
+On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. Fourteen edits in 13 blocks removed definitions of precursor chemicals, autonomous capability, removal, pendency, transnational repression, invasive species, apprehension, contractionary, baptism, prescribed fires, laypeople and ministry, and the appositives for Cato and the P-3. Fourteen glossary entries were added. The displayed short description says that ICE deports noncitizens without the gloss (“removes”); the frozen description is retained in `input/source.json`. Kept: the agencies' roles in the description, the note that “platforms” is a general word, and the statement that removal is a civil process, which bears on the inference.
+
 ## Limits
 
 Which claims became questions, where limits sit and which value links were merged are editorial judgments for main and the independent verifier. Structural and quotation checks do not establish that any inference is valid or any prediction true. Human comprehension, reading time and workload were not tested.

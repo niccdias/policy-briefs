@@ -40,8 +40,24 @@ function client(target){
  const page={send,evaluate,click,waitFor,close:async()=>{socket.close();await fetch(endpoint+'/json/close/'+target.id);}};clients.push(page);return page;
 }
 async function inspectIntroduction(page){
- const intro=await page.evaluate(()=>{const p=JSON.parse(document.getElementById('pilot-data').textContent),main=document.querySelector('.bill-intro');return {title:main.querySelector('h1').textContent,description:main.querySelector('p').textContent,expectedTitle:p.copy.bill_context_label,expectedDescription:p.source.bill.description,children:main.children.length,screens:document.getElementById('pilot').children.length,extra:document.querySelectorAll('header,aside,form,.page-heading,.decision-outline,.trail,.release-details').length};});
- assert.equal(intro.title,intro.expectedTitle);assert.equal(intro.description,intro.expectedDescription);assert.equal(intro.children,3);assert.equal(intro.screens,1);assert.equal(intro.extra,0);
+ const intro=await page.evaluate(()=>{const p=JSON.parse(document.getElementById('pilot-data').textContent),main=document.querySelector('.bill-intro');return {title:main.querySelector('h1').textContent,description:main.querySelector('p').textContent,expectedTitle:p.copy.bill_context_label,expectedDescription:p.copy.bill_description,children:main.children.length,screens:document.getElementById('pilot').children.length,extra:document.querySelectorAll('header,aside,form,.page-heading,.decision-outline,.trail,.release-details').length};});
+ assert.equal(intro.title,intro.expectedTitle);assert.equal(intro.description,intro.expectedDescription);assert.equal(intro.children,4);assert.equal(intro.screens,1);assert.equal(intro.extra,0);
+ const tooltip=await page.evaluate(async()=>{const term=document.querySelector('.bill-intro [data-term]'),popup=document.getElementById('glossary-popover');if(!term)return null;const data=JSON.parse(document.getElementById('pilot-data').textContent);term.dispatchEvent(new MouseEvent('mouseover',{bubbles:true}));const shown=!popup.hidden,text=popup.querySelector('p')?.textContent,expected=data.decisions.glossary.find(entry=>entry.term===term.dataset.term).definition;term.dispatchEvent(new MouseEvent('mouseout',{bubbles:true,relatedTarget:document.body}));await new Promise(resolve=>setTimeout(resolve,180));return {shown,text,expected,closed:popup.hidden};});
+ if(tooltip){assert(tooltip.shown);assert.equal(tooltip.text,tooltip.expected);assert(tooltip.closed,'Introduction tooltip must close when the pointer leaves.');}
+}
+async function inspectStablecoinDefinitions(page){
+ const result=await page.evaluate(async()=>{
+  const data=JSON.parse(document.getElementById('pilot-data').textContent),panel=document.querySelector('.active-decision'),reading=panel.cloneNode(true);reading.querySelectorAll('.source-details').forEach(item=>item.remove());
+  const definitions=[];
+  for(const name of ['stablecoin','issuer','redeem','CRS','OCC','Brookings']){
+   const term=[...panel.querySelectorAll('[data-term]')].find(item=>item.dataset.term.toLowerCase()===name.toLowerCase());if(!term){definitions.push({name,missing:true});continue;}
+   term.scrollIntoView({block:'center'});await new Promise(resolve=>setTimeout(resolve,80));const popup=document.getElementById('glossary-popover'),entry=data.decisions.glossary.find(item=>item.term===term.dataset.term);term.dispatchEvent(new MouseEvent('mouseover',{bubbles:true}));const shown=!popup.hidden,text=popup.querySelector('p')?.textContent;term.dispatchEvent(new MouseEvent('mouseout',{bubbles:true,relatedTarget:document.body}));await new Promise(resolve=>setTimeout(resolve,180));definitions.push({name,shown,text,expected:entry.definition,closed:popup.hidden});
+  }
+  return {text:reading.textContent,definitions};
+ });
+ for(const removed of ['These are digital coins.','CRS is the Congressional Research Service','OCC is the Office of the Comptroller of the Currency','Brookings is a policy research group.','which means exchanging them for money'])assert(!result.text.includes(removed),'Inline definition remains: '+removed);
+ for(const term of result.definitions){assert(!term.missing,'Missing hover definition: '+term.name);assert(term.shown,'Definition did not open in the viewport: '+term.name);assert.equal(term.text,term.expected);assert(term.closed,'Definition did not close on hover-out: '+term.name);}
+ checks.push('s1582: stablecoin, issuer, redeem, CRS, OCC and Brookings definitions open and close on hover; the reported inline definitions are absent from the reading.');
 }
 async function newPage(path,writable=true){
  let unstartedId=null;const target=await(await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json(),page=client(target);await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:new URL(path+'?firebaseEmulator=1&testUser='+encodeURIComponent(testUser),base).href});
@@ -56,7 +72,7 @@ async function newPage(path,writable=true){
    await qaService.save(qaUser.uid,unstarted.session_id,data.release,'qa',0,unstarted);unstartedId=unstarted.session_id;checks.push(path.split('/')[1]+': pre-existing untouched cloud session seeded before anonymous Continue and sign-in.');
   }
   await page.click('#begin-review');await until(()=>page.evaluate(()=>Boolean(document.querySelector('.save-status.auth_signed_out,#sign-out'))),'Continue did not open the review.');
-  checks.push(path.split('/')[1]+': first screen contains only the exact short bill description, bill title and Continue; navigation cannot bypass it; five viewport sizes fit.');
+  checks.push(path.split('/')[1]+': first screen contains only the approved short bill description, bill title and Continue; glossary terms use hover definitions; navigation cannot bypass it; five viewport sizes fit.');
  }
  if(await page.evaluate(()=>Boolean(document.querySelector('#sign-in'))))await page.click('#sign-in');await page.waitFor('#session-id');if(writable)await waitSaved(page);else await until(()=>page.evaluate(()=>!document.querySelector('.save-status.cloud_loading')),'Session did not load.');if(unstartedId)assert.equal(await page.evaluate(()=>document.getElementById('session-id').textContent),unstartedId,'Continue must resume the existing untouched session without a conflict.');assert.equal(await page.evaluate(()=>document.querySelector('.bill-intro')),null,'Signing in repeated the introduction.');return page;
 }
@@ -145,6 +161,7 @@ try{
   await page.send('Emulation.setDeviceMetricsOverride',{width:1280,height:900,deviceScaleFactor:1,mobile:false});await page.evaluate(()=>document.documentElement.style.zoom='2');await go(page,'decision-'+value.id);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'200% zoom overflows.');await page.evaluate(()=>document.documentElement.style.zoom='');
   await go(page,'originals');assert.equal(await page.evaluate(()=>document.querySelectorAll('[data-source-record-id]').length),data.source.claims.length+data.source.arguments.length);
   await page.send('Emulation.setDeviceMetricsOverride',{width:1280,height:900,deviceScaleFactor:1,mobile:false});await go(page,'decision-'+first.id);
+  if(entry.slug==='s1582')await inspectStablecoinDefinitions(page);
   if(await page.evaluate(()=>Boolean(document.querySelector('.glossary-term')))){
    const point=await page.evaluate(()=>{const term=document.querySelector('.glossary-term');term.scrollIntoView({block:'center'});const box=term.getBoundingClientRect(),style=getComputedStyle(term);return {x:box.x+box.width/2,y:box.y+box.height/2,weight:style.fontWeight,decoration:style.textDecorationStyle};});assert.equal(Number(point.weight),400);assert.equal(point.decoration,'dotted');
    await pause(80);await page.send('Input.dispatchMouseEvent',{type:'mouseMoved',x:0,y:0});await page.send('Input.dispatchMouseEvent',{type:'mouseMoved',x:point.x,y:point.y});await until(()=>page.evaluate(()=>!document.getElementById('glossary-popover').hidden),'Definition did not open on hover.');assert.equal(await page.evaluate(()=>document.querySelectorAll('#glossary-popover button').length),0);await page.send('Input.dispatchMouseEvent',{type:'mouseMoved',x:0,y:0});await until(()=>page.evaluate(()=>document.getElementById('glossary-popover').hidden),'Definition did not close after hovering away.');

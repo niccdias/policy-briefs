@@ -78,6 +78,10 @@ Effect on the all-Yes path: 24,442 presented words before, 19,887 after; the lar
 - 225 source references, each an exact plain-text substring of its named field; 280 citation links copy frozen href/title pairs. The runtime validator accepts the package; `node --test runtime/*.test.mjs` passes 34 of 34.
 - Paths (others Yes): all Yes answers 63 decisions; answering every causal claim No leaves 26 decisions answered and 37 set aside.
 
+## Definitions
+
+On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 35 edits in 28 fields (2 contexts and 26 blocks) removed definitions of unclassified records, redaction, grand juries, confidential sources, jetties, Cerberus, guarantors, Know Your Client, remediation, fodder, “predicate”, reprisal, chilling effect, count slips and round sheets, the Herald and the Charity Commission, appositives for FinCEN, the OECD, the BOP, Mechanical Turk and Baal, and parenthetical glosses such as preliminary relief, discovery records, red-flag indicators and “Jane Doe” statements. The paragraph defining “redact” was removed; the same bill-text link remains with the quoted provision in that context. 32 glossary entries were added. The deliberative-process, work-product and attorney-client privileges are marked with a specific key, so the earlier “work release privileges” is not given a legal-privilege definition. Baal is marked only where the text itself names the god, so the quoted typo “baal” stays unmarked. The displayed short description drops the definitions of unclassified and redaction and the gloss on politically exposed persons; the frozen description is retained in `input/source.json`. Kept: the identities of Epstein and Maxwell, the Attorney General's role, and the meaning of segregable portions and of the case-ending agreements, which set the bill's scope.
+
 ## Limits
 
 Which claims became questions and where limits sit are editorial judgments for independent verification. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.

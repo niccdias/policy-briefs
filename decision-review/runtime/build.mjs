@@ -26,7 +26,7 @@ async function commonOverrides(){const path=join(runtimeDir,'..','site-copy.json
 export function prepareCopy(source,base,overrides={}){
  assert(overrides!==null&&typeof overrides==='object'&&!Array.isArray(overrides),'Bill copy overrides must be an object.');
  for(const [key,value] of Object.entries(overrides))assert(Object.hasOwn(base,key)&&typeof base[key]==='string'&&typeof value==='string','Bill copy overrides must replace existing flat text: '+key);
- const result=Object.fromEntries(Object.entries({...base,...overrides}).map(([key,value])=>[key,typeof value==='string'?value.replaceAll('{bill}',source.bill.bill).replaceAll('{bill_title}',source.bill.title):value]));
+ const result=Object.fromEntries(Object.entries({...base,...overrides}).map(([key,value])=>[key,typeof value==='string'?value.replaceAll('{bill}',source.bill.bill).replaceAll('{bill_title}',source.bill.title).replaceAll('{bill_description}',source.bill.description):value]));
  if(result.value_goals&&typeof result.value_goals==='object')result.value_goals=Object.fromEntries(source.values.map(value=>[value.id,result.value_goals[value.id]??result.value_goals[value.value_code??value.id]]));
  return result;
 }

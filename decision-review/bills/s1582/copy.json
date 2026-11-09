@@ -1,3 +1,4 @@
 {
- "bill_context_label": "{bill}, {bill_title}"
+ "bill_context_label": "{bill}, {bill_title}",
+ "bill_description": "The bill creates federal rules for \"stablecoins\", which their issuers must redeem for a fixed dollar value. Only permitted, regulated companies may issue these coins. Each coin must be fully backed one-to-one by cash or similar safe assets. Issuers may not lend those assets out. The bill also sets rules for repaying users and requires approved issuers to follow lawful orders to block payments."
 }

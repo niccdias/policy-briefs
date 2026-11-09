@@ -108,6 +108,10 @@ Under the consolidation rule, a value link is merged with OR routes when two arg
 - Generator self-checks: unique prefixed IDs, no cycles, every block used, routes require only causal nodes, argument reciprocity, and every retained response and qualification bound to a decision that shows its block.
 - Manual pass: every merged value link was checked so that its wording names the alternatives without asserting a rejected one, and value links were checked for factual content that a separate causal claim judges (one phrase in the Concern care link was reworded).
 
+## Definitions
+
+On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 15 edits in 14 fields (3 contexts, 10 blocks and 1 claim) removed definitions of PTC, ESI, KFF, GHG, PV, health care sharing ministries, Medicaid, provider networks, cost sharing, uncompensated care, deficit-financed policy, marginal effects, criteria air pollutants and stand-level damage. One claim changed wording: the smog claim now says “ground-level ozone” without “(smog)”. 18 glossary entries were added. The premium entry reads “the price of health insurance”, because the evidence gives both monthly and yearly premiums. The displayed short description says “monthly premium” and “Affordable Care Act (ACA) Marketplaces” without glossing them; the frozen description is retained in `input/source.json`. The sentence noting that sources call the larger credits “enhanced” is kept because it tells readers how the evidence names them.
+
 ## Limits
 
 Which claims became questions, where limits sit and which value links were merged are editorial judgments for main and the independent verifier. Structural and quotation checks do not establish that any inference is valid or any prediction true. Human comprehension, reading time and workload were not tested.

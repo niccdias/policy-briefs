@@ -58,6 +58,10 @@ Provision-based value links (no causal question, because they rest on the rule i
 - Generator self-checks: unique prefixed IDs, no cycles, every block used, routes require only causal nodes, argument reciprocity, every retained response and qualification bound to a decision that shows its block.
 - Every quotation is an exact substring of the cited frozen field; every citation link and title is copied from the frozen field named in the generator.
 
+## Definitions
+
+On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. Thirteen edits in 12 blocks removed definitions of forfeit, chilled, modesty, collectivistic, intersex variations, podium spots, immutable, stigma and gynecological exams, and the identifying appositives for World Rugby, the CDC, FERPA and Snopes. Thirteen glossary entries were added. The collectivism challenge keeps its point: being more collectivistic is different from accepting people with different beliefs. Kept in the text: the Title IX definition in the description and the reading of “conditional upon participation”, which decide coverage; the caution that an association does not prove cause; and the introductions of the Family Research Council and the Ethics & Religious Liberty Commission, whose roles bear on the inference.
+
 ## Limits
 
 Which claims became questions, and where limits sit, are editorial judgments for main and the independent verifier. Structural and quotation checks do not establish that any inference is valid or any prediction true. Human comprehension, reading time and workload are untested.

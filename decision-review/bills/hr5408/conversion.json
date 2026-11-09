@@ -1,11 +1,384 @@
 {
   "schema_version": 1,
-  "migration": "lossless native packaging of approved H.R.5408 decisions",
-  "node_content_unchanged": true,
-  "contexts_unchanged": true,
-  "used_blocks_unchanged": true,
-  "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
-  "nodes": 108,
-  "blocks": 144,
-  "upstream_decisions_sha256": "13311ad860bfb4405397b439c99ccd499661fc63b2d58f739bc15ad33acdd451"
+  "initial_conversion": {
+    "schema_version": 1,
+    "migration": "lossless native packaging of approved H.R.5408 decisions",
+    "node_content_unchanged": true,
+    "contexts_unchanged": true,
+    "used_blocks_unchanged": true,
+    "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+    "nodes": 108,
+    "blocks": 144,
+    "upstream_decisions_sha256": "13311ad860bfb4405397b439c99ccd499661fc63b2d58f739bc15ad33acdd451"
+  },
+  "editorial_amendment": {
+    "schema_version": 1,
+    "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
+    "initial_package_sha256": {
+      "decisions.json": "c34267c851a4fc5f2d2381adf7bd3da1c3c0724b4c22d425be386d615f45951e",
+      "copy.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "amended_package_sha256": {
+      "decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
+      "copy.json": "d1e6f2554d85da36471d06babb0adfb2effcc37654b0dee0ac128e2c4299bd2b"
+    },
+    "legacy_inputs_sha256": {
+      "bill-wide/reading.json": "db6acf586f857690f2a535fb2520209542d02f8ac44e5b2eee0309aad6cdc5d8",
+      "decision-tree/copy.json": "32f927557b1e4f3046ffadfa8dea26f99b2725f041b4300dca122cafb63b5a17",
+      "decision-tree/coverage.json": "ace8b1f036146101354bbcccf98a888c16c63d0ae1e4aec9e9ebda09f428cc2d",
+      "decision-tree/decisions.json": "13311ad860bfb4405397b439c99ccd499661fc63b2d58f739bc15ad33acdd451",
+      "input/source.json": "205b72e506f000ceea2aa4822277b479797a0084ef1e237e0d2047ca7a4919d8"
+    },
+    "changes": [
+      {
+        "collection": "contexts",
+        "id": "HR5408_DT_X_PANEL",
+        "field": "html",
+        "before": "<p>The bill covers bargaining for a <span data-term=\"first contract\">first contract</span> after a <span data-term=\"union\">union</span> is newly recognized or certified. If there is no agreement 90 days after bargaining starts, either side may ask for <span data-term=\"mediation\">mediation</span> from the Federal Mediation and Conciliation Service (FMCS), the U.S. agency that provides mediators: “either party may notify the Federal Mediation and Conciliation Service that a dispute exists, and may request mediation.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> A mediator cannot decide the dispute. If there is still no agreement 30 days after that request, the dispute goes to <span data-term=\"arbitration\">arbitration</span>, where a panel decides: “the Service shall refer the dispute to a 3-person arbitration panel” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a>.</p><p>The panel has “one member selected by the individual or labor organization, one member selected by the employer, and one neutral member mutually agreed to by the parties.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> If a side does not choose its member, “the Service shall designate any members not selected by the individual or labor organization or by the employer.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> The panel majority’s decision binds both sides for two years unless both agree in writing to change it. Either waiting period can be longer only if both sides agree.</p><p>Under the law in force on June 9, 2026, there is no such route. The duty to bargain “does not compel either party to agree to a proposal or require the making of a concession” <a href=\"https://web.archive.org/web/20260703004621/https://www.govinfo.gov/content/pkg/USCODE-2024-title29/html/USCODE-2024-title29-chap7-subchapII-sec158.htm\" title=\"“29 U.S.C. § 158 — Unfair labor practices (2024 U.S. Code edition)”, 2024 (2024 U.S. Code edition)\">[2]</a>.</p><p>The panel route applies only to a first contract, not to later contracts. The bill sets no deadline for the panel’s decision: “it does not limit the timeline of arbitration.” <a href=\"https://web.archive.org/web/20260307172802/https://www.heritage.org/government-regulation/report/labor-law-reform-part-1-diagnosing-the-issues-exploring-current\" title=\"Heritage Foundation, “Labor Law Reform Part 1: Diagnosing the Issues, Exploring Current Proposals | The Heritage Foundation”, October 9, 2025\">[3]</a></p><p>Under current law, neither side has to agree to anything. Under the bill, either side can start the route to a panel after the waiting periods, and neither side can stop the panel by refusing to choose its member. More time needs both sides’ agreement.</p>",
+        "after": "<p>The bill covers bargaining for a <span data-term=\"first contract\">first contract</span> after a <span data-term=\"union\">union</span> is newly recognized or certified. If there is no agreement 90 days after bargaining starts, either side may ask for <span data-term=\"mediation\">mediation</span> from the Federal Mediation and Conciliation Service (FMCS): “either party may notify the Federal Mediation and Conciliation Service that a dispute exists, and may request mediation.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> A mediator cannot decide the dispute. If there is still no agreement 30 days after that request, the dispute goes to <span data-term=\"arbitration\">arbitration</span>, where a panel decides: “the Service shall refer the dispute to a 3-person arbitration panel” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a>.</p><p>The panel has “one member selected by the individual or labor organization, one member selected by the employer, and one neutral member mutually agreed to by the parties.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> If a side does not choose its member, “the Service shall designate any members not selected by the individual or labor organization or by the employer.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[1]</a> The panel majority’s decision binds both sides for two years unless both agree in writing to change it. Either waiting period can be longer only if both sides agree.</p><p>Under the law in force on June 9, 2026, there is no such route. The duty to bargain “does not compel either party to agree to a proposal or require the making of a concession” <a href=\"https://web.archive.org/web/20260703004621/https://www.govinfo.gov/content/pkg/USCODE-2024-title29/html/USCODE-2024-title29-chap7-subchapII-sec158.htm\" title=\"“29 U.S.C. § 158 — Unfair labor practices (2024 U.S. Code edition)”, 2024 (2024 U.S. Code edition)\">[2]</a>.</p><p>The panel route applies only to a first contract, not to later contracts. The bill sets no deadline for the panel’s decision: “it does not limit the timeline of arbitration.” <a href=\"https://web.archive.org/web/20260307172802/https://www.heritage.org/government-regulation/report/labor-law-reform-part-1-diagnosing-the-issues-exploring-current\" title=\"Heritage Foundation, “Labor Law Reform Part 1: Diagnosing the Issues, Exploring Current Proposals | The Heritage Foundation”, October 9, 2025\">[3]</a></p><p>Under current law, neither side has to agree to anything. Under the bill, either side can start the route to a panel after the waiting periods, and neither side can stop the panel by refusing to choose its member. More time needs both sides’ agreement.</p>"
+      },
+      {
+        "collection": "contexts",
+        "id": "HR5408_DT_X_CURRENT",
+        "field": "html",
+        "before": "<p>Under existing law, upon reaching a good-faith <span data-term=\"impasse\">impasse</span>, “the NLRA entitles an employer to unilaterally implement its last, best, and final offer.” <a href=\"https://web.archive.org/web/20260710080555/https://www.laborrelationsupdate.com/2026/06/faster-is-not-always-better-house-passes-bill-seeking-radical-change-in-first-contract-bargaining/\" title=\"“Faster is Not Always Better: House Passes Bill Seeking Radical Change in First Contract Bargaining”, 2026-06-11\">[1]</a> The NLRA is the main U.S. private-sector labor law. The bill adds a duty “to maintain current wages, hours, and terms and conditions of employment pending an agreement” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a>.</p><p>Labor lawyer Robert Steptoe reads this duty as one that “extends indefinitely beyond the point when the parties reach a good faith impasse to the date the parties reach agreement.” <a href=\"https://web.archive.org/web/20261029185439/https://www.steptoe-johnson.com/news/house-passes-two-major-changes-to-collective-bargaining-law/\" title=\"“House Passes Two Major Changes to Collective Bargaining Law”, 2026-07-13\">[3]</a> He adds that it “applies not just to first contracts, but rather to all employers and all contracts.” <a href=\"https://web.archive.org/web/20261029185439/https://www.steptoe-johnson.com/news/house-passes-two-major-changes-to-collective-bargaining-law/\" title=\"“House Passes Two Major Changes to Collective Bargaining Law”, 2026-07-13\">[3]</a></p><p>This reading comes from law-firm analyses, not a court ruling. The duty keeps both good and bad current terms, so it can stop an employer from either cutting them or raising them on its own. The sources give no figure for how often employers make such changes today.</p>",
+        "after": "<p>Under existing law, upon reaching a good-faith <span data-term=\"impasse\">impasse</span>, “the NLRA entitles an employer to unilaterally implement its last, best, and final offer.” <a href=\"https://web.archive.org/web/20260710080555/https://www.laborrelationsupdate.com/2026/06/faster-is-not-always-better-house-passes-bill-seeking-radical-change-in-first-contract-bargaining/\" title=\"“Faster is Not Always Better: House Passes Bill Seeking Radical Change in First Contract Bargaining”, 2026-06-11\">[1]</a> The bill adds a duty “to maintain current wages, hours, and terms and conditions of employment pending an agreement” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a>.</p><p>Labor lawyer Robert Steptoe reads this duty as one that “extends indefinitely beyond the point when the parties reach a good faith impasse to the date the parties reach agreement.” <a href=\"https://web.archive.org/web/20261029185439/https://www.steptoe-johnson.com/news/house-passes-two-major-changes-to-collective-bargaining-law/\" title=\"“House Passes Two Major Changes to Collective Bargaining Law”, 2026-07-13\">[3]</a> He adds that it “applies not just to first contracts, but rather to all employers and all contracts.” <a href=\"https://web.archive.org/web/20261029185439/https://www.steptoe-johnson.com/news/house-passes-two-major-changes-to-collective-bargaining-law/\" title=\"“House Passes Two Major Changes to Collective Bargaining Law”, 2026-07-13\">[3]</a></p><p>This reading comes from law-firm analyses, not a court ruling. The duty keeps both good and bad current terms, so it can stop an employer from either cutting them or raising them on its own. The sources give no figure for how often employers make such changes today.</p>"
+      },
+      {
+        "collection": "contexts",
+        "id": "HR5408_DT_X_VOTE",
+        "field": "html",
+        "before": "<p>The Heritage Foundation, a policy research group, states: “Currently, nearly all union constitutions and bylaws require union members’ <span data-term=\"ratification\">ratification</span> of collective bargaining agreements before they are signed and enforced.” <a href=\"https://web.archive.org/web/20260307172802/https://www.heritage.org/government-regulation/report/labor-law-reform-part-1-diagnosing-the-issues-exploring-current\" title=\"Heritage Foundation, “Labor Law Reform Part 1: Diagnosing the Issues, Exploring Current Proposals | The Heritage Foundation”, October 9, 2025\">[1]</a> The bill says “A majority of the 3-person arbitration panel shall render a decision settling the dispute” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a> and provides no member vote on that decision. This applies only to disputes a panel decides. The union chooses one of the three panel members.</p>",
+        "after": "<p>The Heritage Foundation states: “Currently, nearly all union constitutions and bylaws require union members’ <span data-term=\"ratification\">ratification</span> of collective bargaining agreements before they are signed and enforced.” <a href=\"https://web.archive.org/web/20260307172802/https://www.heritage.org/government-regulation/report/labor-law-reform-part-1-diagnosing-the-issues-exploring-current\" title=\"Heritage Foundation, “Labor Law Reform Part 1: Diagnosing the Issues, Exploring Current Proposals | The Heritage Foundation”, October 9, 2025\">[1]</a> The bill says “A majority of the 3-person arbitration panel shall render a decision settling the dispute” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a> and provides no member vote on that decision. This applies only to disputes a panel decides. The union chooses one of the three panel members.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U10_B02",
+        "field": "html",
+        "before": "<p><strong>Sick leave and infection.</strong> “Paid sick leave benefits allow workers to stay home and visit a healthcare provider when ill.” <a href=\"https://web.archive.org/web/20250722162419/https://pmc.ncbi.nlm.nih.gov/articles/PMC10440219/\" title=\"“Paid sick leave among U.S. healthcare personnel, April 2022”, 2023-03-04 (published online; September 2023 issue)\">[4]</a> A U.S. study comparing states found: “We find clear evidence that sick pay mandates reduce ILI infection rates at the population level.” <a href=\"https://web.archive.org/web/20261029144910/https://docs.iza.org/dp13530.pdf\" title=\"Stefan Pichler, Katherine Wen, Nicolas R. Ziebarth, “Positive Health Externalities of Mandating Paid Sick Leave”, July 2020 (IZA Discussion Paper No. 13530)\">[5]</a> ILI means flu-like illness.</p>",
+        "after": "<p><strong>Sick leave and infection.</strong> “Paid sick leave benefits allow workers to stay home and visit a healthcare provider when ill.” <a href=\"https://web.archive.org/web/20250722162419/https://pmc.ncbi.nlm.nih.gov/articles/PMC10440219/\" title=\"“Paid sick leave among U.S. healthcare personnel, April 2022”, 2023-03-04 (published online; September 2023 issue)\">[4]</a> A U.S. study comparing states found: “We find clear evidence that sick pay mandates reduce ILI infection rates at the population level.” <a href=\"https://web.archive.org/web/20261029144910/https://docs.iza.org/dp13530.pdf\" title=\"Stefan Pichler, Katherine Wen, Nicolas R. Ziebarth, “Positive Health Externalities of Mandating Paid Sick Leave”, July 2020 (IZA Discussion Paper No. 13530)\">[5]</a></p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U12_B04",
+        "field": "html",
+        "before": "<p><strong>Time for worship.</strong> Sunday worship is an established Christian custom, and passing on faith needs regular family time: “For children to absorb God’s truths, regular times of family Bible study, devotion and worship are important.” <a href=\"https://web.archive.org/web/20261020064908/https://www.focusonthefamily.com/faith/necessity-of-family-bible-time/\" title=\"“Necessity of Family Bible Time”, 2024-06-03\">[6]</a> Two separate routes protect that time. First, with current terms held during talks, the bill protects established Sunday and holiday arrangements against changes an employer would otherwise impose after a deadlock. For example, the 2021–25 contract at Kroger, a grocery company, gives certain groups of longtime workers this rule: “Sunday and holiday work shall be voluntary and rotated among qualified employees who are available for such work.” <a href=\"https://ufcw1996.org/images/worksites/Kroger-Atl-Final-exp.-2025.pdf\" title=\"Rickey M. Lovins, “Contract Agreement between UFCW Local 1996 and The Kroger Co., Atlanta, Georgia”, 2021-03-21 (effective; expires 2025-03-22) (no public archived copy)\">[7]</a> Such existing arrangements are protected against changes an employer would otherwise impose after a deadlock. Second, first contracts can add religious scheduling rules and advance notice of schedules, which lets families plan regular worship and teaching.</p>",
+        "after": "<p><strong>Time for worship.</strong> Sunday worship is an established Christian custom, and passing on faith needs regular family time: “For children to absorb God’s truths, regular times of family Bible study, devotion and worship are important.” <a href=\"https://web.archive.org/web/20261020064908/https://www.focusonthefamily.com/faith/necessity-of-family-bible-time/\" title=\"“Necessity of Family Bible Time”, 2024-06-03\">[6]</a> Two separate routes protect that time. First, with current terms held during talks, the bill protects established Sunday and holiday arrangements against changes an employer would otherwise impose after a deadlock. For example, the 2021–25 contract at Kroger gives certain groups of longtime workers this rule: “Sunday and holiday work shall be voluntary and rotated among qualified employees who are available for such work.” <a href=\"https://ufcw1996.org/images/worksites/Kroger-Atl-Final-exp.-2025.pdf\" title=\"Rickey M. Lovins, “Contract Agreement between UFCW Local 1996 and The Kroger Co., Atlanta, Georgia”, 2021-03-21 (effective; expires 2025-03-22) (no public archived copy)\">[7]</a> Such existing arrangements are protected against changes an employer would otherwise impose after a deadlock. Second, first contracts can add religious scheduling rules and advance notice of schedules, which lets families plan regular worship and teaching.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U11_B02",
+        "field": "html",
+        "before": "<p><strong>Care workers and infection.</strong> First-contract arbitration gives workers a “guaranteed path to get the benefits of a union contract” <a href=\"https://web.archive.org/web/20251211030125/https://tcf.org/content/commentary/trumps-war-on-the-labor-peacemakers/\" title=\"The Century Foundation, analysis, March 31, 2025\">[1]</a>. Longmont United nurses won “the first acute care private-sector contract for RNs in the state of Colorado.” <a href=\"https://web.archive.org/web/20261029193453/https://www.nationalnursesunited.org/press/longmont-united-nurses-ratify-their-first-union-contract-with-strong-measures-to-improve\" title=\"National Nurses Organizing Committee/National Nurses United, “Longmont United nurses ratify their first union contract with strong measures to improve patient safety and nurse retention”, 2025-04-09\">[2]</a> It included “Health and safety provisions to ensure nurses get the highest level of personal protective equipment when caring for patients with infectious diseases.” <a href=\"https://web.archive.org/web/20261029193453/https://www.nationalnursesunited.org/press/longmont-united-nurses-ratify-their-first-union-contract-with-strong-measures-to-improve\" title=\"National Nurses Organizing Committee/National Nurses United, “Longmont United nurses ratify their first union contract with strong measures to improve patient safety and nurse retention”, 2025-04-09\">[2]</a> Guidance from the CDC, the U.S. public health agency, lists “use of gloves, gown, mask, eye protection, or face shield, depending on the anticipated exposure” <a href=\"https://web.archive.org/web/20261029202020/https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf\" title=\"U. S. Department of Health and Human Services / Centers for Disease Control and Prevention, “2007 Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings”, 2007; last updated 2024-09 (date printed on page 1)\">[3]</a>. With such terms, care workers get protections that an employer cannot block just by refusing to sign any contract.</p>",
+        "after": "<p><strong>Care workers and infection.</strong> First-contract arbitration gives workers a “guaranteed path to get the benefits of a union contract” <a href=\"https://web.archive.org/web/20251211030125/https://tcf.org/content/commentary/trumps-war-on-the-labor-peacemakers/\" title=\"The Century Foundation, analysis, March 31, 2025\">[1]</a>. Longmont United nurses won “the first acute care private-sector contract for RNs in the state of Colorado.” <a href=\"https://web.archive.org/web/20261029193453/https://www.nationalnursesunited.org/press/longmont-united-nurses-ratify-their-first-union-contract-with-strong-measures-to-improve\" title=\"National Nurses Organizing Committee/National Nurses United, “Longmont United nurses ratify their first union contract with strong measures to improve patient safety and nurse retention”, 2025-04-09\">[2]</a> It included “Health and safety provisions to ensure nurses get the highest level of personal protective equipment when caring for patients with infectious diseases.” <a href=\"https://web.archive.org/web/20261029193453/https://www.nationalnursesunited.org/press/longmont-united-nurses-ratify-their-first-union-contract-with-strong-measures-to-improve\" title=\"National Nurses Organizing Committee/National Nurses United, “Longmont United nurses ratify their first union contract with strong measures to improve patient safety and nurse retention”, 2025-04-09\">[2]</a> Guidance from the CDC lists “use of gloves, gown, mask, eye protection, or face shield, depending on the anticipated exposure” <a href=\"https://web.archive.org/web/20261029202020/https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf\" title=\"U. S. Department of Health and Human Services / Centers for Disease Control and Prevention, “2007 Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings”, 2007; last updated 2024-09 (date printed on page 1)\">[3]</a>. With such terms, care workers get protections that an employer cannot block just by refusing to sign any contract.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U23_B02",
+        "field": "html",
+        "before": "<p><strong>Oversight and enforcement.</strong> A union contract can give workers a regular role in environmental oversight. The 2018 U.S. Steel contract requires “A Joint Environmental Sub-Committee of the Joint Safety and Health Committee” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> at each location, which “will meet regularly to discuss environmental issues affecting the Company and to make appropriate recommendations.” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> The company must let that group review “all non confidential environmental reports, monitoring results, analyses, materials received from the EPA and other agencies” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>, and must “comply with all applicable laws and regulations concerning the health and safety of Employees at work and the protection of the environment.” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> The EPA is the U.S. environmental agency. Workers can enforce these duties: “the Union may process grievances through the grievance procedure, including arbitration” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>. These terms give workers information, a voice and a way to enforce environmental duties.</p>",
+        "after": "<p><strong>Oversight and enforcement.</strong> A union contract can give workers a regular role in environmental oversight. The 2018 U.S. Steel contract requires “A Joint Environmental Sub-Committee of the Joint Safety and Health Committee” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> at each location, which “will meet regularly to discuss environmental issues affecting the Company and to make appropriate recommendations.” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> The company must let that group review “all non confidential environmental reports, monitoring results, analyses, materials received from the EPA and other agencies” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>, and must “comply with all applicable laws and regulations concerning the health and safety of Employees at work and the protection of the environment.” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a> Workers can enforce these duties: “the Union may process grievances through the grievance procedure, including arbitration” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>. These terms give workers information, a voice and a way to enforce environmental duties.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U23_B05",
+        "field": "html",
+        "before": "<p>The required duty to bargain concerns safety and health: “the other side must bargain in good faith over safety and health issues, including SWA.” <a href=\"https://web.archive.org/web/20261029171154/https://usw.org/get-involved/health-safety-and-environment/bargaining-for-stop-work-authority-to-prevent-injuries-and-save-lives/\" title=\"“Bargaining for Stop Work Authority to Prevent Injuries and Save Lives”, 2022-07-01\">[4]</a> SWA means workers’ authority to stop unsafe work. “Because there is no law mandating SWA, the SWA process is specific to an employer or workplace.” <a href=\"https://web.archive.org/web/20261029171154/https://usw.org/get-involved/health-safety-and-environment/bargaining-for-stop-work-authority-to-prevent-injuries-and-save-lives/\" title=\"“Bargaining for Stop Work Authority to Prevent Injuries and Save Lives”, 2022-07-01\">[4]</a> The environmental wording comes from the Delaware City process, and environment-only coverage is not shown to be a required subject. This does not answer stop-work terms for hazards to workers that would also prevent environmental harm.</p>",
+        "after": "<p>The required duty to bargain concerns safety and health: “the other side must bargain in good faith over safety and health issues, including SWA.” <a href=\"https://web.archive.org/web/20261029171154/https://usw.org/get-involved/health-safety-and-environment/bargaining-for-stop-work-authority-to-prevent-injuries-and-save-lives/\" title=\"“Bargaining for Stop Work Authority to Prevent Injuries and Save Lives”, 2022-07-01\">[4]</a> “Because there is no law mandating SWA, the SWA process is specific to an employer or workplace.” <a href=\"https://web.archive.org/web/20261029171154/https://usw.org/get-involved/health-safety-and-environment/bargaining-for-stop-work-authority-to-prevent-injuries-and-save-lives/\" title=\"“Bargaining for Stop Work Authority to Prevent Injuries and Save Lives”, 2022-07-01\">[4]</a> The environmental wording comes from the Delaware City process, and environment-only coverage is not shown to be a required subject. This does not answer stop-work terms for hazards to workers that would also prevent environmental harm.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U23_B06",
+        "field": "html",
+        "before": "<p><strong>Green workplace programs.</strong> A guide to green bargaining explains that U.S. employers and unions “are still free to bargain over” climate goals <a href=\"https://web.archive.org/web/20261029180714/https://www.filesforprogress.org/memos/Bargaining_GND.pdf\" title=\"“Bargaining Green New Deals at Work”, 2019-08-01\">[1]</a>. Its contract models include “building efficiency improvements and recycling and composting programs” <a href=\"https://web.archive.org/web/20261029180714/https://www.filesforprogress.org/memos/Bargaining_GND.pdf\" title=\"“Bargaining Green New Deals at Work”, 2019-08-01\">[1]</a>. U.S. Steel’s contract requires joint work to “identify, analyze, and make recommendations regarding ways to conserve energy, improve energy efficiency and reduce greenhouse gas emissions” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>. Minneapolis janitors won a “contract that included funding for a Labor-Management Cooperation Fund for a green education initiative” <a href=\"https://web.archive.org/web/20261029182952/https://www.labor4sustainability.org/articles/first-union-backed-strike-to-protect-the-climate-wins-contract/\" title=\"Ming, “First Union-Backed Strike to Protect the Climate Wins Contract”, 2020-03-31\">[5]</a>. The IPCC, the United Nations climate science panel, finds that “Hundreds of local losses of species have been driven by increases in the magnitude of heat extremes” <a href=\"https://web.archive.org/web/20261004143440/https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/\" title=\"“Climate Change 2023: Synthesis Report — Summary for Policymakers”, 2023 (report publication year)\">[6]</a>.</p>",
+        "after": "<p><strong>Green workplace programs.</strong> A guide to green bargaining explains that U.S. employers and unions “are still free to bargain over” climate goals <a href=\"https://web.archive.org/web/20261029180714/https://www.filesforprogress.org/memos/Bargaining_GND.pdf\" title=\"“Bargaining Green New Deals at Work”, 2019-08-01\">[1]</a>. Its contract models include “building efficiency improvements and recycling and composting programs” <a href=\"https://web.archive.org/web/20261029180714/https://www.filesforprogress.org/memos/Bargaining_GND.pdf\" title=\"“Bargaining Green New Deals at Work”, 2019-08-01\">[1]</a>. U.S. Steel’s contract requires joint work to “identify, analyze, and make recommendations regarding ways to conserve energy, improve energy efficiency and reduce greenhouse gas emissions” <a href=\"https://web.archive.org/web/20261029191308/https://usw.org/wp-content/uploads/2020/07/2018_uss-usw_pm_bla_printer-2-1.pdf\" title=\"“Agreement between United States Steel Corporation and the United Steelworkers: Production and Maintenance Employees”, 2018-09-01 (agreement date)\">[3]</a>. Minneapolis janitors won a “contract that included funding for a Labor-Management Cooperation Fund for a green education initiative” <a href=\"https://web.archive.org/web/20261029182952/https://www.labor4sustainability.org/articles/first-union-backed-strike-to-protect-the-climate-wins-contract/\" title=\"Ming, “First Union-Backed Strike to Protect the Climate Wins Contract”, 2020-03-31\">[5]</a>. The IPCC finds that “Hundreds of local losses of species have been driven by increases in the magnitude of heat extremes” <a href=\"https://web.archive.org/web/20261004143440/https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/\" title=\"“Climate Change 2023: Synthesis Report — Summary for Policymakers”, 2023 (report publication year)\">[6]</a>.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U27_B06",
+        "field": "html",
+        "before": "<p><strong>Marriage.</strong> The Southern Baptist Convention teaches: “Marriage is a lifelong covenant between one man and one woman” <a href=\"https://web.archive.org/web/20261022082938/https://www.sbc.net/resource-library/resolutions/on-restoring-moral-clarity-through-gods-designfor-gender-marriage-and-the-family/\" title=\"“On Restoring Moral Clarity through God’s Designfor Gender, Marriage, and the Family”, 2025-06-10\">[7]</a>, and calls for “the overturning of laws and court rulings, including Obergefell v. Hodges, that defy God’s design for marriage and family” <a href=\"https://web.archive.org/web/20261022082938/https://www.sbc.net/resource-library/resolutions/on-restoring-moral-clarity-through-gods-designfor-gender-marriage-and-the-family/\" title=\"“On Restoring Moral Clarity through God’s Designfor Gender, Marriage, and the Family”, 2025-06-10\">[7]</a>. Obergefell is the U.S. Supreme Court decision recognizing same-sex marriage. The AFL-CIO lobbied for the opposite policy: “The AFL-CIO urges you to vote in support of HR 8404, the Respect for Marriage Act.” <a href=\"https://web.archive.org/web/20241226005341/https://aflcio.org/about/advocacy/legislative-alerts/letter-supporting-marriage-equality\" title=\"“Letter Supporting Marriage Equality”, 2022-11-21\">[9]</a> AFT confirms it “is affiliated with American Federation of Labor and Congress of Industrial Organizations” <a href=\"https://web.archive.org/web/20261029201804/https://www.aft.org/sites/default/files/media/documents/2024/AFTconstitution2024.pdf\" title=\"“2024 AFT Constitution and Bylaws”, 2024-07 (correct as of July 2024)\">[3]</a>.</p>",
+        "after": "<p><strong>Marriage.</strong> The Southern Baptist Convention teaches: “Marriage is a lifelong covenant between one man and one woman” <a href=\"https://web.archive.org/web/20261022082938/https://www.sbc.net/resource-library/resolutions/on-restoring-moral-clarity-through-gods-designfor-gender-marriage-and-the-family/\" title=\"“On Restoring Moral Clarity through God’s Designfor Gender, Marriage, and the Family”, 2025-06-10\">[7]</a>, and calls for “the overturning of laws and court rulings, including Obergefell v. Hodges, that defy God’s design for marriage and family” <a href=\"https://web.archive.org/web/20261022082938/https://www.sbc.net/resource-library/resolutions/on-restoring-moral-clarity-through-gods-designfor-gender-marriage-and-the-family/\" title=\"“On Restoring Moral Clarity through God’s Designfor Gender, Marriage, and the Family”, 2025-06-10\">[7]</a>. The AFL-CIO lobbied for the opposite policy: “The AFL-CIO urges you to vote in support of HR 8404, the Respect for Marriage Act.” <a href=\"https://web.archive.org/web/20241226005341/https://aflcio.org/about/advocacy/legislative-alerts/letter-supporting-marriage-equality\" title=\"“Letter Supporting Marriage Equality”, 2022-11-21\">[9]</a> AFT confirms it “is affiliated with American Federation of Labor and Congress of Industrial Organizations” <a href=\"https://web.archive.org/web/20261029201804/https://www.aft.org/sites/default/files/media/documents/2024/AFTconstitution2024.pdf\" title=\"“2024 AFT Constitution and Bylaws”, 2024-07 (correct as of July 2024)\">[3]</a>.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U05_B01",
+        "field": "html",
+        "before": "<p>A Canadian study found: “FCA reduces first agreement work stoppage incidence by at least 50 percent.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a> FCA means first-contract arbitration. The study says Canadian labor laws are “modeled on U.S. labor law.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a> It explains the result as “creating an incentive for the parties to bargain in good faith and negotiate an agreement” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a>. Separately, a binding decision gives the two sides an ordinary way to end a dispute without a stoppage. So the bill would reduce, at least somewhat, how often first-contract bargaining leads to a <span data-term=\"strike\">strike</span> or <span data-term=\"lockout\">lockout</span>. This concerns how often stoppages happen, and it does not assume that the 50 percent figure applies.</p>",
+        "after": "<p>A Canadian study found: “FCA reduces first agreement work stoppage incidence by at least 50 percent.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a> The study says Canadian labor laws are “modeled on U.S. labor law.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a> It explains the result as “creating an incentive for the parties to bargain in good faith and negotiate an agreement” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages”, 2008-12 (manuscript); LCERPA Working Paper 2009-01\">[1]</a>. Separately, a binding decision gives the two sides an ordinary way to end a dispute without a stoppage. So the bill would reduce, at least somewhat, how often first-contract bargaining leads to a <span data-term=\"strike\">strike</span> or <span data-term=\"lockout\">lockout</span>. This concerns how often stoppages happen, and it does not assume that the 50 percent figure applies.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U16_B03",
+        "field": "html",
+        "before": "<p><strong>Safety rules.</strong> OSHA, the U.S. workplace safety agency, explains: “The process described in these recommended practices can, and should, be tailored to the needs of each workplace.” <a href=\"https://web.archive.org/web/20260717033940/https://www.osha.gov/sites/default/files/publications/OSHA3885.pdf\" title=\"Occupational Safety and Health Administration, “Recommended Practices for Safety and Health Programs (OSHA 3885)”, 2016-10 (month stated on publication)\">[3]</a> An imposed contract lasts two years unless changed by “written consent of the parties.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a> A safety rule that misses a workplace’s actual hazards can leave workers exposed to injury.</p>",
+        "after": "<p><strong>Safety rules.</strong> OSHA explains: “The process described in these recommended practices can, and should, be tailored to the needs of each workplace.” <a href=\"https://web.archive.org/web/20260717033940/https://www.osha.gov/sites/default/files/publications/OSHA3885.pdf\" title=\"Occupational Safety and Health Administration, “Recommended Practices for Safety and Health Programs (OSHA 3885)”, 2016-10 (month stated on publication)\">[3]</a> An imposed contract lasts two years unless changed by “written consent of the parties.” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a> A safety rule that misses a workplace’s actual hazards can leave workers exposed to injury.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U17_B07",
+        "field": "html",
+        "before": "<p>Schedules, sick leave and coverage also affect health. NIOSH, a U.S. workplace-health agency, explains: “Work-related factors that can contribute to fatigue include scheduling practices, such as night shifts or extended hours, that can interfere with sleep.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> “Fatigued workers might take more risks that lead to injury or errors.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> The danger reaches road users “when fatigued workers drive on public roads.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> NIOSH also explains: “Access to paid sick leave might reduce the pressure to work while sick out of fear of losing income.” <a href=\"https://web.archive.org/web/20261029210922/https://www.cdc.gov/niosh/bulletin/2012/sick-leave.html\" title=\"“Making the Case for Paid Sick Leave”, 2012-07-30\">[10]</a> It found that “workers with access to paid sick leave were 28% less likely overall to suffer nonfatal occupational injuries than workers without access to paid sick leave.” <a href=\"https://web.archive.org/web/20261029210922/https://www.cdc.gov/niosh/bulletin/2012/sick-leave.html\" title=\"“Making the Case for Paid Sick Leave”, 2012-07-30\">[10]</a> Having insurance does not ensure affordable care. The Commonwealth Fund’s 2024 survey found: “Nearly three of five (57%) underinsured adults said they avoided getting needed health care because of its cost” <a href=\"https://web.archive.org/web/20261024005040/https://www.commonwealthfund.org/publications/surveys/2024/nov/state-health-insurance-coverage-us-2024-biennial-survey\" title=\"Authors Sara R. Collins, Avni Gupta, “The State of Health Insurance Coverage in the U.S.: Findings from the Commonwealth Fund 2024 Biennial Health Insurance Survey”, 2024-11-21\">[11]</a>. Workers at Conagra, a food company, rejected a proposed contract whose terms failed to address concerns about “forced overtime and double shifts” <a href=\"https://index.commoncrawl.org/CC-MAIN-2021-04-index?url=https%3A%2F%2Fwww.wdrb.com%2Fin-depth%2Fworkers-at-conagra-s-louisville-plant-reject-labor-contract%2Farticle_57283c90-5186-11e9-b2f7-ebd21e34f6ae.html&amp;output=json\" title=\"Chris Otts, “Workers at Conagra&#x27;s Louisville plant reject labor contract”, 2019-03-28; updated 2019-05-21 (the page is gone; the link is Common Crawl&#x27;s record of its copy)\">[12]</a> and which “would have resulted in higher health insurance costs” <a href=\"https://index.commoncrawl.org/CC-MAIN-2021-04-index?url=https%3A%2F%2Fwww.wdrb.com%2Fin-depth%2Fworkers-at-conagra-s-louisville-plant-reject-labor-contract%2Farticle_57283c90-5186-11e9-b2f7-ebd21e34f6ae.html&amp;output=json\" title=\"Chris Otts, “Workers at Conagra&#x27;s Louisville plant reject labor contract”, 2019-03-28; updated 2019-05-21 (the page is gone; the link is Common Crawl&#x27;s record of its copy)\">[12]</a>. In a contract a panel sets, workers lose a way to reject tiring schedules, sick leave or health benefits they find too limited.</p>",
+        "after": "<p>Schedules, sick leave and coverage also affect health. NIOSH explains: “Work-related factors that can contribute to fatigue include scheduling practices, such as night shifts or extended hours, that can interfere with sleep.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> “Fatigued workers might take more risks that lead to injury or errors.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> The danger reaches road users “when fatigued workers drive on public roads.” <a href=\"https://web.archive.org/web/20261029212437/https://www.cdc.gov/niosh/bulletin/2023/fatigue.html\" title=\"CDC, “Working Hours and Fatigue: Meeting the Needs of American Workers and Employers”, 2023-04-12\">[9]</a> NIOSH also explains: “Access to paid sick leave might reduce the pressure to work while sick out of fear of losing income.” <a href=\"https://web.archive.org/web/20261029210922/https://www.cdc.gov/niosh/bulletin/2012/sick-leave.html\" title=\"“Making the Case for Paid Sick Leave”, 2012-07-30\">[10]</a> It found that “workers with access to paid sick leave were 28% less likely overall to suffer nonfatal occupational injuries than workers without access to paid sick leave.” <a href=\"https://web.archive.org/web/20261029210922/https://www.cdc.gov/niosh/bulletin/2012/sick-leave.html\" title=\"“Making the Case for Paid Sick Leave”, 2012-07-30\">[10]</a> Having insurance does not ensure affordable care. The Commonwealth Fund’s 2024 survey found: “Nearly three of five (57%) underinsured adults said they avoided getting needed health care because of its cost” <a href=\"https://web.archive.org/web/20261024005040/https://www.commonwealthfund.org/publications/surveys/2024/nov/state-health-insurance-coverage-us-2024-biennial-survey\" title=\"Authors Sara R. Collins, Avni Gupta, “The State of Health Insurance Coverage in the U.S.: Findings from the Commonwealth Fund 2024 Biennial Health Insurance Survey”, 2024-11-21\">[11]</a>. Workers at Conagra rejected a proposed contract whose terms failed to address concerns about “forced overtime and double shifts” <a href=\"https://index.commoncrawl.org/CC-MAIN-2021-04-index?url=https%3A%2F%2Fwww.wdrb.com%2Fin-depth%2Fworkers-at-conagra-s-louisville-plant-reject-labor-contract%2Farticle_57283c90-5186-11e9-b2f7-ebd21e34f6ae.html&amp;output=json\" title=\"Chris Otts, “Workers at Conagra&#x27;s Louisville plant reject labor contract”, 2019-03-28; updated 2019-05-21 (the page is gone; the link is Common Crawl&#x27;s record of its copy)\">[12]</a> and which “would have resulted in higher health insurance costs” <a href=\"https://index.commoncrawl.org/CC-MAIN-2021-04-index?url=https%3A%2F%2Fwww.wdrb.com%2Fin-depth%2Fworkers-at-conagra-s-louisville-plant-reject-labor-contract%2Farticle_57283c90-5186-11e9-b2f7-ebd21e34f6ae.html&amp;output=json\" title=\"Chris Otts, “Workers at Conagra&#x27;s Louisville plant reject labor contract”, 2019-03-28; updated 2019-05-21 (the page is gone; the link is Common Crawl&#x27;s record of its copy)\">[12]</a>. In a contract a panel sets, workers lose a way to reject tiring schedules, sick leave or health benefits they find too limited.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U21_B05",
+        "field": "html",
+        "before": "<p><strong>Essential services.</strong> The agency describes its role: “Our mediators work tirelessly to minimize and prevent disruptions affecting utilities, health care, public safety and security.” <a href=\"https://web.archive.org/web/20261029201051/https://www.fmcs.gov/wp-content/uploads/2026/02/FMCS-PAR-FY2025-version-2.pdf\" title=\"Davis Anna, “Fiscal Year 2025 Performance and Accountability Report”, 2025-11-14 (transmittal; PDF posted February 2026)\">[6]</a> The National Restaurant Association, a business group, warns: “The FLCA also assumes a significant expansion in federal mediation capacity that has not been funded.” <a href=\"https://web.archive.org/web/20261029145207/https://edworkforce.house.gov/news/documentsingle.aspx?DocumentID=413396\" title=\"House Education and Workforce Committee, press release, June 9, 2026\">[7]</a> FLCA is the Faster Labor Contracts Act, this bill. New required cases would compete for the resources used to prevent disruptions to power and health care.</p>",
+        "after": "<p><strong>Essential services.</strong> The agency describes its role: “Our mediators work tirelessly to minimize and prevent disruptions affecting utilities, health care, public safety and security.” <a href=\"https://web.archive.org/web/20261029201051/https://www.fmcs.gov/wp-content/uploads/2026/02/FMCS-PAR-FY2025-version-2.pdf\" title=\"Davis Anna, “Fiscal Year 2025 Performance and Accountability Report”, 2025-11-14 (transmittal; PDF posted February 2026)\">[6]</a> The National Restaurant Association warns: “The FLCA also assumes a significant expansion in federal mediation capacity that has not been funded.” <a href=\"https://web.archive.org/web/20261029145207/https://edworkforce.house.gov/news/documentsingle.aspx?DocumentID=413396\" title=\"House Education and Workforce Committee, press release, June 9, 2026\">[7]</a> New required cases would compete for the resources used to prevent disruptions to power and health care.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U23_B08",
+        "field": "html",
+        "before": "<p><strong>Strikes for green terms.</strong> Employers seek strike bans in first contracts: “management will demand a contract clause barring strikes while the agreement is in effect.” <a href=\"https://web.archive.org/web/20261029161146/https://labornotes.org/2023/02/no-strike-clauses-tips-first-contract-bargainers-0\" title=\"“No-Strike Clauses: Tips for First-Contract Bargainers”, 2023-02-27\">[7]</a> Today “Nothing in the NLRA, however, requires a union to agree to a no-strike clause.” <a href=\"https://web.archive.org/web/20261029161146/https://labornotes.org/2023/02/no-strike-clauses-tips-first-contract-bargainers-0\" title=\"“No-Strike Clauses: Tips for First-Contract Bargainers”, 2023-02-27\">[7]</a> Lawyers describe the panel’s “authority to determine all terms of the parties’ first CBA” <a href=\"https://web.archive.org/web/20261029163702/https://natlawreview.com/article/faster-not-always-better-house-passes-bill-seeking-radical-change-first-contract\" title=\"Michael J. Lebowich, “House of Reps Pass Faster Labor Contracts Act, Sending it to Sena”, 2026-06-12\">[8]</a>. A CBA is a collective bargaining agreement, or contract. Green demands can concern daily work; a janitors’ union sought a “training program for Green Technicians (including $0.20 differential) and expanded use of green cleaning.” <a href=\"https://web.archive.org/web/20261029195842/https://www.labor4sustainability.org/strike/first-u-s-union-authorized-climate-strike/\" title=\"Jeremy Brecher, “First U.S. Union-Authorized Climate Strike?”, 2020-02-29\">[9]</a> Strike pressure helps: “the companies will simply try to ignore those demands—unless the union is willing to sacrifice and ultimately strike.” <a href=\"https://web.archive.org/web/20261029182952/https://www.labornotes.org/2020/04/lessons-first-union-climate-strike-us?language=en\" title=\"“Lessons from the First Union Climate Strike in the U.S.”, 2020-04-30\">[10]</a> A binding award can limit stoppages used to press such demands in either of two ways. The award itself ends the first-contract bargaining in which workers could strike for such terms, or it could impose a strike ban they never accepted.</p>",
+        "after": "<p><strong>Strikes for green terms.</strong> Employers seek strike bans in first contracts: “management will demand a contract clause barring strikes while the agreement is in effect.” <a href=\"https://web.archive.org/web/20261029161146/https://labornotes.org/2023/02/no-strike-clauses-tips-first-contract-bargainers-0\" title=\"“No-Strike Clauses: Tips for First-Contract Bargainers”, 2023-02-27\">[7]</a> Today “Nothing in the NLRA, however, requires a union to agree to a no-strike clause.” <a href=\"https://web.archive.org/web/20261029161146/https://labornotes.org/2023/02/no-strike-clauses-tips-first-contract-bargainers-0\" title=\"“No-Strike Clauses: Tips for First-Contract Bargainers”, 2023-02-27\">[7]</a> Lawyers describe the panel’s “authority to determine all terms of the parties’ first CBA” <a href=\"https://web.archive.org/web/20261029163702/https://natlawreview.com/article/faster-not-always-better-house-passes-bill-seeking-radical-change-first-contract\" title=\"Michael J. Lebowich, “House of Reps Pass Faster Labor Contracts Act, Sending it to Sena”, 2026-06-12\">[8]</a>. Green demands can concern daily work; a janitors’ union sought a “training program for Green Technicians (including $0.20 differential) and expanded use of green cleaning.” <a href=\"https://web.archive.org/web/20261029195842/https://www.labor4sustainability.org/strike/first-u-s-union-authorized-climate-strike/\" title=\"Jeremy Brecher, “First U.S. Union-Authorized Climate Strike?”, 2020-02-29\">[9]</a> Strike pressure helps: “the companies will simply try to ignore those demands—unless the union is willing to sacrifice and ultimately strike.” <a href=\"https://web.archive.org/web/20261029182952/https://www.labornotes.org/2020/04/lessons-first-union-climate-strike-us?language=en\" title=\"“Lessons from the First Union Climate Strike in the U.S.”, 2020-04-30\">[10]</a> A binding award can limit stoppages used to press such demands in either of two ways. The award itself ends the first-contract bargaining in which workers could strike for such terms, or it could impose a strike ban they never accepted.</p>"
+      },
+      {
+        "collection": "blocks",
+        "id": "HR5408_BW_U04_B09",
+        "field": "html",
+        "before": "<p>Current law does not ensure terms both sides accept. After a real deadlock, “an employer does not violate the Act by making unilateral changes that are reasonably comprehended within his pre-impasse proposals” <a href=\"https://web.archive.org/web/20261029212630/https://www.law.cornell.edu/supremecourt/text/484/539\" title=\"“Laborers Health and Welfare Trust Fund for Northern California v. Advanced Lightweight Concrete Co., Inc., 484 U.S. 539 (1988)”, 1988-02-23 (decision date printed in the opinion)\">[11]</a>. Agreement on terms is also a different test from understanding the people who propose them. The bill requires parties to “make every reasonable effort to conclude and sign a collective bargaining agreement” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a>. Canadian research reports: “Despite this, FCA is not accessed frequently and it is even rarer for a first contract (in whole or in part) to be imposed.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages (working paper)”, 2008-12 (date printed in the working paper)\">[12]</a> FCA means first-contract arbitration. Those Canadian systems also had a rule stopping strikes that this bill does not state. One side’s refusal to extend talks after sincere bargaining does not itself show less willingness to understand the other group.</p>",
+        "after": "<p>Current law does not ensure terms both sides accept. After a real deadlock, “an employer does not violate the Act by making unilateral changes that are reasonably comprehended within his pre-impasse proposals” <a href=\"https://web.archive.org/web/20261029212630/https://www.law.cornell.edu/supremecourt/text/484/539\" title=\"“Laborers Health and Welfare Trust Fund for Northern California v. Advanced Lightweight Concrete Co., Inc., 484 U.S. 539 (1988)”, 1988-02-23 (decision date printed in the opinion)\">[11]</a>. Agreement on terms is also a different test from understanding the people who propose them. The bill requires parties to “make every reasonable effort to conclude and sign a collective bargaining agreement” <a href=\"https://web.archive.org/web/20261029203943/https://www.congress.gov/119/bills/hr5408/BILLS-119hr5408eh.htm\" title=\"H.R.5408, bill text, June 9, 2026\">[2]</a>. Canadian research reports: “Despite this, FCA is not accessed frequently and it is even rarer for a first contract (in whole or in part) to be imposed.” <a href=\"https://web.archive.org/web/20221212230802/https://lcerpa.org/public/papers/LCERPA_2009-01.pdf\" title=\"Susan Johnson, “First Contract Arbitration: Effects on Bargaining and Work Stoppages (working paper)”, 2008-12 (date printed in the working paper)\">[12]</a> Those Canadian systems also had a rule stopping strikes that this bill does not state. One side’s refusal to extend talks after sincere bargaining does not itself show less willingness to understand the other group.</p>"
+      },
+      {
+        "collection": "decisions",
+        "field": "glossary",
+        "before": [
+          {
+            "term": "union",
+            "definition": "A union is an organization that represents workers in talks with their employer."
+          },
+          {
+            "term": "first contract",
+            "definition": "A first contract is the first written work agreement between a new union and an employer."
+          },
+          {
+            "term": "decertification",
+            "definition": "Decertification means removing a union as the workers’ representative through a federal election."
+          },
+          {
+            "term": "withdraw recognition",
+            "definition": "Withdrawing recognition means an employer stops treating the union as the representative."
+          },
+          {
+            "term": "impasse",
+            "definition": "An impasse is a real deadlock in good-faith talks."
+          },
+          {
+            "term": "close-election study",
+            "definition": "A close-election study compares workplaces where a union barely won a vote with workplaces where it barely lost."
+          },
+          {
+            "term": "interest arbitration",
+            "definition": "Interest arbitration means outside decision-makers set contract terms."
+          },
+          {
+            "term": "status quo",
+            "definition": "The status quo is the existing situation."
+          },
+          {
+            "term": "mandatory subject",
+            "definition": "A mandatory subject is one the employer must discuss if asked."
+          },
+          {
+            "term": "just cause",
+            "definition": "Just cause means a good reason for punishing or dismissing a worker."
+          },
+          {
+            "term": "strike",
+            "definition": "A strike is when workers stop work."
+          },
+          {
+            "term": "lockout",
+            "definition": "A lockout is when an employer keeps workers out."
+          },
+          {
+            "term": "ratification",
+            "definition": "Ratification means a member vote to approve a contract."
+          },
+          {
+            "term": "fringe benefits",
+            "definition": "Fringe benefits are benefits beyond pay."
+          },
+          {
+            "term": "mediation",
+            "definition": "Mediation means an outside person helps the two sides talk; the mediator cannot decide for them."
+          },
+          {
+            "term": "arbitration",
+            "definition": "Arbitration means outside decision-makers decide."
+          },
+          {
+            "term": "grievance",
+            "definition": "A grievance is a formal complaint under a contract."
+          },
+          {
+            "term": "FMCS",
+            "definition": "FMCS is the Federal Mediation and Conciliation Service, the U.S. agency that helps employers and unions settle disputes."
+          }
+        ],
+        "after": [
+          {
+            "term": "union",
+            "definition": "A union is an organization that represents workers in talks with their employer."
+          },
+          {
+            "term": "first contract",
+            "definition": "A first contract is the first written work agreement between a new union and an employer."
+          },
+          {
+            "term": "decertification",
+            "definition": "Decertification means removing a union as the workers’ representative through a federal election."
+          },
+          {
+            "term": "withdraw recognition",
+            "definition": "Withdrawing recognition means an employer stops treating the union as the representative."
+          },
+          {
+            "term": "impasse",
+            "definition": "An impasse is a real deadlock in good-faith talks."
+          },
+          {
+            "term": "close-election study",
+            "definition": "A close-election study compares workplaces where a union barely won a vote with workplaces where it barely lost."
+          },
+          {
+            "term": "interest arbitration",
+            "definition": "Interest arbitration means outside decision-makers set contract terms."
+          },
+          {
+            "term": "status quo",
+            "definition": "The status quo is the existing situation."
+          },
+          {
+            "term": "mandatory subject",
+            "definition": "A mandatory subject is one the employer must discuss if asked."
+          },
+          {
+            "term": "just cause",
+            "definition": "Just cause means a good reason for punishing or dismissing a worker."
+          },
+          {
+            "term": "strike",
+            "definition": "A strike is when workers stop work."
+          },
+          {
+            "term": "lockout",
+            "definition": "A lockout is when an employer keeps workers out."
+          },
+          {
+            "term": "ratification",
+            "definition": "Ratification means a member vote to approve a contract."
+          },
+          {
+            "term": "fringe benefits",
+            "definition": "Fringe benefits are benefits beyond pay."
+          },
+          {
+            "term": "mediation",
+            "definition": "Mediation means an outside person helps the two sides talk; the mediator cannot decide for them."
+          },
+          {
+            "term": "arbitration",
+            "definition": "Arbitration means outside decision-makers decide."
+          },
+          {
+            "term": "grievance",
+            "definition": "A grievance is a formal complaint under a contract."
+          },
+          {
+            "term": "FMCS",
+            "definition": "FMCS is the Federal Mediation and Conciliation Service, the U.S. agency that helps employers and unions settle disputes."
+          },
+          {
+            "term": "SWA",
+            "definition": "Stop work authority: workers’ authority to stop unsafe work."
+          },
+          {
+            "term": "Obergefell",
+            "definition": "The U.S. Supreme Court decision recognizing same-sex marriage."
+          },
+          {
+            "term": "FCA",
+            "definition": "First-contract arbitration."
+          },
+          {
+            "term": "CBA",
+            "definition": "A collective bargaining agreement, or contract."
+          },
+          {
+            "term": "FLCA",
+            "definition": "The Faster Labor Contracts Act, this bill."
+          },
+          {
+            "term": "Heritage Foundation",
+            "definition": "A policy research group."
+          },
+          {
+            "term": "CDC",
+            "definition": "The U.S. public health agency."
+          },
+          {
+            "term": "IPCC",
+            "definition": "The United Nations climate science panel."
+          },
+          {
+            "term": "OSHA",
+            "definition": "The U.S. workplace safety agency."
+          },
+          {
+            "term": "NIOSH",
+            "definition": "A U.S. workplace-health agency."
+          },
+          {
+            "term": "National Restaurant Association",
+            "definition": "A business group."
+          },
+          {
+            "term": "ILI",
+            "definition": "Flu-like illness."
+          },
+          {
+            "term": "NLRA",
+            "definition": "The main U.S. private-sector labor law."
+          },
+          {
+            "term": "EPA",
+            "definition": "The U.S. environmental agency."
+          },
+          {
+            "term": "Kroger",
+            "definition": "A grocery company."
+          },
+          {
+            "term": "Conagra",
+            "definition": "A food company."
+          }
+        ]
+      },
+      {
+        "collection": "copy",
+        "field": "bill_description",
+        "before": null,
+        "after": "This bill would change U.S. labor law for workers who have newly formed a union. An employer would have to begin talks soon after the union asks. If the two sides cannot agree on a first contract, either side can ask a federal agency for mediation. If mediation does not produce an agreement, a three-person panel decides, and both sides must follow the panel’s decision for two years. The bill would also require current pay and working conditions to stay in place during talks and would keep an employer’s duty to bargain until workers remove the union in an election."
+      }
+    ],
+    "package_hash_format": "Parsed JSON serialized with two-space indentation and a trailing newline.",
+    "initial_file_sha256": {
+      "decisions.json": "c34267c851a4fc5f2d2381adf7bd3da1c3c0724b4c22d425be386d615f45951e",
+      "copy.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "amended_file_sha256": {
+      "decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
+      "copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5"
+    }
+  },
+  "current_package": {
+    "source_and_coverage_unchanged": true,
+    "node_structure_and_routes_unchanged": true,
+    "source_references_unchanged": true,
+    "initial_conversion_verified_by_exact_reversal": true
+  }
 }

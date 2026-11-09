@@ -6,7 +6,7 @@ The earlier H.R.5408 pilot procedure (`../bill_reasoning_pilot_20261108/hr5408/d
 
 ## What reviewers do
 
-A new review opens with the bill's short description alone. Continue opens the review, with its sign-in controls; signing in does not show the description again. A saved session resumes at its saved position.
+A new review opens with the bill's short description alone. Where definitions were moved out of that description, the reviewed version in the bill's `copy.json` is shown; the frozen description is retained in `input/source.json`. Continue opens the review, with its sign-in controls; signing in does not show the description again. A saved session resumes at its saved position.
 
 Reviewers walk through one bill one decision at a time. Each decision shows its claim, the evidence, challenges and limits that bear on that exact claim, and one Yes/No question beside it. Bill provisions and sourced background facts are shown as context beside the decisions that use them; they are never asked as questions.
 
@@ -34,7 +34,7 @@ The next causal claim is the open one whose No would set aside the most remainin
 
 ## Reading at each decision
 
-Each decision shows the explanation, evidence, challenges and limits for its own inference. Background that applies to several decisions is shown in full the first time it is needed on a path and linked afterwards; local limits are shown in full at every decision they apply to. Accepted earlier claims that a decision needs are listed as plain statements with numbered links, using one number sequence with the source citations on that panel. Background already shown with a directly accepted earlier claim is not repeated. Glossary terms have a dotted underline and show their definition on hover, focus or tap.
+Each decision shows the explanation, evidence, challenges and limits for its own inference. Background that applies to several decisions is shown in full the first time it is needed on a path and linked afterwards; local limits are shown in full at every decision they apply to. Accepted earlier claims that a decision needs are listed as plain statements with numbered links, using one number sequence with the source citations on that panel. Background already shown with a directly accepted earlier claim is not repeated. Glossary terms have a dotted underline and show their definition on hover, focus or tap. Definitions are not written into the reading text: abbreviations, organizations and technical words are defined in the glossary. Where a word has another sense in the same bill, only the intended uses are marked, with a specific glossary key. The text keeps definitions that decide what the bill covers, explanations of effects, an actor's role where the inference depends on it, and quotations as written.
 
 ## Results
 
@@ -64,10 +64,10 @@ Each bill folder contains the frozen `input/source.json` and four authored files
 
 - `decisions.json`: contexts, blocks and causal/value nodes with AND/OR routes, a glossary and the short consequence phrase shown beside each value question. Routes require causal claims only. Every source reference's locator quotation is an exact substring of its named frozen source field, and every citation copies a frozen link and title.
 - `coverage.json`: where every original argument, retained response and qualification obligation in the source's requirements ledger is carried, with rationales for consolidations, splits and response dispositions.
-- `copy.json`: per-bill interface overrides, if any. Common interface text is `runtime/copy.json`, with public-copy overrides from `site-copy.json`.
+- `copy.json`: per-bill interface overrides, if any, including an optional `bill_description` for the displayed short description. Common interface text is `runtime/copy.json`, with public-copy overrides from `site-copy.json`.
 - `EDITORIAL_REVIEW.md`: which claims became questions, consolidations and splits, alternative routes, sensitive choices and limits.
 
-H.R.5408 was converted losslessly from its approved pilot package; its approved node, route, context and block text is unchanged (`bills/hr5408/conversion.json`). The conversion comparison in `audit-content.mjs` reads the frozen pilot files in the canonical project. The website copy keeps that code and its report for provenance; rerunning the comparison belongs in the canonical project, where those inputs exist.
+H.R.5408 was first converted losslessly from its approved pilot package. On November 9, 2026, definition-only amendments to its block and context text, glossary and copy were made under the policy above; `bills/hr5408/conversion.json` records them reversibly, and the frozen pilot is unchanged. The conversion comparison in `audit-content.mjs` reads the frozen pilot files in the canonical project. The website copy keeps that code and its report for provenance; rerunning the comparison belongs in the canonical project, where those inputs exist.
 
 ## Build and publication
 

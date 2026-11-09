@@ -32,6 +32,13 @@ function fixture(suffix='one'){
 }
 const modelFor=f=>createDecisionTree(f.source,f.decisions,f.coverage,f.copy,f.hashes);
 
+test('display descriptions can omit inline definitions without changing frozen source descriptions',()=>{
+ const f=fixture(),original=f.source.bill.description;
+ assert.equal(prepareCopy(f.source,baseCopy).bill_description,original);
+ const copy=prepareCopy(f.source,baseCopy,{bill_description:'A shorter description without inline glosses.'});
+ assert.equal(copy.bill_description,'A shorter description without inline glosses.');assert.equal(f.source.bill.description,original);
+});
+
 test('native generic package needs no parent readings, legacy graph, standard value IDs or bill-specific counts',()=>{
  for(const suffix of ['one','two']){const f=fixture(suffix),model=modelFor(f);assert.equal(model.nodes.size,3);assert.equal(model.sourceIndex.values.size,1);assert(!('parent'in model));assert(!('map'in model.sourceIndex));let state=createState(model,f.release,'generic_session_'+suffix,at);state=answerDecision(model,state,nextDecision(model,state).id,'No',at);assert.equal(completion(model,state).pruned,2);assert.equal([...derivedResults(model,state).values()][0].presence,'Neither');assert(completion(model,state).complete);validateState(state,model,f.release);assert.equal(verifyParity(model,f.release).scenarios.all_yes.visited_count,3);}
 });
