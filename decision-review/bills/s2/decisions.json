@@ -4995,7 +4995,7 @@
   {
    "id": "S2_B_SESCTX_LIM",
    "role": "qualification",
-   "html": "<p>Money already in law: the 2025 budget law provided ICE $45 billion for detention and $29.85 billion for other functions, and a June 9 analysis reports plans to use that money to cover $416 million in detention costs and $350 million in transport costs in fiscal year 2027. The sources do not settle how much S.2 would add.</p>",
+   "html": "<p>Money already in law: the 2025 budget law provided ICE $45 billion for detention and $29.85 billion for other functions, and a June 9 analysis reports plans to use that money to cover $416 million in detention costs and $350 million in transport costs in fiscal year 2027. About $62 billion of ICE’s money from that law was not yet committed to spending at the end of May 2026. The sources do not settle how much S.2 would add, and unspent money does not by itself show that S.2 adds nothing.</p>",
    "source_refs": [
     {
      "id": "S2_SES_oppose_06",
@@ -5006,6 +5006,16 @@
      "id": "S2_SES_oppose_06",
      "field": "notes_html",
      "quote": "The sources do not settle how much S.2 would add."
+    },
+    {
+     "id": "S2_UNC_oppose_09",
+     "field": "notes_html",
+     "quote": "About $62 billion of ICE's money from that law was not yet committed to spending (unobligated) at the end of May 2026."
+    },
+    {
+     "id": "S2_UNC_oppose_09",
+     "field": "notes_html",
+     "quote": "Unspent money does not by itself show that S.2 adds nothing."
     }
    ]
   },

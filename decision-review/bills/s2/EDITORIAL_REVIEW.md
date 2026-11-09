@@ -250,6 +250,7 @@ Claims shared across values:
   - Coverage rows credit these locations.
 - **07, immigration-scoped root:** the root claim is now "Added immigration enforcement beyond the law in force", limited to Sections 201 and 202. The flights, facility-operation and forest-crew claims now require it; the facility wildlife and air claims follow through facility operation. Off-road travel, sewer capacity, drones, surveillance, wild-area patrols, towers and land officers were left as they were, for the reasons the ledger gives.
 - **Generator change:** qualification rows now credit only blocks shown on decisions that carry one of the row's own arguments. This removed credits for the shared "money already in law" context note at decisions on other arguments' paths. No block text changed for this.
+- **08, surveillance baseline:** the shared "money already in law" note (SESCTX_LIM) shown at the surveillance, sewer and debt claims now also includes two points: about $62 billion of ICE's 2025 money was still uncommitted at the end of May 2026, and unspent money does not by itself show that S.2 adds nothing. Both now carry locators to UNC_oppose_09's note. UNC_oppose_09's qualification row, credited at the surveillance claim, is therefore shown in full there. The surveillance claim still does not depend on added immigration enforcement; no other node or block changed.
 
 ## Limits
 
