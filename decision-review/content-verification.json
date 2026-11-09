@@ -1,0 +1,1056 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "open_findings": [],
+  "verified_date": "2026-11-09",
+  "scope": "Migration fidelity of eight frozen bill corpora to the user-approved guided review; independent source-relative review and main-agent integration verification.",
+  "independent_report": {
+    "path": "content-audit-findings.json",
+    "sha256": "e9bdece5ab3bede03b5cb813f9eab64f1df98b2c57f34efd8ef26a651a1a1bf1",
+    "resolved_findings": 43,
+    "open_findings": 0
+  },
+  "browser_report": {
+    "path": "browser-verification.json",
+    "sha256": "c0a58b0b4c56cc5d9e18b05fa95f4b09ad4e8372387e5e0e8cd7596b62c1065f",
+    "local_decision_forms": 709,
+    "layouts": 160,
+    "zoom_200_percent_checks": 8
+  },
+  "totals": {
+    "arguments": 502,
+    "responses": 240,
+    "qualifications": 638,
+    "local_decisions": 709,
+    "final_comparisons": 45,
+    "resolved_findings": 43
+  },
+  "integration_checks": {
+    "native_tests": {
+      "passed": 34,
+      "failed": 0,
+      "command": "node --test decision-review/runtime/*.test.mjs",
+      "scope": "Rerun in the deployment worktree after final bill corrections."
+    },
+    "builds": {
+      "matching_builds": 3,
+      "native_output_files": 43,
+      "scope": "Two canonical builds and the deployment-worktree build matched byte for byte."
+    },
+    "preservation": {
+      "legacy_public_files_byte_identical": 137,
+      "intended_entry_replacements": 10,
+      "frozen_local_hr5408_pilot_unchanged_from": "8584bc9dc0e49f23b960a305c7ccf7c09483e40a",
+      "legacy_publication_gate": "passed; 101 closed findings, unchanged content/procedure/mapping, renewed workflow implementation binding only",
+      "reviewer_records_included": false
+    },
+    "saving": "Browser-only storage isolated by bill and rendered release. No production reviewer-record or cloud-storage reads or migrations."
+  },
+  "bills": [
+    {
+      "slug": "s1582",
+      "bill_id": "119_S_1582",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "decisions.json": "6d2a505a1da4859a67d0164ad04b03cf53a1730952ad687f215ca205111c4656",
+        "coverage.json": "ebddfe1935bbcf84acc767c2133ca33f5d520c6f7c875a883ef32f8f3dafe898",
+        "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_1582",
+        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "content_id": "content-e72612dfa8b6fef2a20b8fcf8032690dda8ccc7f3f3c0926d483fd889d92e6f5",
+        "mapping_id": "mapping-78ab0fc231f205b48254fda9ddc557b91e5514ed9c636b014fa6ba3db7657f8f",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-e292975d1a86d111ba6c74c9f31babe3c6f471ae7ac90879dca0efa480f6d9ac"
+      },
+      "html_sha256": "cb26297a7a263f6acad85ad4a190680a81a16c896a75a7ef79e8b24e403fc05f",
+      "counts": {
+        "arguments": 79,
+        "responses": 69,
+        "qualifications": 141,
+        "causal": 72,
+        "value": 55,
+        "contexts": 15,
+        "blocks": 325,
+        "source_path_count": 130,
+        "merged_value_nodes": 10,
+        "split_original_arguments": 1
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "Final targeted correction audit: all 13 altered/new current node records and the removed ENV_CRIME record, all 12 replacement/added blocks and ten retired blocks, the complete editorial review, nine changed argument rows, 11 changed response rows and 27 changed qualification rows were checked. All 38 changed complete response/qualification source fields were reread against their actual credited locations; source selectors and argument IDs are unchanged. An independent normalized before/after comparison finds no formerly retained source paragraph lost across those 38 rows. Every new causal edge and affected OR/value statement was checked against the original full readings. The prior full audit of all original support readings, paths, full response/qualification fields and unchanged package material remains applicable as explicitly bound below; it is not claimed as a fresh rereading of every unchanged current block.",
+        "limits": "Frozen corpus only; no fresh research, assertion that forecasts are true, or measured human reading/comprehension. All twelve S1582 findings, including the source-relative editorial question, are resolved with recorded dispositions. Exact source-location screens are diagnostics; manual full-field/placement comparison supplies semantic review of paraphrases and consolidated passages. Seven other frozen packages were not reread during this bounded recheck.",
+        "simulation_scope": "Fresh current-byte run: 74 base paths (allYes, allNo and every one of 72 individual causal-No) and all 84 deduplicated cross-OR pair-No paths pass the independent recursive oracle. Both targets are reached in 76 pair paths; eight second targets are honestly ancestor-blocked by USE rejection, with blocking routes recorded. No answers are stored for pruned nodes, every local judgment has its graph basis, and Both comparisons explicitly require/accept Pending. Eleven additional rendered/oracle traversals check all-causal-No with value answers Yes; committee-only; activity-limit-only; state-exposure-only; attack-only; outage-only; Treasury with bank-run rejection; fire-sale with bank-run rejection; rescue with bank-run rejection; nonuser bank-shock care/depression; and pause-only. These preserve the provision-based Nature connection while setting aside unaccepted stability/state-risk/care effects.",
+        "reading_measurement": {
+          "method": "Fresh current runtime measurePath allYes, using its default-visible active decision and sequential final-result panel counter. Descriptive presented words and judgments, not human reading time or comprehension; fixed reference-sidebar words are excluded from this main-panel figure.",
+          "judgments": 133,
+          "decisions": 127,
+          "overall_comparisons": 6,
+          "required_panel_words": 46943,
+          "largest_decision_words": 1227,
+          "largest_decision_id": "S1582_V_UNC_SAFEGUARDS"
+        },
+        "findings": [
+          "S1582-AUDIT-01",
+          "S1582-AUDIT-02",
+          "S1582-AUDIT-03",
+          "S1582-AUDIT-04",
+          "S1582-AUDIT-05",
+          "S1582-AUDIT-06",
+          "S1582-AUDIT-07",
+          "S1582-AUDIT-08",
+          "S1582-AUDIT-09",
+          "S1582-AUDIT-10",
+          "S1582-AUDIT-11",
+          "S1582-AUDIT-12"
+        ],
+        "prior_complete_reading": {
+          "input_sha256": {
+            "input/source.json": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+            "decisions.json": "baf5bcdf387ca46fd512335c1eb87aef512e819138ad4fd50e7a5beb2e6fe4c8",
+            "coverage.json": "345fef8b64dd51695be9d1fa12cc6477cb558de8a1ea1f8b8959a775d71eedbe",
+            "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+          },
+          "coverage": "Full audit of the coherent rewritten package, not inherited reviewability: all 15 contexts, 70 causal and 55 value nodes, 323 blocks, 79 original support readings and all 130 original source paths were read. Every complete response/qualification source field was examined, including the 187 distinct field texts represented by 210 source selectors/obligations, and current mapped locations were checked. All 186 non-verbatim support-location exceptions and all source-location exceptions were read with their full fields; locator quotes alone were not used as proof. Every causal parent-child, ten merged value groups, the one split original argument and direct provision routes were assessed against the source. Exact native HTML, citation and quote locators validate; no unmatched curly quotation or public internal-ID/[NAME] candidate remains.",
+          "source_field_obligation_count": 210,
+          "distinct_source_fields": 210,
+          "scope": "Complete original-source and package reading from the coherent baf5bcdf rewrite is retained for unchanged material. This final recheck independently reread every changed full response/qualification field and inspected every changed node, block and mapped location.",
+          "distinct_source_field_texts": 187
+        },
+        "correction_recheck": {
+          "checkpoint": "11d823afddf24ab5ac41ca893bfc3328037937b2",
+          "input_sha256": {
+            "input/source.json": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+            "decisions.json": "6d2a505a1da4859a67d0164ad04b03cf53a1730952ad687f215ca205111c4656",
+            "coverage.json": "ebddfe1935bbcf84acc767c2133ca33f5d520c6f7c875a883ef32f8f3dafe898",
+            "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+          },
+          "editorial_review_sha256": "d0b17ac3ef2fe0f4623d80aaac6a97432edc51c21a6d5e4228d5c783f6afbb0e",
+          "changed_current_nodes": 13,
+          "removed_nodes": 1,
+          "replacement_added_blocks": 12,
+          "retired_blocks": 10,
+          "changed_argument_rows": 9,
+          "changed_response_rows": 11,
+          "changed_qualification_rows": 27,
+          "unchanged_contexts": 15,
+          "formerly_retained_source_paragraphs_lost": 0,
+          "source_and_copy_unchanged": true,
+          "scope": "Final state value phrase separately compared with 14022b07; only its claim_html changed, aligning inability language to the accepted harder-to-contain forecast. Current tests bind the final 6d2a505a decisions bytes."
+        }
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 23,
+        "paths": 84,
+        "both_targets_reached": 76,
+        "ancestor_blocked_targets": 8
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 127,
+          "causal_decisions": 72,
+          "value_link_decisions": 55,
+          "overall_comparisons": 6,
+          "total_judgments": 133,
+          "decisions_skipped": 0,
+          "active_decision_words": 42849,
+          "result_panel_words": 4094,
+          "required_panel_words": 46943,
+          "value_reference_words_presented": 828,
+          "presented_main_and_value_reference_words": 47771,
+          "largest_decision_words": 1227,
+          "distinct_contexts": 15,
+          "distinct_evidence_blocks": 325,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 40,
+          "causal_decisions": 27,
+          "value_link_decisions": 13,
+          "overall_comparisons": 0,
+          "total_judgments": 40,
+          "decisions_skipped": 87,
+          "active_decision_words": 20047,
+          "result_panel_words": 69,
+          "required_panel_words": 20116,
+          "value_reference_words_presented": 0,
+          "presented_main_and_value_reference_words": 20116,
+          "largest_decision_words": 1213,
+          "distinct_contexts": 13,
+          "distinct_evidence_blocks": 161,
+          "judgments_saved_vs_all_yes": 93,
+          "panel_words_saved_vs_all_yes": 26827,
+          "main_and_reference_words_saved_vs_all_yes": 27655
+        },
+        "S1582_K_USE_no": {
+          "decisions": 81,
+          "causal_decisions": 46,
+          "value_link_decisions": 35,
+          "overall_comparisons": 5,
+          "total_judgments": 86,
+          "decisions_skipped": 46,
+          "active_decision_words": 30696,
+          "result_panel_words": 2872,
+          "required_panel_words": 33568,
+          "value_reference_words_presented": 475,
+          "presented_main_and_value_reference_words": 34043,
+          "largest_decision_words": 1227,
+          "distinct_contexts": 14,
+          "distinct_evidence_blocks": 231,
+          "judgments_saved_vs_all_yes": 47,
+          "panel_words_saved_vs_all_yes": 13375,
+          "main_and_reference_words_saved_vs_all_yes": 13728
+        }
+      }
+    },
+    {
+      "slug": "sjres88",
+      "bill_id": "119_S_J_Res_88",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "decisions.json": "cb2bf69a5e05b1c9942683b333562aec1f8c91cc7cf3d1bd4f5d29ee41bebc38",
+        "coverage.json": "b8c9cf4b2a3d67994e4fb3b6b0d10fec90a62f24c4f0f941fa4670cef6bd8a19",
+        "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_J_Res_88",
+        "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "content_id": "content-f712337ca7ba517c96f1d4f9dc45814ea7a45c63ae3983d769b4d0dfb160f7e0",
+        "mapping_id": "mapping-2179817e7ca112f6f69298020f124434a11f6ab05f5567432c3ddf4bcf7f77ca",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-d84f793806f6e18d98d0f88712fb05c197029234b43a7a38cd616d550a084659"
+      },
+      "html_sha256": "0a55c8b15f03663e195c4ed94bf82b716714db96c57e8427a816ea85d85b82e8",
+      "counts": {
+        "arguments": 69,
+        "responses": 17,
+        "qualifications": 74,
+        "causal": 46,
+        "value": 30,
+        "contexts": 5,
+        "blocks": 192,
+        "source_path_count": 74,
+        "merged_value_nodes": 14,
+        "split_original_arguments": 0
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "The initial coherent pass read all 76 node claims/routes, 5 contexts and 191 blocks; all 69 complete frozen support readings and 74 original paths; and all 91 complete required response/qualification fields. The full correction diff was then reviewed, including all 19 independent sector routes, the household-specific replacement root, three restored independent judgments, every changed block and full-field coverage row, the restored Tradition premises and the Brazil neutral bridge. Current package: 46 causal/30 value nodes and 192 blocks. All current source-screen exceptions were inspected for faithful consolidation or correctly mapped ancestor placement.",
+        "limits": "Frozen corpus only; no fresh research. Semantic placement and route checks do not establish the truth of the forecasts or human comprehension. All five verified defects are resolved against the exact current four-input binding. The independent AND/OR pair tests honestly retain two ancestor-blocked targets rather than claiming both were reached.",
+        "simulation_scope": "48 base paths (allYes, allNo and every 46 individual causal-No) plus all 44 deduplicated cross-OR pair-No paths pass. Both targets were reached in 42 pairs; two target judgments were pruned by rejected ancestors, explicitly recorded. No answers to pruned nodes; Both comparisons explicitly require and accept Pending. Additional rendered four-target No, household No and China No traversals verify the corrected routes, shared challenges and Tradition/Brazil reading.",
+        "findings": [
+          "SJRES88-AUDIT-01",
+          "SJRES88-AUDIT-02",
+          "SJRES88-AUDIT-03",
+          "SJRES88-AUDIT-04",
+          "SJRES88-AUDIT-05"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 14,
+        "paths": 44,
+        "both_targets_reached": 42,
+        "ancestor_blocked_targets": 2
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 76,
+          "causal_decisions": 46,
+          "value_link_decisions": 30,
+          "overall_comparisons": 6,
+          "total_judgments": 82,
+          "decisions_skipped": 0,
+          "active_decision_words": 23680,
+          "result_panel_words": 2903,
+          "required_panel_words": 26583,
+          "value_reference_words_presented": 720,
+          "presented_main_and_value_reference_words": 27303,
+          "largest_decision_words": 1329,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 192,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 37,
+          "causal_decisions": 34,
+          "value_link_decisions": 3,
+          "overall_comparisons": 0,
+          "total_judgments": 37,
+          "decisions_skipped": 39,
+          "active_decision_words": 12669,
+          "result_panel_words": 69,
+          "required_panel_words": 12738,
+          "value_reference_words_presented": 14,
+          "presented_main_and_value_reference_words": 12752,
+          "largest_decision_words": 1329,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 106,
+          "judgments_saved_vs_all_yes": 45,
+          "panel_words_saved_vs_all_yes": 13845,
+          "main_and_reference_words_saved_vs_all_yes": 14551
+        },
+        "SJRES88_K_FACTORY_JOBS_no": {
+          "decisions": 71,
+          "causal_decisions": 44,
+          "value_link_decisions": 27,
+          "overall_comparisons": 5,
+          "total_judgments": 76,
+          "decisions_skipped": 5,
+          "active_decision_words": 22697,
+          "result_panel_words": 2419,
+          "required_panel_words": 25116,
+          "value_reference_words_presented": 501,
+          "presented_main_and_value_reference_words": 25617,
+          "largest_decision_words": 1329,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 186,
+          "judgments_saved_vs_all_yes": 6,
+          "panel_words_saved_vs_all_yes": 1467,
+          "main_and_reference_words_saved_vs_all_yes": 1686
+        }
+      }
+    },
+    {
+      "slug": "hr5408",
+      "bill_id": "119_H_R_5408",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "decisions.json": "c34267c851a4fc5f2d2381adf7bd3da1c3c0724b4c22d425be386d615f45951e",
+        "coverage.json": "be63894c269463410f5f4603f224b1611c0c7da4288331def268402fe5818cc2",
+        "copy.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_5408",
+        "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "content_id": "content-46502e115d29356417501b62b6c4bea271eab714c92fd6874f47217f54e9e446",
+        "mapping_id": "mapping-4657714a396b8d40db42e00d3c679fe7e3509b93b6cec3c601380e3479410352",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-292e0dd32a5854e64db692392425f7bfaf6d68d4203c5d326b5f595a9c9fb552"
+      },
+      "html_sha256": "c0b0958ace4b53185033c5c392fb4e3ca7101949eddfdfa0d95362dada5b814d",
+      "counts": {
+        "arguments": 69,
+        "responses": 34,
+        "qualifications": 62,
+        "causal": 46,
+        "value": 62,
+        "contexts": 6,
+        "blocks": 144,
+        "source_path_count": 74,
+        "merged_value_nodes": 3,
+        "split_original_arguments": 2
+      },
+      "semantic_review": {
+        "status": "passed",
+        "scope": "Lossless migration equivalence to the approved H.R.5408 package; existing substantive review and its reading limits carried forward.",
+        "method": "Exact comparison of all source content except the new requirements ledger, every native node and route except removed legacy IDs, all context and used block HTML/source refs, glossary/value subjects, and argument/response/qualification locations. Independent all-Yes, all-No and every causal-No path checks.",
+        "fresh_source_reading": "No new full source re-adjudication claimed; complete requirement fields are bound by hash, and their approved displayed locations are byte-identical.",
+        "findings": []
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 7,
+        "paths": 10,
+        "both_targets_reached": 10,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 108,
+          "causal_decisions": 46,
+          "value_link_decisions": 62,
+          "overall_comparisons": 6,
+          "total_judgments": 114,
+          "decisions_skipped": 0,
+          "active_decision_words": 23669,
+          "result_panel_words": 3736,
+          "required_panel_words": 27405,
+          "value_reference_words_presented": 1004,
+          "presented_main_and_value_reference_words": 28409,
+          "largest_decision_words": 903,
+          "distinct_contexts": 6,
+          "distinct_evidence_blocks": 144,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 29,
+          "causal_decisions": 13,
+          "value_link_decisions": 16,
+          "overall_comparisons": 0,
+          "total_judgments": 29,
+          "decisions_skipped": 79,
+          "active_decision_words": 8996,
+          "result_panel_words": 69,
+          "required_panel_words": 9065,
+          "value_reference_words_presented": 256,
+          "presented_main_and_value_reference_words": 9321,
+          "largest_decision_words": 874,
+          "distinct_contexts": 6,
+          "distinct_evidence_blocks": 58,
+          "judgments_saved_vs_all_yes": 85,
+          "panel_words_saved_vs_all_yes": 18340,
+          "main_and_reference_words_saved_vs_all_yes": 19088
+        },
+        "HR5408_DT_K_C05_no": {
+          "decisions": 51,
+          "causal_decisions": 18,
+          "value_link_decisions": 33,
+          "overall_comparisons": 5,
+          "total_judgments": 56,
+          "decisions_skipped": 57,
+          "active_decision_words": 12110,
+          "result_panel_words": 2361,
+          "required_panel_words": 14471,
+          "value_reference_words_presented": 615,
+          "presented_main_and_value_reference_words": 15086,
+          "largest_decision_words": 903,
+          "distinct_contexts": 6,
+          "distinct_evidence_blocks": 69,
+          "judgments_saved_vs_all_yes": 58,
+          "panel_words_saved_vs_all_yes": 12934,
+          "main_and_reference_words_saved_vs_all_yes": 13323
+        }
+      }
+    },
+    {
+      "slug": "hr131",
+      "bill_id": "119_H_R_131",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "decisions.json": "d6acfa1ea69f49d43efb362beede101c9132a81d8f147bc7f8f76afa341c2aed",
+        "coverage.json": "d65b26205ef26bacd8bbc06e73b3c817b6754c08fc08c1dbff5e0fbbd5dbb826",
+        "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_131",
+        "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "content_id": "content-7b16b58a0d478ff80974cd123ad91ab062d7f3e9a1616e5f0042341997aff04a",
+        "mapping_id": "mapping-c55454571520faea53fbd2130b0fd5a75e0a0b3dee5e4fac93345c4ee798fcb8",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-f4b0fd34419b4202dbe2b11b0d052b614cb171f1163a3b2ae8b51439ee6aab47"
+      },
+      "html_sha256": "2e061ef353d66c17d94e9577fcfdafce1148a5d3f84009b74fe12ef48d1ebafc",
+      "counts": {
+        "arguments": 32,
+        "responses": 4,
+        "qualifications": 61,
+        "causal": 26,
+        "value": 22,
+        "contexts": 2,
+        "blocks": 82,
+        "source_path_count": 41,
+        "merged_value_nodes": 4,
+        "split_original_arguments": 0
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "All 48 current node claims/routes, all 32 complete original support readings and 41 original source paths, all 65 full response/qualification obligations (56 distinct source fields), and all 82 placed blocks reviewed. Every original causal route, merged value statement and assigned response/qualification location was compared with the complete frozen fields. Consolidated evidence retains the distinct alternative explanations, timing, geography, magnitude and repayment-collection limits; the restored river-treatment quotations were checked in context.",
+        "limits": "Frozen corpus only. No fresh primary-source research. Exact normalized segment screens flag paraphrases for manual reading; they do not substitute for that reading. All identified findings are resolved in the bound package.",
+        "simulation_scope": "Native validation, allYes, allNo, every one of the 26 causal-No judgments, all 26 deduplicated cross-OR pair-No paths (all targets reached), no synthetic answers to pruned nodes, and explicit Pending comparisons pass.",
+        "findings": [
+          "HR131-AUDIT-01",
+          "HR131-AUDIT-02",
+          "HR131-AUDIT-03"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 6,
+        "paths": 26,
+        "both_targets_reached": 26,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 48,
+          "causal_decisions": 26,
+          "value_link_decisions": 22,
+          "overall_comparisons": 4,
+          "total_judgments": 52,
+          "decisions_skipped": 0,
+          "active_decision_words": 15225,
+          "result_panel_words": 1913,
+          "required_panel_words": 17138,
+          "value_reference_words_presented": 405,
+          "presented_main_and_value_reference_words": 17543,
+          "largest_decision_words": 1211,
+          "distinct_contexts": 2,
+          "distinct_evidence_blocks": 82,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 6,
+          "causal_decisions": 4,
+          "value_link_decisions": 2,
+          "overall_comparisons": 0,
+          "total_judgments": 6,
+          "decisions_skipped": 42,
+          "active_decision_words": 3592,
+          "result_panel_words": 69,
+          "required_panel_words": 3661,
+          "value_reference_words_presented": 0,
+          "presented_main_and_value_reference_words": 3661,
+          "largest_decision_words": 1211,
+          "distinct_contexts": 2,
+          "distinct_evidence_blocks": 15,
+          "judgments_saved_vs_all_yes": 46,
+          "panel_words_saved_vs_all_yes": 13477,
+          "main_and_reference_words_saved_vs_all_yes": 13882
+        },
+        "HR131_K_BUILD_no": {
+          "decisions": 12,
+          "causal_decisions": 5,
+          "value_link_decisions": 7,
+          "overall_comparisons": 2,
+          "total_judgments": 14,
+          "decisions_skipped": 36,
+          "active_decision_words": 5292,
+          "result_panel_words": 744,
+          "required_panel_words": 6036,
+          "value_reference_words_presented": 195,
+          "presented_main_and_value_reference_words": 6231,
+          "largest_decision_words": 1211,
+          "distinct_contexts": 2,
+          "distinct_evidence_blocks": 29,
+          "judgments_saved_vs_all_yes": 38,
+          "panel_words_saved_vs_all_yes": 11102,
+          "main_and_reference_words_saved_vs_all_yes": 11312
+        }
+      }
+    },
+    {
+      "slug": "hr4405",
+      "bill_id": "119_H_R_4405",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "decisions.json": "ae24a6373b8c53cb202f152c19b4392d31f3717178d8c534875740f7c5b0ee5b",
+        "coverage.json": "7d6ab503a2ec01b5a0e1c991d6cbb90b1d21cadf1026afe261fac8eb244e1022",
+        "copy.json": "e2513f063ab3cb22f763ed78a533c543bbd812ae171a6e1658d637489baf1f35"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_4405",
+        "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "content_id": "content-b5b06c1b549caf9b47225fccd764d9a32d80fdf9112d6602b260e0b4967507a4",
+        "mapping_id": "mapping-1b7d5313c63e33c725b3f29415eec2a90f35d73ec38dfcded80c1af393981681",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-6c371084c81e615b8bb1d86e4e2b8eaa3f855b1d1541938d1245e00538fdfc73"
+      },
+      "html_sha256": "e5986eb35d841c162bf1ae786b8f07a1f8f5d6b4769a8c2738a5ead5db39090c",
+      "counts": {
+        "arguments": 44,
+        "responses": 12,
+        "qualifications": 62,
+        "causal": 33,
+        "value": 30,
+        "contexts": 5,
+        "blocks": 113,
+        "source_path_count": 52,
+        "merged_value_nodes": 6,
+        "split_original_arguments": 1
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "All 63 node claims/routes, all 44 complete original support readings and 52 original source paths, all 74 complete required response/qualification source fields, and all 113 placed blocks were reviewed in the prior coherent package. Every causal parent-child relationship and merged/split terminal was checked against the frozen routes. The exact corrected-package diff was then read in full: three value bridges/subjects, one staff paragraph relocation/shared premise, and four coverage-location changes. No other source content, node scope or prerequisites changed. Consolidated source-secrecy, survivor, prosecution-review, banking, methods, staff and violence evidence retains its distinct limits. Ordinary-American response wording matches the exact Personal Security profile.",
+        "limits": "Frozen corpus only; no fresh primary-source research. Exact normalized segment screens identify paraphrases requiring manual reading and do not establish semantic fidelity by themselves. All seven recorded findings are resolved against the bound package; this is source-relative content review, not verification that every underlying source prediction is true.",
+        "simulation_scope": "Native validation, independent AND/OR oracle, allYes, allNo, all 33 individual causal-No traversals and all 35 deduplicated cross-OR pair-No traversals pass; all pair targets are reached. No synthetic answers to pruned nodes; Both comparisons require and accept an explicit Pending judgment. A targeted rendered STAFF_ENV No / CHILL_ENV Yes path confirms the merged Nature node survives without the rejected staff paragraph.",
+        "findings": [
+          "HR4405-AUDIT-01",
+          "HR4405-AUDIT-02",
+          "HR4405-AUDIT-03",
+          "HR4405-AUDIT-04",
+          "HR4405-AUDIT-05",
+          "HR4405-AUDIT-06",
+          "HR4405-AUDIT-07"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 7,
+        "paths": 35,
+        "both_targets_reached": 35,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 63,
+          "causal_decisions": 33,
+          "value_link_decisions": 30,
+          "overall_comparisons": 6,
+          "total_judgments": 69,
+          "decisions_skipped": 0,
+          "active_decision_words": 16489,
+          "result_panel_words": 2792,
+          "required_panel_words": 19281,
+          "value_reference_words_presented": 606,
+          "presented_main_and_value_reference_words": 19887,
+          "largest_decision_words": 958,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 113,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 26,
+          "causal_decisions": 26,
+          "value_link_decisions": 0,
+          "overall_comparisons": 0,
+          "total_judgments": 26,
+          "decisions_skipped": 37,
+          "active_decision_words": 9293,
+          "result_panel_words": 69,
+          "required_panel_words": 9362,
+          "value_reference_words_presented": 0,
+          "presented_main_and_value_reference_words": 9362,
+          "largest_decision_words": 958,
+          "distinct_contexts": 4,
+          "distinct_evidence_blocks": 67,
+          "judgments_saved_vs_all_yes": 43,
+          "panel_words_saved_vs_all_yes": 9919,
+          "main_and_reference_words_saved_vs_all_yes": 10525
+        },
+        "HR4405_K_FACTCHECK_no": {
+          "decisions": 58,
+          "causal_decisions": 32,
+          "value_link_decisions": 26,
+          "overall_comparisons": 5,
+          "total_judgments": 63,
+          "decisions_skipped": 5,
+          "active_decision_words": 15648,
+          "result_panel_words": 2228,
+          "required_panel_words": 17876,
+          "value_reference_words_presented": 528,
+          "presented_main_and_value_reference_words": 18404,
+          "largest_decision_words": 958,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 107,
+          "judgments_saved_vs_all_yes": 6,
+          "panel_words_saved_vs_all_yes": 1405,
+          "main_and_reference_words_saved_vs_all_yes": 1483
+        }
+      }
+    },
+    {
+      "slug": "hr1834",
+      "bill_id": "119_H_R_1834",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "decisions.json": "0e1d7741a207f229484b05a3110e4531efc1be0c86045364a288388c0fd2be0f",
+        "coverage.json": "5e2ec16308ae0abee39ee39b7ef14847e1b081b499cb1b3853bb52a472c0edc8",
+        "copy.json": "834d3d424ddc61eb1f31c7b9903be0fb29ceba56fe756e840ee5da9093d6b92c"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_1834",
+        "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "content_id": "content-35e9c99d48769db41526e02566578b136402980bee3081d6880641f4231bd560",
+        "mapping_id": "mapping-8aa10a7001363d5fb92f29c7df2dff77dae3145a2ec72100e07ba64af966a6d7",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-344b1f9ef7cbeae75346136e1505f3ae6a420280303d86a99fc0beef30f72c2e"
+      },
+      "html_sha256": "7307a73acfbf1f819b60891a7dec9dd97f9aa7be6ac54d63b5c625c926e156d8",
+      "counts": {
+        "arguments": 78,
+        "responses": 19,
+        "qualifications": 97,
+        "causal": 55,
+        "value": 53,
+        "contexts": 5,
+        "blocks": 158,
+        "source_path_count": 92,
+        "merged_value_nodes": 13,
+        "split_original_arguments": 6
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "All 108 original authored node claims/routes, 5 contexts, 155 original placed blocks, all 78 complete frozen support readings and 92 original source paths, and all 116 complete required response/qualification fields were reviewed on the first coherent package. The corrected package’s complete structural/content diff was then read: one new national judgment, one merged continuity judgment, three focused qualification blocks replacing one boilerplate, the restored safeguard, the common economy bridge, and every affected full-field coverage row. The current package has 55 causal and 53 value nodes and 158 blocks. Every changed edge, merged alternative, source quotation, material scope and qualification placement was rechecked; no unrelated source or context changes.",
+        "limits": "Frozen corpus only; no fresh primary-source research. Migration fidelity and explicit local judgments do not establish truth of the underlying forecasts. Exact quotation/source-location screens supplement manual full-field and ancestry reading. All four verified defects and the national-scope substantive review question are resolved against the bound current inputs.",
+        "simulation_scope": "Strict native validation, independent AND/OR oracle, allYes, allNo, all 55 individual causal-No paths, and every deduplicated cross-OR pair-No path pass. No answers to pruned nodes; Both comparisons explicitly require and accept Pending. Targeted rendered REPLACE No confirms the provision-only continuity route survives; national-net No confirms the separate local Concern value stays answered and that national route is absent from the economy bridge.",
+        "findings": [
+          "HR1834-AUDIT-01",
+          "HR1834-AUDIT-02",
+          "HR1834-AUDIT-03",
+          "HR1834-AUDIT-04",
+          "HR1834-AUDIT-05"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 16,
+        "paths": 76,
+        "both_targets_reached": 76,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 108,
+          "causal_decisions": 55,
+          "value_link_decisions": 53,
+          "overall_comparisons": 6,
+          "total_judgments": 114,
+          "decisions_skipped": 0,
+          "active_decision_words": 25806,
+          "result_panel_words": 3748,
+          "required_panel_words": 29554,
+          "value_reference_words_presented": 1406,
+          "presented_main_and_value_reference_words": 30960,
+          "largest_decision_words": 637,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 158,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 38,
+          "causal_decisions": 16,
+          "value_link_decisions": 22,
+          "overall_comparisons": 0,
+          "total_judgments": 38,
+          "decisions_skipped": 70,
+          "active_decision_words": 10915,
+          "result_panel_words": 69,
+          "required_panel_words": 10984,
+          "value_reference_words_presented": 622,
+          "presented_main_and_value_reference_words": 11606,
+          "largest_decision_words": 637,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 75,
+          "judgments_saved_vs_all_yes": 76,
+          "panel_words_saved_vs_all_yes": 18570,
+          "main_and_reference_words_saved_vs_all_yes": 19354
+        },
+        "HR1834_K_INSURED_no": {
+          "decisions": 75,
+          "causal_decisions": 31,
+          "value_link_decisions": 44,
+          "overall_comparisons": 5,
+          "total_judgments": 80,
+          "decisions_skipped": 33,
+          "active_decision_words": 19736,
+          "result_panel_words": 3057,
+          "required_panel_words": 22793,
+          "value_reference_words_presented": 1273,
+          "presented_main_and_value_reference_words": 24066,
+          "largest_decision_words": 637,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 119,
+          "judgments_saved_vs_all_yes": 34,
+          "panel_words_saved_vs_all_yes": 6761,
+          "main_and_reference_words_saved_vs_all_yes": 6894
+        }
+      }
+    },
+    {
+      "slug": "hr28",
+      "bill_id": "119_H_R_28",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "decisions.json": "5df2a9b119a7b2660428acdb0b72a70bf0e47c0098b52b5ae628826186dc8a90",
+        "coverage.json": "ea82abc65176c81b744a6cc75ee638700f1913ce7b71dbfc68e9ab0707bf34d8",
+        "copy.json": "b25baf5667b01011e488ba3ac83ff2925575dc87ca42eae06edb6229880c839c"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_28",
+        "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "content_id": "content-8c079c6289883b4fe4ee1bded0a14d15ebf076198372ec1541b8cd4b05247798",
+        "mapping_id": "mapping-f3355a2d2b634673c5dc3c64894428b2ad60118ae4b396326064e6062eb78185",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-f91a25d7f67fa9008c309dc0ded20290564a8162b9a8a134f3dbc49c9e5f15ed"
+      },
+      "html_sha256": "1f0351e3ae7034997f0bf9b84acb274cfc060b5154ad61944e76f5d1e957189d",
+      "counts": {
+        "arguments": 33,
+        "responses": 14,
+        "qualifications": 49,
+        "causal": 22,
+        "value": 36,
+        "contexts": 5,
+        "blocks": 85,
+        "source_path_count": 43,
+        "merged_value_nodes": 3,
+        "split_original_arguments": 7
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "All 58 current node claims/routes, all 33 complete original support readings and 43 original paths, all 63 full required response/qualification fields, and all 85 placed blocks reviewed. The final correction changes only B_TRLOCAL_EV, whose full text, quotation, citation and source ref were checked against the complete TR_oppose_02 source reading.",
+        "limits": "Frozen corpus only. No fresh primary-source research. Exact normalized segment screens flag paraphrases for manual reading; they do not substitute for that reading. All identified findings are resolved in the bound package.",
+        "simulation_scope": "Native validation, allYes, allNo, every one of the 22 causal-No judgments, all 5 deduplicated cross-OR pair-No paths, no synthetic answers to pruned nodes, and explicit Pending comparisons pass. Prior targeted danger/health separation regressions remain valid because the final correction changes no graph fields.",
+        "targeted_regressions": [
+          {
+            "causal_no": "HR28_K_BOYSDANGER",
+            "survives": "HR28_V_UNC_BOYSFAIR",
+            "pruned": [
+              "HR28_V_UNC_BOYSDANGER"
+            ]
+          },
+          {
+            "causal_no": "HR28_K_PLACESHEALTH",
+            "survives": "HR28_V_UNC_PLACES",
+            "pruned": [
+              "HR28_V_UNC_PLACESHEALTH",
+              "HR28_V_SEP_PLACES"
+            ]
+          }
+        ],
+        "findings": [
+          "HR28-AUDIT-01",
+          "HR28-AUDIT-02",
+          "HR28-AUDIT-03"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 4,
+        "paths": 5,
+        "both_targets_reached": 5,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 58,
+          "causal_decisions": 22,
+          "value_link_decisions": 36,
+          "overall_comparisons": 5,
+          "total_judgments": 63,
+          "decisions_skipped": 0,
+          "active_decision_words": 18090,
+          "result_panel_words": 2481,
+          "required_panel_words": 20571,
+          "value_reference_words_presented": 735,
+          "presented_main_and_value_reference_words": 21306,
+          "largest_decision_words": 794,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 85,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 22,
+          "causal_decisions": 14,
+          "value_link_decisions": 8,
+          "overall_comparisons": 0,
+          "total_judgments": 22,
+          "decisions_skipped": 36,
+          "active_decision_words": 10059,
+          "result_panel_words": 69,
+          "required_panel_words": 10128,
+          "value_reference_words_presented": 192,
+          "presented_main_and_value_reference_words": 10320,
+          "largest_decision_words": 794,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 55,
+          "judgments_saved_vs_all_yes": 41,
+          "panel_words_saved_vs_all_yes": 10443,
+          "main_and_reference_words_saved_vs_all_yes": 10986
+        },
+        "HR28_K_PLACES_no": {
+          "decisions": 50,
+          "causal_decisions": 19,
+          "value_link_decisions": 31,
+          "overall_comparisons": 4,
+          "total_judgments": 54,
+          "decisions_skipped": 8,
+          "active_decision_words": 15928,
+          "result_panel_words": 2014,
+          "required_panel_words": 17942,
+          "value_reference_words_presented": 680,
+          "presented_main_and_value_reference_words": 18622,
+          "largest_decision_words": 794,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 72,
+          "judgments_saved_vs_all_yes": 9,
+          "panel_words_saved_vs_all_yes": 2629,
+          "main_and_reference_words_saved_vs_all_yes": 2684
+        }
+      }
+    },
+    {
+      "slug": "s2",
+      "bill_id": "119_S_2",
+      "status": "passed",
+      "input_sha256": {
+        "input/source.json": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "decisions.json": "d268e98ed48bdba37e04834efb6f610a7618d3c9df9ba91e0b6b85a113cf0259",
+        "coverage.json": "b3f3347448896c298a7e040e173c16a9df27103264d5e26503ea5344c7f71514",
+        "copy.json": "ad9ddff1aa4375397f2efab35e72978d7f9912c8c28353f1345a20b39efcb313"
+      },
+      "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_2",
+        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "content_id": "content-f6dc586470c5f8b4958dbdf92bd4cfa96a133e085442b878f23a6c8cb1f4a2d1",
+        "mapping_id": "mapping-7be0de6ae073ea5fad39b313d6e447d6f6da39a0a2e24bfd8f56fd97cf6dbe83",
+        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
+        "rendered_id": "rendered-a9a6cf3c5ab1117680f2652c2a8961a0ff420b5301826581dd675f44aa5722e0"
+      },
+      "html_sha256": "fef4cfc4312285ae4e0bf64e30c5f97c8e38be9bc4b6f4aa7159a0238b75a107",
+      "counts": {
+        "arguments": 98,
+        "responses": 71,
+        "qualifications": 92,
+        "causal": 90,
+        "value": 31,
+        "contexts": 5,
+        "blocks": 223,
+        "source_path_count": 111,
+        "merged_value_nodes": 20,
+        "split_original_arguments": 0
+      },
+      "semantic_review": {
+        "status": "passed",
+        "coverage": "Targeted coherent correction audit: all 31 altered/new node records, all 22 altered/new blocks, the removed/consolidated leverage block, all changed value subjects and the full editorial review were read. All changed coverage rows were compared (55 argument, six response and 48 qualification rows); original full fields were rechecked for all seven findings and the narrowed qualification credits. The initial full pass read all 98 support readings, 111 source paths and every complete response/qualification field; that source reading is retained with the current bounded diff review. The final bounded S2-AUDIT-08 recheck compared the complete credited source note, requirement row and corrected block; all other content and graph records were independently confirmed identical.",
+        "limits": "Frozen corpus only; no fresh research or assertion that forecasts are true or human comprehension was tested. All eight verified findings are resolved. The final content-only recheck inherits the explicitly bound unchanged-graph path proof; it does not claim a fresh full-content review of unrelated material.",
+        "simulation_scope": "92 base paths (allYes, allNo and all 90 individual causal-No) plus all 229 deduplicated cross-OR pair-No paths pass the independent recursive oracle; both targets reached in every pair. No answers to pruned nodes; local judgments are supported and Both comparisons explicitly require and accept Pending. Eight additional targeted traversals checked rejected/accepted annual leverage, trafficking capacity versus people freed, reciprocal fentanyl/opioid-family forecasts, raid type versus disruption with an independent KFF route, independent local-gang results, and ADDENF-No with emergency/oil alternatives. The final B_SESCTX_LIM-only correction preserves the complete graph and all prior path evidence; current native validation and allYes measurement were rerun.",
+        "reading_measurement": {
+          "method": "Current runtime measurePath allYes; default-visible panel occurrences, not measured human time/comprehension. Exact paragraph screen finds no >=50-word paragraph duplicated across distinct block IDs.",
+          "judgments": 127,
+          "decisions": 121,
+          "required_panel_words": 33114,
+          "largest_decision_words": 693
+        },
+        "findings": [
+          "S2-AUDIT-01",
+          "S2-AUDIT-02",
+          "S2-AUDIT-03",
+          "S2-AUDIT-04",
+          "S2-AUDIT-05",
+          "S2-AUDIT-06",
+          "S2-AUDIT-07",
+          "S2-AUDIT-08"
+        ]
+      },
+      "native_validation": "passed",
+      "independent_and_or_oracle": "passed",
+      "combined_no_alternatives": {
+        "status": "passed",
+        "selection": "Every distinct pair of direct causal prerequisites from different OR routes, deduplicated across nodes.",
+        "alternative_nodes": 22,
+        "paths": 229,
+        "both_targets_reached": 229,
+        "ancestor_blocked_targets": 0
+      },
+      "unmatched_quotation_candidates": 0,
+      "measured_scenarios": {
+        "all_yes": {
+          "decisions": 121,
+          "causal_decisions": 90,
+          "value_link_decisions": 31,
+          "overall_comparisons": 6,
+          "total_judgments": 127,
+          "decisions_skipped": 0,
+          "active_decision_words": 30002,
+          "result_panel_words": 3112,
+          "required_panel_words": 33114,
+          "value_reference_words_presented": 706,
+          "presented_main_and_value_reference_words": 33820,
+          "largest_decision_words": 693,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 223,
+          "judgments_saved_vs_all_yes": 0,
+          "panel_words_saved_vs_all_yes": 0,
+          "main_and_reference_words_saved_vs_all_yes": 0
+        },
+        "all_no": {
+          "decisions": 32,
+          "causal_decisions": 29,
+          "value_link_decisions": 3,
+          "overall_comparisons": 0,
+          "total_judgments": 32,
+          "decisions_skipped": 89,
+          "active_decision_words": 10214,
+          "result_panel_words": 69,
+          "required_panel_words": 10283,
+          "value_reference_words_presented": 0,
+          "presented_main_and_value_reference_words": 10283,
+          "largest_decision_words": 693,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 79,
+          "judgments_saved_vs_all_yes": 95,
+          "panel_words_saved_vs_all_yes": 22831,
+          "main_and_reference_words_saved_vs_all_yes": 23537
+        },
+        "S2_K_ADDENF_no": {
+          "decisions": 75,
+          "causal_decisions": 51,
+          "value_link_decisions": 24,
+          "overall_comparisons": 4,
+          "total_judgments": 79,
+          "decisions_skipped": 46,
+          "active_decision_words": 18253,
+          "result_panel_words": 2104,
+          "required_panel_words": 20357,
+          "value_reference_words_presented": 310,
+          "presented_main_and_value_reference_words": 20667,
+          "largest_decision_words": 693,
+          "distinct_contexts": 5,
+          "distinct_evidence_blocks": 136,
+          "judgments_saved_vs_all_yes": 48,
+          "panel_words_saved_vs_all_yes": 12757,
+          "main_and_reference_words_saved_vs_all_yes": 13153
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Frozen-corpus migration; no fresh primary-source research or claim that every forecast is true.",
+    "Complete initial source reading and bounded correction rereads are distinguished explicitly in each independent semantic-review scope. H.R.5408 uses lossless equivalence to the previously approved package.",
+    "The final S.2 qualification-only correction inherits the independently verified identical graph; no fresh rerun of every unchanged graph path is claimed.",
+    "Synthetic path judgments and displayed word counts are not measurements of human reading time, comprehension or usability.",
+    "Browser checks used isolated headless Chrome after the integrated browser security policy blocked scripted measurement. No physical-device or screen-reader tests were run.",
+    "This is technical release acceptance under the user's explicit deployment instruction, not a new human review receipt or evidence of deployment."
+  ]
+}

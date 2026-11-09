@@ -1286,9 +1286,9 @@
    ]
   },
   {
-   "id": "S1582_B_SES_support_02_P1_2_4_5_6_7_8_9",
+   "id": "S1582_B_CRISIS_PREMISE",
    "role": "evidence",
-   "html": "<p>Risky reserves expose payment money to a run—a rush to withdraw: “Private money backed by risky assets with inadequate capital would be vulnerable to destabilizing runs and lose its ability to function as a medium of exchange.” <a href=\"https://web.archive.org/web/20261029191856/https://www.brookings.edu/articles/essential-features-for-a-safe-and-trusted-payment-stablecoin/\" title=\"Brookings Institution, “Essential features for a safe and trusted payment stablecoin | Brookings”, May 8, 2025\">[3]</a></p><p>Forced sales can spread the damage: an issuer in crisis “might be forced to sell off its treasuries in panic, resulting in broader damage and loss of confidence to the financial system.” <a href=\"https://web.archive.org/web/20261029191701/https://www.americanactionforum.org/insight/the-genius-act-a-primer/\" title=\"americanactionforum.org, analysis, July 24, 2025\">[11]</a></p><p>The bill limits the use of backing assets for other purposes: “Reserves required under paragraph (1)(A) may not be pledged, rehypothecated, or reused by the permitted payment stablecoin issuer, either directly or indirectly” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. To rehypothecate means to reuse an asset as security for a loan. The listed exceptions cover specified reserve transactions, custody, and raising cash for redemptions.</p><p>Regulators must set “reserve asset diversification, including deposit concentration at banking institutions, and interest rate risk management standards” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. These address exposure to one bank and losses from changes in interest rates.</p><p>Reserve reports make the backing open to checks: issuers must “publish the monthly composition of the issuer's reserves on the website of the issuer” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, and reports must be “examined by a registered public accounting firm.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>Federal examinations assess risks to “the stability of the financial system of the United States” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. For issuers under federal enforcement, regulators can order them to “take affirmative action to correct the conditions resulting from any such violation or practice.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>State regimes face federal certification against national requirements: the approval test is that the regime “meets or exceeds the standards and requirements described in subsection (a)” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. In unusual and urgent circumstances, federal authorities can “take an enforcement action against a State qualified payment stablecoin issuer or an institution-affiliated party of such issuer for violations of this Act during such unusual and exigent circumstances.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>Foreign issuers using the bill's U.S. access route must face comparable regulation, including reserve rules: Treasury must find a regime “comparable to the regulatory and supervisory regime established under this Act, including, in particular, the requirements under section 4(a).” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> Registration review also considers “whether the foreign payment stablecoin presents a risk to the financial stability of the United States” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
+   "html": "<p>Risky reserves expose payment money to a run—a rush to withdraw: “Private money backed by risky assets with inadequate capital would be vulnerable to destabilizing runs and lose its ability to function as a medium of exchange.” <a href=\"https://web.archive.org/web/20261029191856/https://www.brookings.edu/articles/essential-features-for-a-safe-and-trusted-payment-stablecoin/\" title=\"Brookings Institution, “Essential features for a safe and trusted payment stablecoin | Brookings”, May 8, 2025\">[3]</a></p><p>Forced sales can spread the damage: an issuer in crisis “might be forced to sell off its treasuries in panic, resulting in broader damage and loss of confidence to the financial system.” <a href=\"https://web.archive.org/web/20261029191701/https://www.americanactionforum.org/insight/the-genius-act-a-primer/\" title=\"americanactionforum.org, analysis, July 24, 2025\">[11]</a></p>",
    "source_refs": [
     {
      "id": "S1582_SES_support_02",
@@ -1299,7 +1299,14 @@
      "id": "S1582_SES_support_02",
      "field": "pro_html",
      "quote": "Forced sales can spread the damage: an issuer in crisis “might be forced to sell off its treasuries in panic, resulting in broader damage and loss of confidence to the financial system.” [11]"
-    },
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SES_support_02_P4_5_6_7_8_9",
+   "role": "evidence",
+   "html": "<p>The bill limits the use of backing assets for other purposes: “Reserves required under paragraph (1)(A) may not be pledged, rehypothecated, or reused by the permitted payment stablecoin issuer, either directly or indirectly” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. To rehypothecate means to reuse an asset as security for a loan. The listed exceptions cover specified reserve transactions, custody, and raising cash for redemptions.</p><p>Regulators must set “reserve asset diversification, including deposit concentration at banking institutions, and interest rate risk management standards” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. These address exposure to one bank and losses from changes in interest rates.</p><p>Reserve reports make the backing open to checks: issuers must “publish the monthly composition of the issuer's reserves on the website of the issuer” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, and reports must be “examined by a registered public accounting firm.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>Federal examinations assess risks to “the stability of the financial system of the United States” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. For issuers under federal enforcement, regulators can order them to “take affirmative action to correct the conditions resulting from any such violation or practice.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>State regimes face federal certification against national requirements: the approval test is that the regime “meets or exceeds the standards and requirements described in subsection (a)” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>. In unusual and urgent circumstances, federal authorities can “take an enforcement action against a State qualified payment stablecoin issuer or an institution-affiliated party of such issuer for violations of this Act during such unusual and exigent circumstances.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a></p><p>Foreign issuers using the bill's U.S. access route must face comparable regulation, including reserve rules: Treasury must find a regime “comparable to the regulatory and supervisory regime established under this Act, including, in particular, the requirements under section 4(a).” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> Registration review also considers “whether the foreign payment stablecoin presents a risk to the financial stability of the United States” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
+   "source_refs": [
     {
      "id": "S1582_SES_support_02",
      "field": "pro_html",
@@ -1889,15 +1896,22 @@
    ]
   },
   {
-   "id": "S1582_B_SEP_oppose_02_P2_3_7",
+   "id": "S1582_B_PUBLIC_CHAINS_IN_SCOPE",
    "role": "evidence",
-   "html": "<p>The bill includes public blockchains—shared computer records used to move tokens—among the systems its rules address: “accepted communications protocols and blockchains, permissioned or public.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[3]</a></p><p>Network problems can block access even when an issuer holds its reserves.</p><p>Holding financial reserves does not by itself keep the network processing payments.</p>",
+   "html": "<p>The bill includes public blockchains—shared computer records used to move tokens—among the systems its rules address: “accepted communications protocols and blockchains, permissioned or public.” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[3]</a></p>",
    "source_refs": [
     {
      "id": "S1582_SEP_oppose_02",
      "field": "pro_html",
      "quote": "The bill includes public blockchains—shared computer records used to move tokens—among the systems its rules address: “accepted communications protocols and blockchains, permissioned or public.” [3]"
-    },
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SEP_oppose_02_P3_7",
+   "role": "evidence",
+   "html": "<p>Network problems can block access even when an issuer holds its reserves.</p><p>Holding financial reserves does not by itself keep the network processing payments.</p>",
+   "source_refs": [
     {
      "id": "S1582_SEP_oppose_02",
      "field": "pro_html",
@@ -2059,6 +2073,42 @@
    ]
   },
   {
+   "id": "S1582_B_C09_NOTE_DEPOSIT_PERMISSION",
+   "role": "qualification",
+   "html": "<p>Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep larger reserve balances to manage their risk of sudden demands for cash (liquidity exposure). The bill directs diversification rules and lets deposit insurers limit reserve deposits on safety grounds. Sources: <a href=\"https://web.archive.org/web/20261009212853/https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2025/int1183.pdf\" title=\"“Interpretive Letter 1183: OCC Letter Addressing Certain Crypto-Asset Activities”, 2025-03-07\">[SEP 32]</a>, <a href=\"https://web.archive.org/web/20261029183611/https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1185.pdf\" title=\"Michael Junho Lee, “Stablecoin Disintermediation”, February 2026\">[SEP 31]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[SEP 3]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "C09",
+     "field": "notes_html",
+     "quote": "Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_C09_NOTE_UNWRITTEN_STANDARDS",
+   "role": "qualification",
+   "html": "<p>Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of assets at low prices) arises without appropriate standards. CSIS says the Act imposes no hard requirements on liquidity, concentration or stress-testing. CSIS is the Center for Strategic and International Studies, a policy research group. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[UNC 3]</a>, <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[UNC 13]</a>, <a href=\"https://web.archive.org/web/20261029201356/https://www.csis.org/analysis/unstable-coins-stablecoin-regulation-market-structure-legislation-and-us-security-risks\" title=\"csis.org, analysis, January 12, 2026\">[UNC 43]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "C09",
+     "field": "notes_html",
+     "quote": "Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_C09_NOTE_RESERVE_QUALITY_BIS_DATA",
+   "role": "qualification",
+   "html": "<p>The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and lend. The BIS data cover January 2021 to March 2025, before the bill. BIS is the Bank for International Settlements. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029143709/https://arxiv.org/html/2604.17167v1\" title=\"arXiv (research preprint), “The Hidden Plumbing of Stablecoins: Financial and Technological Risks in the GENIUS Act Era”, 2026-04-18\">[SES 9]</a>, <a href=\"https://web.archive.org/web/20261021222848/https://www.brookings.edu/articles/next-steps-for-genius-payment-stablecoins/\" title=\"brookings.edu, analysis, March 3, 2026\">[SES 5]</a>, <a href=\"https://web.archive.org/web/20261029191714/https://www.bis.org/publications/bulletin-108-stablecoin-growth-policy-challenges-and-approaches.pdf\" title=\"Bank for International Settlements, BIS Bulletin No 108, “Stablecoin growth – policy challenges and approaches”, 2025-07-11\">[SES 32]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "C09",
+     "field": "notes_html",
+     "quote": "The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and"
+    }
+   ]
+  },
+  {
    "id": "S1582_B_C09_BACKGROUND",
    "role": "explanation",
    "html": "<p>A <strong>run</strong> is when many people demand their money at once. <strong>Breaking the buck</strong> means falling below the promised $1 value. <strong>Uninsured deposits</strong> are bank balances above the government insurance limit. Issuers may hold part of their reserves as bank deposits. These deposits link issuers to banks.</p>",
@@ -2130,64 +2180,6 @@
      "id": "C09",
      "field": "scope_html",
      "quote": "This explains how withdrawals can reach banks. It does not predict a bank failure, the size of withdrawals, or the bill's net effect on stability"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_C09_NOTES",
-   "role": "qualification",
-   "html": "<p>Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep larger reserve balances to manage their risk of sudden demands for cash (liquidity exposure). The bill directs diversification rules and lets deposit insurers limit reserve deposits on safety grounds. Sources: <a href=\"https://web.archive.org/web/20261009212853/https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2025/int1183.pdf\" title=\"“Interpretive Letter 1183: OCC Letter Addressing Certain Crypto-Asset Activities”, 2025-03-07\">[SEP 32]</a>, <a href=\"https://web.archive.org/web/20261029183611/https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1185.pdf\" title=\"Michael Junho Lee, “Stablecoin Disintermediation”, February 2026\">[SEP 31]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[SEP 3]</a>.</p><p>Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of assets at low prices) arises without appropriate standards. CSIS says the Act imposes no hard requirements on liquidity, concentration or stress-testing. CSIS is the Center for Strategic and International Studies, a policy research group. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[UNC 3]</a>, <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[UNC 13]</a>, <a href=\"https://web.archive.org/web/20261029201356/https://www.csis.org/analysis/unstable-coins-stablecoin-regulation-market-structure-legislation-and-us-security-risks\" title=\"csis.org, analysis, January 12, 2026\">[UNC 43]</a>.</p><p>The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and lend. The BIS data cover January 2021 to March 2025, before the bill. BIS is the Bank for International Settlements. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029143709/https://arxiv.org/html/2604.17167v1\" title=\"arXiv (research preprint), “The Hidden Plumbing of Stablecoins: Financial and Technological Risks in the GENIUS Act Era”, 2026-04-18\">[SES 9]</a>, <a href=\"https://web.archive.org/web/20261021222848/https://www.brookings.edu/articles/next-steps-for-genius-payment-stablecoins/\" title=\"brookings.edu, analysis, March 3, 2026\">[SES 5]</a>, <a href=\"https://web.archive.org/web/20261029191714/https://www.bis.org/publications/bulletin-108-stablecoin-growth-policy-challenges-and-approaches.pdf\" title=\"Bank for International Settlements, BIS Bulletin No 108, “Stablecoin growth – policy challenges and approaches”, 2025-07-11\">[SES 32]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "C09",
-     "field": "notes_html",
-     "quote": "Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep"
-    },
-    {
-     "id": "C09",
-     "field": "notes_html",
-     "quote": "Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of"
-    },
-    {
-     "id": "C09",
-     "field": "notes_html",
-     "quote": "The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_UNC_oppose_10_N",
-   "role": "qualification",
-   "html": "<p>Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of assets at low prices) arises without appropriate standards. CSIS says the Act imposes no hard requirements on liquidity, concentration or stress-testing. CSIS is the Center for Strategic and International Studies, a policy research group. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[3]</a>, <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[13]</a>, <a href=\"https://web.archive.org/web/20261029201356/https://www.csis.org/analysis/unstable-coins-stablecoin-regulation-market-structure-legislation-and-us-security-risks\" title=\"csis.org, analysis, January 12, 2026\">[43]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_UNC_oppose_10",
-     "field": "notes_html",
-     "quote": "Section 4 requires capital, liquidity and diversification rules that are still to be written. It also sets conditions on the use of repo (short-term loans backed by securities). Brookings says the danger of fire sales (rushed sales of"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_SEP_oppose_04_N",
-   "role": "qualification",
-   "html": "<p>Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep larger reserve balances to manage their risk of sudden demands for cash (liquidity exposure). The bill directs diversification rules and lets deposit insurers limit reserve deposits on safety grounds. Sources: <a href=\"https://web.archive.org/web/20261009212853/https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2025/int1183.pdf\" title=\"“Interpretive Letter 1183: OCC Letter Addressing Certain Crypto-Asset Activities”, 2025-03-07\">[32]</a>, <a href=\"https://web.archive.org/web/20261029183611/https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1185.pdf\" title=\"Michael Junho Lee, “Stablecoin Disintermediation”, February 2026\">[31]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[3]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_SEP_oppose_04",
-     "field": "notes_html",
-     "quote": "Federal guidance in March 2025 reaffirmed permission to hold deposits backing stablecoins in certain circumstances. The study from the New York Federal Reserve Bank (NY Fed) reports that banks working with issuers (partner banks) keep"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_SES_oppose_04_N0",
-   "role": "qualification",
-   "html": "<p>The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and lend. The BIS data cover January 2021 to March 2025, before the bill. BIS is the Bank for International Settlements. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029143709/https://arxiv.org/html/2604.17167v1\" title=\"arXiv (research preprint), “The Hidden Plumbing of Stablecoins: Financial and Technological Risks in the GENIUS Act Era”, 2026-04-18\">[9]</a>, <a href=\"https://web.archive.org/web/20261021222848/https://www.brookings.edu/articles/next-steps-for-genius-payment-stablecoins/\" title=\"brookings.edu, analysis, March 3, 2026\">[5]</a>, <a href=\"https://web.archive.org/web/20261029191714/https://www.bis.org/publications/bulletin-108-stablecoin-growth-policy-challenges-and-approaches.pdf\" title=\"Bank for International Settlements, BIS Bulletin No 108, “Stablecoin growth – policy challenges and approaches”, 2025-07-11\">[32]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_SES_oppose_04",
-     "field": "notes_html",
-     "quote": "The researchers cited by the argument say the Act substantially improves reserve quality and disclosure. Brookings says capital requirements for issuers can be lower and simpler than for banks, because issuers do not take deposits and"
     }
    ]
   },
@@ -2846,57 +2838,6 @@
      "id": "C19",
      "field": "notes_html",
      "quote": "Tether announced in 2024 that it would monitor secondary markets with Chainalysis tools, and confirmed adoption in May 2025. Research under Section 9 must consider the amount and sensitivity of information and privacy risks. FinCEN's"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_UNN_support_01_P3_5_7_8",
-   "role": "evidence",
-   "html": "<p>Stablecoins provide a payment route for illicit gold. A March 2026 investigation reports: “Some of the gold originating from Guyana is reportedly sold in Venezuela in exchange for Tether, a cryptocurrency stablecoin pegged to the US dollar.” <a href=\"https://web.archive.org/web/20261029145814/https://globalinitiative.net/wp-content/uploads/2026/03/Marcena-Hunter-Gabriel-Funari-Sophia-Pickles-Shifting-Amazon-gold-flows-Illicit-gold-trafficking-to-venezuela-and-the-implications-of-us-action-GI-TOC-March-2026.pdf\" title=\"“Shifting Amazon gold flows: Illicit gold trafficking to Venezuela and the implications of US action”, 2026-03-10\">[3]</a></p><p>Wildlife traffickers also use digital currencies. A conservation practitioners' forum reports that “criminal networks involved in IWT are increasingly leveraging cryptocurrencies for payments, laundering profits, and facilitating global operations.” <a href=\"https://web.archive.org/web/20261029145407/https://environmental-corruption.org/news/takeaways-on-cryptocurrency-and-the-nexus-to-31\" title=\"“Takeaways on cryptocurrency and the nexus to environmental crimes: new challenges and opportunities for financial investigations?”, 2024-11-21\">[5]</a> IWT means illegal wildlife trade.</p><p>Financial checks help stop these crimes. FinCEN, Treasury's financial-crime agency, says suspicious-payment reports and compliance with financial-crime rules “are crucial to identifying and stopping environmental crimes and related money laundering.” <a href=\"https://web.archive.org/web/20261029195413/https://www.fincen.gov/sites/default/files/2021-11/FinCEN%20Environmental%20Crimes%20Notice%20508%20FINAL.pdf\" title=\"“FinCEN Calls Attention to Environmental Crimes and Related Financial Activity (FIN-2021-NTC4)”, 2021-11-18\">[6]</a></p><p>Existing rules already required “customer due diligence, and transaction monitoring of clients” <a href=\"https://web.archive.org/web/20261029145603/https://finpolicy.georgetown.edu/wp-content/uploads/2025/07/Stablecoin-Markets-and-Mitigating-Illicit-Finance.pdf\" title=\"“Stablecoin Markets and Mitigating Illicit Finance”, 2025-07\">[7]</a>. The bill adds explicit freezing duties and enforceable conditions on foreign issuers' access to U.S. trading services.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "pro_html",
-     "quote": "Stablecoins provide a payment route for illicit gold. A March 2026 investigation reports: “Some of the gold originating from Guyana is reportedly sold in Venezuela in exchange for Tether, a cryptocurrency stablecoin pegged to the US"
-    },
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "pro_html",
-     "quote": "Wildlife traffickers also use digital currencies. A conservation practitioners' forum reports that “criminal networks involved in IWT are increasingly leveraging cryptocurrencies for payments, laundering profits, and facilitating global"
-    },
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "pro_html",
-     "quote": "Financial checks help stop these crimes. FinCEN, Treasury's financial-crime agency, says suspicious-payment reports and compliance with financial-crime rules “are crucial to identifying and stopping environmental crimes and related money"
-    },
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "pro_html",
-     "quote": "Existing rules already required “customer due diligence, and transaction monitoring of clients” [7] . The bill adds explicit freezing duties and enforceable conditions on foreign issuers' access to U.S. trading services"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_UNN_support_01_N1",
-   "role": "qualification",
-   "html": "<p>The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins. The gold report's statement about Tether uses the word 'reportedly' and names no wallets or orders. Sources: <a href=\"https://web.archive.org/web/20261029145407/https://environmental-corruption.org/news/takeaways-on-cryptocurrency-and-the-nexus-to-31\" title=\"“Takeaways on cryptocurrency and the nexus to environmental crimes: new challenges and opportunities for financial investigations?”, 2024-11-21\">[5]</a>, <a href=\"https://web.archive.org/web/20261029145814/https://globalinitiative.net/wp-content/uploads/2026/03/Marcena-Hunter-Gabriel-Funari-Sophia-Pickles-Shifting-Amazon-gold-flows-Illicit-gold-trafficking-to-venezuela-and-the-implications-of-us-action-GI-TOC-March-2026.pdf\" title=\"“Shifting Amazon gold flows: Illicit gold trafficking to Venezuela and the implications of US action”, 2026-03-10\">[3]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "notes_html",
-     "quote": "The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins. The gold report's statement about Tether uses the word 'reportedly' and names no wallets or orders. Sources: [5] , [3]"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_UNN_support_01_G0",
-   "role": "qualification",
-   "html": "<p>The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins, so this branch has no stated link to stablecoin payments. The gold branch does not have this gap.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_UNN_support_01",
-     "field": "gaps[0].explanation",
-     "quote": "The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins, so this branch has no stated link to stablecoin payments. The gold branch does not have this gap"
     }
    ]
   },
@@ -4330,6 +4271,88 @@
    ]
   },
   {
+   "id": "S1582_B_SEPARATION_NOT_STRICT",
+   "role": "qualification",
+   "html": "<p>Brookings says the GENIUS Act does not strictly protect the separation of banking and commerce. The activity limit applies to the issuer, and the committee test applies to public companies. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[12]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_support_05",
+     "field": "notes_html",
+     "quote": "Brookings says the GENIUS Act does not strictly protect the separation of banking and commerce. The activity limit applies to the issuer, and the committee test applies to public companies. Brookings is a policy research group. Sources:"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SES_support_05_P1_2",
+   "role": "evidence",
+   "html": "<p>Public companies mainly outside finance, and companies they wholly or mostly own, need unanimous approval from the bill's federal review committee before issuing stablecoins. The finding must include that issuance “will not pose a material risk to the safety and soundness of the United States banking system, the financial stability of the United States, or the Deposit Insurance Fund” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p><p>This review targets the spread of financial trouble: “This provision aims to separate damage to the financial side of a large company from spreading to its non-financial functions.” <a href=\"https://web.archive.org/web/20261029191701/https://www.americanactionforum.org/insight/the-genius-act-a-primer/\" title=\"americanactionforum.org, analysis, July 24, 2025\">[11]</a></p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_support_05",
+     "field": "pro_html",
+     "quote": "Public companies mainly outside finance, and companies they wholly or mostly own, need unanimous approval from the bill's federal review committee before issuing stablecoins. The finding must include that issuance “will not pose a material"
+    },
+    {
+     "id": "S1582_SES_support_05",
+     "field": "pro_html",
+     "quote": "This review targets the spread of financial trouble: “This provision aims to separate damage to the financial side of a large company from spreading to its non-financial functions.” [11]"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SES_support_05_P3",
+   "role": "evidence",
+   "html": "<p>The bill also narrows the issuer's business: “Issuers’ activities are restricted to offering and redeeming stablecoins and ancillary activities.” <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[12]</a> Ancillary activities are supporting work, such as managing reserves and safeguarding assets.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_support_05",
+     "field": "pro_html",
+     "quote": "The bill also narrows the issuer's business: “Issuers’ activities are restricted to offering and redeeming stablecoins and ancillary activities.” [12] Ancillary activities are supporting work, such as managing reserves and safeguarding"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_DEEMED_APPROVAL_BACKGROUND",
+   "role": "qualification",
+   "html": "<p><strong>Brief context note:</strong> Under Section 5, a substantially complete federal application not decided within 120 days is treated as approved (deemed approved). A federal regulator must evaluate each application, and approved issuers face examination. Before the bill, nonbank stablecoin supervision was primarily at the state level, and in March 2025 OCC cancelled its rule that institutions it supervises first needed a supervisor's nonobjection (approval). Section 5(h) replaces (preempts) state licensing requirements for federally approved issuers. OCC is the Office of the Comptroller of the Currency, a federal bank regulator. Sources: <a href=\"https://web.archive.org/web/20261029214851/https://www.congress.gov/crs_external_products/IN/PDF/IN12553/IN12553.5.pdf\" title=\"Congressional Research Service, report IN12553, July 18, 2025\">[25]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, <a href=\"https://web.archive.org/web/20261015134137/https://www.brookings.edu/articles/what-are-stablecoins-and-how-are-they-regulated/\" title=\"brookings.edu, analysis, October 24, 2025\">[33]</a>, <a href=\"https://web.archive.org/web/20261009212848/https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-16.html\" title=\"“OCC Clarifies Bank Authority to Engage in Certain Cryptocurrency Activities”, 2025-03-07\">[21]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Brief context note: Under Section 5, a substantially complete federal application not decided within 120 days is treated as approved (deemed approved). A federal regulator must evaluate each application, and approved issuers face"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SES_oppose_06_P3_5",
+   "role": "evidence",
+   "html": "<p>That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” <a href=\"https://web.archive.org/web/20261029214535/https://www.congress.gov/crs_external_products/IF/PDF/IF12984/IF12984.3.pdf\" title=\"Congressional Research Service, report IF12984, June 9, 2025\">[2]</a> CRS is the Congressional Research Service, which does research for Congress.</p><p>Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> does not supply equal staffing or remove the federal notice requirement.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_oppose_06",
+     "field": "pro_html",
+     "quote": "That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” [2] CRS is the Congressional Research Service, which"
+    },
+    {
+     "id": "S1582_SES_oppose_06",
+     "field": "pro_html",
+     "quote": "Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” [4] does not supply equal staffing or remove the federal notice requirement"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_SES_oppose_06_N0",
+   "role": "qualification",
+   "html": "<p>Nonbank supervision before the bill was primarily at the state level. Certification of state regimes requires a unanimous federal finding, state and federal regulators must share information, and approved issuers face examination. Sources: <a href=\"https://web.archive.org/web/20261015134137/https://www.brookings.edu/articles/what-are-stablecoins-and-how-are-they-regulated/\" title=\"brookings.edu, analysis, October 24, 2025\">[33]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_SES_oppose_06",
+     "field": "notes_html",
+     "quote": "Nonbank supervision before the bill was primarily at the state level. Certification of state regimes requires a unanimous federal finding, state and federal regulators must share information, and approved issuers face examination. Sources:"
+    }
+   ]
+  },
+  {
    "id": "S1582_B_PAYMENTS_MATTER",
    "role": "evidence",
    "html": "<p>Reliable access matters beyond investors: “Producers and consumers need to be able to reliably send and receive payments for goods and services bought and sold.” <a href=\"https://web.archive.org/web/20260223090726/https://www.nytimes.com/2025/06/17/opinion/genius-act-stablecoin-crypto.html\" title=\"nytimes.com, “The Genius Act Will Bring Economic Chaos”, June 17, 2025\">[35]</a> </p>",
@@ -4369,22 +4392,15 @@
    ]
   },
   {
-   "id": "S1582_B_DEEMED_APPROVAL_BACKGROUND",
-   "role": "qualification",
-   "html": "<p><strong>Brief context note:</strong> Under Section 5, a substantially complete federal application not decided within 120 days is treated as approved (deemed approved). A federal regulator must evaluate each application, and approved issuers face examination. Before the bill, nonbank stablecoin supervision was primarily at the state level, and in March 2025 OCC cancelled its rule that institutions it supervises first needed a supervisor's nonobjection (approval). Section 5(h) replaces (preempts) state licensing requirements for federally approved issuers. OCC is the Office of the Comptroller of the Currency, a federal bank regulator. Sources: <a href=\"https://web.archive.org/web/20261029214851/https://www.congress.gov/crs_external_products/IN/PDF/IN12553/IN12553.5.pdf\" title=\"Congressional Research Service, report IN12553, July 18, 2025\">[25]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>, <a href=\"https://web.archive.org/web/20261015134137/https://www.brookings.edu/articles/what-are-stablecoins-and-how-are-they-regulated/\" title=\"brookings.edu, analysis, October 24, 2025\">[33]</a>, <a href=\"https://web.archive.org/web/20261009212848/https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-16.html\" title=\"“OCC Clarifies Bank Authority to Engage in Certain Cryptocurrency Activities”, 2025-03-07\">[21]</a>.</p>",
+   "id": "S1582_B_UNN_support_01_P3_4_5_6_7_8",
+   "role": "evidence",
+   "html": "<p>Stablecoins provide a payment route for illicit gold. A March 2026 investigation reports: “Some of the gold originating from Guyana is reportedly sold in Venezuela in exchange for Tether, a cryptocurrency stablecoin pegged to the US dollar.” <a href=\"https://web.archive.org/web/20261029145814/https://globalinitiative.net/wp-content/uploads/2026/03/Marcena-Hunter-Gabriel-Funari-Sophia-Pickles-Shifting-Amazon-gold-flows-Illicit-gold-trafficking-to-venezuela-and-the-implications-of-us-action-GI-TOC-March-2026.pdf\" title=\"“Shifting Amazon gold flows: Illicit gold trafficking to Venezuela and the implications of US action”, 2026-03-10\">[3]</a></p><p>Gold mining destroys forests and pollutes soil: “Deforestation due to gold mining wipes out tropical rainforests and contaminates soil with heavy metals” <a href=\"https://web.archive.org/web/20261001120109/https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Money-Laundering-from-Environmental-Crime.pdf\" title=\"“Money Laundering from Environmental Crime”, 2021-07\">[4]</a>.</p><p>Wildlife traffickers also use digital currencies. A conservation practitioners' forum reports that “criminal networks involved in IWT are increasingly leveraging cryptocurrencies for payments, laundering profits, and facilitating global operations.” <a href=\"https://web.archive.org/web/20261029145407/https://environmental-corruption.org/news/takeaways-on-cryptocurrency-and-the-nexus-to-31\" title=\"“Takeaways on cryptocurrency and the nexus to environmental crimes: new challenges and opportunities for financial investigations?”, 2024-11-21\">[5]</a> IWT means illegal wildlife trade.</p><p>Wildlife trafficking “threatens critical biodiversity, damages fragile ecosystems” <a href=\"https://web.archive.org/web/20261029195413/https://www.fincen.gov/sites/default/files/2021-11/FinCEN%20Environmental%20Crimes%20Notice%20508%20FINAL.pdf\" title=\"“FinCEN Calls Attention to Environmental Crimes and Related Financial Activity (FIN-2021-NTC4)”, 2021-11-18\">[6]</a>.</p><p>Financial checks help stop these crimes. FinCEN, Treasury's financial-crime agency, says suspicious-payment reports and compliance with financial-crime rules “are crucial to identifying and stopping environmental crimes and related money laundering.” <a href=\"https://web.archive.org/web/20261029195413/https://www.fincen.gov/sites/default/files/2021-11/FinCEN%20Environmental%20Crimes%20Notice%20508%20FINAL.pdf\" title=\"“FinCEN Calls Attention to Environmental Crimes and Related Financial Activity (FIN-2021-NTC4)”, 2021-11-18\">[6]</a></p><p>Existing rules already required “customer due diligence, and transaction monitoring of clients” <a href=\"https://web.archive.org/web/20261029145603/https://finpolicy.georgetown.edu/wp-content/uploads/2025/07/Stablecoin-Markets-and-Mitigating-Illicit-Finance.pdf\" title=\"“Stablecoin Markets and Mitigating Illicit Finance”, 2025-07\">[7]</a>. The bill adds explicit freezing duties and enforceable conditions on foreign issuers' access to U.S. trading services.</p>",
    "source_refs": [
     {
-     "id": "S1582_SES_oppose_01",
-     "field": "notes_html",
-     "quote": "Brief context note: Under Section 5, a substantially complete federal application not decided within 120 days is treated as approved (deemed approved). A federal regulator must evaluate each application, and approved issuers face"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_UNN_support_01_P4_6",
-   "role": "evidence",
-   "html": "<p>Gold mining destroys forests and pollutes soil: “Deforestation due to gold mining wipes out tropical rainforests and contaminates soil with heavy metals” <a href=\"https://web.archive.org/web/20261001120109/https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Money-Laundering-from-Environmental-Crime.pdf\" title=\"“Money Laundering from Environmental Crime”, 2021-07\">[4]</a>.</p><p>Wildlife trafficking “threatens critical biodiversity, damages fragile ecosystems” <a href=\"https://web.archive.org/web/20261029195413/https://www.fincen.gov/sites/default/files/2021-11/FinCEN%20Environmental%20Crimes%20Notice%20508%20FINAL.pdf\" title=\"“FinCEN Calls Attention to Environmental Crimes and Related Financial Activity (FIN-2021-NTC4)”, 2021-11-18\">[6]</a>.</p>",
-   "source_refs": [
+     "id": "S1582_UNN_support_01",
+     "field": "pro_html",
+     "quote": "Stablecoins provide a payment route for illicit gold. A March 2026 investigation reports: “Some of the gold originating from Guyana is reportedly sold in Venezuela in exchange for Tether, a cryptocurrency stablecoin pegged to the US"
+    },
     {
      "id": "S1582_UNN_support_01",
      "field": "pro_html",
@@ -4393,7 +4409,46 @@
     {
      "id": "S1582_UNN_support_01",
      "field": "pro_html",
+     "quote": "Wildlife traffickers also use digital currencies. A conservation practitioners' forum reports that “criminal networks involved in IWT are increasingly leveraging cryptocurrencies for payments, laundering profits, and facilitating global"
+    },
+    {
+     "id": "S1582_UNN_support_01",
+     "field": "pro_html",
      "quote": "Wildlife trafficking “threatens critical biodiversity, damages fragile ecosystems” [6]"
+    },
+    {
+     "id": "S1582_UNN_support_01",
+     "field": "pro_html",
+     "quote": "Financial checks help stop these crimes. FinCEN, Treasury's financial-crime agency, says suspicious-payment reports and compliance with financial-crime rules “are crucial to identifying and stopping environmental crimes and related money"
+    },
+    {
+     "id": "S1582_UNN_support_01",
+     "field": "pro_html",
+     "quote": "Existing rules already required “customer due diligence, and transaction monitoring of clients” [7] . The bill adds explicit freezing duties and enforceable conditions on foreign issuers' access to U.S. trading services"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_UNN_support_01_N1",
+   "role": "qualification",
+   "html": "<p>The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins. The gold report's statement about Tether uses the word 'reportedly' and names no wallets or orders. Sources: <a href=\"https://web.archive.org/web/20261029145407/https://environmental-corruption.org/news/takeaways-on-cryptocurrency-and-the-nexus-to-31\" title=\"“Takeaways on cryptocurrency and the nexus to environmental crimes: new challenges and opportunities for financial investigations?”, 2024-11-21\">[5]</a>, <a href=\"https://web.archive.org/web/20261029145814/https://globalinitiative.net/wp-content/uploads/2026/03/Marcena-Hunter-Gabriel-Funari-Sophia-Pickles-Shifting-Amazon-gold-flows-Illicit-gold-trafficking-to-venezuela-and-the-implications-of-us-action-GI-TOC-March-2026.pdf\" title=\"“Shifting Amazon gold flows: Illicit gold trafficking to Venezuela and the implications of US action”, 2026-03-10\">[3]</a>.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_UNN_support_01",
+     "field": "notes_html",
+     "quote": "The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins. The gold report's statement about Tether uses the word 'reportedly' and names no wallets or orders. Sources: [5] , [3]"
+    }
+   ]
+  },
+  {
+   "id": "S1582_B_UNN_support_01_G0",
+   "role": "qualification",
+   "html": "<p>The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins, so this branch has no stated link to stablecoin payments. The gold branch does not have this gap.</p>",
+   "source_refs": [
+    {
+     "id": "S1582_UNN_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "The wildlife-trade source discusses cryptocurrencies generally and does not name stablecoins, so this branch has no stated link to stablecoin payments. The gold branch does not have this gap"
     }
    ]
   },
@@ -5528,40 +5583,6 @@
    ]
   },
   {
-   "id": "S1582_B_SES_support_05_P1_2_3",
-   "role": "evidence",
-   "html": "<p>Public companies mainly outside finance, and companies they wholly or mostly own, need unanimous approval from the bill's federal review committee before issuing stablecoins. The finding must include that issuance “will not pose a material risk to the safety and soundness of the United States banking system, the financial stability of the United States, or the Deposit Insurance Fund” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p><p>This review targets the spread of financial trouble: “This provision aims to separate damage to the financial side of a large company from spreading to its non-financial functions.” <a href=\"https://web.archive.org/web/20261029191701/https://www.americanactionforum.org/insight/the-genius-act-a-primer/\" title=\"americanactionforum.org, analysis, July 24, 2025\">[11]</a></p><p>The bill also narrows the issuer's business: “Issuers’ activities are restricted to offering and redeeming stablecoins and ancillary activities.” <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[12]</a> Ancillary activities are supporting work, such as managing reserves and safeguarding assets.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_SES_support_05",
-     "field": "pro_html",
-     "quote": "Public companies mainly outside finance, and companies they wholly or mostly own, need unanimous approval from the bill's federal review committee before issuing stablecoins. The finding must include that issuance “will not pose a material"
-    },
-    {
-     "id": "S1582_SES_support_05",
-     "field": "pro_html",
-     "quote": "This review targets the spread of financial trouble: “This provision aims to separate damage to the financial side of a large company from spreading to its non-financial functions.” [11]"
-    },
-    {
-     "id": "S1582_SES_support_05",
-     "field": "pro_html",
-     "quote": "The bill also narrows the issuer's business: “Issuers’ activities are restricted to offering and redeeming stablecoins and ancillary activities.” [12] Ancillary activities are supporting work, such as managing reserves and safeguarding"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_SES_support_05_N",
-   "role": "qualification",
-   "html": "<p>Brookings says the GENIUS Act does not strictly protect the separation of banking and commerce. The activity limit applies to the issuer, and the committee test applies to public companies. Brookings is a policy research group. Sources: <a href=\"https://web.archive.org/web/20261029203749/https://www.brookings.edu/articles/stablecoins-issues-for-regulators-as-they-implement-genius-act/\" title=\"brookings.edu, analysis, October 21, 2025\">[12]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_SES_support_05",
-     "field": "notes_html",
-     "quote": "Brookings says the GENIUS Act does not strictly protect the separation of banking and commerce. The activity limit applies to the issuer, and the committee test applies to public companies. Brookings is a policy research group. Sources:"
-    }
-   ]
-  },
-  {
    "id": "S1582_B_SES_support_04_P3",
    "role": "evidence",
    "html": "<p>Requiring issuers to manage these risks strengthens defenses against failures and attacks that interrupt payments. Reliable payments help keep U.S. commerce working under threat.</p>",
@@ -5658,31 +5679,14 @@
    ]
   },
   {
-   "id": "S1582_B_SES_oppose_06_P3_5",
+   "id": "S1582_B_SES_oppose_06_P6",
    "role": "evidence",
-   "html": "<p>That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” <a href=\"https://web.archive.org/web/20261029214535/https://www.congress.gov/crs_external_products/IF/PDF/IF12984/IF12984.3.pdf\" title=\"Congressional Research Service, report IF12984, June 9, 2025\">[2]</a> CRS is the Congressional Research Service, which does research for Congress.</p><p>Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a> does not supply equal staffing or remove the federal notice requirement.</p>",
+   "html": "<p>A failure of local supervision can expose payments nationwide while the new federal backup is limited by these conditions and can face a notice period. Giving national reach to that weak point can strain the federal government's ability to contain a fast threat.</p>",
    "source_refs": [
     {
      "id": "S1582_SES_oppose_06",
      "field": "pro_html",
-     "quote": "That makes the resources of the home-state supervisor matter across the country. CRS identifies the concern that state regulators lack “supervisory resources comparable to federal ones.” [2] CRS is the Congressional Research Service, which"
-    },
-    {
-     "id": "S1582_SES_oppose_06",
-     "field": "pro_html",
-     "quote": "Certifying that a state's rules are “substantially similar to the Federal regulatory framework under this Act” [4] does not supply equal staffing or remove the federal notice requirement"
-    }
-   ]
-  },
-  {
-   "id": "S1582_B_SES_oppose_06_N0",
-   "role": "qualification",
-   "html": "<p>Nonbank supervision before the bill was primarily at the state level. Certification of state regimes requires a unanimous federal finding, state and federal regulators must share information, and approved issuers face examination. Sources: <a href=\"https://web.archive.org/web/20261015134137/https://www.brookings.edu/articles/what-are-stablecoins-and-how-are-they-regulated/\" title=\"brookings.edu, analysis, October 24, 2025\">[33]</a>, <a href=\"https://web.archive.org/web/20261029204723/https://www.congress.gov/119/bills/s1582/BILLS-119s1582es.htm\" title=\"S.1582, bill text, June 17, 2025\">[4]</a>.</p>",
-   "source_refs": [
-    {
-     "id": "S1582_SES_oppose_06",
-     "field": "notes_html",
-     "quote": "Nonbank supervision before the bill was primarily at the state level. Certification of state regimes requires a unanimous federal finding, state and federal regulators must share information, and approved issuers face examination. Sources:"
+     "quote": "A failure of local supervision can expose payments nationwide while the new federal backup is limited by these conditions and can face a notice period. Giving national reach to that weak point can strain the federal government's ability to"
     }
    ]
   },
@@ -6227,7 +6231,8 @@
     "S1582_X_RESERVES"
    ],
    "block_ids": [
-    "S1582_B_SES_support_02_P1_2_4_5_6_7_8_9",
+    "S1582_B_CRISIS_PREMISE",
+    "S1582_B_SES_support_02_P4_5_6_7_8_9",
     "S1582_B_UNC_support_07_P2_3",
     "S1582_B_SES_support_02_R",
     "S1582_B_UNC_support_07_N1"
@@ -6461,7 +6466,8 @@
    ],
    "context_ids": [],
    "block_ids": [
-    "S1582_B_SEP_oppose_02_P2_3_7",
+    "S1582_B_PUBLIC_CHAINS_IN_SCOPE",
+    "S1582_B_SEP_oppose_02_P3_7",
     "S1582_B_SES_oppose_03_P1_2",
     "S1582_B_SEP_oppose_02_R0_1_2_4",
     "S1582_B_SEP_oppose_02_G0",
@@ -6477,8 +6483,8 @@
   {
    "id": "S1582_K_ATTACK_DEPEND",
    "kind": "causal",
-   "title": "Everyday payment money would sit on a network with rising attack rewards",
-   "claim_html": "<p>Some households’ everyday payment money would sit on Ethereum, where growth in stablecoin activity raises the reward for attacking the payments it carries.</p>",
+   "title": "Money for essentials would face a rising attack incentive",
+   "claim_html": "<p>Some households’ payment money needed for essentials, including medical care, would come to be held or spent on Ethereum, where growth in stablecoin activity raises the reward for attacking the payments it carries. That money would therefore face a greater incentive-driven risk of being cut off by an attack. This claim does not say how often attacks would happen or that one would succeed.</p>",
    "routes": [
     {
      "id": "S1582_K_ATTACK_DEPEND_R1",
@@ -6490,8 +6496,10 @@
    ],
    "context_ids": [],
    "block_ids": [
+    "S1582_B_PUBLIC_CHAINS_IN_SCOPE",
     "S1582_B_SES_oppose_03_P3",
     "S1582_B_SEP_oppose_02_R3",
+    "S1582_B_SEP_oppose_02_G0",
     "S1582_B_SES_oppose_03_R0_1_2_3",
     "S1582_B_SES_oppose_03_G0"
    ],
@@ -6521,10 +6529,9 @@
     "S1582_B_SEP_oppose_04_P2",
     "S1582_B_C09_RESPONSE0",
     "S1582_B_C09_SCOPE",
-    "S1582_B_C09_NOTES",
-    "S1582_B_UNC_oppose_10_N",
-    "S1582_B_SEP_oppose_04_N",
-    "S1582_B_SES_oppose_04_N0"
+    "S1582_B_C09_NOTE_DEPOSIT_PERMISSION",
+    "S1582_B_C09_NOTE_UNWRITTEN_STANDARDS",
+    "S1582_B_C09_NOTE_RESERVE_QUALITY_BIS_DATA"
    ],
    "argument_ids": [
     "S1582_SEP_oppose_04",
@@ -6571,7 +6578,8 @@
    "context_ids": [],
    "block_ids": [
     "S1582_B_RUN_PREMISE",
-    "S1582_B_UNC_oppose_10_P3"
+    "S1582_B_UNC_oppose_10_P3",
+    "S1582_B_C09_NOTE_UNWRITTEN_STANDARDS"
    ],
    "argument_ids": [
     "S1582_UNC_oppose_10"
@@ -6595,7 +6603,8 @@
    "context_ids": [],
    "block_ids": [
     "S1582_B_RUN_PREMISE",
-    "S1582_B_SES_oppose_04_P4"
+    "S1582_B_SES_oppose_04_P4",
+    "S1582_B_C09_NOTE_RESERVE_QUALITY_BIS_DATA"
    ],
    "argument_ids": [
     "S1582_SES_oppose_04"
@@ -6837,31 +6846,6 @@
     "S1582_B_C19_NOTES1"
    ],
    "argument_ids": [],
-   "value_id": null,
-   "direction": null
-  },
-  {
-   "id": "S1582_K_ENV_CRIME",
-   "kind": "causal",
-   "title": "The bill would interrupt some payments for crimes that destroy nature",
-   "claim_html": "<p>The bill’s tools would interrupt at least some stablecoin payments for illegal gold mining or wildlife trafficking that would otherwise go through.</p>",
-   "routes": [
-    {
-     "id": "S1582_K_ENV_CRIME_R1",
-     "requires": [
-      "S1582_K_STOP_KNOWN"
-     ]
-    }
-   ],
-   "context_ids": [],
-   "block_ids": [
-    "S1582_B_UNN_support_01_P3_5_7_8",
-    "S1582_B_UNN_support_01_N1",
-    "S1582_B_UNN_support_01_G0"
-   ],
-   "argument_ids": [
-    "S1582_UNN_support_01"
-   ],
    "value_id": null,
    "direction": null
   },
@@ -7647,21 +7631,94 @@
    "direction": null
   },
   {
-   "id": "S1582_V_UNN_ENV_CRIME",
-   "kind": "value",
-   "title": "Nature: interrupting payments for crimes that destroy nature",
-   "claim_html": "<p>Interrupting payments for illegal gold mining and wildlife trafficking helps stop activities that destroy forests and wildlife. That gives a reason, from the wish to defend nature, to support the bill.</p>",
+   "id": "S1582_K_COMMITTEE_GATE",
+   "kind": "causal",
+   "title": "The committee test would keep a commercial group’s financial trouble from spreading",
+   "claim_html": "<p>For public companies mainly outside finance, the bill’s requirement of unanimous committee approval would reduce the chance that trouble on the financial side of such a company spreads to its other businesses, to banks or to ordinary commerce.</p>",
    "routes": [
     {
-     "id": "S1582_V_UNN_ENV_CRIME_R1",
-     "requires": [
-      "S1582_K_ENV_CRIME"
-     ]
+     "id": "S1582_K_COMMITTEE_GATE_R1",
+     "requires": []
     }
    ],
    "context_ids": [],
    "block_ids": [
-    "S1582_B_UNN_support_01_P4_6"
+    "S1582_B_SES_support_05_P1_2",
+    "S1582_B_SEPARATION_NOT_STRICT"
+   ],
+   "argument_ids": [
+    "S1582_SES_support_05"
+   ],
+   "value_id": null,
+   "direction": null
+  },
+  {
+   "id": "S1582_K_ACTIVITY_LIMITS",
+   "kind": "causal",
+   "title": "Limits on issuers’ activities would keep stablecoin trouble from spreading",
+   "claim_html": "<p>Restricting issuers to offering and redeeming stablecoins and supporting activities would reduce the routes through which an issuer’s trouble spreads into banking and ordinary commerce.</p>",
+   "routes": [
+    {
+     "id": "S1582_K_ACTIVITY_LIMITS_R1",
+     "requires": []
+    }
+   ],
+   "context_ids": [],
+   "block_ids": [
+    "S1582_B_SES_support_05_P3",
+    "S1582_B_SEPARATION_NOT_STRICT"
+   ],
+   "argument_ids": [
+    "S1582_SES_support_05"
+   ],
+   "value_id": null,
+   "direction": null
+  },
+  {
+   "id": "S1582_K_STATE_EXPOSURE",
+   "kind": "causal",
+   "title": "A failure of one state’s supervision would spread nationwide and be hard to contain",
+   "claim_html": "<p>Because issuers under one state’s supervision can operate nationally, a failure of that state’s supervision would expose payments across the country, and the conditional federal backup would make that threat harder to contain quickly than one confined to that state.</p>",
+   "routes": [
+    {
+     "id": "S1582_K_STATE_EXPOSURE_R1",
+     "requires": []
+    }
+   ],
+   "context_ids": [
+    "S1582_X_STATE_ROUTE"
+   ],
+   "block_ids": [
+    "S1582_B_SES_oppose_06_P3_5",
+    "S1582_B_SES_oppose_06_N0",
+    "S1582_B_DEEMED_APPROVAL_BACKGROUND"
+   ],
+   "argument_ids": [
+    "S1582_SES_oppose_06"
+   ],
+   "value_id": null,
+   "direction": null
+  },
+  {
+   "id": "S1582_V_UNN_ENV_CRIME",
+   "kind": "value",
+   "title": "Nature: stronger legal tools against payments for crimes that destroy nature",
+   "claim_html": "<p>The bill makes freezing a legal duty for permitted issuers and makes a foreign issuer’s access to U.S. trading services depend on obeying lawful orders. For payments in covered coins that a lawful U.S. order identifies, these are stronger enforceable means to interrupt payments and seize proceeds from crimes such as illegal gold mining and wildlife trafficking, which destroy forests and wildlife. Either legal tool is enough on its own. Giving authorities stronger tools against those crimes serves the wish to defend nature, even though how often the tools would be used, and how much they would add to issuers’ earlier voluntary freezes, is uncertain.</p>",
+   "routes": [
+    {
+     "id": "S1582_V_UNN_ENV_CRIME_R1",
+     "requires": []
+    }
+   ],
+   "context_ids": [
+    "S1582_X_ORDERS"
+   ],
+   "block_ids": [
+    "S1582_B_UNN_support_01_P3_4_5_6_7_8",
+    "S1582_B_UNN_support_01_N1",
+    "S1582_B_UNN_support_01_G0",
+    "S1582_B_C13_NOTES0_2_3",
+    "S1582_B_FINCEN_PROPOSAL"
    ],
    "argument_ids": [
     "S1582_UNN_support_01"
@@ -8610,7 +8667,7 @@
    "id": "S1582_V_SEP_CARE_MONEY",
    "kind": "value",
    "title": "Personal Security: money for medical care lost or out of reach",
-   "claim_html": "<p>Household money needed for medical care could be lost, frozen in a failure, cut off by a network outage or attack, or hit by a financial shock that reaches people who never used stablecoins. Each consequence listed here that you accepted is enough on its own. Losing access to money for care threatens an average American’s health, because cost already keeps many people from care.</p>",
+   "claim_html": "<p>Household money needed for medical care could be lost, frozen in a failure, cut off by a network outage, placed at greater risk from attack, or hit by a financial shock that reaches people who never used stablecoins. Each consequence listed here that you accepted is enough on its own. Losing access to money for care, or a greater risk of losing it, threatens an average American’s health, because cost already keeps many people from care.</p>",
    "routes": [
     {
      "id": "S1582_V_SEP_CARE_MONEY_R1",
@@ -8716,7 +8773,7 @@
    "id": "S1582_V_SES_STABILITY",
    "kind": "value",
    "title": "Societal Security: fewer routes to financial crisis",
-   "claim_html": "<p>Fewer runs and forced sales, faster access to payment money after a failure, less pull on bank deposits, or a safety gate and activity limits that keep stablecoin trouble from spreading into banking and commerce would reduce routes to a financial crisis. Each consequence listed here that you accepted is enough on its own. Protecting the country’s economic stability gives a reason to support the bill.</p>",
+   "claim_html": "<p>Fewer runs and forced sales, faster access to payment money after a failure, less pull on bank deposits, a committee test that keeps a commercial group’s financial trouble from spreading, or activity limits that keep an issuer’s trouble from spreading would reduce routes to a financial crisis. Each consequence listed here that you accepted is enough on its own. Protecting the country’s economic stability gives a reason to support the bill.</p>",
    "routes": [
     {
      "id": "S1582_V_SES_STABILITY_R1",
@@ -8738,13 +8795,20 @@
     },
     {
      "id": "S1582_V_SES_STABILITY_R4",
-     "requires": []
+     "requires": [
+      "S1582_K_COMMITTEE_GATE"
+     ]
+    },
+    {
+     "id": "S1582_V_SES_STABILITY_R5",
+     "requires": [
+      "S1582_K_ACTIVITY_LIMITS"
+     ]
     }
    ],
    "context_ids": [],
    "block_ids": [
-    "S1582_B_SES_support_05_P1_2_3",
-    "S1582_B_SES_support_05_N"
+    "S1582_B_CRISIS_PREMISE"
    ],
    "argument_ids": [
     "S1582_SES_support_02",
@@ -9014,21 +9078,20 @@
    "id": "S1582_V_SES_STATE_SUPERVISION",
    "kind": "value",
    "title": "Societal Security: one state’s supervision with national reach",
-   "claim_html": "<p>Giving one state’s supervisor nationwide reach, with only a conditional federal backup, lets a local failure of supervision expose payments across the country.</p>",
+   "claim_html": "<p>A failure of one state’s supervision that exposes payments across the country, and that the conditional federal backup makes harder to contain quickly, threatens the country’s ability to protect its payments from a fast threat. That gives a reason to oppose the bill.</p>",
    "routes": [
     {
      "id": "S1582_V_SES_STATE_SUPERVISION_R1",
-     "requires": []
+     "requires": [
+      "S1582_K_STATE_EXPOSURE"
+     ]
     }
    ],
    "context_ids": [
-    "S1582_X_STATE_ROUTE",
     "S1582_X_LICENSING"
    ],
    "block_ids": [
-    "S1582_B_SES_oppose_06_P3_5",
-    "S1582_B_SES_oppose_06_N0",
-    "S1582_B_DEEMED_APPROVAL_BACKGROUND"
+    "S1582_B_SES_oppose_06_P6"
    ],
    "argument_ids": [
     "S1582_SES_oppose_06"
@@ -9211,7 +9274,7 @@
   }
  ],
  "value_subjects": {
-  "S1582_V_UNN_ENV_CRIME": "interrupting payments for crimes that destroy nature",
+  "S1582_V_UNN_ENV_CRIME": "stronger legal tools against payments for crimes that destroy nature",
   "S1582_V_UNN_FOREST_GIFTS": "safer stablecoin gifts to forest defenders",
   "S1582_V_UNN_RENEW": "more renewable power built or used",
   "S1582_V_UNN_MINING": "added environmental harm from more Bitcoin mining",
@@ -9259,7 +9322,7 @@
   "S1582_V_SES_ESSENTIAL_PAYMENTS": "essential payments exposed to outages or attacks",
   "S1582_V_SES_RUNS": "runs spreading to banks, markets, payments and public finances",
   "S1582_V_SES_CREDIT": "scarcer local credit and lost jobs",
-  "S1582_V_SES_STATE_SUPERVISION": "one state’s supervision with national reach",
+  "S1582_V_SES_STATE_SUPERVISION": "nationwide exposure to one state’s supervisory failure",
   "S1582_V_SES_CONCENTRATION": "concentrated private control over essential payments",
   "S1582_V_SES_FOREIGN_REWARDS": "foreign interests able to enrich the President’s family business",
   "S1582_V_TR_CHURCH_GIFTS": "safer stablecoin gifts to churches and missions",

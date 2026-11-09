@@ -7,8 +7,8 @@ This version replaces the first S.1582 package, which kept the source's 25 old c
 ## Shape
 
 - 15 contexts (not asked): what the bill does; required backing; holders' rights in a failure (priority on reserves, priority for missing reserves, custody); the bankruptcy pause; blocking and lawful-order duties; identity checks; monitoring and reporting; consent limits on payment data; no complaints process in this bill; the issuer-interest ban; federal approval and state licenses; consumer rules for issuers; open networks and personal wallets; state supervision with national reach; permitted coins and commodity law.
-- 70 causal claims and 55 value claims covering all 79 original arguments, all 69 responses (all retained) and all 141 qualification obligations.
-- 323 blocks, all used; 691 source references and 641 citation links.
+- 72 causal claims and 55 value claims covering all 79 original arguments, all 69 responses (all retained) and all 141 qualification obligations.
+- 325 blocks, all used; 689 source references and 632 citation links.
 
 ## Which claims are questions
 
@@ -18,15 +18,15 @@ This version replaces the first S.1582 package, which kept the source's 25 old c
 
 **New causal claims.** Each argument's own forecast is now a question, with its evidence, full response and limits beside it:
 
-- what the protections achieve: backing makes repayment in full more likely; failure rules let holders recover more; failure rules get payment money back sooner; reserve and oversight rules make runs less likely; IT standards make issuers' systems safer; a nationwide license brings new providers; blocking duties stop some identified payments;
+- what the protections achieve: backing makes repayment in full more likely; failure rules let holders recover more; failure rules get payment money back sooner; reserve and oversight rules make runs less likely; the committee test, and separately the limits on issuers' activities, keep trouble from spreading; IT standards make issuers' systems safer; a nationwide license brings new providers; blocking duties stop some identified payments;
 - seven separate mining harms (climate, air, water, cooling, land, electronic waste, noise), each requiring more mining;
 - renewable settlement, then renewable power built, as two steps;
 - household money losing value, frozen in a failure, without refund rights, costly to redeem, or drawn into scams;
-- household payment money depending on networks that can fail, and separately on a network with rising attack rewards;
-- forced sales, Treasury-market pressure and pressure for a rescue as runs' independent channels, beside runs on banks;
+- household payment money, including money for medical care, depending on networks that can fail; and, as a separate claim, such money on Ethereum facing a greater incentive-driven risk of attack (not a claim about how often attacks happen or succeed);
+- forced sales, Treasury-market pressure and pressure for a rescue as runs' independent channels, beside runs on banks; none requires the bank-run claim. The unwritten capital and liquidity standards limit the forced-sale claim, and the pre-bill period of the BIS data limits the Treasury claim;
 - poor and rural lending, local jobs and ministry lending, each narrower than local lending;
-- crime-specific effects: payments for crimes against nature, fentanyl ingredients, ransomware, terrorist funds and then U.S. safety, scams, sexual blackmail, recovery of stolen money, and threat financing. Each has routes through the blocking claim, the identification claim or Section 9 monitoring, as its argument gives;
-- threat channels beyond identity checks, hidden foreign control, rejection of Muslim and Arab customers as high risk, exclusion for documents, deterred association, church gifts moved onto traceable records, platforms pressuring sellers, platforms concentrating control, payment data used to steer customers, the tying ban lowering switching barriers, outside interests enriching the President, dollar reach, net borrowing costs, foreign instability, seigniorage, U.S. capacity, and clearer payment routes for betting and for pornography businesses.
+- crime-specific effects: fentanyl ingredients, ransomware, terrorist funds and then U.S. safety, scams, sexual blackmail, recovery of stolen money, and threat financing. Each has routes through the blocking claim, the identification claim or Section 9 monitoring, as its argument gives;
+- threat channels beyond identity checks, hidden foreign control, a state supervisory failure spreading nationwide under the state route, rejection of Muslim and Arab customers as high risk, exclusion for documents, deterred association, church gifts moved onto traceable records, platforms pressuring sellers, platforms concentrating control, payment data used to steer customers, the tying ban lowering switching barriers, outside interests enriching the President, dollar reach, net borrowing costs, foreign instability, seigniorage, U.S. capacity, and clearer payment routes for betting and for pornography businesses.
 
 A No on added use sets aside 46 decisions; on household use, 10; on more mining, 8.
 
@@ -44,7 +44,7 @@ Equivalent value connections are one judgment with OR routes. Value text says th
 | Personal Security: fewer crime harms | SEP_support_01–05 | five crime claims |
 | Personal Security: money for medical care | SEP_oppose_01, 02, 04 | loss; pause; network failure; attack; spillover to nonusers |
 | Personal Security: financial strain linked to depression | SEP_oppose_03, 04 | fraud; spillover to nonusers |
-| Societal Security: fewer routes to crisis | SES_support_02, 03, 05, 07 | fewer runs; faster access; interest pull; bill's text |
+| Societal Security: fewer routes to crisis | SES_support_02, 03, 05, 07 | fewer runs; faster access; interest pull; committee test; activity limits |
 | Tradition: betting or pornography | TR_oppose_03, 04 | two payment-route claims |
 
 Pairs kept apart, and why:
@@ -55,10 +55,13 @@ Pairs kept apart, and why:
 - **Concern, opportunity and fair approval.** Opportunity depends on new providers reaching people. Fair approval is fair treatment of applicants by officials.
 - Other value claims have one argument, or arguments whose value connections differ.
 
+**Nature: legal tools against crimes that destroy nature.** UNN_support_01 concludes that the explicit freezing duty and the foreign-issuer access condition strengthen the enforceable means to interrupt such payments, and that stronger tools serve defending nature. Each of its two legal paths is sufficient on its own, and it makes no forecast that the tools will be used. That judgment therefore rests on the bill's text, with the evidence that stablecoins carry some illicit-gold payments and the argument's own limits beside it: the gold report says “reportedly” and names no wallets or orders; the wildlife source does not name stablecoins; issuers already froze funds voluntarily; and the FinCEN proposal treats secondary-market monitoring separately from Section 9. Asking whether the tools would actually stop more payments is left to the crime claims that make that forecast.
+
 ## Placement and repetition
 
 - Each decision carries only the evidence, challenges and limits for its own inference. Background shared by several decisions is placed once at the first decision that every affected path passes through, or as one shared block, which the runtime shows in full once per path and collapses afterwards.
-- Statutory background is in contexts. For example, the deemed-approval and state-preemption note appears only with the two value claims about approval and state supervision. It no longer appears at unrelated security values.
+- Statutory background is in contexts. The deemed-approval and state-preemption note appears only at the weaker-checks judgment and the state-supervision forecast. It no longer appears at unrelated security values.
+- The three C09 note paragraphs are shown once at the bank-run claim. Each argument's copy of them is credited there. The standards paragraph also appears at the forced-sale claim, and the reserve-quality and BIS-data paragraph at the Treasury claim.
 - Notes that repeat with only their citation numbers changed are shown once. Every copy is credited to that block as consolidated.
 - Value panels hold only the facts that bear on the value connection. Crime, mining, network and run mechanisms are in their causal panels.
 
@@ -71,11 +74,11 @@ The source's internal claim IDs and claim-ref links are removed. Pointer sentenc
 ## Coverage and quotation checks
 
 - Every argument maps to at least one value claim; argument IDs on nodes and in `coverage.json` agree.
-- Every responses/qualifications ledger ID appears exactly once with argument IDs and source references copied from the ledger. Each row credits the blocks where its text is actually shown. Of the responses, 27 are shown verbatim and 31 consolidated; the other 11 are responses about provisions, which omit only sentences confirming that the provision exists. Of the qualifications, 97 are shown in full and 40 consolidated. Four claim-note fields say only that no claim-level note exists; each is credited to its own claim.
+- Every responses/qualifications ledger ID appears exactly once with argument IDs and source references copied from the ledger. Each row credits the blocks where its text is actually shown. Of the responses, 27 are shown verbatim and 31 consolidated; the other 11 are responses about provisions, which omit only sentences confirming that the provision exists. Of the qualifications, 94 are shown in full and 43 consolidated. Four claim-note fields say only that no claim-level note exists; each is credited to its own claim.
 - Quotation survival check: every quoted passage of 20 or more characters in the frozen arguments, notes and responses appears in the placed text.
-- The runtime validator accepts the package. `auditBill`, run read-only, passes native and independent route-oracle checks on all Yes, all No and every single causal No (72 paths), and on 77 combined-No pairs across alternative routes, with 0 quotation candidates. Targeted traversals confirm that each alternative route survives a No on its siblings. Examples: a No on attack incentives leaves the care-money and essential-payments judgments open through network failure; Nos on runs, Treasury markets and rescues leave the runs judgment open through the pause; a No on the blocking claim leaves each crime claim open through identification or Section 9.
-- Paths (others Yes): all Yes answers 125 decisions plus 6 comparisons (131 judgments) and presents about 45,900 words; the largest decision is about 1,230 words. Answering every causal claim No leaves 38 judgments and sets aside 87 decisions.
+- The runtime validator accepts the package. `auditBill`, run read-only, passes native and independent route-oracle checks on all Yes, all No and every single causal No (74 paths), and on 84 combined-No pairs across alternative routes, with 0 quotation candidates. Targeted traversals confirm that each alternative route survives a No on its siblings. Examples: a No on attack incentives leaves the care-money and essential-payments judgments open through network failure; Nos on runs, Treasury markets and rescues leave the runs judgment open through the pause; a No on the blocking claim leaves each crime claim open through identification or Section 9.
+- Paths (others Yes): all Yes answers 127 decisions plus 6 comparisons (133 judgments) and presents about 46,900 words; the largest decision is about 1,230 words. Answering every causal claim No leaves 40 judgments and sets aside 87 decisions. The only value claims still asked on that path are those that rest on the bill's text alone.
 
 ## Limits
 
-Which claims became questions, the consolidations and distinctions, and the placement of limits are editorial judgments for independent verification. The decomposition adds questions: the all-Yes path has 131 judgments, against 83 in the first version, with similar total words. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.
+Which claims became questions, the consolidations and distinctions, and the placement of limits are editorial judgments for independent verification. The decomposition adds questions: the all-Yes path has 133 judgments, against 83 in the first version, with similar total words. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.

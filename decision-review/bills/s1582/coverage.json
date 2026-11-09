@@ -4,16 +4,14 @@
   {
    "id": "S1582_UNN_support_01",
    "decision_ids": [
-    "S1582_K_ENV_CRIME",
     "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
-    "S1582_B_UNN_support_01_P3_5_7_8",
+    "S1582_B_UNN_support_01_P3_4_5_6_7_8",
     "S1582_B_UNN_support_01_N1",
-    "S1582_B_UNN_support_01_G0",
-    "S1582_B_UNN_support_01_P4_6"
+    "S1582_B_UNN_support_01_G0"
    ],
-   "rationale": "Value link S1582_V_UNN_ENV_CRIME (routes: S1582_K_ENV_CRIME). Its own consequence is judged at S1582_K_ENV_CRIME."
+   "rationale": "Value link S1582_V_UNN_ENV_CRIME (routes: no causal claim). The original argument’s conclusion is that the freezing duty and the foreign-issuer condition strengthen enforceable means; each of its two legal paths is sufficient on its own, so this judgment rests on the bill’s text and does not require a forecast that the tools will be used."
   },
   {
    "id": "S1582_UNN_support_02",
@@ -670,7 +668,8 @@
     "S1582_V_SEP_CARE_MONEY"
    ],
    "block_ids": [
-    "S1582_B_SEP_oppose_02_P2_3_7",
+    "S1582_B_PUBLIC_CHAINS_IN_SCOPE",
+    "S1582_B_SEP_oppose_02_P3_7",
     "S1582_B_SEP_oppose_02_R0_1_2_4",
     "S1582_B_SEP_oppose_02_G0",
     "S1582_B_SEP_oppose_02_R3"
@@ -700,8 +699,7 @@
     "S1582_V_SEP_STRAIN"
    ],
    "block_ids": [
-    "S1582_B_SEP_oppose_04_P2",
-    "S1582_B_SEP_oppose_04_N"
+    "S1582_B_SEP_oppose_04_P2"
    ],
    "rationale": "Value link S1582_V_SEP_CARE_MONEY, S1582_V_SEP_STRAIN (routes: S1582_K_HOUSE_LOSS OR S1582_K_PAUSE_EXPOSURE OR S1582_K_NET_DEPEND OR S1582_K_ATTACK_DEPEND OR S1582_K_USE+S1582_K_RUN_BANKS+S1582_K_SHOCK_REACH; S1582_K_FRAUD OR S1582_K_USE+S1582_K_RUN_BANKS+S1582_K_SHOCK_REACH). Its own consequence is judged at S1582_K_RUN_BANKS. Three arguments make the same Personal Security judgment about money for medical care; loss, the bankruptcy pause, network failure, attack and spillover to nonusers are alternative causal claims. Kept apart from the medical-care judgment: this connection is mental health through financial strain, not access to money for treatment."
   },
@@ -726,10 +724,11 @@
     "S1582_V_SES_STABILITY"
    ],
    "block_ids": [
-    "S1582_B_SES_support_02_P1_2_4_5_6_7_8_9",
+    "S1582_B_CRISIS_PREMISE",
+    "S1582_B_SES_support_02_P4_5_6_7_8_9",
     "S1582_B_SES_support_02_R"
    ],
-   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR no causal claim). Its own consequence is judged at S1582_K_RUN_LESS. Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism remains its own route."
+   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR S1582_K_COMMITTEE_GATE OR S1582_K_ACTIVITY_LIMITS). Its own consequence is judged at S1582_K_RUN_LESS. Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism, including the committee test and the activity limits, is its own causal claim and route."
   },
   {
    "id": "S1582_SES_support_03",
@@ -741,7 +740,7 @@
     "S1582_B_SES_support_03_P4_5",
     "S1582_B_SES_support_03_R0_1_2_3_4"
    ],
-   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR no causal claim). Its own consequence is judged at S1582_K_FAILURE_ACCESS. Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism remains its own route."
+   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR S1582_K_COMMITTEE_GATE OR S1582_K_ACTIVITY_LIMITS). Its own consequence is judged at S1582_K_FAILURE_ACCESS. Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism, including the committee test and the activity limits, is its own causal claim and route."
   },
   {
    "id": "S1582_SES_support_04",
@@ -760,13 +759,16 @@
   {
    "id": "S1582_SES_support_05",
    "decision_ids": [
+    "S1582_K_COMMITTEE_GATE",
+    "S1582_K_ACTIVITY_LIMITS",
     "S1582_V_SES_STABILITY"
    ],
    "block_ids": [
-    "S1582_B_SES_support_05_P1_2_3",
-    "S1582_B_SES_support_05_N"
+    "S1582_B_SEPARATION_NOT_STRICT",
+    "S1582_B_SES_support_05_P1_2",
+    "S1582_B_SES_support_05_P3"
    ],
-   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR no causal claim). Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism remains its own route."
+   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR S1582_K_COMMITTEE_GATE OR S1582_K_ACTIVITY_LIMITS). Its own consequence is judged at S1582_K_COMMITTEE_GATE, S1582_K_ACTIVITY_LIMITS. Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism, including the committee test and the activity limits, is its own causal claim and route."
   },
   {
    "id": "S1582_SES_support_06",
@@ -787,7 +789,7 @@
     "S1582_V_SES_STABILITY"
    ],
    "block_ids": [],
-   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR no causal claim). Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism remains its own route."
+   "rationale": "Value link S1582_V_SES_STABILITY (routes: S1582_K_RUN_LESS OR S1582_K_FAILURE_ACCESS OR S1582_K_INTEREST_PULL OR S1582_K_COMMITTEE_GATE OR S1582_K_ACTIVITY_LIMITS). Four arguments make the same Societal Security judgment about the country’s financial stability; each mechanism, including the committee test and the activity limits, is its own causal claim and route."
   },
   {
    "id": "S1582_SES_support_08",
@@ -882,7 +884,6 @@
    ],
    "block_ids": [
     "S1582_B_RUN_PREMISE",
-    "S1582_B_SES_oppose_04_N0",
     "S1582_B_SES_oppose_04_P4",
     "S1582_B_SES_oppose_04_P8",
     "S1582_B_PAYMENTS_MATTER"
@@ -907,13 +908,15 @@
   {
    "id": "S1582_SES_oppose_06",
    "decision_ids": [
+    "S1582_K_STATE_EXPOSURE",
     "S1582_V_SES_STATE_SUPERVISION"
    ],
    "block_ids": [
     "S1582_B_SES_oppose_06_P3_5",
-    "S1582_B_SES_oppose_06_N0"
+    "S1582_B_SES_oppose_06_N0",
+    "S1582_B_SES_oppose_06_P6"
    ],
-   "rationale": "Value link S1582_V_SES_STATE_SUPERVISION (routes: no causal claim)."
+   "rationale": "Value link S1582_V_SES_STATE_SUPERVISION (routes: S1582_K_STATE_EXPOSURE). Its own consequence is judged at S1582_K_STATE_EXPOSURE."
   },
   {
    "id": "S1582_SES_oppose_08",
@@ -1284,7 +1287,8 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_VICTIM_RECOVERY"
+    "S1582_K_VICTIM_RECOVERY",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_UNC_support_08_R0_1_2",
@@ -1553,7 +1557,8 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_ASSOC_DETER"
+    "S1582_K_ASSOC_DETER",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_UNT_oppose_03_R0_1",
@@ -1604,7 +1609,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_SEP_support_01_R0_1_2_3_4_6",
@@ -1632,7 +1638,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_SEP_support_02_R0_1_2",
@@ -1682,7 +1689,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_SEP_support_04_R0_1_2_3",
@@ -1710,7 +1718,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_SEP_support_05_R0_1_2_3_5",
@@ -1787,7 +1796,8 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_THREAT_FIN"
+    "S1582_K_THREAT_FIN",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_SES_support_01_R0_1_2_3_4_7",
@@ -1989,6 +1999,7 @@
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
     "S1582_K_GIVING_TRACED",
+    "S1582_V_UNN_ENV_CRIME",
     "S1582_V_TR_PRIVATE_GIVING"
    ],
    "block_ids": [
@@ -2376,7 +2387,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C13_RESPONSE1",
@@ -2488,7 +2500,8 @@
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
     "S1582_K_VICTIM_RECOVERY",
-    "S1582_K_THREAT_FIN"
+    "S1582_K_THREAT_FIN",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C18_RESPONSE_SECONDARY",
@@ -2522,7 +2535,8 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C19_RESPONSE0_1_2_4_5",
@@ -2707,18 +2721,18 @@
     "S1582_K_STOP_KNOWN",
     "S1582_K_IDENTIFY",
     "S1582_K_SEC9",
-    "S1582_K_ENV_CRIME",
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C13_NOTES0_2_3",
     "S1582_B_UNN_support_01_N1",
     "S1582_B_FINCEN_PROPOSAL"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_ENV_CRIME, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_UNN_support_01_gap_0",
@@ -2733,12 +2747,12 @@
     }
    ],
    "decision_ids": [
-    "S1582_K_ENV_CRIME"
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_UNN_support_01_G0"
    ],
-   "rationale": "This limit is shown in full as local reading at S1582_K_ENV_CRIME."
+   "rationale": "This limit is shown in full as local reading at S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_UNN_support_02_notes_html",
@@ -3106,13 +3120,14 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_VICTIM_RECOVERY"
+    "S1582_K_VICTIM_RECOVERY",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_UNC_support_08_N0",
     "S1582_B_FINCEN_PROPOSAL"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_VICTIM_RECOVERY."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_VICTIM_RECOVERY, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_UNC_support_08_gap_0",
@@ -3389,12 +3404,13 @@
     }
    ],
    "decision_ids": [
-    "S1582_K_RUN_BANKS"
+    "S1582_K_RUN_BANKS",
+    "S1582_K_FIRESALE"
    ],
    "block_ids": [
-    "S1582_B_UNC_oppose_10_N"
+    "S1582_B_C09_NOTE_UNWRITTEN_STANDARDS"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_RUN_BANKS."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_RUN_BANKS, S1582_K_FIRESALE."
   },
   {
    "id": "UNN_QUAL_S1582_UNC_oppose_11_notes_html",
@@ -3721,13 +3737,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C19_NOTES1",
     "S1582_B_FINCEN_PROPOSAL"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_UNT_oppose_04_notes_html",
@@ -3788,13 +3805,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_PRIOR_MSB_TETHER"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_SEP_support_01_gap_0",
@@ -3835,13 +3853,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_PRIOR_MSB_TETHER"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_SEP_support_03_notes_html",
@@ -3902,13 +3921,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_PRIOR_MSB_TETHER"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_SEP_support_04_gap_0",
@@ -3949,13 +3969,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_PRIOR_MSB_TETHER"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_SEP_support_05_gap_0",
@@ -4033,12 +4054,13 @@
     }
    ],
    "decision_ids": [
-    "S1582_K_NET_DEPEND"
+    "S1582_K_NET_DEPEND",
+    "S1582_K_ATTACK_DEPEND"
    ],
    "block_ids": [
     "S1582_B_SEP_oppose_02_G0"
    ],
-   "rationale": "This limit is shown in full as local reading at S1582_K_NET_DEPEND."
+   "rationale": "This limit is shown in full as local reading at S1582_K_NET_DEPEND, S1582_K_ATTACK_DEPEND."
   },
   {
    "id": "UNN_QUAL_S1582_SEP_oppose_03_notes_html",
@@ -4096,9 +4118,9 @@
     "S1582_K_RUN_BANKS"
    ],
    "block_ids": [
-    "S1582_B_SEP_oppose_04_N"
+    "S1582_B_C09_NOTE_DEPOSIT_PERMISSION"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_RUN_BANKS."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_RUN_BANKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_support_01_notes_html",
@@ -4120,13 +4142,14 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_THREAT_FIN"
+    "S1582_K_THREAT_FIN",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_FINCEN_2019_TETHER_GARANTEX"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_SES_support_01_gap_0",
@@ -4181,12 +4204,13 @@
     }
    ],
    "decision_ids": [
-    "S1582_V_SES_STABILITY"
+    "S1582_K_COMMITTEE_GATE",
+    "S1582_K_ACTIVITY_LIMITS"
    ],
    "block_ids": [
-    "S1582_B_SES_support_05_N"
+    "S1582_B_SEPARATION_NOT_STRICT"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_V_SES_STABILITY."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_COMMITTEE_GATE, S1582_K_ACTIVITY_LIMITS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_support_07_notes_html",
@@ -4309,15 +4333,16 @@
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
     "S1582_K_THREAT_FIN",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNN_ENV_CRIME",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_FINCEN_2019_TETHER_GARANTEX",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN, S1582_K_STATE_EXPOSURE, S1582_V_UNN_ENV_CRIME, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_02_notes_html",
@@ -4333,14 +4358,14 @@
    ],
    "decision_ids": [
     "S1582_K_FOREIGN_CONTROL",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_SES_oppose_02_N0",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_FOREIGN_CONTROL, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_FOREIGN_CONTROL, S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_03_notes_html",
@@ -4356,14 +4381,14 @@
    ],
    "decision_ids": [
     "S1582_K_NET_DEPEND",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_SES_oppose_03_N0",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_NET_DEPEND, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_NET_DEPEND, S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_03_gap_0",
@@ -4399,14 +4424,15 @@
    ],
    "decision_ids": [
     "S1582_K_RUN_BANKS",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_TREASURY_MKT",
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
-    "S1582_B_SES_oppose_04_N0",
+    "S1582_B_C09_NOTE_RESERVE_QUALITY_BIS_DATA",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_RUN_BANKS, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_RUN_BANKS, S1582_K_TREASURY_MKT, S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_05_notes_html",
@@ -4421,13 +4447,13 @@
     }
    ],
    "decision_ids": [
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_06_notes_html",
@@ -4442,14 +4468,14 @@
     }
    ],
    "decision_ids": [
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_SES_oppose_06_N0",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_08_notes_html",
@@ -4466,14 +4492,14 @@
    "decision_ids": [
     "S1582_K_COMMERCIAL",
     "S1582_K_LOCKIN",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_C21_NOTES",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_COMMERCIAL, S1582_K_LOCKIN, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_COMMERCIAL, S1582_K_LOCKIN, S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_SES_oppose_09_notes_html",
@@ -4489,14 +4515,14 @@
    ],
    "decision_ids": [
     "S1582_K_FAMILY",
-    "S1582_V_UNC_WEAKER_CHECKS",
-    "S1582_V_SES_STATE_SUPERVISION"
+    "S1582_K_STATE_EXPOSURE",
+    "S1582_V_UNC_WEAKER_CHECKS"
    ],
    "block_ids": [
     "S1582_B_C24_NOTES",
     "S1582_B_DEEMED_APPROVAL_BACKGROUND"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_FAMILY, S1582_V_UNC_WEAKER_CHECKS, S1582_V_SES_STATE_SUPERVISION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_FAMILY, S1582_K_STATE_EXPOSURE, S1582_V_UNC_WEAKER_CHECKS."
   },
   {
    "id": "UNN_QUAL_S1582_TR_support_02_notes_html",
@@ -4557,12 +4583,13 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_S1582_TR_oppose_02_gap_0",
@@ -5091,12 +5118,16 @@
     }
    ],
    "decision_ids": [
-    "S1582_K_RUN_BANKS"
+    "S1582_K_RUN_BANKS",
+    "S1582_K_FIRESALE",
+    "S1582_K_TREASURY_MKT"
    ],
    "block_ids": [
-    "S1582_B_C09_NOTES"
+    "S1582_B_C09_NOTE_DEPOSIT_PERMISSION",
+    "S1582_B_C09_NOTE_UNWRITTEN_STANDARDS",
+    "S1582_B_C09_NOTE_RESERVE_QUALITY_BIS_DATA"
    ],
-   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_RUN_BANKS."
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at S1582_K_RUN_BANKS, S1582_K_FIRESALE, S1582_K_TREASURY_MKT."
   },
   {
    "id": "UNN_QUAL_C09_scope_html",
@@ -5259,13 +5290,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C13_NOTES0_2_3",
     "S1582_B_FINCEN_PROPOSAL"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_C13_scope_html",
@@ -5416,14 +5448,15 @@
    "decision_ids": [
     "S1582_K_STOP_KNOWN",
     "S1582_K_IDENTIFY",
-    "S1582_K_THREAT_FIN"
+    "S1582_K_THREAT_FIN",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_C27_NOTES0",
     "S1582_B_C13_NOTES0_2_3",
     "S1582_B_FINCEN_2019_TETHER_GARANTEX"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_THREAT_FIN."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_THREAT_FIN, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_C27_scope_html",
@@ -5471,14 +5504,15 @@
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
     "S1582_K_SEXTORTION",
-    "S1582_K_THREAT_FIN"
+    "S1582_K_THREAT_FIN",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_C13_NOTES0_2_3",
     "S1582_B_FINCEN_2019_TETHER_GARANTEX"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_K_THREAT_FIN, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_C18_scope_html",
@@ -5526,13 +5560,14 @@
     "S1582_K_FENTANYL",
     "S1582_K_RANSOMWARE",
     "S1582_K_SCAMS",
-    "S1582_K_SEXTORTION"
+    "S1582_K_SEXTORTION",
+    "S1582_V_UNN_ENV_CRIME"
    ],
    "block_ids": [
     "S1582_B_FINCEN_PROPOSAL",
     "S1582_B_C19_NOTES1"
    ],
-   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION."
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at S1582_K_STOP_KNOWN, S1582_K_IDENTIFY, S1582_K_SEC9, S1582_K_FENTANYL, S1582_K_RANSOMWARE, S1582_K_SCAMS, S1582_K_SEXTORTION, S1582_V_UNN_ENV_CRIME."
   },
   {
    "id": "UNN_QUAL_C20_notes_html",
