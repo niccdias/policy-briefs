@@ -2,9 +2,13 @@
   "schema_version": 1,
   "status": "passed",
   "open_findings": [],
-  "browser": "Isolated headless Chrome; synthetic sessions only.",
-  "script_sha256": "13b9854adcb6e1a168a45cc525b956e4600bad6e7e3b9fb7ddd2236b69afbca4",
+  "browser": "Isolated headless Chrome with Firebase Auth/Firestore emulators; synthetic assigned Google accounts only. The test server adds emulator loopback endpoints to connect-src and a store handle used solely to delay a completed conflict resolution during sign-out; published HTML has neither.",
+  "script_sha256": "1c55a05b3e01ebfbb335878902858f844acbf53c9cbe4dccd497774c15213695",
   "checks": [
+    "s1582: actual browser backtracking/reopening retains saved descendants and comparisons, marks reassessment, and JSON/CSV export plus isolated import work.",
+    "s1582: offline answer stays in account cache until Retry confirms cloud save; independent Firebase client creates a real stale-revision conflict; both explicit resolution paths preserve server history; sign-out during a delayed conflict resolution keeps old private answers hidden and sign-in resumes.",
+    "s1582: normal-weight dotted glossary opens and closes on hover without a dismissal button.",
+    "s1582: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom.",
     "sjres88: normal-weight dotted glossary opens and closes on hover without a dismissal button.",
     "sjres88: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom.",
     "hr5408: normal-weight dotted glossary opens and closes on hover without a dismissal button.",
@@ -17,11 +21,7 @@
     "hr1834: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom.",
     "hr28: normal-weight dotted glossary opens and closes on hover without a dismissal button.",
     "hr28: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom.",
-    "s2: actual browser backtracking/reopening retains saved descendants and comparisons, marks reassessment, and JSON/CSV export plus isolated import work.",
-    "s2: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom.",
-    "s1582: actual browser backtracking/reopening retains saved descendants and comparisons, marks reassessment, and JSON/CSV export plus isolated import work.",
-    "s1582: normal-weight dotted glossary opens and closes on hover without a dismissal button.",
-    "s1582: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom."
+    "s2: root pruning, complete all-Yes UI path, adjacent evidence and goals, notes after buttons, unique references, save/return, second-writer lock, originals, five viewport sizes and 200% zoom."
   ],
   "bills": [
     {
@@ -30,10 +30,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_1582",
         "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
-        "content_id": "content-e72612dfa8b6fef2a20b8fcf8032690dda8ccc7f3f3c0926d483fd889d92e6f5",
+        "content_id": "content-62fa1a7b46e1e900d8555b38c110d7495bc8d684191c54b9a48b0d8d84aeb7b5",
         "mapping_id": "mapping-78ab0fc231f205b48254fda9ddc557b91e5514ed9c636b014fa6ba3db7657f8f",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-e292975d1a86d111ba6c74c9f31babe3c6f471ae7ac90879dca0efa480f6d9ac"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-712af62bf1cb9e41b2816a460026967cf3cf7369ee39a3c7e2c497f1d06633f4"
       },
       "root": "S1582_K_USE",
       "root_no_pruned": 46,
@@ -167,7 +167,7 @@
         "S1582_V_UNT_SANCTIONS"
       ],
       "comparisons": 6,
-      "html_sha256": "cb26297a7a263f6acad85ad4a190680a81a16c896a75a7ef79e8b24e403fc05f"
+      "html_sha256": "524c929e6f1b24f75c42d3e23645423121c3700664431017bf3ad4b521086af9"
     },
     {
       "slug": "sjres88",
@@ -175,10 +175,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_J_Res_88",
         "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
-        "content_id": "content-f712337ca7ba517c96f1d4f9dc45814ea7a45c63ae3983d769b4d0dfb160f7e0",
+        "content_id": "content-d1c73ec171d714e3fa751ac5e302a819b1b8289934683b7fd7584099e1c6d944",
         "mapping_id": "mapping-2179817e7ca112f6f69298020f124434a11f6ab05f5567432c3ddf4bcf7f77ca",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-d84f793806f6e18d98d0f88712fb05c197029234b43a7a38cd616d550a084659"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-54542418a610a51e4f7b392246a47294ceb5f2eeef9bcd1e95a201fe34c3e4a6"
       },
       "root": "SJRES88_K_FACTORY_JOBS",
       "root_no_pruned": 5,
@@ -261,7 +261,7 @@
         "SJRES88_V_SES_LAW"
       ],
       "comparisons": 6,
-      "html_sha256": "0a55c8b15f03663e195c4ed94bf82b716714db96c57e8427a816ea85d85b82e8"
+      "html_sha256": "810ba8f65d89f73ee95a608c599343db5507a4a49d967dc5e3aae17f5fe7ec7b"
     },
     {
       "slug": "hr5408",
@@ -269,10 +269,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_5408",
         "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
-        "content_id": "content-46502e115d29356417501b62b6c4bea271eab714c92fd6874f47217f54e9e446",
+        "content_id": "content-973fc365698d8322c41089f3404e421de2ce0db188bdc4c5603104525f74d4ba",
         "mapping_id": "mapping-4657714a396b8d40db42e00d3c679fe7e3509b93b6cec3c601380e3479410352",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-292e0dd32a5854e64db692392425f7bfaf6d68d4203c5d326b5f595a9c9fb552"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-4547262a06deb08ddce33d8fed132155d56e781a269e3c297a637c9670954f9a"
       },
       "root": "HR5408_DT_K_C05",
       "root_no_pruned": 57,
@@ -387,7 +387,7 @@
         "HR5408_DT_V_UNT_REJECTION"
       ],
       "comparisons": 6,
-      "html_sha256": "c0b0958ace4b53185033c5c392fb4e3ca7101949eddfdfa0d95362dada5b814d"
+      "html_sha256": "2604d8d5d58f738ace249119e14f7fd14d83994a2e8733a52d63419f79387e3c"
     },
     {
       "slug": "hr131",
@@ -395,10 +395,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_131",
         "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
-        "content_id": "content-7b16b58a0d478ff80974cd123ad91ab062d7f3e9a1616e5f0042341997aff04a",
+        "content_id": "content-952f60fd59e89aef9cffd55d2a955eb4865c605d6c1b16a1278733108ce3a5a0",
         "mapping_id": "mapping-c55454571520faea53fbd2130b0fd5a75e0a0b3dee5e4fac93345c4ee798fcb8",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-f4b0fd34419b4202dbe2b11b0d052b614cb171f1163a3b2ae8b51439ee6aab47"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-ac50f6df3c9e288b998de31fdc26e247f435915d792a6a9d20c1a785cdc1509f"
       },
       "root": "HR131_K_BUILD",
       "root_no_pruned": 36,
@@ -453,7 +453,7 @@
         "HR131_V_UNC_ONE"
       ],
       "comparisons": 4,
-      "html_sha256": "2e061ef353d66c17d94e9577fcfdafce1148a5d3f84009b74fe12ef48d1ebafc"
+      "html_sha256": "ccc1ea5f43d21fa414cd611f959c6aebb3217ecff829706069c96bdeb831b0b3"
     },
     {
       "slug": "hr4405",
@@ -461,10 +461,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_4405",
         "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
-        "content_id": "content-b5b06c1b549caf9b47225fccd764d9a32d80fdf9112d6602b260e0b4967507a4",
+        "content_id": "content-847a8731b279899d6274432cabcbde404862e870171030a07973204aa8b8cba2",
         "mapping_id": "mapping-1b7d5313c63e33c725b3f29415eec2a90f35d73ec38dfcded80c1af393981681",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-6c371084c81e615b8bb1d86e4e2b8eaa3f855b1d1541938d1245e00538fdfc73"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-04a04ef41eb0c7bf96ffb74b9edc758f57ed60c9d52dab66ce635b738099ee22"
       },
       "root": "HR4405_K_FACTCHECK",
       "root_no_pruned": 5,
@@ -534,7 +534,7 @@
         "HR4405_V_UNN_ENFORCEMENT"
       ],
       "comparisons": 6,
-      "html_sha256": "e5986eb35d841c162bf1ae786b8f07a1f8f5d6b4769a8c2738a5ead5db39090c"
+      "html_sha256": "25c6394981360792585bea76711fc251fe21cf16c4c7abb863150d29264fa721"
     },
     {
       "slug": "hr1834",
@@ -542,10 +542,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_1834",
         "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
-        "content_id": "content-35e9c99d48769db41526e02566578b136402980bee3081d6880641f4231bd560",
+        "content_id": "content-3dca148cdd641e843be0d5ce281fd62e13980d88e100d15d32cc293611eabcdc",
         "mapping_id": "mapping-8aa10a7001363d5fb92f29c7df2dff77dae3145a2ec72100e07ba64af966a6d7",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-344b1f9ef7cbeae75346136e1505f3ae6a420280303d86a99fc0beef30f72c2e"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-fab35f88939d1e5ccc12ba8b9165c1a4fb62e63a3c39dae666c52c33327da999"
       },
       "root": "HR1834_K_INSURED",
       "root_no_pruned": 33,
@@ -660,7 +660,7 @@
         "HR1834_V_TR_MARRIAGE_O"
       ],
       "comparisons": 6,
-      "html_sha256": "7307a73acfbf1f819b60891a7dec9dd97f9aa7be6ac54d63b5c625c926e156d8"
+      "html_sha256": "53e2a1fb53b06e5d30a25bc40736949aa240f1797ef975a729e9d71b336a3c63"
     },
     {
       "slug": "hr28",
@@ -668,10 +668,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_28",
         "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
-        "content_id": "content-8c079c6289883b4fe4ee1bded0a14d15ebf076198372ec1541b8cd4b05247798",
+        "content_id": "content-e1c36f74d0dab230cb43fee4fcc59ddda616f52a9b2fa1138de081bc0527a877",
         "mapping_id": "mapping-f3355a2d2b634673c5dc3c64894428b2ad60118ae4b396326064e6062eb78185",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-f91a25d7f67fa9008c309dc0ded20290564a8162b9a8a134f3dbc49c9e5f15ed"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-ba1b19575c368078b10a77aec0fdad8fb97b29b2dd32c75731637371ca1f5a3a"
       },
       "root": "HR28_K_PLACES",
       "root_no_pruned": 8,
@@ -736,7 +736,7 @@
         "HR28_V_TR_LOCAL"
       ],
       "comparisons": 5,
-      "html_sha256": "1f0351e3ae7034997f0bf9b84acb274cfc060b5154ad61944e76f5d1e957189d"
+      "html_sha256": "41422b85ea9cb0a16ed84672b9c17e10e5f7c99e1bcc6624000fc9b0bde41a86"
     },
     {
       "slug": "s2",
@@ -744,10 +744,10 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_2",
         "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
-        "content_id": "content-f6dc586470c5f8b4958dbdf92bd4cfa96a133e085442b878f23a6c8cb1f4a2d1",
+        "content_id": "content-3f946da56bcf22acb0b550a48268c239e1090ad5d117b38e625555d059f0e1bb",
         "mapping_id": "mapping-7be0de6ae073ea5fad39b313d6e447d6f6da39a0a2e24bfd8f56fd97cf6dbe83",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-a9a6cf3c5ab1117680f2652c2a8961a0ff420b5301826581dd675f44aa5722e0"
+        "procedure_id": "procedure-b9129167fef8e6ca075b8812d6433dbf45959411dbdc6c3809c94023c43857f7",
+        "rendered_id": "rendered-ca200854ff9829884e6b7a1a5c45beba3acc219c818244fe436a84f74308d692"
       },
       "root": "S2_K_ADDENF",
       "root_no_pruned": 46,
@@ -875,7 +875,7 @@
         "S2_V_UNT_HEARING"
       ],
       "comparisons": 6,
-      "html_sha256": "fef4cfc4312285ae4e0bf64e30c5f97c8e38be9bc4b6f4aa7159a0238b75a107"
+      "html_sha256": "a8b9b37f4e82cbfbfc7371af3d072f95ce91d839724b04df7415591ca3465382"
     }
   ],
   "layouts": [
@@ -2002,52 +2002,6 @@
   ],
   "limits": [
     "No human reading-time or comprehension measurement, physical-device or screen-reader test.",
-    "No production reviewer records or cloud storage accessed."
-  ],
-  "incremental_rechecks": [
-    {
-      "slug": "s2",
-      "reason": "S2-AUDIT-08 changed one qualification block and its source references only; all nodes and routes were identical. The complete S.2 browser walk, pruning, save/return, export/import and 20 layouts were rerun on the corrected release. The other seven bound releases are unchanged.",
-      "previous_release": {
-        "review_id": "policy-stake-briefs-decision-review",
-        "bill_id": "119_S_2",
-        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
-        "content_id": "content-513e4e1bc13898d2a44321e032fa36137073e532c41a22feb809c6d4ddcb6c34",
-        "mapping_id": "mapping-0321290e22038ebc38dc3a587401d11bacb557a8abb6e7257417fd90087c0385",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-990113c801ca4cf9878537240673ca2a0dfcd79629379b60a5874fc0cdd151ff"
-      },
-      "release": {
-        "review_id": "policy-stake-briefs-decision-review",
-        "bill_id": "119_S_2",
-        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
-        "content_id": "content-f6dc586470c5f8b4958dbdf92bd4cfa96a133e085442b878f23a6c8cb1f4a2d1",
-        "mapping_id": "mapping-7be0de6ae073ea5fad39b313d6e447d6f6da39a0a2e24bfd8f56fd97cf6dbe83",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-a9a6cf3c5ab1117680f2652c2a8961a0ff420b5301826581dd675f44aa5722e0"
-      }
-    },
-    {
-      "slug": "s1582",
-      "reason": "S1582-AUDIT-08 through 12 separated the committee, activity and state-risk forecasts, corrected independent care-money attack scope and source-limit placement, and restored the original legal-capability Nature reason. The complete corrected S.1582 browser walk, pruning, save/return, backtracking, export/import and 20 layouts were rerun. The other seven bound releases are unchanged.",
-      "previous_release": {
-        "review_id": "policy-stake-briefs-decision-review",
-        "bill_id": "119_S_1582",
-        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
-        "content_id": "content-02cd9711f2bd81a047ef70e32fa6f500b4561b27d1e224e15170277f0057a605",
-        "mapping_id": "mapping-aeb1d269657248884f6023c351f9af95e7066a0ab09e76e4b934cf18fd9eeac4",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-ff50bf632b8e813cad190d2b0ca68edfcf6a595f3084e42d64a4c7b9ac172236"
-      },
-      "release": {
-        "review_id": "policy-stake-briefs-decision-review",
-        "bill_id": "119_S_1582",
-        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
-        "content_id": "content-e72612dfa8b6fef2a20b8fcf8032690dda8ccc7f3f3c0926d483fd889d92e6f5",
-        "mapping_id": "mapping-78ab0fc231f205b48254fda9ddc557b91e5514ed9c636b014fa6ba3db7657f8f",
-        "procedure_id": "procedure-ba651eaa575550c47af0893f1c37492c752b0723ab5bca8ec1027f4fdb426c60",
-        "rendered_id": "rendered-e292975d1a86d111ba6c74c9f31babe3c6f471ae7ac90879dca0efa480f6d9ac"
-      }
-    }
+    "No production reviewer records accessed; all cloud writes used the demo-decision-review emulator project."
   ]
 }
