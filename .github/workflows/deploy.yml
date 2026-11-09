@@ -41,6 +41,12 @@ jobs:
         run: npm test --prefix pilot
       - name: Build coding view and verify shared release parity
         run: npm run build --prefix pilot
+      - name: Require verified decision-review packages
+        run: node decision-review/publication-gate.mjs
+      - name: Check guided review decisions and saved sessions
+        run: node --test decision-review/runtime/*.test.mjs
+      - name: Build guided reviews for all eight bills
+        run: node decision-review/build-site.mjs --out public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
