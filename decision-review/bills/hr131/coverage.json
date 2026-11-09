@@ -1,0 +1,1853 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "HR131_UNN_support_01",
+   "decision_ids": [
+    "HR131_V_UNN_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_support_01_G0"
+   ],
+   "rationale": "Value link HR131_V_UNN_RIVER (routes: HR131_K_RIVER)."
+  },
+  {
+   "id": "HR131_UNN_support_02",
+   "decision_ids": [
+    "HR131_V_UNN_BOTTLES"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_support_02_G0"
+   ],
+   "rationale": "Value link HR131_V_UNN_BOTTLES (routes: HR131_K_BOTTLE_ENV)."
+  },
+  {
+   "id": "HR131_UNN_support_03",
+   "decision_ids": [
+    "HR131_V_UNN_EQUIP"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_support_03_E45"
+   ],
+   "rationale": "Value link HR131_V_UNN_EQUIP (routes: HR131_K_MINERALS)."
+  },
+  {
+   "id": "HR131_UNN_oppose_01",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_EIS_DISTURBANCE_NOTE"
+   ],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNN_oppose_02",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNN_oppose_03",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNN_oppose_04",
+   "decision_ids": [
+    "HR131_V_UNN_RIVER_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_oppose_04_N1"
+   ],
+   "rationale": "Value link HR131_V_UNN_RIVER_HARM (routes: HR131_K_FLOWS OR HR131_K_SALT). Two arguments make the same Nature judgment about lasting operating effects on the river; flow and salt remain separate causal routes."
+  },
+  {
+   "id": "HR131_UNN_oppose_05",
+   "decision_ids": [
+    "HR131_V_UNN_RIVER_HARM"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR131_V_UNN_RIVER_HARM (routes: HR131_K_FLOWS OR HR131_K_SALT). Two arguments make the same Nature judgment about lasting operating effects on the river; flow and salt remain separate causal routes."
+  },
+  {
+   "id": "HR131_UNN_oppose_06",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNN_oppose_07",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNN_oppose_08",
+   "decision_ids": [
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Value link HR131_V_UNN_BUILD_HARM (routes: HR131_K_PLANTS OR HR131_K_WEEDS OR HR131_K_WILDLIFE OR HR131_K_SOIL OR HR131_K_SPILLS OR HR131_K_DUST). Six arguments make the same Nature judgment about different construction-period harms; each harm is its own causal claim and route, so a No on one harm leaves the others open."
+  },
+  {
+   "id": "HR131_UNC_support_01",
+   "decision_ids": [
+    "HR131_V_UNC_WATER"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_support_01_E11"
+   ],
+   "rationale": "Value link HR131_V_UNC_WATER (routes: HR131_K_HEALTH OR HR131_K_BOTTLED OR HR131_K_SUPPLY). The argument has three independent routes (lower health risk, less need for bottled water, a steadier supply); any one is enough, and the value claim is worded so that it does not assert the others."
+  },
+  {
+   "id": "HR131_UNC_support_02",
+   "decision_ids": [
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "Value link HR131_V_UNC_RELIEF (routes: no causal claim). The argument rests on the hardship provision and the service area’s incomes, both shown as context; its evidence items repeat those contexts and are not shown again."
+  },
+  {
+   "id": "HR131_UNC_support_03",
+   "decision_ids": [
+    "HR131_V_UNC_JOBS"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR131_V_UNC_JOBS (routes: HR131_K_JOBS)."
+  },
+  {
+   "id": "HR131_UNC_support_04",
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_V_UNC_PROMISE"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_support_04_E12",
+    "HR131_B_UNC_support_04_N1",
+    "HR131_B_UNC_support_04_G0"
+   ],
+   "rationale": "Value link HR131_V_UNC_PROMISE (routes: HR131_K_BUILD). Its own consequence is judged at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_UNC_oppose_01",
+   "decision_ids": [
+    "HR131_V_UNC_COST"
+   ],
+   "block_ids": [
+    "HR131_B_INCOME_NOTE",
+    "HR131_B_UNC_oppose_01_E67",
+    "HR131_B_UNC_COST_CHALLENGE",
+    "HR131_B_UNC_COST_LIMIT"
+   ],
+   "rationale": "Value link HR131_V_UNC_COST (routes: HR131_K_COST)."
+  },
+  {
+   "id": "HR131_UNC_oppose_02",
+   "decision_ids": [
+    "HR131_V_UNC_ONE"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_oppose_02_E1234567",
+    "HR131_B_UNC_ONE_CHALLENGE"
+   ],
+   "rationale": "Value link HR131_V_UNC_ONE (routes: no causal claim)."
+  },
+  {
+   "id": "HR131_UNT_oppose_01",
+   "decision_ids": [
+    "HR131_V_UNT_SITES"
+   ],
+   "block_ids": [
+    "HR131_B_UNT_oppose_01_E78"
+   ],
+   "rationale": "Value link HR131_V_UNT_SITES (routes: HR131_K_SITES)."
+  },
+  {
+   "id": "HR131_SEP_support_01",
+   "decision_ids": [
+    "HR131_V_SEP_HEALTH"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Value link HR131_V_SEP_HEALTH (routes: HR131_K_HEALTH)."
+  },
+  {
+   "id": "HR131_SEP_support_02",
+   "decision_ids": [
+    "HR131_V_SEP_SUPPLY"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_SEP_support_02_E57"
+   ],
+   "rationale": "Value link HR131_V_SEP_SUPPLY (routes: HR131_K_SUPPLY)."
+  },
+  {
+   "id": "HR131_SEP_support_03",
+   "decision_ids": [
+    "HR131_V_SEP_BILLS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_SEP_support_03_E345"
+   ],
+   "rationale": "Value link HR131_V_SEP_BILLS (routes: HR131_K_BILLS)."
+  },
+  {
+   "id": "HR131_SEP_oppose_01",
+   "decision_ids": [
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Value link HR131_V_SEP_HAZARDS (routes: HR131_K_DUST_HEALTH OR HR131_K_TRAFFIC OR HR131_K_NOISE). Three arguments make the same Personal Security judgment about different temporary construction hazards; dust, traffic and noise remain separate causal routes."
+  },
+  {
+   "id": "HR131_SEP_oppose_02",
+   "decision_ids": [
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Value link HR131_V_SEP_HAZARDS (routes: HR131_K_DUST_HEALTH OR HR131_K_TRAFFIC OR HR131_K_NOISE). Three arguments make the same Personal Security judgment about different temporary construction hazards; dust, traffic and noise remain separate causal routes."
+  },
+  {
+   "id": "HR131_SEP_oppose_03",
+   "decision_ids": [
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Value link HR131_V_SEP_HAZARDS (routes: HR131_K_DUST_HEALTH OR HR131_K_TRAFFIC OR HR131_K_NOISE). Three arguments make the same Personal Security judgment about different temporary construction hazards; dust, traffic and noise remain separate causal routes."
+  },
+  {
+   "id": "HR131_SES_support_01",
+   "decision_ids": [
+    "HR131_V_SES_HEALTH"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_01_E34"
+   ],
+   "rationale": "Value link HR131_V_SES_HEALTH (routes: HR131_K_HEALTH)."
+  },
+  {
+   "id": "HR131_SES_support_02",
+   "decision_ids": [
+    "HR131_V_SES_SERVICE"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_02_E4"
+   ],
+   "rationale": "Value link HR131_V_SES_SERVICE (routes: HR131_K_SUPPLY OR HR131_K_PROVIDERS OR HR131_K_MINERALS). Three arguments make the same Societal Security judgment about keeping essential water service running; supply, provider budgets and equipment wear remain separate causal routes."
+  },
+  {
+   "id": "HR131_SES_support_03",
+   "decision_ids": [
+    "HR131_V_SES_SERVICE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR131_V_SES_SERVICE (routes: HR131_K_SUPPLY OR HR131_K_PROVIDERS OR HR131_K_MINERALS). Three arguments make the same Societal Security judgment about keeping essential water service running; supply, provider budgets and equipment wear remain separate causal routes."
+  },
+  {
+   "id": "HR131_SES_support_04",
+   "decision_ids": [
+    "HR131_V_SES_SERVICE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR131_V_SES_SERVICE (routes: HR131_K_SUPPLY OR HR131_K_PROVIDERS OR HR131_K_MINERALS). Three arguments make the same Societal Security judgment about keeping essential water service running; supply, provider budgets and equipment wear remain separate causal routes."
+  },
+  {
+   "id": "HR131_SES_support_05",
+   "decision_ids": [
+    "HR131_V_SES_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_05_G0"
+   ],
+   "rationale": "Value link HR131_V_SES_RIVER (routes: HR131_K_RIVER)."
+  },
+  {
+   "id": "HR131_SES_support_06",
+   "decision_ids": [
+    "HR131_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_06_G0"
+   ],
+   "rationale": "Value link HR131_V_SES_ECONOMY (routes: HR131_K_ECONOMY)."
+  },
+  {
+   "id": "HR131_SES_oppose_01",
+   "decision_ids": [
+    "HR131_V_SES_COST"
+   ],
+   "block_ids": [
+    "HR131_B_SES_oppose_01_E56",
+    "HR131_B_SES_COST_CHALLENGE",
+    "HR131_B_SES_COST_LIMIT"
+   ],
+   "rationale": "Value link HR131_V_SES_COST (routes: HR131_K_COST)."
+  },
+  {
+   "id": "HR131_TR_support_02",
+   "decision_ids": [
+    "HR131_V_TR_CAROLING"
+   ],
+   "block_ids": [
+    "HR131_B_TR_support_02_E4",
+    "HR131_B_TR_support_02_G0",
+    "HR131_B_TR_support_02_G1"
+   ],
+   "rationale": "Value link HR131_V_TR_CAROLING (routes: HR131_K_STAY)."
+  }
+ ],
+ "responses": [
+  {
+   "id": "HR131_RESPONSE_HR131_UNC_oppose_01",
+   "argument_ids": [
+    "HR131_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument treats the higher payments under the old schedule as money available for other needs. The district responsible for repayment reports that those payments are in doubt. This response does not dispute that cheaper financi"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST",
+    "HR131_V_UNC_COST"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_COST_CHALLENGE",
+    "HR131_B_COST_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "Its shared point (payments in doubt) is in the federal-cost challenge; its argument-specific reply (the old payments are not money freed for other water needs) is a challenge at the Concern cost link."
+  },
+  {
+   "id": "HR131_RESPONSE_HR131_UNC_oppose_02",
+   "argument_ids": [
+    "HR131_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "Response Being left out of one project's repayment terms does not by itself show unfair access to help with the same basic water needs. Because This bill changes a particular repayment duty. Reclamation explains that rising costs left the p"
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNC_COST",
+    "HR131_V_UNC_ONE"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_ONE_CHALLENGE",
+    "HR131_B_INCOME_NOTE"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown in full substance as one challenge at the one-project link, merged with the overlapping evidence note on other water aid; the income figure is shown once as a limit."
+  },
+  {
+   "id": "HR131_RESPONSE_HR131_SES_oppose_01",
+   "argument_ids": [
+    "HR131_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument treats higher promised repayments as money that keeping the current terms would preserve. The record reports a payment problem under those terms. This response does not dispute that CBO lists a small direct-spending in"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST",
+    "HR131_V_SES_COST"
+   ],
+   "block_ids": [
+    "HR131_B_SES_COST_CHALLENGE",
+    "HR131_B_COST_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "Its district, Reclamation and CBO-method material is in the federal-cost challenge; its reply about preserved repayments and the hardship condition is a challenge at the Societal Security cost link."
+  },
+  {
+   "id": "HR131_RESPONSE_HR131_C13",
+   "argument_ids": [
+    "HR131_UNC_oppose_01",
+    "HR131_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C13",
+     "field": "response_reading",
+     "quote": "This claim counts the higher payments under the old terms as money the government would keep. The district responsible for repayment says expected project revenues no longer cover those terms: “When Public Law 111-11 was enacted, miscellane"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST"
+   ],
+   "block_ids": [
+    "HR131_B_COST_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "Consolidated with the overlapping parts of the two cost responses into one challenge at the federal-cost claim: the amount owed may not be collected, but the cost is not shown to be zero."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "HR131_QUAL_HR131_UNN_support_01_notes_html",
+   "argument_ids": [
+    "HR131_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_RIVER",
+    "HR131_K_PLANTS",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_RIVER_LIMITS",
+    "HR131_B_EIS_DISTURBANCE_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_RIVER, HR131_K_PLANTS, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_support_01_gap_0",
+   "argument_ids": [
+    "HR131_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "The sources show that the discharge of waste into the river has to end eventually, and that La Junta is seeking other fixes. So no source estimates how much H.R.131 itself would reduce this waste. This limits the size of the effect."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNN_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_support_01_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_UNN_RIVER."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_support_02_notes_html",
+   "argument_ids": [
+    "HR131_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_BOTTLED"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_BOTTLED_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_BOTTLED."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_support_02_gap_0",
+   "argument_ids": [
+    "HR131_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "The study is national, and the local sources do not say how many families would switch. This limits the size of the effect."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNN_BOTTLES"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_support_02_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_UNN_BOTTLES."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_support_03_notes_html",
+   "argument_ids": [
+    "HR131_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_PLANTS",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_EIS_DISTURBANCE_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_PLANTS, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_01_gap_0",
+   "argument_ids": [
+    "HR131_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "The sources give figures for the whole project, not for the part still to be built. This limits the size of the effect."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PLANTS"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_oppose_01_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_K_PLANTS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_WEEDS",
+    "HR131_K_SOIL",
+    "HR131_K_SPILLS",
+    "HR131_K_DUST",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_WEEDS, HR131_K_SOIL, HR131_K_SPILLS, HR131_K_DUST, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_03_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_WILDLIFE"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_UNN_oppose_03_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_WILDLIFE."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_04_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_FLOWS",
+    "HR131_V_UNN_RIVER_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_UNN_oppose_04_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_FLOWS, HR131_V_UNN_RIVER_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_05_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_05_gap_0",
+   "argument_ids": [
+    "HR131_UNN_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_05",
+     "field": "gaps[0].explanation",
+     "quote": "The source says 'for most alternatives compared to No Action', meaning most of the project designs compared with having no conduit. The passage read does not name the exceptions. The sources do not settle how far the claim reaches."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_SALT"
+   ],
+   "block_ids": [
+    "HR131_B_UNN_oppose_05_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_K_SALT."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_06_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_WEEDS",
+    "HR131_K_SOIL",
+    "HR131_K_SPILLS",
+    "HR131_K_DUST",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_WEEDS, HR131_K_SOIL, HR131_K_SPILLS, HR131_K_DUST, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_07_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_WEEDS",
+    "HR131_K_SOIL",
+    "HR131_K_SPILLS",
+    "HR131_K_DUST",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_WEEDS, HR131_K_SOIL, HR131_K_SPILLS, HR131_K_DUST, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNN_oppose_08_notes_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNN_oppose_08",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. In May 2025 the local water district reported that the Bureau of Reclamation had funds “enough to construct the AVC Trunk Line to Manzanola by 2030 and design the entire AVC,” and that "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_WEEDS",
+    "HR131_K_SOIL",
+    "HR131_K_SPILLS",
+    "HR131_K_DUST",
+    "HR131_V_UNN_BUILD_HARM"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_ROD_PROTECTIONS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_WEEDS, HR131_K_SOIL, HR131_K_SPILLS, HR131_K_DUST, HR131_V_UNN_BUILD_HARM."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_01_notes_html",
+   "argument_ids": [
+    "HR131_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Under existing law, the federal government finances 100 percent of construction. The local (nonfederal) side repays 35 percent over 50 years, starting after the project is finished. H.R.131 provides no construction funds. In "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_02_notes_html",
+   "argument_ids": [
+    "HR131_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Southeastern Colorado Water Conservancy District is the local public body responsible for repayment. Money from other users of the wider federal water project counts toward the conduit's cost. The local water systems taki"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PROVIDERS",
+    "HR131_K_BILLS",
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_PROVIDERS, HR131_K_BILLS, HR131_V_UNC_RELIEF."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_02_gap_0",
+   "argument_ids": [
+    "HR131_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "The sources do not say how the repayment saving would reach water bills. This point's claim is about local water budgets."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PROVIDERS",
+    "HR131_K_BILLS",
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_PROVIDERS, HR131_K_BILLS, HR131_V_UNC_RELIEF."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_03_notes_html",
+   "argument_ids": [
+    "HR131_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Under existing law, the federal government finances 100 percent of construction. The local (nonfederal) side repays 35 percent over 50 years, starting after the project is finished. H.R.131 provides no construction funds. In "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_03_gap_0",
+   "argument_ids": [
+    "HR131_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_03",
+     "field": "gaps[0].explanation",
+     "quote": "The plan does not say how many construction jobs or how much business would go to local people. This limits how many people the effect reaches."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_JOBS"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_support_03_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_K_JOBS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_04_notes_html",
+   "argument_ids": [
+    "HR131_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Under existing law, the federal government finances 100 percent of construction. The local (nonfederal) side repays 35 percent over 50 years, starting after the project is finished. H.R.131 provides no construction funds. In "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_V_UNC_PROMISE"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_UNC_support_04_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_V_UNC_PROMISE."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_support_04_gap_0",
+   "argument_ids": [
+    "HR131_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_support_04",
+     "field": "gaps[0].explanation",
+     "quote": "The 1962 law authorized the project with a repayment condition. The text of President Kennedy's speech in Pueblo is not in these sources. The language about a commitment comes from later speakers and from the Bureau of Reclamation."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNC_PROMISE"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_support_04_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_UNC_PROMISE."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_oppose_01_notes_html",
+   "argument_ids": [
+    "HR131_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: District testimony reports a median household income of $47,000 in the conduit service area against $89,000 for Colorado. The people H.R.131's easier repayment is meant to help are themselves low-income compared with the rest"
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNC_COST",
+    "HR131_V_UNC_ONE"
+   ],
+   "block_ids": [
+    "HR131_B_INCOME_NOTE",
+    "HR131_B_UNC_COST_LIMIT"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_V_UNC_COST, HR131_V_UNC_ONE."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_oppose_01_gap_0",
+   "argument_ids": [
+    "HR131_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "No source traces this cost to a water program."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNC_COST"
+   ],
+   "block_ids": [
+    "HR131_B_UNC_COST_LIMIT"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_UNC_COST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "HR131_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: District testimony reports a median household income of $47,000 in the conduit service area against $89,000 for Colorado. The people H.R.131's easier repayment is meant to help are themselves low-income compared with the rest"
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_UNC_COST",
+    "HR131_V_UNC_ONE"
+   ],
+   "block_ids": [
+    "HR131_B_INCOME_NOTE",
+    "HR131_B_UNC_ONE_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_V_UNC_COST, HR131_V_UNC_ONE."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNT_oppose_01_notes_html",
+   "argument_ids": [
+    "HR131_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNT_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2013 federal environmental impact statement (EIS) reports 850 cultural resources within a 2-mile zone (buffer) across all project options. These include 55 prehistoric sites and 53 prehistoric isolates (single objects fou"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_SITES"
+   ],
+   "block_ids": [
+    "HR131_B_UNT_oppose_01_N0",
+    "HR131_B_UNT_oppose_01_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_K_SITES."
+  },
+  {
+   "id": "HR131_QUAL_HR131_UNT_oppose_01_gap_0",
+   "argument_ids": [
+    "HR131_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_UNT_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "These sources do not say which recorded sites lie in the second half of the project, and surveys cover 4 to 19 percent of the area. So the sources do not show how far the risk reaches."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_SITES"
+   ],
+   "block_ids": [
+    "HR131_B_UNT_oppose_01_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_K_SITES."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_support_01_notes_html",
+   "argument_ids": [
+    "HR131_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_HEALTH",
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_HEALTH_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_HEALTH, HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_support_02_notes_html",
+   "argument_ids": [
+    "HR131_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_support_03_notes_html",
+   "argument_ids": [
+    "HR131_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_support_03_gap_0",
+   "argument_ids": [
+    "HR131_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_support_03",
+     "field": "gaps[0].explanation",
+     "quote": "The local water district is the body responsible for repayment, and money from other users pays part of the local share. No source traces the saving to any household's water bill. This point says only that the bill helps limit pressure on b"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PROVIDERS",
+    "HR131_K_BILLS",
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_PROVIDERS, HR131_K_BILLS, HR131_V_UNC_RELIEF."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_oppose_01_notes_html",
+   "argument_ids": [
+    "HR131_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_DUST_HEALTH",
+    "HR131_K_TRAFFIC",
+    "HR131_K_NOISE",
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_TEMPORARY_EFFECTS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_K_DUST_HEALTH, HR131_K_TRAFFIC, HR131_K_NOISE, HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_oppose_02_notes_html",
+   "argument_ids": [
+    "HR131_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_DUST_HEALTH",
+    "HR131_K_TRAFFIC",
+    "HR131_K_NOISE",
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_TEMPORARY_EFFECTS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_K_DUST_HEALTH, HR131_K_TRAFFIC, HR131_K_NOISE, HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SEP_oppose_03_notes_html",
+   "argument_ids": [
+    "HR131_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SEP_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The conduit’s service area is the Lower Arkansas River Valley east of Pueblo, with 39 participating water systems and a service population of about 50,000. Both the benefits and the construction hazards fall mainly on people "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_DUST_HEALTH",
+    "HR131_K_TRAFFIC",
+    "HR131_K_NOISE",
+    "HR131_V_SEP_HEALTH",
+    "HR131_V_SEP_SUPPLY",
+    "HR131_V_SEP_BILLS",
+    "HR131_V_SEP_HAZARDS"
+   ],
+   "block_ids": [
+    "HR131_B_SERVICE_AREA_NOTE",
+    "HR131_B_TEMPORARY_EFFECTS_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_K_DUST_HEALTH, HR131_K_TRAFFIC, HR131_K_NOISE, HR131_V_SEP_HEALTH, HR131_V_SEP_SUPPLY, HR131_V_SEP_BILLS, HR131_V_SEP_HAZARDS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_01_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_HEALTH"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_HEALTH_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_HEALTH."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_02_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_HEALTH",
+    "HR131_K_SUPPLY"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_SUPPLY_LIMITS",
+    "HR131_B_HEALTH_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_HEALTH, HR131_K_SUPPLY."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_03_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_COST"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_HARDSHIP_WORDING"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_COST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_03_gap_0",
+   "argument_ids": [
+    "HR131_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_03",
+     "field": "gaps[0].explanation",
+     "quote": "The local water district is the body responsible for repayment, and other revenues pay part of the local share. The sources do not trace the savings to any water provider's budget. This limits the size and reach of the effect."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PROVIDERS",
+    "HR131_K_BILLS",
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_PROVIDERS, HR131_K_BILLS, HR131_V_UNC_RELIEF."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_04_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_05_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD",
+    "HR131_K_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS",
+    "HR131_B_RIVER_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD, HR131_K_RIVER."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_05_gap_0",
+   "argument_ids": [
+    "HR131_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_05",
+     "field": "gaps[0].explanation",
+     "quote": "The argument treats the river as a shared essential resource, but no cited source links this discharge to the security of the country."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_SES_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_05_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_SES_RIVER."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_06_notes_html",
+   "argument_ids": [
+    "HR131_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: H.R.131 provides no construction money. After President Trump vetoed (rejected) the bill on December 31, 2025, the local water district reported that funding already in place was not affected and that construction continued. "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_support_06_gap_0",
+   "argument_ids": [
+    "HR131_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_support_06",
+     "field": "gaps[0].explanation",
+     "quote": "The argument moves from local economies to a stable country without a source for that step."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "HR131_B_SES_support_06_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_SES_ECONOMY."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_oppose_01_notes_html",
+   "argument_ids": [
+    "HR131_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Later accounts by others describe the bill’s hardship rule differently from the bill’s text. The local water district’s message after the veto says the bill “Provides an opportunity for a federal decision on debt forgiveness "
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST",
+    "HR131_V_SES_COST"
+   ],
+   "block_ids": [
+    "HR131_B_HARDSHIP_WORDING",
+    "HR131_B_COST_LIMITS",
+    "HR131_B_SES_COST_LIMIT"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_COST, HR131_V_SES_COST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_SES_oppose_01_gap_0",
+   "argument_ids": [
+    "HR131_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_SES_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "The statements from Congress's Joint Economic Committee (JEC) and the Congressional Budget Office (CBO) are general. They name no program that H.R.131 would reduce."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_SES_COST"
+   ],
+   "block_ids": [
+    "HR131_B_SES_COST_LIMIT"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_V_SES_COST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_TR_support_02_notes_html",
+   "argument_ids": [
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_TR_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The same passage from the water district’s spokesman says “the decline of a lot of the communities in the Lower Arkansas Valley is directly related to the poor quality of water.” A farm article in these sources says the water"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_STAY"
+   ],
+   "block_ids": [
+    "HR131_B_TR_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR131_K_STAY."
+  },
+  {
+   "id": "HR131_QUAL_HR131_TR_support_02_gap_0",
+   "argument_ids": [
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_TR_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "No source links water or its cost to whether the Swink caroling continues. The step from staying in town to keeping the custom is the argument's own inference, worded as 'can help'."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_TR_CAROLING"
+   ],
+   "block_ids": [
+    "HR131_B_TR_support_02_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_TR_CAROLING."
+  },
+  {
+   "id": "HR131_QUAL_HR131_TR_support_02_gap_1",
+   "argument_ids": [
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_TR_support_02",
+     "field": "gaps[1].explanation",
+     "quote": "The water district’s spokesman speaks of valley towns generally, and the caroling source is from 2021. The sources do not say the custom depends on any resident's decision to stay."
+    }
+   ],
+   "decision_ids": [
+    "HR131_V_TR_CAROLING"
+   ],
+   "block_ids": [
+    "HR131_B_TR_support_02_G1"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR131_V_TR_CAROLING."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C01_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_01",
+    "HR131_UNN_support_02",
+    "HR131_UNN_support_03",
+    "HR131_UNN_oppose_01",
+    "HR131_UNN_oppose_02",
+    "HR131_UNN_oppose_03",
+    "HR131_UNN_oppose_04",
+    "HR131_UNN_oppose_05",
+    "HR131_UNN_oppose_06",
+    "HR131_UNN_oppose_07",
+    "HR131_UNN_oppose_08",
+    "HR131_UNC_support_01",
+    "HR131_UNC_support_02",
+    "HR131_UNC_support_03",
+    "HR131_UNC_support_04",
+    "HR131_UNC_oppose_01",
+    "HR131_UNC_oppose_02",
+    "HR131_UNT_oppose_01",
+    "HR131_SEP_support_01",
+    "HR131_SEP_support_02",
+    "HR131_SEP_support_03",
+    "HR131_SEP_oppose_01",
+    "HR131_SEP_oppose_02",
+    "HR131_SEP_oppose_03",
+    "HR131_SES_support_01",
+    "HR131_SES_support_02",
+    "HR131_SES_support_03",
+    "HR131_SES_support_04",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_SES_oppose_01",
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C01",
+     "field": "scope_html",
+     "quote": "The comparison is with the law in force on January 8, 2026. The lower rate and longer period depend on a showing of financial hardship, as decided by the Secretary of the Interior. The text does not use the word forgiveness, although the di"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST"
+   ],
+   "block_ids": [
+    "HR131_B_HARDSHIP_WORDING"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_COST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C02_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_01",
+    "HR131_UNN_support_02",
+    "HR131_UNN_support_03",
+    "HR131_UNN_oppose_01",
+    "HR131_UNN_oppose_02",
+    "HR131_UNN_oppose_03",
+    "HR131_UNN_oppose_04",
+    "HR131_UNN_oppose_05",
+    "HR131_UNN_oppose_06",
+    "HR131_UNN_oppose_07",
+    "HR131_UNN_oppose_08",
+    "HR131_UNC_support_01",
+    "HR131_UNC_support_02",
+    "HR131_UNC_support_03",
+    "HR131_UNC_support_04",
+    "HR131_UNT_oppose_01",
+    "HR131_SEP_support_01",
+    "HR131_SEP_support_02",
+    "HR131_SEP_support_03",
+    "HR131_SEP_oppose_01",
+    "HR131_SEP_oppose_02",
+    "HR131_SEP_oppose_03",
+    "HR131_SES_support_01",
+    "HR131_SES_support_02",
+    "HR131_SES_support_03",
+    "HR131_SES_support_04",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C02",
+     "field": "scope_html",
+     "quote": "This concerns the construction share only. The sources do not estimate the change for any household's water bill. The district, not each town, is the repayment body, and revenue from other users of the wider federal water project counts tow"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_PROVIDERS",
+    "HR131_K_BILLS",
+    "HR131_V_UNC_RELIEF"
+   ],
+   "block_ids": [
+    "HR131_B_LOCAL_SHARE_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_PROVIDERS, HR131_K_BILLS, HR131_V_UNC_RELIEF."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C03_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_01",
+    "HR131_UNN_support_02",
+    "HR131_UNN_support_03",
+    "HR131_UNN_oppose_01",
+    "HR131_UNN_oppose_02",
+    "HR131_UNN_oppose_03",
+    "HR131_UNN_oppose_04",
+    "HR131_UNN_oppose_05",
+    "HR131_UNN_oppose_06",
+    "HR131_UNN_oppose_07",
+    "HR131_UNN_oppose_08",
+    "HR131_UNC_support_01",
+    "HR131_UNC_support_03",
+    "HR131_UNC_support_04",
+    "HR131_UNT_oppose_01",
+    "HR131_SEP_support_01",
+    "HR131_SEP_support_02",
+    "HR131_SEP_oppose_01",
+    "HR131_SEP_oppose_02",
+    "HR131_SEP_oppose_03",
+    "HR131_SES_support_01",
+    "HR131_SES_support_02",
+    "HR131_SES_support_04",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C03",
+     "field": "scope_html",
+     "quote": "This claim is about help, not a guarantee. The relief depends on the hardship showing in the bill. The bill “was not an appropriations bill,” so it gives no construction money ( district newsletter, January 2026 ). Other funding also matter"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BUILD"
+   ],
+   "block_ids": [
+    "HR131_B_BUILD_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BUILD."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C04_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_01",
+    "HR131_UNN_support_02",
+    "HR131_UNN_support_03",
+    "HR131_UNC_support_01",
+    "HR131_SEP_support_01",
+    "HR131_SES_support_01",
+    "HR131_SES_support_04",
+    "HR131_SES_support_05",
+    "HR131_SES_support_06",
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C04",
+     "field": "scope_html",
+     "quote": "This is conditional on the conduit reaching a community. The water would “supplement or replace” groundwater, so not every community would stop using all of its current sources ( 2022 environmental assessment ). Local water systems would st"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_CLEAN"
+   ],
+   "block_ids": [
+    "HR131_B_CLEAN_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_CLEAN."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C05_scope_html",
+   "argument_ids": [
+    "HR131_UNC_support_01",
+    "HR131_SEP_support_01",
+    "HR131_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C05",
+     "field": "scope_html",
+     "quote": "This does not apply to every community. Counts differ: Reclamation refers to twelve water providers ( Reclamation testimony, 2024 ), the state health agency to seventeen under enforcement orders ( Colorado Sun, October 2025 ) and the distri"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_HEALTH"
+   ],
+   "block_ids": [
+    "HR131_B_HEALTH_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_HEALTH."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C06_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_03",
+    "HR131_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C06",
+     "field": "scope_html",
+     "quote": "The sources describe the kind of damage. They do not estimate how much pipe or equipment would last longer after the switch."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_MINERALS"
+   ],
+   "block_ids": [
+    "HR131_B_C06_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR131_K_MINERALS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C07_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_01",
+    "HR131_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C07",
+     "field": "scope_html",
+     "quote": "The direct statements concern La Junta and Las Animas, and the clearest one concerns Las Animas. Under the funding available in 2026 the pipeline would not reach those towns ( Rocky Mountain PBS, 2026 ), so this depends on later constructio"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_RIVER"
+   ],
+   "block_ids": [
+    "HR131_B_RIVER_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_RIVER."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C08_scope_html",
+   "argument_ids": [
+    "HR131_UNN_support_02",
+    "HR131_UNC_support_01",
+    "HR131_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C08",
+     "field": "scope_html",
+     "quote": "Bottled water is one of several ways people cope, and some buy it partly because of taste. In 2014 a local water manager estimated that 80 percent of his customers had a softener and filter at home ( Colorado Water magazine, 2014 ). The sou"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_BOTTLED"
+   ],
+   "block_ids": [
+    "HR131_B_BOTTLED_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_BOTTLED."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C09_scope_html",
+   "argument_ids": [
+    "HR131_UNC_support_01",
+    "HR131_SEP_support_02",
+    "HR131_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C09",
+     "field": "scope_html",
+     "quote": "The 2022 review says the project “would not increase Fry-Ark Project water diversions” ( 2022 environmental assessment ). “Fry-Ark” is the Fryingpan-Arkansas Project, the wider federal water project. So the conduit delivers water by pipe; i"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_SUPPLY"
+   ],
+   "block_ids": [
+    "HR131_B_SUPPLY_LIMITS"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR131_K_SUPPLY."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C10_scope_html",
+   "argument_ids": [
+    "HR131_UNC_support_01",
+    "HR131_SEP_support_02",
+    "HR131_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C10",
+     "field": "scope_html",
+     "quote": "The statement comes from an opinion article by the bill's Senate sponsors. Water would reach these buildings through each town's own water system. Under the funding available in 2026 the pipeline would not reach La Junta ( Rocky Mountain PB"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_SUPPLY"
+   ],
+   "block_ids": [
+    "HR131_B_SUPPLY_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_SUPPLY."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C11_scope_html",
+   "argument_ids": [
+    "HR131_UNC_support_02",
+    "HR131_UNC_support_03",
+    "HR131_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C11",
+     "field": "scope_html",
+     "quote": "These are figures and descriptions for the whole area, not for each town or family. The income figures come from district testimony."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_ECONOMY",
+    "HR131_V_UNC_RELIEF",
+    "HR131_V_UNC_JOBS"
+   ],
+   "block_ids": [
+    "HR131_B_C11_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR131_K_ECONOMY, HR131_V_UNC_RELIEF, HR131_V_UNC_JOBS."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C12_scope_html",
+   "argument_ids": [
+    "HR131_UNN_oppose_08",
+    "HR131_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C12",
+     "field": "scope_html",
+     "quote": "The federal review lists air quality among resources with minimal effects ( 2013 environmental impact statement ). The sources do not measure dust at a particular place."
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_DUST"
+   ],
+   "block_ids": [
+    "HR131_B_C12_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR131_K_DUST."
+  },
+  {
+   "id": "HR131_QUAL_HR131_C13_scope_html",
+   "argument_ids": [
+    "HR131_UNC_oppose_01",
+    "HR131_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR131_C13",
+     "field": "scope_html",
+     "quote": "This question is only about whether the change costs the federal government money. It does not ask whether that money would otherwise have gone to any particular use. The only cost figure in these sources is one line in a July 2025 table fr"
+    }
+   ],
+   "decision_ids": [
+    "HR131_K_COST"
+   ],
+   "block_ids": [
+    "HR131_B_COST_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR131_K_COST."
+  }
+ ]
+}

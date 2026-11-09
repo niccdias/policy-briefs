@@ -1,0 +1,4200 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "HR1834_UNN_support_01",
+   "decision_ids": [
+    "HR1834_K_FARMS",
+    "HR1834_K_ORGANIC",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_FARMS_EV",
+    "HR1834_B_FARMS_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_ORGANIC_EV",
+    "HR1834_B_ORGANIC_LIM",
+    "HR1834_B_SOLAR_LIM",
+    "HR1834_B_NATUREWORK_LIM"
+   ],
+   "rationale": "Shares the farm-survival claim with TR_support_08; conservation farming is its own claim, then the shared nature-protecting-work link. Causal claims: Farm families helped to stay on the land; Conservation farming continues. Value link: Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_UNN_support_02",
+   "decision_ids": [
+    "HR1834_V_UNN_WORK",
+    "HR1834_K_SOLAR"
+   ],
+   "block_ids": [
+    "HR1834_B_ORGANIC_LIM",
+    "HR1834_B_SOLAR_LIM",
+    "HR1834_B_NATUREWORK_LIM",
+    "HR1834_B_SOLAR_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Consolidated with the farm and habitat-work routes into one nature-protecting-work link; the solar claim stays separate. Causal claims: Clean-energy businesses kept going. Value link: Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_UNN_support_03",
+   "decision_ids": [
+    "HR1834_V_UNN_WORK",
+    "HR1834_K_NATUREWORK"
+   ],
+   "block_ids": [
+    "HR1834_B_ORGANIC_LIM",
+    "HR1834_B_SOLAR_LIM",
+    "HR1834_B_NATUREWORK_LIM",
+    "HR1834_B_NATUREWORK_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Consolidated with UNN_support_04: paid habitat work and volunteering are one lower-cost claim. Causal claims: Lower personal cost of nature work. Value link: Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_UNN_support_04",
+   "decision_ids": [
+    "HR1834_V_UNN_WORK",
+    "HR1834_K_NATUREWORK"
+   ],
+   "block_ids": [
+    "HR1834_B_ORGANIC_LIM",
+    "HR1834_B_SOLAR_LIM",
+    "HR1834_B_NATUREWORK_LIM",
+    "HR1834_B_NATUREWORK_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Consolidated with UNN_support_03: paid habitat work and volunteering are one lower-cost claim. Causal claims: Lower personal cost of nature work. Value link: Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_UNN_support_05",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_SGLT2",
+    "HR1834_V_UNN_AVOIDED"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SGLT2_EV",
+    "HR1834_B_SGLT2_LIM",
+    "HR1834_B_AVOIDED_LIM"
+   ],
+   "rationale": "Causal claims: More people insured; Avoided pollution from kidney failure. Value link: Nature: pollution avoided by keeping care."
+  },
+  {
+   "id": "HR1834_UNN_support_06",
+   "decision_ids": [
+    "HR1834_K_DRIVING",
+    "HR1834_V_UNN_AVOIDED",
+    "HR1834_K_PROVIDERS"
+   ],
+   "block_ids": [
+    "HR1834_B_DRIVING_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_AVOIDED_LIM",
+    "HR1834_B_PROVIDERS_EV"
+   ],
+   "rationale": "Causal claims: Avoided extra driving pollution; Less pressure to cut local health services. Value link: Nature: pollution avoided by keeping care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_01",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_CLIMATE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_CLIMATE"
+   ],
+   "rationale": "One of ten pollution routes consolidated into a single Nature link; each route keeps its own causal claim, evidence and limits. Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added climate pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_02",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID",
+    "HR1834_B_POLL_ACID_LIM"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_03",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_SMOG",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_SMOG"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added smog-forming pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_04",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_NUTRIENT",
+    "HR1834_B_POLL_NUTRIENT_LIM"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added nutrient pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_05",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_DRUG",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_DRUG"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added drug pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_06",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_TOXIC",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_TOXIC",
+    "HR1834_B_POLL_TOXIC_CH"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added toxic chemical pollution. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_07",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_PLASTIC",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_PLASTIC",
+    "HR1834_B_POLL_PLASTIC_CH"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added lasting plastic waste. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_08",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_WATER",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_WATER",
+    "HR1834_B_POLL_WATER_CH"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added water demand. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_09",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_MINING",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_MINING"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added mining demand. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNN_oppose_10",
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_OZONE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_FOOT_EV",
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_OZONE",
+    "HR1834_B_POLL_OZONE_LIM"
+   ],
+   "rationale": "Causal claims: Newly insured people use more care; Added care adds energy, supply and waste demand; Added ozone-layer risk from nitrous oxide. Value link: Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_UNC_support_01",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_V_UNC_CARE",
+    "HR1834_K_REPLACE",
+    "HR1834_V_UNC_BILLS"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CARECONC_EV",
+    "HR1834_B_LOWERBILL_CONC_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_REPLACE_EV",
+    "HR1834_B_REPLACE_LIM",
+    "HR1834_B_BILLS_EV"
+   ],
+   "rationale": "Split: care for the untreated needs the care claim; protection from bills needs either coverage or replacement coverage. Causal claims: More people insured; Easier replacement coverage after job loss. Value link: Concern: care for people who would otherwise go without; Concern: protection from medical bills."
+  },
+  {
+   "id": "HR1834_UNC_support_02",
+   "decision_ids": [
+    "HR1834_V_UNC_BASICS"
+   ],
+   "block_ids": [
+    "HR1834_B_BASICS_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Concern: money left for basic needs."
+  },
+  {
+   "id": "HR1834_UNC_support_03",
+   "decision_ids": [
+    "HR1834_V_UNC_CARE",
+    "HR1834_K_LOWERBILL"
+   ],
+   "block_ids": [
+    "HR1834_B_CARECONC_EV",
+    "HR1834_B_LOWERBILL_CONC_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_LOWERBILL_EV",
+    "HR1834_B_CATRIAL_LIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Lower treatment bills share the Concern care link with UNC_support_01 as an alternative route. Causal claims: Plans with lower treatment bills chosen. Value link: Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_UNC_support_04",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_DISPARITY",
+    "HR1834_V_UNC_DISPARITY",
+    "HR1834_V_UNC_PAYGAP"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_DISPARITY_EV",
+    "HR1834_B_PAYGAP_EV",
+    "HR1834_B_PAYGAP_LIM"
+   ],
+   "rationale": "Split: racial coverage gaps need their own claim; the pay-gap reason rests on the provision. Causal claims: More people insured; Smaller racial gaps in coverage. Value link: Concern: racial gaps in coverage; Concern: unequal earnings and the cost of coverage."
+  },
+  {
+   "id": "HR1834_UNC_support_05",
+   "decision_ids": [
+    "HR1834_V_UNC_CLIFF"
+   ],
+   "block_ids": [
+    "HR1834_B_CLIFF_EV",
+    "HR1834_B_CLIFF_LIM",
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Concern: help tied to income and insurance costs."
+  },
+  {
+   "id": "HR1834_UNC_support_06",
+   "decision_ids": [
+    "HR1834_V_UNC_TAXPARITY"
+   ],
+   "block_ids": [
+    "HR1834_B_TAXPARITY_EV",
+    "HR1834_B_TAXPARITY_LIM",
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Concern: fairer help across kinds of work."
+  },
+  {
+   "id": "HR1834_UNC_support_07",
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_PRICES",
+    "HR1834_K_COMPETITION",
+    "HR1834_V_UNC_MARKET"
+   ],
+   "block_ids": [
+    "HR1834_B_ENROLL_EV",
+    "HR1834_B_ENROLL_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_PRICES_EV",
+    "HR1834_B_PRICES_LIM",
+    "HR1834_B_COMPETITION_EV",
+    "HR1834_B_COMPETITION_LIM"
+   ],
+   "rationale": "Causal claims: More Marketplace enrollment; Lower full insurance prices; Less risk of lost plan choices. Value link: Concern: other buyers’ access to coverage."
+  },
+  {
+   "id": "HR1834_UNC_support_08",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_K_LOCALECON",
+    "HR1834_V_UNC_SERVICES",
+    "HR1834_V_UNC_LOCALECON"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_LOCALECON_EV",
+    "HR1834_B_LOCALECON_LIM"
+   ],
+   "rationale": "Split: local health services and health-care jobs/revenue are separate links because jobs need an extra claim. Causal claims: Less pressure to cut local health services; Health-care jobs and local revenue protected. Value link: Concern: local health services kept; Concern: health-care jobs and public services."
+  },
+  {
+   "id": "HR1834_UNC_oppose_01",
+   "decision_ids": [
+    "HR1834_V_UNC_HIGHINCOME"
+   ],
+   "block_ids": [
+    "HR1834_B_HIGHINCOME_EV",
+    "HR1834_B_HIGHINCOME_CH",
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Concern: aid above need while the poorest stay excluded."
+  },
+  {
+   "id": "HR1834_UNC_oppose_02",
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_UNC_BROKER",
+    "HR1834_V_UNC_REPAY"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_EV",
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_BROKER_EV",
+    "HR1834_B_REPAY_EV",
+    "HR1834_B_REPAY_CH"
+   ],
+   "rationale": "Split: broker abuse needs the disputed fraud claim; the larger possible repayment rests on the provision. Causal claims: Added risk of unauthorized enrollment. Value link: Concern: vulnerable people exposed to broker abuse; Concern: larger possible debts for victims."
+  },
+  {
+   "id": "HR1834_UNC_oppose_03",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_DOCTOR",
+    "HR1834_V_UNC_DOCTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_DOCTOR_EV",
+    "HR1834_B_DOCTOR_LIM"
+   ],
+   "rationale": "Causal claims: Fewer people with job-based coverage; Covered access to a doctor lost. Value link: Concern: sick patients’ care and finances."
+  },
+  {
+   "id": "HR1834_UNC_oppose_04",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_EMERG",
+    "HR1834_V_UNC_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_EMERG_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_CRISIS_LIM"
+   ],
+   "rationale": "One of three debt routes consolidated into one Concern link about people bearing debt costs. Causal claims: Added federal debt; Added pressure on emergency borrowing. Value link: Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_UNC_oppose_05",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_UNC_DEBT",
+    "HR1834_K_DEBT_INVEST"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_INVEST_EV"
+   ],
+   "rationale": "One of three debt routes consolidated into one Concern link about people bearing debt costs. Causal claims: Added federal debt; Less private investment. Value link: Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_UNC_oppose_06",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_UNC_DEBT",
+    "HR1834_K_DEBT_CRISIS"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_CRISIS_EV"
+   ],
+   "rationale": "One of three debt routes consolidated into one Concern link about people bearing debt costs. Causal claims: Added federal debt; Added fiscal-crisis risk. Value link: Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_UNC_oppose_07",
+   "decision_ids": [
+    "HR1834_V_UNC_UNBORN"
+   ],
+   "block_ids": [
+    "HR1834_B_UNBORN_EV",
+    "HR1834_B_UNBORN_LIM",
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Concern: protection of unborn children."
+  },
+  {
+   "id": "HR1834_UNT_support_03",
+   "decision_ids": [
+    "HR1834_V_UNT_ROOM"
+   ],
+   "block_ids": [
+    "HR1834_B_ROOM_EV",
+    "HR1834_B_ROOM_CH",
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tolerance: room for reproductive choices one may reject."
+  },
+  {
+   "id": "HR1834_UNT_support_04",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_K_CHCLANG",
+    "HR1834_V_UNT_CHCLANG"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_CHCLANG_EV",
+    "HR1834_B_CHCLANG_LIM"
+   ],
+   "rationale": "Causal claims: Less pressure to cut local health services; Health-center language and cultural services sustained. Value link: Tolerance: listening across language and culture."
+  },
+  {
+   "id": "HR1834_UNT_oppose_01",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_UNT_OBJECTOR",
+    "HR1834_K_EXEMPT",
+    "HR1834_V_UNT_EXEMPT"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_OBJECTOR_EV",
+    "HR1834_B_OBJECTOR_CH",
+    "HR1834_B_ABORT_SCOPE",
+    "HR1834_B_OBJECTOR_SCOPE",
+    "HR1834_B_EXEMPT_EV",
+    "HR1834_B_EXEMPT_CH"
+   ],
+   "rationale": "Split: buyers in requiring states rest on the provision and state condition; workers losing an exempt employer plan need the exemption claim. Causal claims: Fewer people with job-based coverage; Religiously exempt job plans lost. Value link: Tolerance: a higher cost for refusing the abortion payment; Tolerance: objecting workers pushed into the abortion payment."
+  },
+  {
+   "id": "HR1834_UNT_oppose_02",
+   "decision_ids": [
+    "HR1834_V_UNT_TAXPAYER"
+   ],
+   "block_ids": [
+    "HR1834_B_TAXPAYER_EV",
+    "HR1834_B_TAXPAYER_CH",
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tolerance: public financing religious taxpayers reject."
+  },
+  {
+   "id": "HR1834_UNT_oppose_03",
+   "decision_ids": [
+    "HR1834_V_UNT_SHARING"
+   ],
+   "block_ids": [
+    "HR1834_B_SHARING_EV",
+    "HR1834_B_SHARING_CH",
+    "HR1834_B_MINISTRY_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tolerance: room for religious health sharing."
+  },
+  {
+   "id": "HR1834_UNT_oppose_04",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_JEWISHCARE",
+    "HR1834_V_UNT_JEWISH"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_JEWISH_EV",
+    "HR1834_B_JEWISH_CH"
+   ],
+   "rationale": "Causal claims: Fewer people with job-based coverage; Job coverage of religiously required care lost. Value link: Tolerance: following Jewish teaching on health-protecting care."
+  },
+  {
+   "id": "HR1834_UNT_oppose_05",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_TRANSCARE",
+    "HR1834_V_UNT_TRANS"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_TRANS_EV",
+    "HR1834_B_TRANS_CH"
+   ],
+   "rationale": "Causal claims: Fewer people with job-based coverage; Job coverage of transition care lost. Value link: Tolerance: transgender workers’ care."
+  },
+  {
+   "id": "HR1834_SEP_support_01",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_CARE",
+    "HR1834_V_SEP_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_SEPCARE_EV",
+    "HR1834_B_SEPCARE_LIM",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Causal claims: More people insured; Newly insured people use more care. Value link: Personal Security: needed care within reach."
+  },
+  {
+   "id": "HR1834_SEP_support_02",
+   "decision_ids": [
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_SEP_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_LOWERBILL_EV",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_CATRIAL_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SEPCARE_EV",
+    "HR1834_B_SEPCARE_LIM",
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Lower treatment bills share the Personal Security care link with SEP_support_01 as an alternative route. Causal claims: Plans with lower treatment bills chosen. Value link: Personal Security: needed care within reach."
+  },
+  {
+   "id": "HR1834_SEP_support_03",
+   "decision_ids": [
+    "HR1834_K_ESSHEALTH",
+    "HR1834_V_SEP_STRAIN"
+   ],
+   "block_ids": [
+    "HR1834_B_ESS_EV",
+    "HR1834_B_ESS_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Consolidated with SEP_support_04 into one financial-strain link; each keeps its own claim. Causal claims: Less hardship over food, heat and housing. Value link: Personal Security: health protected from financial strain."
+  },
+  {
+   "id": "HR1834_SEP_support_04",
+   "decision_ids": [
+    "HR1834_V_SEP_STRAIN",
+    "HR1834_K_DISTRESS"
+   ],
+   "block_ids": [
+    "HR1834_B_ESS_LIM",
+    "HR1834_B_MKT_CONDITION",
+    "HR1834_B_DISTRESS_EV",
+    "HR1834_B_DISTRESS_CH",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Consolidated with SEP_support_03 into one financial-strain link; the distress claim keeps its response. Causal claims: Less financial distress. Value link: Personal Security: health protected from financial strain."
+  },
+  {
+   "id": "HR1834_SEP_support_05",
+   "decision_ids": [
+    "HR1834_K_REPLACE",
+    "HR1834_V_SEP_CONTINUITY"
+   ],
+   "block_ids": [
+    "HR1834_B_REPLACE_EV",
+    "HR1834_B_REPLACE_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SEPCLIFF_EV",
+    "HR1834_B_CLIFF_LIM",
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "One health-continuity link with two routes: job-loss replacement needs its claim; the income-line cliff rests on the provision. Causal claims: Easier replacement coverage after job loss. Value link: Personal Security: coverage kept through changes in work or income."
+  },
+  {
+   "id": "HR1834_SEP_support_06",
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_PRICES",
+    "HR1834_V_SEP_MARKET"
+   ],
+   "block_ids": [
+    "HR1834_B_ENROLL_EV",
+    "HR1834_B_ENROLL_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_PRICES_EV",
+    "HR1834_B_PRICES_LIM",
+    "HR1834_B_COMPETITION_LIM",
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Consolidated with SEP_support_07 into one market link; each keeps its own claim. Causal claims: More Marketplace enrollment; Lower full insurance prices. Value link: Personal Security: coverage that is easier to buy and keep."
+  },
+  {
+   "id": "HR1834_SEP_support_07",
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_COMPETITION",
+    "HR1834_V_SEP_MARKET"
+   ],
+   "block_ids": [
+    "HR1834_B_ENROLL_EV",
+    "HR1834_B_ENROLL_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_COMPETITION_EV",
+    "HR1834_B_COMPETITION_LIM",
+    "HR1834_B_PRICES_LIM",
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Consolidated with SEP_support_06 into one market link; each keeps its own claim. Causal claims: More Marketplace enrollment; Less risk of lost plan choices. Value link: Personal Security: coverage that is easier to buy and keep."
+  },
+  {
+   "id": "HR1834_SEP_support_08",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SEP_SERVICES"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING"
+   ],
+   "rationale": "Causal claims: Less pressure to cut local health services. Value link: Personal Security: hospitals and clinics for everyone."
+  },
+  {
+   "id": "HR1834_SEP_oppose_01",
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_EV",
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SEPFRAUD_EV"
+   ],
+   "rationale": "Causal claims: Added risk of unauthorized enrollment. Value link: Personal Security: care interrupted by unwanted plan changes."
+  },
+  {
+   "id": "HR1834_SEP_oppose_02",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_DOCTOR",
+    "HR1834_V_SEP_JOBPLANS"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_DOCTOR_EV",
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_COSTSHARE_LIM"
+   ],
+   "rationale": "One of three job-plan care-loss routes consolidated into one Personal Security link. Causal claims: Fewer people with job-based coverage; Covered access to a doctor lost. Value link: Personal Security: needed care lost after leaving job plans."
+  },
+  {
+   "id": "HR1834_SEP_oppose_03",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_K_COSTSHARE"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_COSTSHARE_LIM",
+    "HR1834_B_COSTSHARE_EV"
+   ],
+   "rationale": "One of three job-plan care-loss routes consolidated into one Personal Security link. Causal claims: Fewer people with job-based coverage; Higher treatment costs after leaving job plans. Value link: Personal Security: needed care lost after leaving job plans."
+  },
+  {
+   "id": "HR1834_SEP_oppose_04",
+   "decision_ids": [
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_K_DENTAL"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_EV",
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_COSTSHARE_LIM",
+    "HR1834_B_DENTAL_EV",
+    "HR1834_B_DENTAL_CH"
+   ],
+   "rationale": "One of three job-plan care-loss routes consolidated into one Personal Security link; the dental response stays at its claim. Causal claims: Fewer people with job-based coverage; Lost dental protection. Value link: Personal Security: needed care lost after leaving job plans."
+  },
+  {
+   "id": "HR1834_SES_support_01",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_CARE",
+    "HR1834_K_OUTBREAK",
+    "HR1834_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_OUTBREAK_EV",
+    "HR1834_B_OUTBREAK_LIM",
+    "HR1834_B_EMERGENCY_LIM",
+    "HR1834_B_OPIOID_LIM"
+   ],
+   "rationale": "One of three threat routes (disease, disasters, drugs) consolidated into one Societal Security link. Causal claims: More people insured; Newly insured people use more care; Stronger control of contagious disease. Value link: Societal Security: protection against disease, disasters and drug threats."
+  },
+  {
+   "id": "HR1834_SES_support_02",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SES_THREATS",
+    "HR1834_K_EMERGENCY"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_OUTBREAK_LIM",
+    "HR1834_B_EMERGENCY_LIM",
+    "HR1834_B_OPIOID_LIM",
+    "HR1834_B_EMERGENCY_EV"
+   ],
+   "rationale": "One of three threat routes (disease, disasters, drugs) consolidated into one Societal Security link. Causal claims: Less pressure to cut local health services; Hospital disaster capacity preserved. Value link: Societal Security: protection against disease, disasters and drug threats."
+  },
+  {
+   "id": "HR1834_SES_support_03",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_CARE",
+    "HR1834_V_SES_THREATS",
+    "HR1834_K_OPIOID"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_OUTBREAK_LIM",
+    "HR1834_B_EMERGENCY_LIM",
+    "HR1834_B_OPIOID_LIM",
+    "HR1834_B_OPIOID_EV"
+   ],
+   "rationale": "One of three threat routes (disease, disasters, drugs) consolidated into one Societal Security link. Causal claims: More people insured; Newly insured people use more care; Stronger response to the opioid crisis. Value link: Societal Security: protection against disease, disasters and drug threats."
+  },
+  {
+   "id": "HR1834_SES_support_04",
+   "decision_ids": [
+    "HR1834_K_INSURED",
+    "HR1834_K_CARE",
+    "HR1834_K_WORKFORCE",
+    "HR1834_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_EV",
+    "HR1834_B_INSURED_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CARE_EV",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_WORKFORCE_EV",
+    "HR1834_B_ECONOMY_BRIDGE"
+   ],
+   "rationale": "One of four economic-stability routes; its workforce claim includes the national production step. Causal claims: More people insured; Newly insured people use more care; Workforce kept healthier. Value link: Societal Security: a stable national economy."
+  },
+  {
+   "id": "HR1834_SES_support_05",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_K_LOCALECON",
+    "HR1834_K_LOCALNATIONAL",
+    "HR1834_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_LOCALECON_EV",
+    "HR1834_B_LOCALECON_LIM",
+    "HR1834_B_LOCALECON_CH",
+    "HR1834_B_ECONOMY_BRIDGE"
+   ],
+   "rationale": "One of four economic-stability routes; shares the local jobs-and-revenue claim with UNC_support_08, then asks the disputed national net step separately. Causal claims: Less pressure to cut local health services; Health-care jobs and local revenue protected; Net national gain from protected health-care jobs and revenue. Value link: Societal Security: a stable national economy."
+  },
+  {
+   "id": "HR1834_SES_support_06",
+   "decision_ids": [
+    "HR1834_V_SES_ECONOMY",
+    "HR1834_K_SPENDING"
+   ],
+   "block_ids": [
+    "HR1834_B_ECONOMY_BRIDGE",
+    "HR1834_B_SPENDING_EV",
+    "HR1834_B_SPENDING_CH",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "One of four economic-stability routes; the spending claim keeps its response. Causal claims: Household spending supports economic stability. Value link: Societal Security: a stable national economy."
+  },
+  {
+   "id": "HR1834_SES_support_07",
+   "decision_ids": [
+    "HR1834_K_STATEFUNDS",
+    "HR1834_V_SES_STATEFUNDS"
+   ],
+   "block_ids": [
+    "HR1834_B_STATEFUNDS_EV",
+    "HR1834_B_STATEFUNDS_LIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Causal claims: Less pressure on state budgets. Value link: Societal Security: a capable state."
+  },
+  {
+   "id": "HR1834_SES_support_08",
+   "decision_ids": [
+    "HR1834_K_REPLACE",
+    "HR1834_K_ENROLL",
+    "HR1834_K_PRICES",
+    "HR1834_V_SES_ECONOMY",
+    "HR1834_K_DOWNTURN"
+   ],
+   "block_ids": [
+    "HR1834_B_REPLACE_EV",
+    "HR1834_B_REPLACE_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_ENROLL_EV",
+    "HR1834_B_ENROLL_LIM",
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_PRICES_EV",
+    "HR1834_B_PRICES_LIM",
+    "HR1834_B_ECONOMY_BRIDGE",
+    "HR1834_B_DOWNTURN_EV"
+   ],
+   "rationale": "One of four economic-stability routes; the downturn claim has two routes (replacement coverage or lower prices). Causal claims: Easier replacement coverage after job loss; More Marketplace enrollment; Lower full insurance prices; Health protection kept through downturns. Value link: Societal Security: a stable national economy."
+  },
+  {
+   "id": "HR1834_SES_oppose_01",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_EMERG",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_EMERG_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_MILITARY_EV",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_INVEST_LIM"
+   ],
+   "rationale": "One of five debt routes consolidated into one Societal Security link. Causal claims: Added federal debt; Added pressure on emergency borrowing. Value link: Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_SES_oppose_02",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_CRISIS",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CRISIS_EV",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_MILITARY_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_INVEST_LIM"
+   ],
+   "rationale": "One of five debt routes consolidated into one Societal Security link. Causal claims: Added federal debt; Added fiscal-crisis risk. Value link: Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_SES_oppose_03",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT",
+    "HR1834_K_DEBT_FINTOOLS"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_MILITARY_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_FINTOOLS_EV"
+   ],
+   "rationale": "One of five debt routes consolidated into one Societal Security link. Causal claims: Added federal debt; Weaker financial tools of U.S. influence. Value link: Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_SES_oppose_04",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_INVEST",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_INVEST_EV",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_MILITARY_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_CRISIS_LIM"
+   ],
+   "rationale": "One of five debt routes consolidated into one Societal Security link. Causal claims: Added federal debt; Less private investment. Value link: Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_SES_oppose_05",
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT",
+    "HR1834_K_DEBT_INTEREST"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_EV",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_MILITARY_EV",
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_CRISIS_LIM",
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_INTEREST_EV"
+   ],
+   "rationale": "One of five debt routes consolidated into one Societal Security link. Causal claims: Added federal debt; Interest paid abroad. Value link: Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_SES_oppose_06",
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_SES_MONEY"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_EV",
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SESFRAUD_EV",
+    "HR1834_B_HIDDEN_EV",
+    "HR1834_B_HIDDEN_CH",
+    "HR1834_B_SESMONEY_EV",
+    "HR1834_B_SESMONEY_CH"
+   ],
+   "rationale": "Split: the fraud part shares a link with SES_oppose_07; the money-at-stake part rests on the provision. Causal claims: Added risk of unauthorized enrollment. Value link: Societal Security: organized enrollment fraud; Societal Security: more public money within reach of fraud."
+  },
+  {
+   "id": "HR1834_SES_oppose_07",
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SES_FRAUD"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_EV",
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_SESFRAUD_EV",
+    "HR1834_B_HIDDEN_EV",
+    "HR1834_B_HIDDEN_CH"
+   ],
+   "rationale": "Shares the organized-fraud link with SES_oppose_06, judged on the same fraud claim. Causal claims: Added risk of unauthorized enrollment. Value link: Societal Security: organized enrollment fraud."
+  },
+  {
+   "id": "HR1834_TR_support_03",
+   "decision_ids": [
+    "HR1834_K_MOTHERHOME",
+    "HR1834_V_TR_HOME"
+   ],
+   "block_ids": [
+    "HR1834_B_HOME_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Causal claims: Easier for one-wage families to keep a mother at home. Value link: Tradition: a mother at home for religious upbringing."
+  },
+  {
+   "id": "HR1834_TR_support_04",
+   "decision_ids": [
+    "HR1834_V_TR_MARRIAGE_S"
+   ],
+   "block_ids": [
+    "HR1834_B_MARRYS_EV",
+    "HR1834_B_MARRIAGE_LIM",
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: no loss of all help for marrying above the cutoff."
+  },
+  {
+   "id": "HR1834_TR_support_06",
+   "decision_ids": [
+    "HR1834_K_CHURCH",
+    "HR1834_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "HR1834_B_CHURCH_EV",
+    "HR1834_B_CHURCH_LIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Causal claims: Less strain on churches and church giving. Value link: Tradition: congregations’ worship and teaching."
+  },
+  {
+   "id": "HR1834_TR_support_07",
+   "decision_ids": [
+    "HR1834_K_PROVIDERS",
+    "HR1834_K_CHRISTIANCLINICS",
+    "HR1834_V_TR_CLINICS"
+   ],
+   "block_ids": [
+    "HR1834_B_PROVIDERS_EV",
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_CLINICS_EV"
+   ],
+   "rationale": "Causal claims: Less pressure to cut local health services; Christian health ministries under less strain. Value link: Tradition: an established healing ministry."
+  },
+  {
+   "id": "HR1834_TR_support_08",
+   "decision_ids": [
+    "HR1834_K_FARMS",
+    "HR1834_V_TR_FARMS"
+   ],
+   "block_ids": [
+    "HR1834_B_FARMS_EV",
+    "HR1834_B_FARMS_LIM",
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_FAMFARM_EV",
+    "HR1834_B_FAMFARM_LIM"
+   ],
+   "rationale": "Shares the farm-survival claim with UNN_support_01. Causal claims: Farm families helped to stay on the land. Value link: Tradition: inherited family farms and rural life."
+  },
+  {
+   "id": "HR1834_TR_oppose_01",
+   "decision_ids": [
+    "HR1834_V_TR_ABORTION"
+   ],
+   "block_ids": [
+    "HR1834_B_TRABORT_EV",
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: the religious rule against abortion."
+  },
+  {
+   "id": "HR1834_TR_oppose_02",
+   "decision_ids": [
+    "HR1834_V_TR_TAXPAYER"
+   ],
+   "block_ids": [
+    "HR1834_B_TRTAX_EV",
+    "HR1834_B_TRTAX_LIM",
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: the rule against indirect support for abortion."
+  },
+  {
+   "id": "HR1834_TR_oppose_03",
+   "decision_ids": [
+    "HR1834_V_TR_PAYMENT"
+   ],
+   "block_ids": [
+    "HR1834_B_TRPAY_EV",
+    "HR1834_B_ABORT_SCOPE",
+    "HR1834_B_OBJECTOR_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: refusing payments that violate religious teaching."
+  },
+  {
+   "id": "HR1834_TR_oppose_04",
+   "decision_ids": [
+    "HR1834_V_TR_TRANS"
+   ],
+   "block_ids": [
+    "HR1834_B_TRTRANS_EV",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: the inherited understanding of sex."
+  },
+  {
+   "id": "HR1834_TR_oppose_06",
+   "decision_ids": [
+    "HR1834_V_TR_IVF"
+   ],
+   "block_ids": [
+    "HR1834_B_IVF_EV",
+    "HR1834_B_RELIGLIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: Catholic teaching on conceiving children."
+  },
+  {
+   "id": "HR1834_TR_oppose_07",
+   "decision_ids": [
+    "HR1834_V_TR_CONTRACEPTION"
+   ],
+   "block_ids": [
+    "HR1834_B_CONTRA_EV",
+    "HR1834_B_RELIGLIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: Catholic teaching on marriage and contraception."
+  },
+  {
+   "id": "HR1834_TR_oppose_08",
+   "decision_ids": [
+    "HR1834_V_TR_MUTUALAID"
+   ],
+   "block_ids": [
+    "HR1834_B_MUTUALAID_EV",
+    "HR1834_B_RELIGLIM",
+    "HR1834_B_MINISTRY_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: Christian mutual aid."
+  },
+  {
+   "id": "HR1834_TR_oppose_09",
+   "decision_ids": [
+    "HR1834_V_TR_MARRIAGE_O"
+   ],
+   "block_ids": [
+    "HR1834_B_MARRYO_EV",
+    "HR1834_B_MARRIAGE_LIM",
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tradition: a higher cost of marrying for some couples."
+  }
+ ],
+ "responses": [
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNN_oppose_06",
+   "argument_ids": [
+    "HR1834_UNN_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_06",
+     "field": "response_reading",
+     "quote": "Response The argument’s incineration and hazardous-handling steps do not establish that added U.S. medical waste follows those harmful routes. Because The World Health Organization (WHO) ties its warning about disinfectants to poor handling"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_POLL_TOXIC"
+   ],
+   "block_ids": [
+    "HR1834_B_POLL_TOXIC_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the incineration and hazardous-handling steps, so it sits beside the toxic-waste claim it challenges."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNN_oppose_07",
+   "argument_ids": [
+    "HR1834_UNN_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_07",
+     "field": "response_reading",
+     "quote": "Response Plastic persistence does not establish an added flow of U.S. medical plastic into habitats under this bill. Because The article’s disposal figure combines all plastics and two destinations: “91% of plastics, including those used in"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_POLL_PLASTIC"
+   ],
+   "block_ids": [
+    "HR1834_B_POLL_PLASTIC_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the plastic-waste route, so it sits beside that claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNN_oppose_08",
+   "argument_ids": [
+    "HR1834_UNN_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_08",
+     "field": "response_reading",
+     "quote": "Response The argument’s facility water step does not establish added loss of water to stressed freshwater habitats. Because Some equipment uses water no matter how many patients there are (tempering water cools hot waste water): “some older"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_POLL_WATER"
+   ],
+   "block_ids": [
+    "HR1834_B_POLL_WATER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the water-demand route, so it sits beside that claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNC_oppose_01",
+   "argument_ids": [
+    "HR1834_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument does not show that the credit rules unfairly favor wealth over need. Because Help depends on both income and insurance costs. The Urban Institute explains that “eligibility is still capped, since the credit phases out "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNC_HIGHINCOME"
+   ],
+   "block_ids": [
+    "HR1834_B_HIGHINCOME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes whether aid above the line is aid above need; a value dispute about a provision, so it sits at the Concern link."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNC_oppose_02",
+   "argument_ids": [
+    "HR1834_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "Response The argument's examples do not establish that larger credits add abuse or victim debts under the rules in force on January 8. Because GAO tested failures in enrollment checks, not how abuse changes with credit amounts. It warns: “T"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_UNC_REPAY"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_REPAY_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "The broker-abuse part is judged once at the shared fraud claim with the other fraud responses; the repayment part sits at the repayment link it disputes."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_support_03",
+   "argument_ids": [
+    "HR1834_UNT_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_support_03",
+     "field": "response_reading",
+     "quote": "Response The abortion-payment rules explain how support can coexist with disagreement, but do not establish a tolerance-based reason to increase the payment. Because The extension makes “no additional reforms or changes to the program.” [1]"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNT_ROOM"
+   ],
+   "block_ids": [
+    "HR1834_B_ROOM_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the Tolerance reading of a provision, so it sits at that link."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_oppose_01",
+   "argument_ids": [
+    "HR1834_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The religious-employer step does not show loss of a plan that fully fits the worker's conscience, and a larger benefit given up does not by itself count against accepting the person who refuses it. Because The bill extends premium "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNT_OBJECTOR",
+    "HR1834_K_EXEMPT"
+   ],
+   "block_ids": [
+    "HR1834_B_OBJECTOR_CH",
+    "HR1834_B_EXEMPT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Split with the argument: the buyer part sits at the objector link and the employer-exemption part at the exemption claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_oppose_02",
+   "argument_ids": [
+    "HR1834_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_02",
+     "field": "response_reading",
+     "quote": "Response The bishops’ objection concerns what other people’s publicly supported plans may cover; accepting the objectors does not make their preferred spending rule a test of tolerance. Because The bishops' requested policy reaches beyond t"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNT_TAXPAYER"
+   ],
+   "block_ids": [
+    "HR1834_B_TAXPAYER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the Tolerance reading of public payments, so it sits at that link."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_oppose_03",
+   "argument_ids": [
+    "HR1834_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_03",
+     "field": "response_reading",
+     "quote": "Response Different support for marketplace insurance and voluntary religious sharing does not establish less acceptance of a religious community. Because The credit pays for “health insurance obtained through the marketplaces established by"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNT_SHARING"
+   ],
+   "block_ids": [
+    "HR1834_B_SHARING_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the Tolerance reading of the price gap with ministries, so it sits at that link."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_oppose_04",
+   "argument_ids": [
+    "HR1834_UNT_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_04",
+     "field": "response_reading",
+     "quote": "Response The argument does not connect the projected drop in job coverage to a greater risk of losing abortion benefits required by the cited Jewish teaching. Because CBO’s 2028 forecast—“2.1 million fewer people would have employment-based"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_JEWISHCARE"
+   ],
+   "block_ids": [
+    "HR1834_B_JEWISH_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the factual step to lost Jewish-observant care, so it sits at that claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_UNT_oppose_05",
+   "argument_ids": [
+    "HR1834_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_05",
+     "field": "response_reading",
+     "quote": "Response The argument does not establish that the bill makes workers with transition-care coverage more likely to lose that benefit. Because The argument's employer evidence concerns “large employers (200 or more workers)” [27] . KFF also r"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_TRANSCARE"
+   ],
+   "block_ids": [
+    "HR1834_B_TRANS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the factual step to lost transition care, so it sits at that claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SEP_support_04",
+   "argument_ids": [
+    "HR1834_SEP_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_04",
+     "field": "response_reading",
+     "quote": "Response The cited abstract does not show that the premium rules renewed by H.R.1834 caused the reported reduction in distress. Because ARPA is the 2021 law that created the larger credits. The study compares insurance groups “before and af"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DISTRESS"
+   ],
+   "block_ids": [
+    "HR1834_B_DISTRESS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes whether the cited study isolates the premium rules, so it sits at the distress claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SEP_oppose_01",
+   "argument_ids": [
+    "HR1834_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument does not establish an increase in fraud-related interruptions of care under the law in force. Because Plans with no monthly bill remain available to nearly all adults in the low-income group the argument cites: “Of adu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Judged once at the shared fraud claim with the other fraud responses."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SEP_oppose_04",
+   "argument_ids": [
+    "HR1834_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_04",
+     "field": "response_reading",
+     "quote": "Response A fall in employer medical coverage does not establish the loss of employer dental benefits needed for this path to dental disease. Because Most private dental benefits are separate from medical insurance: “only about 1.2% of comme"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DENTAL"
+   ],
+   "block_ids": [
+    "HR1834_B_DENTAL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the step from lost job medical coverage to lost dental benefits, so it sits at the dental claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SES_support_05",
+   "argument_ids": [
+    "HR1834_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_05",
+     "field": "response_reading",
+     "quote": "Response The spending study does not establish that the bill preserves jobs and tax revenue across the country, rather than supporting a particular flow of spending. Because The study uses a computer model of spending, the “IMPLAN economic "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_LOCALNATIONAL"
+   ],
+   "block_ids": [
+    "HR1834_B_LOCALECON_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the national net jobs-and-revenue gain while leaving provider payments open, so it sits at the national step, not at the local claim the Concern route also uses."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SES_support_06",
+   "argument_ids": [
+    "HR1834_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_06",
+     "field": "response_reading",
+     "quote": "Response More purchasing power for policyholders does not by itself establish a more stable national economy. Because The analysis uses a computer model of spending (IMPLAN). Guidance on that model says: “Input-Output models do not account "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_SPENDING"
+   ],
+   "block_ids": [
+    "HR1834_B_SPENDING_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes that household spending establishes a national effect, so it sits at that claim."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SES_oppose_06",
+   "argument_ids": [
+    "HR1834_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_06",
+     "field": "response_reading",
+     "quote": "Response The argument carries an older fraud warning into 2026 without separating larger credits from a monthly signup route that had ended. Because The agency running the federal insurance Marketplace (CMS) links abuse to repeated signups:"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SES_MONEY"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_SESMONEY_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "The signup-route and income-check points are judged at the shared fraud claim; the money-at-stake point sits at the provision link it disputes."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_SES_oppose_07",
+   "argument_ids": [
+    "HR1834_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_07",
+     "field": "response_reading",
+     "quote": "Response The complaint history does not establish added hidden enrollment or disrupted care from this extension under the consent controls already in place. Because CMS changed controls for existing coverage on the federal Marketplace (FFM)"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SES_FRAUD"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_CH",
+    "HR1834_B_HIDDEN_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Consent-control points are judged at the shared fraud claim; the complaint-period point sits beside the complaint figure at the Societal Security link."
+  },
+  {
+   "id": "HR1834_RESPONSE_HR1834_C15",
+   "argument_ids": [
+    "HR1834_UNC_oppose_02",
+    "HR1834_SEP_oppose_01",
+    "HR1834_SES_oppose_06",
+    "HR1834_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C15",
+     "field": "response_reading",
+     "quote": "“Of adults who qualified for a free silver plan with enhanced premium tax credits, almost all (98%) would still qualify for a free bronze plan without enhanced premium tax credits.” [6] Silver and bronze are levels of Marketplace plans. HHS"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "The disputed fraud claim is asked, with this response as its challenge."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_01_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Reported farm-level figures vary. The Kimballs' premium was estimated to rise from $450 to $500 a month. Krug reported health costs of about 8% of income, possibly reaching 50% without subsidies, and listed an off-farm job am"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FARMS",
+    "HR1834_K_ORGANIC",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_FARMS_LIM",
+    "HR1834_B_ORGANIC_LIM"
+   ],
+   "rationale": "Shown in full beside: Farm families helped to stay on the land; Conservation farming continues; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_01_gap_0",
+   "argument_ids": [
+    "HR1834_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "None of the farm accounts names a specific conservation practice that would stop, so the link to protection is an inference from staying on the land."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ORGANIC",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_ORGANIC_LIM"
+   ],
+   "rationale": "Shown in full beside: Conservation farming continues; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_02_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The solar owners' letter is dated March 2017 and concerns ACA coverage from 2014. The enhanced credits were first enacted in 2021. Without the bill, smaller credits and the earlier income cap remain. ACA means the Affordable "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_SOLAR",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_SOLAR_LIM"
+   ],
+   "rationale": "Shown in full beside: Clean-energy businesses kept going; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_02_gap_0",
+   "argument_ids": [
+    "HR1834_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "The solar letter concerns 2014 ACA coverage and does not observe the larger credits, so it shows the kind of pressure only."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_SOLAR",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_SOLAR_LIM"
+   ],
+   "rationale": "Shown in full beside: Clean-energy businesses kept going; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_03_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The refuge listing pays $16 to $18 an hour at a 40-hour weekly minimum for a season starting between mid-April and late May and ending between mid-August and mid-October, or about $7,000 to $19,000 at minimum hours. The credi"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_NATUREWORK",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_NATUREWORK_LIM"
+   ],
+   "rationale": "Shown in full beside: Lower personal cost of nature work; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_03_gap_0",
+   "argument_ids": [
+    "HR1834_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_03",
+     "field": "gaps[0].explanation",
+     "quote": "The refuge job listing does not report workers' other income, household income or coverage. Eligibility is a stated condition, not a shown fact."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_NATUREWORK",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_NATUREWORK_LIM"
+   ],
+   "rationale": "Shown in full beside: Lower personal cost of nature work; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The Nature Conservancy's agreement encourages insurance 'to the extent I deem appropriate' and does not make it a condition of volunteering. The agreement and the restoration report do not say whether volunteers use Marketpla"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_NATUREWORK",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_NATUREWORK_LIM"
+   ],
+   "rationale": "Shown in full beside: Lower personal cost of nature work; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_04_gap_0",
+   "argument_ids": [
+    "HR1834_UNN_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_04",
+     "field": "gaps[0].explanation",
+     "quote": "The sources do not say whether volunteers use Marketplace coverage or how coverage affects volunteering. The route claims a lower personal cost, not more volunteers."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_NATUREWORK",
+    "HR1834_V_UNN_WORK"
+   ],
+   "block_ids": [
+    "HR1834_B_NATUREWORK_LIM"
+   ],
+   "rationale": "Shown in full beside: Lower personal cost of nature work; Nature: work that protects nature kept going."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_05_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The SGLT2 cost study covers only people who received therapy and could not account for premiums, deductibles or rebates. The emissions estimate compares the medicine canagliflozin with a placebo (a pill with no active drug) i"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_SGLT2"
+   ],
+   "block_ids": [
+    "HR1834_B_SGLT2_LIM"
+   ],
+   "rationale": "Shown in full beside: Avoided pollution from kidney failure."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_support_06_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: The hospital forecast assumes that the larger credits expire, leading to 4.8 million more uninsured people in 2026. CBO, assuming the bill becomes law in January 2026, projects 0.1 million more insured in 2026, 3.0 million in"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DRIVING",
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SEP_SERVICES",
+    "HR1834_V_UNC_SERVICES",
+    "HR1834_V_UNN_AVOIDED"
+   ],
+   "block_ids": [
+    "HR1834_B_AVOIDED_LIM",
+    "HR1834_B_CBO_TIMING"
+   ],
+   "rationale": "Shown in full beside: Avoided extra driving pollution; Less pressure to cut local health services; Personal Security: hospitals and clinics for everyone; Concern: local health services kept; Nature: pollution avoided by keeping care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_03_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_03",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_04",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_05_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_05",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_06_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_06",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_07_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_07",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_08_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_08",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_09_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_09",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_10_notes_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_10",
+     "field": "notes_html",
+     "quote": "Brief context note: The footprint sources assign pollution using an average amount per dollar spent in a past period. One method paper says this approach does not reflect marginal effects (the effect of adding a little more). The Oregon stu"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_K_FOOTPRINT",
+    "HR1834_K_POLL_ACID",
+    "HR1834_K_POLL_NUTRIENT",
+    "HR1834_K_POLL_OZONE",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM",
+    "HR1834_B_POLL_ACID_LIM",
+    "HR1834_B_POLL_NUTRIENT_LIM",
+    "HR1834_B_POLL_OZONE_LIM",
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Added care adds energy, supply and waste demand; Added acid-forming pollution; Added nutrient pollution; Added ozone-layer risk from nitrous oxide; Concern: care for people who would otherwise go without; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNN_oppose_10_gap_0",
+   "argument_ids": [
+    "HR1834_UNN_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_10",
+     "field": "gaps[0].explanation",
+     "quote": "Oregon's most common added admissions were not childbirth or surgery, and the review describes occasional use of the gas. The sources do not show how much the added care uses it."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_POLL_OZONE"
+   ],
+   "block_ids": [
+    "HR1834_B_POLL_OZONE_LIM"
+   ],
+   "rationale": "Shown in full beside: Added ozone-layer risk from nitrous oxide."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_01_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_01",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_02_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_02",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_03_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_03",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_04",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNC_PAYGAP"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM",
+    "HR1834_B_PAYGAP_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without; Concern: unequal earnings and the cost of coverage."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_05_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_05",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_06_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_06",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNC_TAXPARITY"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM",
+    "HR1834_B_TAXPARITY_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without; Concern: fairer help across kinds of work."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_06_gap_0",
+   "argument_ids": [
+    "HR1834_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_06",
+     "field": "gaps[0].explanation",
+     "quote": "Self-employed people may be able to deduct premiums, so the claimed disadvantage does not apply equally to every self-employed person."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNC_TAXPARITY"
+   ],
+   "block_ids": [
+    "HR1834_B_TAXPARITY_LIM"
+   ],
+   "rationale": "Shown in full beside: Concern: fairer help across kinds of work."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_07_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_07",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_08_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_08",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO assumes the bill becomes law in January 2026 and projects 0.1 million more insured in 2026, with full prices of benchmark plans unchanged in 2026. The IRS-letter mortality study warns its estimate may not reflect cov"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL",
+    "HR1834_K_INSURED",
+    "HR1834_K_LOCALECON",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_UNC_CARE",
+    "HR1834_V_UNC_LOCALECON"
+   ],
+   "block_ids": [
+    "HR1834_B_UNC_TIMING",
+    "HR1834_B_IRS_LIM",
+    "HR1834_B_CATRIAL_LIM",
+    "HR1834_B_LOCALECON_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment; More people insured; Health-care jobs and local revenue protected; Plans with lower treatment bills chosen; Concern: care for people who would otherwise go without; Concern: health-care jobs and public services."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_support_08_gap_0",
+   "argument_ids": [
+    "HR1834_UNC_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_support_08",
+     "field": "gaps[0].explanation",
+     "quote": "The jobs study also includes reversing other 2026 changes, so its totals cannot be assigned to this bill alone. This argument's claim is about local pressure, not a national net gain."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_LOCALECON",
+    "HR1834_V_UNC_LOCALECON"
+   ],
+   "block_ids": [
+    "HR1834_B_LOCALECON_LIM"
+   ],
+   "rationale": "Shown in full beside: Health-care jobs and local revenue protected; Concern: health-care jobs and public services."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF analysis finds that almost all (98%) adults who qualified for a free silver plan with enhanced credits would still qualify for a free bronze plan without them. CMS estimates that about 200,000 consumers had a desired plan"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_UNC_BROKER"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_FRAUD_CH"
+   ],
+   "rationale": "Shown in full beside: Added risk of unauthorized enrollment; Personal Security: care interrupted by unwanted plan changes; Societal Security: organized enrollment fraud; Concern: vulnerable people exposed to broker abuse."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_03_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: A person claiming the credit must lack an affordable job-based offer that provides minimum value (a basic level of benefits). In its 2022 analysis of a permanent extension, CBO said the job-coverage decline is driven primaril"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_COSTSHARE",
+    "HR1834_K_DOCTOR",
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_V_UNC_DOCTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_LIM",
+    "HR1834_B_DOCTOR_LIM"
+   ],
+   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Covered access to a doctor lost; Fewer people with job-based coverage; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: CBO's debt passages describe the government's total long-term debt path, with deficits averaging 6.3% of GDP from 2025 to 2055. CBO says the effects of policy changes depend on policy specifics, that fiscal-crisis risk depend"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_05_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: CBO's debt passages describe the government's total long-term debt path, with deficits averaging 6.3% of GDP from 2025 to 2055. CBO says the effects of policy changes depend on policy specifics, that fiscal-crisis risk depend"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_06_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: CBO's debt passages describe the government's total long-term debt path, with deficits averaging 6.3% of GDP from 2025 to 2055. CBO says the effects of policy changes depend on policy specifics, that fiscal-crisis risk depend"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNC_oppose_07_notes_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNC_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF reports that twelve states require abortion coverage in Marketplace plans, 25 bar it, and 13 and DC neither require nor prohibit it. Federal funds cannot pay for most abortions, and plans covering them charge at least $1 "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_UNC_UNBORN"
+   ],
+   "block_ids": [
+    "HR1834_B_UNBORN_LIM"
+   ],
+   "rationale": "Shown in full beside: Concern: protection of unborn children."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_support_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNT_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Federal standards require interpretation services and patient board majorities at health centers with or without the bill. The forecast of falling center revenue concerns overall finances and does not report changes in these "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CHCLANG",
+    "HR1834_V_UNT_CHCLANG"
+   ],
+   "block_ids": [
+    "HR1834_B_CHCLANG_LIM"
+   ],
+   "rationale": "Shown in full beside: Health-center language and cultural services sustained; Tolerance: listening across language and culture."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_support_04_gap_0",
+   "argument_ids": [
+    "HR1834_UNT_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_support_04",
+     "field": "gaps[0].explanation",
+     "quote": "The revenue forecast concerns overall finances and does not report changes in these specific services, which federal standards require with or without the bill."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CHCLANG",
+    "HR1834_V_UNT_CHCLANG"
+   ],
+   "block_ids": [
+    "HR1834_B_CHCLANG_LIM"
+   ],
+   "rationale": "Shown in full beside: Health-center language and cultural services sustained; Tolerance: listening across language and culture."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_oppose_01_notes_html",
+   "argument_ids": [
+    "HR1834_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: CBO's projection of 2.1 million fewer people with job coverage in 2028 is a national total and does not identify religiously exempt plans. CBO is the Congressional Budget Office. Sources: [3] ."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_EXEMPT",
+    "HR1834_V_UNT_EXEMPT"
+   ],
+   "block_ids": [
+    "HR1834_B_EXEMPT_CH"
+   ],
+   "rationale": "Shown in full beside: Religiously exempt job plans lost; Tolerance: objecting workers pushed into the abortion payment."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_oppose_01_gap_0",
+   "argument_ids": [
+    "HR1834_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "CBO's 2.1 million is a national total and does not identify religiously exempt plans."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_EXEMPT",
+    "HR1834_V_UNT_EXEMPT"
+   ],
+   "block_ids": [
+    "HR1834_B_EXEMPT_CH"
+   ],
+   "rationale": "Shown in full beside: Religiously exempt job plans lost; Tolerance: objecting workers pushed into the abortion payment."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_oppose_04_notes_html",
+   "argument_ids": [
+    "HR1834_UNT_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: In KFF's 2023 survey of large firms' largest plans, 32% cover abortion in most or all circumstances and 40% of respondents did not know whether their plan covers it. KFF is a health research group. Sources: [23] ."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_JEWISHCARE",
+    "HR1834_V_UNT_JEWISH"
+   ],
+   "block_ids": [
+    "HR1834_B_JEWISH_EV",
+    "HR1834_B_JEWISH_CH"
+   ],
+   "rationale": "Shown in full beside: Job coverage of religiously required care lost; Tolerance: following Jewish teaching on health-protecting care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_UNT_oppose_05_notes_html",
+   "argument_ids": [
+    "HR1834_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF's 'fairly common' rests on 24% of large employers reporting coverage of gender-affirming hormone therapy, with 45% not knowing and 31% not offering it. A CMS provision effective for 2026 bars these procedures as essential"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_TRANSCARE",
+    "HR1834_V_UNT_TRANS"
+   ],
+   "block_ids": [
+    "HR1834_B_TRANS_CH"
+   ],
+   "rationale": "Shown in full beside: Job coverage of transition care lost; Tolerance: transgender workers’ care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_01_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The marketplace study targeted the longer-term uninsured. Oregon participants had been uninsured for six months and received Medicaid with no patient cost-sharing and low premiums. The mortality analysis covered adults aged 4"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION",
+    "HR1834_B_CARE_LIM",
+    "HR1834_B_SEPCARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_02_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Among underinsured adults in the 2024 survey, 66% had job coverage. The bankruptcy study estimates the combined effect of premium credits and cost-sharing subsidies under the earlier ACA. The follow-up debt study states that "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ESSHEALTH",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_ESS_LIM"
+   ],
+   "rationale": "Shown in full beside: Less hardship over food, heat and housing; Plans with lower treatment bills chosen; Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_03_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Among underinsured adults in the 2024 survey, 66% had job coverage. The bankruptcy study estimates the combined effect of premium credits and cost-sharing subsidies under the earlier ACA. The follow-up debt study states that "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ESSHEALTH",
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION",
+    "HR1834_B_LOWERBILL_LIM",
+    "HR1834_B_ESS_LIM"
+   ],
+   "rationale": "Shown in full beside: Less hardship over food, heat and housing; Plans with lower treatment bills chosen; Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_04_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The personal benefits in this argument depend on having Marketplace coverage. The Census Bureau reports that employment-based insurance covered 53.8 percent of the population for some or all of 2024. People cannot get the cre"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Shown in full beside: Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_05_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF's 2021 data show that on average 27% of practicing physicians who submitted Medicare claims were in no Marketplace plan network offered to enrollees that year, so replacement coverage may not include an existing doctor. K"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DOWNTURN",
+    "HR1834_K_REPLACE",
+    "HR1834_V_SEP_CONTINUITY"
+   ],
+   "block_ids": [
+    "HR1834_B_REPLACE_LIM"
+   ],
+   "rationale": "Shown in full beside: Health protection kept through downturns; Easier replacement coverage after job loss; Personal Security: coverage kept through changes in work or income."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_06_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: The personal benefits in this argument depend on having Marketplace coverage. The Census Bureau reports that employment-based insurance covered 53.8 percent of the population for some or all of 2024. People cannot get the cre"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Shown in full beside: Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_07_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The personal benefits in this argument depend on having Marketplace coverage. The Census Bureau reports that employment-based insurance covered 53.8 percent of the population for some or all of 2024. People cannot get the cre"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_SEP_STRAIN"
+   ],
+   "block_ids": [
+    "HR1834_B_MKT_CONDITION"
+   ],
+   "rationale": "Shown in full beside: Personal Security: needed care within reach; Personal Security: coverage that is easier to buy and keep; Personal Security: health protected from financial strain."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_support_08_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The rural hospital estimate assumes 4.8 million more people uninsured in 2026. CBO, assuming the bill becomes law in January 2026, projects 0.1 million more insured in 2026 and 3.0 and 4.0 million in 2027 and 2028. CBO is the"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DRIVING",
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SEP_SERVICES",
+    "HR1834_V_UNC_SERVICES"
+   ],
+   "block_ids": [
+    "HR1834_B_CBO_TIMING"
+   ],
+   "rationale": "Shown in full beside: Avoided extra driving pollution; Less pressure to cut local health services; Personal Security: hospitals and clinics for everyone; Concern: local health services kept."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_oppose_01_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: CMS reports that for consumers with an unwanted plan change in 2025, it worked with issuers to confirm and restore their chosen plans. CMS is the federal agency that runs the federal Marketplace. Sources: [26] ."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_UNC_BROKER"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_LIM"
+   ],
+   "rationale": "Shown in full beside: Added risk of unauthorized enrollment; Personal Security: care interrupted by unwanted plan changes; Societal Security: organized enrollment fraud; Concern: vulnerable people exposed to broker abuse."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_oppose_02_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF's network count measures whether providers are in a network, not whether they are available for appointments. Applying the benchmark credit to a gold plan (a higher plan level) can make more generous coverage relatively i"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_COSTSHARE",
+    "HR1834_K_DOCTOR",
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_V_UNC_DOCTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_COSTSHARE_LIM",
+    "HR1834_B_JOBCOVER_LIM"
+   ],
+   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Covered access to a doctor lost; Fewer people with job-based coverage; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SEP_oppose_03_notes_html",
+   "argument_ids": [
+    "HR1834_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF's network count measures whether providers are in a network, not whether they are available for appointments. Applying the benchmark credit to a gold plan (a higher plan level) can make more generous coverage relatively i"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_COSTSHARE",
+    "HR1834_K_DOCTOR",
+    "HR1834_K_JOBCOVER",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_V_UNC_DOCTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_COSTSHARE_LIM",
+    "HR1834_B_JOBCOVER_LIM"
+   ],
+   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Covered access to a doctor lost; Fewer people with job-based coverage; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_support_01_notes_html",
+   "argument_ids": [
+    "HR1834_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The COVID testing study measures insurance at the time of interview and warns that observational studies (studies that watch what people do, not experiments) cannot prove cause and effect. The pandemic paper models universal "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_OPIOID",
+    "HR1834_K_OUTBREAK",
+    "HR1834_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "HR1834_B_OUTBREAK_LIM",
+    "HR1834_B_OPIOID_LIM"
+   ],
+   "rationale": "Shown in full beside: Stronger response to the opioid crisis; Stronger control of contagious disease; Societal Security: protection against disease, disasters and drug threats."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_support_02_notes_html",
+   "argument_ids": [
+    "HR1834_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The rural hospital estimate assumes 4.8 million more people uninsured in 2026. CBO, assuming the bill becomes law in January 2026, projects 0.1 million more insured in 2026 and 3.0 and 4.0 million in 2027 and 2028. Sources do"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DRIVING",
+    "HR1834_K_EMERGENCY",
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SEP_SERVICES",
+    "HR1834_V_SES_THREATS",
+    "HR1834_V_UNC_SERVICES"
+   ],
+   "block_ids": [
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_EMERGENCY_LIM"
+   ],
+   "rationale": "Shown in full beside: Avoided extra driving pollution; Hospital disaster capacity preserved; Less pressure to cut local health services; Personal Security: hospitals and clinics for everyone; Societal Security: protection against disease, disasters and drug threats; Concern: local health services kept."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_support_03_notes_html",
+   "argument_ids": [
+    "HR1834_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The COVID testing study measures insurance at the time of interview and warns that observational studies (studies that watch what people do, not experiments) cannot prove cause and effect. The pandemic paper models universal "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_OPIOID",
+    "HR1834_K_OUTBREAK",
+    "HR1834_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "HR1834_B_OUTBREAK_LIM",
+    "HR1834_B_OPIOID_LIM"
+   ],
+   "rationale": "Shown in full beside: Stronger response to the opioid crisis; Stronger control of contagious disease; Societal Security: protection against disease, disasters and drug threats."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_support_05_notes_html",
+   "argument_ids": [
+    "HR1834_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The jobs study's spending assumptions were aligned with the cost of extending the credits and reversing other changes in 2026, so its comparison does not isolate H.R.1834. Sources: [16] ."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_LOCALECON",
+    "HR1834_K_LOCALNATIONAL",
+    "HR1834_V_UNC_LOCALECON"
+   ],
+   "block_ids": [
+    "HR1834_B_LOCALECON_LIM",
+    "HR1834_B_LOCALECON_CH"
+   ],
+   "rationale": "Shown in full beside: Health-care jobs and local revenue protected; Net national gain from protected health-care jobs and revenue; Concern: health-care jobs and public services."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_support_07_notes_html",
+   "argument_ids": [
+    "HR1834_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The April 2026 report says seven states modified their subsidy programs in response and that the new state investments were for 2026 only. The April 2026 report also says Massachusetts added $250 million. Connecticut's alloca"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_STATEFUNDS",
+    "HR1834_V_SES_STATEFUNDS"
+   ],
+   "block_ids": [
+    "HR1834_B_STATEFUNDS_LIM"
+   ],
+   "rationale": "Shown in full beside: Less pressure on state budgets; Societal Security: a capable state."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_01_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_02_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_02",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_03_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_03",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_04_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_04",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_05_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_05",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_06_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_06",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD",
+    "HR1834_V_SES_DEBT",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_UNC_BROKER"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_FRAUD_CH"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Added risk of unauthorized enrollment; Personal Security: care interrupted by unwanted plan changes; Societal Security: national strength and stability under added debt; Societal Security: organized enrollment fraud; Concern: vulnerable people exposed to broker abuse."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_SES_oppose_07_notes_html",
+   "argument_ids": [
+    "HR1834_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_07",
+     "field": "notes_html",
+     "quote": "Brief context note: CBO's warnings concern the government's total long-term debt, and CBO says crisis risk depends on more than the amount of debt and that it cannot reliably quantify the probability. CBO estimates this bill at $80.582 bill"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD",
+    "HR1834_V_SES_DEBT",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_UNC_BROKER"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_LIM",
+    "HR1834_B_DEBT_LIM",
+    "HR1834_B_FRAUD_CH"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Added risk of unauthorized enrollment; Personal Security: care interrupted by unwanted plan changes; Societal Security: national strength and stability under added debt; Societal Security: organized enrollment fraud; Concern: vulnerable people exposed to broker abuse."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_support_04_notes_html",
+   "argument_ids": [
+    "HR1834_TR_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: CRS reports that premium credits can produce both marriage penalties and bonuses. Under the bill, the cost of marrying falls for some couples crossing the income cutoff (one supporting argument's example: about $8,300 lower) "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_MARRIAGE_O",
+    "HR1834_V_TR_MARRIAGE_S"
+   ],
+   "block_ids": [
+    "HR1834_B_MARRIAGE_LIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: a higher cost of marrying for some couples; Tradition: no loss of all help for marrying above the cutoff."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_support_06_notes_html",
+   "argument_ids": [
+    "HR1834_TR_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: The clergy relief fund's program is a one-time $2,500 stipend for up to 1,000 clergy. The Riverside Church figure is one congregation's forecast of 20% attendance growth with flat giving for 2026. Sources: [20] , [19] ."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CHURCH",
+    "HR1834_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "HR1834_B_CHURCH_LIM"
+   ],
+   "rationale": "Shown in full beside: Less strain on churches and church giving; Tradition: congregations’ worship and teaching."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_support_08_notes_html",
+   "argument_ids": [
+    "HR1834_TR_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The bishops' statement on family farms dates from November 2003 and concerns farm debt, not insurance. The Minnesota Farmers Union statement is from October 2025 and refers to independent family farmers generally. Sources: [2"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FARMS",
+    "HR1834_V_TR_FARMS"
+   ],
+   "block_ids": [
+    "HR1834_B_FARMS_LIM",
+    "HR1834_B_FAMFARM_LIM"
+   ],
+   "rationale": "Shown in full beside: Farm families helped to stay on the land; Tradition: inherited family farms and rural life."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_oppose_02_notes_html",
+   "argument_ids": [
+    "HR1834_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The premium tax credit itself continues without the bill. Only the larger amounts end. The U.S. Catholic bishops' October 2025 letter urges Congress to extend the enhanced credits while barring their use for plans covering el"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_TAXPAYER"
+   ],
+   "block_ids": [
+    "HR1834_B_TRTAX_LIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: the rule against indirect support for abortion."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_oppose_06_notes_html",
+   "argument_ids": [
+    "HR1834_TR_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: The Baptist resolution permits reproductive technologies consistent with its affirmation, especially on the number of embryos generated. Catholic bioethics guidance allows some insurance payments under protest, given a propor"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_CONTRACEPTION",
+    "HR1834_V_TR_IVF",
+    "HR1834_V_TR_MUTUALAID"
+   ],
+   "block_ids": [
+    "HR1834_B_RELIGLIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: Catholic teaching on marriage and contraception; Tradition: Catholic teaching on conceiving children; Tradition: Christian mutual aid."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_oppose_07_notes_html",
+   "argument_ids": [
+    "HR1834_TR_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The Baptist resolution permits reproductive technologies consistent with its affirmation, especially on the number of embryos generated. Catholic bioethics guidance allows some insurance payments under protest, given a propor"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_CONTRACEPTION",
+    "HR1834_V_TR_IVF",
+    "HR1834_V_TR_MUTUALAID"
+   ],
+   "block_ids": [
+    "HR1834_B_RELIGLIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: Catholic teaching on marriage and contraception; Tradition: Catholic teaching on conceiving children; Tradition: Christian mutual aid."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_oppose_08_notes_html",
+   "argument_ids": [
+    "HR1834_TR_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The Baptist resolution permits reproductive technologies consistent with its affirmation, especially on the number of embryos generated. Catholic bioethics guidance allows some insurance payments under protest, given a propor"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_CONTRACEPTION",
+    "HR1834_V_TR_IVF",
+    "HR1834_V_TR_MUTUALAID"
+   ],
+   "block_ids": [
+    "HR1834_B_RELIGLIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: Catholic teaching on marriage and contraception; Tradition: Catholic teaching on conceiving children; Tradition: Christian mutual aid."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_TR_oppose_09_notes_html",
+   "argument_ids": [
+    "HR1834_TR_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_09",
+     "field": "notes_html",
+     "quote": "Evidence note: CRS reports that premium credits can produce both marriage penalties and bonuses. Under the bill, the cost of marrying falls for some couples crossing the income cutoff (one supporting argument's example: about $8,300 lower) "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_MARRIAGE_O",
+    "HR1834_V_TR_MARRIAGE_S"
+   ],
+   "block_ids": [
+    "HR1834_B_MARRIAGE_LIM"
+   ],
+   "rationale": "Shown in full beside: Tradition: a higher cost of marrying for some couples; Tradition: no loss of all help for marrying above the cutoff."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C01_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_support_01",
+    "HR1834_UNN_support_02",
+    "HR1834_UNN_support_03",
+    "HR1834_UNN_support_04",
+    "HR1834_UNN_support_05",
+    "HR1834_UNN_support_06",
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10",
+    "HR1834_UNC_support_01",
+    "HR1834_UNC_support_02",
+    "HR1834_UNC_support_03",
+    "HR1834_UNC_support_04",
+    "HR1834_UNC_support_07",
+    "HR1834_UNC_support_08",
+    "HR1834_UNC_oppose_02",
+    "HR1834_UNC_oppose_03",
+    "HR1834_UNC_oppose_04",
+    "HR1834_UNC_oppose_05",
+    "HR1834_UNC_oppose_06",
+    "HR1834_UNC_oppose_07",
+    "HR1834_UNT_support_03",
+    "HR1834_UNT_support_04",
+    "HR1834_UNT_oppose_01",
+    "HR1834_UNT_oppose_02",
+    "HR1834_UNT_oppose_03",
+    "HR1834_UNT_oppose_04",
+    "HR1834_UNT_oppose_05",
+    "HR1834_SEP_support_01",
+    "HR1834_SEP_support_02",
+    "HR1834_SEP_support_03",
+    "HR1834_SEP_support_04",
+    "HR1834_SEP_support_05",
+    "HR1834_SEP_support_06",
+    "HR1834_SEP_support_07",
+    "HR1834_SEP_support_08",
+    "HR1834_SEP_oppose_01",
+    "HR1834_SEP_oppose_02",
+    "HR1834_SEP_oppose_03",
+    "HR1834_SEP_oppose_04",
+    "HR1834_SES_support_01",
+    "HR1834_SES_support_02",
+    "HR1834_SES_support_03",
+    "HR1834_SES_support_04",
+    "HR1834_SES_support_05",
+    "HR1834_SES_support_06",
+    "HR1834_SES_support_07",
+    "HR1834_SES_support_08",
+    "HR1834_SES_oppose_01",
+    "HR1834_SES_oppose_02",
+    "HR1834_SES_oppose_03",
+    "HR1834_SES_oppose_04",
+    "HR1834_SES_oppose_05",
+    "HR1834_SES_oppose_06",
+    "HR1834_SES_oppose_07",
+    "HR1834_TR_support_03",
+    "HR1834_TR_support_06",
+    "HR1834_TR_support_07",
+    "HR1834_TR_support_08",
+    "HR1834_TR_oppose_01",
+    "HR1834_TR_oppose_02",
+    "HR1834_TR_oppose_03",
+    "HR1834_TR_oppose_04",
+    "HR1834_TR_oppose_06",
+    "HR1834_TR_oppose_07",
+    "HR1834_TR_oppose_08",
+    "HR1834_TR_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C01",
+     "field": "scope_html",
+     "quote": "This describes the bill text as passed by the House on January 8, 2026. It compares the bill with the law in force on that date, when the larger amounts had already ended. The ordinary, smaller credit continues with or without the bill."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CHURCH",
+    "HR1834_K_DEBT",
+    "HR1834_K_DISTRESS",
+    "HR1834_K_ENROLL",
+    "HR1834_K_ESSHEALTH",
+    "HR1834_K_FARMS",
+    "HR1834_K_FRAUD",
+    "HR1834_K_INSURED",
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_LOWERBILL",
+    "HR1834_K_MOTHERHOME",
+    "HR1834_K_NATUREWORK",
+    "HR1834_K_REPLACE",
+    "HR1834_K_SOLAR",
+    "HR1834_K_SPENDING",
+    "HR1834_K_STATEFUNDS",
+    "HR1834_V_SES_MONEY",
+    "HR1834_V_TR_CONTRACEPTION",
+    "HR1834_V_TR_IVF",
+    "HR1834_V_TR_MARRIAGE_O",
+    "HR1834_V_TR_TRANS",
+    "HR1834_V_UNC_BASICS",
+    "HR1834_V_UNC_PAYGAP",
+    "HR1834_V_UNC_REPAY"
+   ],
+   "block_ids": [
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Less strain on churches and church giving; Added federal debt; Less financial distress; More Marketplace enrollment; Less hardship over food, heat and housing; Farm families helped to stay on the land; Added risk of unauthorized enrollment; More people insured; Fewer people with job-based coverage; Plans with lower treatment bills chosen; Easier for one-wage families to keep a mother at home; Lower personal cost of nature work; Easier replacement coverage after job loss; Clean-energy businesses kept going; Household spending supports economic stability; Less pressure on state budgets; Societal Security: more public money within reach of fraud; Tradition: Catholic teaching on marriage and contraception; Tradition: Catholic teaching on conceiving children; Tradition: a higher cost of marrying for some couples; Tradition: the inherited understanding of sex; Concern: money left for basic needs; Concern: unequal earnings and the cost of coverage; Concern: larger possible debts for victims."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C02_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_05",
+    "HR1834_UNC_support_06",
+    "HR1834_UNC_oppose_01",
+    "HR1834_SEP_support_05",
+    "HR1834_TR_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C02",
+     "field": "scope_html",
+     "quote": "The rule removes the income limit only. People above the limit still receive a credit only if the plan used to set the credit would otherwise cost more than the set share of their income."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_SEP_CONTINUITY",
+    "HR1834_V_TR_MARRIAGE_S",
+    "HR1834_V_UNC_CLIFF",
+    "HR1834_V_UNC_HIGHINCOME",
+    "HR1834_V_UNC_TAXPARITY"
+   ],
+   "block_ids": [
+    "HR1834_B_CLIFF_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Personal Security: coverage kept through changes in work or income; Tradition: no loss of all help for marrying above the cutoff; Concern: help tied to income and insurance costs; Concern: aid above need while the poorest stay excluded; Concern: fairer help across kinds of work."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C03_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_support_01",
+    "HR1834_UNN_support_02",
+    "HR1834_UNN_support_03",
+    "HR1834_UNN_support_04",
+    "HR1834_UNN_support_05",
+    "HR1834_UNN_support_06",
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10",
+    "HR1834_UNC_support_01",
+    "HR1834_UNC_support_02",
+    "HR1834_UNC_support_03",
+    "HR1834_UNC_support_04",
+    "HR1834_UNC_support_07",
+    "HR1834_UNC_support_08",
+    "HR1834_UNC_oppose_03",
+    "HR1834_UNC_oppose_07",
+    "HR1834_UNT_support_03",
+    "HR1834_UNT_support_04",
+    "HR1834_UNT_oppose_01",
+    "HR1834_UNT_oppose_02",
+    "HR1834_UNT_oppose_03",
+    "HR1834_UNT_oppose_04",
+    "HR1834_UNT_oppose_05",
+    "HR1834_SEP_support_01",
+    "HR1834_SEP_support_02",
+    "HR1834_SEP_support_03",
+    "HR1834_SEP_support_04",
+    "HR1834_SEP_support_05",
+    "HR1834_SEP_support_06",
+    "HR1834_SEP_support_07",
+    "HR1834_SEP_support_08",
+    "HR1834_SEP_oppose_02",
+    "HR1834_SEP_oppose_03",
+    "HR1834_SEP_oppose_04",
+    "HR1834_SES_support_01",
+    "HR1834_SES_support_02",
+    "HR1834_SES_support_03",
+    "HR1834_SES_support_04",
+    "HR1834_SES_support_05",
+    "HR1834_SES_support_06",
+    "HR1834_SES_support_07",
+    "HR1834_SES_support_08",
+    "HR1834_TR_support_03",
+    "HR1834_TR_support_06",
+    "HR1834_TR_support_07",
+    "HR1834_TR_support_08",
+    "HR1834_TR_oppose_01",
+    "HR1834_TR_oppose_02",
+    "HR1834_TR_oppose_03",
+    "HR1834_TR_oppose_04",
+    "HR1834_TR_oppose_06",
+    "HR1834_TR_oppose_07",
+    "HR1834_TR_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C03",
+     "field": "scope_html",
+     "quote": "This applies only to people eligible for the credit who buy through a Marketplace. A person generally cannot get the credit if they have an affordable job plan or can get certain public programs. Some people can keep a plan with no premium "
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CHURCH",
+    "HR1834_K_DEBT",
+    "HR1834_K_DISTRESS",
+    "HR1834_K_ENROLL",
+    "HR1834_K_ESSHEALTH",
+    "HR1834_K_FARMS",
+    "HR1834_K_FRAUD",
+    "HR1834_K_INSURED",
+    "HR1834_K_JOBCOVER",
+    "HR1834_K_LOWERBILL",
+    "HR1834_K_MOTHERHOME",
+    "HR1834_K_NATUREWORK",
+    "HR1834_K_REPLACE",
+    "HR1834_K_SOLAR",
+    "HR1834_K_SPENDING",
+    "HR1834_K_STATEFUNDS",
+    "HR1834_V_SES_MONEY",
+    "HR1834_V_TR_CONTRACEPTION",
+    "HR1834_V_TR_IVF",
+    "HR1834_V_TR_MARRIAGE_O",
+    "HR1834_V_TR_TRANS",
+    "HR1834_V_UNC_BASICS",
+    "HR1834_V_UNC_PAYGAP",
+    "HR1834_V_UNC_REPAY"
+   ],
+   "block_ids": [
+    "HR1834_B_CREDITS_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Less strain on churches and church giving; Added federal debt; Less financial distress; More Marketplace enrollment; Less hardship over food, heat and housing; Farm families helped to stay on the land; Added risk of unauthorized enrollment; More people insured; Fewer people with job-based coverage; Plans with lower treatment bills chosen; Easier for one-wage families to keep a mother at home; Lower personal cost of nature work; Easier replacement coverage after job loss; Clean-energy businesses kept going; Household spending supports economic stability; Less pressure on state budgets; Societal Security: more public money within reach of fraud; Tradition: Catholic teaching on marriage and contraception; Tradition: Catholic teaching on conceiving children; Tradition: a higher cost of marrying for some couples; Tradition: the inherited understanding of sex; Concern: money left for basic needs; Concern: unequal earnings and the cost of coverage; Concern: larger possible debts for victims."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C04_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_support_05",
+    "HR1834_UNN_support_06",
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10",
+    "HR1834_UNC_support_01",
+    "HR1834_UNC_support_04",
+    "HR1834_UNC_support_08",
+    "HR1834_UNT_support_04",
+    "HR1834_SEP_support_01",
+    "HR1834_SEP_support_08",
+    "HR1834_SES_support_01",
+    "HR1834_SES_support_02",
+    "HR1834_SES_support_03",
+    "HR1834_SES_support_04",
+    "HR1834_SES_support_05",
+    "HR1834_TR_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C04",
+     "field": "scope_html",
+     "quote": "The 2026 number is small because people shopping for 2026 insurance would not see the lower prices before the yearly sign-up period closed. The numbers cover all types of insurance together."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_INSURED"
+   ],
+   "block_ids": [
+    "HR1834_B_INSURED_LIM"
+   ],
+   "rationale": "Shown in full beside: More people insured."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C05_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_07",
+    "HR1834_SEP_support_06",
+    "HR1834_SEP_support_07",
+    "HR1834_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C05",
+     "field": "scope_html",
+     "quote": "This number is for 2028 only and is a forecast. It counts enrollment, not whether a person keeps coverage during the year."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_ENROLL"
+   ],
+   "block_ids": [
+    "HR1834_B_ENROLL_LIM"
+   ],
+   "rationale": "Shown in full beside: More Marketplace enrollment."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C06_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_03",
+    "HR1834_UNT_oppose_01",
+    "HR1834_UNT_oppose_04",
+    "HR1834_UNT_oppose_05",
+    "HR1834_SEP_oppose_02",
+    "HR1834_SEP_oppose_03",
+    "HR1834_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C06",
+     "field": "scope_html",
+     "quote": "This is one national total for 2028. It does not identify which employers, plans or benefits would be affected. A person can claim the credit only if they lack an affordable job plan. A 2022 CBO analysis of a permanent extension said the fa"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_COSTSHARE",
+    "HR1834_K_JOBCOVER"
+   ],
+   "block_ids": [
+    "HR1834_B_JOBCOVER_LIM"
+   ],
+   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Fewer people with job-based coverage."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C07_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10",
+    "HR1834_UNC_support_01",
+    "HR1834_SEP_support_01",
+    "HR1834_SES_support_01",
+    "HR1834_SES_support_03",
+    "HR1834_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C07",
+     "field": "scope_html",
+     "quote": "The strongest study is a lottery in Oregon that gave Medicaid to low-income adults. Medicaid is public insurance for people with low incomes. Another study looks at previously uninsured adults eligible for Marketplace help. These studies do"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_CARE",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_CARE_LIM"
+   ],
+   "rationale": "Shown in full beside: Newly insured people use more care; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C08_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_oppose_01",
+    "HR1834_UNN_oppose_02",
+    "HR1834_UNN_oppose_03",
+    "HR1834_UNN_oppose_04",
+    "HR1834_UNN_oppose_05",
+    "HR1834_UNN_oppose_06",
+    "HR1834_UNN_oppose_07",
+    "HR1834_UNN_oppose_08",
+    "HR1834_UNN_oppose_09",
+    "HR1834_UNN_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C08",
+     "field": "scope_html",
+     "quote": "The footprint studies divide past total pollution by health-care spending, which gives an average. One method paper says this approach does not reflect marginal effects, meaning the effect of adding a little more. Hospitals run all the time"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FOOTPRINT",
+    "HR1834_V_UNN_POLLUTION"
+   ],
+   "block_ids": [
+    "HR1834_B_FOOT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added care adds energy, supply and waste demand; Nature: pollution and resource demand from added care."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C09_scope_html",
+   "argument_ids": [
+    "HR1834_UNN_support_06",
+    "HR1834_UNC_support_08",
+    "HR1834_UNT_support_04",
+    "HR1834_SEP_support_08",
+    "HR1834_SES_support_02",
+    "HR1834_SES_support_05",
+    "HR1834_TR_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C09",
+     "field": "scope_html",
+     "quote": "The cited forecasts compare keeping the credits with letting them end. They assume 4.8 million more uninsured people in 2026, while CBO's estimate of this bill's effect is much lower for 2026. Sources speak of what “could” happen and do not"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DRIVING",
+    "HR1834_K_PROVIDERS",
+    "HR1834_V_SEP_SERVICES",
+    "HR1834_V_UNC_SERVICES"
+   ],
+   "block_ids": [
+    "HR1834_B_CBO_TIMING"
+   ],
+   "rationale": "Shown in full beside: Avoided extra driving pollution; Less pressure to cut local health services; Personal Security: hospitals and clinics for everyone; Concern: local health services kept."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C10_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_07",
+    "HR1834_SEP_support_06",
+    "HR1834_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C10",
+     "field": "scope_html",
+     "quote": "This is a forecast about prices and the mix of enrollees. It does not by itself measure whether a person keeps coverage after losing a job."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_PRICES",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_UNC_MARKET"
+   ],
+   "block_ids": [
+    "HR1834_B_PRICES_LIM"
+   ],
+   "rationale": "Shown in full beside: Lower full insurance prices; Personal Security: coverage that is easier to buy and keep; Concern: other buyers’ access to coverage."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C11_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_07",
+    "HR1834_SEP_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C11",
+     "field": "scope_html",
+     "quote": "This explains a risk in the market. The source does not forecast a particular insurer leaving or a particular area losing its plans."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_COMPETITION",
+    "HR1834_V_SEP_MARKET",
+    "HR1834_V_UNC_MARKET"
+   ],
+   "block_ids": [
+    "HR1834_B_COMPETITION_LIM"
+   ],
+   "rationale": "Shown in full beside: Less risk of lost plan choices; Personal Security: coverage that is easier to buy and keep; Concern: other buyers’ access to coverage."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C12_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_03",
+    "HR1834_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C12",
+     "field": "scope_html",
+     "quote": "This is true only for people who choose such a plan. The source does not say how many would do so because of this bill."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_LOWERBILL",
+    "HR1834_V_SEP_CARE",
+    "HR1834_V_UNC_CARE"
+   ],
+   "block_ids": [
+    "HR1834_B_LOWERBILL_LIM"
+   ],
+   "rationale": "Shown in full beside: Plans with lower treatment bills chosen; Personal Security: needed care within reach; Concern: care for people who would otherwise go without."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C13_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_05",
+    "HR1834_UNC_support_06",
+    "HR1834_SEP_support_05",
+    "HR1834_TR_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C13",
+     "field": "scope_html",
+     "quote": "The size of help above the line still depends on income, age, place and plan prices. People with an affordable job plan remain ineligible."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_SEP_CONTINUITY",
+    "HR1834_V_TR_MARRIAGE_S",
+    "HR1834_V_UNC_CLIFF",
+    "HR1834_V_UNC_HIGHINCOME",
+    "HR1834_V_UNC_TAXPARITY"
+   ],
+   "block_ids": [
+    "HR1834_B_CLIFF_SCOPE",
+    "HR1834_B_CLIFF_LIM"
+   ],
+   "rationale": "Shown in full beside: Personal Security: coverage kept through changes in work or income; Tradition: no loss of all help for marrying above the cutoff; Concern: help tied to income and insurance costs; Concern: aid above need while the poorest stay excluded; Concern: fairer help across kinds of work."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C14_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_support_01",
+    "HR1834_SEP_support_05",
+    "HR1834_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C14",
+     "field": "scope_html",
+     "quote": "This concerns people who lose job-based coverage and are eligible for a credit. It is about their ability to afford replacement coverage. It does not say the bill removes all coverage gaps. Lower prices do not guarantee uninterrupted insura"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DOWNTURN",
+    "HR1834_K_REPLACE",
+    "HR1834_V_SEP_CONTINUITY"
+   ],
+   "block_ids": [
+    "HR1834_B_REPLACE_LIM"
+   ],
+   "rationale": "Shown in full beside: Health protection kept through downturns; Easier replacement coverage after job loss; Personal Security: coverage kept through changes in work or income."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C15_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_02",
+    "HR1834_SEP_oppose_01",
+    "HR1834_SES_oppose_06",
+    "HR1834_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C15",
+     "field": "scope_html",
+     "quote": "This claim concerns unauthorized or improper enrollment under the rules in force on January 8, 2026. It is about added risk, not a count of future cases. The harms that may follow from this enrollment are judged in each argument."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_FRAUD",
+    "HR1834_V_SEP_FRAUD",
+    "HR1834_V_SES_FRAUD",
+    "HR1834_V_UNC_BROKER"
+   ],
+   "block_ids": [
+    "HR1834_B_FRAUD_LIM"
+   ],
+   "rationale": "Shown in full beside: Added risk of unauthorized enrollment; Personal Security: care interrupted by unwanted plan changes; Societal Security: organized enrollment fraud; Concern: vulnerable people exposed to broker abuse."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C16_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_04",
+    "HR1834_UNC_oppose_05",
+    "HR1834_UNC_oppose_06",
+    "HR1834_SES_oppose_01",
+    "HR1834_SES_oppose_02",
+    "HR1834_SES_oppose_03",
+    "HR1834_SES_oppose_04",
+    "HR1834_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C16",
+     "field": "scope_html",
+     "quote": "This number assumes the bill becomes law in January 2026, and most of it falls in 2026–2029. It is the added amount only, not total federal debt."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_V_SES_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Societal Security: national strength and stability under added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C17_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_04",
+    "HR1834_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C17",
+     "field": "scope_html",
+     "quote": "CBO describes total long-term debt. It says lawmakers “might” feel limited. Some unemployment and food benefits rise automatically without new laws. Applying this to the bill means a small added contribution, not a separate forecast. CBO is"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_EMERG",
+    "HR1834_V_SES_DEBT",
+    "HR1834_V_UNC_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_EMERG_LIM",
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Added pressure on emergency borrowing; Societal Security: national strength and stability under added debt; Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C18_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_05",
+    "HR1834_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C18",
+     "field": "scope_html",
+     "quote": "CBO describes large and growing total debt and says some factors partly offset the decline. Effects of a policy depend on its details. Applying this to the bill means a small added contribution, not a separate forecast. CBO is the Congressi"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT",
+    "HR1834_K_DEBT_INVEST",
+    "HR1834_V_SES_DEBT",
+    "HR1834_V_UNC_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_INVEST_LIM",
+    "HR1834_B_DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added federal debt; Less private investment; Societal Security: national strength and stability under added debt; Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C19_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_06",
+    "HR1834_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C19",
+     "field": "scope_html",
+     "quote": "CBO describes total long-term debt. It says crisis risk depends on more than the amount of debt and that it cannot reliably measure the probability. Applying this to the bill means a small added contribution, not a forecast of a crisis. CBO"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DEBT_CRISIS",
+    "HR1834_K_DEBT_FINTOOLS",
+    "HR1834_V_SES_DEBT",
+    "HR1834_V_UNC_DEBT"
+   ],
+   "block_ids": [
+    "HR1834_B_CRISIS_LIM"
+   ],
+   "rationale": "Shown in full beside: Added fiscal-crisis risk; Weaker financial tools of U.S. influence; Societal Security: national strength and stability under added debt; Concern: people who would bear the costs of added debt."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C20_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_07",
+    "HR1834_UNT_support_03",
+    "HR1834_UNT_oppose_01",
+    "HR1834_UNT_oppose_02",
+    "HR1834_TR_oppose_01",
+    "HR1834_TR_oppose_02",
+    "HR1834_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C20",
+     "field": "scope_html",
+     "quote": "KFF reports that twelve states require this coverage, 25 bar it, and 13 and DC neither require nor prohibit it. The federal exceptions are rape, incest and danger to the pregnant person's life. H.R.1834 does not change these coverage rules."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_ABORTION",
+    "HR1834_V_TR_PAYMENT",
+    "HR1834_V_TR_TAXPAYER",
+    "HR1834_V_UNC_UNBORN",
+    "HR1834_V_UNT_OBJECTOR",
+    "HR1834_V_UNT_ROOM",
+    "HR1834_V_UNT_TAXPAYER"
+   ],
+   "block_ids": [
+    "HR1834_B_ABORT_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Tradition: the religious rule against abortion; Tradition: refusing payments that violate religious teaching; Tradition: the rule against indirect support for abortion; Concern: protection of unborn children; Tolerance: a higher cost for refusing the abortion payment; Tolerance: room for reproductive choices one may reject; Tolerance: public financing religious taxpayers reject."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C21_scope_html",
+   "argument_ids": [
+    "HR1834_UNT_oppose_01",
+    "HR1834_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C21",
+     "field": "scope_html",
+     "quote": "This concerns individual buyers in particular states and coverage years. It does not cover every state with a requirement, and it does not decide whether greater pressure offends a value. This is a state-specific condition. Washington and O"
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_EXEMPT",
+    "HR1834_V_TR_PAYMENT",
+    "HR1834_V_UNT_OBJECTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_OBJECTOR_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Religiously exempt job plans lost; Tradition: refusing payments that violate religious teaching; Tolerance: a higher cost for refusing the abortion payment."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C22_scope_html",
+   "argument_ids": [
+    "HR1834_UNT_oppose_03",
+    "HR1834_TR_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C22",
+     "field": "scope_html",
+     "quote": "This concerns people eligible for the credit. It is about price and does not say that people must leave a ministry. Some ministry rules recognize insurance alongside membership."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_V_TR_MUTUALAID",
+    "HR1834_V_UNT_SHARING"
+   ],
+   "block_ids": [
+    "HR1834_B_MINISTRY_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Tradition: Christian mutual aid; Tolerance: room for religious health sharing."
+  },
+  {
+   "id": "HR1834_QUAL_HR1834_C23_scope_html",
+   "argument_ids": [
+    "HR1834_UNC_oppose_03",
+    "HR1834_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR1834_C23",
+     "field": "scope_html",
+     "quote": "The data are from 2021 to 2023. They measure whether doctors are in a plan's list, not whether they have appointments. The 34% figures apply only to enrollees who reported this problem. KFF says a narrow list may still give adequate access."
+    }
+   ],
+   "decision_ids": [
+    "HR1834_K_DOCTOR",
+    "HR1834_V_SEP_JOBPLANS",
+    "HR1834_V_UNC_DOCTOR"
+   ],
+   "block_ids": [
+    "HR1834_B_DOCTOR_LIM"
+   ],
+   "rationale": "Shown in full beside: Covered access to a doctor lost; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances."
+  }
+ ]
+}

@@ -1,0 +1,2895 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "SJRes88_UNN_support_01",
+   "decision_ids": [
+    "SJRES88_V_UNN_GREEN_COSTS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_01_E5678",
+    "SJRES88_B_UNN_support_01_N2"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_GREEN_COSTS (routes: SJRES88_K_CLEAN_POWER OR SJRES88_K_CLEANUP_TOOLS OR SJRES88_K_WATER OR SJRES88_K_RECYCLING). Four arguments make the same Nature judgment about lower costs for environmental equipment; each kind of equipment remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_UNN_support_02",
+   "decision_ids": [
+    "SJRES88_V_UNN_GREEN_COSTS"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_UNN_GREEN_COSTS (routes: SJRES88_K_CLEAN_POWER OR SJRES88_K_CLEANUP_TOOLS OR SJRES88_K_WATER OR SJRES88_K_RECYCLING). Four arguments make the same Nature judgment about lower costs for environmental equipment; each kind of equipment remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_UNN_support_03",
+   "decision_ids": [
+    "SJRES88_V_UNN_GREEN_COSTS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_03_E45"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_GREEN_COSTS (routes: SJRES88_K_CLEAN_POWER OR SJRES88_K_CLEANUP_TOOLS OR SJRES88_K_WATER OR SJRES88_K_RECYCLING). Four arguments make the same Nature judgment about lower costs for environmental equipment; each kind of equipment remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_UNN_support_04",
+   "decision_ids": [
+    "SJRES88_V_UNN_GREEN_COSTS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_04_E4"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_GREEN_COSTS (routes: SJRES88_K_CLEAN_POWER OR SJRES88_K_CLEANUP_TOOLS OR SJRES88_K_WATER OR SJRES88_K_RECYCLING). Four arguments make the same Nature judgment about lower costs for environmental equipment; each kind of equipment remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_UNN_support_05",
+   "decision_ids": [
+    "SJRES88_V_UNN_BRAZIL"
+   ],
+   "block_ids": [
+    "SJRES88_B_BRAZIL_PREMISE"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_BRAZIL (routes: SJRES88_K_BRAZIL)."
+  },
+  {
+   "id": "SJRes88_UNN_support_06",
+   "decision_ids": [
+    "SJRES88_V_UNN_PRESSURE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_UNN_PRESSURE (routes: SJRES88_K_EU_RULES OR SJRES88_K_LNG). Two arguments make the same Nature judgment about removing tariff pressure against climate protection; EU rules and gas purchases remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_UNN_support_07",
+   "decision_ids": [
+    "SJRES88_V_UNN_PRESSURE"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_07_E5"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_PRESSURE (routes: SJRES88_K_EU_RULES OR SJRES88_K_LNG). Two arguments make the same Nature judgment about removing tariff pressure against climate protection; EU rules and gas purchases remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_E123",
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_UNN_oppose_01_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one causal step, as their own note says; the five promises are shown together at one Nature judgment."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_02",
+   "decision_ids": [
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_02_E123",
+    "SJRES88_B_UNN_oppose_01_N1"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one causal step, as their own note says; the five promises are shown together at one Nature judgment."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_03",
+   "decision_ids": [
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_03_E123",
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_UNN_oppose_03_N1"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one causal step, as their own note says; the five promises are shown together at one Nature judgment."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_04",
+   "decision_ids": [
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_04_E123",
+    "SJRES88_B_UNN_oppose_01_N1"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one causal step, as their own note says; the five promises are shown together at one Nature judgment."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_05",
+   "decision_ids": [
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_05_E1",
+    "SJRES88_B_UNN_oppose_01_N1"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one causal step, as their own note says; the five promises are shown together at one Nature judgment."
+  },
+  {
+   "id": "SJRes88_UNN_oppose_06",
+   "decision_ids": [
+    "SJRES88_V_UNN_CLOTHING"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_01_N2",
+    "SJRES88_B_UNN_oppose_06_E456"
+   ],
+   "rationale": "Value link SJRES88_V_UNN_CLOTHING (routes: SJRES88_K_CLOTHING)."
+  },
+  {
+   "id": "SJRes88_UNC_support_01",
+   "decision_ids": [
+    "SJRES88_V_UNC_FAMILIES"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_01_E23"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_FAMILIES (routes: SJRES88_K_HOUSEHOLD)."
+  },
+  {
+   "id": "SJRes88_UNC_support_02",
+   "decision_ids": [
+    "SJRES88_V_UNC_LIVELIHOODS"
+   ],
+   "block_ids": [
+    "SJRES88_B_LIVELIHOODS_PREMISE"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_LIVELIHOODS (routes: SJRES88_K_FIRMS OR SJRES88_K_HIRING OR SJRES88_K_EXPORTS). Three arguments make the same Concern judgment about livelihoods; costs, rate uncertainty and retaliation remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_UNC_support_03",
+   "decision_ids": [
+    "SJRES88_V_UNC_LIVELIHOODS"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_UNC_LIVELIHOODS (routes: SJRES88_K_FIRMS OR SJRES88_K_HIRING OR SJRES88_K_EXPORTS). Three arguments make the same Concern judgment about livelihoods; costs, rate uncertainty and retaliation remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_UNC_support_04",
+   "decision_ids": [
+    "SJRES88_V_UNC_LIVELIHOODS"
+   ],
+   "block_ids": [
+    "SJRES88_B_LIVELIHOODS_PREMISE"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_LIVELIHOODS (routes: SJRES88_K_FIRMS OR SJRES88_K_HIRING OR SJRES88_K_EXPORTS). Three arguments make the same Concern judgment about livelihoods; costs, rate uncertainty and retaliation remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_UNC_support_05",
+   "decision_ids": [
+    "SJRES88_V_UNC_POOR_WORKERS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_05_E23"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_POOR_WORKERS (routes: SJRES88_K_POOR_EXPORTERS)."
+  },
+  {
+   "id": "SJRes88_UNC_support_06",
+   "decision_ids": [
+    "SJRES88_V_UNC_FAIR_BURDEN"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_06_E123",
+    "SJRES88_B_UNC_support_06_RESP"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_FAIR_BURDEN (routes: no causal claim)."
+  },
+  {
+   "id": "SJRes88_UNC_support_07",
+   "decision_ids": [
+    "SJRES88_V_UNC_REVIEW"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_07_E123",
+    "SJRES88_B_UNC_support_07_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_REVIEW (routes: no causal claim)."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_UNC_FACTORY"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_01_E5"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_FACTORY (routes: SJRES88_K_FACTORY_JOBS)."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_02",
+   "decision_ids": [
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_E123",
+    "SJRES88_B_UNC_oppose_02_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one incentive step, as their own note says; the five promises are shown together at one Concern judgment."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_03",
+   "decision_ids": [
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_03_E123",
+    "SJRES88_B_UNC_oppose_02_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one incentive step, as their own note says; the five promises are shown together at one Concern judgment."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_04",
+   "decision_ids": [
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_04_E123",
+    "SJRES88_B_UNC_oppose_02_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one incentive step, as their own note says; the five promises are shown together at one Concern judgment."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_05",
+   "decision_ids": [
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_05_E12",
+    "SJRES88_B_UNC_oppose_02_N0"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one incentive step, as their own note says; the five promises are shown together at one Concern judgment."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_06",
+   "decision_ids": [
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_06_E123",
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_UNC_oppose_06_N3"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_DEALS (routes: SJRES88_K_LEVERAGE). Five arguments share one incentive step, as their own note says; the five promises are shown together at one Concern judgment."
+  },
+  {
+   "id": "SJRes88_UNC_oppose_07",
+   "decision_ids": [
+    "SJRES88_V_UNC_PEACE"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_07_E4"
+   ],
+   "rationale": "Value link SJRES88_V_UNC_PEACE (routes: SJRES88_K_PEACE)."
+  },
+  {
+   "id": "SJRes88_UNT_support_02",
+   "decision_ids": [
+    "SJRES88_V_UNT_GROCERIES"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_support_02_E46"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_GROCERIES (routes: SJRES88_K_GROCERIES)."
+  },
+  {
+   "id": "SJRes88_UNT_support_03",
+   "decision_ids": [
+    "SJRES88_V_UNT_BLAME"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_support_03_E4"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_BLAME (routes: SJRES88_K_BLAME)."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_E1234",
+    "SJRES88_B_UNT_SHARED_STEP"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_02",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_02_E1"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_03",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_03_E123"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_04",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_04_E12"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_05",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_05_E1",
+    "SJRES88_B_UNT_oppose_05_N2"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_07",
+   "decision_ids": [
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_07_E123",
+    "SJRES88_B_UNT_oppose_07_N4"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_DEALS (routes: SJRES88_K_LEVERAGE). Six arguments share one tariff-pressure step, as their own note says; the six promises are shown together at one Tolerance judgment."
+  },
+  {
+   "id": "SJRes88_UNT_oppose_08",
+   "decision_ids": [
+    "SJRES88_V_UNT_PEACE"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_08_E56"
+   ],
+   "rationale": "Value link SJRES88_V_UNT_PEACE (routes: SJRES88_K_PEACE)."
+  },
+  {
+   "id": "SJRes88_SEP_support_01",
+   "decision_ids": [
+    "SJRES88_V_SEP_MEDICAL"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_MEDICAL (routes: SJRES88_K_HOSPITAL_SUPPLY OR SJRES88_K_PATIENT_BILLS OR SJRES88_K_HOSPITAL_STAFF OR SJRES88_K_RESEARCH OR SJRES88_K_MEDICINE). Five arguments make the same Personal Security judgment about medical care; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_02",
+   "decision_ids": [
+    "SJRES88_V_SEP_MEDICAL"
+   ],
+   "block_ids": [
+    "SJRES88_B_MEDICAL_PREMISE"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_MEDICAL (routes: SJRES88_K_HOSPITAL_SUPPLY OR SJRES88_K_PATIENT_BILLS OR SJRES88_K_HOSPITAL_STAFF OR SJRES88_K_RESEARCH OR SJRES88_K_MEDICINE). Five arguments make the same Personal Security judgment about medical care; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_03",
+   "decision_ids": [
+    "SJRES88_V_SEP_MEDICAL"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_MEDICAL (routes: SJRES88_K_HOSPITAL_SUPPLY OR SJRES88_K_PATIENT_BILLS OR SJRES88_K_HOSPITAL_STAFF OR SJRES88_K_RESEARCH OR SJRES88_K_MEDICINE). Five arguments make the same Personal Security judgment about medical care; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_04",
+   "decision_ids": [
+    "SJRES88_V_SEP_MEDICAL"
+   ],
+   "block_ids": [
+    "SJRES88_B_MEDICAL_PREMISE"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_MEDICAL (routes: SJRES88_K_HOSPITAL_SUPPLY OR SJRES88_K_PATIENT_BILLS OR SJRES88_K_HOSPITAL_STAFF OR SJRES88_K_RESEARCH OR SJRES88_K_MEDICINE). Five arguments make the same Personal Security judgment about medical care; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_05",
+   "decision_ids": [
+    "SJRES88_V_SEP_HEALTHY_LIVING"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_05_E3"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_HEALTHY_LIVING (routes: SJRES88_K_DIET OR SJRES88_K_STRESS OR SJRES88_K_LAYOFF_HEALTH OR SJRES88_K_WATER). Four arguments make the same Personal Security judgment about everyday health; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_06",
+   "decision_ids": [
+    "SJRES88_V_SEP_HEALTHY_LIVING"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_HEALTHY_LIVING (routes: SJRES88_K_DIET OR SJRES88_K_STRESS OR SJRES88_K_LAYOFF_HEALTH OR SJRES88_K_WATER). Four arguments make the same Personal Security judgment about everyday health; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_07",
+   "decision_ids": [
+    "SJRES88_V_SEP_MEDICAL"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_MEDICAL (routes: SJRES88_K_HOSPITAL_SUPPLY OR SJRES88_K_PATIENT_BILLS OR SJRES88_K_HOSPITAL_STAFF OR SJRES88_K_RESEARCH OR SJRES88_K_MEDICINE). Five arguments make the same Personal Security judgment about medical care; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_08",
+   "decision_ids": [
+    "SJRES88_V_SEP_HEALTHY_LIVING"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_08_E2"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_HEALTHY_LIVING (routes: SJRES88_K_DIET OR SJRES88_K_STRESS OR SJRES88_K_LAYOFF_HEALTH OR SJRES88_K_WATER). Four arguments make the same Personal Security judgment about everyday health; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_09",
+   "decision_ids": [
+    "SJRES88_V_SEP_SAFETY_GEAR"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_09_E2"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_SAFETY_GEAR (routes: SJRES88_K_ALARMS OR SJRES88_K_HELMETS OR SJRES88_K_PPE). Three arguments make the same Personal Security judgment about safety products; each product remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_10",
+   "decision_ids": [
+    "SJRES88_V_SEP_HEALTHY_LIVING"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_10_E2"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_HEALTHY_LIVING (routes: SJRES88_K_DIET OR SJRES88_K_STRESS OR SJRES88_K_LAYOFF_HEALTH OR SJRES88_K_WATER). Four arguments make the same Personal Security judgment about everyday health; each mechanism remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_11",
+   "decision_ids": [
+    "SJRES88_V_SEP_SAFETY_GEAR"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_SAFETY_GEAR (routes: SJRES88_K_ALARMS OR SJRES88_K_HELMETS OR SJRES88_K_PPE). Three arguments make the same Personal Security judgment about safety products; each product remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_support_12",
+   "decision_ids": [
+    "SJRES88_V_SEP_SAFETY_GEAR"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SEP_SAFETY_GEAR (routes: SJRES88_K_ALARMS OR SJRES88_K_HELMETS OR SJRES88_K_PPE). Three arguments make the same Personal Security judgment about safety products; each product remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_SEP_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_SEP_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_oppose_01_E3"
+   ],
+   "rationale": "Value link SJRES88_V_SEP_GLOVES (routes: SJRES88_K_GLOVES)."
+  },
+  {
+   "id": "SJRes88_SES_support_01",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE (routes: SJRES88_K_MILITARY_SUPPLY OR SJRES88_K_ALLIES OR SJRES88_K_SUPPLY_OPTIONS). Three arguments make the same Societal Security judgment about defense capacity; suppliers, partners and supply options remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_02",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_02_E3"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE (routes: SJRES88_K_MILITARY_SUPPLY OR SJRES88_K_ALLIES OR SJRES88_K_SUPPLY_OPTIONS). Three arguments make the same Societal Security judgment about defense capacity; suppliers, partners and supply options remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_03",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE (routes: SJRES88_K_MILITARY_SUPPLY OR SJRES88_K_ALLIES OR SJRES88_K_SUPPLY_OPTIONS). Three arguments make the same Societal Security judgment about defense capacity; suppliers, partners and supply options remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_04",
+   "decision_ids": [
+    "SJRES88_V_SES_SERVICES"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_04_E45"
+   ],
+   "rationale": "Value link SJRES88_V_SES_SERVICES (routes: SJRES88_K_WATER OR SJRES88_K_HOSPITAL_SUPPLY). Two arguments make the same Societal Security judgment about essential services; water and hospital supply remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_05",
+   "decision_ids": [
+    "SJRES88_V_SES_SERVICES"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SES_SERVICES (routes: SJRES88_K_WATER OR SJRES88_K_HOSPITAL_SUPPLY). Two arguments make the same Societal Security judgment about essential services; water and hospital supply remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_06",
+   "decision_ids": [
+    "SJRES88_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_06_E123",
+    "SJRES88_B_SES_support_06_RESP"
+   ],
+   "rationale": "Value link SJRES88_V_SES_ECONOMY (routes: SJRES88_K_HOUSEHOLD OR SJRES88_K_INVEST OR SJRES88_K_MARKETS). Three arguments make the same Societal Security judgment about economic stability; costs, investment and markets remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_07",
+   "decision_ids": [
+    "SJRES88_V_SES_ECONOMY"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SES_ECONOMY (routes: SJRES88_K_HOUSEHOLD OR SJRES88_K_INVEST OR SJRES88_K_MARKETS). Three arguments make the same Societal Security judgment about economic stability; costs, investment and markets remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_08",
+   "decision_ids": [
+    "SJRES88_V_SES_ECONOMY"
+   ],
+   "block_ids": [],
+   "rationale": "Value link SJRES88_V_SES_ECONOMY (routes: SJRES88_K_HOUSEHOLD OR SJRES88_K_INVEST OR SJRES88_K_MARKETS). Three arguments make the same Societal Security judgment about economic stability; costs, investment and markets remain separate causal routes."
+  },
+  {
+   "id": "SJRes88_SES_support_09",
+   "decision_ids": [
+    "SJRES88_V_SES_LAW"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_09_E124",
+    "SJRES88_B_SES_support_09_RESP",
+    "SJRES88_B_LAW_NOTE"
+   ],
+   "rationale": "Value link SJRES88_V_SES_LAW (routes: no causal claim)."
+  },
+  {
+   "id": "SJRes88_SES_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE_LOSS (routes: SJRES88_K_BATTERIES OR SJRES88_K_LEVERAGE). Five arguments make the same Societal Security judgment; batteries and deal leverage remain separate causal routes, and the four deal promises share the leverage step."
+  },
+  {
+   "id": "SJRes88_SES_oppose_02",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_02_E12",
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_02_N1"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE_LOSS (routes: SJRES88_K_BATTERIES OR SJRES88_K_LEVERAGE). Five arguments make the same Societal Security judgment; batteries and deal leverage remain separate causal routes, and the four deal promises share the leverage step."
+  },
+  {
+   "id": "SJRes88_SES_oppose_03",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_03_E1234",
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_02_N1"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE_LOSS (routes: SJRES88_K_BATTERIES OR SJRES88_K_LEVERAGE). Five arguments make the same Societal Security judgment; batteries and deal leverage remain separate causal routes, and the four deal promises share the leverage step."
+  },
+  {
+   "id": "SJRes88_SES_oppose_04",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_04_E123",
+    "SJRES88_B_SES_oppose_04_RESP",
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_04_N1"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE_LOSS (routes: SJRES88_K_BATTERIES OR SJRES88_K_LEVERAGE). Five arguments make the same Societal Security judgment; batteries and deal leverage remain separate causal routes, and the four deal promises share the leverage step."
+  },
+  {
+   "id": "SJRes88_SES_oppose_05",
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_05_E123",
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_04_N1",
+    "SJRES88_B_SES_oppose_05_N4"
+   ],
+   "rationale": "Value link SJRES88_V_SES_DEFENSE_LOSS (routes: SJRES88_K_BATTERIES OR SJRES88_K_LEVERAGE). Five arguments make the same Societal Security judgment; batteries and deal leverage remain separate causal routes, and the four deal promises share the leverage step."
+  },
+  {
+   "id": "SJRes88_TR_support_01",
+   "decision_ids": [
+    "SJRES88_V_TR_CUSTOMS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_01_E23"
+   ],
+   "rationale": "Value link SJRES88_V_TR_CUSTOMS (routes: SJRES88_K_INSTRUMENTS OR SJRES88_K_XMAS OR SJRES88_K_GIVING OR SJRES88_K_TOYS). Three arguments make the same Tradition judgment about the cost of religious customs; each good remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_TR_support_02",
+   "decision_ids": [
+    "SJRES88_V_TR_CUSTOMS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_02_E23"
+   ],
+   "rationale": "Value link SJRES88_V_TR_CUSTOMS (routes: SJRES88_K_INSTRUMENTS OR SJRES88_K_XMAS OR SJRES88_K_GIVING OR SJRES88_K_TOYS). Three arguments make the same Tradition judgment about the cost of religious customs; each good remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_TR_support_04",
+   "decision_ids": [
+    "SJRES88_V_TR_DOLLS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_04_E1",
+    "SJRES88_B_TR_support_04_RESP"
+   ],
+   "rationale": "Value link SJRES88_V_TR_DOLLS (routes: SJRES88_K_DOLLS)."
+  },
+  {
+   "id": "SJRes88_TR_support_05",
+   "decision_ids": [
+    "SJRES88_V_TR_CUSTOMS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_05_E146"
+   ],
+   "rationale": "Value link SJRES88_V_TR_CUSTOMS (routes: SJRES88_K_INSTRUMENTS OR SJRES88_K_XMAS OR SJRES88_K_GIVING OR SJRES88_K_TOYS). Three arguments make the same Tradition judgment about the cost of religious customs; each good remains a separate causal route."
+  },
+  {
+   "id": "SJRes88_TR_oppose_01",
+   "decision_ids": [
+    "SJRES88_V_TR_MARRIAGE"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_oppose_01_E45"
+   ],
+   "rationale": "Value link SJRES88_V_TR_MARRIAGE (routes: SJRES88_K_MARRIAGE)."
+  },
+  {
+   "id": "SJRes88_TR_oppose_02",
+   "decision_ids": [
+    "SJRES88_V_TR_CONGREGATIONS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_oppose_02_E45"
+   ],
+   "rationale": "Value link SJRES88_V_TR_CONGREGATIONS (routes: SJRES88_K_CONGREGATIONS)."
+  }
+ ],
+ "responses": [
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_UNN_support_05",
+   "argument_ids": [
+    "SJRes88_UNN_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_05",
+     "field": "response_reading",
+     "quote": "Response Ending the U.S. emergency is not itself the Chinese tariff decision or Chinese buying decision needed to reduce demand for Brazilian soy. This response does not address this Point's point about ending this emergency's power to rais"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CHINA",
+    "SJRES88_K_BRAZIL"
+   ],
+   "block_ids": [
+    "SJRES88_B_BRAZIL_CHALLENGE",
+    "SJRES88_B_C12_CHALLENGE",
+    "SJRES88_B_UNN_support_05_N0"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_UNN_support_07",
+   "argument_ids": [
+    "SJRes88_UNN_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_07",
+     "field": "response_reading",
+     "quote": "Response The EU's energy purchase pledge does not establish the extra switch from pipeline gas to U.S. shipped gas that this Point's pollution claim needs. Because LNG analyst Youri Leconte describes the U.S.-EU deal as a continuation of an"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LNG"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_07_RESP",
+    "SJRES88_B_LNG_NOTE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_UNC_support_03",
+   "argument_ids": [
+    "SJRes88_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_03",
+     "field": "response_reading",
+     "quote": "Response Closing one legal way of making sudden tax changes does not establish less uncertainty about the rates firms would actually pay. This response does not deny that the bill ends this order's own power to raise rates. Because Replacem"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_HIRING"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_03_RESP",
+    "SJRES88_B_UNCERTAINTY_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_UNC_support_06",
+   "argument_ids": [
+    "SJRes88_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_06",
+     "field": "response_reading",
+     "quote": "Response The deficit-share comparison does not establish the unfair treatment it is used to prove. Because The U.N.'s “Lesotho 0.019%” [23] measures a country’s share of the total U.S. goods trade deficit. The reported “much-reduced tariff "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_UNC_FAIR_BURDEN"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_06_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SEP_support_02",
+   "argument_ids": [
+    "SJRes88_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_02",
+     "field": "response_reading",
+     "quote": "Response Lower hospital supply costs do not establish the lower patient charges on which this care-access argument depends. This response does not settle what happens when contracts and premiums are reset. Because The sentence about higher "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_PATIENT_BILLS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_02_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SEP_oppose_01",
+   "argument_ids": [
+    "SJRes88_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "Response This Point's price advantage does not establish that these emergency taxes keep medical backup production available. This response does not deny that the tax gives U.S.-made gloves some price advantage over Malaysian gloves. Becaus"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FACTORY_JOBS",
+    "SJRES88_K_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_oppose_01_RESP",
+    "SJRES88_B_FACTORY_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_support_03",
+   "argument_ids": [
+    "SJRes88_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_03",
+     "field": "response_reading",
+     "quote": "Response This Point treats production outside China as evidence of supply routes protected from Chinese pressure. This response concerns the electronics evidence below and does not deny that some other supply options exist. Because Brooking"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_SUPPLY_OPTIONS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_03_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_support_06",
+   "argument_ids": [
+    "SJRes88_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_06",
+     "field": "response_reading",
+     "quote": "Response This Point moves from evidence about prices and growth to a claim about national protection and social stability without establishing that step. Because The Chamber reports that businesses “are struggling with higher costs” [21] . "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_SES_ECONOMY"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_06_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_support_07",
+   "argument_ids": [
+    "SJRes88_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_07",
+     "field": "response_reading",
+     "quote": "Response This Point equates ending rate changes under one order with reducing the policy uncertainty that delays investment. This response does not deny that this order's own power to change rates would end. Because The bill ends the emerge"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_ALLIES",
+    "SJRES88_K_INVEST",
+    "SJRES88_K_MARKETS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_07_RESP",
+    "SJRES88_B_UNCERTAINTY_CHALLENGE",
+    "SJRES88_B_SES_support_02_N0"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_support_09",
+   "argument_ids": [
+    "SJRes88_SES_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_09",
+     "field": "response_reading",
+     "quote": "Response This Point's assumption that a long-running problem cannot support this emergency is a contested reading of the law. This response does not deny that the resolution applies Congress's check. Because The emergency law permits action"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_SES_LAW"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_09_RESP",
+    "SJRES88_B_LAW_NOTE"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_oppose_01",
+   "argument_ids": [
+    "SJRes88_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_01",
+     "field": "response_reading",
+     "quote": "Response This Point jumps from a possible price incentive for battery makers to more secure military supplies. This response does not deny that the tax gives U.S. battery makers some price advantage. Because The congressional report identif"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_BATTERIES"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_SES_oppose_04",
+   "argument_ids": [
+    "SJRes88_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_04",
+     "field": "response_reading",
+     "quote": "Response This Point does not connect Malaysia's promise to the oil network it cites. This response concerns that example and does not deny that the promise could reach other transactions by Malaysian nationals. Because The promise concerns "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_04_RESP",
+    "SJRES88_B_SES_oppose_04_N1"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_TR_support_04",
+   "argument_ids": [
+    "SJRes88_TR_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_support_04",
+     "field": "response_reading",
+     "quote": "Response A seller's claim that a doll teaches Bible verses does not establish that the doll helps [NAME] pass on an accepted Christian tradition. Because The maker states its aim: “The objective of the doll is to make the love and lessons o"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_TR_DOLLS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_04_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_TR_oppose_01",
+   "argument_ids": [
+    "SJRes88_TR_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_oppose_01",
+     "field": "response_reading",
+     "quote": "Response A price advantage for U.S. products does not establish that these taxes protect the men's jobs and pay on which the family argument depends. Because The bill says the April 2 emergency “is terminated effective on the date of the en"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FACTORY_JOBS",
+    "SJRES88_K_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_FACTORY_CHALLENGE",
+    "SJRES88_B_SEP_oppose_01_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRes88_TR_oppose_02",
+   "argument_ids": [
+    "SJRes88_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_oppose_02",
+     "field": "response_reading",
+     "quote": "Response The church evidence does not show that keeping these taxes protects local congregations or their inherited customs. Because The cited church-study summary examines “trade shocks to manufacturing industries stemming from Chinese imp"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CONGREGATIONS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_oppose_02_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRES88_C11",
+   "argument_ids": [
+    "SJRes88_UNN_support_02",
+    "SJRes88_UNC_support_03",
+    "SJRes88_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C11",
+     "field": "response_reading",
+     "quote": "Officials said the policy would continue another way. Trade adviser Navarro said: “So you can assume that even if we lose we will do it another way.” [UNC 13] Commerce Secretary Lutnick said: “we just bring on another or another or another."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNCERTAINTY_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "SJRES88_RESPONSE_SJRES88_C12",
+   "argument_ids": [
+    "SJRes88_UNN_support_05",
+    "SJRes88_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C12",
+     "field": "response_reading",
+     "quote": "The cut came “following a U.S.-China economic and trade negotiation in Geneva” [UNN 25] . A repeal by Congress would be one-sided, not a negotiated exchange. A repeal does not change Chinese law. Other charges would remain: “certain U.S. ag"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CHINA"
+   ],
+   "block_ids": [
+    "SJRES88_B_C12_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_01_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: By the bill date (October 30, 2025), the higher reciprocal tariff rate on China was suspended through November 10, 2025. A 55% battery price estimate in an April 2025 AP news article applied \"if the tariffs are fully implemen"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CLEAN_POWER",
+    "SJRES88_K_WATER",
+    "SJRES88_V_UNN_GREEN_COSTS",
+    "SJRES88_V_UNN_CLOTHING"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_01_N0",
+    "SJRES88_B_UNN_support_01_N1",
+    "SJRES88_B_UNN_support_01_N2"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_CLEAN_POWER, SJRES88_K_WATER, SJRES88_V_UNN_GREEN_COSTS, SJRES88_V_UNN_CLOTHING."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Geotech owner names the aluminum and steel tariff as one expense and says Geotech re-exports products. In August 2025, the owner said the tariffs had become more predictable than in spring. Separate guidance says reciproc"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CLEANUP_TOOLS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_CLEANUP_TOOLS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_03_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: By the bill date (October 30, 2025), the higher reciprocal tariff rate on China was suspended through November 10, 2025. A 55% battery price estimate in an April 2025 AP news article applied \"if the tariffs are fully implemen"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CLEAN_POWER",
+    "SJRES88_K_WATER"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_01_N0",
+    "SJRES88_B_UNN_support_03_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_CLEAN_POWER, SJRES88_K_WATER."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_04_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: An October 2025 industry letter says recyclers import most shredder wear parts (parts of shredding machines that wear out and need regular replacement). The letter says the expanded metals program under Section 232, a separat"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_RECYCLING"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_04_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_RECYCLING."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_05_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: China's separate March 2025 farm duties (10-15 percent on 740 commodities) were in force on October 30, 2025 and were removed effective November 10 to implement a China-U.S. consensus. Section 301 and Section 232 retaliatory "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CHINA",
+    "SJRES88_K_BRAZIL"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_05_N0",
+    "SJRES88_B_BRAZIL_CHALLENGE",
+    "SJRES88_B_CHINA_FEB_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_CHINA, SJRES88_K_BRAZIL."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_05_gap_0",
+   "argument_ids": [
+    "SJRes88_UNN_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_05",
+     "field": "gaps[0].explanation",
+     "quote": "Trase states a risk from demand for Brazilian soy. No source reviewed estimates land clearing after a repeal. This limit concerns how far the effect would reach. The response addresses only the step about China cutting its tariff."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_BRAZIL"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_05_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at SJRES88_K_BRAZIL."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_06_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: The European Commission proposed removing the EU-wide liability rule and changing the climate transition-plan requirement on February 26, 2025, before the emergency. In October 2025, Politico reported that the Commission woul"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_EU_RULES"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_06_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_EU_RULES."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_support_07_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The DW article reports an EU Commission spokesperson saying the deal would have no impact on EU decarbonization targets. CNBC reports analysts doubt the $750 billion pledge is feasible. S&P quotes an analyst calling the deal "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LNG"
+   ],
+   "block_ids": [
+    "SJRES88_B_LNG_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LNG."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Section 301, a separate U.S. trade law, lets the Office of the U.S. Trade Representative (USTR), the U.S. trade agency, respond to trade agreement violations, generally after consulting the foreign country. In July 2025 USTR "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_N0",
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNN_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about protecting nature share one causal step: tariffs under this emergency work as an incentive and enforcement tool. These five reasons concern illegal logging, illegal trade in wild animals "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNN_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_03_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about protecting nature share one causal step: tariffs under this emergency work as an incentive and enforcement tool. These five reasons concern illegal logging, illegal trade in wild animals "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_UNN_oppose_03_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNN_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_04_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about protecting nature share one causal step: tariffs under this emergency work as an incentive and enforcement tool. These five reasons concern illegal logging, illegal trade in wild animals "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNN_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_05_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about protecting nature share one causal step: tariffs under this emergency work as an incentive and enforcement tool. These five reasons concern illegal logging, illegal trade in wild animals "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNN_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_oppose_01_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNN_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNN_oppose_06_notes_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNN_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: In an April 2025 AP news article, experts said a trade slowdown might bring a brief and slight reduction in greenhouse gases: at most about 1% if full tariffs were implemented. The experts also said harm to clean energy would"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_K_CLOTHING",
+    "SJRES88_V_UNN_GREEN_COSTS",
+    "SJRES88_V_UNN_CLOTHING"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNN_support_01_N2",
+    "SJRES88_B_UNN_oppose_06_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_LEVERAGE, SJRES88_K_CLOTHING, SJRES88_V_UNN_GREEN_COSTS, SJRES88_V_UNN_CLOTHING."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_support_01_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: An April 2025 Marketplace article says prices of some goods may not fall back after tariffs are removed if demand stays high or firms rebuild supply chains. It says prices of goods like fruit and vegetables may be less sticky"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOUSEHOLD"
+   ],
+   "block_ids": [
+    "SJRES88_B_PRICES_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_HOUSEHOLD."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_support_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: CNBC reports Reekon's total expected 2025 tariffs at more than $400,000, without separating this emergency’s tariffs from other tariffs. The same report says Reed, of Reekon Tools, had held most prices and that sales of a new"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FIRMS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_FIRMS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_support_04_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: China's March 2025 farm duties responded to a U.S. action separate from the April 2 emergency. On October 30, 2025, China said the U.S. would suspend the 24 percent reciprocal tariff for another year and that China would adju"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CHINA"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_04_N0",
+    "SJRES88_B_CHINA_FEB_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_CHINA."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_support_05_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: UN Trade and Development (UNCTAD) says reciprocal tariffs, sectoral tariffs (tariffs on particular industries) and expiring preference programs (programs that gave lower tariffs) together raised tariffs on least developed cou"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_POOR_EXPORTERS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_05_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_POOR_EXPORTERS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_support_07_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: Executive Order 14257 says the President received final results of investigations ordered by earlier memoranda on April 1, 2025. CRS says IEEPA does not require any agency to investigate or make findings. The Chamber letter s"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_UNC_REVIEW"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_support_07_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_V_UNC_REVIEW."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Import taxes under Executive Order 14257 are added to other import taxes that the bill leaves in place. The redirected orders concern Royal Apparel and the disability-employment figure concerns Stakes; the Stakes statement re"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_K_FACTORY_JOBS",
+    "SJRES88_K_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_01_G0",
+    "SJRES88_B_UNC_oppose_01_N0",
+    "SJRES88_B_FACTORY_CHALLENGE",
+    "SJRES88_B_SEP_oppose_01_RESP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_K_FACTORY_JOBS, SJRES88_K_GLOVES."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_01_gap_0",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "The redirected orders concern Royal Apparel and the disability-employment figure concerns Stakes; the Stakes statement refers to recent tariff changes generally. The sources do not tie one firm's result to the other firm's workers."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FACTORY_JOBS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_01_G0",
+    "SJRES88_B_UNC_oppose_01_N0"
+   ],
+   "rationale": "This limit is shown in full as local reading at SJRES88_K_FACTORY_JOBS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about concern for vulnerable people and fair treatment share one incentive step (tariffs giving other governments a reason to act) and are not independent evidence for that step. These five rea"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNC_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_03_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about concern for vulnerable people and fair treatment share one incentive step (tariffs giving other governments a reason to act) and are not independent evidence for that step. These five rea"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNC_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_04_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about concern for vulnerable people and fair treatment share one incentive step (tariffs giving other governments a reason to act) and are not independent evidence for that step. These five rea"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNC_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_05_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about concern for vulnerable people and fair treatment share one incentive step (tariffs giving other governments a reason to act) and are not independent evidence for that step. These five rea"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNC_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_06_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: Five reasons against S.J.Res.88 about concern for vulnerable people and fair treatment share one incentive step (tariffs giving other governments a reason to act) and are not independent evidence for that step. These five rea"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNC_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_02_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE",
+    "SJRES88_B_UNC_oppose_06_N3"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNC_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNC_oppose_07_notes_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNC_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The October 26 Thailand-Cambodia declaration set up an observer team from ASEAN, the Association of Southeast Asian Nations, and called for removing heavy weapons from the border. Trump's October remarks also cite a critical "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_K_PEACE"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNC_oppose_07_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_K_PEACE."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_support_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: In the October Sun-Times report, the 88 Marketplace manager says tariffs were not as high as in April and May and describes supply shortages. A December Medill report says inflation and tariffs together threaten these superma"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_GROCERIES"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_GROCERIES."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_support_03_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The New Republic article is an opinion piece. The article says tariffs may not be intuitively xenophobic (showing fear or dislike of foreigners) and places them within a wider set of policies and rhetoric, including deportati"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_BLAME"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_support_03_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_BLAME."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_01",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE",
+    "SJRES88_B_UNT_oppose_01_N4"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_02_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_02",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_03_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_03",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_04_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_04",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_05_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_05",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_UNT_oppose_05_N2",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_07_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_07",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE",
+    "SJRES88_B_UNT_oppose_07_N4"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_UNT_oppose_08_notes_html",
+   "argument_ids": [
+    "SJRes88_UNT_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_UNT_oppose_08",
+     "field": "notes_html",
+     "quote": "Brief context note: Section 301, a separate U.S. trade law, covers denial of U.S. rights under a trade agreement and persistent failure to enforce commitments on labor and the environment, including tariff responses after required findings."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_UNT_DEALS"
+   ],
+   "block_ids": [
+    "SJRES88_B_UNT_oppose_01_N0",
+    "SJRES88_B_GREER_NOTE",
+    "SJRES88_B_UNT_SHARED_STEP",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_UNT_DEALS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_01_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: AdvaMed, the medical technology industry group, says tariffs that cannot be absorbed would likely lead to supply disruptions, and that production of simple items like exam gloves and face masks is moving to Mexico, Costa Rica"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOSPITAL_SUPPLY"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_01_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_HOSPITAL_SUPPLY."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_03_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The letter from the National Association of Emergency Medical Technicians (NAEMT) dates from April 2025. It cites persistent low payment for emergency medical services (EMS) and asks the Administration to consider EMS impacts"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOSPITAL_SUPPLY",
+    "SJRES88_K_HOSPITAL_STAFF"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_03_N0",
+    "SJRES88_B_BLACK_BOOK_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_HOSPITAL_SUPPLY, SJRES88_K_HOSPITAL_STAFF."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_04_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: One line of the official U.S. import tax list (HTSUS 9810.00.60) gives duty-free treatment (no import tax) to approved scientific instruments for nonprofit educational or scientific institutions. August 2025 customs guidance "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_RESEARCH"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_04_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_RESEARCH."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_05_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: CNBC reports bananas up 5.4% since April, without measuring consumption. A commentary in the medical journal BMJ says tariffs may raise both healthy and unhealthy food costs and fall most on lower-income households. Sources: "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_DIET"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_05_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_DIET."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_08_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The result from the research firm Reach3 is a press release on consumer feelings, and it combines negative emotions into one category. CDC lists possible effects of stress in general. Sources: [20] , [21] ."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_STRESS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_08_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_STRESS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_10_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_10"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_10",
+     "field": "notes_html",
+     "quote": "Evidence note: In August 2025, 407 product codes were added to the metal tariffs under Section 232, a separate trade law. For those goods, the metal content falls under Section 232 and the rest remains subject to reciprocal tariffs. Sources"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_WATER"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_10_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_WATER."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_11_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_11"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_11",
+     "field": "notes_html",
+     "quote": "Evidence note: The helmet letter was reported in May 2025, when China faced tariffs of 145%. By the bill date the higher rate was suspended, a 10% reciprocal rate remained, and other U.S. tariffs on China remained. Sources: [27] , [28] ."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HELMETS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_11_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_HELMETS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_support_12_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_12"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_support_12",
+     "field": "notes_html",
+     "quote": "Evidence note: The study by the International Safety Equipment Association (ISEA) covers tariffs enacted on and after April 2, 2025. An Inc. report on the study describes purchasing cuts without separating tariffs by the law behind them. So"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_PPE"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_support_12_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_PPE."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SEP_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SEP_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The July article on SafeSource says the firm's imported nitrile chemicals became subject to the 10% base tariff. SafeSource suspended its U.S. glove and PPE plants on August 22, 2025, putting 541 employees out of work, and ci"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FACTORY_JOBS",
+    "SJRES88_K_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_SEP_oppose_01_RESP",
+    "SJRES88_B_FACTORY_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_FACTORY_JOBS, SJRES88_K_GLOVES."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_01_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: An October 6, 2025 legal report says a Pentagon memorandum clarified that the Duty-Free Entry clause in the Defense Department’s purchasing rules (DFARS) applies to tariffs as well as duties. It also says contractors failing "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_MILITARY_SUPPLY"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_01_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_MILITARY_SUPPLY."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_02_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Commerce Secretary Lutnick said in 2025 that if the tariff power were taken away the President had other authorities: \"we just bring on another or another or another.\" Treasury Secretary Bessent said in September there were o"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_ALLIES",
+    "SJRES88_K_MARKETS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_02_N0",
+    "SJRES88_B_UNCERTAINTY_CHALLENGE",
+    "SJRES88_B_SES_support_02_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_UNCERTAINTY, SJRES88_K_ALLIES, SJRES88_K_MARKETS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_04_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Water Daily's April 2025 article says \"No federal carve-outs so far,\" meaning no federal exceptions, while Customs guidance excludes some Canadian and Mexican goods. An October water-equipment warning concerns Section 232 met"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_WATER"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_04_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_WATER."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_05_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The health news outlet Becker's reports on a survey by the research firm Black Book, cited in the American Hospital Association (AHA) statement. It reports that the survey was conducted in late January 2025, before the April "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOSPITAL_SUPPLY"
+   ],
+   "block_ids": [
+    "SJRES88_B_BLACK_BOOK_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_HOSPITAL_SUPPLY."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_07_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: Commerce Secretary Lutnick said in 2025 that if the tariff power were taken away the President had other authorities: \"we just bring on another or another or another.\" Treasury Secretary Bessent said in September there were o"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_ALLIES",
+    "SJRES88_K_MARKETS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_02_N0",
+    "SJRES88_B_UNCERTAINTY_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_UNCERTAINTY, SJRES88_K_ALLIES, SJRES88_K_MARKETS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_08_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: Commerce Secretary Lutnick said in 2025 that if the tariff power were taken away the President had other authorities: \"we just bring on another or another or another.\" Treasury Secretary Bessent said in September there were o"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_ALLIES",
+    "SJRES88_K_MARKETS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_support_02_N0",
+    "SJRES88_B_UNCERTAINTY_CHALLENGE",
+    "SJRES88_B_SES_support_08_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_UNCERTAINTY, SJRES88_K_ALLIES, SJRES88_K_MARKETS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_support_09_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_support_09",
+     "field": "notes_html",
+     "quote": "Evidence note: A November 2025 letter from senators says multiple courts found these tariffs go beyond what IEEPA (the emergency powers law) allows, and an October analysis says the Court of International Trade and Federal Circuit ruled aga"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_SES_LAW"
+   ],
+   "block_ids": [
+    "SJRES88_B_LAW_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_V_SES_LAW."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Brief context note: The U.S. toolmaker Jergens gains partly from tariff-avoiding orders and partly from defense demand. The duty-free clause in the Defense Department’s purchasing rules (DFARS) covers goods for final Defense Department (DoD"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_SES_DEFENSE_LOSS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_oppose_02_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_02",
+     "field": "notes_html",
+     "quote": "Brief context note: The U.S. toolmaker Jergens gains partly from tariff-avoiding orders and partly from defense demand. The duty-free clause in the Defense Department’s purchasing rules (DFARS) covers goods for final Defense Department (DoD"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_02_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_SES_DEFENSE_LOSS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_oppose_03_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_03",
+     "field": "notes_html",
+     "quote": "Brief context note: The U.S. toolmaker Jergens gains partly from tariff-avoiding orders and partly from defense demand. The duty-free clause in the Defense Department’s purchasing rules (DFARS) covers goods for final Defense Department (DoD"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_02_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_SES_DEFENSE_LOSS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_oppose_04_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_04",
+     "field": "notes_html",
+     "quote": "Brief context note: The U.S. toolmaker Jergens gains partly from tariff-avoiding orders and partly from defense demand. The duty-free clause in the Defense Department’s purchasing rules (DFARS) covers goods for final Defense Department (DoD"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_04_RESP",
+    "SJRES88_B_SES_oppose_04_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_SES_DEFENSE_LOSS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_SES_oppose_05_notes_html",
+   "argument_ids": [
+    "SJRes88_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_SES_oppose_05",
+     "field": "notes_html",
+     "quote": "Brief context note: The U.S. toolmaker Jergens gains partly from tariff-avoiding orders and partly from defense demand. The duty-free clause in the Defense Department’s purchasing rules (DFARS) covers goods for final Defense Department (DoD"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE",
+    "SJRES88_V_SES_DEFENSE_LOSS"
+   ],
+   "block_ids": [
+    "SJRES88_B_SES_oppose_01_N0",
+    "SJRES88_B_SES_oppose_04_RESP",
+    "SJRES88_B_SES_oppose_04_N1",
+    "SJRES88_B_TRADE_AGENDA_NOTE",
+    "SJRES88_B_MALAYSIA_RATIFY_NOTE",
+    "SJRES88_B_SES_oppose_05_N4"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_LEVERAGE, SJRES88_V_SES_DEFENSE_LOSS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_TR_support_01_notes_html",
+   "argument_ids": [
+    "SJRes88_TR_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The NPR price report says a large portion of musical instruments come from overseas. The stores it profiles sell or rent band instruments, one of them brass only, and it does not mention organs or churches. DeYoung's 2011 adv"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_INSTRUMENTS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_01_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_INSTRUMENTS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_TR_support_01_gap_0",
+   "argument_ids": [
+    "SJRes88_TR_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "The price report concerns stores selling or renting band instruments and does not mention organs or churches; the annex listing covered goods is not among the sources reviewed. This point's claim is limited to 'covered imported instruments'"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_INSTRUMENTS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_support_01_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at SJRES88_K_INSTRUMENTS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_TR_support_05_notes_html",
+   "argument_ids": [
+    "SJRes88_TR_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The Kansas City Federal Reserve's September 2025 Beige Book, a report on economic conditions, says business contacts reported suppliers reluctant to lower prices even when tariff rates fell. This kept some costs for materials"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOUSEHOLD",
+    "SJRES88_K_TOYS"
+   ],
+   "block_ids": [
+    "SJRES88_B_PRICES_LIMITS",
+    "SJRES88_B_TR_support_05_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_HOUSEHOLD, SJRES88_K_TOYS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_TR_oppose_01_notes_html",
+   "argument_ids": [
+    "SJRes88_TR_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The researchers Autor, Beck, Dorn and Hanson report that the 2018-2019 import tariffs did not appear to increase manufacturing employment. The researchers Flaaen and Pierce report that U.S. manufacturing industries more expos"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_FACTORY_JOBS",
+    "SJRES88_K_GLOVES"
+   ],
+   "block_ids": [
+    "SJRES88_B_FACTORY_CHALLENGE",
+    "SJRES88_B_SEP_oppose_01_RESP"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_FACTORY_JOBS, SJRES88_K_GLOVES."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRes88_TR_oppose_02_notes_html",
+   "argument_ids": [
+    "SJRes88_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRes88_TR_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Ragsdale's preacher attributes the congregation's decline to location, societal changes and economics, including generational change. The summary of the study by Cesur and co-authors finds fewer churches and more adherents fo"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CONGREGATIONS"
+   ],
+   "block_ids": [
+    "SJRES88_B_TR_oppose_02_RESP"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at SJRES88_K_CONGREGATIONS."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C01_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_01",
+    "SJRes88_UNN_support_02",
+    "SJRes88_UNN_support_03",
+    "SJRes88_UNN_support_04",
+    "SJRes88_UNN_support_05",
+    "SJRes88_UNN_support_06",
+    "SJRes88_UNN_support_07",
+    "SJRes88_UNN_oppose_01",
+    "SJRes88_UNN_oppose_02",
+    "SJRes88_UNN_oppose_03",
+    "SJRes88_UNN_oppose_04",
+    "SJRes88_UNN_oppose_05",
+    "SJRes88_UNN_oppose_06",
+    "SJRes88_UNC_support_01",
+    "SJRes88_UNC_support_02",
+    "SJRes88_UNC_support_03",
+    "SJRes88_UNC_support_04",
+    "SJRes88_UNC_support_05",
+    "SJRes88_UNC_support_06",
+    "SJRes88_UNC_support_07",
+    "SJRes88_UNC_oppose_01",
+    "SJRes88_UNC_oppose_02",
+    "SJRes88_UNC_oppose_03",
+    "SJRes88_UNC_oppose_04",
+    "SJRes88_UNC_oppose_05",
+    "SJRes88_UNC_oppose_06",
+    "SJRes88_UNC_oppose_07",
+    "SJRes88_UNT_support_02",
+    "SJRes88_UNT_support_03",
+    "SJRes88_UNT_oppose_01",
+    "SJRes88_UNT_oppose_02",
+    "SJRes88_UNT_oppose_03",
+    "SJRes88_UNT_oppose_04",
+    "SJRes88_UNT_oppose_05",
+    "SJRes88_UNT_oppose_07",
+    "SJRes88_UNT_oppose_08",
+    "SJRes88_SEP_support_01",
+    "SJRes88_SEP_support_02",
+    "SJRes88_SEP_support_03",
+    "SJRes88_SEP_support_04",
+    "SJRes88_SEP_support_05",
+    "SJRes88_SEP_support_06",
+    "SJRes88_SEP_support_07",
+    "SJRes88_SEP_support_08",
+    "SJRes88_SEP_support_09",
+    "SJRes88_SEP_support_10",
+    "SJRes88_SEP_support_11",
+    "SJRes88_SEP_support_12",
+    "SJRes88_SEP_oppose_01",
+    "SJRes88_SES_support_01",
+    "SJRes88_SES_support_02",
+    "SJRes88_SES_support_03",
+    "SJRes88_SES_support_04",
+    "SJRes88_SES_support_05",
+    "SJRes88_SES_support_06",
+    "SJRes88_SES_support_07",
+    "SJRes88_SES_support_08",
+    "SJRes88_SES_support_09",
+    "SJRes88_SES_oppose_01",
+    "SJRes88_SES_oppose_02",
+    "SJRes88_SES_oppose_03",
+    "SJRes88_SES_oppose_04",
+    "SJRes88_SES_oppose_05",
+    "SJRes88_TR_support_01",
+    "SJRes88_TR_support_02",
+    "SJRes88_TR_support_04",
+    "SJRes88_TR_support_05",
+    "SJRes88_TR_oppose_01",
+    "SJRes88_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C01",
+     "field": "scope_html",
+     "quote": "This is the version the Senate approved on October 30, 2025. The comparison is this bill taking effect on that date versus the law in force on that date. The bill names this one emergency only."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOUSEHOLD"
+   ],
+   "block_ids": [
+    "SJRES88_B_C01_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_HOUSEHOLD."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C02_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_01",
+    "SJRes88_UNN_support_02",
+    "SJRes88_UNN_support_03",
+    "SJRes88_UNN_support_04",
+    "SJRes88_UNN_support_05",
+    "SJRes88_UNN_support_06",
+    "SJRes88_UNN_support_07",
+    "SJRes88_UNN_oppose_01",
+    "SJRes88_UNN_oppose_02",
+    "SJRes88_UNN_oppose_03",
+    "SJRes88_UNN_oppose_04",
+    "SJRes88_UNN_oppose_05",
+    "SJRes88_UNN_oppose_06",
+    "SJRes88_UNC_support_01",
+    "SJRes88_UNC_support_02",
+    "SJRes88_UNC_support_04",
+    "SJRes88_UNC_support_05",
+    "SJRes88_UNC_support_06",
+    "SJRes88_UNC_oppose_01",
+    "SJRes88_UNC_oppose_02",
+    "SJRes88_UNC_oppose_03",
+    "SJRes88_UNC_oppose_04",
+    "SJRes88_UNC_oppose_05",
+    "SJRes88_UNC_oppose_06",
+    "SJRes88_UNC_oppose_07",
+    "SJRes88_UNT_support_02",
+    "SJRes88_UNT_support_03",
+    "SJRes88_UNT_oppose_01",
+    "SJRes88_UNT_oppose_02",
+    "SJRes88_UNT_oppose_03",
+    "SJRes88_UNT_oppose_04",
+    "SJRes88_UNT_oppose_05",
+    "SJRes88_UNT_oppose_07",
+    "SJRes88_UNT_oppose_08",
+    "SJRes88_SEP_support_01",
+    "SJRes88_SEP_support_02",
+    "SJRes88_SEP_support_03",
+    "SJRes88_SEP_support_04",
+    "SJRes88_SEP_support_05",
+    "SJRes88_SEP_support_06",
+    "SJRes88_SEP_support_07",
+    "SJRes88_SEP_support_08",
+    "SJRes88_SEP_support_09",
+    "SJRes88_SEP_support_10",
+    "SJRes88_SEP_support_11",
+    "SJRes88_SEP_support_12",
+    "SJRes88_SEP_oppose_01",
+    "SJRes88_SES_support_01",
+    "SJRes88_SES_support_02",
+    "SJRes88_SES_support_03",
+    "SJRes88_SES_support_04",
+    "SJRes88_SES_support_05",
+    "SJRes88_SES_support_06",
+    "SJRes88_SES_oppose_01",
+    "SJRes88_SES_oppose_02",
+    "SJRes88_SES_oppose_03",
+    "SJRes88_SES_oppose_04",
+    "SJRes88_SES_oppose_05",
+    "SJRes88_TR_support_01",
+    "SJRes88_TR_support_02",
+    "SJRes88_TR_support_04",
+    "SJRes88_TR_support_05",
+    "SJRes88_TR_oppose_01",
+    "SJRes88_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C02",
+     "field": "scope_html",
+     "quote": "This covers imports still taxed under this emergency on October 30, 2025. Customs applies these taxes to goods “other than those that fall within the identified exceptions” [SES 3] . For China, covered goods “will be assessed an additional "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOUSEHOLD"
+   ],
+   "block_ids": [
+    "SJRES88_B_C02_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_HOUSEHOLD."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C03_scope_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_07",
+    "SJRes88_SES_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C03",
+     "field": "scope_html",
+     "quote": "This says only that the method exists and that this bill uses it. It does not say the emergency was illegal, or that ending it would bring a particular benefit."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_V_UNC_REVIEW",
+    "SJRES88_V_SES_LAW"
+   ],
+   "block_ids": [
+    "SJRES88_B_C03_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_V_UNC_REVIEW, SJRES88_V_SES_LAW."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C04_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_02",
+    "SJRes88_UNN_support_05",
+    "SJRes88_UNC_support_03",
+    "SJRes88_UNC_support_04",
+    "SJRes88_UNT_support_03",
+    "SJRes88_SES_support_07",
+    "SJRes88_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C04",
+     "field": "scope_html",
+     "quote": "This covers the power under this order only. The bill's text does not end other tariff powers."
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY",
+    "SJRES88_K_CONFLICT"
+   ],
+   "block_ids": [
+    "SJRES88_B_C04_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_UNCERTAINTY, SJRES88_K_CONFLICT."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C05_scope_html",
+   "argument_ids": [
+    "SJRes88_UNC_support_01",
+    "SJRes88_SEP_support_07",
+    "SJRes88_SEP_support_08",
+    "SJRes88_SES_support_06",
+    "SJRes88_TR_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C05",
+     "field": "scope_html",
+     "quote": "Who pays the tax can vary, and some sellers may keep prices up. Marketplace says importers can pass these costs on or “just eat the costs” [UNC 7] . The same report says “the prices for some goods may not fall back to their original levels "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOUSEHOLD"
+   ],
+   "block_ids": [
+    "SJRES88_B_PRICES_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at SJRES88_K_HOUSEHOLD."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C06_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_03",
+    "SJRes88_SEP_support_10",
+    "SJRes88_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C06",
+     "field": "scope_html",
+     "quote": "The delay is conditional: “If the new tariffs drive up costs, or cause supply shortages” [SEP 23] . The same analysis notes “tariff exemptions for some products” [SEP 23] . Some metal content falls under other tariffs that the bill leaves i"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_WATER"
+   ],
+   "block_ids": [
+    "SJRES88_B_C06_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_WATER."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C07_scope_html",
+   "argument_ids": [
+    "SJRes88_SEP_support_01",
+    "SJRes88_SEP_support_02",
+    "SJRes88_SEP_support_03",
+    "SJRes88_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C07",
+     "field": "scope_html",
+     "quote": "This covers devices, not medicines. Medicines were exempt: “pharmaceuticals” [SEP 4] . Hospital groups and device makers are stating warnings about risk, and these groups have an interest in the outcome. Part of the hospital evidence comes "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_HOSPITAL_SUPPLY"
+   ],
+   "block_ids": [
+    "SJRES88_B_C07_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_HOSPITAL_SUPPLY."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C08_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_01",
+    "SJRes88_UNN_oppose_02",
+    "SJRes88_UNN_oppose_03",
+    "SJRes88_UNN_oppose_04",
+    "SJRes88_UNN_oppose_05",
+    "SJRes88_UNC_oppose_02",
+    "SJRes88_UNC_oppose_03",
+    "SJRes88_UNC_oppose_04",
+    "SJRes88_UNC_oppose_05",
+    "SJRes88_UNC_oppose_06",
+    "SJRes88_UNC_oppose_07",
+    "SJRes88_UNT_oppose_01",
+    "SJRes88_UNT_oppose_02",
+    "SJRes88_UNT_oppose_03",
+    "SJRes88_UNT_oppose_04",
+    "SJRes88_UNT_oppose_05",
+    "SJRes88_UNT_oppose_07",
+    "SJRes88_UNT_oppose_08",
+    "SJRes88_SES_oppose_02",
+    "SJRes88_SES_oppose_03",
+    "SJRes88_SES_oppose_04",
+    "SJRes88_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C08",
+     "field": "scope_html",
+     "quote": "On October 30 these deals still needed further steps: “the United States and Malaysia will undertake domestic formalities in advance of the Agreement entering into force.” [UNT 10] Thailand had a framework only: the two countries “will nego"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE"
+   ],
+   "block_ids": [
+    "SJRES88_B_C08_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_LEVERAGE."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C09_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_oppose_01",
+    "SJRes88_UNN_oppose_02",
+    "SJRes88_UNN_oppose_03",
+    "SJRes88_UNN_oppose_04",
+    "SJRes88_UNN_oppose_05",
+    "SJRes88_UNC_oppose_02",
+    "SJRes88_UNC_oppose_03",
+    "SJRes88_UNC_oppose_04",
+    "SJRes88_UNC_oppose_05",
+    "SJRes88_UNC_oppose_06",
+    "SJRes88_UNT_oppose_01",
+    "SJRes88_UNT_oppose_02",
+    "SJRes88_UNT_oppose_03",
+    "SJRes88_UNT_oppose_04",
+    "SJRes88_UNT_oppose_05",
+    "SJRes88_UNT_oppose_07",
+    "SJRes88_SES_oppose_02",
+    "SJRes88_SES_oppose_03",
+    "SJRes88_SES_oppose_04",
+    "SJRes88_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C09",
+     "field": "scope_html",
+     "quote": "The deals were signed but not in force on October 30, 2025. This statement concerns whether the tool existed on that date, not whether it had been used or how much it would achieve. The Trade Representative's own examples are “actually open"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_LEVERAGE"
+   ],
+   "block_ids": [
+    "SJRES88_B_C09_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_LEVERAGE."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C10_scope_html",
+   "argument_ids": [
+    "SJRes88_UNC_oppose_07",
+    "SJRes88_UNT_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C10",
+     "field": "scope_html",
+     "quote": "Others also helped: Malaysia offered to mediate and China sent representatives [UNT 30] . One report says “The Thai sources did not say whether tariff talks had been impacted by the border clashes.” [UNC 47] Trump's October statement refers"
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_PEACE"
+   ],
+   "block_ids": [
+    "SJRES88_B_C10_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_PEACE."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C11_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_02",
+    "SJRes88_UNC_support_03",
+    "SJRes88_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C11",
+     "field": "scope_html",
+     "quote": "This concerns policy expectations in the comparison used here, which is set on October 30, 2025. Later tariff events do not test what ending the emergency on that date would have done. The statement concerns whether uncertainty would fall, "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_UNCERTAINTY"
+   ],
+   "block_ids": [
+    "SJRES88_B_C11_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_UNCERTAINTY."
+  },
+  {
+   "id": "SJRES88_QUAL_SJRES88_C12_scope_html",
+   "argument_ids": [
+    "SJRes88_UNN_support_05",
+    "SJRes88_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "SJRES88_C12",
+     "field": "scope_html",
+     "quote": "This concerns China's own charge in response to these taxes as it stood on October 30, 2025: a 10 percent charge, with 24 percent suspended. Other Chinese charges on U.S. goods have separate causes. The February 2026 Chinese statement came "
+    }
+   ],
+   "decision_ids": [
+    "SJRES88_K_CHINA"
+   ],
+   "block_ids": [
+    "SJRES88_B_C12_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at SJRES88_K_CHINA."
+  }
+ ]
+}

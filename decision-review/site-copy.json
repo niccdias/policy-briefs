@@ -1,0 +1,16 @@
+{
+ "schema_version": 1,
+ "catalog": {
+  "title": "Policy Stake Briefs",
+  "intro": "Each brief takes one bill and asks, one step at a time, what the bill would cause and whether those consequences give a reason to support or oppose it for each of six values. You decide whether the evidence supports each claim. Your answers are saved only in the browser you use, and you can download a backup copy.",
+  "open_review": "Open the review"
+ },
+ "review_copy": {
+  "pilot_notice": "Policy Stake Briefs",
+  "public_tree_intro": "Read each decision and its evidence. Answers are saved only in this browser.",
+  "public_final_guide": "Each value’s result comes from your current answers, which are saved only in this browser.",
+  "local_only": "Your review is saved only in this browser. To keep a separate copy or move your review, export a JSON backup.",
+  "lock_unavailable": "This browser cannot reserve a single writing tab. Review is read-only here. Use a browser that supports Web Locks to record answers.",
+  "import_error": "This backup could not be imported. Use an unedited JSON backup from this exact release. Your current session is unchanged."
+ }
+}

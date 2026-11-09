@@ -1,0 +1,3682 @@
+{
+  "schema_version": 1,
+  "arguments": [
+    {
+      "id": "HR5408_UNN_support_01",
+      "decision_ids": [
+        "HR5408_DT_K_ENV",
+        "HR5408_DT_V_UNN_TERMS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B01",
+        "HR5408_BW_U23_B02",
+        "HR5408_BW_U23_B03"
+      ],
+      "rationale": "Value link “Nature: environmental terms at work”, consolidated with HR5408_UNN_support_02, HR5408_UNN_support_03; its evidence also supports the causal decision “Environmental terms in contracts”. Routes: [Environmental terms in contracts]."
+    },
+    {
+      "id": "HR5408_UNN_support_02",
+      "decision_ids": [
+        "HR5408_DT_K_E02",
+        "HR5408_DT_K_ENV",
+        "HR5408_DT_V_UNN_TERMS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U09_B03",
+        "HR5408_BW_U23_B04",
+        "HR5408_BW_U23_B05"
+      ],
+      "rationale": "Value link “Nature: environmental terms at work”, consolidated with HR5408_UNN_support_01, HR5408_UNN_support_03; its evidence also supports the causal decisions “Enforceable safety rules”, “Environmental terms in contracts”. Routes: [Environmental terms in contracts]."
+    },
+    {
+      "id": "HR5408_UNN_support_03",
+      "decision_ids": [
+        "HR5408_DT_K_ENV",
+        "HR5408_DT_V_UNN_TERMS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B01",
+        "HR5408_BW_U23_B06",
+        "HR5408_BW_U23_B07"
+      ],
+      "rationale": "Value link “Nature: environmental terms at work”, consolidated with HR5408_UNN_support_01, HR5408_UNN_support_02; its evidence also supports the causal decision “Environmental terms in contracts”. Routes: [Environmental terms in contracts]."
+    },
+    {
+      "id": "HR5408_UNN_support_04",
+      "decision_ids": [
+        "HR5408_DT_K_CONSERVATION",
+        "HR5408_DT_V_UNN_STAFF"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_UNN_STAFF_EVIDENCE",
+        "HR5408_DT_B_UNN_STAFF_LIMITS"
+      ],
+      "rationale": "Value link “Nature: conservation staff”; its evidence also supports the causal decision “Conservation staff”. Routes: [Conservation staff]."
+    },
+    {
+      "id": "HR5408_UNN_support_05",
+      "decision_ids": [
+        "HR5408_DT_K_TRANSITION",
+        "HR5408_DT_V_UNN_TRANSITION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U25_B01",
+        "HR5408_BW_U25_B02"
+      ],
+      "rationale": "Value link “Nature: support for moving to cleaner energy”; its evidence also supports the causal decision “Easing energy workers’ fear of poor pay in clean energy”. Routes: [Easing energy workers’ fear of poor pay in clean energy]."
+    },
+    {
+      "id": "HR5408_UNN_support_06",
+      "decision_ids": [
+        "HR5408_DT_K_CAMPAIGNS",
+        "HR5408_DT_V_UNN_CAMPAIGNS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U26_B01",
+        "HR5408_BW_U26_B02"
+      ],
+      "rationale": "Value link “Nature: a base for environmental campaigns”; its evidence also supports the causal decision “A base for environmental campaigns”. Routes: [A base for environmental campaigns]."
+    },
+    {
+      "id": "HR5408_UNN_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_V_UNN_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B11",
+        "HR5408_BW_U17_B12",
+        "HR5408_DT_B_VOTE_LIMIT_UNN"
+      ],
+      "rationale": "Value link “Nature: insisting on pollution-reducing terms”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNN_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_K_STRIKELIMIT",
+        "HR5408_DT_V_UNN_STRIKES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B08",
+        "HR5408_BW_U23_B09"
+      ],
+      "rationale": "Value link “Nature: acting together to defend nature”; its evidence also supports the causal decision “Limits on strikes for environmental demands”. Routes: [Limits on strikes for environmental demands]."
+    },
+    {
+      "id": "HR5408_UNN_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_K_FOSSIL",
+        "HR5408_DT_V_UNN_FOSSIL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U26_B03",
+        "HR5408_BW_U26_B04"
+      ],
+      "rationale": "Value link “Nature: unions that resist pollution controls”; its evidence also supports the causal decision “Stronger unions that resist pollution controls”. Routes: [Stronger unions that resist pollution controls]."
+    },
+    {
+      "id": "HR5408_UNC_support_01",
+      "decision_ids": [
+        "HR5408_DT_K_C05",
+        "HR5408_DT_V_UNC_DELAY"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B03",
+        "HR5408_BW_U04_B02",
+        "HR5408_DT_B_UNC_DELAY_LIMIT"
+      ],
+      "rationale": "Value link “Concern: a way past an employer’s delay”; its evidence also supports the causal decision “More first contracts, or earlier ones”. Routes: [More first contracts, or earlier ones]."
+    },
+    {
+      "id": "HR5408_UNC_support_02",
+      "decision_ids": [
+        "HR5408_DT_V_UNC_ELECTION"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_UNC_ELECTION"
+      ],
+      "rationale": "Value link “Concern: a vote before representation ends”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNC_support_03",
+      "decision_ids": [
+        "HR5408_DT_V_UNC_CUTS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U06_B03"
+      ],
+      "rationale": "Value link “Concern: protection against cuts during talks”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNC_support_04",
+      "decision_ids": [
+        "HR5408_DT_K_C07",
+        "HR5408_DT_V_UNC_HARDSHIP",
+        "HR5408_DT_K_SPILLOVER",
+        "HR5408_DT_V_UNC_OPPORTUNITY"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B03",
+        "HR5408_BW_U07_B04",
+        "HR5408_BW_U08_B01",
+        "HR5408_BW_U08_B02"
+      ],
+      "rationale": "Value link “Concern: pay for households facing hardship”; its evidence also supports the causal decisions “Some pay gains”, “Pay gains that reach beyond the workers”. Routes: [Some pay gains]."
+    },
+    {
+      "id": "HR5408_UNC_support_05",
+      "decision_ids": [
+        "HR5408_DT_K_E01",
+        "HR5408_DT_K_OTHERBENEFITS",
+        "HR5408_DT_V_UNC_BENEFITS"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_EVIDENCE",
+        "HR5408_DT_B_OTHERBENEFITS_EVIDENCE"
+      ],
+      "rationale": "Value link “Concern: health coverage, paid leave or retirement income”; its evidence also supports the causal decisions “Enforceable terms other than pay”, “Pensions or other paid leave in contracts”. Routes: [Health coverage in contracts] or [Paid sick leave in contracts] or [Paid parental leave in contracts] or [Pensions or other paid leave in contracts]."
+    },
+    {
+      "id": "HR5408_UNC_support_06",
+      "decision_ids": [
+        "HR5408_DT_K_E01",
+        "HR5408_DT_K_E02",
+        "HR5408_DT_V_UNC_SAFETY"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_EVIDENCE",
+        "HR5408_DT_B_E01_REACHED",
+        "HR5408_BW_U09_B03"
+      ],
+      "rationale": "Value link “Concern: enforceable safety protection”; its evidence also supports the causal decisions “Enforceable terms other than pay”, “Enforceable safety rules”. Routes: [Enforceable safety rules]."
+    },
+    {
+      "id": "HR5408_UNC_support_07",
+      "decision_ids": [
+        "HR5408_DT_K_E04",
+        "HR5408_DT_V_UNC_DISCIPLINE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U09_B05",
+        "HR5408_BW_U13_B01"
+      ],
+      "rationale": "Value link “Concern: protection against unfair punishment”; its evidence also supports the causal decision “Just cause or independent review”. Routes: [Just cause or independent review]."
+    },
+    {
+      "id": "HR5408_UNC_support_08",
+      "decision_ids": [
+        "HR5408_DT_K_E01",
+        "HR5408_DT_K_HEALTHCOV",
+        "HR5408_DT_K_SICKLEAVE",
+        "HR5408_DT_K_PARENTAL",
+        "HR5408_DT_K_OTHERBENEFITS",
+        "HR5408_DT_K_SCHEDULE_NOTICE",
+        "HR5408_DT_K_RELIGIOUS_ADJUST",
+        "HR5408_DT_K_PAYRULES",
+        "HR5408_DT_V_UNC_PAYRULES",
+        "HR5408_DT_K_OPENINGS",
+        "HR5408_DT_K_TRAINING",
+        "HR5408_DT_K_OUTSIDE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_EXPLAIN",
+        "HR5408_DT_B_E01_REACHED",
+        "HR5408_BW_U09_B07",
+        "HR5408_DT_B_TERMS_LIMIT",
+        "HR5408_BW_U14_B03"
+      ],
+      "rationale": "Value link “Concern: pay rules less open to bias”; its evidence also supports the causal decisions “Enforceable terms other than pay”, “Health coverage in contracts”, “Paid sick leave in contracts”, “Paid parental leave in contracts”, “Pensions or other paid leave in contracts”, “Posted schedules and advance notice”, “Schedule adjustments for religious holidays”, “Shared pay rules less open to bias”, “Posted job openings”, “Training and tuition help”, “Limits on outside labor”. Routes: [Shared pay rules less open to bias]."
+    },
+    {
+      "id": "HR5408_UNC_support_09",
+      "decision_ids": [
+        "HR5408_DT_K_E01",
+        "HR5408_DT_K_E03",
+        "HR5408_DT_V_UNC_DISCRIMINATION"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_EVIDENCE",
+        "HR5408_BW_U09_B04",
+        "HR5408_DT_B_E03_LIMIT",
+        "HR5408_BW_U14_B01"
+      ],
+      "rationale": "Value link “Concern: an easier way to enforce protection from discrimination”; its evidence also supports the causal decisions “Enforceable terms other than pay”, “Enforceable anti-discrimination terms”. Routes: [Enforceable anti-discrimination terms]."
+    },
+    {
+      "id": "HR5408_UNC_support_10",
+      "decision_ids": [
+        "HR5408_DT_K_SCHEDULE_NOTICE",
+        "HR5408_DT_V_UNC_HOURS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U12_B01"
+      ],
+      "rationale": "Value link “Concern: predictable hours for caregivers”; its evidence also supports the causal decision “Posted schedules and advance notice”. Routes: [Posted schedules and advance notice]."
+    },
+    {
+      "id": "HR5408_UNC_support_11",
+      "decision_ids": [
+        "HR5408_DT_K_OPENINGS",
+        "HR5408_DT_V_UNC_OPENINGS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U15_B01"
+      ],
+      "rationale": "Value link “Concern: posted job openings”; its evidence also supports the causal decision “Posted job openings”. Routes: [Posted job openings]."
+    },
+    {
+      "id": "HR5408_UNC_support_12",
+      "decision_ids": [
+        "HR5408_DT_K_TRAINING",
+        "HR5408_DT_V_UNC_TRAINING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U15_B02"
+      ],
+      "rationale": "Value link “Concern: training and tuition help”; its evidence also supports the causal decision “Training and tuition help”. Routes: [Training and tuition help]."
+    },
+    {
+      "id": "HR5408_UNC_support_13",
+      "decision_ids": [
+        "HR5408_DT_K_OUTSIDE",
+        "HR5408_DT_V_UNC_OUTSIDE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U15_B03"
+      ],
+      "rationale": "Value link “Concern: limits on replacing work with outside labor”; its evidence also supports the causal decision “Limits on outside labor”. Routes: [Limits on outside labor]."
+    },
+    {
+      "id": "HR5408_UNC_support_14",
+      "decision_ids": [
+        "HR5408_DT_K_C08",
+        "HR5408_DT_V_UNC_STOPPAGES",
+        "HR5408_DT_K_HOSPITAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B02",
+        "HR5408_BW_U05_B03",
+        "HR5408_BW_U05_B04"
+      ],
+      "rationale": "Value link “Concern: incomes and people who depend on services”; its evidence also supports the causal decisions “Fewer first-contract strikes and lockouts”, “Fewer first-contract hospital strikes”. Routes: [Fewer first-contract strikes and lockouts]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_V_UNC_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B04"
+      ],
+      "rationale": "Value link “Concern: terms workers cannot reject by voting”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_K_PRESSURE",
+        "HR5408_DT_V_UNC_PRESSURE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B04",
+        "HR5408_BW_U04_B05"
+      ],
+      "rationale": "Value link “Concern: pressure to settle”; its evidence also supports the causal decision “Pressure to settle early”. Routes: [Pressure to settle early]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_K_C11",
+        "HR5408_DT_K_SAFETYFIT",
+        "HR5408_DT_V_UNC_FIT"
+      ],
+      "block_ids": [
+        "HR5408_BW_U16_B02",
+        "HR5408_BW_U16_B03"
+      ],
+      "rationale": "Value link “Concern: ill-fitting safety rules”; its evidence also supports the causal decisions “Panel-set rules that may not fit a workplace”, “Ill-fitting safety rules”. Routes: [Ill-fitting safety rules]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_04",
+      "decision_ids": [
+        "HR5408_DT_K_C09",
+        "HR5408_DT_V_UNC_UNAFFORDABLE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_C09_CHALLENGE",
+        "HR5408_BW_U20_B01"
+      ],
+      "rationale": "Value link “Concern: jobs and small owners’ income”; its evidence also supports the causal decision “Risk of awards a small employer cannot sustain”. Routes: [Risk of awards a small employer cannot sustain]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_05",
+      "decision_ids": [
+        "HR5408_DT_K_SMALLHELP",
+        "HR5408_DT_V_UNC_AGENCY"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B03",
+        "HR5408_BW_U21_B04"
+      ],
+      "rationale": "Value link “Concern: access to public help”; its evidence also supports the causal decision “Less or slower help for unions that cannot buy private help”. Routes: [Less or slower help for unions that cannot buy private help]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_06",
+      "decision_ids": [
+        "HR5408_DT_K_POLITICAL",
+        "HR5408_DT_V_UNC_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B01",
+        "HR5408_BW_U22_B02"
+      ],
+      "rationale": "Value link “Concern: political influence over who decides terms”; its evidence also supports the causal decision “Political pressure on panel appointments”. Routes: [Political pressure on panel appointments]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_07",
+      "decision_ids": [
+        "HR5408_DT_K_COSTS",
+        "HR5408_DT_V_UNC_COSTS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B03",
+        "HR5408_BW_U22_B04"
+      ],
+      "rationale": "Value link “Concern: money for wages, benefits and representation”; its evidence also supports the causal decision “Hearing and lawsuit costs”. Routes: [Hearing and lawsuit costs]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_08",
+      "decision_ids": [
+        "HR5408_DT_V_UNC_RAISES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U06_B04"
+      ],
+      "rationale": "Value link “Concern: raises held back after a deadlock”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNC_oppose_09",
+      "decision_ids": [
+        "HR5408_DT_V_UNC_ENDREP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B07",
+        "HR5408_BW_U18_B08"
+      ],
+      "rationale": "Value link “Concern: ending representation workers no longer want”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNT_support_01",
+      "decision_ids": [
+        "HR5408_DT_K_RACIAL",
+        "HR5408_DT_V_UNT_RACIAL",
+        "HR5408_DT_V_UNT_VOICE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B05",
+        "HR5408_BW_U18_B06",
+        "HR5408_DT_B_UNT_VOICE",
+        "HR5408_BW_U18_B04"
+      ],
+      "rationale": "Value link “Tolerance: cooperation across racial lines”; its evidence also supports the causal decision “Continuing union membership and racial resentment”. Routes: [Continuing union membership and racial resentment]."
+    },
+    {
+      "id": "HR5408_UNT_support_02",
+      "decision_ids": [
+        "HR5408_DT_V_UNT_MEDIATION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B06",
+        "HR5408_BW_U04_B07"
+      ],
+      "rationale": "Value link “Tolerance: help with a difficult conversation”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNT_support_03",
+      "decision_ids": [
+        "HR5408_DT_K_ACCOMMODATION",
+        "HR5408_DT_K_DISCUSSION",
+        "HR5408_DT_K_E03",
+        "HR5408_DT_V_UNT_DIFFERENCES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U14_B02",
+        "HR5408_BW_U14_B05",
+        "HR5408_BW_U09_B04",
+        "HR5408_BW_U14_B01"
+      ],
+      "rationale": "Value link “Tolerance: protection and practical terms for people who differ”; its evidence also supports the causal decisions “Terms that adapt work to differences”, “Regular discussion across differences”, “Enforceable anti-discrimination terms”. Routes: [Enforceable anti-discrimination terms] or [Terms that adapt work to differences]."
+    },
+    {
+      "id": "HR5408_UNT_support_04",
+      "decision_ids": [
+        "HR5408_DT_K_ACCOMMODATION",
+        "HR5408_DT_K_DISCUSSION",
+        "HR5408_DT_V_UNT_DISCUSSION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U14_B05",
+        "HR5408_BW_U14_B04"
+      ],
+      "rationale": "Value link “Tolerance: regular discussion across differences”; its evidence also supports the causal decisions “Terms that adapt work to differences”, “Regular discussion across differences”. Routes: [Regular discussion across differences]."
+    },
+    {
+      "id": "HR5408_UNT_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B02",
+        "HR5408_BW_U17_B05",
+        "HR5408_BW_U17_B13",
+        "HR5408_BW_U17_B14"
+      ],
+      "rationale": "Value link “Tolerance: members who disagree, and fee clauses”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNT_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_V_UNT_COMPROMISE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B08",
+        "HR5408_BW_U04_B09"
+      ],
+      "rationale": "Value link “Tolerance: a way around compromise”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_UNT_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_V_UNT_LOCAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U16_B04"
+      ],
+      "rationale": "Value link “Tolerance: local practices overridden”. Routes: [Panel-set rules that may not fit a workplace]."
+    },
+    {
+      "id": "HR5408_UNT_oppose_04",
+      "decision_ids": [
+        "HR5408_DT_V_UNT_REJECTION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B07",
+        "HR5408_BW_U18_B09"
+      ],
+      "rationale": "Value link “Tolerance: acting on workers’ rejection of a union”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_SEP_support_01",
+      "decision_ids": [
+        "HR5408_DT_K_E01",
+        "HR5408_DT_K_E02",
+        "HR5408_DT_V_SEP_SAFETY"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_REACHED",
+        "HR5408_BW_U09_B03",
+        "HR5408_DT_B_E02_LIMIT",
+        "HR5408_BW_U11_B01"
+      ],
+      "rationale": "Value link “Personal Security: enforceable safety protection”; its evidence also supports the causal decisions “Enforceable terms other than pay”, “Enforceable safety rules”. Routes: [Enforceable safety rules]."
+    },
+    {
+      "id": "HR5408_SEP_support_02",
+      "decision_ids": [
+        "HR5408_DT_V_SEP_KEPT"
+      ],
+      "block_ids": [
+        "HR5408_BW_U06_B03"
+      ],
+      "rationale": "Value link “Personal Security: health coverage and safety rules kept during talks”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_SEP_support_03",
+      "decision_ids": [
+        "HR5408_DT_K_HEALTHCOV",
+        "HR5408_DT_V_SEP_COVERAGE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_HEALTHCOV_EVIDENCE"
+      ],
+      "rationale": "Value link “Personal Security: health coverage”; its evidence also supports the causal decision “Health coverage in contracts”. Routes: [Health coverage in contracts]."
+    },
+    {
+      "id": "HR5408_SEP_support_04",
+      "decision_ids": [
+        "HR5408_DT_K_SICKLEAVE",
+        "HR5408_DT_V_SEP_SICKLEAVE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_SICKLEAVE_EVIDENCE",
+        "HR5408_BW_U10_B02",
+        "HR5408_BW_U10_B03"
+      ],
+      "rationale": "Value link “Personal Security: paid sick leave”; its evidence also supports the causal decision “Paid sick leave in contracts”. Routes: [Paid sick leave in contracts]."
+    },
+    {
+      "id": "HR5408_SEP_support_05",
+      "decision_ids": [
+        "HR5408_DT_K_C07",
+        "HR5408_DT_V_SEP_PAYHEALTH",
+        "HR5408_DT_K_SPILLOVER"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B03",
+        "HR5408_BW_U08_B03",
+        "HR5408_BW_U08_B02"
+      ],
+      "rationale": "Value link “Personal Security: pay that buys health protection”; its evidence also supports the causal decisions “Some pay gains”, “Pay gains that reach beyond the workers”. Routes: [Some pay gains]."
+    },
+    {
+      "id": "HR5408_SEP_support_06",
+      "decision_ids": [
+        "HR5408_DT_K_SLEEP",
+        "HR5408_DT_V_SEP_SLEEP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U12_B02",
+        "HR5408_BW_U12_B03"
+      ],
+      "rationale": "Value link “Personal Security: sleep and recovery”; its evidence also supports the causal decision “Schedule rules or rest periods that protect sleep”. Routes: [Schedule rules or rest periods that protect sleep]."
+    },
+    {
+      "id": "HR5408_SEP_support_07",
+      "decision_ids": [
+        "HR5408_DT_K_E04",
+        "HR5408_DT_K_CONTROL",
+        "HR5408_DT_V_SEP_CONTROL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U09_B05",
+        "HR5408_BW_U13_B02",
+        "HR5408_BW_U13_B03"
+      ],
+      "rationale": "Value link “Personal Security: tools to challenge unhealthy demands”; its evidence also supports the causal decisions “Just cause or independent review”, “From discipline protections to health”. Routes: [From discipline protections to health]."
+    },
+    {
+      "id": "HR5408_SEP_support_08",
+      "decision_ids": [
+        "HR5408_DT_K_STAFFING",
+        "HR5408_DT_V_SEP_STAFFING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U11_B04",
+        "HR5408_BW_U11_B05"
+      ],
+      "rationale": "Value link “Personal Security: hospital staffing”; its evidence also supports the causal decision “Hospital staffing rules”. Routes: [Hospital staffing rules]."
+    },
+    {
+      "id": "HR5408_SEP_support_09",
+      "decision_ids": [
+        "HR5408_DT_K_HOSPITAL",
+        "HR5408_DT_V_SEP_HOSPITAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B04",
+        "HR5408_BW_U05_B05"
+      ],
+      "rationale": "Value link “Personal Security: fewer hospital strikes”; its evidence also supports the causal decision “Fewer first-contract hospital strikes”. Routes: [Fewer first-contract hospital strikes]."
+    },
+    {
+      "id": "HR5408_SEP_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_K_SAFETYFIT",
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_SEP_VOTE_HEALTH",
+        "HR5408_BW_U17_B08",
+        "HR5408_DT_B_VOTE_LIMIT_SEP"
+      ],
+      "rationale": "Value link “Personal Security: final check on health and safety terms”, consolidated with HR5408_SEP_oppose_02, HR5408_SEP_oppose_03, HR5408_SEP_oppose_04; its evidence also supports the causal decision “Ill-fitting safety rules”. Routes: [Ill-fitting safety rules] or [context only]."
+    },
+    {
+      "id": "HR5408_SEP_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_SEP_VOTE_HEALTH",
+        "HR5408_BW_U17_B07",
+        "HR5408_BW_U17_B08"
+      ],
+      "rationale": "Value link “Personal Security: final check on health and safety terms”, consolidated with HR5408_SEP_oppose_01, HR5408_SEP_oppose_03, HR5408_SEP_oppose_04. Routes: [Ill-fitting safety rules] or [context only]."
+    },
+    {
+      "id": "HR5408_SEP_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B07"
+      ],
+      "rationale": "Value link “Personal Security: final check on health and safety terms”, consolidated with HR5408_SEP_oppose_01, HR5408_SEP_oppose_02, HR5408_SEP_oppose_04. Routes: [Ill-fitting safety rules] or [context only]."
+    },
+    {
+      "id": "HR5408_SEP_oppose_04",
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B07",
+        "HR5408_BW_U17_B08"
+      ],
+      "rationale": "Value link “Personal Security: final check on health and safety terms”, consolidated with HR5408_SEP_oppose_01, HR5408_SEP_oppose_02, HR5408_SEP_oppose_03. Routes: [Ill-fitting safety rules] or [context only]."
+    },
+    {
+      "id": "HR5408_SES_support_01",
+      "decision_ids": [
+        "HR5408_DT_K_HOSPITAL",
+        "HR5408_DT_K_DEFENSE_STOP",
+        "HR5408_DT_V_SES_STOPPAGES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B04",
+        "HR5408_BW_U05_B06",
+        "HR5408_BW_U05_B07"
+      ],
+      "rationale": "Value link “Societal Security: military support and medical care”; its evidence also supports the causal decisions “Fewer first-contract hospital strikes”, “Fewer stoppages at companies that support the military”. Routes: [Fewer first-contract hospital strikes] or [Fewer stoppages at companies that support the military]."
+    },
+    {
+      "id": "HR5408_SES_support_02",
+      "decision_ids": [
+        "HR5408_DT_K_OUTBREAK",
+        "HR5408_DT_V_SES_OUTBREAK"
+      ],
+      "block_ids": [
+        "HR5408_BW_U11_B02",
+        "HR5408_BW_U11_B03"
+      ],
+      "rationale": "Value link “Societal Security: defense against disease outbreaks”; its evidence also supports the causal decision “From care-worker protections to national outbreak capacity”. Routes: [From care-worker protections to national outbreak capacity]."
+    },
+    {
+      "id": "HR5408_SES_support_03",
+      "decision_ids": [
+        "HR5408_DT_K_C07",
+        "HR5408_DT_K_ECONOMY",
+        "HR5408_DT_V_SES_HOUSEHOLDS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B02",
+        "HR5408_BW_U07_B03",
+        "HR5408_BW_U08_B04"
+      ],
+      "rationale": "Value link “Societal Security: household stability and a steadier economy”; its evidence also supports the causal decisions “Some pay gains”, “From household income to a steadier economy”. Routes: [From household income to a steadier economy]."
+    },
+    {
+      "id": "HR5408_SES_support_04",
+      "decision_ids": [
+        "HR5408_DT_K_PLANNING",
+        "HR5408_DT_V_SES_PLANNING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B04",
+        "HR5408_BW_U20_B05"
+      ],
+      "rationale": "Value link “Societal Security: steadier economic activity”; its evidence also supports the causal decision “More predictable labor costs and steadier economic activity”. Routes: [More predictable labor costs and steadier economic activity]."
+    },
+    {
+      "id": "HR5408_SES_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_K_ESSENTIAL",
+        "HR5408_DT_V_SES_ESSENTIAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B05",
+        "HR5408_BW_U21_B06"
+      ],
+      "rationale": "Value link “Societal Security: essential services”; its evidence also supports the causal decision “Resources drawn from essential-service disputes”. Routes: [Resources drawn from essential-service disputes]."
+    },
+    {
+      "id": "HR5408_SES_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_K_DEFENSE",
+        "HR5408_DT_V_SES_DEFENSE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B02",
+        "HR5408_BW_U20_B03"
+      ],
+      "rationale": "Value link “Societal Security: small defense suppliers”; its evidence also supports the causal decision “Small defense suppliers”. Routes: [Small defense suppliers]."
+    },
+    {
+      "id": "HR5408_SES_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_K_C11",
+        "HR5408_DT_K_DELIVERIES",
+        "HR5408_DT_V_SES_DELIVERIES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U16_B01",
+        "HR5408_BW_U16_B02",
+        "HR5408_BW_U16_B05"
+      ],
+      "rationale": "Value link “Societal Security: essential deliveries”; its evidence also supports the causal decisions “Panel-set rules that may not fit a workplace”, “Ill-fitting rules at food and medical distributors”. Routes: [Ill-fitting rules at food and medical distributors]."
+    },
+    {
+      "id": "HR5408_TR_support_01",
+      "decision_ids": [
+        "HR5408_DT_V_TR_FAMILYWAGE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U02_B03",
+        "HR5408_BW_U02_B04"
+      ],
+      "rationale": "Value link “Tradition: family needs in pay decisions”. Routes: [context only]."
+    },
+    {
+      "id": "HR5408_TR_support_02",
+      "decision_ids": [
+        "HR5408_DT_K_SCHEDULE_NOTICE",
+        "HR5408_DT_K_RELIGIOUS_ADJUST",
+        "HR5408_DT_V_TR_WORSHIP"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_NOTICE_EVIDENCE",
+        "HR5408_DT_B_RELIGIOUS_EVIDENCE",
+        "HR5408_BW_U12_B06",
+        "HR5408_BW_U12_B04"
+      ],
+      "rationale": "Value link “Tradition: time for worship”; its evidence also supports the causal decisions “Posted schedules and advance notice”, “Schedule adjustments for religious holidays”. Routes: [context only] or [Posted schedules and advance notice] or [Schedule adjustments for religious holidays]."
+    },
+    {
+      "id": "HR5408_TR_support_03",
+      "decision_ids": [
+        "HR5408_DT_K_HEALTHCOV",
+        "HR5408_DT_K_PARENTAL",
+        "HR5408_DT_V_TR_PARENTAL"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_HEALTHCOV_LIMIT",
+        "HR5408_DT_B_PARENTAL_EVIDENCE",
+        "HR5408_DT_B_PARENTAL_LIMIT",
+        "HR5408_DT_B_PARENTAL_FAITH"
+      ],
+      "rationale": "Value link “Tradition: paid parental leave”; its evidence also supports the causal decisions “Health coverage in contracts”, “Paid parental leave in contracts”. Routes: [Paid parental leave in contracts]."
+    },
+    {
+      "id": "HR5408_TR_oppose_01",
+      "decision_ids": [
+        "HR5408_DT_K_C13",
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B03",
+        "HR5408_BW_U27_B04",
+        "HR5408_BW_U27_B05"
+      ],
+      "rationale": "Value link “Tradition: political work against inherited Christian teaching”, consolidated with HR5408_TR_oppose_02, HR5408_TR_oppose_03, HR5408_TR_oppose_04, HR5408_TR_oppose_06; its evidence also supports the causal decision “Payments that support national union political work”. Routes: [Payments that support national union political work]."
+    },
+    {
+      "id": "HR5408_TR_oppose_02",
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B06",
+        "HR5408_BW_U27_B07"
+      ],
+      "rationale": "Value link “Tradition: political work against inherited Christian teaching”, consolidated with HR5408_TR_oppose_01, HR5408_TR_oppose_03, HR5408_TR_oppose_04, HR5408_TR_oppose_06. Routes: [Payments that support national union political work]."
+    },
+    {
+      "id": "HR5408_TR_oppose_03",
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B08"
+      ],
+      "rationale": "Value link “Tradition: political work against inherited Christian teaching”, consolidated with HR5408_TR_oppose_01, HR5408_TR_oppose_02, HR5408_TR_oppose_04, HR5408_TR_oppose_06. Routes: [Payments that support national union political work]."
+    },
+    {
+      "id": "HR5408_TR_oppose_04",
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B09"
+      ],
+      "rationale": "Value link “Tradition: political work against inherited Christian teaching”, consolidated with HR5408_TR_oppose_01, HR5408_TR_oppose_02, HR5408_TR_oppose_03, HR5408_TR_oppose_06. Routes: [Payments that support national union political work]."
+    },
+    {
+      "id": "HR5408_TR_oppose_06",
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B10",
+        "HR5408_BW_U27_B11"
+      ],
+      "rationale": "Value link “Tradition: political work against inherited Christian teaching”, consolidated with HR5408_TR_oppose_01, HR5408_TR_oppose_02, HR5408_TR_oppose_03, HR5408_TR_oppose_04. Routes: [Payments that support national union political work]."
+    },
+    {
+      "id": "HR5408_TR_oppose_07",
+      "decision_ids": [
+        "HR5408_DT_V_TR_COVERAGE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B09",
+        "HR5408_BW_U17_B10"
+      ],
+      "rationale": "Value link “Tradition: health coverage in line with faith”. Routes: [context only]."
+    }
+  ],
+  "responses": [
+    {
+      "id": "HR5408_CH01",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_06",
+          "field": "notes_html",
+          "quote": "The first-contract study covers contracts from 1987 to 1996 in campaigns where a contract was reached, and states that “the quality of the first contract that a union achieves is a direct product of their power.”"
+        },
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "notes_html",
+          "quote": "The first-contract study collected contracts where agreement was reached"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_REACHED"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_CH02",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "notes_html",
+          "quote": "A 2009 legal review reports that experienced arbitrators generally believe interest arbitration (outside decision-makers setting contract terms) rarely departs from the status quo (the existing situation) in economic and noneconomic working conditions."
+        },
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "notes_html",
+          "quote": "A separate review of Canadian practice says first agreements decided by arbitration should not contain breakthrough or novel provisions (new kinds of contract terms)."
+        },
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "support_reading",
+          "quote": "They also do not address settlements reached because a panel is possible, or contract terms that put existing practice into an enforceable contract."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_BW_U09_B07"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_CH03",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_03",
+          "field": "notes_html",
+          "quote": "says some practices existed before organizing and were codified (written into the contract)."
+        },
+        {
+          "id": "HR5408_SEP_support_03",
+          "field": "notes_html",
+          "quote": "the 16-contract study reports that some clauses restate existing law."
+        },
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "support_reading",
+          "quote": "contract terms that put existing practice into an enforceable contract"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_REACHED"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_CH04",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "notes_html",
+          "quote": "Federal rules already make employers pay for most required protective equipment"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E02"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E02_LIMIT"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Enforceable safety rules”."
+    },
+    {
+      "id": "HR5408_CH05",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_09",
+          "field": "notes_html",
+          "quote": "warns that anti-discrimination language “is worthless” if members are too intimidated to use grievances"
+        },
+        {
+          "id": "HR5408_UNC_support_09",
+          "field": "notes_html",
+          "quote": "did not gather data on the operation and effectiveness of the local unions"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E03"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E03_LIMIT"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Enforceable anti-discrimination terms”."
+    },
+    {
+      "id": "HR5408_CH06",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_C07",
+          "field": "objection_html",
+          "quote": "estimates for wages are close to zero"
+        },
+        {
+          "id": "HR5408_C07",
+          "field": "objection_html",
+          "quote": "evidence that the wage premium is smaller for recent union hires"
+        },
+        {
+          "id": "HR5408_C07",
+          "field": "objection_html",
+          "quote": "The study does not estimate first-contract arbitration, and Treasury’s point about elections without contracts is not answered by it."
+        },
+        {
+          "id": "HR5408_SES_support_03",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step on protecting current pay during talks."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C07"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B03"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Some pay gains”."
+    },
+    {
+      "id": "HR5408_CH07",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "a very conservative approach to first contract awards"
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "This evidence describes practice elsewhere, so it does not show that such an award could never occur."
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "support_html",
+          "quote": "Panel arbitrators may not understand the business"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C09"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_C09_CHALLENGE"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Risk of awards a small employer cannot sustain”."
+    },
+    {
+      "id": "HR5408_CH08",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_oppose_02",
+          "field": "response_reading",
+          "quote": "A binding award and an unaffordable award are different claims."
+        },
+        {
+          "id": "HR5408_SES_oppose_02",
+          "field": "response_reading",
+          "quote": "The argument shows that defense suppliers matter, but not why this process for setting terms would make them more likely to close."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_DEFENSE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B03"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Small defense suppliers”."
+    },
+    {
+      "id": "HR5408_CH09",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_C08",
+          "field": "scope_html",
+          "quote": "In Canadian jurisdictions once an application for FCA is filed any work stoppage in progress must stop."
+        },
+        {
+          "id": "HR5408_UNC_support_14",
+          "field": "response_reading",
+          "quote": "those systems also had a rule stopping strikes and lockouts, which the bill lacks."
+        },
+        {
+          "id": "HR5408_UNC_support_14",
+          "field": "response_reading",
+          "quote": "This response does not answer the narrower point that arbitration gives the parties another option besides relying on a stoppage."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C08"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B02"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Fewer first-contract strikes and lockouts”."
+    },
+    {
+      "id": "HR5408_CH10",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_14",
+          "field": "notes_html",
+          "quote": "The Canadian first-contract study reports no statistically significant effect of arbitration on the duration of first-agreement work stoppages, alongside its reported reduction in their incidence."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C08"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B02"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Fewer first-contract strikes and lockouts”."
+    },
+    {
+      "id": "HR5408_CH11",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_09",
+          "field": "response_reading",
+          "quote": "the private-sector estimate does not cover hospital disputes."
+        },
+        {
+          "id": "HR5408_SEP_support_09",
+          "field": "response_reading",
+          "quote": "This response does not answer the narrower inference that a settlement process can reduce the need for some first-contract hospital strikes."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_HOSPITAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B05"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Fewer first-contract hospital strikes”."
+    },
+    {
+      "id": "HR5408_CH12",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_support_01",
+          "field": "response_reading",
+          "quote": "Boeing shows the harm of strikes, not an effect of the bill’s first-contract arbitration rule."
+        },
+        {
+          "id": "HR5408_SES_support_01",
+          "field": "response_reading",
+          "quote": "This response does not answer the ordinary inference that a settlement process can reduce some first-contract stoppages, including in the hospital and military-support settings in the argument."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_DEFENSE_STOP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B07"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Fewer stoppages at companies that support the military”."
+    },
+    {
+      "id": "HR5408_CH13",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_C10",
+          "field": "scope_html",
+          "quote": "So a member vote does not always decide the outcome today."
+        },
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "before that stage, rejection can return the parties to bargaining or support a strike."
+        },
+        {
+          "id": "HR5408_UNN_oppose_01",
+          "field": "notes_html",
+          "quote": "the bill requires maintaining current terms pending agreement."
+        },
+        {
+          "id": "HR5408_C10",
+          "field": "scope_html",
+          "quote": "The union chooses one of three panel members."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE",
+        "HR5408_DT_V_UNC_VOTE",
+        "HR5408_DT_V_TR_COVERAGE",
+        "HR5408_DT_V_UNT_VOTE",
+        "HR5408_DT_V_UNN_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_VOTE_LIMIT_SEP",
+        "HR5408_BW_U17_B03",
+        "HR5408_DT_B_VOTE_LIMIT_UNT",
+        "HR5408_DT_B_VOTE_LIMIT_UNN"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Personal Security: final check on health and safety terms”, “Concern: terms workers cannot reject by voting”, “Tradition: health coverage in line with faith”, “Tolerance: members who disagree, and fee clauses”, “Nature: insisting on pollution-reducing terms”."
+    },
+    {
+      "id": "HR5408_CH14",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "The passages read for these points give no example of workers rejecting a tentative first contract over health or safety terms."
+        },
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "The Conagra report gives no amount or outcome."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B08"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Personal Security: final check on health and safety terms”."
+    },
+    {
+      "id": "HR5408_CH15",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "The panel includes one union-selected and one employer-selected member, and its decision must be based partly on the size and type of the employer’s operations."
+        },
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "says an arbitrator lacking specialized knowledge must decline, withdraw or request technical help."
+        },
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "The code addresses voluntary arbitration and is applied to the agency’s lists of arbitrators."
+        },
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "These warnings and responses cite no record of how arbitrated rules"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C11"
+      ],
+      "block_ids": [
+        "HR5408_BW_U16_B02"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Panel-set rules that may not fit a workplace”."
+    },
+    {
+      "id": "HR5408_CH16",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "response_reading",
+          "quote": "For environmental oversight with no direct job link, the argument names no way the bill’s deadlines or panel get past an employer’s lawful refusal."
+        },
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "response_reading",
+          "quote": "This response does not answer oversight terms tied to workers’ own safety and health."
+        },
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "response_reading",
+          "quote": "It also does not answer the complaint rights a first contract can create for terms it does contain."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B03"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_CH17",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "Because there is no law mandating SWA, the SWA process is specific to an employer or workplace."
+        },
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "The guide does not say that environment-only coverage is a required subject."
+        },
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "This response does not answer stop-work terms for hazards to workers that would also prevent environmental harm."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B05"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_CH18",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "each party is free to bargain or not to bargain, and to agree or not to agree."
+        },
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "Optional climate commitments would still depend on an employer’s voluntary agreement."
+        },
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "This response does not answer programs that are themselves terms of employment."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B07"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_CH19",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_oppose_02",
+          "field": "response_reading",
+          "quote": "For demands to add green contract terms, the argument has not shown what a ban clause adds beyond these existing limits."
+        },
+        {
+          "id": "HR5408_UNN_oppose_02",
+          "field": "response_reading",
+          "quote": "First, an award itself ends the first-contract bargaining in which workers could strike for such terms."
+        },
+        {
+          "id": "HR5408_UNN_oppose_02",
+          "field": "response_reading",
+          "quote": "Second, a ban could reach work stoppages that are not aimed at changing contract terms."
+        },
+        {
+          "id": "HR5408_UNN_oppose_02",
+          "field": "notes_html",
+          "quote": "A law-firm analysis cited for this Point says the bill leaves open the lawfulness of strikes and lockouts during first-contract talks."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_STRIKELIMIT"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B09"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Limits on strikes for environmental demands”."
+    },
+    {
+      "id": "HR5408_CH20",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_01",
+          "field": "response_reading",
+          "quote": "These cases will be assigned to a mediator if they meet the current criteria/metrics for case assignment."
+        },
+        {
+          "id": "HR5408_UNC_support_01",
+          "field": "response_reading",
+          "quote": "Stopping an employer from blocking appointments does not solve this service gap for small groups seeking mediation and timely referral to a panel."
+        },
+        {
+          "id": "HR5408_UNC_support_01",
+          "field": "response_reading",
+          "quote": "This response does not show that the process is unavailable: the bill’s duty has no size limit, and the time before referral runs from the request."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C05",
+        "HR5408_DT_V_UNC_DELAY"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B03",
+        "HR5408_DT_B_UNC_DELAY_LIMIT"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “More first contracts, or earlier ones”, “Concern: a way past an employer’s delay”."
+    },
+    {
+      "id": "HR5408_CH21",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "Both accounts describe restricted access."
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "Arbitrators are not FMCS employees."
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "The argument has not shown how these duties would take help away from poorer unions under the already restricted system."
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "This response does not answer added strain on groups that remain eligible for FMCS help, or the lack of a deadline at the panel stage."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_SMALLHELP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B04"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Less or slower help for unions that cannot buy private help”."
+    },
+    {
+      "id": "HR5408_CH22",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_06",
+          "field": "response_reading",
+          "quote": "so this power arises only when seats go unfilled."
+        },
+        {
+          "id": "HR5408_UNC_oppose_06",
+          "field": "response_reading",
+          "quote": "The further step, that those choices would turn on political views, is supported only by that prediction."
+        },
+        {
+          "id": "HR5408_UNC_oppose_06",
+          "field": "response_reading",
+          "quote": "This response does not show that such pressure would not occur."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B02"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Political pressure on panel appointments”."
+    },
+    {
+      "id": "HR5408_CH23",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_07",
+          "field": "response_reading",
+          "quote": "The fee and access rulings do not show the blanket legal defects the letters claim."
+        },
+        {
+          "id": "HR5408_UNC_oppose_07",
+          "field": "response_reading",
+          "quote": "The legal result depends on the access granted and the place involved."
+        },
+        {
+          "id": "HR5408_UNC_oppose_07",
+          "field": "response_reading",
+          "quote": "This response does not answer the costs of hearings that do occur, or of lawsuits that use up resources even when they fail."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_COSTS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B04"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Hearing and lawsuit costs”."
+    },
+    {
+      "id": "HR5408_CH24",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "The election requirement checks the majority’s wishes through a private choice by workers, instead of leaving the employer to act on signatures."
+        },
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "insulating them from retaliation from whichever side they fail to support."
+        },
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "speed alone does not establish that confirming the majority’s wishes is unfair."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNC_ENDREP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B08"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Concern: ending representation workers no longer want”."
+    },
+    {
+      "id": "HR5408_CH25",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "response_reading",
+          "quote": "The added rules concern when talks start and how long the representative keeps its bargaining role."
+        },
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "response_reading",
+          "quote": "Giving that representative a stronger role in negotiating work terms does not by itself show greater acceptance or understanding of different people."
+        },
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step about cooperation across racial lines."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOICE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B04"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: a continuing voice”."
+    },
+    {
+      "id": "HR5408_CH26",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_02",
+          "field": "response_reading",
+          "quote": "A panel can settle those terms while the groups remain unwilling to listen to or understand each other."
+        },
+        {
+          "id": "HR5408_UNT_support_02",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step that either side can now get mediation help with a difficult conversation."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_MEDIATION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B07"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: help with a difficult conversation”."
+    },
+    {
+      "id": "HR5408_CH27",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "The bill’s binding award leaves those protections in place."
+        },
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "The final vote adds power to reject terms and press for changes."
+        },
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "Accepting people who disagree does not mean accepting their preferred terms"
+        },
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "This response does not answer that losing the vote removes one way members press negotiators to answer objections."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B05"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: members who disagree, and fee clauses”."
+    },
+    {
+      "id": "HR5408_CH28",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "A bargaining fee pays for representation that must serve people who disagree too; it does not require them to agree with the union."
+        },
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "The argument names a financial burden without showing that it makes them less heard or accepted."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B14"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: members who disagree, and fee clauses”."
+    },
+    {
+      "id": "HR5408_CH29",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "Keeping current law does not preserve a requirement that workplace terms win both groups’ acceptance."
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "Agreement on terms is also a different test from understanding the people proposing them."
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "The Canadian first-contract study reports that arbitration is rarely accessed and rarely imposes a contract."
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "That research covers systems with a work-stoppage rule that this bill does not state."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_COMPROMISE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B09"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: a way around compromise”."
+    },
+    {
+      "id": "HR5408_CH30",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_04",
+          "field": "response_reading",
+          "quote": "That is an employer’s power, not a vote workers can themselves use to remove the union."
+        },
+        {
+          "id": "HR5408_UNT_oppose_04",
+          "field": "response_reading",
+          "quote": "Workers can take their changed wishes to the board without depending on the employer."
+        },
+        {
+          "id": "HR5408_UNT_oppose_04",
+          "field": "response_reading",
+          "quote": "An election tests the workforce’s current choice, including the views of workers who did not sign the petition."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_REJECTION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B09"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Tolerance: acting on workers’ rejection of a union”."
+    },
+    {
+      "id": "HR5408_CH31",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_06",
+          "field": "response_reading",
+          "quote": "five practices bundled together in a package"
+        },
+        {
+          "id": "HR5408_SEP_support_06",
+          "field": "response_reading",
+          "quote": "The measured sleep gain belongs to the tested package, whose differences go beyond schedule posting and notice."
+        },
+        {
+          "id": "HR5408_SEP_support_06",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step through contract rest periods and federal advice on tiredness."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_SLEEP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U12_B03"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Schedule rules or rest periods that protect sleep”."
+    },
+    {
+      "id": "HR5408_CH32",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_support_04",
+          "field": "response_reading",
+          "quote": "The employer can choose the costs of the terms it puts into effect."
+        },
+        {
+          "id": "HR5408_SES_support_04",
+          "field": "response_reading",
+          "quote": "Those two years describe how long the ruling lasts, not when its costs become known."
+        },
+        {
+          "id": "HR5408_SES_support_04",
+          "field": "response_reading",
+          "quote": "The argument has not established more predictable labor costs, so its step to steadier investment and national economic activity lacks support."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_PLANNING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B05"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “More predictable labor costs and steadier economic activity”."
+    },
+    {
+      "id": "HR5408_CH33",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "The bill does not remove that policy or the health-care duty."
+        },
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "Existing priorities make taking staff from urgent disputes a separate step that needs support."
+        },
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "This response does not deny that added cases would stretch a limited staff."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ESSENTIAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B06"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Resources drawn from essential-service disputes”."
+    },
+    {
+      "id": "HR5408_CH34",
+      "argument_ids": [],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_oppose_01",
+          "field": "notes_html",
+          "quote": "The Unity Fund of the Service Employees International Union (SEIU) has a stated aim of winning pay, benefits and security"
+        },
+        {
+          "id": "HR5408_TR_oppose_01",
+          "field": "notes_html",
+          "quote": "SEIU, AFT and federation sources state positions and funding rules but no measured effect of first contracts on political spending."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C13",
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B03"
+      ],
+      "disposition": "retained",
+      "rationale": "Shown beside “Payments that support national union political work”, “Tradition: political work against inherited Christian teaching”."
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "HR5408_BW_Q01",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNN_support_04",
+        "HR5408_UNN_support_05",
+        "HR5408_UNN_support_06",
+        "HR5408_UNN_oppose_01",
+        "HR5408_UNN_oppose_02",
+        "HR5408_UNN_oppose_03",
+        "HR5408_UNC_support_01",
+        "HR5408_UNC_support_04",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNC_support_14",
+        "HR5408_UNC_oppose_01",
+        "HR5408_UNC_oppose_02",
+        "HR5408_UNC_oppose_03",
+        "HR5408_UNC_oppose_04",
+        "HR5408_UNC_oppose_05",
+        "HR5408_UNC_oppose_06",
+        "HR5408_UNC_oppose_07",
+        "HR5408_UNT_support_02",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_UNT_oppose_01",
+        "HR5408_UNT_oppose_02",
+        "HR5408_UNT_oppose_03",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SEP_support_09",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SEP_oppose_02",
+        "HR5408_SEP_oppose_03",
+        "HR5408_SEP_oppose_04",
+        "HR5408_SES_support_01",
+        "HR5408_SES_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_SES_support_04",
+        "HR5408_SES_oppose_01",
+        "HR5408_SES_oppose_02",
+        "HR5408_SES_oppose_03",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03",
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06",
+        "HR5408_TR_oppose_07"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C01",
+          "field": "scope_html",
+          "quote": "This route applies only to a first contract."
+        },
+        {
+          "id": "HR5408_C01",
+          "field": "scope_html",
+          "quote": "it does not limit the timeline of arbitration."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C05",
+        "HR5408_DT_V_UNC_DELAY",
+        "HR5408_DT_K_C08",
+        "HR5408_DT_K_C11",
+        "HR5408_DT_K_POLITICAL",
+        "HR5408_DT_K_STRIKELIMIT",
+        "HR5408_DT_K_PRESSURE",
+        "HR5408_DT_V_UNT_MEDIATION",
+        "HR5408_DT_V_UNT_COMPROMISE"
+      ],
+      "block_ids": [],
+      "rationale": "Panel route covers first contracts only and has no decision deadline. Shown in the context beside context and “More first contracts, or earlier ones”, “Concern: a way past an employer’s delay”, “Fewer first-contract strikes and lockouts”, “Panel-set rules that may not fit a workplace”, “Political pressure on panel appointments”, “Limits on strikes for environmental demands” and others."
+    },
+    {
+      "id": "HR5408_BW_Q02",
+      "argument_ids": [
+        "HR5408_UNN_support_05",
+        "HR5408_SES_support_04",
+        "HR5408_TR_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C02",
+          "field": "background_html",
+          "quote": "They do not state what the panel must award."
+        },
+        {
+          "id": "HR5408_C02",
+          "field": "scope_html",
+          "quote": "The factors do not name particular contract terms and do not set any pay level."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_TRANSITION",
+        "HR5408_DT_K_C07",
+        "HR5408_DT_V_UNC_HARDSHIP",
+        "HR5408_DT_K_C09",
+        "HR5408_DT_K_PLANNING",
+        "HR5408_DT_V_TR_FAMILYWAGE"
+      ],
+      "block_ids": [],
+      "rationale": "The five factors require no particular terms and set no pay level. Shown in the context beside context and “Easing energy workers’ fear of poor pay in clean energy”, “Some pay gains”, “Concern: pay for households facing hardship”, “Risk of awards a small employer cannot sustain”, “More predictable labor costs and steadier economic activity”, “Tradition: family needs in pay decisions”."
+    },
+    {
+      "id": "HR5408_BW_Q03",
+      "argument_ids": [
+        "HR5408_TR_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_support_01",
+          "field": "notes_html",
+          "quote": "The bill’s family-support factor is one of five, with no stated priority and no single-income standard."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_TR_FAMILYWAGE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U02_B04"
+      ],
+      "rationale": "Family-support factor is one of five unranked factors with no single-income standard; no evidence awards reach a single-income wage. Shown beside “Tradition: family needs in pay decisions”."
+    },
+    {
+      "id": "HR5408_BW_Q04",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNN_support_04",
+        "HR5408_UNN_support_05",
+        "HR5408_UNN_support_06",
+        "HR5408_UNN_oppose_03",
+        "HR5408_UNC_support_04",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03",
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C05",
+          "field": "scope_html",
+          "quote": "This does not say every dispute would end sooner."
+        },
+        {
+          "id": "HR5408_C05",
+          "field": "scope_html",
+          "quote": "have no set time to issue their award"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C05"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_C05_LIMITS"
+      ],
+      "rationale": "Added or earlier contracts do not mean every dispute ends sooner, and this step says nothing about contents. Shown beside “More first contracts, or earlier ones”."
+    },
+    {
+      "id": "HR5408_BW_Q05",
+      "argument_ids": [
+        "HR5408_UNC_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_01",
+          "field": "response_reading",
+          "quote": "These cases will be assigned to a mediator if they meet the current criteria/metrics for case assignment."
+        },
+        {
+          "id": "HR5408_UNC_support_01",
+          "field": "response_reading",
+          "quote": "Without a robust, government-supported mediation and arbitration system, the Faster Labor Contracts Act would not be able to live up to its promise."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C05",
+        "HR5408_DT_V_UNC_DELAY"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B03",
+        "HR5408_DT_B_UNC_DELAY_LIMIT"
+      ],
+      "rationale": "Agency service limits may restrict the panel route for small groups; route not shown unavailable. Shown beside “More first contracts, or earlier ones”, “Concern: a way past an employer’s delay”."
+    },
+    {
+      "id": "HR5408_BW_Q06",
+      "argument_ids": [
+        "HR5408_UNC_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_02",
+          "field": "notes_html",
+          "quote": "The bill does not limit the time an arbitration may take once a panel is referred."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_PRESSURE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B05"
+      ],
+      "rationale": "No limit on arbitration length; Ontario parties often settle before arbitration concludes; cost of living is a factor. Shown beside “Pressure to settle early”."
+    },
+    {
+      "id": "HR5408_BW_Q07",
+      "argument_ids": [
+        "HR5408_UNT_support_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_02",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step that either side can now get mediation help with a difficult conversation."
+        },
+        {
+          "id": "HR5408_UNT_support_02",
+          "field": "gaps[0].explanation",
+          "quote": "a March 2026 review reports 58 mediators against the agency’s stated need of 80–100"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_MEDIATION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B07"
+      ],
+      "rationale": "Settlement alone does not show mutual hearing; added mediation help depends on capacity (58 mediators against a stated need of 80–100). Shown beside “Tolerance: help with a difficult conversation”."
+    },
+    {
+      "id": "HR5408_BW_Q08",
+      "argument_ids": [
+        "HR5408_UNT_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "Agreement on terms is also a different test from understanding the people proposing them."
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "an employer does not violate the Act by making unilateral changes that are reasonably comprehended within his pre-impasse proposals"
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "make every reasonable effort to conclude and sign a collective bargaining agreement"
+        },
+        {
+          "id": "HR5408_UNT_oppose_02",
+          "field": "response_reading",
+          "quote": "Despite this, FCA is not accessed frequently and it is even rarer for a first contract (in whole or in part) to be imposed."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_COMPROMISE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U04_B09"
+      ],
+      "rationale": "Current law does not ensure accepted terms; agreement on terms differs from understanding people; Canadian arbitration rarely imposes contracts. Shown beside “Tolerance: a way around compromise”."
+    },
+    {
+      "id": "HR5408_BW_Q09",
+      "argument_ids": [
+        "HR5408_UNC_support_14",
+        "HR5408_SEP_support_09",
+        "HR5408_SES_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_14",
+          "field": "notes_html",
+          "quote": "The Canadian first-contract study reports no statistically significant effect of arbitration on the duration of first-agreement work stoppages"
+        },
+        {
+          "id": "HR5408_C08",
+          "field": "scope_html",
+          "quote": "In Canadian jurisdictions once an application for FCA is filed any work stoppage in progress must stop."
+        },
+        {
+          "id": "HR5408_C08",
+          "field": "scope_html",
+          "quote": "estimate the affect of each type of FCA on incidence."
+        },
+        {
+          "id": "HR5408_C08",
+          "field": "scope_html",
+          "quote": "The bill also raises questions about the lawfulness of strikes and lockouts during these first contract negotiations."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C08"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B02"
+      ],
+      "rationale": "Canadian mandatory stop rule and inseparable effects; strike lawfulness open; frequency, not duration. Shown beside “Fewer first-contract strikes and lockouts”."
+    },
+    {
+      "id": "HR5408_BW_Q10",
+      "argument_ids": [
+        "HR5408_SEP_support_09"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_09",
+          "field": "response_reading",
+          "quote": "quasi-public sector (health, education and public administration)"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_HOSPITAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B05"
+      ],
+      "rationale": "Canadian private-sector estimate excludes hospital disputes. Shown beside “Fewer first-contract hospital strikes”."
+    },
+    {
+      "id": "HR5408_BW_Q11",
+      "argument_ids": [
+        "HR5408_SES_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_support_01",
+          "field": "response_reading",
+          "quote": "Boeing shows the harm of strikes, not an effect of the bill’s first-contract arbitration rule."
+        },
+        {
+          "id": "HR5408_SES_support_01",
+          "field": "response_reading",
+          "quote": "After ratification of a new contract in 2008, employees approved two contract extensions in 2011 and 2014."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_DEFENSE_STOP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U05_B07"
+      ],
+      "rationale": "Boeing was a renewal dispute, not a first-contract effect. Shown beside “Fewer stoppages at companies that support the military”."
+    },
+    {
+      "id": "HR5408_BW_Q12",
+      "argument_ids": [
+        "HR5408_UNC_support_03",
+        "HR5408_UNC_oppose_08",
+        "HR5408_SEP_support_02",
+        "HR5408_SES_support_03",
+        "HR5408_TR_support_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C04",
+          "field": "scope_html",
+          "quote": "The legal reading comes from law-firm analyses of the bill, not from a court ruling."
+        },
+        {
+          "id": "HR5408_C04",
+          "field": "scope_html",
+          "quote": "This duty keeps both good and bad current terms, so it can stop an employer from either cutting or raising them on its own."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_TR_WORSHIP",
+        "HR5408_DT_K_ECONOMY",
+        "HR5408_DT_V_UNC_CUTS",
+        "HR5408_DT_V_SEP_KEPT",
+        "HR5408_DT_V_UNC_RAISES"
+      ],
+      "block_ids": [],
+      "rationale": "Current-terms duty rests on law-firm readings, keeps good and bad terms, and has no frequency figure. Shown in the context beside context and “Tradition: time for worship”, “From household income to a steadier economy”, “Concern: protection against cuts during talks”, “Personal Security: health coverage and safety rules kept during talks”, “Concern: raises held back after a deadlock”."
+    },
+    {
+      "id": "HR5408_BW_Q13",
+      "argument_ids": [
+        "HR5408_UNC_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SES_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C07",
+          "field": "statement",
+          "quote": "would raise pay, at least somewhat, for at least some newly organized workers"
+        },
+        {
+          "id": "HR5408_C07",
+          "field": "scope_html",
+          "quote": "It does not assume the general estimate that unions raise members’ wages by 10 to 15 percent applies."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C07"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B01"
+      ],
+      "rationale": "Pay prediction is some pay for some workers; no general estimate assumed; requires an added or earlier contract. Shown beside “Some pay gains”."
+    },
+    {
+      "id": "HR5408_BW_Q14",
+      "argument_ids": [
+        "HR5408_UNC_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SES_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C07",
+          "field": "objection_html",
+          "quote": "The study does not estimate first-contract arbitration, and Treasury’s point about elections without contracts is not answered by it."
+        },
+        {
+          "id": "HR5408_SEP_support_05",
+          "field": "notes_html",
+          "quote": "the 10 to 15 percent estimate is not specific to first contracts."
+        },
+        {
+          "id": "HR5408_SES_support_03",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step on protecting current pay during talks."
+        },
+        {
+          "id": "HR5408_SES_support_03",
+          "field": "response_reading",
+          "quote": "estimates for wages are close to zero"
+        },
+        {
+          "id": "HR5408_UNC_support_04",
+          "field": "notes_html",
+          "quote": "unions have been somewhat unsuccessful at securing significant wage gains."
+        },
+        {
+          "id": "HR5408_C07",
+          "field": "objection_html",
+          "quote": "evidence that the wage premium is smaller for recent union hires"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C07"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B03"
+      ],
+      "rationale": "Close-election wage results near zero; smaller premium for recent hires; estimate not specific to first contracts; limits of that study preserved. Shown beside “Some pay gains”."
+    },
+    {
+      "id": "HR5408_BW_Q15",
+      "argument_ids": [
+        "HR5408_UNC_support_04",
+        "HR5408_SEP_support_05",
+        "HR5408_SES_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_04",
+          "field": "notes_html",
+          "quote": "The panel’s five factors also include the employer’s financial status and prospects and do not specify a pay increase."
+        },
+        {
+          "id": "HR5408_UNC_support_04",
+          "field": "notes_html",
+          "quote": "A review of Canadian first-contract arbitration states that boards and arbitrators limit awards (panel decisions) based on what the employer can afford."
+        },
+        {
+          "id": "HR5408_UNC_support_04",
+          "field": "notes_html",
+          "quote": "the quality of the first contract that a union achieves is a direct product of their power."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C07"
+      ],
+      "block_ids": [
+        "HR5408_BW_U07_B04"
+      ],
+      "rationale": "Financial factor, no specified increase, Canadian affordability limits, and power-dependent contract quality. Shown beside “Some pay gains”."
+    },
+    {
+      "id": "HR5408_BW_Q16",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_08",
+          "field": "support_reading",
+          "quote": "The factors the bill gives the panel do not require particular contract terms."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_EXPLAIN"
+      ],
+      "rationale": "Non-pay-terms prediction covers some contracts only, names no term for any one contract, and does not claim better contracts overall. Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_BW_Q17",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_06",
+          "field": "notes_html",
+          "quote": "the quality of the first contract that a union achieves is a direct product of their power"
+        },
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "notes_html",
+          "quote": "says some practices existed before organizing and were codified (written into the contract)."
+        },
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "notes_html",
+          "quote": "the 16-contract study reports that some clauses restate existing law."
+        },
+        {
+          "id": "HR5408_UNC_support_08",
+          "field": "support_reading",
+          "quote": "The factors the bill gives the panel do not require particular contract terms."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E01_REACHED"
+      ],
+      "rationale": "Evidence is from reached, mostly negotiated 1987–1996 contracts; power, codification and restated-law limits. Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_BW_Q18",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_support_08",
+          "field": "support_reading",
+          "quote": "Experienced arbitrators generally believe that interest arbitration rarely results in a departure from the status quo in terms of economic and noneconomic working conditions."
+        },
+        {
+          "id": "HR5408_UNC_support_08",
+          "field": "support_reading",
+          "quote": "recognizing that arbitrated first agreements should not contain breakthrough or novel provisions."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E01"
+      ],
+      "block_ids": [
+        "HR5408_BW_U09_B07"
+      ],
+      "rationale": "Arbitrated awards tend to keep the status quo; settlements induced by a possible panel and enforceable codification remain unanswered. Shown beside “Enforceable terms other than pay”."
+    },
+    {
+      "id": "HR5408_BW_Q19",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03",
+        "HR5408_UNC_support_05",
+        "HR5408_UNC_support_06",
+        "HR5408_UNC_support_07",
+        "HR5408_UNC_support_08",
+        "HR5408_UNC_support_09",
+        "HR5408_UNC_support_10",
+        "HR5408_UNC_support_11",
+        "HR5408_UNC_support_12",
+        "HR5408_UNC_support_13",
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04",
+        "HR5408_SEP_support_01",
+        "HR5408_SEP_support_03",
+        "HR5408_SEP_support_04",
+        "HR5408_SEP_support_06",
+        "HR5408_SEP_support_07",
+        "HR5408_SEP_support_08",
+        "HR5408_SES_support_02",
+        "HR5408_TR_support_02",
+        "HR5408_TR_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_01",
+          "field": "notes_html",
+          "quote": "Federal rules already make employers pay for most required protective equipment"
+        },
+        {
+          "id": "HR5408_UNC_support_09",
+          "field": "notes_html",
+          "quote": "did not gather data on the operation and effectiveness of the local unions"
+        },
+        {
+          "id": "HR5408_UNC_support_09",
+          "field": "notes_html",
+          "quote": "is worthless"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_E02",
+        "HR5408_DT_K_E03"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_E02_LIMIT",
+        "HR5408_DT_B_E03_LIMIT"
+      ],
+      "rationale": "Federal protective-equipment duty; anti-discrimination language can be unusable if members are intimidated; no data on local union operation. Shown beside “Enforceable safety rules”, “Enforceable anti-discrimination terms”."
+    },
+    {
+      "id": "HR5408_BW_Q20",
+      "argument_ids": [
+        "HR5408_SEP_support_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_04",
+          "field": "notes_html",
+          "quote": "Its population-level estimate concerns those laws, not contract leave."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_SEP_SICKLEAVE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U10_B03"
+      ],
+      "rationale": "Sick-leave infection estimate comes from statutory mandates, not contract leave. Shown beside “Personal Security: paid sick leave”."
+    },
+    {
+      "id": "HR5408_BW_Q21",
+      "argument_ids": [
+        "HR5408_TR_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_support_03",
+          "field": "notes_html",
+          "quote": "The museum’s first contract was ratified by members."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_HEALTHCOV",
+        "HR5408_DT_K_PARENTAL"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_HEALTHCOV_LIMIT",
+        "HR5408_DT_B_PARENTAL_LIMIT"
+      ],
+      "rationale": "Parental-leave example was a ratified contract; one Quebec award favored the employer. Shown beside “Health coverage in contracts”, “Paid parental leave in contracts”."
+    },
+    {
+      "id": "HR5408_BW_Q22",
+      "argument_ids": [
+        "HR5408_SES_support_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_support_02",
+          "field": "support_reading",
+          "quote": "The sources reviewed show protective-equipment terms at one hospital and federal infection guidance, but not how such contract terms change national outbreak capacity; the argument states this step without a source."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_OUTBREAK",
+        "HR5408_DT_V_SES_OUTBREAK"
+      ],
+      "block_ids": [
+        "HR5408_BW_U11_B03"
+      ],
+      "rationale": "Longmont contract was negotiated; factors do not name infection safeguards; national outbreak step unsourced. Shown beside “From care-worker protections to national outbreak capacity”, “Societal Security: defense against disease outbreaks”."
+    },
+    {
+      "id": "HR5408_BW_Q23",
+      "argument_ids": [
+        "HR5408_SEP_support_08"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_08",
+          "field": "notes_html",
+          "quote": "The first-contract study reports workload and minimum staffing in 7 percent of first agreements from 1987 to 1996"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_STAFFING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U11_B05"
+      ],
+      "rationale": "Staffing terms in 7 percent of historic first agreements; management-rights opposition; Austin terms followed strikes. Shown beside “Hospital staffing rules”."
+    },
+    {
+      "id": "HR5408_BW_Q24",
+      "argument_ids": [
+        "HR5408_SEP_support_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_06",
+          "field": "response_reading",
+          "quote": "five practices bundled together in a package"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_SLEEP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U12_B03"
+      ],
+      "rationale": "Gap sleep gain belongs to a bundled package, not posting clauses; rest-period route remains. Shown beside “Schedule rules or rest periods that protect sleep”."
+    },
+    {
+      "id": "HR5408_BW_Q25",
+      "argument_ids": [
+        "HR5408_TR_support_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_support_02",
+          "field": "notes_html",
+          "quote": "The cited schedule clauses come from negotiated contracts."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_RELIGIOUS_ADJUST",
+        "HR5408_DT_V_TR_WORSHIP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U12_B06"
+      ],
+      "rationale": "Existing religious-accommodation law (Groff v. DeJoy) and negotiated schedule clauses. Shown beside “Schedule adjustments for religious holidays”, “Tradition: time for worship”."
+    },
+    {
+      "id": "HR5408_BW_Q26",
+      "argument_ids": [
+        "HR5408_SEP_support_07"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_support_07",
+          "field": "notes_html",
+          "quote": "It did not test first-contract timing or the listed diseases."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_CONTROL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U13_B03"
+      ],
+      "rationale": "Health-worker study is self-reported influence and job dissatisfaction, not disease or timing effects. Shown beside “From discipline protections to health”."
+    },
+    {
+      "id": "HR5408_BW_Q27",
+      "argument_ids": [
+        "HR5408_UNT_support_03",
+        "HR5408_UNT_support_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_03",
+          "field": "notes_html",
+          "quote": "The toolkit cited here describes selected negotiated results in professional workplaces."
+        },
+        {
+          "id": "HR5408_UNT_support_04",
+          "field": "notes_html",
+          "quote": "Kickstarter’s first contract was ratified without arbitration, its discussion forum has no power to decide or bargain, and its arbitrator cannot add to the agreement’s terms."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ACCOMMODATION",
+        "HR5408_DT_K_DISCUSSION",
+        "HR5408_DT_V_UNT_DIFFERENCES"
+      ],
+      "block_ids": [
+        "HR5408_BW_U14_B05"
+      ],
+      "rationale": "Toolkit examples are selected negotiated results; Kickstarter limits; factors do not name these terms. Shown beside “Terms that adapt work to differences”, “Regular discussion across differences”, “Tolerance: protection and practical terms for people who differ”."
+    },
+    {
+      "id": "HR5408_BW_Q28",
+      "argument_ids": [
+        "HR5408_UNC_oppose_03",
+        "HR5408_UNT_oppose_03",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SES_oppose_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "says an arbitrator lacking specialized knowledge must decline, withdraw or request technical help."
+        },
+        {
+          "id": "HR5408_UNC_oppose_03",
+          "field": "notes_html",
+          "quote": "The code addresses voluntary arbitration and is applied to the agency’s lists of arbitrators."
+        },
+        {
+          "id": "HR5408_SES_oppose_03",
+          "field": "support_reading",
+          "quote": "That factor gives neither side a right to reject a final rule that does not fit the site."
+        },
+        {
+          "id": "HR5408_C11",
+          "field": "scope_html",
+          "quote": "the size and type of the employer's operations and business"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C11"
+      ],
+      "block_ids": [
+        "HR5408_BW_U16_B02"
+      ],
+      "rationale": "Panel composition and size factor, voluntary-arbitration code, no record of poor fit, and no right to reject a final rule. Shown beside “Panel-set rules that may not fit a workplace”."
+    },
+    {
+      "id": "HR5408_BW_Q29",
+      "argument_ids": [
+        "HR5408_UNN_oppose_01",
+        "HR5408_UNC_oppose_01",
+        "HR5408_UNT_oppose_01",
+        "HR5408_SEP_oppose_01",
+        "HR5408_SEP_oppose_02",
+        "HR5408_SEP_oppose_03",
+        "HR5408_SEP_oppose_04",
+        "HR5408_TR_oppose_07"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C10",
+          "field": "scope_html",
+          "quote": "So a member vote does not always decide the outcome today."
+        },
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "before that stage, rejection can return the parties to bargaining or support a strike."
+        },
+        {
+          "id": "HR5408_C10",
+          "field": "scope_html",
+          "quote": "the employer may unilaterally change terms and conditions of employ, so long as these changes are consistent with offers that the union has rejected."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNC_VOTE",
+        "HR5408_DT_V_TR_COVERAGE",
+        "HR5408_DT_V_UNT_VOTE",
+        "HR5408_DT_V_SEP_VOTE",
+        "HR5408_DT_V_UNN_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B03",
+        "HR5408_DT_B_VOTE_LIMIT_UNT",
+        "HR5408_DT_B_VOTE_LIMIT_SEP",
+        "HR5408_DT_B_VOTE_LIMIT_UNN"
+      ],
+      "rationale": "A vote does not always decide outcomes; current terms held; union picks a panel member; renewal examples. Shown beside “Concern: terms workers cannot reject by voting”, “Tradition: health coverage in line with faith”, “Tolerance: members who disagree, and fee clauses”, “Personal Security: final check on health and safety terms”, “Nature: insisting on pollution-reducing terms”."
+    },
+    {
+      "id": "HR5408_BW_Q30",
+      "argument_ids": [
+        "HR5408_UNC_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_01",
+          "field": "notes_html",
+          "quote": "A union must represent all employees in the bargaining unit (the group of workers it represents) fairly and in good faith."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNC_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B04"
+      ],
+      "rationale": "Duty of fair representation and the family-support factor. Shown beside “Concern: terms workers cannot reject by voting”."
+    },
+    {
+      "id": "HR5408_BW_Q31",
+      "argument_ids": [
+        "HR5408_UNT_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "This response does not answer that losing the vote removes one way members press negotiators to answer objections."
+        },
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "response_reading",
+          "quote": "to meet and assemble freely with other members; and to express any views, arguments, or opinions"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B05"
+      ],
+      "rationale": "Members keep other ways to be heard; less control is not shown to mean less acceptance. Shown beside “Tolerance: members who disagree, and fee clauses”."
+    },
+    {
+      "id": "HR5408_BW_Q32",
+      "argument_ids": [
+        "HR5408_SEP_oppose_01",
+        "HR5408_SEP_oppose_02",
+        "HR5408_SEP_oppose_03",
+        "HR5408_SEP_oppose_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SEP_oppose_02",
+          "field": "support_reading",
+          "quote": "That points to talks to renew an existing contract, which the bill’s arbitration would not reach."
+        },
+        {
+          "id": "HR5408_SEP_oppose_04",
+          "field": "support_reading",
+          "quote": "apparently in talks to renew an existing contract"
+        },
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "The passages read for these points give no example of workers rejecting a tentative first contract over health or safety terms."
+        },
+        {
+          "id": "HR5408_SEP_oppose_01",
+          "field": "notes_html",
+          "quote": "The Providence nurses’ contracts had expired, while other units in that dispute ratified first contracts."
+        },
+        {
+          "id": "HR5408_SEP_oppose_04",
+          "field": "notes_html",
+          "quote": "The Commonwealth Fund figures describe underinsured adults, not workers facing a given cost increase."
+        },
+        {
+          "id": "HR5408_SEP_oppose_02",
+          "field": "support_reading",
+          "quote": "cooling-off period"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_SEP_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B08"
+      ],
+      "rationale": "Providence vote was a renewal; Conagra apparently a renewal (cooling-off period points to it); no first-contract rejection over health or safety; Conagra and Commonwealth Fund limits. Shown beside “Personal Security: final check on health and safety terms”."
+    },
+    {
+      "id": "HR5408_BW_Q33",
+      "argument_ids": [
+        "HR5408_TR_oppose_07"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_oppose_07",
+          "field": "notes_html",
+          "quote": "The sources reviewed do not settle whether RFRA applies to an award by this panel."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_TR_COVERAGE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B10"
+      ],
+      "rationale": "AFT position is not an award prediction; 2017 resolution and separate 2025 support; impasse law; RFRA unsettled. Shown beside “Tradition: health coverage in line with faith”."
+    },
+    {
+      "id": "HR5408_BW_Q34",
+      "argument_ids": [
+        "HR5408_UNN_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_oppose_01",
+          "field": "notes_html",
+          "quote": "Panel factors can accommodate green work methods even though they do not require pollution cuts."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNN_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B12"
+      ],
+      "rationale": "Minneapolis example was a renewal; factors can accommodate green methods. Shown beside “Nature: insisting on pollution-reducing terms”."
+    },
+    {
+      "id": "HR5408_BW_Q35",
+      "argument_ids": [
+        "HR5408_UNT_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_01",
+          "field": "support_reading",
+          "quote": "only those fees necessary to finance collective-bargaining activities"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOTE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U17_B14"
+      ],
+      "rationale": "Bargaining fees are limited to bargaining costs and do not require agreement. Shown beside “Tolerance: members who disagree, and fee clauses”."
+    },
+    {
+      "id": "HR5408_BW_Q36",
+      "argument_ids": [
+        "HR5408_UNC_support_02",
+        "HR5408_UNC_oppose_09",
+        "HR5408_UNT_support_01",
+        "HR5408_UNT_oppose_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C03",
+          "field": "scope_html",
+          "quote": "This applies to the general duty to bargain, not only to first contracts."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_RACIAL",
+        "HR5408_DT_V_UNC_ELECTION",
+        "HR5408_DT_V_UNT_VOICE",
+        "HR5408_DT_V_UNC_ENDREP",
+        "HR5408_DT_V_UNT_REJECTION"
+      ],
+      "block_ids": [],
+      "rationale": "Duty applies to all bargaining; newly certified unions already have 12 months of protection. Shown in the context beside context and “Continuing union membership and racial resentment”, “Concern: a vote before representation ends”, “Tolerance: a continuing voice”, “Concern: ending representation workers no longer want”, “Tolerance: acting on workers’ rejection of a union”."
+    },
+    {
+      "id": "HR5408_BW_Q37",
+      "argument_ids": [
+        "HR5408_UNT_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "response_reading",
+          "quote": "This response does not answer the separate step about cooperation across racial lines."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_VOICE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B04"
+      ],
+      "rationale": "Good-faith bargaining already required; a stronger bargaining role is not greater acceptance. Shown beside “Tolerance: a continuing voice”."
+    },
+    {
+      "id": "HR5408_BW_Q38",
+      "argument_ids": [
+        "HR5408_UNT_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "notes_html",
+          "quote": "The racial-resentment study concerns white workers gaining union membership between 2010 and 2016, not first-contract rules."
+        },
+        {
+          "id": "HR5408_UNT_support_01",
+          "field": "notes_html",
+          "quote": "The authors say that contact without explicit anti-racism strategies may not reduce resentment, and also state that unions facilitate discussion including anti-racist messaging."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_RACIAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B06"
+      ],
+      "rationale": "Racial-resentment study concerns union membership, not first-contract rules, with stated conditions. Shown beside “Continuing union membership and racial resentment”."
+    },
+    {
+      "id": "HR5408_BW_Q39",
+      "argument_ids": [
+        "HR5408_UNC_oppose_09"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "speed alone does not establish that confirming the majority’s wishes is unfair."
+        },
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "the preferred method for determining employees’ representational preferences."
+        },
+        {
+          "id": "HR5408_UNC_oppose_09",
+          "field": "response_reading",
+          "quote": "insulating them from retaliation from whichever side they fail to support."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNC_ENDREP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B08"
+      ],
+      "rationale": "Secret-ballot election is not shown to be unjust; speed alone is not unfairness. Shown beside “Concern: ending representation workers no longer want”."
+    },
+    {
+      "id": "HR5408_BW_Q40",
+      "argument_ids": [
+        "HR5408_UNT_oppose_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNT_oppose_04",
+          "field": "response_reading",
+          "quote": "An election tests the workforce’s current choice, including the views of workers who did not sign the petition."
+        },
+        {
+          "id": "HR5408_UNT_oppose_04",
+          "field": "response_reading",
+          "quote": "shall direct an election by secret ballot and shall certify the results thereof."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNT_REJECTION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U18_B09"
+      ],
+      "rationale": "Withdrawal is an employer power; workers can petition for an election. Shown beside “Tolerance: acting on workers’ rejection of a union”."
+    },
+    {
+      "id": "HR5408_BW_Q41",
+      "argument_ids": [
+        "HR5408_UNC_oppose_04",
+        "HR5408_SES_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "interest arbitration rarely results in a departure from the status quo"
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "This evidence describes practice elsewhere, so it does not show that such an award could never occur."
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "the employer's financial status and prospects"
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "the wages and benefits other employers in the same business provide their employees."
+        },
+        {
+          "id": "HR5408_C09",
+          "field": "objection_html",
+          "quote": "a very conservative approach to first contract awards"
+        },
+        {
+          "id": "HR5408_UNC_oppose_04",
+          "field": "response_reading",
+          "quote": "based on the employer’s financial capacity"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C09"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_C09_CHALLENGE"
+      ],
+      "rationale": "Financial and comparison factors, conservative Canadian awards, status quo tendency; risk not ruled out; business-understanding warning unanswered. Shown beside “Risk of awards a small employer cannot sustain”."
+    },
+    {
+      "id": "HR5408_BW_Q42",
+      "argument_ids": [
+        "HR5408_UNC_oppose_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_04",
+          "field": "response_reading",
+          "quote": "The argument’s prediction about later contracts depends on the same claim of added risk in the first contract."
+        },
+        {
+          "id": "HR5408_UNC_oppose_04",
+          "field": "support_reading",
+          "quote": "threaten jobs, kill growth, and in some cases, shut businesses down entirely."
+        },
+        {
+          "id": "HR5408_UNC_oppose_04",
+          "field": "support_reading",
+          "quote": "would set the standard for all future contracts because of the difficulty of unwinding the many complex provisions that go into a collective bargaining agreement."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_UNC_UNAFFORDABLE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B01"
+      ],
+      "rationale": "Later-contract harm depends on the same first-contract risk. Shown beside “Concern: jobs and small owners’ income”."
+    },
+    {
+      "id": "HR5408_BW_Q43",
+      "argument_ids": [
+        "HR5408_SES_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_oppose_02",
+          "field": "response_reading",
+          "quote": "A binding award and an unaffordable award are different claims."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_DEFENSE"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B03"
+      ],
+      "rationale": "Binding is not unaffordable; no step showing defense suppliers would close. Shown beside “Small defense suppliers”."
+    },
+    {
+      "id": "HR5408_BW_Q44",
+      "argument_ids": [
+        "HR5408_SES_support_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_support_04",
+          "field": "response_reading",
+          "quote": "Those two years describe how long the ruling lasts, not when its costs become known."
+        },
+        {
+          "id": "HR5408_SES_support_04",
+          "field": "response_reading",
+          "quote": "have no set time to issue their award."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_PLANNING"
+      ],
+      "block_ids": [
+        "HR5408_BW_U20_B05"
+      ],
+      "rationale": "Two-year duration does not show more predictable costs; no deadline for awards. Shown beside “More predictable labor costs and steadier economic activity”."
+    },
+    {
+      "id": "HR5408_BW_Q45",
+      "argument_ids": [
+        "HR5408_UNC_oppose_05",
+        "HR5408_SES_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C12",
+          "field": "scope_html",
+          "quote": "Accounts of the agency’s service limits differ between sources."
+        },
+        {
+          "id": "HR5408_C12",
+          "field": "scope_html",
+          "quote": "Sources describe demand and staff limits, not how the agency would divide its work."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_SMALLHELP",
+        "HR5408_DT_K_ESSENTIAL"
+      ],
+      "block_ids": [],
+      "rationale": "Service-limit accounts differ; one demand statement concerned an earlier proposal; existing first-contract mediation; no allocation evidence. Shown in the context beside context and “Less or slower help for unions that cannot buy private help”, “Resources drawn from essential-service disputes”."
+    },
+    {
+      "id": "HR5408_BW_Q46",
+      "argument_ids": [
+        "HR5408_UNC_oppose_05"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "con_html",
+          "quote": "apart from critical-industry and class-action exceptions"
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "This response does not answer added strain on groups that remain eligible for FMCS help, or the lack of a deadline at the panel stage."
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "a minimum of 250 employees"
+        },
+        {
+          "id": "HR5408_UNC_oppose_05",
+          "field": "response_reading",
+          "quote": "Arbitrators are not FMCS employees."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_SMALLHELP"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B04"
+      ],
+      "rationale": "Access already restricted (Connecticut 250-employee limit apart from critical-industry and class-action exceptions); no size limit in the duty; arbitrators are not agency staff; added strain unanswered. Shown beside “Less or slower help for unions that cannot buy private help”."
+    },
+    {
+      "id": "HR5408_BW_Q47",
+      "argument_ids": [
+        "HR5408_SES_oppose_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "This response does not deny that added cases would stretch a limited staff."
+        },
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "which imperil or threaten to imperil the national health or safety."
+        },
+        {
+          "id": "HR5408_SES_oppose_01",
+          "field": "response_reading",
+          "quote": "the threat of having a first agreement imposed creates an incentive for the parties to reach agreement on their own."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ESSENTIAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U21_B06"
+      ],
+      "rationale": "Existing priority for national health and safety disputes; displacement needs support; added strain not denied. Shown beside “Resources drawn from essential-service disputes”."
+    },
+    {
+      "id": "HR5408_BW_Q48",
+      "argument_ids": [
+        "HR5408_UNC_oppose_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_06",
+          "field": "response_reading",
+          "quote": "This response does not show that such pressure would not occur."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B02"
+      ],
+      "rationale": "Designation only when seats go unfilled; prediction-only evidence; voluntary-arbitration code; executive order concerns staffing. Shown beside “Political pressure on panel appointments”."
+    },
+    {
+      "id": "HR5408_BW_Q49",
+      "argument_ids": [
+        "HR5408_UNC_oppose_07"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNC_oppose_07",
+          "field": "response_reading",
+          "quote": "This response does not answer the costs of hearings that do occur, or of lawsuits that use up resources even when they fail."
+        },
+        {
+          "id": "HR5408_UNC_oppose_07",
+          "field": "response_reading",
+          "quote": "does not violate either the First or the Fifth Amendments."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_COSTS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U22_B04"
+      ],
+      "rationale": "Legal-defect claims overstated; hearing and lawsuit costs unanswered; size depends on how many disputes reach a hearing. Shown beside “Hearing and lawsuit costs”."
+    },
+    {
+      "id": "HR5408_BW_Q50",
+      "argument_ids": [
+        "HR5408_UNN_support_01",
+        "HR5408_UNN_support_02",
+        "HR5408_UNN_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "Optional climate commitments would still depend on an employer’s voluntary agreement."
+        },
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "response_reading",
+          "quote": "that lack a direct job nexus."
+        },
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "each party is free to bargain or not to bargain, and to agree or not to agree."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV",
+        "HR5408_DT_V_UNN_TERMS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B01"
+      ],
+      "rationale": "Optional versus required bargaining subjects; bill does not change required subjects. Shown beside “Environmental terms in contracts”, “Nature: environmental terms at work”."
+    },
+    {
+      "id": "HR5408_BW_Q51",
+      "argument_ids": [
+        "HR5408_UNN_support_01"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_01",
+          "field": "response_reading",
+          "quote": "This response does not answer oversight terms tied to workers’ own safety and health."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B03"
+      ],
+      "rationale": "Complaint process covers only contract duties; environment-only oversight not reachable past refusal. Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_BW_Q52",
+      "argument_ids": [
+        "HR5408_UNN_support_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "This response does not answer stop-work terms for hazards to workers that would also prevent environmental harm."
+        },
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "the other side must bargain in good faith over safety and health issues, including SWA."
+        },
+        {
+          "id": "HR5408_UNN_support_02",
+          "field": "response_reading",
+          "quote": "Because there is no law mandating SWA, the SWA process is specific to an employer or workplace."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B05"
+      ],
+      "rationale": "Stop-work authority is workplace-specific; environment-only coverage not a required subject. Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_BW_Q53",
+      "argument_ids": [
+        "HR5408_UNN_support_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "Optional climate commitments would still depend on an employer’s voluntary agreement."
+        },
+        {
+          "id": "HR5408_UNN_support_03",
+          "field": "response_reading",
+          "quote": "making employers bargain over climate change may not always be possible"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_ENV"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B07"
+      ],
+      "rationale": "Optional climate commitments depend on voluntary agreement. Shown beside “Environmental terms in contracts”."
+    },
+    {
+      "id": "HR5408_BW_Q54",
+      "argument_ids": [
+        "HR5408_UNN_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_oppose_02",
+          "field": "response_reading",
+          "quote": "First, an award itself ends the first-contract bargaining in which workers could strike for such terms."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_STRIKELIMIT"
+      ],
+      "block_ids": [
+        "HR5408_BW_U23_B09"
+      ],
+      "rationale": "No-strike authority and strike lawfulness open; renewal strike example; two unanswered branches. Shown beside “Limits on strikes for environmental demands”."
+    },
+    {
+      "id": "HR5408_BW_Q55",
+      "argument_ids": [
+        "HR5408_UNN_support_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_04",
+          "field": "notes_html",
+          "quote": "The release reports no measured change in retention or conservation capacity."
+        },
+        {
+          "id": "HR5408_UNN_support_04",
+          "field": "support_reading",
+          "quote": "interest arbitration rarely results in a departure from the status quo in terms of economic and noneconomic working conditions"
+        },
+        {
+          "id": "HR5408_UNN_support_04",
+          "field": "support_reading",
+          "quote": "recognizing that arbitrated first agreements should not contain breakthrough or novel provisions"
+        },
+        {
+          "id": "HR5408_UNN_support_04",
+          "field": "support_reading",
+          "quote": "the quality of the first contract that a union achieves is a direct product of their power"
+        },
+        {
+          "id": "HR5408_UNN_support_04",
+          "field": "support_reading",
+          "quote": "These sources do not test this bill."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_CONSERVATION"
+      ],
+      "block_ids": [
+        "HR5408_DT_B_UNN_STAFF_LIMITS"
+      ],
+      "rationale": "No measured retention or capacity change; fast-tracked example; conservative-award and power limits. Shown beside “Conservation staff”."
+    },
+    {
+      "id": "HR5408_BW_Q56",
+      "argument_ids": [
+        "HR5408_UNN_support_05"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_05",
+          "field": "notes_html",
+          "quote": "The study does not measure whether first-contract terms change these workers’ expectations."
+        },
+        {
+          "id": "HR5408_UNN_support_05",
+          "field": "notes_html",
+          "quote": "note particular concern for workers whose skills are not in demand in wind and solar"
+        },
+        {
+          "id": "HR5408_UNN_support_05",
+          "field": "notes_html",
+          "quote": "The factor in the bill that compares employers refers to other employers in the same business."
+        },
+        {
+          "id": "HR5408_UNN_support_05",
+          "field": "notes_html",
+          "quote": "The energy-worker study interviewed 48 unionized workers, all in the Mid-Atlantic region, and its authors note this limit."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_TRANSITION"
+      ],
+      "block_ids": [
+        "HR5408_BW_U25_B02"
+      ],
+      "rationale": "Mid-Atlantic interview sample; precarity and skill-transfer concern (skills not in demand in wind and solar); no test of expectations; same-business comparison factor; Ultium built on a national contract. Shown beside “Easing energy workers’ fear of poor pay in clean energy”."
+    },
+    {
+      "id": "HR5408_BW_Q57",
+      "argument_ids": [
+        "HR5408_UNN_support_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_support_06",
+          "field": "notes_html",
+          "quote": "The historical environmental actions cited come from national union bodies, and the alliance passage concerns members already active on climate."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_CAMPAIGNS"
+      ],
+      "block_ids": [
+        "HR5408_BW_U26_B02"
+      ],
+      "rationale": "National bodies, already-active members, and the extractive-industry tension. Shown beside “A base for environmental campaigns”."
+    },
+    {
+      "id": "HR5408_BW_Q58",
+      "argument_ids": [
+        "HR5408_UNN_oppose_03"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_UNN_oppose_03",
+          "field": "notes_html",
+          "quote": "The Canadian first-contract research is reported for workers generally, not by industry."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_FOSSIL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U26_B04"
+      ],
+      "rationale": "Which unions gain is open; general Canadian evidence; refinery position ties; state employees outside the NLRA. Shown beside “Stronger unions that resist pollution controls”."
+    },
+    {
+      "id": "HR5408_BW_Q59",
+      "argument_ids": [
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_02",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04",
+        "HR5408_TR_oppose_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_C13",
+          "field": "scope_html",
+          "quote": "That protection does not reach payments by members."
+        },
+        {
+          "id": "HR5408_C13",
+          "field": "scope_html",
+          "quote": "the majority of AFT members work in the public sector"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C13"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B02"
+      ],
+      "rationale": "Private-sector scope (AFT mostly public), member versus protected nonmember funds, no measured spending effect. Shown beside “Payments that support national union political work”."
+    },
+    {
+      "id": "HR5408_BW_Q60",
+      "argument_ids": [
+        "HR5408_TR_oppose_01",
+        "HR5408_TR_oppose_03",
+        "HR5408_TR_oppose_04"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_oppose_01",
+          "field": "notes_html",
+          "quote": "The Unity Fund of the Service Employees International Union (SEIU) has a stated aim of winning pay, benefits and security"
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_K_C13",
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B03"
+      ],
+      "rationale": "Unity Fund aims and board discretion; AFT council guidelines. Shown beside “Payments that support national union political work”, “Tradition: political work against inherited Christian teaching”."
+    },
+    {
+      "id": "HR5408_BW_Q61",
+      "argument_ids": [
+        "HR5408_TR_oppose_02"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_oppose_02",
+          "field": "notes_html",
+          "quote": "the sources reviewed include no later AFL-CIO marriage-policy source."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B07"
+      ],
+      "rationale": "Marriage position dated 2022 with no later source; conditional on an unchanged position. Shown beside “Tradition: political work against inherited Christian teaching”."
+    },
+    {
+      "id": "HR5408_BW_Q62",
+      "argument_ids": [
+        "HR5408_TR_oppose_06"
+      ],
+      "source_refs": [
+        {
+          "id": "HR5408_TR_oppose_06",
+          "field": "notes_html",
+          "quote": "they do not establish AFT’s current policy on Fulton."
+        }
+      ],
+      "decision_ids": [
+        "HR5408_DT_V_TR_POLITICAL"
+      ],
+      "block_ids": [
+        "HR5408_BW_U27_B11"
+      ],
+      "rationale": "Fulton pledge dated 2022 and current policy not established; conditional on the pledge. Shown beside “Tradition: political work against inherited Christian teaching”."
+    }
+  ]
+}

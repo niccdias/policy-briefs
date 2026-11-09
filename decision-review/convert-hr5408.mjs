@@ -1,0 +1,12 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+const root=new URL('./',import.meta.url),pilot=new URL('../bill_reasoning_pilot_20261108/hr5408/',root),read=async url=>JSON.parse(await readFile(url,'utf8'));
+const sourceBytes=await readFile(new URL('bills/hr5408/input/source.json',root)),source=JSON.parse(sourceBytes),old=await read(new URL('decision-tree/decisions.json',pilot)),reading=await read(new URL('bill-wide/reading.json',pilot)),copy=await read(new URL('decision-tree/copy.json',pilot)),coverage=await read(new URL('decision-tree/coverage.json',pilot));
+const blocks=new Map(reading.units.flatMap(unit=>unit.blocks).concat(old.blocks).map(block=>[block.id,block]));
+const used=[...new Set(old.nodes.flatMap(node=>node.block_ids))];
+const decisions={schema_version:1,bill_id:source.bill.id,source_sha256:createHash('sha256').update(sourceBytes).digest('hex'),contexts:old.contexts,blocks:used.map(id=>{const {role,html,source_refs}=blocks.get(id);return {id,role,html,source_refs};}),nodes:old.nodes.map(({source_node_ids,implication_ids,...node})=>node),glossary:[...reading.glossary,...copy.glossary_additions],value_subjects:copy.value_subjects};
+const nativeCoverage={schema_version:1,arguments:coverage.arguments,responses:coverage.challenges.map(item=>({...source.requirements.responses.find(prior=>prior.id===item.id),decision_ids:item.decision_ids,block_ids:item.block_ids,disposition:item.disposition,rationale:item.rationale})),qualifications:coverage.qualifications};
+assert.equal(decisions.nodes.length,108);assert.equal(decisions.blocks.length,144);assert.equal(nativeCoverage.arguments.length,69);assert.equal(nativeCoverage.responses.length,34);assert.equal(nativeCoverage.qualifications.length,62);
+for(const [name,value] of [['decisions.json',decisions],['coverage.json',nativeCoverage],['copy.json',{}]])await writeFile(new URL('bills/hr5408/'+name,root),JSON.stringify(value,null,2)+'\n');
+console.log(JSON.stringify({bill:source.bill.id,decisions:decisions.nodes.length,blocks:decisions.blocks.length,source_sha256:decisions.source_sha256}));

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "niccdias/policy-briefs",
+  "upstream_commit": "5c8ebdec9de6849f99be968a67b1a36edd03499a",
+  "upstream_content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
+  "reviewer_records_included": false,
+  "bills": [
+    {
+      "slug": "s1582",
+      "bill_id": "119_S_1582",
+      "bill": "S.1582",
+      "title": "the GENIUS Act",
+      "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+      "arguments": 79,
+      "responses": 69,
+      "qualifications": 141
+    },
+    {
+      "slug": "sjres88",
+      "bill_id": "119_S_J_Res_88",
+      "bill": "S.J.Res.88",
+      "title": "a joint resolution terminating the national emergency declared to impose global tariffs",
+      "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+      "arguments": 69,
+      "responses": 17,
+      "qualifications": 74
+    },
+    {
+      "slug": "hr5408",
+      "bill_id": "119_H_R_5408",
+      "bill": "H.R.5408",
+      "title": "the Faster Labor Contracts Act",
+      "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+      "arguments": 69,
+      "responses": 34,
+      "qualifications": 62
+    },
+    {
+      "slug": "hr131",
+      "bill_id": "119_H_R_131",
+      "bill": "H.R.131",
+      "title": "the Finish the Arkansas Valley Conduit Act",
+      "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+      "arguments": 32,
+      "responses": 4,
+      "qualifications": 61
+    },
+    {
+      "slug": "hr4405",
+      "bill_id": "119_H_R_4405",
+      "bill": "H.R.4405",
+      "title": "the Epstein Files Transparency Act",
+      "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+      "arguments": 44,
+      "responses": 12,
+      "qualifications": 62
+    },
+    {
+      "slug": "hr1834",
+      "bill_id": "119_H_R_1834",
+      "bill": "H.R.1834",
+      "title": "the House bill extending the enhanced Affordable Care Act premium tax credits (introduced as the Breaking the Gridlock Act)",
+      "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+      "arguments": 78,
+      "responses": 19,
+      "qualifications": 97
+    },
+    {
+      "slug": "hr28",
+      "bill_id": "119_H_R_28",
+      "bill": "H.R.28",
+      "title": "the Protection of Women and Girls in Sports Act of 2025",
+      "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+      "arguments": 33,
+      "responses": 14,
+      "qualifications": 49
+    },
+    {
+      "slug": "s2",
+      "bill_id": "119_S_2",
+      "bill": "S.2",
+      "title": "the Secure America Act",
+      "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+      "arguments": 98,
+      "responses": 71,
+      "qualifications": 92
+    }
+  ]
+}

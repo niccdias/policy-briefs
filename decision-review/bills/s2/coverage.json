@@ -1,0 +1,5380 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "S2_UNN_support_01",
+   "decision_ids": [
+    "S2_K_PATROLWILD",
+    "S2_K_WILDWATER",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_EV",
+    "S2_B_PATROL_CH",
+    "S2_B_PATROL_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_WILDWATER_EV",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Fewer crossings through some wild areas; Less trash fouling water that wildlife uses. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_02",
+   "decision_ids": [
+    "S2_K_TOWERS",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_TOWERS_EV",
+    "S2_B_TOWERS_CH",
+    "S2_B_TOWERS_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Less trail and fence damage from faster detection. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_03",
+   "decision_ids": [
+    "S2_K_PATROLWILD",
+    "S2_K_INVASIVE",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_EV",
+    "S2_B_PATROL_CH",
+    "S2_B_PATROL_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_INVASIVE_EV",
+    "S2_B_INVASIVE_CH",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Fewer crossings through some wild areas; Less spread of invasive species. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_04",
+   "decision_ids": [
+    "S2_K_PATROLWILD",
+    "S2_K_WILDFIRE",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_EV",
+    "S2_B_PATROL_CH",
+    "S2_B_PATROL_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_WILDFIRE_EV",
+    "S2_B_WILDFIRE_CH",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Fewer crossings through some wild areas; Fewer wildfires from abandoned campfires. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_05",
+   "decision_ids": [
+    "S2_K_FIREWARN",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_FIREWARN_EV",
+    "S2_B_CBP_SCOPE",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Earlier fire warnings and calls for help. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_06",
+   "decision_ids": [
+    "S2_K_LANDOFFICERS",
+    "S2_V_UNN_CONSERVE"
+   ],
+   "block_ids": [
+    "S2_B_LANDOFF_EV",
+    "S2_B_LANDOFF_CH",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_CONSERVE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Land officers’ time kept for conservation. Value link: Nature: conservation work supported."
+  },
+  {
+   "id": "S2_UNN_support_07",
+   "decision_ids": [
+    "S2_K_BURNS",
+    "S2_V_UNN_CONSERVE"
+   ],
+   "block_ids": [
+    "S2_B_BURNS_EV",
+    "S2_B_BURNS_CH",
+    "S2_B_CBP_SCOPE",
+    "S2_B_CONSERVE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Planned burns made easier. Value link: Nature: conservation work supported."
+  },
+  {
+   "id": "S2_UNN_support_08",
+   "decision_ids": [
+    "S2_K_FISHING",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_FISHING_EV",
+    "S2_B_FISHING_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: More illegal fishing stopped. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_support_09",
+   "decision_ids": [
+    "S2_K_OILSPILL",
+    "S2_V_UNN_HARM"
+   ],
+   "block_ids": [
+    "S2_B_OILSPILL_EV",
+    "S2_B_OILSPILL_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_HARM_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added help coordinating oil-spill cleanup. Value link: Nature: less damage to land, water and sea life."
+  },
+  {
+   "id": "S2_UNN_oppose_01",
+   "decision_ids": [
+    "S2_K_FLIGHTS",
+    "S2_V_UNN_DAMAGE",
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_FLIGHTS_EV",
+    "S2_B_FLIGHTS_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_DAMAGE_BRIDGE",
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE"
+   ],
+   "rationale": "Causal claims: More removal flights and their pollution; Added immigration enforcement beyond the law in force. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_02",
+   "decision_ids": [
+    "S2_K_FACOPS",
+    "S2_K_FACWILD",
+    "S2_V_UNN_DAMAGE",
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_FACOPS_EV",
+    "S2_B_FACOPS_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_FACWILD_EV",
+    "S2_B_DAMAGE_BRIDGE",
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE"
+   ],
+   "rationale": "Causal claims: More detention-facility and vehicle operation; Wildlife kept away from facility sites; Added immigration enforcement beyond the law in force. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_03",
+   "decision_ids": [
+    "S2_K_FACOPS",
+    "S2_K_FACAIR",
+    "S2_V_UNN_DAMAGE",
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_FACOPS_EV",
+    "S2_B_FACOPS_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_FACAIR_EV",
+    "S2_B_DAMAGE_BRIDGE",
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE"
+   ],
+   "rationale": "Causal claims: More detention-facility and vehicle operation; Air pollution from facilities and vehicles; Added immigration enforcement beyond the law in force. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_04",
+   "decision_ids": [
+    "S2_K_SEWER",
+    "S2_V_UNN_DAMAGE"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_EV",
+    "S2_B_SOCIALSEWER_EV",
+    "S2_B_SEWER_CH",
+    "S2_B_SEWER_LIM",
+    "S2_B_SESCTX_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_DAMAGE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Planned detention centers beyond sewer capacity. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_05",
+   "decision_ids": [
+    "S2_K_OFFROAD",
+    "S2_V_UNN_DAMAGE"
+   ],
+   "block_ids": [
+    "S2_B_OFFROAD_EV",
+    "S2_B_OFFROAD_CH",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_DAMAGE_BRIDGE"
+   ],
+   "rationale": "Causal claims: More damaging off-road patrol driving. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_06",
+   "decision_ids": [
+    "S2_K_FORESTCREWS",
+    "S2_V_UNN_DAMAGE",
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_CREWS_EV",
+    "S2_B_CREWS_CH",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_ICE_SCOPE",
+    "S2_B_DAMAGE_BRIDGE",
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_MULTIYEAR_SCOPE"
+   ],
+   "rationale": "Causal claims: Forest work left without crews; Added immigration enforcement beyond the law in force. Value link: Nature: pollution and damage to wild land and wildlife."
+  },
+  {
+   "id": "S2_UNN_oppose_07",
+   "decision_ids": [
+    "S2_K_DRONES",
+    "S2_V_UNN_DEFENDERS"
+   ],
+   "block_ids": [
+    "S2_B_DRONES_EV",
+    "S2_B_DRONES_LIM",
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Causal claims: More aerial surveillance of environmental defenders. Value link: Nature: people taking part in defending nature."
+  },
+  {
+   "id": "S2_UNC_support_01",
+   "decision_ids": [
+    "S2_K_CHILDRESCUE",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_CHILD_EV",
+    "S2_B_CHILD_LIM",
+    "S2_B_HSI_SCOPE",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: More abused children identified and rescued. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_02",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_IGUARDIAN",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_IGUARD_EV",
+    "S2_B_IGUARD_CH",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; More abuse-prevention teaching for families. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_03",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_TRAFFICKING",
+    "S2_K_TRAFF_FREED",
+    "S2_K_HSI_VICTIMS",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_TRAFF_EV",
+    "S2_B_TRAFF_CH",
+    "S2_B_SEPTRAFF_EV",
+    "S2_B_SEPTRAFF_LIM",
+    "S2_B_VICTIMS_EV",
+    "S2_B_VICTIMS_CH",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for human trafficking cases; More trafficking victims found and brought to safety; Added HSI time for victim services. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_04",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_SCAMS",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_SCAMS_EV",
+    "S2_B_SCAMS_CH",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for financial scam cases. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_05",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_HUMANRIGHTS",
+    "S2_K_HR_ACCOUNT",
+    "S2_V_UNC_ABROAD"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_HUMRIGHTS_EV",
+    "S2_B_HUMRIGHTS_LIM",
+    "S2_B_HRACCT_EX"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for criminal human-rights cases; More perpetrators of atrocities held responsible. Value link: Concern: justice for victims of atrocities abroad."
+  },
+  {
+   "id": "S2_UNC_support_06",
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY",
+    "S2_V_UNC_LIVES"
+   ],
+   "block_ids": [
+    "S2_B_DRUGS_EV",
+    "S2_B_DRUGS_CH",
+    "S2_B_DRUGS_SCOPE",
+    "S2_B_CBP_SCOPE",
+    "S2_B_LIVES_BRIDGE"
+   ],
+   "rationale": "Causal claims: Seized drugs lower the supply that reaches people. Value link: Concern: lives and health of people at risk."
+  },
+  {
+   "id": "S2_UNC_support_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_VIOLENT",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_VIOLENT_EV",
+    "S2_B_VIOLENT_CH",
+    "S2_B_VIOLENT_LIM",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less violence from people with violent convictions. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_08",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_TERROR",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_TERROR_EV",
+    "S2_B_TERROR_CH",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for terrorism cases. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_09",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_CYBER",
+    "S2_V_UNC_PROTECT"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_CYBER_EV",
+    "S2_B_CYBER_CH",
+    "S2_B_PROTECT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for cybercrime cases protecting critical services. Value link: Concern: protecting people from abuse, exploitation, fraud and violence."
+  },
+  {
+   "id": "S2_UNC_support_10",
+   "decision_ids": [
+    "S2_K_RESCUES",
+    "S2_V_UNC_LIVES"
+   ],
+   "block_ids": [
+    "S2_B_RESCUE_EV",
+    "S2_B_EMERG_EV",
+    "S2_B_RESCUE_SCOPE",
+    "S2_B_RESCUE_LIM",
+    "S2_B_PILOTS_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_LIVES_BRIDGE"
+   ],
+   "rationale": "Causal claims: More rescues and emergency help for people in danger. Value link: Concern: lives and health of people at risk."
+  },
+  {
+   "id": "S2_UNC_support_11",
+   "decision_ids": [
+    "S2_K_CAMERAS",
+    "S2_V_UNC_CAMERAS"
+   ],
+   "block_ids": [
+    "S2_B_CAMERAS_EV",
+    "S2_B_CAMERAS_LIM",
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Causal claims: More recorded encounters for review. Value link: Concern: fair review of officers’ conduct."
+  },
+  {
+   "id": "S2_UNC_support_12",
+   "decision_ids": [
+    "S2_K_CUSTODYCARE",
+    "S2_V_UNC_LIVES"
+   ],
+   "block_ids": [
+    "S2_B_CUSTCARE_EV",
+    "S2_B_CUSTCARE_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_LIVES_BRIDGE"
+   ],
+   "rationale": "Causal claims: More medical care for people in custody. Value link: Concern: lives and health of people at risk."
+  },
+  {
+   "id": "S2_UNC_support_13",
+   "decision_ids": [
+    "S2_K_SAFETYGEAR",
+    "S2_V_UNC_WORKERS"
+   ],
+   "block_ids": [
+    "S2_B_GEAR_EV",
+    "S2_B_GEAR_CH",
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Causal claims: Safer work for agency staff. Value link: Concern: protecting workers from known job dangers."
+  },
+  {
+   "id": "S2_UNC_oppose_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_DETAINNT",
+    "S2_V_UNC_FREEDOM"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_NONTHREAT_EV",
+    "S2_B_RELEASE_EV",
+    "S2_B_FREEDOM_CH"
+   ],
+   "rationale": "Two routes: detention of people who pose no threat needs its claim; the release limit rests on the provision. Causal claims: Added immigration enforcement beyond the law in force; More detention of people who pose no safety threat. Value link: Concern: freedom taken from people who pose no threat."
+  },
+  {
+   "id": "S2_UNC_oppose_02",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_RACESTOPS",
+    "S2_V_UNC_JUSTICE"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_RACESTOPS_EV",
+    "S2_B_RACESTOPS_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_JUSTICE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Race-based stops continue. Value link: Concern: just treatment of people facing enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_LAWYERS",
+    "S2_V_UNC_JUSTICE"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_LAWYERS_EV",
+    "S2_B_LAWYERS_LIM",
+    "S2_B_JUSTICE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Removal without a fair chance to reach a lawyer. Value link: Concern: just treatment of people facing enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_04",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_HARMCOND",
+    "S2_K_LEVERAGE",
+    "S2_V_UNC_HARMS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_HARMCOND_EV",
+    "S2_B_HARMCOND_SCOPE",
+    "S2_B_LEVERAGE_EV",
+    "S2_B_LEVERAGE_LIM",
+    "S2_B_HARMS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More people held in dangerous conditions; Less yearly leverage over conditions and conduct. Value link: Concern: harms to vulnerable people from added enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_SEPARATION",
+    "S2_V_UNC_HARMS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_SEPARATION_EV",
+    "S2_B_TRSEP_EV",
+    "S2_B_SEPARATION_SCOPE",
+    "S2_B_HARMS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More children separated from parents. Value link: Concern: harms to vulnerable people from added enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_06",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_RAIDS",
+    "S2_K_RAIDHARM",
+    "S2_K_SCHOOLHARM",
+    "S2_V_UNC_HARMS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_RAIDTYPE_EV",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_RAIDS_EV",
+    "S2_B_SESRAID_EV",
+    "S2_B_RAIDS_CH",
+    "S2_B_SCHOOL_EV",
+    "S2_B_HARMS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Large, visible raids and sweeps continue; Added community disruption from those raids; Children’s schooling harmed. Value link: Concern: harms to vulnerable people from added enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_HOMEENTRY",
+    "S2_V_UNC_JUSTICE"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_HOMEENTRY_EV",
+    "S2_B_HOMEENTRY_CH",
+    "S2_B_JUSTICE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Added risk of warrantless home entries. Value link: Concern: just treatment of people facing enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_08",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_FORCE",
+    "S2_V_UNC_HARMS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_FORCE_EV",
+    "S2_B_AGENTVIOL_EV",
+    "S2_B_FORCE_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_HARMS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Concern: harms to vulnerable people from added enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_09",
+   "decision_ids": [
+    "S2_K_SURVEIL",
+    "S2_V_UNC_JUSTICE"
+   ],
+   "block_ids": [
+    "S2_B_SURVEIL_EV",
+    "S2_B_SURVEIL_CH",
+    "S2_B_SESCTX_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_ICE_SCOPE",
+    "S2_B_JUSTICE_BRIDGE"
+   ],
+   "rationale": "Causal claims: More broad collection of information about people. Value link: Concern: just treatment of people facing enforcement."
+  },
+  {
+   "id": "S2_UNC_oppose_10",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_JOBLOSS",
+    "S2_V_UNC_HARMS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_JOBLOSS_EV",
+    "S2_B_JOBLOSS_LIM",
+    "S2_B_HARMS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Other workers lose jobs and earnings. Value link: Concern: harms to vulnerable people from added enforcement."
+  },
+  {
+   "id": "S2_UNT_support_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_HSITIME",
+    "S2_K_HSI_HUMANRIGHTS",
+    "S2_K_HR_ACCOUNT",
+    "S2_K_PERSECUTORS",
+    "S2_V_UNT_PERSECUTION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_HUMRIGHTS_EV",
+    "S2_B_HUMRIGHTS_LIM",
+    "S2_B_HRACCT_EX",
+    "S2_B_PERSEC_EV",
+    "S2_B_PERSEC_LIM",
+    "S2_B_PERSECV_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Added HSI time for criminal investigations; Added HSI time for criminal human-rights cases; More perpetrators of atrocities held responsible; More immigration cases against persecutors. Value link: Tolerance: protection from persecution and silencing."
+  },
+  {
+   "id": "S2_UNT_support_02",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_REPRESSION",
+    "S2_V_UNT_PERSECUTION"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_REPRESS_EV",
+    "S2_B_PERSECV_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time against threats to foreign governments’ critics. Value link: Tolerance: protection from persecution and silencing."
+  },
+  {
+   "id": "S2_UNT_support_03",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_VICTIMS",
+    "S2_V_UNT_VICTIMS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_VICTIMS_EV",
+    "S2_B_VICTIMS_CH",
+    "S2_B_UNTVICT_EV"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for victim services. Value link: Tolerance: understanding and caring for victims unlike oneself."
+  },
+  {
+   "id": "S2_UNT_support_04",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_VICTIMS",
+    "S2_V_UNT_VICTIMS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_VICTIMS_EV",
+    "S2_B_VICTIMS_CH",
+    "S2_B_UNTVICT_EV"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for victim services. Value link: Tolerance: understanding and caring for victims unlike oneself."
+  },
+  {
+   "id": "S2_UNT_oppose_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_RACESTOPS",
+    "S2_V_UNT_GROUPS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_RACESTOPS_EV",
+    "S2_B_RACESTOPS_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_GROUPS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Race-based stops continue. Value link: Tolerance: accepting different ethnic, national and religious groups."
+  },
+  {
+   "id": "S2_UNT_oppose_02",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_NEIGHBORS",
+    "S2_V_UNT_NEIGHBORS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_NEIGHBORS_EV",
+    "S2_B_SEPARATION_SCOPE",
+    "S2_B_NEIGHBORS_CH"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Established neighbors removed from community life. Value link: Tolerance: accepting established neighbors."
+  },
+  {
+   "id": "S2_UNT_oppose_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_287G",
+    "S2_V_UNT_LISTEN"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_287G_EV",
+    "S2_B_287G_CH"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More withdrawal from police contact and community life. Value link: Tolerance: everyday contact across differences."
+  },
+  {
+   "id": "S2_UNT_oppose_04",
+   "decision_ids": [
+    "S2_V_UNT_HEARING"
+   ],
+   "block_ids": [
+    "S2_B_GOVLAW_EV",
+    "S2_B_GOVLAW_CH",
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Rests on the provision; no causal claim asked. Value link: Tolerance: hearing people facing deportation."
+  },
+  {
+   "id": "S2_UNT_oppose_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_FORCE",
+    "S2_V_UNT_DISSENT"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_FORCE_EV",
+    "S2_B_AGENTVIOL_EV",
+    "S2_B_FORCE_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_DISSENT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Tolerance: peaceful critics and those who report."
+  },
+  {
+   "id": "S2_UNT_oppose_06",
+   "decision_ids": [
+    "S2_K_SURVEIL",
+    "S2_K_CRITICS",
+    "S2_V_UNT_DISSENT"
+   ],
+   "block_ids": [
+    "S2_B_SURVEIL_EV",
+    "S2_B_SURVEIL_CH",
+    "S2_B_SESCTX_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CRITICS_EV",
+    "S2_B_OBSERVERS_EV",
+    "S2_B_CRITICS_CH",
+    "S2_B_DISSENT_BRIDGE"
+   ],
+   "rationale": "Causal claims: More broad collection of information about people; Surveillance used to intimidate critics and observers. Value link: Tolerance: peaceful critics and those who report."
+  },
+  {
+   "id": "S2_UNT_oppose_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_WORSHIPBARRIERS",
+    "S2_V_UNT_GROUPS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_UNTGROUP_EV",
+    "S2_B_WORSHIP_LIM",
+    "S2_B_GROUPS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More people held where minority worship is blocked. Value link: Tolerance: accepting different ethnic, national and religious groups."
+  },
+  {
+   "id": "S2_SEP_support_01",
+   "decision_ids": [
+    "S2_K_SCANNERS",
+    "S2_K_DRUGSUPPLY",
+    "S2_K_FENTANYL",
+    "S2_V_SEP_HEALTH"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_EV",
+    "S2_B_SCANNERS_CH",
+    "S2_B_SCANNERS_SCOPE",
+    "S2_B_CBP_SCOPE",
+    "S2_B_DRUGS_EV",
+    "S2_B_DRUGS_CH",
+    "S2_B_DRUGS_SCOPE",
+    "S2_B_FENTANYL_EV",
+    "S2_B_SEPHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: New drug scanners add usable inspections; Seized drugs lower the supply that reaches people; Less fentanyl reaching people. Value link: Personal Security: health protected from poisoned drugs and disease."
+  },
+  {
+   "id": "S2_SEP_support_02",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_PILLS",
+    "S2_V_SEP_HEALTH"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_PILLS_EV",
+    "S2_B_PILLS_CH",
+    "S2_B_SEPHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI work taking poisoned counterfeit pills off sale. Value link: Personal Security: health protected from poisoned drugs and disease."
+  },
+  {
+   "id": "S2_SEP_support_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_VIOLENT",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_VIOLENT_EV",
+    "S2_B_VIOLENT_CH",
+    "S2_B_VIOLENT_LIM",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less violence from people with violent convictions. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_support_04",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_JAILTRANSFER",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_JAIL_EV",
+    "S2_B_JAIL_CH",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Arrests moved from public places to jails. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_support_05",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_TRAFFICKING",
+    "S2_K_TRAFF_FREED",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_TRAFF_EV",
+    "S2_B_TRAFF_CH",
+    "S2_B_SEPTRAFF_EV",
+    "S2_B_SEPTRAFF_LIM",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for human trafficking cases; More trafficking victims found and brought to safety. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_support_06",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_GANGS",
+    "S2_K_LOCALGANGS",
+    "S2_K_GANGS_STOPPED",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_GANGS_EV",
+    "S2_B_GANGS_LIM",
+    "S2_B_LOCALGANGS_EV",
+    "S2_B_LOCALGANGS_LIM",
+    "S2_B_GANGSTOP_EX",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time against violent gangs; Local partners’ work against violent gangs; Less gang violence in communities. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_support_07",
+   "decision_ids": [
+    "S2_K_SCREENING",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_SCREEN_EV",
+    "S2_B_SCREEN_CH",
+    "S2_B_SCREEN_LIM",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: More screening for security threats. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_support_08",
+   "decision_ids": [
+    "S2_K_HEALTHORDERS",
+    "S2_V_SEP_HEALTH"
+   ],
+   "block_ids": [
+    "S2_B_HEALTHORD_EV",
+    "S2_B_HEALTHORD_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_SEPHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Border health orders supported. Value link: Personal Security: health protected from poisoned drugs and disease."
+  },
+  {
+   "id": "S2_SEP_support_09",
+   "decision_ids": [
+    "S2_K_RESCUES",
+    "S2_V_SEP_SAFETY"
+   ],
+   "block_ids": [
+    "S2_B_RESCUE_EV",
+    "S2_B_EMERG_EV",
+    "S2_B_RESCUE_SCOPE",
+    "S2_B_RESCUE_LIM",
+    "S2_B_PILOTS_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_SEPSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: More rescues and emergency help for people in danger. Value link: Personal Security: safety from violence, terrorism and accidents."
+  },
+  {
+   "id": "S2_SEP_oppose_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_FORCE",
+    "S2_V_SEP_HARMSAFETY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_FORCE_EV",
+    "S2_B_AGENTVIOL_EV",
+    "S2_B_FORCE_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_SEPHARMSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Personal Security: injury, assault and lost police protection."
+  },
+  {
+   "id": "S2_SEP_oppose_02",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_HARMCOND",
+    "S2_K_CITIZENCARE",
+    "S2_V_SEP_HARMHEALTH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_HARMCOND_EV",
+    "S2_B_HARMCOND_SCOPE",
+    "S2_B_CITCARE_EV",
+    "S2_B_CITCARE_LIM",
+    "S2_B_SEPHARMHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More people held in dangerous conditions; U.S. citizens held without needed care. Value link: Personal Security: health and access to care."
+  },
+  {
+   "id": "S2_SEP_oppose_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_REPORTING",
+    "S2_V_SEP_HARMSAFETY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_REPORT_EV",
+    "S2_B_REPORT_CH",
+    "S2_B_REPORT_LIM",
+    "S2_B_SEPHARMSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less crime reporting and police protection. Value link: Personal Security: injury, assault and lost police protection."
+  },
+  {
+   "id": "S2_SEP_oppose_04",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_IMPOSTERS",
+    "S2_V_SEP_HARMSAFETY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_IMPOST_EV",
+    "S2_B_IMPOST_CH",
+    "S2_B_IMPOST_SCOPE",
+    "S2_B_SEPHARMSAFE_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More cover for criminals posing as agents. Value link: Personal Security: injury, assault and lost police protection."
+  },
+  {
+   "id": "S2_SEP_oppose_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CARESUPPLY",
+    "S2_V_SEP_HARMHEALTH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CARESUP_EV",
+    "S2_B_CARESUP_LIM",
+    "S2_B_SEPHARMHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less care available at home, in nursing homes and hospitals. Value link: Personal Security: health and access to care."
+  },
+  {
+   "id": "S2_SEP_oppose_06",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CAREAVOID",
+    "S2_V_SEP_HARMHEALTH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CAREAVOID_EV",
+    "S2_B_VACCINE_EV",
+    "S2_B_VACCINE_LIM",
+    "S2_B_CAREAVOID_SCOPE",
+    "S2_B_SEPHARMHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Fear keeps people from care and delays finding infections. Value link: Personal Security: health and access to care."
+  },
+  {
+   "id": "S2_SEP_oppose_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_DETAININFECT",
+    "S2_V_SEP_HARMHEALTH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_INFECT_EV",
+    "S2_B_INFECT_CH",
+    "S2_B_SEPHARMHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Infections spread from detention to the public. Value link: Personal Security: health and access to care."
+  },
+  {
+   "id": "S2_SEP_oppose_08",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_FEAR",
+    "S2_V_SEP_HARMHEALTH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_FEAR_EV",
+    "S2_B_FEAR_CH",
+    "S2_B_SEPHARMHEALTH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Fear and mental-health harm for an average American. Value link: Personal Security: health and access to care."
+  },
+  {
+   "id": "S2_SES_support_01",
+   "decision_ids": [
+    "S2_K_READY",
+    "S2_V_SES_BORDERS"
+   ],
+   "block_ids": [
+    "S2_B_READY_EV",
+    "S2_B_READY_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_BORDERS_BRIDGE"
+   ],
+   "rationale": "Causal claims: A steadier, ready security workforce. Value link: Societal Security: control of the borders and a ready workforce."
+  },
+  {
+   "id": "S2_SES_support_02",
+   "decision_ids": [
+    "S2_K_BORDERDETECT",
+    "S2_K_BORDERRESPONSE",
+    "S2_V_SES_BORDERS"
+   ],
+   "block_ids": [
+    "S2_B_BORDER_EV",
+    "S2_B_BORDER_LIM",
+    "S2_B_TOWERS_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_BORDERRESP_EV",
+    "S2_B_BORDERS_BRIDGE"
+   ],
+   "rationale": "Causal claims: More detection of crossings and smuggling at the borders; Faster, safer response at land and sea borders. Value link: Societal Security: control of the borders and a ready workforce."
+  },
+  {
+   "id": "S2_SES_support_03",
+   "decision_ids": [
+    "S2_K_BIOMETRIC",
+    "S2_V_SES_BORDERS"
+   ],
+   "block_ids": [
+    "S2_B_BIOM_EV",
+    "S2_B_BIOM_CH",
+    "S2_B_BIOM_LIM",
+    "S2_B_BORDERS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Wider or better identity and departure checks. Value link: Societal Security: control of the borders and a ready workforce."
+  },
+  {
+   "id": "S2_SES_support_04",
+   "decision_ids": [
+    "S2_K_SCANNERS",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_EV",
+    "S2_B_SCANNERS_CH",
+    "S2_B_SCANNERS_SCOPE",
+    "S2_B_CBP_SCOPE",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "The source lists two paths; the scanner-only path (denying profits) is the weaker requirement, so the link asks only the scanner claim. Causal claims: New drug scanners add usable inspections. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_VIOLENT",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_VIOLENT_EV",
+    "S2_B_VIOLENT_CH",
+    "S2_B_VIOLENT_LIM",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less violence from people with violent convictions. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_06",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_TERROR",
+    "S2_K_HSI_GANGS",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_TERROR_EV",
+    "S2_B_TERROR_CH",
+    "S2_B_GANGS_EV",
+    "S2_B_GANGS_LIM",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "The ledger path names terrorism cases; the argument also cites gang cases, so both are kept as alternative routes. Causal claims: Added HSI time for criminal investigations; Added HSI time for terrorism cases; Added HSI time against violent gangs. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_07",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_TRAFFICKING",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_TRAFF_EV",
+    "S2_B_TRAFF_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for human trafficking cases. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_08",
+   "decision_ids": [
+    "S2_K_CHILDRESCUE",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_CHILD_EV",
+    "S2_B_CHILD_LIM",
+    "S2_B_HSI_SCOPE",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: More abused children identified and rescued. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_09",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_LAUNDER",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_LAUNDER_EV",
+    "S2_B_LAUNDER_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; More criminal money seized. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_10",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_SCAMS",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_SCAMS_EV",
+    "S2_B_SCAMS_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for financial scam cases. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_11",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_CYBER",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_CYBER_EV",
+    "S2_B_CYBER_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time for cybercrime cases protecting critical services. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_12",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_ARMOR",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_ARMOR_EV",
+    "S2_B_ARMOR_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI time against unsafe equipment fraud. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_13",
+   "decision_ids": [
+    "S2_K_HSITIME",
+    "S2_K_HSI_EVENTS",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_EV",
+    "S2_B_HSITIME_CH",
+    "S2_B_HSITIME_SCOPE",
+    "S2_B_HSI_SCOPE",
+    "S2_B_EVENTS_EV",
+    "S2_B_EVENTS_CH",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added HSI time for criminal investigations; Added HSI officers for major-event protection. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_support_14",
+   "decision_ids": [
+    "S2_K_RESCUES",
+    "S2_V_SES_THREATS"
+   ],
+   "block_ids": [
+    "S2_B_RESCUE_EV",
+    "S2_B_EMERG_EV",
+    "S2_B_RESCUE_SCOPE",
+    "S2_B_RESCUE_LIM",
+    "S2_B_PILOTS_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_THREATS_BRIDGE"
+   ],
+   "rationale": "Causal claims: More rescues and emergency help for people in danger. Value link: Societal Security: protection against crime, terrorism and emergencies."
+  },
+  {
+   "id": "S2_SES_oppose_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_LEVERAGE",
+    "S2_K_FORCE",
+    "S2_V_SES_PROTECTION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_LEVERAGE_EV",
+    "S2_B_LEVERAGE_LIM",
+    "S2_B_FORCE_EV",
+    "S2_B_AGENTVIOL_EV",
+    "S2_B_FORCE_CH",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_SESPROT_BRIDGE"
+   ],
+   "rationale": "Two routes: continued force needs its claim; the lost yearly leverage rests on the bill’s multiyear funding rule. Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Less yearly leverage over conditions and conduct; Excessive force in public operations continues. Value link: Societal Security: citizen protection and crime control."
+  },
+  {
+   "id": "S2_SES_oppose_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_REPORTING",
+    "S2_V_SES_PROTECTION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_REPORT_EV",
+    "S2_B_REPORT_CH",
+    "S2_B_REPORT_LIM",
+    "S2_B_SESPROT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Less crime reporting and police protection. Value link: Societal Security: citizen protection and crime control."
+  },
+  {
+   "id": "S2_SES_oppose_04",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_IMPOSTERS",
+    "S2_V_SES_PROTECTION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_IMPOST_EV",
+    "S2_B_IMPOST_CH",
+    "S2_B_IMPOST_SCOPE",
+    "S2_B_SESPROT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More cover for criminals posing as agents. Value link: Societal Security: citizen protection and crime control."
+  },
+  {
+   "id": "S2_SES_oppose_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_DIVERSION",
+    "S2_V_SES_PROTECTION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_DIVERT_EV",
+    "S2_B_DIVERT_CH",
+    "S2_B_HSI_SCOPE",
+    "S2_B_SESPROT_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Investigators pulled from other serious threats. Value link: Societal Security: citizen protection and crime control."
+  },
+  {
+   "id": "S2_SES_oppose_06",
+   "decision_ids": [
+    "S2_K_SURVEIL",
+    "S2_K_CRITICS",
+    "S2_V_SES_PROTECTION"
+   ],
+   "block_ids": [
+    "S2_B_SURVEIL_EV",
+    "S2_B_SURVEIL_CH",
+    "S2_B_SESCTX_LIM",
+    "S2_B_CBP_SCOPE",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CRITICS_EV",
+    "S2_B_OBSERVERS_EV",
+    "S2_B_CRITICS_CH",
+    "S2_B_SESPROT_BRIDGE"
+   ],
+   "rationale": "Causal claims: More broad collection of information about people; Surveillance used to intimidate critics and observers. Value link: Societal Security: citizen protection and crime control."
+  },
+  {
+   "id": "S2_SES_oppose_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_TACTICS",
+    "S2_K_RAIDS",
+    "S2_K_RAIDHARM",
+    "S2_K_AVOIDLIFE",
+    "S2_V_SES_STABILITY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_QUIET_CH",
+    "S2_B_RAIDTYPE_EV",
+    "S2_B_TACTIC_SCOPE",
+    "S2_B_RAIDS_EV",
+    "S2_B_SESRAID_EV",
+    "S2_B_RAIDS_CH",
+    "S2_B_AVOIDLIFE_EV",
+    "S2_B_AVOIDLIFE_CH",
+    "S2_B_SESSTAB_BRIDGE"
+   ],
+   "rationale": "Two routes: visible raids need the shared raids claim; the KFF avoidance route needs its own fear claim. Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Large, visible raids and sweeps continue; Added community disruption from those raids; Fear keeps people from work, school and community life. Value link: Societal Security: stable communities, services and finances."
+  },
+  {
+   "id": "S2_SES_oppose_08",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_ESSENTIALWORK",
+    "S2_K_ECONSHRINK",
+    "S2_V_SES_STABILITY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_ESSENTIAL_EV",
+    "S2_B_ESSENTIAL_LIM",
+    "S2_B_ECON_EV",
+    "S2_B_ECON_LIM",
+    "S2_B_SESSTAB_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Weaker essential services as workers are removed; A smaller national economy and public finances. Value link: Societal Security: stable communities, services and finances."
+  },
+  {
+   "id": "S2_SES_oppose_09",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CAREAVOID",
+    "S2_V_SES_STABILITY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CAREAVOID_EV",
+    "S2_B_VACCINE_EV",
+    "S2_B_VACCINE_LIM",
+    "S2_B_CAREAVOID_SCOPE",
+    "S2_B_SESSTAB_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Fear keeps people from care and delays finding infections. Value link: Societal Security: stable communities, services and finances."
+  },
+  {
+   "id": "S2_SES_oppose_10",
+   "decision_ids": [
+    "S2_K_SEWER",
+    "S2_V_SES_STABILITY"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_EV",
+    "S2_B_SOCIALSEWER_EV",
+    "S2_B_SEWER_CH",
+    "S2_B_SEWER_LIM",
+    "S2_B_SESCTX_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_SESSTAB_BRIDGE"
+   ],
+   "rationale": "Causal claims: Planned detention centers beyond sewer capacity. Value link: Societal Security: stable communities, services and finances."
+  },
+  {
+   "id": "S2_SES_oppose_11",
+   "decision_ids": [
+    "S2_K_S2DEBT",
+    "S2_V_SES_STABILITY"
+   ],
+   "block_ids": [
+    "S2_B_S2DEBT_EV",
+    "S2_B_S2DEBT_LIM",
+    "S2_B_SESCTX_LIM",
+    "S2_B_SESSTAB_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added debt pressure on defense and emergencies. Value link: Societal Security: stable communities, services and finances."
+  },
+  {
+   "id": "S2_TR_support_06",
+   "decision_ids": [
+    "S2_K_SCANNERS",
+    "S2_K_DRUGSUPPLY",
+    "S2_K_OPIOIDFAMILY",
+    "S2_V_TR_DRUGFAMILY"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_EV",
+    "S2_B_SCANNERS_CH",
+    "S2_B_SCANNERS_SCOPE",
+    "S2_B_CBP_SCOPE",
+    "S2_B_DRUGS_EV",
+    "S2_B_DRUGS_CH",
+    "S2_B_DRUGS_SCOPE",
+    "S2_B_TROPIOID_EV",
+    "S2_B_TROPIOID_CH",
+    "S2_B_TRDRUG_EV"
+   ],
+   "rationale": "Causal claims: New drug scanners add usable inspections; Seized drugs lower the supply that reaches people; Less opioid abuse separating children from parents. Value link: Tradition: protecting the family setting where parents pass on faith."
+  },
+  {
+   "id": "S2_TR_oppose_01",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_SEPARATION",
+    "S2_V_TR_FAMILY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_SEPARATION_EV",
+    "S2_B_TRSEP_EV",
+    "S2_B_SEPARATION_SCOPE",
+    "S2_B_TRFAM_EV",
+    "S2_B_TRSEP_LIM"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More children separated from parents. Value link: Tradition: family unity and parents passing on faith."
+  },
+  {
+   "id": "S2_TR_oppose_02",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_WORSHIPFEAR",
+    "S2_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_WORSHIPFEAR_EV",
+    "S2_B_WORSHIPFEAR_LIM",
+    "S2_B_CHURCH_BRIDGE"
+   ],
+   "rationale": "The ledger gives a local route; the factual step from added enforcement to fear at church is asked as its own claim. Causal claims: Added immigration enforcement beyond the law in force; Fear keeps more Christians from shared worship and rites. Value link: Tradition: the church’s shared worship, community, ministry and pastoral care."
+  },
+  {
+   "id": "S2_TR_oppose_03",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CONGREGATIONS",
+    "S2_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CONGREG_EV",
+    "S2_B_CONGREG_CH",
+    "S2_B_CHURCH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Removals put congregations’ continuity at risk. Value link: Tradition: the church’s shared worship, community, ministry and pastoral care."
+  },
+  {
+   "id": "S2_TR_oppose_04",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_MINISTRYSTOP",
+    "S2_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_MINISTRY_EV",
+    "S2_B_CHURCH_BRIDGE"
+   ],
+   "rationale": "The ledger gives a local route; the factual step from added operations to interrupted ministries is asked as its own claim. Causal claims: Added immigration enforcement beyond the law in force; More interruptions of established church ministries. Value link: Tradition: the church’s shared worship, community, ministry and pastoral care."
+  },
+  {
+   "id": "S2_TR_oppose_05",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CLERGYACCESS",
+    "S2_V_TR_CHURCH"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CLERGY_EV",
+    "S2_B_CLERGY_LIM",
+    "S2_B_CLERGY_CH",
+    "S2_B_CHURCH_BRIDGE"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More Christians held where clergy cannot visit. Value link: Tradition: the church’s shared worship, community, ministry and pastoral care."
+  },
+  {
+   "id": "S2_TR_oppose_07",
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_UNSAFERETURNS",
+    "S2_V_TR_ABROAD"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_EV",
+    "S2_B_ADDENF_LIM",
+    "S2_B_ICE_SCOPE",
+    "S2_B_CBPIMM_SCOPE",
+    "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_RETURNS_EV",
+    "S2_B_RETURNS_CH",
+    "S2_B_TRFREE_EV"
+   ],
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; More Christians returned to religious persecution. Value link: Tradition: Christians’ freedom to live by their faith."
+  }
+ ],
+ "responses": [
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_01",
+   "argument_ids": [
+    "S2_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_01",
+     "field": "response_reading",
+     "quote": "Response These local gains do not show that S.2's added patrols would reduce this traffic instead of moving it somewhere else. Because Interior reported gains in some places: “CBP operations have reduced cross-border illegal activity and th"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_PATROLWILD"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Fewer crossings through some wild areas."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_02",
+   "argument_ids": [
+    "S2_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_02",
+     "field": "response_reading",
+     "quote": "Response Catching someone faster does not show that there is less damage to trails, plants or fences. Because The tower report describes a narrower result: “The response time from target identification to suspect apprehension dramatically d"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TOWERS"
+   ],
+   "block_ids": [
+    "S2_B_TOWERS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less trail and fence damage from faster detection."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_03",
+   "argument_ids": [
+    "S2_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_03",
+     "field": "response_reading",
+     "quote": "Response This argument treats immigration enforcement as a way to control invasive species, but does not show how stopping people would keep species out. Because Interior lists “invasive species introductions” [6] among the harms, but it do"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_INVASIVE"
+   ],
+   "block_ids": [
+    "S2_B_INVASIVE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less spread of invasive species."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_04",
+   "argument_ids": [
+    "S2_UNN_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_04",
+     "field": "response_reading",
+     "quote": "Response The sources do not connect S.2's added arrests to fewer abandoned campfires in these forests. Because The Forest Service names “warming and cooking fires built and abandoned by cross-border violators” [3] as a cause of wildfires. B"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_PATROLWILD",
+    "S2_K_WILDFIRE"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_CH",
+    "S2_B_WILDFIRE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Fewer crossings through some wild areas; Fewer wildfires from abandoned campfires."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_06",
+   "argument_ids": [
+    "S2_UNN_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_06",
+     "field": "response_reading",
+     "quote": "Response A division of duties inside a joint patrol does not show that S.2's money protects land officers' time for conservation. Because Interior describes patrols that use officers from both agencies: “Border Patrol agents frequently cond"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_LANDOFFICERS"
+   ],
+   "block_ids": [
+    "S2_B_LANDOFF_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Land officers’ time kept for conservation."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_support_07",
+   "argument_ids": [
+    "S2_UNN_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_07",
+     "field": "response_reading",
+     "quote": "Response The testimony does not separate help with fighting fires from help with planned burns. Because The testimony describes clearing fire areas and guarding firefighters: “The Coronado National Forest must now send armed officers to cle"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BURNS"
+   ],
+   "block_ids": [
+    "S2_B_BURNS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Planned burns made easier."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_oppose_04",
+   "argument_ids": [
+    "S2_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_04",
+     "field": "response_reading",
+     "quote": "Response This sewage argument leaves out limits on these warehouse plans that existed before June 9, 2026. Because Social Circle had locked the water meter at the planned detention center. Its city manager described the condition: “The lock"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_oppose_05",
+   "argument_ids": [
+    "S2_UNN_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_05",
+     "field": "response_reading",
+     "quote": "Response More border-patrol staff does not by itself mean more damaging off-road driving at Organ Pipe. Because Section 201 pays for several uses of staff: “hiring, paying, training, and equipping U.S. Customs and Border Protection agents” "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_OFFROAD"
+   ],
+   "block_ids": [
+    "S2_B_OFFROAD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More damaging off-road patrol driving."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNN_oppose_06",
+   "argument_ids": [
+    "S2_UNN_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_06",
+     "field": "response_reading",
+     "quote": "Response The forestry examples do not show that S.2 raises the risk that needed forest work is left without crews. Because Later reporting on the 2025 case found that crews kept working: “Both of the private crews have active agreements wit"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FORESTCREWS"
+   ],
+   "block_ids": [
+    "S2_B_CREWS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Forest work left without crews."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_02",
+   "argument_ids": [
+    "S2_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_02",
+     "field": "response_reading",
+     "quote": "Response This argument does not connect general staff money for Homeland Security Investigations (HSI) to more teaching for children and families. Because Project iGuardian uses “special agents and subject matter experts” [3] to give presen"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_IGUARDIAN"
+   ],
+   "block_ids": [
+    "S2_B_IGUARD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More abuse-prevention teaching for families."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_03",
+   "argument_ids": [
+    "S2_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_03",
+     "field": "response_reading",
+     "quote": "Response This argument's examples do not show that S.2 would add trafficking investigations or survivor-support staff while agents were reportedly being moved to immigration work. Because November 2025 reporting described agents being moved"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_TRAFFICKING",
+    "S2_K_HSI_VICTIMS"
+   ],
+   "block_ids": [
+    "S2_B_TRAFF_CH",
+    "S2_B_VICTIMS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for human trafficking cases; Added HSI time for victim services."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_04",
+   "argument_ids": [
+    "S2_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_04",
+     "field": "response_reading",
+     "quote": "Response The fraud totals do not show more protection against scams from S.2 now that agents at Homeland Security Investigations (HSI) were reportedly being moved to immigration work. Because These are past results: “In FY 2024, HSI conduct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_SCAMS"
+   ],
+   "block_ids": [
+    "S2_B_SCAMS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for financial scam cases."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_06",
+   "argument_ids": [
+    "S2_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_06",
+     "field": "response_reading",
+     "quote": "Response Cheap replacement weakens the step from a seized shipment to less drug use overall. Because Drug-policy researchers Jonathan Caulkins and Peter Reuter explain: “But traffickers can easily replace what is seized.” [7] They say fenta"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY"
+   ],
+   "block_ids": [
+    "S2_B_DRUGS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Seized drugs lower the supply that reaches people."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_08",
+   "argument_ids": [
+    "S2_UNC_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_08",
+     "field": "response_reading",
+     "quote": "Response This argument's earlier counterterrorism results do not show that new money would bring back or grow investigators' work on these threats. Because The report places the “70 criminal indictments” [3] in fiscal year 2024. In January "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_TERROR"
+   ],
+   "block_ids": [
+    "S2_B_TERROR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for terrorism cases."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_09",
+   "argument_ids": [
+    "S2_UNC_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_09",
+     "field": "response_reading",
+     "quote": "Response The cyberattack count does not show more protection for essential services from S.2. Because The report says, “In FY 2024, OCC disrupted 195” [3] break-ins and attacks. OCC is Operation Cyber Centurion, and FY means fiscal year. Th"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_CYBER"
+   ],
+   "block_ids": [
+    "S2_B_CYBER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for cybercrime cases protecting critical services."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_support_13",
+   "argument_ids": [
+    "S2_UNC_support_13"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_13",
+     "field": "response_reading",
+     "quote": "Response The safety report's training problem comes from unclear rules, which this money does not change. Because The report found unclear training rules: “ICE does not clearly define requirements for refresher training” [17] . It recommend"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SAFETYGEAR",
+    "S2_V_UNC_WORKERS"
+   ],
+   "block_ids": [
+    "S2_B_GEAR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Safer work for agency staff; Concern: protecting workers from known job dangers."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_01",
+   "argument_ids": [
+    "S2_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The lack of a public safety threat does not by itself show that this custody is needless or unjust. Because Custody can have a purpose other than preventing violence. For people already ordered removed, the Supreme Court tests dete"
+    }
+   ],
+   "decision_ids": [
+    "S2_V_UNC_FREEDOM"
+   ],
+   "block_ids": [
+    "S2_B_FREEDOM_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Concern: freedom taken from people who pose no threat."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_02",
+   "argument_ids": [
+    "S2_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "Response The Los Angeles findings do not show that the added staff and local agreements would spread race-based stops under the approach reported before Congress's June 9 vote. Because Human Rights Watch places those findings in the “campai"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RACESTOPS"
+   ],
+   "block_ids": [
+    "S2_B_RACESTOPS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Race-based stops continue."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_06",
+   "argument_ids": [
+    "S2_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_06",
+     "field": "response_reading",
+     "quote": "Response This argument carries the effects of particular past operations forward without accounting for the change in approach before Congress's June 9 vote. Because CBS reported that Tom Homan, a top administration official on border polic"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RAIDHARM"
+   ],
+   "block_ids": [
+    "S2_B_RAIDS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added community disruption from those raids."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_07",
+   "argument_ids": [
+    "S2_UNC_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_07",
+     "field": "response_reading",
+     "quote": "Response The lack of a new warrant rule does not show that S.2 makes it more likely that the paused home entries start again. Because On May 8, the secretary wrote: “I have paused the practice of entering an illegal alien’s residence who is"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HOMEENTRY"
+   ],
+   "block_ids": [
+    "S2_B_HOMEENTRY_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added risk of warrantless home entries."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_08",
+   "argument_ids": [
+    "S2_UNC_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_08",
+     "field": "response_reading",
+     "quote": "Response This argument predicts more violent encounters from the earlier record without looking at the change in command and tactics before Congress's June 9 vote. Because By May, CBS reported that the commander who led the wider sweeps had"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FORCE"
+   ],
+   "block_ids": [
+    "S2_B_FORCE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Excessive force in public operations continues."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNC_oppose_09",
+   "argument_ids": [
+    "S2_UNC_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_09",
+     "field": "response_reading",
+     "quote": "Response This argument treats more surveillance capacity as indiscriminate collection without showing what makes the funded collection indiscriminate. Because Section 103 pays for surveillance “along the southwest, northern, and maritime bo"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SURVEIL"
+   ],
+   "block_ids": [
+    "S2_B_SURVEIL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More broad collection of information about people."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_01",
+   "argument_ids": [
+    "S2_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_01",
+     "field": "response_reading",
+     "quote": "Response This argument does not connect the added staff to more ethnic profiling under the conditions in place at Congress's June 9 vote. Ethnic profiling means treating people as suspects because of their ethnic group. Because The investig"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RACESTOPS"
+   ],
+   "block_ids": [
+    "S2_B_RACESTOPS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Race-based stops continue."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_02",
+   "argument_ids": [
+    "S2_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_02",
+     "field": "response_reading",
+     "quote": "Response Separation from family and having no conviction do not by themselves show rejection of people for being different. Because The transport provision pays for “alien departure or removal operations.” [1] Removal is a civil process tie"
+    }
+   ],
+   "decision_ids": [
+    "S2_V_UNT_NEIGHBORS"
+   ],
+   "block_ids": [
+    "S2_B_NEIGHBORS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Tolerance: accepting established neighbors."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_03",
+   "argument_ids": [
+    "S2_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The evidence does not connect the added withdrawal to the local police roles that these agreements create. Because The survey is about police involvement in general, in 2012. Its measure includes the statement “I feel more isolated"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_287G",
+    "S2_V_UNT_LISTEN"
+   ],
+   "block_ids": [
+    "S2_B_287G_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More withdrawal from police contact and community life; Tolerance: everyday contact across differences."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_04",
+   "argument_ids": [
+    "S2_UNT_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_04",
+     "field": "response_reading",
+     "quote": "Response Paying for government lawyers does not by itself show a choice against hearing immigrants' circumstances. Because Listening to someone's circumstances does not require agreeing that the person should win a legal case. Because The r"
+    }
+   ],
+   "decision_ids": [
+    "S2_V_UNT_HEARING"
+   ],
+   "block_ids": [
+    "S2_B_GOVLAW_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Tolerance: hearing people facing deportation."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_05",
+   "argument_ids": [
+    "S2_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_05",
+     "field": "response_reading",
+     "quote": "Response This argument's prediction of more intimidation leaves out changes in the operations and command behind these confrontations. Because Human Rights Watch tied the rising tension at Broadview to Operation Midway Blitz and “an increas"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FORCE"
+   ],
+   "block_ids": [
+    "S2_B_FORCE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Excessive force in public operations continues."
+  },
+  {
+   "id": "S2_RESPONSE_S2_UNT_oppose_06",
+   "argument_ids": [
+    "S2_UNT_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_06",
+     "field": "response_reading",
+     "quote": "Response This argument does not trace its examples of personal intimidation to the technology money that S.2 adds. Because The provision covers “information technology maintenance and sustainment to support enforcement and removal operation"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CRITICS"
+   ],
+   "block_ids": [
+    "S2_B_CRITICS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Surveillance used to intimidate critics and observers."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_support_01",
+   "argument_ids": [
+    "S2_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_01",
+     "field": "response_reading",
+     "quote": "Response A successful seizure does not show the drop in fentanyl exposure that this argument gives to more scanners. Because Section 103 pays for “Procurement and integration of new nonintrusive inspection equipment” [1] . Buying equipment "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY",
+    "S2_K_SCANNERS"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_CH",
+    "S2_B_DRUGS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Seized drugs lower the supply that reaches people; New drug scanners add usable inspections."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_support_02",
+   "argument_ids": [
+    "S2_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_02",
+     "field": "response_reading",
+     "quote": "Response This argument does not connect its pharmacy case to work that Section 102's limited money may pay for. Because The money must support “functions other than those related to Homeland Security Investigations' immigration enforcement "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_PILLS"
+   ],
+   "block_ids": [
+    "S2_B_PILLS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI work taking poisoned counterfeit pills off sale."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_support_03",
+   "argument_ids": [
+    "S2_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_03",
+     "field": "response_reading",
+     "quote": "Response One detention does not show that S.2's broader removal money reduces residents' exposure to violence. Because Research on a similar detention and deportation program found, “The results show that the Secure Communities program has "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_VIOLENT"
+   ],
+   "block_ids": [
+    "S2_B_VIOLENT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less violence from people with violent convictions."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_support_04",
+   "argument_ids": [
+    "S2_SEP_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_04",
+     "field": "response_reading",
+     "quote": "Response Expanding 287(g) agreements does not show that jail transfers would replace public arrests. Because These agreements give local officers some immigration powers outside jails too. ICE's February 2026 description says, “The Task For"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_JAILTRANSFER"
+   ],
+   "block_ids": [
+    "S2_B_JAIL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Arrests moved from public places to jails."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_support_07",
+   "argument_ids": [
+    "S2_SEP_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_07",
+     "field": "response_reading",
+     "quote": "Response The reported end of releases narrows this argument's example about screening before release. Because The inspector general found that agents finished record checks before releasing migrants in its sample. That 2022 audit describes "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SCREENING"
+   ],
+   "block_ids": [
+    "S2_B_SCREEN_CH",
+    "S2_B_SCREEN_LIM"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More screening for security threats."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_oppose_01",
+   "argument_ids": [
+    "S2_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "Response This argument assumes that added enforcement would repeat the street practices behind its injury reports, despite a change in enforcement before June 9. Because ProPublica links rising citizen detentions to a particular approach: “"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FORCE"
+   ],
+   "block_ids": [
+    "S2_B_FORCE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Excessive force in public operations continues."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_oppose_03",
+   "argument_ids": [
+    "S2_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The evidence supports a concern about people seeking help, but it does not show which added local agreements cause a wider loss of protection. Because S.2 pays for local police immigration work through “expanding, facilitating, and"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_REPORTING"
+   ],
+   "block_ids": [
+    "S2_B_REPORT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less crime reporting and police protection."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_oppose_04",
+   "argument_ids": [
+    "S2_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_04",
+     "field": "response_reading",
+     "quote": "Response The FBI's warning rests partly on public visibility, which had reportedly fallen before S.2, and the mask point marks no change. Because WIRED reports that criminals use ICE's “heightened profile to target vulnerable communities, m"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_IMPOSTERS"
+   ],
+   "block_ids": [
+    "S2_B_IMPOST_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More cover for criminals posing as agents."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_oppose_07",
+   "argument_ids": [
+    "S2_SEP_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_07",
+     "field": "response_reading",
+     "quote": "Response The sources limit the step from more detention to more infection through crowding. Because KFF's warning about crowding has a condition: detention “can lead to overcrowding if deportations do not keep up with the pace of arrests” ["
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DETAININFECT"
+   ],
+   "block_ids": [
+    "S2_B_INFECT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Infections spread from detention to the public."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SEP_oppose_08",
+   "argument_ids": [
+    "S2_SEP_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_08",
+     "field": "response_reading",
+     "quote": "Response This argument extends distress in communities facing enforcement to [NAME] without showing the exposure that it needs. Because The psychiatric statement names the stressor as “Fear of detention, deportation, or family separation” ["
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FEAR"
+   ],
+   "block_ids": [
+    "S2_B_FEAR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Fear and mental-health harm for an average American."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_03",
+   "argument_ids": [
+    "S2_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_03",
+     "field": "response_reading",
+     "quote": "Response Documented limits weaken the step from this money to wider or better identity checks. Because The Customs and Border Protection (CBP) report from March 2025 already said it “has the capacity to support increased usage of CBP biomet"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BIOMETRIC"
+   ],
+   "block_ids": [
+    "S2_B_BIOM_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Wider or better identity and departure checks."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_04",
+   "argument_ids": [
+    "S2_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_04",
+     "field": "response_reading",
+     "quote": "Response The past seizure total does not show that S.2 would turn equipment purchases into more effective drug inspections. Because S.2 pays for inspection equipment and “associated civil works” [1] , meaning work to prepare sites. Other st"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SCANNERS"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: New drug scanners add usable inspections."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_05",
+   "argument_ids": [
+    "S2_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_05",
+     "field": "response_reading",
+     "quote": "Response This argument does not establish that the broader arrest and removal money would add protection from violent offenders. Because The $350 million provision covers people after “an arrest, charge, booking, or conviction for a crimina"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_VIOLENT"
+   ],
+   "block_ids": [
+    "S2_B_VIOLENT_CH",
+    "S2_B_VIOLENT_LIM"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less violence from people with violent convictions."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_06",
+   "argument_ids": [
+    "S2_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_06",
+     "field": "response_reading",
+     "quote": "Response Past terrorism and gang cases by Homeland Security Investigations (HSI) do not show that S.2 would put more investigators on these cases. Because A January 2026 Senate letter reported that agents had been taken off criminal cases. "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_TERROR"
+   ],
+   "block_ids": [
+    "S2_B_TERROR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for terrorism cases."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_07",
+   "argument_ids": [
+    "S2_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_07",
+     "field": "response_reading",
+     "quote": "Response The trafficking conviction does not show that S.2 would expand the staff doing trafficking investigations. Because Cato, a policy institute, said in September 2025 that HSI “is suspending investigations into human trafficking, chil"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_TRAFFICKING"
+   ],
+   "block_ids": [
+    "S2_B_TRAFF_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for human trafficking cases."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_09",
+   "argument_ids": [
+    "S2_SES_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_09",
+     "field": "response_reading",
+     "quote": "Response Ten years of seizures do not show that S.2 would add to the financial investigations that produced them. Because The total comes from a decade of work: “Over the last decade, EDTF investigations have resulted in over 2,100 arrests "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_LAUNDER"
+   ],
+   "block_ids": [
+    "S2_B_LAUNDER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More criminal money seized."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_10",
+   "argument_ids": [
+    "S2_SES_support_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_10",
+     "field": "response_reading",
+     "quote": "Response The elder-fraud figures do not show that S.2 would increase the investigators available for scams. Because These figures describe fiscal year 2024: “HSI also conducted 258 elder fraud cases that resulted in 137 criminal arrests, 12"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_SCAMS"
+   ],
+   "block_ids": [
+    "S2_B_SCAMS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for financial scam cases."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_11",
+   "argument_ids": [
+    "S2_SES_support_11"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_11",
+     "field": "response_reading",
+     "quote": "Response The stopped cyberattacks do not show that S.2 would expand the cyber work that produced them. Because Cato, a policy institute, said in September 2025 that HSI was suspending work on “human trafficking, child exploitation, cybercri"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_CYBER"
+   ],
+   "block_ids": [
+    "S2_B_CYBER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for cybercrime cases protecting critical services."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_12",
+   "argument_ids": [
+    "S2_SES_support_12"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_12",
+     "field": "response_reading",
+     "quote": "Response The wire-fraud charge does not show that this equipment investigation qualifies for money that excludes work related to customs enforcement. Because Customs and Border Protection officers “intercepted and detained a package from Ch"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_ARMOR"
+   ],
+   "block_ids": [
+    "S2_B_ARMOR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time against unsafe equipment fraud."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_support_13",
+   "argument_ids": [
+    "S2_SES_support_13"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_13",
+     "field": "response_reading",
+     "quote": "Response The event details do not show that S.2 would add officers available for event protection. Because The testimony describes an existing practice: “HSI frequently provides personnel to augment USSS-led National Special Security Events"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_EVENTS"
+   ],
+   "block_ids": [
+    "S2_B_EVENTS_EV",
+    "S2_B_EVENTS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI officers for major-event protection."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_01",
+   "argument_ids": [
+    "S2_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_01",
+     "field": "response_reading",
+     "quote": "Response This argument does not link the added money to more use of the street tactics behind its examples. Because Reported practices had changed in some places before Congress's June 9 vote. May reporting from Chicago found: “Community le"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_LEVERAGE",
+    "S2_K_TACTICS"
+   ],
+   "block_ids": [
+    "S2_B_QUIET_CH",
+    "S2_B_LEVERAGE_EV"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less yearly leverage over conditions and conduct; Public-facing tactics of 2025–early 2026 continue."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_04",
+   "argument_ids": [
+    "S2_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_04",
+     "field": "response_reading",
+     "quote": "Response The mask and identification rules do not change under S.2, and the public-profile part of the FBI's link rests on 2025 conditions. Because The FBI account ties impersonation to the “recent increase in ICE enforcement actions” [35] "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_IMPOSTERS"
+   ],
+   "block_ids": [
+    "S2_B_IMPOST_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More cover for criminals posing as agents."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_05",
+   "argument_ids": [
+    "S2_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_05",
+     "field": "response_reading",
+     "quote": "Response This argument does not show that S.2 worsens the staff shortage behind the reported diversion of investigators. Because Section 202 pays for “Hiring, paying, training, and equipping” [1] immigration staff. So more immigration work "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DIVERSION"
+   ],
+   "block_ids": [
+    "S2_B_DIVERT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Investigators pulled from other serious threats."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_06",
+   "argument_ids": [
+    "S2_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_06",
+     "field": "response_reading",
+     "quote": "Response The observer example does not show that S.2 expands the monitoring used to discourage people from watching. Because The quoted lawyer says threats can scare observers “regardless of whether such databases even exist.” [38] The repo"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CRITICS"
+   ],
+   "block_ids": [
+    "S2_B_CRITICS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Surveillance used to intimidate critics and observers."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_07",
+   "argument_ids": [
+    "S2_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_07",
+     "field": "response_reading",
+     "quote": "Response The Minneapolis evidence may not carry over to added operations, and the survey came before the reported change in tactics. Because Before Congress's June 9 vote, the president had ordered the Minneapolis operation wound down (grad"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_AVOIDLIFE",
+    "S2_K_RAIDHARM"
+   ],
+   "block_ids": [
+    "S2_B_RAIDS_CH",
+    "S2_B_AVOIDLIFE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Fear keeps people from work, school and community life; Added community disruption from those raids."
+  },
+  {
+   "id": "S2_RESPONSE_S2_SES_oppose_10",
+   "argument_ids": [
+    "S2_SES_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_10",
+     "field": "response_reading",
+     "quote": "Response The Social Circle evidence does not show that S.2 increases the risk to water and sewer systems from that project. Because In March, the city blocked the water connection and explained: “The lock is there until ICE indicates how wa"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_RESPONSE_S2_TR_support_06",
+   "argument_ids": [
+    "S2_TR_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_support_06",
+     "field": "response_reading",
+     "quote": "Response This argument does not establish its chain from more drug detection to less opioid abuse and protected family teaching. Because Finding drugs does not show a lasting loss of supply. Drug-policy researcher Jonathan Caulkins explains"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY",
+    "S2_K_OPIOIDFAMILY"
+   ],
+   "block_ids": [
+    "S2_B_DRUGS_CH",
+    "S2_B_TROPIOID_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Seized drugs lower the supply that reaches people; Less opioid abuse separating children from parents."
+  },
+  {
+   "id": "S2_RESPONSE_S2_TR_oppose_03",
+   "argument_ids": [
+    "S2_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The sources limit how far this warning about closing churches can go. Because The bishop's instruction was a plan to keep leadership: “The bishop has instructed each congregation with endangered pastors to prepare three laypeople t"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CONGREGATIONS"
+   ],
+   "block_ids": [
+    "S2_B_CONGREG_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Removals put congregations’ continuity at risk."
+  },
+  {
+   "id": "S2_RESPONSE_S2_TR_oppose_05",
+   "argument_ids": [
+    "S2_TR_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_05",
+     "field": "response_reading",
+     "quote": "Response Documented fixes limit the prediction from earlier bans, while access elsewhere stays uncertain. Because An interim agreement at Broadview led to visits before Congress's June 9 vote: “Faith leaders began daily visits Friday, May 1"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CLERGYACCESS"
+   ],
+   "block_ids": [
+    "S2_B_CLERGY_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More Christians held where clergy cannot visit."
+  },
+  {
+   "id": "S2_RESPONSE_S2_TR_oppose_07",
+   "argument_ids": [
+    "S2_TR_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_07",
+     "field": "response_reading",
+     "quote": "Response The persecution evidence does not connect S.2's transport money to more unsafe returns, because the law and other decisions control where people are sent. Because The BBC reports that Ali's wife was returned to Iran and summoned by"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_UNSAFERETURNS"
+   ],
+   "block_ids": [
+    "S2_B_RETURNS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: More Christians returned to religious persecution."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C01",
+   "argument_ids": [
+    "S2_SEP_support_05",
+    "S2_SES_support_07",
+    "S2_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C01",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C03",
+   "argument_ids": [
+    "S2_SEP_support_01",
+    "S2_SES_support_04",
+    "S2_TR_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C03",
+     "field": "response_reading",
+     "quote": "GAO reported: “Some factors have limited the use of the systems, such as limited staff and system outages.” [4] Officials at four field offices “did not always have sufficient staff to fully use the systems.” [16] The inspector general of t"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SCANNERS"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: New drug scanners add usable inspections."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C04",
+   "argument_ids": [
+    "S2_SEP_support_01",
+    "S2_SES_support_04",
+    "S2_TR_support_06",
+    "S2_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C04",
+     "field": "response_reading",
+     "quote": "Researchers Jonathan Caulkins and Peter Reuter write: “But traffickers can easily replace what is seized.” [7] Caulkins also says synthetic opioids “permit seizures to be replaced in days” [5] . A 2026 review found results in different dire"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY"
+   ],
+   "block_ids": [
+    "S2_B_DRUGS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Seized drugs lower the supply that reaches people."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C05",
+   "argument_ids": [
+    "S2_SEP_support_03",
+    "S2_SES_support_05",
+    "S2_UNC_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C05",
+     "field": "response_reading",
+     "quote": "Studies of similar programs did not find less crime. One found that Secure Communities “has had no observable effect on the overall crime rate.” [9] Another found that “The activation of 287(g) jail enforcement agreements and anti-detainer "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_VIOLENT"
+   ],
+   "block_ids": [
+    "S2_B_VIOLENT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Less violence from people with violent convictions."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C06",
+   "argument_ids": [
+    "S2_UNC_oppose_02",
+    "S2_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C06",
+     "field": "response_reading",
+     "quote": "The Associated Press reported a move “away from aggressive, public-facing tactics toward a quieter approach to enforcement.” [26] CBS reported Homan’s account that “Border Patrol agents have not been making seemingly random immigration stop"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TACTICS"
+   ],
+   "block_ids": [
+    "S2_B_QUIET_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C09",
+   "argument_ids": [
+    "S2_SES_oppose_10",
+    "S2_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C09",
+     "field": "response_reading",
+     "quote": "There were limits in place before the comparison date. Social Circle had locked the water meter at the planned detention center. Its city manager said: “The lock is there until ICE indicates how water and sewer will be served without exceed"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C31",
+   "argument_ids": [
+    "S2_SES_support_06",
+    "S2_UNC_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C31",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C32",
+   "argument_ids": [
+    "S2_SES_support_10",
+    "S2_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C32",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C33",
+   "argument_ids": [
+    "S2_SES_support_11",
+    "S2_UNC_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C33",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C34",
+   "argument_ids": [
+    "S2_UNC_support_05",
+    "S2_UNT_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C34",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C35",
+   "argument_ids": [
+    "S2_UNT_support_03",
+    "S2_UNT_support_04",
+    "S2_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C35",
+     "field": "response_reading",
+     "quote": "Senators reported in January 2026 that “entire HSI units have reportedly been reassigned” [21] to immigration enforcement. Cato, a policy institute, reported in September 2025 that HSI “is suspending investigations into human trafficking, c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C36",
+   "argument_ids": [
+    "S2_SEP_oppose_01",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C36",
+     "field": "response_reading",
+     "quote": "The Associated Press reported a move “away from aggressive, public-facing tactics toward a quieter approach to enforcement.” [26] CBS reported Homan’s account that “Border Patrol agents have not been making seemingly random immigration stop"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TACTICS"
+   ],
+   "block_ids": [
+    "S2_B_QUIET_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+  },
+  {
+   "id": "S2_RESPONSE_S2_C37",
+   "argument_ids": [
+    "S2_SES_oppose_07",
+    "S2_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C37",
+     "field": "response_reading",
+     "quote": "The Associated Press reported a move “away from aggressive, public-facing tactics toward a quieter approach to enforcement.” [26] CBS reported Homan’s account that “Border Patrol agents have not been making seemingly random immigration stop"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TACTICS"
+   ],
+   "block_ids": [
+    "S2_B_QUIET_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "S2_QUAL_S2_UNN_support_02_notes_html",
+   "argument_ids": [
+    "S2_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Surveillance money already in law: The Congressional Research Service (CRS), the research office of Congress, says the 2025 budget law (P.L. 119-21) provides $6.17 billion for inspection and surveillance technology. Sources: "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TOWERS"
+   ],
+   "block_ids": [
+    "S2_B_TOWERS_LIM"
+   ],
+   "rationale": "Shown in full beside: Less trail and fence damage from faster detection."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_support_08_notes_html",
+   "argument_ids": [
+    "S2_UNN_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The April 2026 yearly funding law also covered “air and marine support; and the purchase or lease of various vehicles, vessels, aircraft, and unmanned aerial systems.” The 2024 fishing result came from a joint Coast Guard, CB"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FISHING"
+   ],
+   "block_ids": [
+    "S2_B_FISHING_LIM"
+   ],
+   "rationale": "Shown in full beside: More illegal fishing stopped."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_support_09_notes_html",
+   "argument_ids": [
+    "S2_UNN_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_support_09",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2010 oil-spill report describes the P-3 aircraft as a specialized surveillance and command aircraft. These sources do not identify a Section 103 plan to buy that kind of aircraft. Sources: [11] , [1] ."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_OILSPILL"
+   ],
+   "block_ids": [
+    "S2_B_OILSPILL_LIM"
+   ],
+   "rationale": "Shown in full beside: Added help coordinating oil-spill cleanup."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "S2_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Section 202's $31.075 billion is one shared pool of money. It has no separate line for flights. The Congressional Research Service (CRS) reports a plan to use money from the 2025 budget law to cover (offset) $350 million in t"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FLIGHTS"
+   ],
+   "block_ids": [
+    "S2_B_FLIGHTS_LIM"
+   ],
+   "rationale": "Shown in full beside: More removal flights and their pollution."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "S2_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The assessment of the Dilley detention center compares operating it with never building it. Operations at the Dilley detention center resumed in March 2025 under an agreement running to March 2030. These sources do not provid"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FACOPS"
+   ],
+   "block_ids": [
+    "S2_B_FACOPS_LIM"
+   ],
+   "rationale": "Shown in full beside: More detention-facility and vehicle operation."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_oppose_03_notes_html",
+   "argument_ids": [
+    "S2_UNN_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The assessment of the Dilley detention center says generators would run for long periods during power outages. Its comparison assumes no facility. Sources: [15] ."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FACAIR"
+   ],
+   "block_ids": [
+    "S2_B_FACAIR_EV"
+   ],
+   "rationale": "Shown in full beside: Air pollution from facilities and vehicles."
+  },
+  {
+   "id": "S2_QUAL_S2_UNN_oppose_07_notes_html",
+   "argument_ids": [
+    "S2_UNN_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNN_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: Section 103 states a 'rapid air and marine response' purpose and does not name drones. These sources contain no list of the aircraft and boats (platforms) to be bought. They also contain no record of how often surveillance ai"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRONES",
+    "S2_V_UNN_DEFENDERS"
+   ],
+   "block_ids": [
+    "S2_B_DRONES_LIM"
+   ],
+   "rationale": "Shown in full beside: More aerial surveillance of environmental defenders; Nature: people taking part in defending nature."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_support_05_notes_html",
+   "argument_ids": [
+    "S2_UNC_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The human rights center's 180-plus investigations cover mixed work, including removal and work with other agencies. Section 102 excludes the immigration-enforcement mission of Homeland Security Investigations (HSI). So the co"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_HUMANRIGHTS",
+    "S2_V_UNC_ABROAD"
+   ],
+   "block_ids": [
+    "S2_B_HUMRIGHTS_LIM"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal human-rights cases; Concern: justice for victims of atrocities abroad."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_support_07_notes_html",
+   "argument_ids": [
+    "S2_UNC_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The man in the argument's example was already in the custody of Immigration and Customs Enforcement (ICE) in January 2026. Section 202(9) sets aside at least $350 million for work in places that do not meet the bill's coopera"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_VIOLENT"
+   ],
+   "block_ids": [
+    "S2_B_VIOLENT_LIM"
+   ],
+   "rationale": "Shown in full beside: Less violence from people with violent convictions."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_support_11_notes_html",
+   "argument_ids": [
+    "S2_UNC_support_11"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_11",
+     "field": "notes_html",
+     "quote": "Evidence note: The April 2026 yearly funding law (P.L. 119-86) separately provided $20 million to buy, deploy and operate cameras. The Associated Press (AP) reported two accounts on July 10, seen here only in search extracts. The Department"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CAMERAS",
+    "S2_V_UNC_CAMERAS"
+   ],
+   "block_ids": [
+    "S2_B_CAMERAS_LIM"
+   ],
+   "rationale": "Shown in full beside: More recorded encounters for review; Concern: fair review of officers’ conduct."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_support_12_notes_html",
+   "argument_ids": [
+    "S2_UNC_support_12"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_support_12",
+     "field": "notes_html",
+     "quote": "Evidence note: A 2021 review by the inspector general (OIG), the internal auditor of the Department of Homeland Security, found that several things limit medical staffing: remote locations, competing job opportunities, difficulty offering c"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CUSTODYCARE"
+   ],
+   "block_ids": [
+    "S2_B_CUSTCARE_LIM"
+   ],
+   "rationale": "Shown in full beside: More medical care for people in custody."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_01_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_01",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_03_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_03",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_03_gap_0",
+   "argument_ids": [
+    "S2_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_03",
+     "field": "gaps[0].explanation",
+     "quote": "The inspection evidence comes from one facility, Camp East Montana. This bears on how many people are affected."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_LAWYERS"
+   ],
+   "block_ids": [
+    "S2_B_LAWYERS_LIM"
+   ],
+   "rationale": "Shown in full beside: Removal without a fair chance to reach a lawyer."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_04_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2025 law provided ICE $45 billion for detention capacity and $29.85 billion for other functions, available in fiscal years 2025 through 2029. These sources do not estimate detention with S.2 compared with detention withou"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_LEVERAGE"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_LEVERAGE_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Less yearly leverage over conditions and conduct."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_05_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: Staff for the minority party on the Senate Budget Committee said ICE still had $62 billion from the 2025 budget law that was not yet committed to spending (unobligated) at the end of May 2026. These sources do not estimate ar"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_SEPARATION"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_SEPARATION_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; More children separated from parents."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_06_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_06",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_07_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_07",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_08_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_08",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_09_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_09",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SURVEIL"
+   ],
+   "block_ids": [
+    "S2_B_SESCTX_LIM"
+   ],
+   "rationale": "Shown in full beside: More broad collection of information about people."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_10_notes_html",
+   "argument_ids": [
+    "S2_UNC_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_10",
+     "field": "notes_html",
+     "quote": "Context note: S.2 is compared with the law in force, and that law already paid for expansion. This includes $29.85 billion in the 2025 budget law for staff, 287(g) agreements (which let local police do some immigration work) and other funct"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_UNC_oppose_10_gap_0",
+   "argument_ids": [
+    "S2_UNC_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNC_oppose_10",
+     "field": "gaps[0].explanation",
+     "quote": "The Minnesota figure covers one operation between December 2025 and April 2026, and CBS later reported that the operation was being wound down (gradually ended). This bears on how much harm S.2 would add."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_JOBLOSS"
+   ],
+   "block_ids": [
+    "S2_B_JOBLOSS_LIM"
+   ],
+   "rationale": "Shown in full beside: Other workers lose jobs and earnings."
+  },
+  {
+   "id": "S2_QUAL_S2_UNT_support_01_notes_html",
+   "argument_ids": [
+    "S2_UNT_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The earlier money for human-rights work was set aside by law for that work (“not less than $5,300,000”). So it is a weaker example of what general money would do. Sources: [2] ."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_PERSECUTORS"
+   ],
+   "block_ids": [
+    "S2_B_PERSEC_LIM"
+   ],
+   "rationale": "Shown in full beside: More immigration cases against persecutors."
+  },
+  {
+   "id": "S2_QUAL_S2_UNT_oppose_07_notes_html",
+   "argument_ids": [
+    "S2_UNT_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_UNT_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The reported barriers to worship include a detention warden's decision and complaints. These do not mention funding. The 2025 budget law funded detention through fiscal year 2029. Sources: [25] , [26] , [27] ."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_WORSHIPBARRIERS"
+   ],
+   "block_ids": [
+    "S2_B_WORSHIP_LIM"
+   ],
+   "rationale": "Shown in full beside: More people held where minority worship is blocked."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_05_notes_html",
+   "argument_ids": [
+    "S2_SEP_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The Government Accountability Office (GAO), a federal audit agency, said in 2016 that trafficking is hard to distinguish from other crimes and that victims may be unwilling to testify. Victims are referred to services after t"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_TRAFF_FREED"
+   ],
+   "block_ids": [
+    "S2_B_SEPTRAFF_LIM"
+   ],
+   "rationale": "Shown in full beside: More trafficking victims found and brought to safety."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_06_notes_html",
+   "argument_ids": [
+    "S2_SEP_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_06",
+     "field": "notes_html",
+     "quote": "Evidence note: Section 203's $2.5 billion may go to a list of uses already paid for by the 2025 budget law. The MS-13 gang case cited here closed in July 2024. These sources do not show any S.2 money assigned to local gang prevention. Sourc"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSI_GANGS",
+    "S2_K_LOCALGANGS"
+   ],
+   "block_ids": [
+    "S2_B_GANGS_LIM",
+    "S2_B_LOCALGANGS_LIM"
+   ],
+   "rationale": "Shown in full beside: Added HSI time against violent gangs; Local partners’ work against violent gangs."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_07_notes_html",
+   "argument_ids": [
+    "S2_SEP_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_07",
+     "field": "notes_html",
+     "quote": "Evidence note: A June 9 congressional press release says Customs and Border Protection (CBP) had reported a full year of zero releases at the border. This press release concerns screening before release more directly than screening when age"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SCREENING"
+   ],
+   "block_ids": [
+    "S2_B_SCREEN_CH",
+    "S2_B_SCREEN_LIM"
+   ],
+   "rationale": "Shown in full beside: More screening for security threats."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_08_notes_html",
+   "argument_ids": [
+    "S2_SEP_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_08",
+     "field": "notes_html",
+     "quote": "Evidence limitation: A May account from Customs and Border Protection (CBP) gives the Border Patrol a supporting role under Title 42, a public health law. The June order from the Centers for Disease Control and Prevention (CDC) asks the Dep"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HEALTHORDERS"
+   ],
+   "block_ids": [
+    "S2_B_HEALTHORD_LIM"
+   ],
+   "rationale": "Shown in full beside: Border health orders supported."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_08_gap_0",
+   "argument_ids": [
+    "S2_SEP_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_08",
+     "field": "gaps[0].explanation",
+     "quote": "Section 101 excludes immigration and customs functions. The sources do not settle whether Border Patrol help with public health orders qualifies."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HEALTHORDERS"
+   ],
+   "block_ids": [
+    "S2_B_HEALTHORD_LIM"
+   ],
+   "rationale": "Shown in full beside: Border health orders supported."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_support_09_notes_html",
+   "argument_ids": [
+    "S2_SEP_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_support_09",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2025 budget law provided $6.168 billion for a list of uses. The list includes the same purpose of buying aircraft and boats (platforms). The cited rescues date from 2023. These sources do not identify any added use of air"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RESCUES"
+   ],
+   "block_ids": [
+    "S2_B_RESCUE_LIM"
+   ],
+   "rationale": "Shown in full beside: More rescues and emergency help for people in danger."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_oppose_02_notes_html",
+   "argument_ids": [
+    "S2_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2025 budget law provided $45 billion for detention capacity. KFF, a health research group, attributes the risk in custody to failures in following rules, health care, staffing and oversight. These sources do not estimate "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CITIZENCARE"
+   ],
+   "block_ids": [
+    "S2_B_CITCARE_LIM"
+   ],
+   "rationale": "Shown in full beside: U.S. citizens held without needed care."
+  },
+  {
+   "id": "S2_QUAL_S2_SEP_oppose_05_notes_html",
+   "argument_ids": [
+    "S2_SEP_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SEP_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: KFF, a health research group, found that health-care employment rose about 1% from January 2025 to April 2026. In health care, noncitizen workers went up (961,000 to 1.2 million) and naturalized citizens went down (2.5 to 2.3"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CARESUPPLY"
+   ],
+   "block_ids": [
+    "S2_B_CARESUP_LIM"
+   ],
+   "rationale": "Shown in full beside: Less care available at home, in nursing homes and hospitals."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_support_01_notes_html",
+   "argument_ids": [
+    "S2_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Money already in law: The 2025 budget law (P.L. 119-21) pays for hiring, training, retention and bonuses at Customs and Border Protection (CBP), and for operations at Immigration and Customs Enforcement (ICE), through fiscal "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_READY"
+   ],
+   "block_ids": [
+    "S2_B_READY_LIM"
+   ],
+   "rationale": "Shown in full beside: A steadier, ready security workforce."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_support_02_notes_html",
+   "argument_ids": [
+    "S2_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Government Accountability Office (GAO), a federal audit agency, found in February 2026 a shortage of the specialists who monitor surveillance on the northern border, with no plan to address it. The 2025 budget law provide"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BORDERDETECT"
+   ],
+   "block_ids": [
+    "S2_B_BORDER_LIM"
+   ],
+   "rationale": "Shown in full beside: More detection of crossings and smuggling at the borders."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_support_03_gap_0",
+   "argument_ids": [
+    "S2_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_03",
+     "field": "gaps[0].explanation",
+     "quote": "The July 2025 budget law also funded the biometric system, which identifies people by the body, such as a face or fingerprint. A final rule effective December 26, 2025 widened authority to collect face images. These facts were already in pl"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BIOMETRIC"
+   ],
+   "block_ids": [
+    "S2_B_BIOM_LIM"
+   ],
+   "rationale": "Shown in full beside: Wider or better identity and departure checks."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_support_08_notes_html",
+   "argument_ids": [
+    "S2_SES_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The money set aside by law ($108.5 million in Section 102) funds additional child-exploitation positions. The total number of staff on this work could also depend on whether existing child-exploitation staff paid from other f"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CHILDRESCUE"
+   ],
+   "block_ids": [
+    "S2_B_CHILD_LIM"
+   ],
+   "rationale": "Shown in full beside: More abused children identified and rescued."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_support_14_notes_html",
+   "argument_ids": [
+    "S2_SES_support_14"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_support_14",
+     "field": "notes_html",
+     "quote": "Evidence note: The Government Accountability Office (GAO), a federal audit agency, reported in 2024 a global shortage of pilots and salaries that cannot compete. It also said that authority to hire people directly has helped. The 2025 budge"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RESCUES"
+   ],
+   "block_ids": [
+    "S2_B_PILOTS_LIM"
+   ],
+   "rationale": "Shown in full beside: More rescues and emergency help for people in danger."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_01_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Money already in law: The Congressional Research Service (CRS) says the 2025 money for detention and enforcement is available in fiscal years 2025 through 2029. Sources: [5] . Context note: The 2025 budget law provided Immigr"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_LEVERAGE"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_LEVERAGE_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Less yearly leverage over conditions and conduct."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_03_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The study of crime victims measured when programs started. It says the intensity of enforcement is a further question. The study on reporting crime covers fingerprint sharing under Secure Communities. The 2025 budget law alre"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_REPORTING"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_REPORT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Less crime reporting and police protection."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_04_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_04",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_05_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_05",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_06_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_06",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SURVEIL"
+   ],
+   "block_ids": [
+    "S2_B_SESCTX_LIM"
+   ],
+   "rationale": "Shown in full beside: More broad collection of information about people."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_07_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_07",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_08_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_08",
+     "field": "notes_html",
+     "quote": "Evidence note: The figure for the size of the economy (GDP) comes from a scenario with 1.3 million deportations. It is not an estimate for S.2. The medical worker's detention predates the bill. A plan also uses money from the 2025 budget la"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_ECONSHRINK",
+    "S2_K_ESSENTIALWORK"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_ESSENTIAL_LIM",
+    "S2_B_ECON_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; A smaller national economy and public finances; Weaker essential services as workers are removed."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_09_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_09",
+     "field": "notes_html",
+     "quote": "Evidence note: The Dallas figures are vaccination counts from county clinics (16,412 in 2024; 9,578 in the most recent August). The link to enforcement is the view of the county public health director. The figures from Minneapolis and St. P"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CAREAVOID"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_VACCINE_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Fear keeps people from care and delays finding infections."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_10_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_10",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SESCTX_LIM"
+   ],
+   "rationale": "Shown in full beside: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_10_gap_0",
+   "argument_ids": [
+    "S2_SES_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_10",
+     "field": "gaps[0].explanation",
+     "quote": "The lawsuit by the city of Social Circle says the warehouse effort relies on money Congress provided in July 2025. This was already in place before S.2, so it matters when comparing how much S.2 adds."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_LIM"
+   ],
+   "rationale": "Shown in full beside: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_11_notes_html",
+   "argument_ids": [
+    "S2_SES_oppose_11"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_11",
+     "field": "notes_html",
+     "quote": "Context note: The 2025 budget law provided Immigration and Customs Enforcement (ICE) with $45 billion for detention and $29.85 billion for other functions. A June 9 analysis reports plans to use that money to cover (offset) $416 million in "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_S2DEBT"
+   ],
+   "block_ids": [
+    "S2_B_SESCTX_LIM"
+   ],
+   "rationale": "Shown in full beside: Added debt pressure on defense and emergencies."
+  },
+  {
+   "id": "S2_QUAL_S2_SES_oppose_11_gap_0",
+   "argument_ids": [
+    "S2_SES_oppose_11"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_SES_oppose_11",
+     "field": "gaps[0].explanation",
+     "quote": "The estimate from the American Action Forum is a ten-year cost. The warning from the Congressional Budget Office (CBO) is general and conditional. CBO says it has not reviewed S.2 for effects on spending that Congress decides each year (spe"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_S2DEBT"
+   ],
+   "block_ids": [
+    "S2_B_S2DEBT_LIM"
+   ],
+   "rationale": "Shown in full beside: Added debt pressure on defense and emergencies."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_01_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The director of Immigration and Customs Enforcement (ICE) said the 2025 budget law provided $15.4 billion for removals. Section 202 does not separate removals that would continue anyway from added removals. These sources do n"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_V_TR_FAMILY"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM",
+    "S2_B_TRSEP_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Tradition: family unity and parents passing on faith."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_02_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_02",
+     "field": "notes_html",
+     "quote": "Context note: The director of Immigration and Customs Enforcement (ICE) described about 11,000 new hires under the 2025 budget law. Staff for the minority party on the Senate Budget Committee report that $62 billion of ICE's money from that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_03_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_03",
+     "field": "notes_html",
+     "quote": "Context note: The director of Immigration and Customs Enforcement (ICE) described about 11,000 new hires under the 2025 budget law. Staff for the minority party on the Senate Budget Committee report that $62 billion of ICE's money from that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_04_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_04",
+     "field": "notes_html",
+     "quote": "Context note: The director of Immigration and Customs Enforcement (ICE) described about 11,000 new hires under the 2025 budget law. Staff for the minority party on the Senate Budget Committee report that $62 billion of ICE's money from that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_05_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_05",
+     "field": "notes_html",
+     "quote": "Context note: The director of Immigration and Customs Enforcement (ICE) described about 11,000 new hires under the 2025 budget law. Staff for the minority party on the Senate Budget Committee report that $62 billion of ICE's money from that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_TR_oppose_07_notes_html",
+   "argument_ids": [
+    "S2_TR_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_TR_oppose_07",
+     "field": "notes_html",
+     "quote": "Context note: The director of Immigration and Customs Enforcement (ICE) described about 11,000 new hires under the 2025 budget law. Staff for the minority party on the Senate Budget Committee report that $62 billion of ICE's money from that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF"
+   ],
+   "block_ids": [
+    "S2_B_ADDENF_LIM"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force."
+  },
+  {
+   "id": "S2_QUAL_S2_C01_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_05",
+    "S2_SES_support_07",
+    "S2_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C01",
+     "field": "scope_html",
+     "quote": "This question concerns only human trafficking investigations and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is whether added staff time or support reaches this"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C02_scope_html",
+   "argument_ids": [
+    "S2_UNN_support_01",
+    "S2_UNN_support_03",
+    "S2_UNN_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C02",
+     "field": "scope_html",
+     "quote": "This reports past agency accounts of wild areas near the border. It does not say whether S.2's added patrols would reduce traffic overall or only move it. That step belongs to each argument that uses this claim. The Forest Service said that"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_PATROLWILD"
+   ],
+   "block_ids": [
+    "S2_B_PATROL_CH",
+    "S2_B_PATROL_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Fewer crossings through some wild areas."
+  },
+  {
+   "id": "S2_QUAL_S2_C03_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_01",
+    "S2_SES_support_04",
+    "S2_TR_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C03",
+     "field": "scope_html",
+     "quote": "This concerns inspection equipment. It does not ask whether scanning reduces drug use; that is a separate question."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SCANNERS"
+   ],
+   "block_ids": [
+    "S2_B_SCANNERS_SCOPE"
+   ],
+   "rationale": "Shown in full beside: New drug scanners add usable inspections."
+  },
+  {
+   "id": "S2_QUAL_S2_C04_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_01",
+    "S2_SES_support_04",
+    "S2_TR_support_06",
+    "S2_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C04",
+     "field": "scope_html",
+     "quote": "This asks about drugs reaching people overall. Seized drugs themselves stay off the street, and nobody disputes that. It does not ask how large the drop would be."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY"
+   ],
+   "block_ids": [
+    "S2_B_DRUGS_EV",
+    "S2_B_DRUGS_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Seized drugs lower the supply that reaches people."
+  },
+  {
+   "id": "S2_QUAL_S2_C05_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_03",
+    "S2_SES_support_05",
+    "S2_UNC_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C05",
+     "field": "scope_html",
+     "quote": "This covers people with violent convictions. The bill’s money also reaches people without violent convictions. This question asks only whether some violence is prevented."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_VIOLENT"
+   ],
+   "block_ids": [
+    "S2_B_VIOLENT_LIM"
+   ],
+   "rationale": "Shown in full beside: Less violence from people with violent convictions."
+  },
+  {
+   "id": "S2_QUAL_S2_C06_scope_html",
+   "argument_ids": [
+    "S2_UNC_oppose_02",
+    "S2_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C06",
+     "field": "scope_html",
+     "quote": "This question concerns only stops based on perceived race, ethnicity or national origin. A Yes or No here does not settle whether other earlier practices continue."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RACESTOPS"
+   ],
+   "block_ids": [
+    "S2_B_TACTIC_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Race-based stops continue."
+  },
+  {
+   "id": "S2_QUAL_S2_C07_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_04",
+    "S2_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C07",
+     "field": "scope_html",
+     "quote": "This asks whether more enforcement gives some more opportunity. It does not ask how many crimes. The rules on masks and identification are not changed by S.2."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_IMPOSTERS"
+   ],
+   "block_ids": [
+    "S2_B_IMPOST_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More cover for criminals posing as agents."
+  },
+  {
+   "id": "S2_QUAL_S2_C08_scope_html",
+   "argument_ids": [
+    "S2_SES_oppose_06",
+    "S2_UNC_oppose_09",
+    "S2_UNT_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C08",
+     "field": "scope_html",
+     "quote": "This reports a forecast about collecting information. It does not establish that S.2's money would add to broad collection. That step belongs to each argument that uses this claim. Whether officials then use it to frighten critics is a late"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CRITICS",
+    "S2_K_SURVEIL"
+   ],
+   "block_ids": [
+    "S2_B_SURVEIL_CH",
+    "S2_B_CRITICS_CH"
+   ],
+   "rationale": "Shown in full beside: Surveillance used to intimidate critics and observers; More broad collection of information about people."
+  },
+  {
+   "id": "S2_QUAL_S2_C09_scope_html",
+   "argument_ids": [
+    "S2_SES_oppose_10",
+    "S2_UNN_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C09",
+     "field": "scope_html",
+     "quote": "This concerns particular planned sites, such as Social Circle, Georgia, and Williamsport, Maryland. It does not concern every detention center."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_SEWER"
+   ],
+   "block_ids": [
+    "S2_B_SEWER_LIM"
+   ],
+   "rationale": "Shown in full beside: Planned detention centers beyond sewer capacity."
+  },
+  {
+   "id": "S2_QUAL_S2_C10_scope_html",
+   "argument_ids": [
+    "S2_TR_oppose_01",
+    "S2_UNC_oppose_05",
+    "S2_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C10",
+     "field": "scope_html",
+     "quote": "The sources describe past separations and risks. They do not estimate how many separations S.2 would add."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_NEIGHBORS",
+    "S2_K_SEPARATION"
+   ],
+   "block_ids": [
+    "S2_B_SEPARATION_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Established neighbors removed from community life; More children separated from parents."
+  },
+  {
+   "id": "S2_QUAL_S2_C11_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_02",
+    "S2_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C11",
+     "field": "scope_html",
+     "quote": "This is one organization’s finding about Florida in 2025. It is not a finding about every detention center."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HARMCOND"
+   ],
+   "block_ids": [
+    "S2_B_HARMCOND_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More people held in dangerous conditions."
+  },
+  {
+   "id": "S2_QUAL_S2_C12_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_06",
+    "S2_SES_oppose_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C12",
+     "field": "scope_html",
+     "quote": "Most of this evidence is what people reported about themselves. It does not measure how many fewer people would be vaccinated overall, and it does not estimate an effect of S.2."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CAREAVOID"
+   ],
+   "block_ids": [
+    "S2_B_CAREAVOID_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Fear keeps people from care and delays finding infections."
+  },
+  {
+   "id": "S2_QUAL_S2_C13_scope_html",
+   "argument_ids": [
+    "S2_SES_oppose_08",
+    "S2_UNC_oppose_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C13",
+     "field": "scope_html",
+     "quote": "This is a general link from one research organization. The wording is conditional. It is not an estimate for S.2."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ECONSHRINK",
+    "S2_K_JOBLOSS"
+   ],
+   "block_ids": [
+    "S2_B_JOBLOSS_LIM",
+    "S2_B_ECON_LIM"
+   ],
+   "rationale": "Shown in full beside: A smaller national economy and public finances; Other workers lose jobs and earnings."
+  },
+  {
+   "id": "S2_QUAL_S2_C14_scope_html",
+   "argument_ids": [
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C14",
+     "field": "scope_html",
+     "quote": "This describes how the money works. Other multi-year money from the 2025 law is a separate fact about size."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_LEVERAGE"
+   ],
+   "block_ids": [
+    "S2_B_MULTIYEAR_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Less yearly leverage over conditions and conduct."
+  },
+  {
+   "id": "S2_QUAL_S2_C16_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_09",
+    "S2_SES_support_14",
+    "S2_UNC_support_10"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C16",
+     "field": "scope_html",
+     "quote": "These are past examples. The sources do not show how many rescues S.2’s new aircraft and boats would add."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RESCUES"
+   ],
+   "block_ids": [
+    "S2_B_RESCUE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More rescues and emergency help for people in danger."
+  },
+  {
+   "id": "S2_QUAL_S2_C17_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_03",
+    "S2_SEP_support_04",
+    "S2_SES_oppose_03",
+    "S2_SES_support_05",
+    "S2_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C17",
+     "field": "scope_html",
+     "quote": "Which model grows with S.2 money is not fixed by the bill. A source reports that the task force model is now the most common."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_287G",
+    "S2_K_ADDENF",
+    "S2_K_JAILTRANSFER",
+    "S2_K_REPORTING"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More withdrawal from police contact and community life; Added immigration enforcement beyond the law in force; Arrests moved from public places to jails; Less crime reporting and police protection."
+  },
+  {
+   "id": "S2_QUAL_S2_C18_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_02",
+    "S2_SEP_support_05",
+    "S2_SEP_support_06",
+    "S2_SES_support_06",
+    "S2_SES_support_07",
+    "S2_SES_support_09",
+    "S2_SES_support_10",
+    "S2_SES_support_11",
+    "S2_SES_support_12",
+    "S2_SES_support_13",
+    "S2_UNC_support_02",
+    "S2_UNC_support_03",
+    "S2_UNC_support_04",
+    "S2_UNC_support_05",
+    "S2_UNC_support_08",
+    "S2_UNC_support_09",
+    "S2_UNT_support_01",
+    "S2_UNT_support_02",
+    "S2_UNT_support_03",
+    "S2_UNT_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C18",
+     "field": "scope_html",
+     "quote": "The limit applies to money “provided in this section.” It does not apply to other sections."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSI_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C19_scope_html",
+   "argument_ids": [
+    "S2_SES_support_08",
+    "S2_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C19",
+     "field": "scope_html",
+     "quote": "This amount is part of the $7.45 billion in Section 102."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_CHILDRESCUE"
+   ],
+   "block_ids": [
+    "S2_B_HSI_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More abused children identified and rescued."
+  },
+  {
+   "id": "S2_QUAL_S2_C20_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_08",
+    "S2_SES_support_01",
+    "S2_UNC_support_10",
+    "S2_UNN_support_05",
+    "S2_UNN_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C20",
+     "field": "scope_html",
+     "quote": "This money cannot pay for immigration enforcement or customs functions."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BURNS",
+    "S2_K_FIREWARN",
+    "S2_K_HEALTHORDERS",
+    "S2_K_READY",
+    "S2_K_RESCUES"
+   ],
+   "block_ids": [
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Planned burns made easier; Earlier fire warnings and calls for help; Border health orders supported; A steadier, ready security workforce; More rescues and emergency help for people in danger."
+  },
+  {
+   "id": "S2_QUAL_S2_C21_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_09",
+    "S2_SES_support_02",
+    "S2_SES_support_14",
+    "S2_UNC_support_10",
+    "S2_UNN_oppose_07",
+    "S2_UNN_support_08",
+    "S2_UNN_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C21",
+     "field": "scope_html",
+     "quote": "“Platforms” is a general word. The bill does not list which aircraft or boats."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BORDERDETECT",
+    "S2_K_BORDERRESPONSE",
+    "S2_K_DRONES",
+    "S2_K_FISHING",
+    "S2_K_OILSPILL",
+    "S2_K_RESCUES"
+   ],
+   "block_ids": [
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More detection of crossings and smuggling at the borders; Faster, safer response at land and sea borders; More aerial surveillance of environmental defenders; More illegal fishing stopped; Added help coordinating oil-spill cleanup; More rescues and emergency help for people in danger."
+  },
+  {
+   "id": "S2_QUAL_S2_C22_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_01",
+    "S2_SES_support_04",
+    "S2_TR_support_06",
+    "S2_UNC_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C22",
+     "field": "scope_html",
+     "quote": "“Precursor chemicals” are the chemicals used to make a drug."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_DRUGSUPPLY",
+    "S2_K_SCANNERS"
+   ],
+   "block_ids": [
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Seized drugs lower the supply that reaches people; New drug scanners add usable inspections."
+  },
+  {
+   "id": "S2_QUAL_S2_C23_scope_html",
+   "argument_ids": [
+    "S2_SEP_support_07",
+    "S2_UNN_oppose_05",
+    "S2_UNN_oppose_06",
+    "S2_UNN_support_01",
+    "S2_UNN_support_03",
+    "S2_UNN_support_04",
+    "S2_UNN_support_06",
+    "S2_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C23",
+     "field": "scope_html",
+     "quote": "This money is for immigration enforcement activities."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_FORESTCREWS",
+    "S2_K_LANDOFFICERS",
+    "S2_K_OFFROAD",
+    "S2_K_PATROLWILD",
+    "S2_K_SCREENING"
+   ],
+   "block_ids": [
+    "S2_B_CBPIMM_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Forest work left without crews; Land officers’ time kept for conservation; More damaging off-road patrol driving; Fewer crossings through some wild areas; More screening for security threats."
+  },
+  {
+   "id": "S2_QUAL_S2_C24_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_01",
+    "S2_SEP_support_03",
+    "S2_SES_oppose_05",
+    "S2_SES_support_05",
+    "S2_UNC_oppose_02",
+    "S2_UNC_oppose_05",
+    "S2_UNC_support_07",
+    "S2_UNN_oppose_06",
+    "S2_UNT_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C24",
+     "field": "scope_html",
+     "quote": "Section 202 gives ICE $31.075 billion in total for this and the other uses listed in the section. The bill does not say how much goes to each use, except a minimum of $350 million in paragraph (9)."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_FORESTCREWS"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Forest work left without crews."
+  },
+  {
+   "id": "S2_QUAL_S2_C25_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_05",
+    "S2_SEP_support_03",
+    "S2_SES_oppose_08",
+    "S2_SES_support_05",
+    "S2_TR_oppose_01",
+    "S2_TR_oppose_03",
+    "S2_TR_oppose_07",
+    "S2_UNC_oppose_10",
+    "S2_UNC_support_07",
+    "S2_UNN_oppose_01",
+    "S2_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C25",
+     "field": "scope_html",
+     "quote": "“Alien” is the law’s word for a person who is not a U.S. citizen. “Removal” means deportation. The bill does not choose where people are sent."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_FLIGHTS",
+    "S2_K_UNSAFERETURNS",
+    "S2_V_UNT_NEIGHBORS"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; More removal flights and their pollution; More Christians returned to religious persecution; Tolerance: accepting established neighbors."
+  },
+  {
+   "id": "S2_QUAL_S2_C26_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_02",
+    "S2_SEP_oppose_07",
+    "S2_SES_oppose_10",
+    "S2_TR_oppose_05",
+    "S2_UNC_oppose_01",
+    "S2_UNC_oppose_04",
+    "S2_UNC_oppose_07",
+    "S2_UNC_support_12",
+    "S2_UNN_oppose_02",
+    "S2_UNN_oppose_03",
+    "S2_UNN_oppose_04",
+    "S2_UNT_oppose_05",
+    "S2_UNT_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C26",
+     "field": "scope_html",
+     "quote": "The bill does not name particular detention centers."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_K_CLERGYACCESS",
+    "S2_K_CUSTODYCARE",
+    "S2_K_FACOPS",
+    "S2_K_SEWER",
+    "S2_V_UNC_FREEDOM"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; More Christians held where clergy cannot visit; More medical care for people in custody; More detention-facility and vehicle operation; Planned detention centers beyond sewer capacity; Concern: freedom taken from people who pose no threat."
+  },
+  {
+   "id": "S2_QUAL_S2_C27_scope_html",
+   "argument_ids": [
+    "S2_UNC_oppose_01",
+    "S2_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C27",
+     "field": "scope_html",
+     "quote": "The limit covers only money from this paragraph. It keeps the exception “as required by existing law.” It does not end legal rights to release and does not stop other money from paying for release."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_V_UNC_FREEDOM",
+    "S2_V_UNT_NEIGHBORS"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Concern: freedom taken from people who pose no threat; Tolerance: accepting established neighbors."
+  },
+  {
+   "id": "S2_QUAL_S2_C28_scope_html",
+   "argument_ids": [
+    "S2_UNC_oppose_03",
+    "S2_UNT_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C28",
+     "field": "scope_html",
+     "quote": "These lawyers represent the government, not immigrants."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_ADDENF",
+    "S2_V_UNT_HEARING"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added immigration enforcement beyond the law in force; Tolerance: hearing people facing deportation."
+  },
+  {
+   "id": "S2_QUAL_S2_C29_scope_html",
+   "argument_ids": [
+    "S2_SES_support_02",
+    "S2_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C29",
+     "field": "scope_html",
+     "quote": "“Autonomous” means the system can detect and track things without constant human control."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_BORDERDETECT",
+    "S2_K_BORDERRESPONSE",
+    "S2_K_TOWERS"
+   ],
+   "block_ids": [
+    "S2_B_CBP_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More detection of crossings and smuggling at the borders; Faster, safer response at land and sea borders; Less trail and fence damage from faster detection."
+  },
+  {
+   "id": "S2_QUAL_S2_C30_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_03",
+    "S2_SEP_support_04",
+    "S2_SES_oppose_03",
+    "S2_SES_support_05",
+    "S2_UNC_oppose_02",
+    "S2_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C30",
+     "field": "scope_html",
+     "quote": "The bill text does not choose among the kinds of agreement."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_287G",
+    "S2_K_ADDENF",
+    "S2_K_JAILTRANSFER",
+    "S2_K_REPORTING"
+   ],
+   "block_ids": [
+    "S2_B_ICE_SCOPE"
+   ],
+   "rationale": "Shown in full beside: More withdrawal from police contact and community life; Added immigration enforcement beyond the law in force; Arrests moved from public places to jails; Less crime reporting and police protection."
+  },
+  {
+   "id": "S2_QUAL_S2_C31_scope_html",
+   "argument_ids": [
+    "S2_SES_support_06",
+    "S2_UNC_support_08"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C31",
+     "field": "scope_html",
+     "quote": "This question concerns only terrorism investigations and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is whether added staff time or support reaches this work. H"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C32_scope_html",
+   "argument_ids": [
+    "S2_SES_support_10",
+    "S2_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C32",
+     "field": "scope_html",
+     "quote": "This question concerns only financial scam investigations and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is whether added staff time or support reaches this wo"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C33_scope_html",
+   "argument_ids": [
+    "S2_SES_support_11",
+    "S2_UNC_support_09"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C33",
+     "field": "scope_html",
+     "quote": "This question concerns only cybercrime investigations protecting critical services and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is whether added staff time o"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C34_scope_html",
+   "argument_ids": [
+    "S2_UNC_support_05",
+    "S2_UNT_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C34",
+     "field": "scope_html",
+     "quote": "This question concerns only criminal human-rights investigations and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is whether added staff time or support reaches "
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C35_scope_html",
+   "argument_ids": [
+    "S2_UNT_support_03",
+    "S2_UNT_support_04",
+    "S2_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C35",
+     "field": "scope_html",
+     "quote": "This question concerns only services helping victims in HSI cases explain their accounts and obtain support and the general money in Section 102. It does not include the $108.5 million reserved for child exploitation work. The question is w"
+    }
+   ],
+   "decision_ids": [
+    "S2_K_HSITIME"
+   ],
+   "block_ids": [
+    "S2_B_HSITIME_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Added HSI time for criminal investigations."
+  },
+  {
+   "id": "S2_QUAL_S2_C36_scope_html",
+   "argument_ids": [
+    "S2_SEP_oppose_01",
+    "S2_SES_oppose_01",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C36",
+     "field": "scope_html",
+     "quote": "This question concerns only excessive force in public operations. A Yes or No here does not settle whether other earlier practices continue."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_FORCE"
+   ],
+   "block_ids": [
+    "S2_B_TACTIC_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Excessive force in public operations continues."
+  },
+  {
+   "id": "S2_QUAL_S2_C37_scope_html",
+   "argument_ids": [
+    "S2_SES_oppose_07",
+    "S2_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "S2_C37",
+     "field": "scope_html",
+     "quote": "This question concerns only large, visible raids or sweeps. A Yes or No here does not settle whether other earlier practices continue."
+    }
+   ],
+   "decision_ids": [
+    "S2_K_RAIDS"
+   ],
+   "block_ids": [
+    "S2_B_TACTIC_SCOPE"
+   ],
+   "rationale": "Shown in full beside: Large, visible raids and sweeps continue."
+  }
+ ]
+}

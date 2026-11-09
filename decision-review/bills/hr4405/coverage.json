@@ -1,0 +1,1986 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "HR4405_UNN_support_01",
+   "decision_ids": [
+    "HR4405_V_UNN_HABITAT"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_01_E4"
+   ],
+   "rationale": "Value link HR4405_V_UNN_HABITAT (routes: HR4405_K_HABITAT)."
+  },
+  {
+   "id": "HR4405_UNN_support_02",
+   "decision_ids": [
+    "HR4405_V_UNN_TERRAMAR"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_02_RESP",
+    "HR4405_B_UNN_support_02_G0",
+    "HR4405_B_UNN_support_02_G1"
+   ],
+   "rationale": "Value link HR4405_V_UNN_TERRAMAR (routes: HR4405_K_TERRAMAR)."
+  },
+  {
+   "id": "HR4405_UNN_support_03",
+   "decision_ids": [
+    "HR4405_V_UNN_CLIMATE"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_03_E45"
+   ],
+   "rationale": "Value link HR4405_V_UNN_CLIMATE (routes: HR4405_K_CLIMATE)."
+  },
+  {
+   "id": "HR4405_UNN_oppose_01",
+   "decision_ids": [
+    "HR4405_V_UNN_ENFORCEMENT"
+   ],
+   "block_ids": [
+    "HR4405_B_ENFORCEMENT_PREMISE"
+   ],
+   "rationale": "Value link HR4405_V_UNN_ENFORCEMENT (routes: HR4405_K_STAFF_ENV OR HR4405_K_CHILL_ENV). Two arguments make the same Nature judgment about weaker environmental enforcement; staff time and source tips remain separate causal routes."
+  },
+  {
+   "id": "HR4405_UNN_oppose_02",
+   "decision_ids": [
+    "HR4405_V_UNN_ENFORCEMENT"
+   ],
+   "block_ids": [
+    "HR4405_B_ENFORCEMENT_PREMISE"
+   ],
+   "rationale": "Value link HR4405_V_UNN_ENFORCEMENT (routes: HR4405_K_STAFF_ENV OR HR4405_K_CHILL_ENV). Two arguments make the same Nature judgment about weaker environmental enforcement; staff time and source tips remain separate causal routes."
+  },
+  {
+   "id": "HR4405_UNN_oppose_03",
+   "decision_ids": [
+    "HR4405_V_UNN_DONORS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_oppose_03_E3"
+   ],
+   "rationale": "Value link HR4405_V_UNN_DONORS (routes: HR4405_K_DONORS)."
+  },
+  {
+   "id": "HR4405_UNC_support_01",
+   "decision_ids": [
+    "HR4405_V_UNC_ACCOUNTABILITY"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_01_E1"
+   ],
+   "rationale": "Value link HR4405_V_UNC_ACCOUNTABILITY (routes: HR4405_K_OUTSIDE)."
+  },
+  {
+   "id": "HR4405_UNC_support_02",
+   "decision_ids": [
+    "HR4405_V_UNC_CIVIL"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_02_E3"
+   ],
+   "rationale": "Value link HR4405_V_UNC_CIVIL (routes: HR4405_K_CIVIL)."
+  },
+  {
+   "id": "HR4405_UNC_support_03",
+   "decision_ids": [
+    "HR4405_V_UNC_PROTECTION"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_03_E1"
+   ],
+   "rationale": "Value link HR4405_V_UNC_PROTECTION (routes: HR4405_K_CHARGING OR HR4405_K_JAIL OR HR4405_K_POLICE). The argument has three independent routes (charging decisions, jail records, police lessons); any one is enough."
+  },
+  {
+   "id": "HR4405_UNC_support_04",
+   "decision_ids": [
+    "HR4405_V_UNC_SURVIVORS_HEARD"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_04_E4"
+   ],
+   "rationale": "Value link HR4405_V_UNC_SURVIVORS_HEARD (routes: HR4405_K_SURVIVOR_ACCESS)."
+  },
+  {
+   "id": "HR4405_UNC_support_05",
+   "decision_ids": [
+    "HR4405_V_UNC_FAIR_BLAME"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_05_E0"
+   ],
+   "rationale": "Value link HR4405_V_UNC_FAIR_BLAME (routes: HR4405_K_FACTCHECK)."
+  },
+  {
+   "id": "HR4405_UNC_oppose_01",
+   "decision_ids": [
+    "HR4405_V_UNC_SURVIVORS_EXPOSED"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_oppose_01_E0"
+   ],
+   "rationale": "Value link HR4405_V_UNC_SURVIVORS_EXPOSED (routes: HR4405_K_EXPOSE)."
+  },
+  {
+   "id": "HR4405_UNC_oppose_02",
+   "decision_ids": [
+    "HR4405_V_UNC_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_oppose_02_E0"
+   ],
+   "rationale": "Value link HR4405_V_UNC_SUSPICION (routes: HR4405_K_SUSPICION)."
+  },
+  {
+   "id": "HR4405_UNC_oppose_03",
+   "decision_ids": [
+    "HR4405_V_UNC_HELPERS",
+    "HR4405_V_UNC_INVESTIGATIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_oppose_03_E4"
+   ],
+   "rationale": "Value link HR4405_V_UNC_HELPERS, HR4405_V_UNC_INVESTIGATIONS (routes: HR4405_K_SOURCES; HR4405_K_CHILL OR HR4405_K_METHODS). UNC_oppose_03 is split: the injustice to existing helpers needs only the legal-risk claim; weaker protection for future victims also needs the claim about fewer future tips. The future-cooperation part of UNC_oppose_03 and UNC_oppose_04 make the same Concern judgment about harder detection of abuse; sources and methods remain separate causal routes."
+  },
+  {
+   "id": "HR4405_UNC_oppose_04",
+   "decision_ids": [
+    "HR4405_V_UNC_INVESTIGATIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_oppose_04_E3"
+   ],
+   "rationale": "Value link HR4405_V_UNC_INVESTIGATIONS (routes: HR4405_K_CHILL OR HR4405_K_METHODS). The future-cooperation part of UNC_oppose_03 and UNC_oppose_04 make the same Concern judgment about harder detection of abuse; sources and methods remain separate causal routes."
+  },
+  {
+   "id": "HR4405_UNT_support_03",
+   "decision_ids": [
+    "HR4405_V_UNT_FACTCHECK"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_support_03_E1"
+   ],
+   "rationale": "Value link HR4405_V_UNT_FACTCHECK (routes: HR4405_K_FACTCHECK)."
+  },
+  {
+   "id": "HR4405_UNT_oppose_01",
+   "decision_ids": [
+    "HR4405_V_UNT_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_01_RESP"
+   ],
+   "rationale": "Value link HR4405_V_UNT_SUSPICION (routes: HR4405_K_SUSPICION)."
+  },
+  {
+   "id": "HR4405_UNT_oppose_02",
+   "decision_ids": [
+    "HR4405_V_UNT_ANTISEMITISM"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_02_G0"
+   ],
+   "rationale": "Value link HR4405_V_UNT_ANTISEMITISM (routes: HR4405_K_ANTISEMITISM)."
+  },
+  {
+   "id": "HR4405_UNT_oppose_03",
+   "decision_ids": [
+    "HR4405_V_UNT_SURVIVORS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_03_E0"
+   ],
+   "rationale": "Value link HR4405_V_UNT_SURVIVORS (routes: HR4405_K_EXPOSE)."
+  },
+  {
+   "id": "HR4405_SEP_support_01",
+   "decision_ids": [
+    "HR4405_V_SEP_ABUSE"
+   ],
+   "block_ids": [
+    "HR4405_B_SEP_support_01_E56"
+   ],
+   "rationale": "Value link HR4405_V_SEP_ABUSE (routes: HR4405_K_STOP OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_POLICE). Four arguments make the same Personal Security judgment about stronger protection against sexual abuse; stopping offenders, bank checks, charging review and police lessons remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_support_02",
+   "decision_ids": [
+    "HR4405_V_SEP_ABUSE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_ABUSE (routes: HR4405_K_STOP OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_POLICE). Four arguments make the same Personal Security judgment about stronger protection against sexual abuse; stopping offenders, bank checks, charging review and police lessons remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_support_03",
+   "decision_ids": [
+    "HR4405_V_SEP_ABUSE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_ABUSE (routes: HR4405_K_STOP OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_POLICE). Four arguments make the same Personal Security judgment about stronger protection against sexual abuse; stopping offenders, bank checks, charging review and police lessons remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_support_04",
+   "decision_ids": [
+    "HR4405_V_SEP_ABUSE"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_ABUSE (routes: HR4405_K_STOP OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_POLICE). Four arguments make the same Personal Security judgment about stronger protection against sexual abuse; stopping offenders, bank checks, charging review and police lessons remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_support_05",
+   "decision_ids": [
+    "HR4405_V_SEP_CORRECTIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_SEP_BYSTANDERS"
+   ],
+   "rationale": "Value link HR4405_V_SEP_CORRECTIONS (routes: HR4405_K_CORRECTIONS)."
+  },
+  {
+   "id": "HR4405_SEP_oppose_01",
+   "decision_ids": [
+    "HR4405_V_SEP_POLICING"
+   ],
+   "block_ids": [
+    "HR4405_B_SEP_oppose_01_E6"
+   ],
+   "rationale": "Value link HR4405_V_SEP_POLICING (routes: HR4405_K_CHILL OR HR4405_K_VICTIM_REPORTING OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_STAFF). Four arguments make the same Personal Security judgment about weaker crime prevention; sources, victim reporting, undercover cover, methods and staff time remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_oppose_02",
+   "decision_ids": [
+    "HR4405_V_SEP_POLICING"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_POLICING (routes: HR4405_K_CHILL OR HR4405_K_VICTIM_REPORTING OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_STAFF). Four arguments make the same Personal Security judgment about weaker crime prevention; sources, victim reporting, undercover cover, methods and staff time remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_oppose_03",
+   "decision_ids": [
+    "HR4405_V_SEP_POLICING"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_POLICING (routes: HR4405_K_CHILL OR HR4405_K_VICTIM_REPORTING OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_STAFF). Four arguments make the same Personal Security judgment about weaker crime prevention; sources, victim reporting, undercover cover, methods and staff time remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SEP_oppose_04",
+   "decision_ids": [
+    "HR4405_V_SEP_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_SEP_oppose_04_RESP"
+   ],
+   "rationale": "Value link HR4405_V_SEP_VIOLENCE (routes: HR4405_K_VIOLENCE)."
+  },
+  {
+   "id": "HR4405_SEP_oppose_05",
+   "decision_ids": [
+    "HR4405_V_SEP_POLICING"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SEP_POLICING (routes: HR4405_K_CHILL OR HR4405_K_VICTIM_REPORTING OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_STAFF). Four arguments make the same Personal Security judgment about weaker crime prevention; sources, victim reporting, undercover cover, methods and staff time remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SES_support_01",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_FOR"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_FOR (routes: HR4405_K_POLICE OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_JAIL). Four arguments make the same Societal Security judgment about the state’s capacity to fight trafficking and enforce law; police lessons, bank checks, charging review and jail records remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SES_support_02",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_FOR"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_FOR (routes: HR4405_K_POLICE OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_JAIL). Four arguments make the same Societal Security judgment about the state’s capacity to fight trafficking and enforce law; police lessons, bank checks, charging review and jail records remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SES_support_03",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_FOR"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_FOR (routes: HR4405_K_POLICE OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_JAIL). Four arguments make the same Societal Security judgment about the state’s capacity to fight trafficking and enforce law; police lessons, bank checks, charging review and jail records remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SES_support_04",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_FOR"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_support_04_E3"
+   ],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_FOR (routes: HR4405_K_POLICE OR HR4405_K_BANKS OR HR4405_K_CHARGING OR HR4405_K_JAIL). Four arguments make the same Societal Security judgment about the state’s capacity to fight trafficking and enforce law; police lessons, bank checks, charging review and jail records remain separate causal routes."
+  },
+  {
+   "id": "HR4405_SES_support_05",
+   "decision_ids": [
+    "HR4405_V_SES_DEFENSE_TIES"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_support_05_E1"
+   ],
+   "rationale": "Value link HR4405_V_SES_DEFENSE_TIES (routes: HR4405_K_DEFENSE_TIES)."
+  },
+  {
+   "id": "HR4405_SES_support_06",
+   "decision_ids": [
+    "HR4405_V_SES_TRUST"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_support_06_E4"
+   ],
+   "rationale": "Value link HR4405_V_SES_TRUST (routes: HR4405_K_TRUST)."
+  },
+  {
+   "id": "HR4405_SES_support_07",
+   "decision_ids": [
+    "HR4405_V_SES_CORRECTIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_support_07_E2"
+   ],
+   "rationale": "Value link HR4405_V_SES_CORRECTIONS (routes: HR4405_K_CORRECTIONS)."
+  },
+  {
+   "id": "HR4405_SES_oppose_01",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_AGAINST"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_AGAINST (routes: HR4405_K_CHILL OR HR4405_K_GJ_CHILL OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_PRIORITIES OR HR4405_K_FUTURE_CASES OR HR4405_K_STAFF). Five arguments make the same Societal Security judgment about weaker law enforcement; each mechanism remains its own causal route."
+  },
+  {
+   "id": "HR4405_SES_oppose_02",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_AGAINST"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_oppose_02_E4"
+   ],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_AGAINST (routes: HR4405_K_CHILL OR HR4405_K_GJ_CHILL OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_PRIORITIES OR HR4405_K_FUTURE_CASES OR HR4405_K_STAFF). Five arguments make the same Societal Security judgment about weaker law enforcement; each mechanism remains its own causal route."
+  },
+  {
+   "id": "HR4405_SES_oppose_03",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_AGAINST"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_AGAINST (routes: HR4405_K_CHILL OR HR4405_K_GJ_CHILL OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_PRIORITIES OR HR4405_K_FUTURE_CASES OR HR4405_K_STAFF). Five arguments make the same Societal Security judgment about weaker law enforcement; each mechanism remains its own causal route."
+  },
+  {
+   "id": "HR4405_SES_oppose_04",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_AGAINST"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_AGAINST (routes: HR4405_K_CHILL OR HR4405_K_GJ_CHILL OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_PRIORITIES OR HR4405_K_FUTURE_CASES OR HR4405_K_STAFF). Five arguments make the same Societal Security judgment about weaker law enforcement; each mechanism remains its own causal route."
+  },
+  {
+   "id": "HR4405_SES_oppose_06",
+   "decision_ids": [
+    "HR4405_V_SES_ENFORCE_AGAINST"
+   ],
+   "block_ids": [],
+   "rationale": "Value link HR4405_V_SES_ENFORCE_AGAINST (routes: HR4405_K_CHILL OR HR4405_K_GJ_CHILL OR HR4405_K_UNDERCOVER OR HR4405_K_METHODS OR HR4405_K_PRIORITIES OR HR4405_K_FUTURE_CASES OR HR4405_K_STAFF). Five arguments make the same Societal Security judgment about weaker law enforcement; each mechanism remains its own causal route."
+  },
+  {
+   "id": "HR4405_SES_oppose_07",
+   "decision_ids": [
+    "HR4405_V_SES_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_oppose_07_E4"
+   ],
+   "rationale": "Value link HR4405_V_SES_VIOLENCE (routes: HR4405_K_VIOLENCE)."
+  },
+  {
+   "id": "HR4405_TR_support_02",
+   "decision_ids": [
+    "HR4405_V_TR_TEACHING"
+   ],
+   "block_ids": [
+    "HR4405_B_TR_support_02_E23"
+   ],
+   "rationale": "Value link HR4405_V_TR_TEACHING (routes: HR4405_K_FAMILIES)."
+  },
+  {
+   "id": "HR4405_TR_oppose_03",
+   "decision_ids": [
+    "HR4405_V_TR_EXPLICIT"
+   ],
+   "block_ids": [
+    "HR4405_B_TR_oppose_03_E4"
+   ],
+   "rationale": "Value link HR4405_V_TR_EXPLICIT (routes: HR4405_K_EXPLICIT)."
+  }
+ ],
+ "responses": [
+  {
+   "id": "HR4405_RESPONSE_HR4405_UNN_support_02",
+   "argument_ids": [
+    "HR4405_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_support_02",
+     "field": "response_reading",
+     "quote": "Response The step from TerraMar’s payment records to judging conservation results is not supported. Because The specific bank email records “an external transfer in the amount of $182.00 from the TerraMar account” [10] . The email names a r"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_UNN_TERRAMAR"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_02_RESP",
+    "HR4405_B_UNN_support_02_G0"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_UNC_oppose_03",
+   "argument_ids": [
+    "HR4405_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The argument leaves out an existing privacy law that the Justice Department applies to the names of confidential sources, separately from public-records law. Because The Privacy Act limits release of personal records found by name "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_UNT_oppose_01",
+   "argument_ids": [
+    "HR4405_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNT_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument does not connect the reputation safeguard to accepting and understanding people across differences. Because The bill changes one reason for keeping records secret: “No record shall be withheld, delayed, or redacted on "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_UNT_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_01_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SEP_support_01",
+   "argument_ids": [
+    "HR4405_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_01",
+     "field": "response_reading",
+     "quote": "Response The step from renewed investigation to stopping someone who can still harm people faces contrary evidence. Because Epstein was already dead before the vote: “On August 10, 2019, Epstein was found hanging in his cell and was later p"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STOP"
+   ],
+   "block_ids": [
+    "HR4405_B_STOP_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SEP_support_02",
+   "argument_ids": [
+    "HR4405_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_02",
+     "field": "response_reading",
+     "quote": "Response The Cerberus example does not connect released files to trafficking payments. Because The Project On Government Oversight describes a failure to check the identities of those backing a financial obligation: “six Cerberus guarantors"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_BANKS"
+   ],
+   "block_ids": [
+    "HR4405_B_BANKS_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SEP_oppose_01",
+   "argument_ids": [
+    "HR4405_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "Response Leaving out a separate exception for sources does not by itself expose the names that the Privacy Act protects. Because The existing Privacy Act bars release of covered personal records, subject to consent and its listed exceptions"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SEP_oppose_04",
+   "argument_ids": [
+    "HR4405_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_04",
+     "field": "response_reading",
+     "quote": "Response The professor’s threats do not show danger reaching ordinary bystanders. Because The threats reported by the professor targeted him and his wife because of his Epstein emails: “My wife and I have received many threatening and malic"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_SEP_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_SEP_oppose_04_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SES_support_06",
+   "argument_ids": [
+    "HR4405_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_06",
+     "field": "response_reading",
+     "quote": "Response Evidence on the needed step from checkable records to more trust is mixed. Because A review of experiments using real government information states: “The findings of these experiments have been mixed, with effects conditional on th"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_TRUST"
+   ],
+   "block_ids": [
+    "HR4405_B_TRUST_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SES_support_07",
+   "argument_ids": [
+    "HR4405_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_07",
+     "field": "response_reading",
+     "quote": "Response The conversation study does not show that the proposed replies would change conspiracy beliefs. Because The successful method used conversation, with the AI “adapting its strategy based on each participant’s unique arguments and ev"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CORRECTIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_CORRECTIONS_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SES_oppose_01",
+   "argument_ids": [
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_01",
+     "field": "response_reading",
+     "quote": "Response The argument about confidential sources leaves out continuing protection for source identities. Because Before the bill, the Privacy Act limited release of covered personal records: “No agency shall disclose any record which is con"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES",
+    "HR4405_K_GJ_CHILL",
+    "HR4405_K_EXPOSE"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE",
+    "HR4405_B_EXPOSE_EVIDENCE",
+    "HR4405_B_GJ_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_SES_oppose_03",
+   "argument_ids": [
+    "HR4405_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The forecast about enforcement priorities is not connected to any secret rule that the bill newly forces the department to reveal. Because The provision about internal records covers “decisions to charge, not charge, investigate, o"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_PRIORITIES"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_oppose_03_RESP"
+   ],
+   "disposition": "retained",
+   "rationale": "The full response is shown as a challenge beside the decision whose inference it disputes."
+  },
+  {
+   "id": "HR4405_RESPONSE_HR4405_C03",
+   "argument_ids": [
+    "HR4405_UNN_oppose_02",
+    "HR4405_UNC_oppose_03",
+    "HR4405_SEP_oppose_01",
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C03",
+     "field": "response_reading",
+     "quote": "Other law may still protect some of this secrecy. The Privacy Act says: “No agency shall disclose any record which is contained in a system of records” [Privacy Act] , with consent and listed exceptions. Courts keep two laws in effect when "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "disposition": "retained",
+   "rationale": "The response is consolidated with equivalent material into one challenge, keeping its points, quotations and citations, beside the decision whose inference it disputes."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_support_01_notes_html",
+   "argument_ids": [
+    "HR4405_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Later messages in the same DOJ record have Epstein reporting that the official wanted “80k plus plus remediation plus” and “Not issuing permit until they give us a deficiency list to clear.” Remediation means repairing damage"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_HABITAT"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_01_N0",
+    "HR4405_B_UNN_support_01_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_HABITAT."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_support_02_gap_0",
+   "argument_ids": [
+    "HR4405_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "The cited email shows a payment. No source passage cited here connects payment entries to whether ocean work was achieved or to current conservation choices."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_UNN_TERRAMAR"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_02_RESP",
+    "HR4405_B_UNN_support_02_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR4405_V_UNN_TERRAMAR."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_support_02_gap_1",
+   "argument_ids": [
+    "HR4405_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_support_02",
+     "field": "gaps[1].explanation",
+     "quote": "The warning that TerraMar “produced no tangible examples of successful ocean conservancy projects” was already public in 2021. This earlier warning bears on how much the records add."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_UNN_TERRAMAR"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_02_G1"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR4405_V_UNN_TERRAMAR."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_support_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The video Epstein sent was public on YouTube, and NASA reported in 2014 that glaciers in a section of West Antarctica were “melting faster than most scientists had expected.” Sources: [12] , [15] ."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CLIMATE"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_support_03_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_CLIMATE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The reported 400 attorneys is a department-wide total. The Miami Herald names the Florida office’s criminal and national security divisions but not its Environmental Crimes Unit. The cited asbestos case dates from 2024. Repor"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STAFF",
+    "HR4405_K_STAFF_ENV"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_oppose_01_N0",
+    "HR4405_B_STAFF_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_STAFF, HR4405_K_STAFF_ENV."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s January 2026 attorney review protocol under the Act lists “Names of confidential sources or cooperating witnesses” among required Privacy Act redactions. The protocol concerns names rather than all information a source "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHILL_ENV"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_oppose_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_CHILL_ENV."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_oppose_02_gap_0",
+   "argument_ids": [
+    "HR4405_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_oppose_02",
+     "field": "gaps[0].explanation",
+     "quote": "Moving from sources in these files to environmental sources is a limit on this reasoning, because it depends on an inference. The July decision treats this FBI interest as general across criminal investigations."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHILL_ENV"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_oppose_02_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR4405_K_CHILL_ENV."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNN_oppose_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNN_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Epstein’s 2017 email exchange with Emirati businessman Sultan Ahmed bin Sulayem, the head of the company DP World, was reported on November 13, 2025 from House Oversight Committee emails. The Earthshot complaint came from the"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_DONORS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNN_oppose_03_N0",
+    "HR4405_B_UNN_oppose_03_N1"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_DONORS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_support_01_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Before the vote, DOJ and the FBI stated: “We did not uncover evidence that could predicate an investigation against uncharged third parties.” To predicate an investigation means to give a basis for it. AP’s later review repor"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_OUTSIDE"
+   ],
+   "block_ids": [
+    "HR4405_B_OUTSIDE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_OUTSIDE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_support_02_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: A lawsuit against an enabler under Section 1595, the trafficking-law section that lets victims sue, requires a knowing benefit from a venture the person knew or should have known violated the trafficking chapter, and must be "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CIVIL"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_CIVIL."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_support_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ changed its victim-assistance guidelines effective March 31, 2023, including earlier notice of plea and non-prosecution agreements. The DOJ inspector general’s published jail review made eight recommendations, which the B"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHARGING",
+    "HR4405_K_JAIL"
+   ],
+   "block_ids": [
+    "HR4405_B_CHARGING_LIMITS",
+    "HR4405_B_JAIL_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_CHARGING, HR4405_K_JAIL."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_support_04_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: NPR reported that the Act “contains no penalties or enforcement mechanism.” The required notices explain redactions, not why any complaint went unanswered, and Farmer’s quoted reaction does not report an explanation from the "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SURVIVOR_ACCESS"
+   ],
+   "block_ids": [
+    "HR4405_B_UNC_support_04_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_SURVIVOR_ACCESS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_support_05_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ wrote that the production “may include fake or falsely submitted images, documents or videos, as everything that was sent to the FBI by the public was included.” Legal analyst Ankush Khardori warned that interview summari"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_FACTCHECK"
+   ],
+   "block_ids": [
+    "HR4405_B_FACTCHECK_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_FACTCHECK."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_oppose_01_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s protocol under the Act directed redaction of other names or details that would reveal a victim’s identity. FBI review to prepare for possible publication was reported in March 2025. The congressional release predates th"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_EXPOSE"
+   ],
+   "block_ids": [
+    "HR4405_B_EXPOSE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_EXPOSE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Act separately requires release of records on decisions “to charge, not charge, investigate, or decline to investigate.” DOJ and the FBI had said they found no evidence that gave a basis to investigate uncharged third par"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_SUSPICION_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SUSPICION."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_oppose_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: A June 25, 2026 federal trial-court opinion in the case Phang v. Blanche granted preliminary relief (a temporary court order) and explained that the Act requires disclosure beyond ordinary FOIA production. The government did "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SOURCES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNC_oppose_04_notes_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNC_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The Act allows temporary narrowly tailored withholding where release would jeopardize an active federal investigation. On November 14, 2025, the Attorney General said she assigned an Epstein-related inquiry to U.S. Attorney J"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_METHODS"
+   ],
+   "block_ids": [
+    "HR4405_B_METHODS_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_METHODS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNT_support_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNT_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNT_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The same JTA report states that the January 2026 release “has taken things to a new intensity” for antisemitic theories, and quotes researcher Mike Rothschild: “there is so much information and there’s no filter for it.” The "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_FACTCHECK",
+    "HR4405_K_ANTISEMITISM"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_support_03_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_FACTCHECK, HR4405_K_ANTISEMITISM."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNT_oppose_02_notes_html",
+   "argument_ids": [
+    "HR4405_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNT_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Anti-Defamation League said in August 2025 that such rhetoric “has surged in recent weeks across the political spectrum,” before the bill. Rothschild said the files were “reinforcing stuff that these people already are pu"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_ANTISEMITISM"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_ANTISEMITISM."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNT_oppose_02_gap_0",
+   "argument_ids": [
+    "HR4405_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNT_oppose_02",
+     "field": "gaps[0].explanation",
+     "quote": "The record shows use of released files. The record does not measure changed beliefs or audience size."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_V_UNT_ANTISEMITISM"
+   ],
+   "block_ids": [
+    "HR4405_B_UNT_oppose_02_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR4405_V_UNT_ANTISEMITISM."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_UNT_oppose_03_notes_html",
+   "argument_ids": [
+    "HR4405_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_UNT_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The Crime Victims’ Rights Act already gave victims a right to fairness and respect for dignity and privacy. DOJ’s July 2025 memo reported prior review aimed at protecting victims. The filing’s lawyers say a name search before"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_EXPOSE"
+   ],
+   "block_ids": [
+    "HR4405_B_EXPOSE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_EXPOSE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_support_01_gap_0",
+   "argument_ids": [
+    "HR4405_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "The Justice Department’s statement is contrary evidence. A February 2026 AP report says it is possible the released records contain evidence investigators overlooked."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STOP"
+   ],
+   "block_ids": [
+    "HR4405_B_STOP_CHALLENGE"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_STOP."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_support_02_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: New York’s regulator found Deutsche Bank failed to monitor Epstein’s accounts “despite ample information that was publicly available,” and that account conditions “were not transmitted to the majority of the account relations"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_BANKS"
+   ],
+   "block_ids": [
+    "HR4405_B_BANKS_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_BANKS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_support_03_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s public 2020 review already examined emails, letters, memoranda and investigative materials and found a need for greater oversight. DOJ guidance effective March 31, 2023 requires best efforts to confer with victims befor"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHARGING"
+   ],
+   "block_ids": [
+    "HR4405_B_CHARGING_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_CHARGING."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_support_04_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s 2020 review publicly described Epstein’s use of assistants to recruit girls. Training from the Department of Homeland Security (DHS) on recognizing trafficking existed by 2013. Fitzpatrick’s statement names no specific "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_POLICE"
+   ],
+   "block_ids": [
+    "HR4405_B_POLICE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_POLICE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_support_05_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The correction experiment used 2,742 people recruited through Mechanical Turk, an online work site, who were assigned to see a story with or without a correction, and it measured agreement with the story. It did not measure c"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CORRECTIONS"
+   ],
+   "block_ids": [
+    "HR4405_B_CORRECTIONS_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_CORRECTIONS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_oppose_01_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: A June 25, 2026 federal trial-court opinion in the case Phang v. Blanche granted preliminary relief (a temporary court order) and explained that the Act requires disclosure beyond ordinary FOIA production. The government did "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SOURCES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_oppose_02_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The one documented undercover exposure was in a 2009 video. DOJ said it failed to obscure the face, and CNN obscured it at DOJ’s request. DOJ’s protocol requires redaction of government employees’ names. The Privacy Act’s def"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_UNDERCOVER"
+   ],
+   "block_ids": [
+    "HR4405_B_UNDERCOVER_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_UNDERCOVER."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_oppose_03_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Courts have recognized a qualified law-enforcement privilege (a limited right to keep police information secret) that can apply after an investigation ends. Laws are read with a presumption that they keep established principl"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_METHODS"
+   ],
+   "block_ids": [
+    "HR4405_B_METHODS_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_METHODS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_oppose_04_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: Reason reports that a woman with a sign protested outside Mark Tramo’s workplace, and that no one had accused him of any crime. Snopes concluded the files did not confirm pizzagate. The sources reviewed report no attack on a "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_VIOLENCE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_VIOLENCE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SEP_oppose_05_notes_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SEP_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: Bloomberg reported that lawyers could seek approval to exempt urgent matters, and quoted a statement that attorneys were working “around the clock.” DOJ’s December 2025 letter said most items offices supplied were non-respons"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STAFF"
+   ],
+   "block_ids": [
+    "HR4405_B_STAFF_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_STAFF."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_01_notes_html",
+   "argument_ids": [
+    "HR4405_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: An FBI bulletin drew lessons from 12 trafficking cases in 2007. A 2023 DOJ publication reports a model curriculum for police academies and found training “uneven and in some places, nonexistent.” Fitzpatrick’s statement names"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_POLICE"
+   ],
+   "block_ids": [
+    "HR4405_B_POLICE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_POLICE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_02_notes_html",
+   "argument_ids": [
+    "HR4405_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: New York’s regulator found Deutsche Bank failed to monitor Epstein’s accounts “despite ample information that was publicly available,” and that account conditions “were not transmitted to the majority of the account relations"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_BANKS"
+   ],
+   "block_ids": [
+    "HR4405_B_BANKS_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_BANKS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_03_notes_html",
+   "argument_ids": [
+    "HR4405_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s 2020 review included more than 60 interviews and publicly identified a need for greater oversight. DOJ guidelines effective March 31, 2023 address notifying victims of plea and non-prosecution agreements. Sources: [9] ,"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHARGING"
+   ],
+   "block_ids": [
+    "HR4405_B_CHARGING_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_CHARGING."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_04_notes_html",
+   "argument_ids": [
+    "HR4405_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The 2023 report by the Office of the Inspector General (OIG), the Justice Department’s internal watchdog, and its eight recommendations were public. The 2024 Federal Prison Oversight Act requires corrective action plans made "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_JAIL"
+   ],
+   "block_ids": [
+    "HR4405_B_JAIL_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_JAIL."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_05_notes_html",
+   "argument_ids": [
+    "HR4405_SES_support_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_05",
+     "field": "notes_html",
+     "quote": "Evidence note: Feinberg’s February 2025 ethics agreement bars participation in certain Cerberus matters while services continue, unless authorized. The Section 3 list covers anyone named or referenced. The report by the Project On Governmen"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_DEFENSE_TIES"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_support_05_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_DEFENSE_TIES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_support_06_gap_0",
+   "argument_ids": [
+    "HR4405_SES_support_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_support_06",
+     "field": "gaps[0].explanation",
+     "quote": "The experimental review reports mixed, conditional results. This is relevant evidence against assuming the step. It does not show that no gain would occur."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_TRUST"
+   ],
+   "block_ids": [
+    "HR4405_B_TRUST_CHALLENGE"
+   ],
+   "rationale": "This limit is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_TRUST."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_01_notes_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: A June 25, 2026 federal trial-court opinion in the case Phang v. Blanche granted preliminary relief (a temporary court order) and explained that the Act requires disclosure beyond ordinary FOIA production. The government did "
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_SOURCES_CHALLENGE"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SOURCES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_01_gap_0",
+   "argument_ids": [
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "Continued secrecy for other grand juries bears on how widely witnesses would expect disclosure."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_GJ_CHILL"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_oppose_01_G0"
+   ],
+   "rationale": "This limit is shown in full as local reading at HR4405_K_GJ_CHILL."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_02_notes_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ’s protocol requires hiding names of government employees including law enforcement, and the Privacy Act’s definition of a record can include a photograph. The documented exposure involved a 2009 video that DOJ called a fa"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_UNDERCOVER"
+   ],
+   "block_ids": [
+    "HR4405_B_UNDERCOVER_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_UNDERCOVER."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_04_notes_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The ground in the Freedom of Information Act (FOIA) for protecting enforcement proceedings requires harm that can be clearly stated. DOJ and the FBI reported in July 2025 no evidence that gave a basis to investigate uncharged"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_FUTURE_CASES"
+   ],
+   "block_ids": [
+    "HR4405_B_SES_oppose_04_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_FUTURE_CASES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_06_notes_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: FBI disclosure review already drew staff in March 2025. DOJ’s count of 500 reviewers does not measure work left undone. Supervisors could approve exemptions for urgent matters. Sources: [46] , [44] , [47] ."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STAFF"
+   ],
+   "block_ids": [
+    "HR4405_B_STAFF_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_STAFF."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_SES_oppose_07_notes_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_SES_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: The Act also requires release of records on decisions not to investigate or charge. DOJ warned that the production may include fake or falsely submitted material. Snopes concluded the files did not confirm pizzagate. The sour"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SUSPICION",
+    "HR4405_K_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_SUSPICION_LIMITS",
+    "HR4405_B_VIOLENCE_LIMITS"
+   ],
+   "rationale": "Every paragraph of these evidence notes is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SUSPICION, HR4405_K_VIOLENCE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_TR_support_02_notes_html",
+   "argument_ids": [
+    "HR4405_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_TR_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Daily Citizen article, written the day before the vote, says tens of thousands of emails had already been released and that Christians “don’t need to dig too deeply into the offensive drama” to teach from the case. It doe"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_FAMILIES"
+   ],
+   "block_ids": [
+    "HR4405_B_TR_support_02_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_FAMILIES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_TR_oppose_03_notes_html",
+   "argument_ids": [
+    "HR4405_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_TR_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: DOJ says females in the videos and images were redacted, and anyone entering its Epstein library must verify they are over 18. The DOJ letter does not describe what imagery remained visible. Sources: [35] ."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_EXPLICIT"
+   ],
+   "block_ids": [
+    "HR4405_B_TR_oppose_03_N0"
+   ],
+   "rationale": "Every paragraph of these evidence notes is shown in full as local reading at HR4405_K_EXPLICIT."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C01_scope_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_03",
+    "HR4405_UNC_support_01",
+    "HR4405_UNC_oppose_02",
+    "HR4405_UNT_oppose_01",
+    "HR4405_SEP_oppose_04",
+    "HR4405_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C01",
+     "field": "scope_html",
+     "quote": "This bars only those reasons. The listed exceptions in Section 2(c) still apply to a record. The wording covers any person’s reputation, not only famous people."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_OUTSIDE",
+    "HR4405_K_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_C01_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_OUTSIDE, HR4405_K_SUSPICION."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C02_scope_html",
+   "argument_ids": [
+    "HR4405_SES_oppose_03",
+    "HR4405_SES_oppose_04",
+    "HR4405_TR_oppose_03",
+    "HR4405_UNN_oppose_02",
+    "HR4405_UNC_oppose_03",
+    "HR4405_SEP_oppose_01",
+    "HR4405_SES_oppose_01",
+    "HR4405_UNC_oppose_04",
+    "HR4405_SEP_oppose_03",
+    "HR4405_SEP_oppose_02",
+    "HR4405_SES_oppose_02",
+    "HR4405_UNC_oppose_01",
+    "HR4405_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C02",
+     "field": "scope_html",
+     "quote": "This describes only what this section lists. That a reason is not listed here does not by itself show that no other law protects the same material."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_C02_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_SOURCES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C03_scope_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_02",
+    "HR4405_UNC_oppose_03",
+    "HR4405_SEP_oppose_01",
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C03",
+     "field": "scope_html",
+     "quote": "This says only that at least some of this secrecy is at risk. It does not say every source must be named, or that any source has been named. It concerns confidential sources who are not victims, in covered Epstein and Maxwell records, and n"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SOURCES"
+   ],
+   "block_ids": [
+    "HR4405_B_C03_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_SOURCES."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C04_scope_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_02",
+    "HR4405_UNC_oppose_03",
+    "HR4405_SEP_oppose_01",
+    "HR4405_SES_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C04",
+     "field": "scope_html",
+     "quote": "This is a conditional statement about how people respond. It gives no estimate of how many sources would stop helping. It does not say that exposure happens under this bill; that is C03."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHILL"
+   ],
+   "block_ids": [
+    "HR4405_B_C04_SCOPE"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_CHILL."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C05_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_04",
+    "HR4405_SEP_oppose_03",
+    "HR4405_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C05",
+     "field": "scope_html",
+     "quote": "Concerns unclassified methods only. Whether a separate legal privilege could still protect them under the Act is not decided by any source reviewed."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_METHODS"
+   ],
+   "block_ids": [
+    "HR4405_B_METHODS_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_METHODS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C06_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_02",
+    "HR4405_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C06",
+     "field": "scope_html",
+     "quote": "One exposure is documented, from a 2009 video. DOJ’s instructions hide the names of government employees. This statement does not say how often exposure happens, or that the bill required this exposure."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_UNDERCOVER"
+   ],
+   "block_ids": [
+    "HR4405_B_UNDERCOVER_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_UNDERCOVER."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C07_scope_html",
+   "argument_ids": [
+    "HR4405_UNN_oppose_01",
+    "HR4405_SEP_oppose_05",
+    "HR4405_SES_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C07",
+     "field": "scope_html",
+     "quote": "Reports describe reviews in late 2025 and early 2026. They do not measure work left undone. Lawyers could ask a supervisor to exempt urgent matters."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_STAFF"
+   ],
+   "block_ids": [
+    "HR4405_B_STAFF_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_STAFF."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C08_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_01",
+    "HR4405_UNT_oppose_03",
+    "HR4405_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C08",
+     "field": "scope_html",
+     "quote": "DOJ’s own account is attributed; it is not an independent audit or a court finding. The production came after the 30-day date, so this does not show that the deadline caused the errors. It does not show how much exposure would have happened"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_EXPOSE"
+   ],
+   "block_ids": [
+    "HR4405_B_EXPOSE_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_EXPOSE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C09_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_oppose_02",
+    "HR4405_UNT_oppose_01",
+    "HR4405_SEP_oppose_04",
+    "HR4405_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C09",
+     "field": "scope_html",
+     "quote": "The wording is “can”. Other legal duties may limit particular releases. DOJ’s instructions list certain personal details for redaction, but not ordinary third-party names generally. This statement says nothing about whether any named person"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_SUSPICION"
+   ],
+   "block_ids": [
+    "HR4405_B_SUSPICION_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_SUSPICION."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C10_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_support_05",
+    "HR4405_SES_support_07",
+    "HR4405_SEP_oppose_04",
+    "HR4405_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C10",
+     "field": "scope_html",
+     "quote": "This is one past attack. It does not concern Epstein records directly, and the sources reviewed report no attack following the release."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CORRECTIONS",
+    "HR4405_K_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_C10_SCOPE",
+    "HR4405_B_CORRECTIONS_LIMITS"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_CORRECTIONS, HR4405_K_VIOLENCE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C11_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_oppose_04",
+    "HR4405_SES_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C11",
+     "field": "scope_html",
+     "quote": "This shows the claim was made, not that it was true. Snopes concluded that the files did not confirm the story."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_VIOLENCE"
+   ],
+   "block_ids": [
+    "HR4405_B_VIOLENCE_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_VIOLENCE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C12_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_support_05",
+    "HR4405_SES_support_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C12",
+     "field": "scope_html",
+     "quote": "This shows the files can supply a correction. Snopes reports no measure of the effect of its correction."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_FACTCHECK"
+   ],
+   "block_ids": [
+    "HR4405_B_FACTCHECK_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_FACTCHECK."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C13_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_support_02",
+    "HR4405_SES_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C13",
+     "field": "scope_html",
+     "quote": "“Can” marks a possible use. The regulator found Deutsche Bank’s failures happened despite public information, and Treasury’s warning signs were already published in 2020. This statement does not say that any bank changed its checks."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_BANKS"
+   ],
+   "block_ids": [
+    "HR4405_B_BANKS_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_BANKS."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C14_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_support_03",
+    "HR4405_SEP_support_04",
+    "HR4405_SES_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C14",
+     "field": "scope_html",
+     "quote": "Fitzpatrick’s statement names no specific lesson. Training and lessons about trafficking existed before the bill. “Can” marks a possible use."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_POLICE"
+   ],
+   "block_ids": [
+    "HR4405_B_POLICE_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_POLICE."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C15_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_support_01",
+    "HR4405_UNC_support_03",
+    "HR4405_SEP_support_03",
+    "HR4405_SES_support_03",
+    "HR4405_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C15",
+     "field": "scope_html",
+     "quote": "Covered records are still subject to the listed exceptions and to any other law that may apply."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHARGING"
+   ],
+   "block_ids": [
+    "HR4405_B_CHARGING_LIMITS"
+   ],
+   "rationale": "The full scope statement is shown in full as local reading at HR4405_K_CHARGING."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C16_scope_html",
+   "argument_ids": [
+    "HR4405_SEP_support_03",
+    "HR4405_SES_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C16",
+     "field": "scope_html",
+     "quote": "This is a finding about one past decision. The review called the decision “poor judgment” but “does not find that Acosta engaged in professional misconduct”. The review and later guideline changes were already public or in effect before the"
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_CHARGING"
+   ],
+   "block_ids": [
+    "HR4405_B_CHARGING_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_CHARGING."
+  },
+  {
+   "id": "HR4405_QUAL_HR4405_C17_scope_html",
+   "argument_ids": [
+    "HR4405_UNC_support_03",
+    "HR4405_SES_support_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR4405_C17",
+     "field": "scope_html",
+     "quote": "The watchdog’s report and its eight recommendations were already public. This statement does not say how much the newly released records add."
+    }
+   ],
+   "decision_ids": [
+    "HR4405_K_JAIL"
+   ],
+   "block_ids": [
+    "HR4405_B_JAIL_LIMITS"
+   ],
+   "rationale": "The full scope statement is consolidated with equivalent material, keeping its facts, quotations and citations, as local reading at HR4405_K_JAIL."
+  }
+ ]
+}

@@ -1,0 +1,1991 @@
+{
+ "schema_version": 1,
+ "arguments": [
+  {
+   "id": "HR28_UNN_support_01",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_ENVKEPT",
+    "HR28_V_UNN_KEPT"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ENVKEPT_TEAM",
+    "HR28_B_ENVKEPT_ROWING",
+    "HR28_B_ENVKEPT_SCHOLAR",
+    "HR28_B_ENVKEPT_LIM"
+   ],
+   "rationale": "Consolidated with UNN_support_02/03 into one environmental-activity claim (three mechanisms, any one enough) and one Nature link; needs the kept-places claim."
+  },
+  {
+   "id": "HR28_UNN_support_02",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_ENVKEPT",
+    "HR28_V_UNN_KEPT"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ENVKEPT_TEAM",
+    "HR28_B_ENVKEPT_ROWING",
+    "HR28_B_ENVKEPT_SCHOLAR",
+    "HR28_B_ENVKEPT_LIM"
+   ],
+   "rationale": "Rowing mechanism of the consolidated environmental-activity claim; same Nature link."
+  },
+  {
+   "id": "HR28_UNN_support_03",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_ENVKEPT",
+    "HR28_V_UNN_KEPT"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ENVKEPT_TEAM",
+    "HR28_B_ENVKEPT_ROWING",
+    "HR28_B_ENVKEPT_SCHOLAR",
+    "HR28_B_ENVKEPT_LIM"
+   ],
+   "rationale": "Scholarship mechanism of the consolidated environmental-activity claim; same Nature link."
+  },
+  {
+   "id": "HR28_UNN_oppose_01",
+   "decision_ids": [
+    "HR28_K_ENVLOST",
+    "HR28_V_UNN_LOST"
+   ],
+   "block_ids": [
+    "HR28_B_ENVLOST_COMP",
+    "HR28_B_ENVLOST_POST",
+    "HR28_B_ENVLOST_LIM",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_TEAMACT_SCOPE",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Outdoor-competition mechanism of the consolidated lost-activity claim, with UNN_oppose_02; one Nature link."
+  },
+  {
+   "id": "HR28_UNN_oppose_02",
+   "decision_ids": [
+    "HR28_K_ENVLOST",
+    "HR28_V_UNN_LOST"
+   ],
+   "block_ids": [
+    "HR28_B_ENVLOST_COMP",
+    "HR28_B_ENVLOST_POST",
+    "HR28_B_ENVLOST_LIM",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_TEAMACT_SCOPE",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Leadership-post mechanism of the consolidated lost-activity claim; same Nature link."
+  },
+  {
+   "id": "HR28_UNC_support_01",
+   "decision_ids": [
+    "HR28_K_ADVANTAGE",
+    "HR28_V_UNC_FAIR"
+   ],
+   "block_ids": [
+    "HR28_B_ADV_EV",
+    "HR28_B_ADV_CH",
+    "HR28_B_BJSM",
+    "HR28_B_NCAA_THRESH",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Strength-advantage claim judged once, then its Concern link."
+  },
+  {
+   "id": "HR28_UNC_support_02",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_V_UNC_PLACES",
+    "HR28_K_PLACESHEALTH",
+    "HR28_V_UNC_PLACESHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_PLACES_BENEFITS",
+    "HR28_B_PLACES_FAIR_CH",
+    "HR28_B_PH_EV",
+    "HR28_B_PLACESMH_EV",
+    "HR28_B_PH_CH",
+    "HR28_B_HEALTHASSOC_SCOPE",
+    "HR28_B_PLACESH_FAIR_CH"
+   ],
+   "rationale": "Kept-places claim, then a Concern link for education and leadership; the mental-health part needs the separately judged health claim, so it has its own Concern link. The fairness challenge sits beside both links."
+  },
+  {
+   "id": "HR28_UNC_support_03",
+   "decision_ids": [
+    "HR28_K_CONTACT",
+    "HR28_V_UNC_CONTACT",
+    "HR28_V_UNC_FORFEIT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_EV",
+    "HR28_B_CONTACT_LIM",
+    "HR28_B_BJSM",
+    "HR28_B_FORFEIT_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_FORFEIT_EV"
+   ],
+   "rationale": "Split: collision route (contact claim) and forfeit route (provision-based) are separate Concern links."
+  },
+  {
+   "id": "HR28_UNC_oppose_01",
+   "decision_ids": [
+    "HR28_V_UNC_TEAMLOSS",
+    "HR28_K_INTERSEX",
+    "HR28_V_UNC_INTERSEX"
+   ],
+   "block_ids": [
+    "HR28_B_TEAMLOSS_EV",
+    "HR28_B_TEAMLOSS_CH",
+    "HR28_B_NCAA_THRESH",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_TEAMACT_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_INTERSEX_EV",
+    "HR28_B_INTERSEX_LIM"
+   ],
+   "rationale": "Split: team-loss route (provision-based, with its challenge) and intersex route (intersex claim) are separate Concern links."
+  },
+  {
+   "id": "HR28_UNC_oppose_02",
+   "decision_ids": [
+    "HR28_V_UNC_INDIVIDUAL"
+   ],
+   "block_ids": [
+    "HR28_B_BPJ_EV",
+    "HR28_B_BPJ_LIM",
+    "HR28_B_SCOTUS_NOTE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Provision-based Concern link using the dated B.P.J. context."
+  },
+  {
+   "id": "HR28_UNC_oppose_03",
+   "decision_ids": [
+    "HR28_K_STIGMA",
+    "HR28_V_UNC_STIGMA"
+   ],
+   "block_ids": [
+    "HR28_B_STIGMA_EV",
+    "HR28_B_STIGMA_LIM",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_UNCSTIGMA_EV",
+    "HR28_B_UNCSTIGMA_LIM"
+   ],
+   "rationale": "Stigma claim, then a Concern link with the CDC survey evidence."
+  },
+  {
+   "id": "HR28_UNC_oppose_04",
+   "decision_ids": [
+    "HR28_K_BOYSTEAM",
+    "HR28_V_UNC_BOYSFAIR",
+    "HR28_K_BOYSDANGER",
+    "HR28_V_UNC_BOYSDANGER"
+   ],
+   "block_ids": [
+    "HR28_B_BOYS_EV",
+    "HR28_B_BOYS_LIM",
+    "HR28_B_SCOTUS_NOTE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_BOYSFAIR_EV",
+    "HR28_B_BOYSDANGER_EV"
+   ],
+   "rationale": "Factual opponents claim (larger, stronger, faster), then a Concern link for the unfair contest; the some-sports danger claim follows from it and has its own Concern link."
+  },
+  {
+   "id": "HR28_UNC_oppose_05",
+   "decision_ids": [
+    "HR28_K_INQUIRY",
+    "HR28_K_BODILY",
+    "HR28_V_UNC_PRIVACY"
+   ],
+   "block_ids": [
+    "HR28_B_INQ_EV",
+    "HR28_B_INQ_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_BOD_EV",
+    "HR28_B_BOD_CH",
+    "HR28_B_BOD_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "Two routes kept: intrusive inquiries or bodily checks, each its own claim; one Concern link."
+  },
+  {
+   "id": "HR28_UNC_oppose_06",
+   "decision_ids": [
+    "HR28_K_DETER",
+    "HR28_V_UNC_DETER",
+    "HR28_K_ACCUSE",
+    "HR28_V_UNC_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_DETER_EV",
+    "HR28_B_DETER_LIM",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ACC_EV",
+    "HR28_B_ACC_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_ACC_STEREO"
+   ],
+   "rationale": "Split: harassment for appearance (accusations claim) and eligible girls deterred (fear claim) are separate Concern links."
+  },
+  {
+   "id": "HR28_UNC_oppose_07",
+   "decision_ids": [
+    "HR28_K_FUNDING",
+    "HR28_V_UNC_FUNDING"
+   ],
+   "block_ids": [
+    "HR28_B_FUND_EV",
+    "HR28_B_FUND_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Funding-risk claim, then its Concern link."
+  },
+  {
+   "id": "HR28_UNT_support_01",
+   "decision_ids": [
+    "HR28_V_UNT_BELIEF"
+   ],
+   "block_ids": [
+    "HR28_B_BELIEF_EV",
+    "HR28_B_BELIEF_CH",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Provision-based Tolerance link with its challenge."
+  },
+  {
+   "id": "HR28_UNT_support_02",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_TEAMTOLERANCE",
+    "HR28_V_UNT_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_TT_EV",
+    "HR28_B_TT_CH",
+    "HR28_B_TT_LIM"
+   ],
+   "rationale": "Kept-places claim, then the team-tolerance claim, then its Tolerance link."
+  },
+  {
+   "id": "HR28_UNT_oppose_01",
+   "decision_ids": [
+    "HR28_V_UNT_INCLUSION",
+    "HR28_K_STIGMA",
+    "HR28_V_UNT_STIGMA"
+   ],
+   "block_ids": [
+    "HR28_B_UNTINCL_EV",
+    "HR28_B_UNTINCL_CH",
+    "HR28_B_UNTINCL_LIM",
+    "HR28_B_SCOTUS_NOTE",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_TEAMACT_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_STIGMA_EV",
+    "HR28_B_STIGMA_LIM"
+   ],
+   "rationale": "Split: law-in-force and team-activity routes form a provision-based link; the stigma route is a separate link needing the stigma claim."
+  },
+  {
+   "id": "HR28_UNT_oppose_02",
+   "decision_ids": [
+    "HR28_K_INTERSEX",
+    "HR28_V_UNT_INTERSEX"
+   ],
+   "block_ids": [
+    "HR28_B_INTERSEX_EV",
+    "HR28_B_INTERSEX_LIM",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Intersex claim, then its Tolerance link."
+  },
+  {
+   "id": "HR28_UNT_oppose_03",
+   "decision_ids": [
+    "HR28_K_ACCUSE",
+    "HR28_V_UNT_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_EV",
+    "HR28_B_ACC_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ACC_STEREO"
+   ],
+   "rationale": "Accusations claim, then its Tolerance link."
+  },
+  {
+   "id": "HR28_SEP_support_01",
+   "decision_ids": [
+    "HR28_K_CONTACT",
+    "HR28_V_SEP_CONTACT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_EV",
+    "HR28_B_CONTACT_LIM",
+    "HR28_B_BJSM",
+    "HR28_B_FORFEIT_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Contact claim, then its Personal Security link."
+  },
+  {
+   "id": "HR28_SEP_support_02",
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_PLACESHEALTH",
+    "HR28_V_SEP_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_EV",
+    "HR28_B_PLACES_LIM",
+    "HR28_B_NCAA_COUNT",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_PH_EV",
+    "HR28_B_PLACESMH_EV",
+    "HR28_B_PH_CH",
+    "HR28_B_HEALTHASSOC_SCOPE"
+   ],
+   "rationale": "Kept-places claim, then the girls’-exercise claim, then its link."
+  },
+  {
+   "id": "HR28_SEP_support_03",
+   "decision_ids": [
+    "HR28_K_CHANGING",
+    "HR28_V_SEP_PRIVACY"
+   ],
+   "block_ids": [
+    "HR28_B_CHANGE_EV",
+    "HR28_B_CHANGE_CH",
+    "HR28_B_TEAMACT_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Changing-area claim with both mechanisms, then its link."
+  },
+  {
+   "id": "HR28_SEP_oppose_01",
+   "decision_ids": [
+    "HR28_K_DETER",
+    "HR28_K_SPORTSHEALTH",
+    "HR28_V_SEP_SPORTSHEALTH",
+    "HR28_K_BODILY",
+    "HR28_V_SEP_CHECKS"
+   ],
+   "block_ids": [
+    "HR28_B_DETER_EV",
+    "HR28_B_DETER_LIM",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_SPH_EV",
+    "HR28_B_HEALTHASSOC_SCOPE",
+    "HR28_B_SPH_LIM",
+    "HR28_B_BOD_EV",
+    "HR28_B_BOD_CH",
+    "HR28_B_BOD_LIM",
+    "HR28_B_SCOTUS_NOTE",
+    "HR28_B_LAW_SCOPE"
+   ],
+   "rationale": "Two routes kept as separate consequences: bodily checks (own link) and fear deterring play, which joins the shared sports-health claim and link."
+  },
+  {
+   "id": "HR28_SEP_oppose_02",
+   "decision_ids": [
+    "HR28_K_ACCUSE",
+    "HR28_V_SEP_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_EV",
+    "HR28_B_ACC_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Accusations claim, then its Personal Security link."
+  },
+  {
+   "id": "HR28_SEP_oppose_03",
+   "decision_ids": [
+    "HR28_K_EXIT",
+    "HR28_K_SPORTSHEALTH",
+    "HR28_V_SEP_SPORTSHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_EXIT_EV",
+    "HR28_B_EXIT_LIM",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_SPH_EV",
+    "HR28_B_HEALTHASSOC_SCOPE",
+    "HR28_B_SPH_LIM"
+   ],
+   "rationale": "Leaving-sport claim, then the shared sports-health claim and link."
+  },
+  {
+   "id": "HR28_SEP_oppose_04",
+   "decision_ids": [
+    "HR28_K_STIGMA",
+    "HR28_K_STIGMAHEALTH",
+    "HR28_V_SEP_STIGMA"
+   ],
+   "block_ids": [
+    "HR28_B_STIGMA_EV",
+    "HR28_B_STIGMA_LIM",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_STIGMAH_EV",
+    "HR28_B_STIGMAH_LIM"
+   ],
+   "rationale": "Stigma claim, then the mental-health claim, then its link."
+  },
+  {
+   "id": "HR28_SES_oppose_02",
+   "decision_ids": [
+    "HR28_K_ACCUSE",
+    "HR28_K_ACCUSECOMMUNITY",
+    "HR28_V_SES_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_EV",
+    "HR28_B_ACC_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_ACCC_EV",
+    "HR28_B_ACCC_LIM",
+    "HR28_B_SES_SCOPE"
+   ],
+   "rationale": "Accusations claim, then a change-of-scale claim to communities, then its link."
+  },
+  {
+   "id": "HR28_SES_oppose_03",
+   "decision_ids": [
+    "HR28_K_INTERSEX",
+    "HR28_K_STIGMA",
+    "HR28_K_EXIT",
+    "HR28_K_SAFERCOMMUNITY",
+    "HR28_V_SES_SPORTS"
+   ],
+   "block_ids": [
+    "HR28_B_INTERSEX_EV",
+    "HR28_B_INTERSEX_LIM",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_STIGMA_EV",
+    "HR28_B_STIGMA_LIM",
+    "HR28_B_EXIT_EV",
+    "HR28_B_EXIT_LIM",
+    "HR28_B_PRACTICE_SCOPE",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_SC_EV",
+    "HR28_B_SC_CH",
+    "HR28_B_SC_LIM",
+    "HR28_B_SES_SCOPE"
+   ],
+   "rationale": "Community-safety claim with three alternative routes (leaving sport, intersex, stigma), then its link."
+  },
+  {
+   "id": "HR28_TR_support_01",
+   "decision_ids": [
+    "HR28_V_TR_SEX"
+   ],
+   "block_ids": [
+    "HR28_B_TRSEX_EV",
+    "HR28_B_TRSEX_LIM",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Provision-based Tradition link."
+  },
+  {
+   "id": "HR28_TR_support_02",
+   "decision_ids": [
+    "HR28_V_TR_SEPARATE"
+   ],
+   "block_ids": [
+    "HR28_B_TRSEP_EV",
+    "HR28_B_TRSEP_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Provision-based Tradition link."
+  },
+  {
+   "id": "HR28_TR_oppose_02",
+   "decision_ids": [
+    "HR28_V_TR_LOCAL"
+   ],
+   "block_ids": [
+    "HR28_B_TRLOCAL_EV",
+    "HR28_B_TRLOCAL_CH",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Provision-based Tradition link with its challenge."
+  },
+  {
+   "id": "HR28_TR_oppose_03",
+   "decision_ids": [
+    "HR28_K_INQUIRY",
+    "HR28_K_BODILY",
+    "HR28_V_TR_MODESTY"
+   ],
+   "block_ids": [
+    "HR28_B_INQ_EV",
+    "HR28_B_INQ_LIM",
+    "HR28_B_LAW_SCOPE",
+    "HR28_B_RULE_SCOPE",
+    "HR28_B_BOD_EV",
+    "HR28_B_BOD_CH",
+    "HR28_B_BOD_LIM",
+    "HR28_B_SCOTUS_NOTE",
+    "HR28_B_TRMOD_EV"
+   ],
+   "rationale": "Two routes kept: intimate inquiries or bodily checks; one Tradition link."
+  }
+ ],
+ "responses": [
+  {
+   "id": "HR28_RESPONSE_HR28_UNC_support_01",
+   "argument_ids": [
+    "HR28_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_support_01",
+     "field": "response_reading",
+     "quote": "Response The evidence does not settle whether transgender women who train and compete keep the speed and power advantage this fairness argument needs. Because The review says the effects on people who train are not known. GAHT means hormone"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ADVANTAGE"
+   ],
+   "block_ids": [
+    "HR28_B_ADV_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Unresolved dispute about trained athletes; shown beside the strength-advantage claim with its stated limits."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNC_support_02",
+   "argument_ids": [
+    "HR28_UNC_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_support_02",
+     "field": "response_reading",
+     "quote": "Response Protecting a place does not by itself show that opportunity has become more equal. This reason depends on the fairness claim in Point 1. Because The bill’s practice exception requires that “no female is deprived of a roster spot on"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_PLACES",
+    "HR28_V_UNC_PLACESHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_FAIR_CH",
+    "HR28_B_PLACESH_FAIR_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Fairness dependency shown at both Concern links for kept places (education/leadership and health); it does not dispute the causal claims that places or their health benefits are kept, so it is not placed on K_PLACES or K_PLACESHEALTH."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNC_oppose_01",
+   "argument_ids": [
+    "HR28_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_01",
+     "field": "response_reading",
+     "quote": "Response For students who have gone through male puberty, listing the benefits of a lost team place does not show that the eligibility rule denies equal opportunity. Because Fair opportunity can require limits on who enters a sports categor"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_TEAMLOSS"
+   ],
+   "block_ids": [
+    "HR28_B_TEAMLOSS_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Value-level dispute about equal opportunity; its stated reach excludes the intersex route, which is a separate link."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNC_oppose_05",
+   "argument_ids": [
+    "HR28_UNC_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_05",
+     "field": "response_reading",
+     "quote": "Response The evidence does not establish that the bill would lead to bodily examinations or to sexual abuse resulting from them. Because H.R.28 restricts participation in programs “designated for women or girls.” [1] Its text adds no requir"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the bodily-check step only; its non-coverage of records inquiries is stated in the challenge and the inquiry claim is separate."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNT_support_01",
+   "argument_ids": [
+    "HR28_UNT_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_support_01",
+     "field": "response_reading",
+     "quote": "Response Accepting girls who object to a matchup is different from accepting their rule for who else may compete. Because The complaint explains the school’s religious objection to playing that game: “it would be affirming that sex is mutab"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNT_BELIEF"
+   ],
+   "block_ids": [
+    "HR28_B_BELIEF_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Value-level challenge shown with the tolerance link."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNT_support_02",
+   "argument_ids": [
+    "HR28_UNT_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_support_02",
+     "field": "response_reading",
+     "quote": "Response The cited study does not establish that the team places protected by the bill give practice in accepting different people. Because The change the study reports from team play is that it “made players more collectivistic in response"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_TEAMTOLERANCE"
+   ],
+   "block_ids": [
+    "HR28_B_TT_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the causal step from team places to practice in acceptance."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_UNT_oppose_01",
+   "argument_ids": [
+    "HR28_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_oppose_01",
+     "field": "response_reading",
+     "quote": "Response Accepting a person does not require agreeing on team eligibility, so losing eligibility is not by itself a loss of acceptance. Because Accepting people across disagreements leaves room to disagree about rules. [NAME] can listen to "
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNT_INCLUSION"
+   ],
+   "block_ids": [
+    "HR28_B_UNTINCL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Value-level challenge; its stated limits (contact, stigma, school choice) remain visible."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_SEP_support_02",
+   "argument_ids": [
+    "HR28_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_support_02",
+     "field": "response_reading",
+     "quote": "Response The one team-place example given does not show lost access to healthy exercise. Because Starling “was bumped down to the JV team.” [14] JV means junior varsity. Because The report adds that “she was moved back up to the varsity cro"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_PLACESHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_PH_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the step from a lost place to less exercise; the no-other-team case stays open."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_SEP_support_03",
+   "argument_ids": [
+    "HR28_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_support_03",
+     "field": "response_reading",
+     "quote": "Response The bill’s text and the quoted account do not show that shared changing is a covered activity. Because The bill limits its new definition of sex to “the purposes of this subsection” [1] . Because The bill's definition of athletic a"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_CHANGING"
+   ],
+   "block_ids": [
+    "HR28_B_CHANGE_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the coverage route only; the exclusion route is stated as unanswered."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_SEP_oppose_01",
+   "argument_ids": [
+    "HR28_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "Response Idaho’s separate medical-testing rule does not establish that H.R.28 would expose girls to intrusive exams. Because H.R.28 defines sex by “a person's reproductive biology and genetics at birth” [1] without ordering medical inspecti"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Bodily-check dispute; the fear route is a separate claim (K_DETER)."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_SES_oppose_03",
+   "argument_ids": [
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SES_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The research does not establish that changed eligibility would reduce violence prevention or community safety. Because HHS cites “McMahon S, Belur J. Sports-based Programmes and Reducing Youth Violence and Crime.” [18] That review "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_SAFERCOMMUNITY"
+   ],
+   "block_ids": [
+    "HR28_B_SC_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Disputes the violence and community-trust step; drug-use route stated as unanswered."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_TR_oppose_02",
+   "argument_ids": [
+    "HR28_TR_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_oppose_02",
+     "field": "response_reading",
+     "quote": "Response The argument has not shown that the particular sports exception being removed belongs to the family and local duties its religious sources protect. Because The cited Baptist resolution places parents’ decisions “under the authority"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_TR_LOCAL"
+   ],
+   "block_ids": [
+    "HR28_B_TRLOCAL_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Value-level challenge to the Tradition connection."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_TR_oppose_03",
+   "argument_ids": [
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_oppose_03",
+     "field": "response_reading",
+     "quote": "Response The House member managing the bill identifies a way to use records, which limits the argument about bodily examinations. Because The bill adds a violation of Title IX, the federal education law, for “a recipient of Federal financia"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Limited to the examination part; intimate-questioning route (K_INQUIRY) remains."
+  },
+  {
+   "id": "HR28_RESPONSE_HR28_C07",
+   "argument_ids": [
+    "HR28_UNC_oppose_05",
+    "HR28_SEP_oppose_01",
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C07",
+     "field": "response_reading",
+     "quote": "The bill’s text sets no examination procedure. The House member managing the bill said: “There is no requirement for inspections, and there is no necessary effort other than going to a person's birth certificate.” [5] The Idaho court said: "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_CH"
+   ],
+   "disposition": "retained",
+   "rationale": "Shared objection to the bodily-check claim, judged once."
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "HR28_QUAL_HR28_UNN_support_01_notes_html",
+   "argument_ids": [
+    "HR28_UNN_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Boyle organized her City Island cleanup in partnership with the New York Department of Sanitation. REthink grew to about 60 members and worked with campus units beyond athletics. Sources: [4] , [5] . Evidence note: At the com"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVKEPT",
+    "HR28_K_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_ENVKEPT_LIM",
+    "HR28_B_NCAA_COUNT"
+   ],
+   "rationale": "Partner, group-size and NCAA participation facts shown at the environmental-activity claim and the places claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNN_support_02_notes_html",
+   "argument_ids": [
+    "HR28_UNN_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: At the comparison date the NCAA regulated transgender participation sport by sport, with a U.S. Rowing testosterone threshold listed for rowing. Rep. Bonamici told the House that about 10 of roughly 510,000 NCAA athletes were"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVKEPT",
+    "HR28_K_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_NCAA_COUNT"
+   ],
+   "rationale": "NCAA rule and participation count shown where the rowing route is judged."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNN_support_03_notes_html",
+   "argument_ids": [
+    "HR28_UNN_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: Kottkamp began as a walk-on without previous competitive rowing experience and later earned a full athletic scholarship. Her environmental education curriculum work took place during a 2013 Peru internship supported by a Kell"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVKEPT",
+    "HR28_K_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_ENVKEPT_LIM",
+    "HR28_B_NCAA_COUNT"
+   ],
+   "rationale": "Walk-on and internship facts, and the NCAA count, shown at the environmental-activity claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNN_oppose_01_notes_html",
+   "argument_ids": [
+    "HR28_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The camp study measured a 15-day programme with about 6-10 hours of activity daily, including trekking, biking, climbing and canoeing. It did not measure school racing. Sources: [13] . Evidence note: College sailing rules for"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVLOST"
+   ],
+   "block_ids": [
+    "HR28_B_ENVLOST_LIM"
+   ],
+   "rationale": "Camp-study scope, open sailing events and practice permission shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNN_oppose_01_gap_0",
+   "argument_ids": [
+    "HR28_UNN_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_oppose_01",
+     "field": "gaps[0].explanation",
+     "quote": "The camp study did not measure school racing, and the Harvard feature does not separate racing from practice. This is a limit on the evidence."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVLOST"
+   ],
+   "block_ids": [
+    "HR28_B_ENVLOST_LIM"
+   ],
+   "rationale": "Evidence limit from recreation to racing shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNN_oppose_02_notes_html",
+   "argument_ids": [
+    "HR28_UNN_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNN_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The Tufts cleanup included about 20 athletes from men's and women's rowing and women's track and field, plus community volunteers. Sources: [17] ."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVLOST"
+   ],
+   "block_ids": [
+    "HR28_B_ENVLOST_LIM"
+   ],
+   "rationale": "Tufts participant mix shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_support_01_notes_html",
+   "argument_ids": [
+    "HR28_UNC_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: NCAA eligibility on the comparison date used sport-specific testosterone thresholds. CRS reports that some states and school districts allowed participation with no particular requirements or restrictions. CRS is the Congress"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ADVANTAGE"
+   ],
+   "block_ids": [
+    "HR28_B_NCAA_THRESH",
+    "HR28_B_BJSM"
+   ],
+   "rationale": "Hormone-limit context and the 2026 review shown at the advantage claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_support_03_notes_html",
+   "argument_ids": [
+    "HR28_UNC_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_support_03",
+     "field": "notes_html",
+     "quote": "Evidence note: World Rugby's October 2020 summary states that there were no direct studies on trans women rugby players. Its collision estimate models typical male mass against typical female mass. The review cited by the argument says horm"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_CONTACT",
+    "HR28_V_UNC_FORFEIT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_LIM",
+    "HR28_B_BJSM",
+    "HR28_B_FORFEIT_LIM"
+   ],
+   "rationale": "Rugby modelling limits and review at the contact claim; McNabb dates and Snopes findings at the forfeit link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_01_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: NCAA eligibility on the comparison date used sport-specific testosterone thresholds. CRS reports that some states and school districts allowed participation with no particular requirements or restrictions. CRS is the Congress"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_TEAMLOSS"
+   ],
+   "block_ids": [
+    "HR28_B_NCAA_THRESH"
+   ],
+   "rationale": "Hormone-limit context shown at the team-loss link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_02_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The court in B.P.J.'s case found a real dispute about the facts of competitive advantage (a genuine dispute of material fact). It left her equal-protection claim for further proceedings. In September 2024 the Ninth Circuit, a"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_INDIVIDUAL"
+   ],
+   "block_ids": [
+    "HR28_B_BPJ_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "Procedural status and later reversal shown as dated context at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_03_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The CDC figures come from a cross-sectional school survey (a survey at one point in time) and do not compare outcomes under different sports eligibility rules. The bill permits practice under its stated conditions. CDC is the"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_STIGMA"
+   ],
+   "block_ids": [
+    "HR28_B_UNCSTIGMA_LIM"
+   ],
+   "rationale": "Survey design limit shown at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_04_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: B.P.J.'s dispute concerned girls' cross country and track teams. The court referred to physical danger \"in some sports\". Sources: [23] . Evidence note: On June 30, 2026, after the January 14, 2025 comparison date, the Supreme"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BOYSTEAM",
+    "HR28_K_BOYSDANGER",
+    "HR28_V_UNC_BOYSFAIR",
+    "HR28_V_UNC_BOYSDANGER"
+   ],
+   "block_ids": [
+    "HR28_B_BOYS_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "Sport scope shown at the opponents claim, the some-sports danger claim and both Concern links; later reversal shown at the opponents claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_05_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_05"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_05",
+     "field": "notes_html",
+     "quote": "Evidence note: The Florida inquiry also examined staff handling of records, and the student's mother faced discipline. NCAA policy already required annual eligibility documentation from transgender women athletes. Regulations under FERPA, a"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INQUIRY",
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_INQ_LIM",
+    "HR28_B_BOD_LIM"
+   ],
+   "rationale": "Florida inquiry facts and existing privacy limits at the inquiry claim; Idaho process and no verification process at the bodily-check claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_06_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_06"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_06",
+     "field": "notes_html",
+     "quote": "Evidence note: A court had blocked Utah's categorical ban before the February 2024 episode. Utah's fallback commission was then deciding transgender girls' eligibility. The official censure attributed the harm to the board member's public p"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_LIM"
+   ],
+   "rationale": "Utah timing and attribution shown at the accusations claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNC_oppose_07_notes_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_07"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNC_oppose_07",
+     "field": "notes_html",
+     "quote": "Evidence note: Section 1682, the law on enforcing Title IX, requires a hearing, an express finding and a failed attempt at voluntary compliance, and limits termination to the particular program. In 2025 a court blocked (restrained) a USDA f"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_FUNDING"
+   ],
+   "block_ids": [
+    "HR28_B_FUND_LIM"
+   ],
+   "rationale": "Enforcement limits and the Maine/California record shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNT_support_02_notes_html",
+   "argument_ids": [
+    "HR28_UNT_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The girls' basketball study reports that its workshops, a three-session intervention, did not have the intended effect of increasing understanding of a different value system. That result concerns the intervention, not team p"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_TEAMTOLERANCE"
+   ],
+   "block_ids": [
+    "HR28_B_TT_CH"
+   ],
+   "rationale": "Workshop result, study size and measured outcome stated in the challenge block at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNT_oppose_01_notes_html",
+   "argument_ids": [
+    "HR28_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The cited study compared any sports team participation with none. It did not compare acceptance with and without access to girls' competition. The bill allows conditional training or practice. Sources: [9] , [1] . Evidence no"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNT_INCLUSION"
+   ],
+   "block_ids": [
+    "HR28_B_UNTINCL_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "Study comparison limit and later reversal shown at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNT_oppose_02_notes_html",
+   "argument_ids": [
+    "HR28_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The letter names no specific ban or exclusion and gives no worked example of how conflicting traits would be treated. During debate the House member managing the bill said the bill \"deals with men in sports\" when asked about "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INTERSEX"
+   ],
+   "block_ids": [
+    "HR28_B_INTERSEX_LIM"
+   ],
+   "rationale": "No worked example and the manager’s statement shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNT_oppose_02_gap_0",
+   "argument_ids": [
+    "HR28_UNT_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_oppose_02",
+     "field": "gaps[0].explanation",
+     "quote": "The letter names no specific ban and gives no worked example. The evidence note below states this limit."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INTERSEX"
+   ],
+   "block_ids": [
+    "HR28_B_INTERSEX_LIM"
+   ],
+   "rationale": "Evidence gap shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_UNT_oppose_03_notes_html",
+   "argument_ids": [
+    "HR28_UNT_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_UNT_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The Salt Lake Tribune dates the Utah complaint to the year before the ban took effect in July 2022, when the association let registered transgender athletes compete after a year of hormone blockers. An association spokesman s"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_LIM"
+   ],
+   "rationale": "Complaint timing, registered-athlete count and unverified complaints shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_support_01_notes_html",
+   "argument_ids": [
+    "HR28_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Snopes, a fact-checking website, states in March 2025 that it is not possible to verify whether the player who spiked the ball into Payton McNabb's head was transgender. It also states that a volleyball player can sustain suc"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_CONTACT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_LIM",
+    "HR28_B_BJSM",
+    "HR28_B_FORFEIT_LIM"
+   ],
+   "rationale": "Modelling limits and review at the contact claim; the note’s McNabb/Snopes facts bear on reading injuries as evidence of risk and are shown there too."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_support_01_gap_0",
+   "argument_ids": [
+    "HR28_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_support_01",
+     "field": "gaps[0].explanation",
+     "quote": "The source’s conclusion addresses the international game and allows national flexibility. It does not say the risk is absent at lower levels."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_CONTACT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_LIM"
+   ],
+   "rationale": "International-level limit shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_support_02_gap_0",
+   "argument_ids": [
+    "HR28_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "The inference for a girl with no other team is the argument's own reasoning. The example itself shows a girl who stayed active."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_PLACESHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_PH_CH"
+   ],
+   "rationale": "Gap shown in the challenge at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_oppose_01_notes_html",
+   "argument_ids": [
+    "HR28_SEP_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_oppose_01",
+     "field": "notes_html",
+     "quote": "Evidence note: Idaho's statute included a separate sex-dispute verification process, which the Ninth Circuit described as allowing gynecological exams. The same court reported that most states with categorical bans verified sex through a bi"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "Idaho process, no verification process and later reversal shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_oppose_02_notes_html",
+   "argument_ids": [
+    "HR28_SEP_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: Existing Title IX rules allowed separate sex-based teams. The Utah board treated the post as a breach of existing duties, including respecting student privacy and preventing harassment. H.R.28 creates no procedure for publicl"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_LIM"
+   ],
+   "rationale": "Existing rules, board treatment and no dispute procedure shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_oppose_03_notes_html",
+   "argument_ids": [
+    "HR28_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The Colorado study measured the number of sports teams played and states that it cannot assess whether team participation directly reduces adverse mental-health outcomes. The missed-checkup statement is one provider's predict"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_SPORTSHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_SPH_LIM"
+   ],
+   "rationale": "Study and provider-prediction limits shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SEP_oppose_04_notes_html",
+   "argument_ids": [
+    "HR28_SEP_oppose_04"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SEP_oppose_04",
+     "field": "notes_html",
+     "quote": "Evidence note: The language on divisiveness from the American Psychological Association (APA) appears in suggested advocacy text asking legislators to oppose a bill. That text cites a document from the American Civil Liberties Union (ACLU)."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_STIGMAHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_STIGMAH_LIM"
+   ],
+   "rationale": "Advocacy-text and other-supports limits shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SES_oppose_02_notes_html",
+   "argument_ids": [
+    "HR28_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SES_oppose_02",
+     "field": "notes_html",
+     "quote": "Evidence note: The values paper cited in this argument states: \"Societal security values concern safety and stability in the wider society rather than personal safety.\" The fixed value statements for this value include having a strong state"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_SES_ACCUSE",
+    "HR28_K_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_SES_SCOPE",
+    "HR28_B_ACC_LIM"
+   ],
+   "rationale": "Value scope at the link; earlier reprimand and accusations report at the accusations claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SES_oppose_02_gap_0",
+   "argument_ids": [
+    "HR28_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SES_oppose_02",
+     "field": "gaps[0].explanation",
+     "quote": "The Justice Department statement concerns hate crimes, and the Utah report concerns one student. The argument uses them as an analogy to community-level harm."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ACCUSECOMMUNITY"
+   ],
+   "block_ids": [
+    "HR28_B_ACCC_LIM"
+   ],
+   "rationale": "Analogy limit shown at the change-of-scale claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SES_oppose_03_notes_html",
+   "argument_ids": [
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SES_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The values paper cited in this argument states: \"Societal security values concern safety and stability in the wider society rather than personal safety.\" The fixed value statements for this value include having a strong state"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_SES_SPORTS",
+    "HR28_K_SAFERCOMMUNITY"
+   ],
+   "block_ids": [
+    "HR28_B_SES_SCOPE",
+    "HR28_B_SC_LIM"
+   ],
+   "rationale": "Value scope at the link; study, association and suicide-figure limits at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_SES_oppose_03_gap_0",
+   "argument_ids": [
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_SES_oppose_03",
+     "field": "gaps[0].explanation",
+     "quote": "The review reports an association in sports participation. The review does not show cause. The text states this limit."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_SAFERCOMMUNITY"
+   ],
+   "block_ids": [
+    "HR28_B_SC_LIM"
+   ],
+   "rationale": "Association limit shown at the claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_TR_support_01_notes_html",
+   "argument_ids": [
+    "HR28_TR_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_support_01",
+     "field": "notes_html",
+     "quote": "Evidence note: The bill's definition of sex applies \"for the purposes of this subsection\". It does not regulate what schools teach about gender identity. Sources: [1] ."
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_TR_SEX"
+   ],
+   "block_ids": [
+    "HR28_B_TRSEX_LIM"
+   ],
+   "rationale": "Definition scope shown at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_TR_support_02_notes_html",
+   "argument_ids": [
+    "HR28_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_support_02",
+     "field": "notes_html",
+     "quote": "Evidence note: NCAA policy from 2011 allowed transgender athletes in sex-separated sports subject to hormone-therapy conditions. On the comparison date the NCAA regulated eligibility sport by sport, with women's teams retained. NCAA is the "
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_TR_SEPARATE"
+   ],
+   "block_ids": [
+    "HR28_B_TRSEP_LIM"
+   ],
+   "rationale": "NCAA history shown at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_TR_support_02_gap_0",
+   "argument_ids": [
+    "HR28_TR_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_support_02",
+     "field": "gaps[0].explanation",
+     "quote": "Women’s teams remained separate under NCAA rules that allowed some transgender athletes, so the argument concerns who counts as female in that practice. The evidence note below states this limit."
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_TR_SEPARATE"
+   ],
+   "block_ids": [
+    "HR28_B_TRSEP_LIM"
+   ],
+   "rationale": "Who-counts-as-female limit shown at the link."
+  },
+  {
+   "id": "HR28_QUAL_HR28_TR_oppose_03_notes_html",
+   "argument_ids": [
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_TR_oppose_03",
+     "field": "notes_html",
+     "quote": "Evidence note: The Education Department's civil-rights manual limits release of documents that would cause an unwarranted invasion of privacy. Illinois's association policy kept eligibility documents confidential unless the student or paren"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INQUIRY"
+   ],
+   "block_ids": [
+    "HR28_B_INQ_LIM"
+   ],
+   "rationale": "Existing privacy rules shown at the inquiry claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C01_scope_html",
+   "argument_ids": [
+    "HR28_UNN_oppose_01",
+    "HR28_UNN_oppose_02",
+    "HR28_UNC_support_01",
+    "HR28_UNC_support_02",
+    "HR28_UNC_support_03",
+    "HR28_UNC_oppose_01",
+    "HR28_UNC_oppose_02",
+    "HR28_UNC_oppose_03",
+    "HR28_UNC_oppose_04",
+    "HR28_UNC_oppose_05",
+    "HR28_UNC_oppose_06",
+    "HR28_UNC_oppose_07",
+    "HR28_UNT_support_01",
+    "HR28_UNT_support_02",
+    "HR28_UNT_oppose_01",
+    "HR28_UNT_oppose_02",
+    "HR28_UNT_oppose_03",
+    "HR28_SEP_support_01",
+    "HR28_SEP_support_02",
+    "HR28_SEP_support_03",
+    "HR28_SEP_oppose_01",
+    "HR28_SEP_oppose_02",
+    "HR28_SEP_oppose_03",
+    "HR28_SEP_oppose_04",
+    "HR28_SES_oppose_02",
+    "HR28_SES_oppose_03",
+    "HR28_TR_support_01",
+    "HR28_TR_support_02",
+    "HR28_TR_oppose_02",
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C01",
+     "field": "scope_html",
+     "quote": "The rule covers only programs designated for women or girls at places that receive federal money. The definition applies “For the purposes of this subsection” [1] . The text does not name transgender, nonbinary or intersex students, and it "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_ENVLOST",
+    "HR28_K_ADVANTAGE",
+    "HR28_K_CONTACT",
+    "HR28_V_UNC_FORFEIT",
+    "HR28_V_UNC_TEAMLOSS",
+    "HR28_V_UNC_INDIVIDUAL",
+    "HR28_V_UNT_INCLUSION",
+    "HR28_V_UNT_BELIEF",
+    "HR28_K_INTERSEX",
+    "HR28_K_STIGMA",
+    "HR28_K_EXIT",
+    "HR28_K_DETER",
+    "HR28_K_CHANGING",
+    "HR28_K_INQUIRY",
+    "HR28_K_BODILY",
+    "HR28_K_ACCUSE",
+    "HR28_K_FUNDING",
+    "HR28_K_BOYSTEAM",
+    "HR28_V_TR_SEX",
+    "HR28_V_TR_SEPARATE",
+    "HR28_V_TR_LOCAL"
+   ],
+   "block_ids": [
+    "HR28_B_RULE_SCOPE"
+   ],
+   "rationale": "Rule scope shown at every first decision on each argument’s chain."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C02_scope_html",
+   "argument_ids": [
+    "HR28_UNN_support_01",
+    "HR28_UNN_support_02",
+    "HR28_UNN_support_03",
+    "HR28_UNN_oppose_01",
+    "HR28_UNN_oppose_02",
+    "HR28_UNC_support_02",
+    "HR28_UNC_oppose_01",
+    "HR28_UNT_support_02",
+    "HR28_UNT_oppose_01",
+    "HR28_SEP_support_02",
+    "HR28_SEP_oppose_03",
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C02",
+     "field": "scope_html",
+     "quote": "This exception allows a school to permit practice. It does not require practice to be offered. The meaning of “any other benefit” [1] is left to a later federal study."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_PLACES",
+    "HR28_K_ENVLOST",
+    "HR28_V_UNC_TEAMLOSS",
+    "HR28_V_UNT_INCLUSION",
+    "HR28_K_EXIT"
+   ],
+   "block_ids": [
+    "HR28_B_PRACTICE_SCOPE"
+   ],
+   "rationale": "Practice-exception scope at each decision that relies on it."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C03_scope_html",
+   "argument_ids": [
+    "HR28_UNN_oppose_02",
+    "HR28_UNC_oppose_01",
+    "HR28_UNT_oppose_01",
+    "HR28_SEP_support_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C03",
+     "field": "scope_html",
+     "quote": "The clause does not list particular activities. It does not say that a leadership position, a changing room or a study group is covered unless access depends on being on the team."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVLOST",
+    "HR28_V_UNC_TEAMLOSS",
+    "HR28_V_UNT_INCLUSION",
+    "HR28_K_CHANGING"
+   ],
+   "block_ids": [
+    "HR28_B_TEAMACT_SCOPE"
+   ],
+   "rationale": "Team-activity scope at each decision that relies on it."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C04_scope_html",
+   "argument_ids": [
+    "HR28_UNN_oppose_01",
+    "HR28_UNN_oppose_02",
+    "HR28_UNC_oppose_07",
+    "HR28_UNT_oppose_03",
+    "HR28_SEP_support_01",
+    "HR28_SES_oppose_03",
+    "HR28_TR_support_02",
+    "HR28_TR_oppose_02",
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C04",
+     "field": "scope_html",
+     "quote": "Practice differed by place. The bill would change the rule only where this participation was allowed. Later events, such as the National Collegiate Athletic Association (NCAA) rule change on February 6, 2025, are not part of this comparison"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ENVLOST",
+    "HR28_K_FUNDING",
+    "HR28_K_ACCUSE",
+    "HR28_K_CONTACT",
+    "HR28_K_EXIT",
+    "HR28_K_SAFERCOMMUNITY",
+    "HR28_V_TR_SEPARATE",
+    "HR28_V_TR_LOCAL",
+    "HR28_K_INQUIRY",
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_LAW_SCOPE"
+   ],
+   "rationale": "Comparison scope at each decision whose change depends on prior participation."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C05_scope_html",
+   "argument_ids": [
+    "HR28_UNC_support_03",
+    "HR28_SEP_support_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C05",
+     "field": "scope_html",
+     "quote": "This claim covers contact competition only. It does not cover athletes who did not go through male puberty. The evidence is not a measured count of injuries involving transgender players. World Rugby’s conclusion was for “the international "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_CONTACT"
+   ],
+   "block_ids": [
+    "HR28_B_CONTACT_LIM"
+   ],
+   "rationale": "Shown at the contact claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C07_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_05",
+    "HR28_SEP_oppose_01",
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C07",
+     "field": "scope_html",
+     "quote": "This claim is only about bodily checks. It is not about questions based on records, interviews, public accusations, or fear of being challenged. Rejecting this claim blocks only the parts of an argument (routes) that need bodily checks."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_BODILY"
+   ],
+   "block_ids": [
+    "HR28_B_BOD_LIM"
+   ],
+   "rationale": "Shown at the bodily-check claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C09_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_06",
+    "HR28_UNT_oppose_03",
+    "HR28_SEP_oppose_02",
+    "HR28_SES_oppose_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C09",
+     "field": "scope_html",
+     "quote": "Women’s rights and civil rights groups state the wider risk as a warning. The bill’s text creates no procedure for publicly disputing a student’s sex [1] . The Utah events did not happen under H.R.28. A court had blocked Utah’s ban before t"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_ACCUSE"
+   ],
+   "block_ids": [
+    "HR28_B_ACC_LIM"
+   ],
+   "rationale": "Shown at the accusations claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C10_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_03",
+    "HR28_UNT_oppose_01",
+    "HR28_SEP_oppose_04",
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C10",
+     "field": "scope_html",
+     "quote": "This is a statement by advocacy groups, not a measured result. The bill allows training or practice under conditions, but not competition in the women’s or girls’ program."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_STIGMA"
+   ],
+   "block_ids": [
+    "HR28_B_STIGMA_LIM"
+   ],
+   "rationale": "Shown at the stigma claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C11_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_01",
+    "HR28_UNT_oppose_02",
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C11",
+     "field": "scope_html",
+     "quote": "The groups’ letter names no specific ban or exclusion and gives no worked example of how conflicting traits would be treated [1] . The bill does not name intersex variations [2] . In debate, the House member managing the bill said the bill "
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INTERSEX"
+   ],
+   "block_ids": [
+    "HR28_B_INTERSEX_LIM"
+   ],
+   "rationale": "Shown at the intersex claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C12_scope_html",
+   "argument_ids": [
+    "HR28_SEP_support_02",
+    "HR28_SEP_oppose_01",
+    "HR28_SEP_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C12",
+     "field": "scope_html",
+     "quote": "This is an association in youth generally. It does not show who would exercise less under the bill, and it does not compare any eligibility rules."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_SPORTSHEALTH",
+    "HR28_K_PLACESHEALTH"
+   ],
+   "block_ids": [
+    "HR28_B_HEALTHASSOC_SCOPE"
+   ],
+   "rationale": "Association limit at both health claims."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C13_scope_html",
+   "argument_ids": [
+    "HR28_SEP_oppose_03",
+    "HR28_SES_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C13",
+     "field": "scope_html",
+     "quote": "This statement says some students do this, not how many. The sources are about stated reasons in surveys and do not measure the effect of H.R.28."
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_EXIT"
+   ],
+   "block_ids": [
+    "HR28_B_EXIT_LIM"
+   ],
+   "rationale": "Shown at the leaving-sport claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C14_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_02",
+    "HR28_UNT_oppose_01"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C14",
+     "field": "scope_html",
+     "quote": "The decision concerned one student who took puberty-blocking treatment. The court did not forbid separate boys’ and girls’ teams. On the comparison date, the appeals court ruling was in force in that court’s area. The later Supreme Court de"
+    }
+   ],
+   "decision_ids": [
+    "HR28_V_UNC_INDIVIDUAL"
+   ],
+   "block_ids": [
+    "HR28_B_BPJ_LIM",
+    "HR28_B_SCOTUS_NOTE"
+   ],
+   "rationale": "One-student scope and later reversal at the link that relies on the ruling."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C16_scope_html",
+   "argument_ids": [
+    "HR28_UNC_oppose_05",
+    "HR28_TR_oppose_03"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C16",
+     "field": "scope_html",
+     "quote": "This is one case under Florida law, not H.R.28. The teammates said “they were never disrobed with Norton's daughter.” [1] The reports describe questions and records, not a bodily exam. The inquiry also examined staff handling of records [1]"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_INQUIRY"
+   ],
+   "block_ids": [
+    "HR28_B_INQ_LIM"
+   ],
+   "rationale": "Shown at the inquiry claim."
+  },
+  {
+   "id": "HR28_QUAL_HR28_C17_scope_html",
+   "argument_ids": [
+    "HR28_UNC_support_02",
+    "HR28_UNT_support_02",
+    "HR28_SEP_support_02"
+   ],
+   "source_refs": [
+    {
+     "id": "HR28_C17",
+     "field": "scope_html",
+     "quote": "This applies only where places are limited. Former swimmer Paula Scanlan gave no details of who lost places. In the news report, the runner returned to the top team after missing one meet. How often this happens belongs to the later compari"
+    }
+   ],
+   "decision_ids": [
+    "HR28_K_PLACES"
+   ],
+   "block_ids": [
+    "HR28_B_PLACES_LIM"
+   ],
+   "rationale": "Shown at the places claim."
+  }
+ ]
+}

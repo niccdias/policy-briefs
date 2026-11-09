@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "migration": "lossless native packaging of approved H.R.5408 decisions",
+  "node_content_unchanged": true,
+  "contexts_unchanged": true,
+  "used_blocks_unchanged": true,
+  "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+  "nodes": 108,
+  "blocks": 144,
+  "upstream_decisions_sha256": "13311ad860bfb4405397b439c99ccd499661fc63b2d58f739bc15ad33acdd451"
+}
