@@ -10,7 +10,7 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 
 export async function approvalInputs(){
  const manifest=JSON.parse(await readFile(join(root,'input-manifest.json'),'utf8'));
- const files=['input-manifest.json','PROCEDURE.md','site-copy.json','build-site.mjs','publication-gate.mjs','browser-qa.mjs','audit-content.mjs','convert-hr5408.mjs','content-audit-findings.json','package.json','package-lock.json','firebase-config.json','firebase.json','backend/firestore.rules'];
+ const files=['input-manifest.json','PROCEDURE.md','site-copy.json','session-compatibility.json','build-site.mjs','publication-gate.mjs','browser-qa.mjs','audit-content.mjs','convert-hr5408.mjs','content-audit-findings.json','package.json','package-lock.json','firebase-config.json','firebase.json','backend/firestore.rules'];
  for(const name of (await readdir(join(root,'runtime'))).sort()){
   assert(/^[a-z0-9.-]+\.(?:mjs|js|json|css)$/.test(name),'Unexpected file in public runtime: '+name);
   files.push('runtime/'+name);

@@ -3,7 +3,7 @@
   "status": "passed",
   "open_findings": [],
   "browser": "Isolated headless Chrome with Firebase Auth/Firestore emulators; synthetic assigned Google accounts only. The test server adds emulator loopback endpoints to connect-src and a store handle used solely to delay a completed conflict resolution during sign-out; published HTML has neither.",
-  "script_sha256": "54703f7cd00d17140ebae8c10f530225a7a98dde0d9d4aef9e9659012b6f1261",
+  "script_sha256": "3146ad82c85a48ef43d9c39d1ca56834df6e346645b85a997728a0c8b9f2207a",
   "checks": [
     "s1582: pre-existing untouched cloud session seeded before anonymous Continue and sign-in.",
     "s1582: first screen contains only the approved short bill description, bill title and Continue; glossary terms use hover definitions; navigation cannot bypass it; five viewport sizes fit.",
@@ -46,6 +46,15 @@
     {
       "slug": "s1582",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_1582",
+        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "content_id": "content-f8081c0d26f532b202ac918f3816eb23c2a384fa6986a9d99365b9b86fe0c7b6",
+        "mapping_id": "mapping-7af3fd4ff5fb957a540496e285f5d3dc5f72faac2dd8a9e0de5b231f7f744431",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-13e1bb7d05115d23c49114d67750ceafa0bbf2d42bb5ee251f616b87042cca8d"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_1582",
         "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
@@ -186,11 +195,20 @@
         "S1582_V_UNT_SANCTIONS"
       ],
       "comparisons": 6,
-      "html_sha256": "5d8e01c911f443eee67a5e2e43eca39fa82e0ba6a2903ace9d68c0345ff92092"
+      "html_sha256": "4408cef7065c37a4233cd055569987b714eafe113b4e558369cf166b4b36e8b8"
     },
     {
       "slug": "sjres88",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_J_Res_88",
+        "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "content_id": "content-5f468ecd83112542d460a381f24f68f8d20c35b7fa1b9e4d7273fcdd45b941c4",
+        "mapping_id": "mapping-ad1968bb1bc461e1ed33d3827bfbab46e25ee624e5c81c385dfd01d1d4e95087",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-b4ba6422886b4cda3510f62bf8d12ff2f791cd2a1cc22f1202a8aeb83aa4f220"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_J_Res_88",
         "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
@@ -280,11 +298,20 @@
         "SJRES88_V_SES_LAW"
       ],
       "comparisons": 6,
-      "html_sha256": "4366a2892442445c1030d825b5889e7d7c8fc40a5a78f29d1ef8769fd2f5c5d4"
+      "html_sha256": "51d5e90e85c2815031981bed709f7f6e2dce1e6fcfe416d212214962bc501f2f"
     },
     {
       "slug": "hr5408",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_5408",
+        "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "content_id": "content-f0117e453a734a178dd736d86226b642c3b966ce783fc2c14bb356f8c97a8719",
+        "mapping_id": "mapping-8858c1964204bc850aa93a59dd3f7c18be0ea9bd20e8d3c90e6e5073d225ea8f",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-3aa9fd36689f558ef042962b4798daa2ae37d767244867fa9a7303d22dbb0307"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_5408",
         "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
@@ -406,11 +433,20 @@
         "HR5408_DT_V_UNT_REJECTION"
       ],
       "comparisons": 6,
-      "html_sha256": "12c2b90ddcc43d5be36a34ffc9921da03e37a56915cddd5607c521daef34e57e"
+      "html_sha256": "35974d20acde1f9817d56e1531c7046beca5cee43e7e40e2f1eaa2db93d3d05c"
     },
     {
       "slug": "hr131",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_131",
+        "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "content_id": "content-76c9015a93f2e38edfbdb1cbbf52a8308f36a3d174c8ab280feebe83ca451934",
+        "mapping_id": "mapping-1a10d5624202e4790d143ee52b16a1e07f446e34f39a9a3bba26c8e237ebc2be",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-0bd18fecf010d698d882f38c03a9e2fdf4bb9d0cfa731b446071c2f20858a527"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_131",
         "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
@@ -472,11 +508,20 @@
         "HR131_V_UNC_ONE"
       ],
       "comparisons": 4,
-      "html_sha256": "96c8e0979cd373625af205bbe4f153a0b420e13d5c43be21994677f575c6cccb"
+      "html_sha256": "f7d87e329ce3e1daa49d0df34a7620622abfa50a1041e50f97c4a0201de5a224"
     },
     {
       "slug": "hr4405",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_4405",
+        "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "content_id": "content-4f1e5525bd8df2d5c82bd394236d3dc5640115076195560bb59f803a8c8c28c6",
+        "mapping_id": "mapping-0f642f9004c4ca991e89647dc5f609413bf85a07f28fa3fd93b5e08a565c078b",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-1e3fb7cd61186c0e6219b2e6c9590cdb2c976f97ed61872a682188e6b7f8f520"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_4405",
         "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
@@ -553,11 +598,20 @@
         "HR4405_V_UNN_ENFORCEMENT"
       ],
       "comparisons": 6,
-      "html_sha256": "8ad9be4a1f1608afea67f5e6295861e5c188a5a75dbde094103d1af5a3409d86"
+      "html_sha256": "c619195680008bd208abd531dca6916fbda1ff6b4100539fe2017b8712043b7d"
     },
     {
       "slug": "hr1834",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_1834",
+        "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "content_id": "content-418866164d79c71959b2feeb8a041f07e2ec842a2fe17c03ded4e38bdede0b66",
+        "mapping_id": "mapping-fc766e1da723cb62cb2ff617993a48d48c5613aa32e3b28e4fdb145f023749c2",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-183add1d6606c3328a779c37cc05d6c99c853cc19f5446dd0b5c4cf7aca19f73"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_1834",
         "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
@@ -679,11 +733,20 @@
         "HR1834_V_TR_MARRIAGE_O"
       ],
       "comparisons": 6,
-      "html_sha256": "734cfc8793dff260ef78ff130837d3534611e842053b23db7ee2f565ed32f3fb"
+      "html_sha256": "1a0299db425fb671106f6031f1c10c30278d3654b4764b72dce0cadde6ea4cf0"
     },
     {
       "slug": "hr28",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_28",
+        "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "content_id": "content-baa1148137c45387ec78ff8016910b8c4e155a5b542ab869bc082e076d16f8f5",
+        "mapping_id": "mapping-518a067d571bdb6a3c54d0384a5ff7a880b108d2f6aeae56ac0a1bb8f916b4fa",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-31cd3bb6637fecd2e29fcb611a0d2c3e25791e1731456689f26832fa4ef8b27a"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_28",
         "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
@@ -755,11 +818,20 @@
         "HR28_V_TR_LOCAL"
       ],
       "comparisons": 5,
-      "html_sha256": "fb888a8fa48a7d2956bf2b1465d459f89ca2120d212481104f6893d3450faefe"
+      "html_sha256": "07aad1d04e4839f98ef2377d39893c057182a4f80a00d5db3d2162224d029141"
     },
     {
       "slug": "s2",
       "release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_2",
+        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "content_id": "content-916e4279610b465f5b7c833f7e9b4d4c8645f11e0cd94670ad127d555d3c2a47",
+        "mapping_id": "mapping-f7a10ee14ee6743c94f48a9ba67ba3d4d10032ed7fcbec0a7e506838037b1de3",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-800fb1f21a0755b0ffeeaa7a2c84f7e33b30d29fdbaf27cf3b6a16b3cfa05c10"
+      },
+      "session_release": {
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_2",
         "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
@@ -894,7 +966,7 @@
         "S2_V_UNT_HEARING"
       ],
       "comparisons": 6,
-      "html_sha256": "0af7d07ecc6795dbdb46ec7da62fc85024468a3d6818acd2550da7bcb85558f2"
+      "html_sha256": "11b88143615a3eb9175eb735e11eb170e30bc2c588b287e17b70145000baae73"
     }
   ],
   "layouts": [

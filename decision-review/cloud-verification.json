@@ -2,168 +2,26 @@
   "schema_version": 1,
   "status": "passed",
   "open_findings": [],
-  "verified_date": "2026-11-09",
-  "scope": "Bounded display/glossary update to the existing Google-account review: approved short-description overrides and hover definitions on intro and reading pages. Firebase service, configuration, access rules and account/session behavior are unchanged.",
+  "verified_date": "2026-11-10",
+  "scope": "Removal of Pending from the final comparison form and removal of its instructions. Existing sessions use their unchanged prior release identity; current rendered artifacts are hashed separately. Firebase service, configuration, rules and state schema are unchanged.",
   "input_sha256": {
     "runtime/firebase.mjs": "90a635111bf2ccaa372536305e22e090f90804a060adda538d262530007da640",
     "runtime/firebase.test.mjs": "04b9b4948aae0689564909bb76cada0309f4df73663c2d61e80364aaf2d03148",
-    "runtime/app.js": "93a4759fe4124d9978ec26c13a92c623ed77321463b50a5e08cb19e1ba7b1efd",
-    "runtime/build.mjs": "86f222d1b6a69e231978d841c485e060c05342e67ebe6f2114b52e96c9b5036a",
-    "runtime/copy.json": "03e1c0c2752bf93d2d3de56f9fe80d60e5087730b7ef21134866d49661fe2b2a",
+    "runtime/app.js": "bf8196be08c1aec81945649957356daed1ea2e31d3294309abbb500f298d5d58",
+    "runtime/build.mjs": "7e360d5a636275d1d5b80318074b5ce7a2428198756009faa5992cd89c35427f",
+    "runtime/copy.json": "79dec6af697f5ab1abaf32089847f47bf81c0ceb14e282219eb92cd9dad04440",
     "site-copy.json": "3f373fcb984742f3f61aa7d9cb62fab9dd0f00ec6182b23023eed0a95a58d78d",
     "package.json": "f5029157811f90ad3296ec10e59d61f6b886dbfa59f611fff05162feffd05aad",
     "package-lock.json": "b8a82a616c6a7277c545be5d64f5f3ffddf4a930f9745b45fa17537f00e5b933",
     "firebase-config.json": "e2c6afbaf3c5bc8ef01f073e1dfc30e67494eed4ba9f6011488750aea7accc65",
     "firebase.json": "738c9194f7c24cb308c661a8e977502217dd232fa028e0eddd6fd65adcb2a686",
     "backend/firestore.rules": "1725c2e56594e7c1f9e4e83906e38ef7a9d3582eb0a6f96225f3bd397eec7206",
-    "browser-qa.mjs": "54703f7cd00d17140ebae8c10f530225a7a98dde0d9d4aef9e9659012b6f1261"
-  },
-  "independent_source_review": {
-    "status": "approved",
-    "scope": "Independent review of the bounded display-copy/glossary changes and QA preconditions; existing Firebase service/rules review inherited unchanged.",
-    "review": {
-      "status": "approved",
-      "open_findings": [],
-      "reviewer_model": "gpt-6.1-sol",
-      "reviewer_reasoning_effort": "max",
-      "verified_date": "2026-11-09",
-      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
-      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
-      "author_ledger_revision": 4,
-      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
-      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
-      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
-      "resolved_final_findings": [
-        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
-        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
-        "Snopes, BOP and ART glosses moved to hover."
-      ],
-      "citation_exception": {
-        "bill": "hr4405",
-        "owner_id": "HR4405_X_REPUTATION",
-        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
-      },
-      "hr5408_provenance": {
-        "status": "approved",
-        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
-        "amendments": 18,
-        "text_fields": 16,
-        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
-      },
-      "reviewed_file_sha256": {
-        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
-        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
-        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
-        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
-        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
-        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
-        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
-        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
-        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
-        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
-        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
-        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
-        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
-        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
-        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
-        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
-        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
-        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
-        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
-        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
-        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
-        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
-        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
-        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
-        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
-        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
-      },
-      "limits": [
-        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
-        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
-        "Reviewer made no file writes, Git writes, browser changes or production operations."
-      ]
-    },
-    "reviewed_app_sha256": "93a4759fe4124d9978ec26c13a92c623ed77321463b50a5e08cb19e1ba7b1efd",
-    "reviewed_service_sha256": "90a635111bf2ccaa372536305e22e090f90804a060adda538d262530007da640",
-    "reviewed_rules_sha256": "1725c2e56594e7c1f9e4e83906e38ef7a9d3582eb0a6f96225f3bd397eec7206"
-  },
-  "prose_review": {
-    "status": "approved",
-    "scope": "Opus authored the definition moves and procedure; independent delta review approved current changed fields and glossary senses. Authentication/saving text unchanged.",
-    "copy_sha256": "03e1c0c2752bf93d2d3de56f9fe80d60e5087730b7ef21134866d49661fe2b2a",
-    "site_copy_sha256": "3f373fcb984742f3f61aa7d9cb62fab9dd0f00ec6182b23023eed0a95a58d78d",
-    "procedure_sha256": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-    "review": {
-      "status": "approved",
-      "open_findings": [],
-      "reviewer_model": "gpt-6.1-sol",
-      "reviewer_reasoning_effort": "max",
-      "verified_date": "2026-11-09",
-      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
-      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
-      "author_ledger_revision": 4,
-      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
-      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
-      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
-      "resolved_final_findings": [
-        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
-        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
-        "Snopes, BOP and ART glosses moved to hover."
-      ],
-      "citation_exception": {
-        "bill": "hr4405",
-        "owner_id": "HR4405_X_REPUTATION",
-        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
-      },
-      "hr5408_provenance": {
-        "status": "approved",
-        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
-        "amendments": 18,
-        "text_fields": 16,
-        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
-      },
-      "reviewed_file_sha256": {
-        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
-        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
-        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
-        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
-        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
-        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
-        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
-        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
-        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
-        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
-        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
-        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
-        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
-        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
-        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
-        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
-        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
-        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
-        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
-        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
-        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
-        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
-        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
-        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
-        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
-        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
-      },
-      "limits": [
-        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
-        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
-        "Reviewer made no file writes, Git writes, browser changes or production operations."
-      ]
-    }
+    "browser-qa.mjs": "3146ad82c85a48ef43d9c39d1ca56834df6e346645b85a997728a0c8b9f2207a"
   },
   "tests": {
     "normal": {
       "command": "npm test",
-      "passed": 46,
+      "passed": 47,
       "failed": 0,
       "skipped": 1,
       "skip_reason": "The emulator suite ran separately with actual local Auth and Firestore."
@@ -181,16 +39,16 @@
         "Existing assignment and response authorization behavior unchanged.",
         "Long native notes compress and roundtrip; stale revisions conflict; offline drafts retry."
       ],
-      "scope": "Fresh final-candidate run against actual local Auth and Firestore demo emulators; service, configuration and rules are byte-identical to the prior release.",
-      "log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
+      "scope": "Local Auth/Firestore demo-emulator run: 15 tests passed. Firebase service, configuration and rules are unchanged. Deployment CI repeats this suite on the final candidate.",
+      "previous_run_log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
     },
     "all_bill_ui_report": "browser-verification.json",
     "all_bill_ui_summary": {
+      "bills": 8,
       "decisions": 709,
       "comparisons": 45,
       "layouts": 200,
-      "bills": 8,
-      "report_sha256": "cc8ebc51435e951d2544a0374db64a5cb836be6f4f2b3c230beb802fb7e6d364"
+      "report_sha256": "b7a40d173b0daa75d17afb619bfa27d7974caa654337466a900d916eb2874c36"
     },
     "glossary_regression": {
       "status": "passed",
@@ -305,5 +163,159 @@
       }
     },
     "scope": "Historical source, lifecycle and production-rules evidence remains bound to its recorded hashes; new browser checks below bind current display inputs."
+  },
+  "inherited_independent_source_review": {
+    "status": "approved",
+    "scope": "Independent review of the bounded display-copy/glossary changes and QA preconditions; existing Firebase service/rules review inherited unchanged.",
+    "review": {
+      "status": "approved",
+      "open_findings": [],
+      "reviewer_model": "gpt-6.1-sol",
+      "reviewer_reasoning_effort": "max",
+      "verified_date": "2026-11-09",
+      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
+      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
+      "author_ledger_revision": 4,
+      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
+      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
+      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
+      "resolved_final_findings": [
+        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
+        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
+        "Snopes, BOP and ART glosses moved to hover."
+      ],
+      "citation_exception": {
+        "bill": "hr4405",
+        "owner_id": "HR4405_X_REPUTATION",
+        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
+      },
+      "hr5408_provenance": {
+        "status": "approved",
+        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
+        "amendments": 18,
+        "text_fields": 16,
+        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
+      },
+      "reviewed_file_sha256": {
+        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
+        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
+        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
+        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
+        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
+        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
+        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
+        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
+        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
+        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
+        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
+        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
+        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
+        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
+        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
+        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
+        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
+        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
+        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
+        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
+        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
+        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
+        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
+        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
+        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
+        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
+      },
+      "limits": [
+        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
+        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
+        "Reviewer made no file writes, Git writes, browser changes or production operations."
+      ]
+    },
+    "reviewed_app_sha256": "93a4759fe4124d9978ec26c13a92c623ed77321463b50a5e08cb19e1ba7b1efd",
+    "reviewed_service_sha256": "90a635111bf2ccaa372536305e22e090f90804a060adda538d262530007da640",
+    "reviewed_rules_sha256": "1725c2e56594e7c1f9e4e83906e38ef7a9d3582eb0a6f96225f3bd397eec7206"
+  },
+  "inherited_prose_review": {
+    "status": "approved",
+    "scope": "Opus authored the definition moves and procedure; independent delta review approved current changed fields and glossary senses. Authentication/saving text unchanged.",
+    "copy_sha256": "03e1c0c2752bf93d2d3de56f9fe80d60e5087730b7ef21134866d49661fe2b2a",
+    "site_copy_sha256": "3f373fcb984742f3f61aa7d9cb62fab9dd0f00ec6182b23023eed0a95a58d78d",
+    "procedure_sha256": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+    "review": {
+      "status": "approved",
+      "open_findings": [],
+      "reviewer_model": "gpt-6.1-sol",
+      "reviewer_reasoning_effort": "max",
+      "verified_date": "2026-11-09",
+      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
+      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
+      "author_ledger_revision": 4,
+      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
+      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
+      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
+      "resolved_final_findings": [
+        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
+        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
+        "Snopes, BOP and ART glosses moved to hover."
+      ],
+      "citation_exception": {
+        "bill": "hr4405",
+        "owner_id": "HR4405_X_REPUTATION",
+        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
+      },
+      "hr5408_provenance": {
+        "status": "approved",
+        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
+        "amendments": 18,
+        "text_fields": 16,
+        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
+      },
+      "reviewed_file_sha256": {
+        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
+        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
+        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
+        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
+        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
+        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
+        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
+        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
+        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
+        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
+        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
+        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
+        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
+        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
+        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
+        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
+        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
+        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
+        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
+        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
+        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
+        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
+        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
+        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
+        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
+        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
+      },
+      "limits": [
+        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
+        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
+        "Reviewer made no file writes, Git writes, browser changes or production operations."
+      ]
+    }
+  },
+  "ui_copy_authorization": {
+    "request": "This should not be an option",
+    "changes": "Only delete instructions offering Pending; no new participant-facing wording."
+  },
+  "session_compatibility": {
+    "manifest": "session-compatibility.json",
+    "sha256": "a2d21605f42de0c374ffc68cf986ace8ac04a86789514120a9f3b70dcfe46a7c",
+    "existing_releases": 8,
+    "unit_resume_checks": "passed",
+    "browser_resume_checks": "passed",
+    "legacy_pending_records": "Preserved; the current form offers only support and oppose."
   }
 }

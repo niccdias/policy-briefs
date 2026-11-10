@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "passed",
   "open_findings": [],
-  "verified_date": "2026-11-09",
-  "scope": "Definition-only amendments across the eight guided bill reviews, including six displayed-description overrides and hover definitions on the introduction. Frozen sources, source references, routes, coverage and question/answer stems are unchanged; bounded current delta review supplements explicitly inherited full migration review.",
+  "verified_date": "2026-11-10",
+  "scope": "Bounded comparison-UI change: remove the Pending choice and its instructions. All 32 frozen bill source/decision/coverage/copy files are unchanged. Existing substantive reviews are inherited; no fresh full-corpus reading is claimed.",
   "independent_report": {
     "path": "content-audit-findings.json",
     "sha256": "dd46a907d06ad301693f00392cc5d3acb87846d0a12b13aea9110dfded50ee38",
@@ -27,127 +27,38 @@
   },
   "integration_checks": {
     "native_tests": {
-      "command": "npm test",
-      "passed": 46,
+      "passed": 47,
       "failed": 0,
-      "skipped": 1,
-      "skip_reason": "The emulator suite ran separately with actual local Auth and Firestore."
+      "skipped": 1
     },
     "cloud_rule_tests": {
-      "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8095 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9105 node --test --test-concurrency=1 runtime/firebase.test.mjs",
-      "project": "demo-decision-review",
       "passed": 15,
-      "failed": 0,
-      "skipped": 0,
-      "checks": [
-        "Unassigned, inactive, other-account, anonymous, unverified and non-Google identities rejected.",
-        "Allowed-kind lists are scoped; unrestricted and other-user queries rejected.",
-        "Current state and immutable history commit atomically; revision, metadata and deletion restrictions enforced.",
-        "Existing assignment and response authorization behavior unchanged.",
-        "Long native notes compress and roundtrip; stale revisions conflict; offline drafts retry."
-      ],
-      "scope": "Fresh final-candidate run against actual local Auth and Firestore demo emulators; service, configuration and rules are byte-identical to the prior release.",
-      "log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
+      "failed": 0
     },
     "builds": {
-      "native_output_files": 51,
-      "scope": "Current canonical build, bound by release and HTML hashes to the all-eight emulator-backed browser run."
+      "bills": 8,
+      "status": "passed"
+    },
+    "browser": {
+      "bills": 8,
+      "decisions": 709,
+      "comparisons": 45,
+      "layouts": 200,
+      "report_sha256": "b7a40d173b0daa75d17afb619bfa27d7974caa654337466a900d916eb2874c36"
     },
     "preservation": {
-      "frozen_sources_and_coverage": "Byte-identical to3c08; source references, IDs/routes and all non-HTML/non-glossary decision metadata unchanged.",
-      "legacy_pages": "Website workflow and legacy source files unchanged; deployment byte verification follows separately.",
-      "earlier_response_records": "Not read, migrated, restored or deleted."
+      "bill_files_unchanged": 32,
+      "firebase_service_configuration_rules": "unchanged"
     },
-    "saving": "Existing account/bill/release/kind isolation and immutable revisions retained.",
-    "cloud_report": {
-      "path": "cloud-verification.json",
-      "sha256": "9c3cc0e60068fb535d56f656d28fef4cecb4a7bd3ab1fec6dc341e79f454c80d"
+    "saving": {
+      "prior_session_identities_retained": 8,
+      "current_artifact_identity": "separate"
     },
-    "definition_delta_review": {
-      "status": "approved",
-      "open_findings": [],
-      "reviewer_model": "gpt-6.1-sol",
-      "reviewer_reasoning_effort": "max",
-      "verified_date": "2026-11-09",
-      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
-      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
-      "author_ledger_revision": 4,
-      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
-      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
-      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
-      "resolved_final_findings": [
-        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
-        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
-        "Snopes, BOP and ART glosses moved to hover."
-      ],
-      "citation_exception": {
-        "bill": "hr4405",
-        "owner_id": "HR4405_X_REPUTATION",
-        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
-      },
-      "hr5408_provenance": {
-        "status": "approved",
-        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
-        "amendments": 18,
-        "text_fields": 16,
-        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
-      },
-      "reviewed_file_sha256": {
-        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
-        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
-        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
-        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
-        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
-        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
-        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
-        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
-        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
-        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
-        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
-        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
-        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
-        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
-        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
-        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
-        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
-        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
-        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
-        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
-        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
-        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
-        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
-        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
-        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
-        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
-      },
-      "limits": [
-        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
-        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
-        "Reviewer made no file writes, Git writes, browser changes or production operations."
-      ]
+    "copy_changes": {
+      "strength_guide": "Delete the sentence instructing Pending.",
+      "input_error": "Delete the words or Pending."
     },
-    "producer_reproduction": {
-      "status": "passed",
-      "method": "Main independently regenerated all three maintained producer packages in fresh scratch folders; all nine JSON outputs match the held canonical bytes.",
-      "outputs": {
-        "s2": {
-          "decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
-          "coverage.json": "b3f3347448896c298a7e040e173c16a9df27103264d5e26503ea5344c7f71514",
-          "copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279"
-        },
-        "hr28": {
-          "decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
-          "coverage.json": "ea82abc65176c81b744a6cc75ee638700f1913ce7b71dbfc68e9ab0707bf34d8",
-          "copy.json": "b25baf5667b01011e488ba3ac83ff2925575dc87ca42eae06edb6229880c839c"
-        },
-        "hr1834": {
-          "decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
-          "coverage.json": "5e2ec16308ae0abee39ee39b7ef14847e1b081b499cb1b3853bb52a472c0edc8",
-          "copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3"
-        }
-      }
-    }
+    "cloud_report": "cloud-verification.json"
   },
   "bills": [
     {
@@ -164,12 +75,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_1582",
         "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
-        "content_id": "content-ca4c4bed7de2e88c93e6a44d48439c8cd0b1054f105dbfda08304021a41533e3",
+        "content_id": "content-f8081c0d26f532b202ac918f3816eb23c2a384fa6986a9d99365b9b86fe0c7b6",
         "mapping_id": "mapping-7af3fd4ff5fb957a540496e285f5d3dc5f72faac2dd8a9e0de5b231f7f744431",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-162a642e0335c5e901f6a529ff7273dc2cb6c2d886ca20f40a2bdefa4142bf8b"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-13e1bb7d05115d23c49114d67750ceafa0bbf2d42bb5ee251f616b87042cca8d"
       },
-      "html_sha256": "5d8e01c911f443eee67a5e2e43eca39fa82e0ba6a2903ace9d68c0345ff92092",
+      "html_sha256": "4408cef7065c37a4233cd055569987b714eafe113b4e558369cf166b4b36e8b8",
       "counts": {
         "arguments": 79,
         "responses": 69,
@@ -802,6 +713,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_1582",
+        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "content_id": "content-ca4c4bed7de2e88c93e6a44d48439c8cd0b1054f105dbfda08304021a41533e3",
+        "mapping_id": "mapping-7af3fd4ff5fb957a540496e285f5d3dc5f72faac2dd8a9e0de5b231f7f744431",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-162a642e0335c5e901f6a529ff7273dc2cb6c2d886ca20f40a2bdefa4142bf8b"
       }
     },
     {
@@ -818,12 +738,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_J_Res_88",
         "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
-        "content_id": "content-36cba14c1db2f9fd9bb44ad8ffefb6ceb1087aef8a3e6e1a0619844c7a41fdfc",
+        "content_id": "content-5f468ecd83112542d460a381f24f68f8d20c35b7fa1b9e4d7273fcdd45b941c4",
         "mapping_id": "mapping-ad1968bb1bc461e1ed33d3827bfbab46e25ee624e5c81c385dfd01d1d4e95087",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-72505a6cf0111788568e4a0ad2ef0c89174c06bc23ed8e469d9335fbcbbbc520"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-b4ba6422886b4cda3510f62bf8d12ff2f791cd2a1cc22f1202a8aeb83aa4f220"
       },
-      "html_sha256": "4366a2892442445c1030d825b5889e7d7c8fc40a5a78f29d1ef8769fd2f5c5d4",
+      "html_sha256": "51d5e90e85c2815031981bed709f7f6e2dce1e6fcfe416d212214962bc501f2f",
       "counts": {
         "arguments": 69,
         "responses": 17,
@@ -1589,6 +1509,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_J_Res_88",
+        "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "content_id": "content-36cba14c1db2f9fd9bb44ad8ffefb6ceb1087aef8a3e6e1a0619844c7a41fdfc",
+        "mapping_id": "mapping-ad1968bb1bc461e1ed33d3827bfbab46e25ee624e5c81c385dfd01d1d4e95087",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-72505a6cf0111788568e4a0ad2ef0c89174c06bc23ed8e469d9335fbcbbbc520"
       }
     },
     {
@@ -1605,12 +1534,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_5408",
         "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
-        "content_id": "content-fba5ea1aeac80a633f9edbc98469d310175f664c3c9de101fc05366579eaa5fd",
+        "content_id": "content-f0117e453a734a178dd736d86226b642c3b966ce783fc2c14bb356f8c97a8719",
         "mapping_id": "mapping-8858c1964204bc850aa93a59dd3f7c18be0ea9bd20e8d3c90e6e5073d225ea8f",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-446a8d8d6413043c463fba334dc84bcae0a5e3f30ad2044e5d3487db1368110d"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-3aa9fd36689f558ef042962b4798daa2ae37d767244867fa9a7303d22dbb0307"
       },
-      "html_sha256": "12c2b90ddcc43d5be36a34ffc9921da03e37a56915cddd5607c521daef34e57e",
+      "html_sha256": "35974d20acde1f9817d56e1531c7046beca5cee43e7e40e2f1eaa2db93d3d05c",
       "counts": {
         "arguments": 69,
         "responses": 34,
@@ -1973,7 +1902,16 @@
           "main_and_reference_words_saved_vs_all_yes": 126
         }
       },
-      "unmatched_quotation_candidates": 0
+      "unmatched_quotation_candidates": 0,
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_5408",
+        "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "content_id": "content-fba5ea1aeac80a633f9edbc98469d310175f664c3c9de101fc05366579eaa5fd",
+        "mapping_id": "mapping-8858c1964204bc850aa93a59dd3f7c18be0ea9bd20e8d3c90e6e5073d225ea8f",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-446a8d8d6413043c463fba334dc84bcae0a5e3f30ad2044e5d3487db1368110d"
+      }
     },
     {
       "slug": "hr131",
@@ -1989,12 +1927,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_131",
         "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
-        "content_id": "content-3c59655c1c5d734e6bc63083b7e7b0dcbc82e88dce6ec58d8a84e618961be23e",
+        "content_id": "content-76c9015a93f2e38edfbdb1cbbf52a8308f36a3d174c8ab280feebe83ca451934",
         "mapping_id": "mapping-1a10d5624202e4790d143ee52b16a1e07f446e34f39a9a3bba26c8e237ebc2be",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-2dd40901eca79d589da17c3af34b9ce9f6e02410ca3618e093989f024a224a61"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-0bd18fecf010d698d882f38c03a9e2fdf4bb9d0cfa731b446071c2f20858a527"
       },
-      "html_sha256": "96c8e0979cd373625af205bbe4f153a0b420e13d5c43be21994677f575c6cccb",
+      "html_sha256": "f7d87e329ce3e1daa49d0df34a7620622abfa50a1041e50f97c4a0201de5a224",
       "counts": {
         "arguments": 32,
         "responses": 4,
@@ -2209,6 +2147,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_131",
+        "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "content_id": "content-3c59655c1c5d734e6bc63083b7e7b0dcbc82e88dce6ec58d8a84e618961be23e",
+        "mapping_id": "mapping-1a10d5624202e4790d143ee52b16a1e07f446e34f39a9a3bba26c8e237ebc2be",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-2dd40901eca79d589da17c3af34b9ce9f6e02410ca3618e093989f024a224a61"
       }
     },
     {
@@ -2225,12 +2172,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_4405",
         "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
-        "content_id": "content-b136a56e85f1336337e1a5ef1049f4814e4dd8faf6da498f15aa03db6d54da6d",
+        "content_id": "content-4f1e5525bd8df2d5c82bd394236d3dc5640115076195560bb59f803a8c8c28c6",
         "mapping_id": "mapping-0f642f9004c4ca991e89647dc5f609413bf85a07f28fa3fd93b5e08a565c078b",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-6f96761fc4e139f5190b3b126904fe537b5a0afe549bdbf72c297f5e34218814"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-1e3fb7cd61186c0e6219b2e6c9590cdb2c976f97ed61872a682188e6b7f8f520"
       },
-      "html_sha256": "8ad9be4a1f1608afea67f5e6295861e5c188a5a75dbde094103d1af5a3409d86",
+      "html_sha256": "c619195680008bd208abd531dca6916fbda1ff6b4100539fe2017b8712043b7d",
       "counts": {
         "arguments": 44,
         "responses": 12,
@@ -2863,6 +2810,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_4405",
+        "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "content_id": "content-b136a56e85f1336337e1a5ef1049f4814e4dd8faf6da498f15aa03db6d54da6d",
+        "mapping_id": "mapping-0f642f9004c4ca991e89647dc5f609413bf85a07f28fa3fd93b5e08a565c078b",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-6f96761fc4e139f5190b3b126904fe537b5a0afe549bdbf72c297f5e34218814"
       }
     },
     {
@@ -2879,12 +2835,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_1834",
         "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
-        "content_id": "content-3d3cd53ba5a3eb222411a79fe3e2e5c858d469f03778d9d3b6acb345655a1683",
+        "content_id": "content-418866164d79c71959b2feeb8a041f07e2ec842a2fe17c03ded4e38bdede0b66",
         "mapping_id": "mapping-fc766e1da723cb62cb2ff617993a48d48c5613aa32e3b28e4fdb145f023749c2",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-a36d5d4131a497cfa68c1a4341ac228fcb8033642917ef97b64bbd9f59f5295b"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-183add1d6606c3328a779c37cc05d6c99c853cc19f5446dd0b5c4cf7aca19f73"
       },
-      "html_sha256": "734cfc8793dff260ef78ff130837d3534611e842053b23db7ee2f565ed32f3fb",
+      "html_sha256": "1a0299db425fb671106f6031f1c10c30278d3654b4764b72dce0cadde6ea4cf0",
       "counts": {
         "arguments": 78,
         "responses": 19,
@@ -3327,6 +3283,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_1834",
+        "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "content_id": "content-3d3cd53ba5a3eb222411a79fe3e2e5c858d469f03778d9d3b6acb345655a1683",
+        "mapping_id": "mapping-fc766e1da723cb62cb2ff617993a48d48c5613aa32e3b28e4fdb145f023749c2",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-a36d5d4131a497cfa68c1a4341ac228fcb8033642917ef97b64bbd9f59f5295b"
       }
     },
     {
@@ -3343,12 +3308,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_H_R_28",
         "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
-        "content_id": "content-44318580aa5d1bc0ac8b29513bd239755150cbdd5209e38d1c57ccab8cd2bcc3",
+        "content_id": "content-baa1148137c45387ec78ff8016910b8c4e155a5b542ab869bc082e076d16f8f5",
         "mapping_id": "mapping-518a067d571bdb6a3c54d0384a5ff7a880b108d2f6aeae56ac0a1bb8f916b4fa",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-d240bef957dac4cf730e2494492f68a80c8d26cb01dadf8c3186169fc2d210b6"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-31cd3bb6637fecd2e29fcb611a0d2c3e25791e1731456689f26832fa4ef8b27a"
       },
-      "html_sha256": "fb888a8fa48a7d2956bf2b1465d459f89ca2120d212481104f6893d3450faefe",
+      "html_sha256": "07aad1d04e4839f98ef2377d39893c057182a4f80a00d5db3d2162224d029141",
       "counts": {
         "arguments": 33,
         "responses": 14,
@@ -3753,6 +3718,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_28",
+        "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "content_id": "content-44318580aa5d1bc0ac8b29513bd239755150cbdd5209e38d1c57ccab8cd2bcc3",
+        "mapping_id": "mapping-518a067d571bdb6a3c54d0384a5ff7a880b108d2f6aeae56ac0a1bb8f916b4fa",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-d240bef957dac4cf730e2494492f68a80c8d26cb01dadf8c3186169fc2d210b6"
       }
     },
     {
@@ -3769,12 +3743,12 @@
         "review_id": "policy-stake-briefs-decision-review",
         "bill_id": "119_S_2",
         "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
-        "content_id": "content-98d8b0f0fa5641f8913f7c52025ff2799fd7c5b738bc3273c75aaa677ca83f16",
+        "content_id": "content-916e4279610b465f5b7c833f7e9b4d4c8645f11e0cd94670ad127d555d3c2a47",
         "mapping_id": "mapping-f7a10ee14ee6743c94f48a9ba67ba3d4d10032ed7fcbec0a7e506838037b1de3",
-        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
-        "rendered_id": "rendered-39371ccc4db807ae6a86ddaff98fc70ef7f3a7d820969ad7ab184102f12398ad"
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-800fb1f21a0755b0ffeeaa7a2c84f7e33b30d29fdbaf27cf3b6a16b3cfa05c10"
       },
-      "html_sha256": "0af7d07ecc6795dbdb46ec7da62fc85024468a3d6818acd2550da7bcb85558f2",
+      "html_sha256": "11b88143615a3eb9175eb735e11eb170e30bc2c588b287e17b70145000baae73",
       "counts": {
         "arguments": 98,
         "responses": 71,
@@ -4464,6 +4438,15 @@
       "quotation_review": {
         "status": "passed",
         "scope": "Current exact-delta quotation preservation and independent changed-field reading. Historical full lexical-screen candidates remain bound to the prior package in content-audit-findings.json."
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_2",
+        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "content_id": "content-98d8b0f0fa5641f8913f7c52025ff2799fd7c5b738bc3273c75aaa677ca83f16",
+        "mapping_id": "mapping-f7a10ee14ee6743c94f48a9ba67ba3d4d10032ed7fcbec0a7e506838037b1de3",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-39371ccc4db807ae6a86ddaff98fc70ef7f3a7d820969ad7ab184102f12398ad"
       }
     }
   ],
@@ -4533,5 +4516,129 @@
       "sha256": "7f28d8dee2a4a2b61182f8bd30f48fc9ebbee8bad8d71ced78e44067723322e8"
     },
     "introduction": "Exact frozen short description alone before coding; Continue records navigation only; existing-session acquisition, sign-in and return checks passed."
+  },
+  "previous_hover_definition_integration_checks": {
+    "native_tests": {
+      "command": "npm test",
+      "passed": 46,
+      "failed": 0,
+      "skipped": 1,
+      "skip_reason": "The emulator suite ran separately with actual local Auth and Firestore."
+    },
+    "cloud_rule_tests": {
+      "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8095 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9105 node --test --test-concurrency=1 runtime/firebase.test.mjs",
+      "project": "demo-decision-review",
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "checks": [
+        "Unassigned, inactive, other-account, anonymous, unverified and non-Google identities rejected.",
+        "Allowed-kind lists are scoped; unrestricted and other-user queries rejected.",
+        "Current state and immutable history commit atomically; revision, metadata and deletion restrictions enforced.",
+        "Existing assignment and response authorization behavior unchanged.",
+        "Long native notes compress and roundtrip; stale revisions conflict; offline drafts retry."
+      ],
+      "scope": "Fresh final-candidate run against actual local Auth and Firestore demo emulators; service, configuration and rules are byte-identical to the prior release.",
+      "log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
+    },
+    "builds": {
+      "native_output_files": 51,
+      "scope": "Current canonical build, bound by release and HTML hashes to the all-eight emulator-backed browser run."
+    },
+    "preservation": {
+      "frozen_sources_and_coverage": "Byte-identical to3c08; source references, IDs/routes and all non-HTML/non-glossary decision metadata unchanged.",
+      "legacy_pages": "Website workflow and legacy source files unchanged; deployment byte verification follows separately.",
+      "earlier_response_records": "Not read, migrated, restored or deleted."
+    },
+    "saving": "Existing account/bill/release/kind isolation and immutable revisions retained.",
+    "cloud_report": {
+      "path": "cloud-verification.json",
+      "sha256": "9c3cc0e60068fb535d56f656d28fef4cecb4a7bd3ab1fec6dc341e79f454c80d"
+    },
+    "definition_delta_review": {
+      "status": "approved",
+      "open_findings": [],
+      "reviewer_model": "gpt-6.1-sol",
+      "reviewer_reasoning_effort": "max",
+      "verified_date": "2026-11-09",
+      "baseline_commit": "3c08b2a1a1ddc9c39d00038b631e37c1b8e6e4e4",
+      "candidate_commit": "ef0f21bc21339f6621f2114590e2d39984e24086",
+      "author_ledger_revision": 4,
+      "author_ledger_sha256": "78389759b8ba758952cd1f57d8fed3214dd7b4ea2f472ac9803481b0788bd6f6",
+      "scope": "Independent reading of every authored before/after edit across all four held revisions: 359 HTML/claim fields, 332 added glossary entries, six display descriptions, changed documentation and maintained producer diffs. New and changed automatic glossary matches in otherwise unchanged visible prose and explicit sense keys were reviewed. The 373 whole-field delta includes eight glossary arrays.",
+      "preservation": "Independent exact comparison confirmed frozen source and coverage bytes, all IDs/routes/source references/other decision metadata and existing glossary entries unchanged. All 27 ledger current/baseline file pins were verified against disk and Git.",
+      "resolved_final_findings": [
+        "The exact USDC identity quotation and its unique Fortune citation are restored as attributed evidence.",
+        "The Baal deity sense is marked only at the intended explicit span; the quoted misspelling stays exact and unmarked.",
+        "Snopes, BOP and ART glosses moved to hover."
+      ],
+      "citation_exception": {
+        "bill": "hr4405",
+        "owner_id": "HR4405_X_REPUTATION",
+        "disposition": "Approved removal of one duplicate bill-text anchor; its identical link remains beside the retained quotation."
+      },
+      "hr5408_provenance": {
+        "status": "approved",
+        "conversion_sha256": "b81a20680e6c03ddde8254057cb562374b6710ff8ce0642f8f1fea856a8a28f6",
+        "amendments": 18,
+        "text_fields": 16,
+        "method": "Independent read-only reversal and reapplication deep-equal the complete baseline and current packages. All five legacy pins and raw initial/amended hashes pass. All 16 text patches match the final ledger; initial conversion flags are preserved under initial_conversion. Main scratch reproduction proof was read."
+      },
+      "reviewed_file_sha256": {
+        "PROCEDURE.md": "b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "README.md": "dcba95d123414c78d816f28a56177d1bb2dfe420a6326ae9ae44c0003d448b84",
+        "bills/s1582/EDITORIAL_REVIEW.md": "6d1fbe68bef19710e9e49c2caf28719c82799260fb5b67d6c72be400aed1a95c",
+        "bills/s1582/decisions.json": "0ed3a5e4c49512f47a587d39e957b160dd1e6ef29d9764a5f6a67f0d690b0ad9",
+        "bills/s1582/copy.json": "67d9113f7d70073d18644c8a97b0d41e9fba0da1cd3ba7a2e9597d0b85f1e1d6",
+        "bills/sjres88/EDITORIAL_REVIEW.md": "5d6737e4d05c38540fe662b98f3f3a5f5d36a889a3fb61bf2f0408d34047374d",
+        "bills/sjres88/decisions.json": "9f6745f13ebb72d11e6bbcb2a6f26a5fc7af78f6efecc95ecea579c27f66bd4d",
+        "bills/sjres88/copy.json": "7d103b3e2c5e63f6c1d5971567beb498c8b36b94d95d303d69490d4d1e9995a9",
+        "bills/hr131/EDITORIAL_REVIEW.md": "c40ac259f4edbcc42d3bb109e608103cdde5e8b26b6856eceb4313190ceb054c",
+        "bills/hr131/decisions.json": "7c2f4c3b50bdf1a988bb7c588e680c61712dca358163ef164e8cabe86be58bf8",
+        "bills/hr1834/EDITORIAL_REVIEW.md": "901f9026b9bcb67a862c874b1b12549fa4455f9a5da8b77d2101ce4678027b16",
+        "bills/hr1834/decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
+        "bills/hr1834/copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3",
+        "bills/hr28/EDITORIAL_REVIEW.md": "d11046d67b53a9c80a56792ba317b15636328b2ac5d46ce6e02e21e2b5dc72e7",
+        "bills/hr28/decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
+        "bills/hr4405/EDITORIAL_REVIEW.md": "dee6880d576d4375385ba65eae2792ea36051b5a1d956dd93a9120d16c0c695b",
+        "bills/hr4405/decisions.json": "dab1f36dc37c048f3be923b4b58a7a4cab7c8c183e93548b01a419b8d946cba6",
+        "bills/hr4405/copy.json": "d8d5b92ecb547f3b8ff916a5f14706dc55de42a7cefd8ac91241fe4e5fcebdca",
+        "bills/hr5408/decisions.json": "5377c51b0755efe32bfebc9ee26d37d43be0a543cec79c933a955d11ea4cd28b",
+        "bills/hr5408/copy.json": "579a4a04620f265b43af1fc374f42b34e541ea6fbf10d7b77fabf3f02fe591a5",
+        "bills/s2/EDITORIAL_REVIEW.md": "d5c92ccf8404d1c4aeaaf3ada8d9bdb359b21ce4211838d37f53672c5e61404d",
+        "bills/s2/decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
+        "bills/s2/copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279",
+        "bills/s2/author.py": "5a44651db9d6c106c48d330f0f4ffc519330e7f26a69546af12c8d0a048e8163",
+        "bills/s2/author_lib.py": "5007293c47948c662b2253c08076fcf208b7d709f8bdd2fb46c35851bb13e62e",
+        "bills/hr28/author.py": "b8bd1f7397a01a371581efa75121612e6f8b6b8b914c710573cc765c15cee13b",
+        "bills/hr1834/author.py": "132b16ef849ef0d17c3b4e11a3d31280cb3dc3a9f6d0fe5259348100b0ab643c"
+      },
+      "limits": [
+        "Bounded semantic delta review; no fresh full-corpus reread, external factual verification or forecast adjudication.",
+        "Browser/build/recursive-oracle/full audit execution is performed by main. Historical graph and source-location evidence stays labeled historical.",
+        "Reviewer made no file writes, Git writes, browser changes or production operations."
+      ]
+    },
+    "producer_reproduction": {
+      "status": "passed",
+      "method": "Main independently regenerated all three maintained producer packages in fresh scratch folders; all nine JSON outputs match the held canonical bytes.",
+      "outputs": {
+        "s2": {
+          "decisions.json": "a7f211fc8999dfe2c65cf00912fa59f7689826171db992466dcbc71a893612f4",
+          "coverage.json": "b3f3347448896c298a7e040e173c16a9df27103264d5e26503ea5344c7f71514",
+          "copy.json": "e79171da30042cf5caf7b8bff203be3c4990b420c494d373f7272c8630e78279"
+        },
+        "hr28": {
+          "decisions.json": "77453ed7fa60e97f81b6cc09a488689ccacad5a4f21f4e7448035f37e62e5903",
+          "coverage.json": "ea82abc65176c81b744a6cc75ee638700f1913ce7b71dbfc68e9ab0707bf34d8",
+          "copy.json": "b25baf5667b01011e488ba3ac83ff2925575dc87ca42eae06edb6229880c839c"
+        },
+        "hr1834": {
+          "decisions.json": "8376be3ee9858d42ac83cf58ecceaca40ebc0e0136e18d34ba2a6edb95201bf4",
+          "coverage.json": "5e2ec16308ae0abee39ee39b7ef14847e1b081b499cb1b3853bb52a472c0edc8",
+          "copy.json": "7a52ed9cbd28d8d08003f850dbf587e34a79bd4409925bc13551f33f35480de3"
+        }
+      }
+    }
   }
 }

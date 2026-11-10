@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_date": "2026-11-10",
+  "request": "This should not be an option",
+  "selector": "#result-UNN > form > fieldset > div > label:nth-of-type(3)",
+  "source_implementation_commit": "6ee3fc672920f3d7fff680bfe86bd8bc89edb7a2",
+  "comparison_choices": [
+    "support",
+    "oppose"
+  ],
+  "unanswered_comparisons": "incomplete",
+  "legacy_saved_comparisons": "retained",
+  "unit_tests": {
+    "passed": 47,
+    "failed": 0,
+    "emulator_suite_skipped_here": 1
+  },
+  "emulator_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "browser": {
+    "bills": 8,
+    "decisions": 709,
+    "comparisons": 45,
+    "layouts": 200,
+    "report_sha256": "b7a40d173b0daa75d17afb619bfa27d7974caa654337466a900d916eb2874c36"
+  },
+  "bill_files_unchanged": 32,
+  "saving_implementation_and_rules": "unchanged",
+  "session_compatibility_sha256": "a2d21605f42de0c374ffc68cf986ace8ac04a86789514120a9f3b70dcfe46a7c",
+  "release_report_sha256": "804f29c2f3bc8150a04d70d9122c3509407fd27c6be9cd6e136c9c2850dcb857",
+  "screenshot": {
+    "file": "pending-option-comparison.png",
+    "sha256": "92f2a3b5fc7427624f6f4760ddae173a02155fb56d26b0bbba2cbc3ae8ce1d75"
+  },
+  "cloud_report_sha256": "4d173c59c8b6c910a7114f6788793ad71464f56df36331c9b35ab0e6d447a68b",
+  "content_report_sha256": "a59c1ff931a6dc47f7317e2adde923d225e8ee44e4a73a869eb53dfaeeb0520a",
+  "production_reviewer_records_accessed": false,
+  "bills": [
+    {
+      "slug": "s1582",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_1582",
+        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "content_id": "content-f8081c0d26f532b202ac918f3816eb23c2a384fa6986a9d99365b9b86fe0c7b6",
+        "mapping_id": "mapping-7af3fd4ff5fb957a540496e285f5d3dc5f72faac2dd8a9e0de5b231f7f744431",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-13e1bb7d05115d23c49114d67750ceafa0bbf2d42bb5ee251f616b87042cca8d"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_1582",
+        "source_sha256": "c128e0f8664945adc151294d722836f26e8997df9f9a2a86c5ee63bb5b757e81",
+        "content_id": "content-ca4c4bed7de2e88c93e6a44d48439c8cd0b1054f105dbfda08304021a41533e3",
+        "mapping_id": "mapping-7af3fd4ff5fb957a540496e285f5d3dc5f72faac2dd8a9e0de5b231f7f744431",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-162a642e0335c5e901f6a529ff7273dc2cb6c2d886ca20f40a2bdefa4142bf8b"
+      }
+    },
+    {
+      "slug": "sjres88",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_J_Res_88",
+        "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "content_id": "content-5f468ecd83112542d460a381f24f68f8d20c35b7fa1b9e4d7273fcdd45b941c4",
+        "mapping_id": "mapping-ad1968bb1bc461e1ed33d3827bfbab46e25ee624e5c81c385dfd01d1d4e95087",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-b4ba6422886b4cda3510f62bf8d12ff2f791cd2a1cc22f1202a8aeb83aa4f220"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_J_Res_88",
+        "source_sha256": "55f8a9923ff6937837d6e8d3f646b338e3330dc9d73b4a2564de7d8b7551db3e",
+        "content_id": "content-36cba14c1db2f9fd9bb44ad8ffefb6ceb1087aef8a3e6e1a0619844c7a41fdfc",
+        "mapping_id": "mapping-ad1968bb1bc461e1ed33d3827bfbab46e25ee624e5c81c385dfd01d1d4e95087",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-72505a6cf0111788568e4a0ad2ef0c89174c06bc23ed8e469d9335fbcbbbc520"
+      }
+    },
+    {
+      "slug": "hr5408",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_5408",
+        "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "content_id": "content-f0117e453a734a178dd736d86226b642c3b966ce783fc2c14bb356f8c97a8719",
+        "mapping_id": "mapping-8858c1964204bc850aa93a59dd3f7c18be0ea9bd20e8d3c90e6e5073d225ea8f",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-3aa9fd36689f558ef042962b4798daa2ae37d767244867fa9a7303d22dbb0307"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_5408",
+        "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+        "content_id": "content-fba5ea1aeac80a633f9edbc98469d310175f664c3c9de101fc05366579eaa5fd",
+        "mapping_id": "mapping-8858c1964204bc850aa93a59dd3f7c18be0ea9bd20e8d3c90e6e5073d225ea8f",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-446a8d8d6413043c463fba334dc84bcae0a5e3f30ad2044e5d3487db1368110d"
+      }
+    },
+    {
+      "slug": "hr131",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_131",
+        "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "content_id": "content-76c9015a93f2e38edfbdb1cbbf52a8308f36a3d174c8ab280feebe83ca451934",
+        "mapping_id": "mapping-1a10d5624202e4790d143ee52b16a1e07f446e34f39a9a3bba26c8e237ebc2be",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-0bd18fecf010d698d882f38c03a9e2fdf4bb9d0cfa731b446071c2f20858a527"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_131",
+        "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+        "content_id": "content-3c59655c1c5d734e6bc63083b7e7b0dcbc82e88dce6ec58d8a84e618961be23e",
+        "mapping_id": "mapping-1a10d5624202e4790d143ee52b16a1e07f446e34f39a9a3bba26c8e237ebc2be",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-2dd40901eca79d589da17c3af34b9ce9f6e02410ca3618e093989f024a224a61"
+      }
+    },
+    {
+      "slug": "hr4405",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_4405",
+        "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "content_id": "content-4f1e5525bd8df2d5c82bd394236d3dc5640115076195560bb59f803a8c8c28c6",
+        "mapping_id": "mapping-0f642f9004c4ca991e89647dc5f609413bf85a07f28fa3fd93b5e08a565c078b",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-1e3fb7cd61186c0e6219b2e6c9590cdb2c976f97ed61872a682188e6b7f8f520"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_4405",
+        "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+        "content_id": "content-b136a56e85f1336337e1a5ef1049f4814e4dd8faf6da498f15aa03db6d54da6d",
+        "mapping_id": "mapping-0f642f9004c4ca991e89647dc5f609413bf85a07f28fa3fd93b5e08a565c078b",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-6f96761fc4e139f5190b3b126904fe537b5a0afe549bdbf72c297f5e34218814"
+      }
+    },
+    {
+      "slug": "hr1834",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_1834",
+        "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "content_id": "content-418866164d79c71959b2feeb8a041f07e2ec842a2fe17c03ded4e38bdede0b66",
+        "mapping_id": "mapping-fc766e1da723cb62cb2ff617993a48d48c5613aa32e3b28e4fdb145f023749c2",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-183add1d6606c3328a779c37cc05d6c99c853cc19f5446dd0b5c4cf7aca19f73"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_1834",
+        "source_sha256": "cde7b1836f842577fe4592e7e57012de3cfd7481f459ddf4cc6330ab1ad12c48",
+        "content_id": "content-3d3cd53ba5a3eb222411a79fe3e2e5c858d469f03778d9d3b6acb345655a1683",
+        "mapping_id": "mapping-fc766e1da723cb62cb2ff617993a48d48c5613aa32e3b28e4fdb145f023749c2",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-a36d5d4131a497cfa68c1a4341ac228fcb8033642917ef97b64bbd9f59f5295b"
+      }
+    },
+    {
+      "slug": "hr28",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_28",
+        "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "content_id": "content-baa1148137c45387ec78ff8016910b8c4e155a5b542ab869bc082e076d16f8f5",
+        "mapping_id": "mapping-518a067d571bdb6a3c54d0384a5ff7a880b108d2f6aeae56ac0a1bb8f916b4fa",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-31cd3bb6637fecd2e29fcb611a0d2c3e25791e1731456689f26832fa4ef8b27a"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_H_R_28",
+        "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+        "content_id": "content-44318580aa5d1bc0ac8b29513bd239755150cbdd5209e38d1c57ccab8cd2bcc3",
+        "mapping_id": "mapping-518a067d571bdb6a3c54d0384a5ff7a880b108d2f6aeae56ac0a1bb8f916b4fa",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-d240bef957dac4cf730e2494492f68a80c8d26cb01dadf8c3186169fc2d210b6"
+      }
+    },
+    {
+      "slug": "s2",
+      "rendered_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_2",
+        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "content_id": "content-916e4279610b465f5b7c833f7e9b4d4c8645f11e0cd94670ad127d555d3c2a47",
+        "mapping_id": "mapping-f7a10ee14ee6743c94f48a9ba67ba3d4d10032ed7fcbec0a7e506838037b1de3",
+        "procedure_id": "procedure-ce9a62d6b6c5d70633ce3bf4c4b7397d2592be566813e87f345585c23f970146",
+        "rendered_id": "rendered-800fb1f21a0755b0ffeeaa7a2c84f7e33b30d29fdbaf27cf3b6a16b3cfa05c10"
+      },
+      "session_release": {
+        "review_id": "policy-stake-briefs-decision-review",
+        "bill_id": "119_S_2",
+        "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+        "content_id": "content-98d8b0f0fa5641f8913f7c52025ff2799fd7c5b738bc3273c75aaa677ca83f16",
+        "mapping_id": "mapping-f7a10ee14ee6743c94f48a9ba67ba3d4d10032ed7fcbec0a7e506838037b1de3",
+        "procedure_id": "procedure-b1c783b9404b382f28930b7e918661c8ce02cd4677932c25e883d258191107f5",
+        "rendered_id": "rendered-39371ccc4db807ae6a86ddaff98fc70ef7f3a7d820969ad7ab184102f12398ad"
+      }
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdtemp,mkdir,rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
+import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import {createDecisionTree,createState,nextDecision,answerDecision,completion,derivedResults,validateState,exportBackup,importBackup} from './model.mjs';
 import {createSessionStore,storagePrefix,sessionKey} from './storage.mjs';
@@ -31,6 +32,20 @@ function fixture(suffix='one'){
  return {source,sourceBytes,decisions,coverage,copy,hashes,release,rootId};
 }
 const modelFor=f=>createDecisionTree(f.source,f.decisions,f.coverage,f.copy,f.hashes);
+
+test('this presentation update resumes prior sessions and refuses changed content',async()=>{
+ const compatibility=JSON.parse(await readFile(new URL('../session-compatibility.json',import.meta.url),'utf8'));
+ const manifest=JSON.parse(await readFile(new URL('../input-manifest.json',import.meta.url),'utf8'));
+ for(const bill of manifest.bills){
+  const billDir=fileURLToPath(new URL('../bills/'+bill.slug+'/',import.meta.url)),{model,release,sessionRelease}=await loadBill({billDir});
+  assert.deepEqual(sessionRelease,compatibility.releases[bill.bill_id]);assert.notEqual(release.rendered_id,sessionRelease.rendered_id);
+  const previous=answerDecision(model,createState(model,sessionRelease,'previous_session_001',at),nextDecision(model,createState(model,sessionRelease,'previous_session_001',at)).id,'No',at,'Existing review note');
+  const storage=memory(),manager=locks(),oldStore=createSessionStore({storage,locks:manager,model,release:previous.release});assert(await oldStore.acquire(previous));assert(oldStore.save(previous).ok);await oldStore.close();
+  const currentStore=createSessionStore({storage,locks:manager,model,release:sessionRelease});assert.deepEqual(currentStore.active(),previous);assert(await currentStore.acquire(previous));assert(currentStore.save(previous).ok);await currentStore.close();
+  assert.throws(()=>importBackup(exportBackup(previous),model,release,'wrong_release_001',at),/different release/);
+  await assert.rejects(loadBill({billDir,commonCopyOverrides:{pilot_notice:'Changed content requires a new compatibility review.'}}),/changed content or decisions/);
+ }
+});
 
 test('display descriptions can omit inline definitions without changing frozen source descriptions',()=>{
  const f=fixture(),original=f.source.bill.description;
@@ -62,7 +77,7 @@ test('two bills with the same rendered token and session ID save independently, 
  assert.throws(()=>importBackup(exportBackup(states[0].state),states[1].model,states[1].f.release,'import_other_bill',at),/different release/);
 });
 
-test('path measurement follows actual pruning and includes sequential Pending comparisons without counting closed disclosures',()=>{
+test('path measurement follows actual pruning and includes sequential SUPPORT/OPPOSE comparisons without counting closed disclosures',()=>{
  const f=fixture(),model=modelFor(f),report=measurePaths(model,f.release);assert.equal(report.scenarios.all_yes.decisions,3);assert.equal(report.scenarios.all_yes.overall_comparisons,1);assert.equal(report.scenarios.all_yes.total_judgments,4);assert.equal(report.scenarios.all_no.total_judgments,1);assert.equal(report.scenarios[f.rootId+'_no'].decisions_skipped,2);assert(report.scenarios.all_yes.required_panel_words>report.scenarios.all_no.required_panel_words);assert.equal(visibleText('<p>Visible words.</p><details><summary>Source</summary><p>Hidden words.</p></details>'),'Visible words. Source');assert.equal(words('<p>one two</p>'),2);assert.equal(report.human_workload_tested,false);
 });
 

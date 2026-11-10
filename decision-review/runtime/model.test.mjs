@@ -107,7 +107,7 @@ test('renderer keeps one active question and local goals, with full value defini
   assert(view.includes(value.reference.replaceAll('&','&amp;').replaceAll('"','&quot;')),'Keep the exact applicable reference profile.');
  }
  state=allYes(model);html=renderResults(model,state,'review',true);
- assert.equal(markers(html,'data-value-result').length,source.values.length);assert.equal((html.match(/class="comparison-form"/g)??[]).length,1);assert.equal(markers(html,'data-active-comparison-value').length,1);
+ assert.equal(markers(html,'data-value-result').length,source.values.length);assert.equal((html.match(/class="comparison-form"/g)??[]).length,1);assert.equal(markers(html,'data-active-comparison-value').length,1);assert.deepEqual([...html.matchAll(/name="strength-[^"]+" value="([^"]+)"/g)].map(match=>match[1]),['support','oppose']);assert(!html.includes('Choose Pending'));assert(!copy.input_error.includes('Pending'));assert.equal(completion(model,state).complete,false);
  const resultHtml=renderShell(model,{...state,navigation:{page:'results',decision_id:null,anchor:''}},'review',release,{writable:true}),ids=markers(resultHtml,'id');assert.equal(new Set(ids).size,ids.length);
  aside=resultHtml.slice(resultHtml.indexOf('<aside class="fixed-context"'));assert.equal(markers(aside,'data-value-definition').length,1);assert(aside.indexOf('class="value-definition"')<aside.indexOf('class="bill-context"'));
 });

@@ -37,7 +37,7 @@ export function measurePath(model,release,{name='path',choose=()=> 'Yes'}={}){
  }
  assert.equal(nextDecision(model,state),null,'The simulation left a required decision unresolved.');
  const results=derivedResults(model,state),both=[...results].filter(([,result])=>result.presence==='Both').map(([id])=>id),resultPanels=[];
- for(const id of both){const html=renderResults(model,state,'review',true);referenceWords+=countReferences();assert(html.includes('data-active-comparison-value="'+id+'"'),'Comparison traversal and rendered active value differ.');resultPanels.push({value_id:id,default_visible_words:words(html)});state=saveComparison(model,state,id,'pending',state.updated_at);}
+ for(const id of both){const html=renderResults(model,state,'review',true);referenceWords+=countReferences();assert(html.includes('data-active-comparison-value="'+id+'"'),'Comparison traversal and rendered active value differ.');resultPanels.push({value_id:id,default_visible_words:words(html)});state=saveComparison(model,state,id,'support',state.updated_at);}
  resultPanels.push({value_id:null,default_visible_words:words(renderResults(model,state,'review',true))});
  const resultWords=resultPanels.reduce((sum,panel)=>sum+panel.default_visible_words,0),activeWords=visited.reduce((sum,item)=>sum+item.default_visible_words,0),panelWords=activeWords+resultWords;
  assert(completion(model,state).complete,'The completed path still requires a judgment.');

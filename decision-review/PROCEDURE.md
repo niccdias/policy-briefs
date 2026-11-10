@@ -41,7 +41,7 @@ Each decision shows the explanation, evidence, challenges and limits for its own
 Each value's result is derived from the reviewer's current Yes answers to that value's claims:
 
 - Support or Oppose: Yes answers in one direction only.
-- Both: Yes answers in both directions. The reviewer compares the accepted reasons and chooses the stronger direction, SUPPORT or OPPOSE, or Pending, meaning no justified comparison yet. Pending is used only for this comparison.
+- Both: Yes answers in both directions. The reviewer compares the accepted reasons and chooses the stronger direction, SUPPORT or OPPOSE.
 - Neither: every value claim for that value is answered No or set aside.
 
 The results page shows the accepted reasons and the exact value statements. It does not ask reviewers to judge each value again. No count of reasons decides a result. The comparison guide is unchanged: consider all of the consequences, including their size, timing and reach; count a consequence once; good evidence for an effect does not make the effect large; there is no formula and no winner by number of reasons.

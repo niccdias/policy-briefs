@@ -57,7 +57,7 @@
   "oppose": "OPPOSE",
   "pending": "Pending — no justified comparison yet"
  },
- "strength_guide": "Compare the overall case for each direction for this value. Consider all of the consequences, including their size, timing and reach, not only the strongest one. Count a consequence once, even if it appears in more than one place. Good evidence for an effect does not mean that the effect is large. Do not count points; there is no formula for a winner. Choose Pending if you have no justified comparison.",
+ "strength_guide": "Compare the overall case for each direction for this value. Consider all of the consequences, including their size, timing and reach, not only the strongest one. Count a consequence once, even if it appears in more than one place. Good evidence for an effect does not mean that the effect is large. Do not count points; there is no formula for a winner.",
  "final_notes_label": "Optional notes",
  "save_final": "Save this comparison",
  "reconfirm_final": "Confirm this comparison again",
@@ -87,7 +87,7 @@
  "import_json": "Import JSON backup as a new session",
  "import_success": "Backup imported as a new session. The original session is unchanged.",
  "import_error": "This backup could not be imported. Use an unedited JSON backup from this exact pilot release. Your current session is unchanged.",
- "input_error": "This answer could not be saved. Choose Yes or No. For a comparison, choose the stronger direction or Pending.",
+ "input_error": "This answer could not be saved. Choose Yes or No. For a comparison, choose the stronger direction.",
  "load_error": "A saved session could not be opened. Its saved data have been preserved. Export any current in-memory review before starting another session.",
  "download_error": "The export could not be downloaded. Keep this tab open and try exporting again.",
  "history_label": "Review history",

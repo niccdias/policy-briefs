@@ -99,12 +99,12 @@ try{
   assert.equal(data.source.bill.id,entry.bill_id);assert.equal(await activeId(page),first.id);await inspect(page,data,model);
   if(first.kind==='causal'){
    await answer(page,prefix,'No');const state=await savedState(page,prefix),statuses=decisionStates(model,state),pruned=[...statuses].filter(([,item])=>item.status==='pruned').map(([id])=>id);assert(pruned.length>0,'The highest-priority root should prune a dependent question.');assert(pruned.every(id=>!state.answers[id]));
-   bills.push({slug:entry.slug,release:data.release,root:first.id,root_no_pruned:pruned.length});
+   bills.push({slug:entry.slug,release:data.rendered_release??data.release,session_release:data.release,root:first.id,root_no_pruned:pruned.length});
    await page.click('#new-session');await page.waitFor('#begin-review:not(:disabled)');await inspectIntroduction(page);
    const introOrigin=await page.evaluate(()=>performance.timeOrigin);await page.send('Page.reload',{ignoreCache:true});await until(async()=>{try{return await page.evaluate(()=>performance.timeOrigin)!==introOrigin;}catch{return false;}},'Introduction reload did not complete.');await page.waitFor('#begin-review:not(:disabled)');await inspectIntroduction(page);await page.click('#begin-review');await page.waitFor('#session-id');
    await until(async()=>(await savedState(page,prefix)).session_id!==state.session_id,'New session did not open.');await waitSaved(page);
    const started=await savedState(page,prefix);assert.deepEqual(started.answers,{});assert.equal(started.navigation.anchor,'reading');assert.equal(started.history.at(-1).type,'navigation');checks.push(entry.slug+': a new session and its reload show the introduction; Continue is persisted as navigation with no judgment.');
-  }else bills.push({slug:entry.slug,release:data.release,root:first.id,root_no_pruned:0});
+  }else bills.push({slug:entry.slug,release:data.rendered_release??data.release,session_release:data.release,root:first.id,root_no_pruned:0});
   const order=[],panels=[];
   for(let guard=0;guard<=model.nodes.size;guard++){
    const id=await activeId(page);if(!id)break;assert(!order.includes(id),'A decision repeated on an unchanged path.');const info=await inspect(page,data,model);order.push(id);panels.push(info);assert.equal(nextDecision(model,await savedState(page,prefix)).id,id);await answer(page,prefix,'Yes');
@@ -112,7 +112,8 @@ try{
   assert.equal(order.length,model.nodes.size,'The all-Yes UI path lost a decision.');assert.equal((await savedState(page,prefix)).history.filter(event=>event.type==='answer').length,model.nodes.size);
   let comparisons=0;
   while(await page.evaluate(()=>Boolean(document.querySelector('.comparison-form')))){
-   const before=await savedState(page,prefix);await page.evaluate(()=>{const form=document.querySelector('.comparison-form'),radio=form.querySelector('input[value="pending"]');radio.checked=true;radio.dispatchEvent(new Event('change',{bubbles:true}));form.requestSubmit();});await until(async()=>(await savedState(page,prefix)).revision>before.revision,'Comparison did not save.');await waitSaved(page);assert(++comparisons<=data.source.values.length);
+   if(comparisons===0){assert(!completion(model,await savedState(page,prefix)).complete);await page.evaluate(()=>document.querySelector('.comparison-form').scrollIntoView({block:'center'}));const shot=await page.send('Page.captureScreenshot',{format:'png'});await writeFile(join(root,'private/screenshots',entry.slug+'-comparison.png'),Buffer.from(shot.data,'base64'));}
+   const before=await savedState(page,prefix);await page.evaluate(()=>{const form=document.querySelector('.comparison-form'),choices=[...form.querySelectorAll('input[type=radio]')].map(input=>input.value);if(JSON.stringify(choices)!==JSON.stringify(['support','oppose']))throw new Error('Comparison must offer only SUPPORT and OPPOSE.');const radio=form.querySelector('input[value="support"]');radio.checked=true;radio.dispatchEvent(new Event('change',{bubbles:true}));form.requestSubmit();});await until(async()=>(await savedState(page,prefix)).revision>before.revision,'Comparison did not save.');await waitSaved(page);assert(++comparisons<=data.source.values.length);
   }
   assert(completion(model,await savedState(page,prefix)).complete);
   const before=await savedState(page,prefix),serverBefore=await qaService.load(qaUser.uid,before.session_id),origin=await page.evaluate(()=>performance.timeOrigin);await page.send('Page.reload',{ignoreCache:true});await until(async()=>{try{return await page.evaluate(()=>performance.timeOrigin)!==origin;}catch{return false;}},'Reload did not complete.');await page.waitFor('#session-id');await waitSaved(page);assert.deepEqual(await savedState(page,prefix),before);assert.equal((await qaService.load(qaUser.uid,before.session_id)).revision,serverBefore.revision,'Returning must not create a new server revision.');
