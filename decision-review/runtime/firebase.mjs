@@ -1,7 +1,7 @@
 import {initializeApp,getApps,getApp} from 'firebase/app';
 import {getAuth,GoogleAuthProvider,signInWithPopup,signInWithCredential,signOut,onAuthStateChanged,connectAuthEmulator} from 'firebase/auth';
 import {getFirestore,doc,collection,query,where,getDocFromServer,getDocsFromServer,runTransaction,serverTimestamp,connectFirestoreEmulator,disableNetwork,enableNetwork} from 'firebase/firestore';
-import {validateRelease,validateState,exportBackup,importBackup} from './model.mjs';
+import {validateRelease,validateState,exportBackup,importBackup,carriedFrom} from './model.mjs';
 import {createSessionStore,storagePrefix,sessionKey,activeKey} from './storage.mjs';
 
 const version='decision-review-v1',codec='gzip-base64-v1:',maxJsonBytes=30000000;
@@ -69,6 +69,18 @@ export function connectFirebase(config,{emulator=false,testUser='one'}={}){
    const records=await Promise.all(rows.docs.map(row=>decodeRecord(row.data(),row.id)));
    return records.sort((left,right)=>right.modifiedAt.toMillis()-left.modifiedAt.toMillis()||right.state.updated_at.localeCompare(left.state.updated_at)||left.session_id.localeCompare(right.session_id));
   },
+  // Sessions saved under earlier releases of this bill; their states are checked when carried forward.
+  listEarlier:async(uid,billId,kind,renderedIds)=>{
+   userId(uid);kindId(kind);check(Array.isArray(renderedIds)&&renderedIds.length<=30&&renderedIds.every(value=>/^rendered-[a-f0-9]{64}$/.test(value)),'Invalid earlier release list.');if(!renderedIds.length)return [];
+   const rows=await getDocsFromServer(query(collection(db,'decisionReviews',uid,'sessions'),where('version','==',version),where('bill_id','==',billId),where('rendered_id','in',renderedIds),where('kind','==',kind)));
+   return Promise.all(rows.docs.map(row=>decodeRecord(row.data(),row.id)));
+  },
+  // Coordinator only (enforced by the rules): every assigned account's sessions for this bill, all releases and kinds.
+  listAll:async billId=>{
+   const accounts=await getDocsFromServer(collection(db,'assignments')),records=[];
+   for(const account of accounts.docs){const rows=await getDocsFromServer(query(collection(db,'decisionReviews',account.id,'sessions'),where('version','==',version),where('bill_id','==',billId)));for(const row of rows.docs)records.push({...await decodeRecord(row.data(),row.id),uid:account.id});}
+   return records;
+  },
   load:async(uid,id)=>{const snapshot=await getDocFromServer(ref(uid,id));return decodeRecord(snapshot.exists()?snapshot.data():null,id);},
   save:async(uid,id,release,kind,expectedServerRevision,state)=>{
    if(emulatedNetworks.get(app)===false)throw Object.assign(new Error('The simulated cloud connection is unavailable. The account draft remains in this browser.'),{code:'unavailable'});
@@ -132,9 +144,17 @@ export function createCloudSessionStore({service,user,kind,storage,locks,model,r
  }
  async function sessions(){
   let remote;try{remote=await service.list(uid,release,kind);}catch(error){if(authError(error)){forbidden=true;report('auth_forbidden',error);throw error;}if(!networkError(error)||local.sessions().length===0)throw error;remote=[];report('cloud_pending',error);}
-  const items=new Map(remote.map(row=>{validateRemote(row,row.session_id);return [row.session_id,{session_id:row.session_id,updated_at:row.state.updated_at,revision:row.state.revision,server_revision:row.revision,pending:false}];}));
+  const items=new Map(remote.map(row=>{validateRemote(row,row.session_id);return [row.session_id,{session_id:row.session_id,updated_at:row.state.updated_at,revision:row.state.revision,server_revision:row.revision,pending:false,carried_from:carriedFrom(row.state)}];}));
   for(const row of local.sessions()){const cached=readEnvelope(row.session_id);if(cached.pending||!items.has(row.session_id))items.set(row.session_id,{...row,server_revision:cached.baseRevision,pending:cached.pending});}
   return [...items.values()].sort((left,right)=>right.updated_at.localeCompare(left.updated_at)||left.session_id.localeCompare(right.session_id));
+ }
+ // Earlier-release sessions of this account and kind, newest first: server copies, and unsent browser drafts.
+ async function earlier(){
+  const prior=[...(model.carry?.prior.values()??[])];if(!prior.length)return [];const found=new Map();
+  for(const entry of prior){const key=scope+storagePrefix(entry.release)+'session:';for(let index=0;index<storage.length;index++){const name=storage.key(index);if(!name?.startsWith(key))continue;try{const envelope=JSON.parse(storage.getItem(name));if(envelope?.state?.release?.rendered_id===entry.release.rendered_id&&envelope.state.session_id===name.slice(key.length))found.set(envelope.state.session_id,{session_id:envelope.state.session_id,updated_at:envelope.state.updated_at,state:envelope.state,pending:Boolean(envelope.pending)});}catch(error){console.error(error);}}}
+  let remote=[];try{remote=await service.listEarlier(uid,release.bill_id,kind,prior.map(entry=>entry.release.rendered_id));}catch(error){if(authError(error)){forbidden=true;report('auth_forbidden',error);throw error;}if(!networkError(error))throw error;}
+  for(const row of remote){const local=found.get(row.session_id);if(!local||!local.pending&&row.state.revision>=local.state.revision)found.set(row.session_id,{session_id:row.session_id,updated_at:row.state.updated_at,state:row.state,pending:false});}
+  return [...found.values()].sort((left,right)=>right.updated_at.localeCompare(left.updated_at)||left.session_id.localeCompare(right.session_id));
  }
  async function active(){const id=accountStorage.getItem(activeKey(release));if(id!==null)return load(id);const available=await sessions();return available.length?load(available[0].session_id):null;}
  async function acquire(state){
@@ -174,5 +194,5 @@ export function createCloudSessionStore({service,user,kind,storage,locks,model,r
   const imported=importBackup(exportBackup(draft),model,release,newSessionId,now);await close();local=makeLocal();conflict=null;currentId=null;serverRevision=0;
   check(await acquire(imported),'The new draft session could not acquire its writer lock.');await save(imported);return imported;
  }
- return {load,active,sessions,acquire,save,observe,close,useServer,saveDraftAsNew,get writable(){return !closed&&!forbidden&&!conflict&&local.writable;},get status(){return status;},get savedRevision(){return serverRevision;},get conflict(){return conflict;}};
+ return {load,active,sessions,earlier,acquire,save,observe,close,useServer,saveDraftAsNew,get writable(){return !closed&&!forbidden&&!conflict&&local.writable;},get status(){return status;},get savedRevision(){return serverRevision;},get conflict(){return conflict;}};
 }

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "bill_id": "119_S_2",
- "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+ "source_sha256": "8d522e9f9120b9014d8d76b51f13bda4a0f96040aed3c2906daaf83b06d8a212",
  "contexts": [
   {
    "id": "S2_X_HSI",
@@ -510,7 +510,7 @@
   {
    "id": "S2_B_FIREWARN_EV",
    "role": "evidence",
-   "html": "<p>Section 101 pays for Border Patrol staff “to conduct functions other than immigration enforcement and customs functions.” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a> In April 2025, agents who saw smoke near the border “promptly contacted fire crews from the Forest Service and Mexico.” <a href=\"https://web.archive.org/web/20250721105052/https://www.kvoa.com/news/local/tucson-agents-and-fire-crews-stop-border-blaze-in-its-tracks/article_4e7aed62-5c9f-46fc-b36c-5f2adcb392d4.html\" title=\"Zachary Jackson, “Tucson agents and fire crews stop border blaze in its tracks”, 2025-04-18\">[8]</a> Then “U.S. fire services swiftly put out spot fires caused by embers that blew across the border, while Mexican crews battled the main blaze to the south.” <a href=\"https://web.archive.org/web/20250721105052/https://www.kvoa.com/news/local/tucson-agents-and-fire-crews-stop-border-blaze-in-its-tracks/article_4e7aed62-5c9f-46fc-b36c-5f2adcb392d4.html\" title=\"Zachary Jackson, “Tucson agents and fire crews stop border blaze in its tracks”, 2025-04-18\">[8]</a> In a 2021 fire in the Jacumba Wilderness, “El Centro Station notified the Bureau of Land Management (BLM) of the situation.” <a href=\"https://web.archive.org/web/20260621205520/https://www.cbp.gov/newsroom/local-media-release/caught-act-agents-apprehend-suspected-arsonist\" title=\"“Caught in the Act, Agents Apprehend Suspected Arsonist”, 2021-09-24\">[9]</a></p>",
+   "html": "<p>Section 101 pays for Border Patrol staff “to conduct functions other than immigration enforcement and customs functions.” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a> In April 2025, agents who saw smoke near the border “promptly contacted fire crews from the Forest Service and Mexico.” <a href=\"https://web.archive.org/web/20250721105052/https://www.kvoa.com/news/local/tucson-agents-and-fire-crews-stop-border-blaze-in-its-tracks/article_4e7aed62-5c9f-46fc-b36c-5f2adcb392d4.html\" title=\"Zachary Jackson, “Tucson agents and fire crews stop border blaze in its tracks”, 2025-04-18\">[8]</a> Then “U.S. fire services swiftly put out spot fires caused by embers that blew across the border, while Mexican crews battled the main blaze to the south.” <a href=\"https://web.archive.org/web/20250721105052/https://www.kvoa.com/news/local/tucson-agents-and-fire-crews-stop-border-blaze-in-its-tracks/article_4e7aed62-5c9f-46fc-b36c-5f2adcb392d4.html\" title=\"Zachary Jackson, “Tucson agents and fire crews stop border blaze in its tracks”, 2025-04-18\">[8]</a> In a 2021 fire in the Jacumba Wilderness, “El Centro Station notified the Bureau of Land Management (BLM) of the situation.” <a href=\"https://web.archive.org/web/20260621205520/https://www.cbp.gov/newsroom/local-media-release/caught-act-agents-apprehend-suspected-arsonist\" title=\"“Caught in the Act, Agents Apprehend Suspected Arsonist”, 2021-09-24\">[9]</a> The agency reported: “The combined resources and firefighting efforts were able to control the fires.” <a href=\"https://web.archive.org/web/20260621205520/https://www.cbp.gov/newsroom/local-media-release/caught-act-agents-apprehend-suspected-arsonist\" title=\"“Caught in the Act, Agents Apprehend Suspected Arsonist”, 2021-09-24\">[9]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNN_support_05",
@@ -531,6 +531,11 @@
      "id": "S2_UNN_support_05",
      "field": "support_reading",
      "quote": "El Centro Station notified the Bureau of Land Management (BLM) of the situation."
+    },
+    {
+     "id": "S2_UNN_support_05",
+     "field": "support_reading",
+     "quote": "The combined resources and firefighting efforts were able to control the fires."
     }
    ]
   },
@@ -1242,9 +1247,51 @@
    ]
   },
   {
+   "id": "S2_B_CHANGELIMITS_EV",
+   "role": "evidence",
+   "html": "<p>Reports before the June 9 vote described more targeted arrests and fewer large, visible sweeps, but also limits to the change. Tom Homan said people agents find during operations are still “not off the table” <a href=\"https://web.archive.org/web/20261029191957/https://www.cbsnews.com/news/tom-homan-interview-minneapolis-ice-mass-deportations/\" title=\"Camilo Montoya-Galvez, “Tom Homan: &quot;Things weren&#x27;t perfect&quot; in Minneapolis crackdown, but ICE not backing down on mass deportations”, May 5, 2026 (article states first publication May 5, 2026; retrieval metadata May 6, 2026)\">[15]</a>, and WBEZ reported that “people who weren’t the original targets but are nearby might also get arrested.” <a href=\"https://web.archive.org/web/20261029190747/https://www.wbez.org/immigration/2026/05/07/rapid-responders-immigration-enforcement-ice-puno-mimi-guiracoch-pilsen-unidos-nuestro-orgullo-casa-dupage-workers-center\" title=\"Adriana Cardona-Maguigad, “Rapid responders in Chicago shift tactics as low-profile ICE enforcement continues”, 2026-05-07\">[28]</a> Mark Krikorian said: “it’s not clear this means they’re actually stepping back from immigration.” <a href=\"https://web.archive.org/web/20261029185940/https://www.tricityrecordnm.com/articles/associated-press-new-mexico/after-major-enforcement-operations-the-trump-administration-recalibrates-its-immigration-crackdow/\" title=\"REBECCA SANTANA, “After major enforcement operations, the Trump administration recalibrates its immigration crackdown”, 2026-05-01\">[26]</a> Human Rights Watch said on June 16 that Congress approved S.2 “without adopting essential oversight and accountability reforms.” <a href=\"https://web.archive.org/web/20261019211535/https://www.hrw.org/news/2026/06/16/us-congress-approves-immigration-funding-despite-abuses\" title=\"Human Rights Watch, analysis, June 16, 2026\">[27]</a> Lawmakers and activists had proposed reforms such as requiring warrants from judges and stronger bans on racial profiling.</p>",
+   "source_refs": [
+    {
+     "id": "S2_C37",
+     "field": "support_reading",
+     "quote": "not off the table"
+    },
+    {
+     "id": "S2_C37",
+     "field": "support_reading",
+     "quote": "people who weren’t the original targets but are nearby might also get arrested."
+    },
+    {
+     "id": "S2_C37",
+     "field": "support_reading",
+     "quote": "it’s not clear this means they’re actually stepping back from immigration."
+    },
+    {
+     "id": "S2_C37",
+     "field": "support_reading",
+     "quote": "without adopting essential oversight and accountability reforms."
+    },
+    {
+     "id": "S2_C06",
+     "field": "support_html",
+     "quote": "Human Rights Watch said on June 16 that Congress approved S.2 “without adopting essential oversight and accountability reforms.”"
+    },
+    {
+     "id": "S2_C36",
+     "field": "support_html",
+     "quote": "Human Rights Watch said on June 16 that Congress approved S.2 “without adopting essential oversight and accountability reforms.”"
+    },
+    {
+     "id": "S2_C37",
+     "field": "support_html",
+     "quote": "Lawmakers and activists had proposed reforms such as requiring warrants from judges and stronger bans on racial profiling."
+    }
+   ]
+  },
+  {
    "id": "S2_B_CHILD_EV",
    "role": "evidence",
-   "html": "<p>Section 102 requires that “$108,500,000 shall be used to hire, pay, and equip additional child exploitation investigators and forensics analysts” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>, “to support the identification and rescue of victims of child sexual exploitation and abuse” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. Representative Lee said: “Today, more than 89,000 children depicted in child sex abuse material remain unidentified.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Lee of Florida, floor speech, Congressional Record, June 9, 2026\">[2]</a></p>",
+   "html": "<p>Section 102 requires that “$108,500,000 shall be used to hire, pay, and equip additional child exploitation investigators and forensics analysts” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>, “to support the identification and rescue of victims of child sexual exploitation and abuse” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. Representative Lee said: “Today, more than 89,000 children depicted in child sex abuse material remain unidentified.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Lee of Florida, floor speech, Congressional Record, June 9, 2026\">[2]</a> In fiscal year 2024, an international operation hosted by HSI’s victim-identification lab led to the “identification and assistance of over 140 victims.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> In 2024 testimony, HSI reported that it “has identified and rescued over 675 domestic victims of West Africa-based sextortion schemes.” <a href=\"https://web.archive.org/web/20260621221212/https://www.ice.gov/doclib/news/library/speeches/240918berger.pdf\" title=\"“Oversight of Homeland Security Investigations: Statement of Katrina W. Berger”, 2024-09-18\">[20]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_01",
@@ -1260,6 +1307,16 @@
      "id": "S2_UNC_support_01",
      "field": "support_reading",
      "quote": "Today, more than 89,000 children depicted in child sex abuse material remain unidentified."
+    },
+    {
+     "id": "S2_UNC_support_01",
+     "field": "support_reading",
+     "quote": "identification and assistance of over 140 victims."
+    },
+    {
+     "id": "S2_SES_support_08",
+     "field": "support_reading",
+     "quote": "has identified and rescued over 675 domestic victims of West Africa-based sextortion schemes."
     }
    ]
   },
@@ -1310,7 +1367,7 @@
   {
    "id": "S2_B_TRAFF_EV",
    "role": "evidence",
-   "html": "<p>“Homeland Security Investigations initiated 1,686 criminal investigations related to sex trafficking and forced labor, leading to 2,545 arrests.” <a href=\"https://web.archive.org/web/20261029195319/https://www.dhs.gov/news/2025/08/13/dhs-center-countering-human-trafficking-releases-fiscal-year-2024-annual-report\" title=\"U.S. Department of Homeland Security, “DHS Center for Countering Human Trafficking Releases Fiscal Year 2024 Annual Report”, 2025-08-13\">[5]</a> In one HSI-backed case, “the defendant was found guilty at a jury trial and sentenced to 380 months” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>.</p>",
+   "html": "<p>“Homeland Security Investigations initiated 1,686 criminal investigations related to sex trafficking and forced labor, leading to 2,545 arrests.” <a href=\"https://web.archive.org/web/20261029195319/https://www.dhs.gov/news/2025/08/13/dhs-center-countering-human-trafficking-releases-fiscal-year-2024-annual-report\" title=\"U.S. Department of Homeland Security, “DHS Center for Countering Human Trafficking Releases Fiscal Year 2024 Annual Report”, 2025-08-13\">[5]</a> In one HSI-backed case, “the defendant was found guilty at a jury trial and sentenced to 380 months” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> after using “violence, false imprisonment and the use of drugs.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> In a 2025 Delaware case, a jury convicted a trafficker on “seven counts of sex trafficking seven adult victims, five counts of forced labor, and one count of interstate transportation for purposes of prostitution.” <a href=\"https://web.archive.org/web/20260524145328/https://www.justice.gov/opa/pr/delaware-man-convicted-sex-trafficking-and-forced-labor\" title=\"“Delaware Man Convicted of Sex Trafficking and Forced Labor”, 2025-05-13\">[22]</a> The Justice Department states: “Homeland Security Investigations investigated the case.” <a href=\"https://web.archive.org/web/20260524145328/https://www.justice.gov/opa/pr/delaware-man-convicted-sex-trafficking-and-forced-labor\" title=\"“Delaware Man Convicted of Sex Trafficking and Forced Labor”, 2025-05-13\">[22]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_03",
@@ -1321,6 +1378,21 @@
      "id": "S2_UNC_support_03",
      "field": "support_reading",
      "quote": "the defendant was found guilty at a jury trial and sentenced to 380 months"
+    },
+    {
+     "id": "S2_UNC_support_03",
+     "field": "support_reading",
+     "quote": "violence, false imprisonment and the use of drugs."
+    },
+    {
+     "id": "S2_SES_support_07",
+     "field": "support_reading",
+     "quote": "seven counts of sex trafficking seven adult victims, five counts of forced labor, and one count of interstate transportation for purposes of prostitution."
+    },
+    {
+     "id": "S2_SES_support_07",
+     "field": "support_reading",
+     "quote": "Homeland Security Investigations investigated the case."
     }
    ]
   },
@@ -1393,7 +1465,7 @@
   {
    "id": "S2_B_VICTIMS_EV",
    "role": "evidence",
-   "html": "<p>HSI’s victim program makes sure survivors “are informed of their rights” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> and “receive necessary assistance” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. Earlier added money was used “to create 76 new full-time positions” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>.</p>",
+   "html": "<p>HSI’s victim program makes sure survivors “are informed of their rights” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> and “receive necessary assistance” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. Earlier added money was used “to create 76 new full-time positions” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. Its interview specialists “create neutral, safe spaces where victims are empowered to share information in their own words.” <a href=\"https://web.archive.org/web/20260621191037/https://www.ice.gov/features/national-crime-victims-rights-week-2023\" title=\"“Archived: Voices of HSI’s Victim Assistance Program”, 2023-04-12; updated 2026-05-22\">[6]</a> HSI says: “HSI's special agents and Victim Assistance Program Specialists (VAPs) focus on removing victims from dangerous situations and ensuring their basic needs are met.” <a href=\"https://web.archive.org/web/20261013181815/https://www.ice.gov/hsi/how-we-can-help\" title=\"“How We Can Help”, 2025-02-06 (publication date supplied by the web index)\">[7]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_03",
@@ -1409,6 +1481,16 @@
      "id": "S2_UNC_support_03",
      "field": "support_reading",
      "quote": "to create 76 new full-time positions"
+    },
+    {
+     "id": "S2_UNT_support_03",
+     "field": "support_reading",
+     "quote": "create neutral, safe spaces where victims are empowered to share information in their own words."
+    },
+    {
+     "id": "S2_UNT_support_04",
+     "field": "support_reading",
+     "quote": "HSI's special agents and Victim Assistance Program Specialists (VAPs) focus on removing victims from dangerous situations and ensuring their basic needs are met."
     }
    ]
   },
@@ -1476,7 +1558,7 @@
   {
    "id": "S2_B_HUMRIGHTS_EV",
    "role": "evidence",
-   "html": "<p>HSI’s human rights center helps prosecute people for “human rights violations and war crimes” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> committed before they came to the United States; in fiscal year 2024 it “supported more than 180 investigations” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>.</p>",
+   "html": "<p>HSI’s human rights center helps prosecute people for “human rights violations and war crimes” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> committed before they came to the United States; in fiscal year 2024 it “supported more than 180 investigations” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. HSI investigates crimes including “torture, genocide, recruitment and use of child soldiers” <a href=\"https://web.archive.org/web/20261029200942/https://www.dhs.gov/sites/default/files/2022-12/ICE%20-%20Human%20Rights%20Violators%20and%20War%20Crimes%20Center.pdf\" title=\"DHS, “Human Rights Violators and War Crimes Center: Fiscal Year 2022 Report to Congress”, 2022-10-27\">[2]</a>.</p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_05",
@@ -1487,6 +1569,11 @@
      "id": "S2_UNC_support_05",
      "field": "support_reading",
      "quote": "supported more than 180 investigations"
+    },
+    {
+     "id": "S2_UNT_support_01",
+     "field": "support_reading",
+     "quote": "torture, genocide, recruitment and use of child soldiers"
     }
    ]
   },
@@ -1522,7 +1609,7 @@
   {
    "id": "S2_B_TERROR_EV",
    "role": "evidence",
-   "html": "<p>HSI’s National Security Unit “supports counterterrorism investigations within HSI.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> Its fiscal year 2024 results included “70 criminal indictments” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>.</p>",
+   "html": "<p>HSI’s National Security Unit “supports counterterrorism investigations within HSI.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> Its fiscal year 2024 results included “70 criminal indictments” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>, and ICE said HSI helped produce “terrorism-related disruptions.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a> HSI builds criminal cases against “terrorist networks and facilitators” <a href=\"https://web.archive.org/web/20260621221212/https://www.ice.gov/doclib/news/library/speeches/240918berger.pdf\" title=\"“Oversight of Homeland Security Investigations: Statement of Katrina W. Berger”, 2024-09-18\">[20]</a>.</p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_08",
@@ -1533,6 +1620,16 @@
      "id": "S2_UNC_support_08",
      "field": "support_reading",
      "quote": "70 criminal indictments"
+    },
+    {
+     "id": "S2_UNC_support_08",
+     "field": "support_reading",
+     "quote": "terrorism-related disruptions."
+    },
+    {
+     "id": "S2_SES_support_06",
+     "field": "support_reading",
+     "quote": "terrorist networks and facilitators"
     }
    ]
   },
@@ -1605,12 +1702,42 @@
   {
    "id": "S2_B_VIOLENT_EV",
    "role": "evidence",
-   "html": "<p>ICE reported a January 2026 arrest of a man convicted of “first-degree rape of a child” <a href=\"https://web.archive.org/web/20260621185745/https://www.ice.gov/news/releases/ice-arrests-criminal-illegal-alien-convicted-raping-child-multiple-other-sex-0\" title=\"U.S. Immigration and Customs Enforcement, “ICE arrests criminal illegal alien convicted of raping a child, multiple other sex offenses in North Carolina”, 2026-01-14\">[9]</a>, taken into custody after prison.</p>",
+   "html": "<p>ICE says: “When criminal noncitizens complete their sentences, ICE assumes custody and places them in the appropriate removal proceedings.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"“U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (release date)\">[18]</a> Its 2024 arrests included charges and convictions for “sexual assault and sex offenses” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"“U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (release date)\">[18]</a> and “homicides” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"“U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (release date)\">[18]</a>. ICE reported a January 2026 arrest of a man convicted of “first-degree rape of a child” <a href=\"https://web.archive.org/web/20260621185745/https://www.ice.gov/news/releases/ice-arrests-criminal-illegal-alien-convicted-raping-child-multiple-other-sex-0\" title=\"U.S. Immigration and Customs Enforcement, “ICE arrests criminal illegal alien convicted of raping a child, multiple other sex offenses in North Carolina”, 2026-01-14\">[9]</a>: “upon his release from prison Jan. 2, ICE took him into custody for removal to Mexico.” <a href=\"https://web.archive.org/web/20260621185745/https://www.ice.gov/news/releases/ice-arrests-criminal-illegal-alien-convicted-raping-child-multiple-other-sex-0\" title=\"U.S. Immigration and Customs Enforcement, “ICE arrests criminal illegal alien convicted of raping a child, multiple other sex offenses in North Carolina”, 2026-01-14\">[9]</a> In 2025 it reported arresting a man “convicted for murder in Massachusetts in 2007” <a href=\"https://web.archive.org/web/20261022103717/https://www.ice.gov/news/releases/ice-boston-arrests-illegal-dominican-national-convicted-murder-massachusetts\" title=\"U.S. Immigration and Customs Enforcement, “ICE Boston arrests illegal Dominican national convicted of murder in Massachusetts”, 2025-02-03 (page updated 2025-06-13)\">[7]</a> after his release from state custody: “Polanco remains in ICE custody pending removal proceedings.” <a href=\"https://web.archive.org/web/20261022103717/https://www.ice.gov/news/releases/ice-boston-arrests-illegal-dominican-national-convicted-murder-massachusetts\" title=\"U.S. Immigration and Customs Enforcement, “ICE Boston arrests illegal Dominican national convicted of murder in Massachusetts”, 2025-02-03 (page updated 2025-06-13)\">[7]</a></p>",
    "source_refs": [
+    {
+     "id": "S2_SES_support_05",
+     "field": "support_reading",
+     "quote": "When criminal noncitizens complete their sentences, ICE assumes custody and places them in the appropriate removal proceedings."
+    },
+    {
+     "id": "S2_SES_support_05",
+     "field": "support_reading",
+     "quote": "sexual assault and sex offenses"
+    },
+    {
+     "id": "S2_SES_support_05",
+     "field": "support_reading",
+     "quote": "homicides"
+    },
     {
      "id": "S2_UNC_support_07",
      "field": "support_reading",
      "quote": "first-degree rape of a child"
+    },
+    {
+     "id": "S2_UNC_support_07",
+     "field": "support_reading",
+     "quote": "upon his release from prison Jan. 2, ICE took him into custody for removal to Mexico."
+    },
+    {
+     "id": "S2_C05",
+     "field": "support_reading",
+     "quote": "convicted for murder in Massachusetts in 2007"
+    },
+    {
+     "id": "S2_SEP_support_03",
+     "field": "support_reading",
+     "quote": "Polanco remains in ICE custody pending removal proceedings."
     }
    ]
   },
@@ -1649,7 +1776,7 @@
   {
    "id": "S2_B_VIOLENT_LIM",
    "role": "qualification",
-   "html": "<p>The man in the example was already in ICE custody in January 2026. The $350 million arrest fund covers more than people with violent convictions, and these sources do not show what share of added arrests would involve each type of offense. The bill’s money also reaches people without violent convictions.</p>",
+   "html": "<p>The man convicted of child rape was already in ICE custody in January 2026. The $350 million arrest fund covers more than people with violent convictions, and these sources do not show what share of added arrests would involve each type of offense. The bill’s money also reaches people without violent convictions.</p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_07",
@@ -1698,7 +1825,7 @@
   {
    "id": "S2_B_SCANNERS_EV",
    "role": "evidence",
-   "html": "<p>Section 103 pays for inspection equipment to combat “the entry or exit of illicit narcotics” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. GAO explains: “These scans produce images that CBP officers review to help detect illegal drugs or other contraband.” <a href=\"https://web.archive.org/web/20260822152748/https://www.gao.gov/products/gao-26-108767\" title=\"U.S. Government Accountability Office, “Border Security: Improvements Needed to Increase Vehicle Scanning at Land Ports of Entry”, 2026-01-22\">[12]</a></p>",
+   "html": "<p>Section 103 pays for inspection equipment to combat “the entry or exit of illicit narcotics” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. GAO explains: “These scans produce images that CBP officers review to help detect illegal drugs or other contraband.” <a href=\"https://web.archive.org/web/20260822152748/https://www.gao.gov/products/gao-26-108767\" title=\"U.S. Government Accountability Office, “Border Security: Improvements Needed to Increase Vehicle Scanning at Land Ports of Entry”, 2026-01-22\">[12]</a> For fiscal year 2023, CBP reported that large-scale scanning systems were “aiding in the interdiction of more than 127,000 pounds of narcotics” <a href=\"https://web.archive.org/web/20260621221750/https://www.cbp.gov/about/congressional-resources/testimony/Miller-HAC-HS-30APR24\" title=\"“Testimony of Troy Miller for an April 30 hearing on the FY25 Budget Request for CBP”, 2024-04-30\">[10]</a>.</p>",
    "source_refs": [
     {
      "id": "S2_TR_support_06",
@@ -1709,6 +1836,11 @@
      "id": "S2_TR_support_06",
      "field": "support_reading",
      "quote": "These scans produce images that CBP officers review to help detect illegal drugs or other contraband."
+    },
+    {
+     "id": "S2_SES_support_04",
+     "field": "support_reading",
+     "quote": "aiding in the interdiction of more than 127,000 pounds of narcotics"
     }
    ]
   },
@@ -1781,7 +1913,7 @@
   {
    "id": "S2_B_DRUGS_EV",
    "role": "evidence",
-   "html": "<p>Section 103 adds “$3,450,000,000 for the following” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a> uses, including “combating drug trafficking, including fentanyl and its precursor chemicals” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. ICE describes the danger as “the synthetic drugs that fuel overdose deaths” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. Seized drugs themselves stay off the street.</p>",
+   "html": "<p>Section 103 adds “$3,450,000,000 for the following” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a> uses, including “combating drug trafficking, including fentanyl and its precursor chemicals” <a href=\"https://web.archive.org/web/20261029205704/https://www.congress.gov/119/bills/s2/BILLS-119s2es.htm\" title=\"S.2, bill text, June 5, 2026\">[1]</a>. ICE describes the danger as “the synthetic drugs that fuel overdose deaths” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"Taylor, Kathleen W (CTR), “U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (publication announced in new_04)\">[3]</a>. CBP says: “Seizures remove dangerous drugs from illicit supply chains, keep them out of our communities, and deny TCOs valuable profits.” <a href=\"https://web.archive.org/web/20260621221750/https://www.cbp.gov/about/congressional-resources/testimony/Miller-HAC-HS-30APR24\" title=\"“Testimony of Troy Miller for an April 30 hearing on the FY25 Budget Request for CBP”, 2024-04-30\">[10]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_support_06",
@@ -1799,9 +1931,9 @@
      "quote": "the synthetic drugs that fuel overdose deaths"
     },
     {
-     "id": "S2_C04",
-     "field": "scope_html",
-     "quote": "Seized drugs themselves stay off the street, and nobody disputes that."
+     "id": "S2_SES_support_04",
+     "field": "support_reading",
+     "quote": "Seizures remove dangerous drugs from illicit supply chains, keep them out of our communities, and deny TCOs valuable profits."
     }
    ]
   },
@@ -2136,14 +2268,14 @@
    ]
   },
   {
-   "id": "S2_B_TACTIC_SCOPE",
+   "id": "S2_B_RACESTOPS_SCOPE",
    "role": "qualification",
-   "html": "<p>Each of these questions concerns only one earlier practice; a Yes or No on one does not settle whether other earlier practices continue.</p>",
+   "html": "<p>This question concerns only stops based on perceived race, ethnicity or national origin. A Yes or No here does not settle whether other earlier practices continue.</p>",
    "source_refs": [
     {
      "id": "S2_C06",
      "field": "scope_html",
-     "quote": "A Yes or No here does not settle whether other earlier practices continue."
+     "quote": "This question concerns only stops based on perceived race, ethnicity or national origin. A Yes or No here does not settle whether other earlier practices continue."
     }
    ]
   },
@@ -2179,7 +2311,7 @@
   {
    "id": "S2_B_HOMEENTRY_EV",
    "role": "evidence",
-   "html": "<p>Representative Thompson reported that DHS used earlier money to “break into homes without warrants” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Lee of Florida, floor speech, Congressional Record, June 9, 2026\">[2]</a>, and said of S.2: “It does not require officers to get judicial warrants.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Lee of Florida, floor speech, Congressional Record, June 9, 2026\">[2]</a> In May, the DHS secretary wrote that ICE “has not rescinded the memorandum; however, I have paused the practice of entering an illegal alien’s residence who is subject to a final order of removal with an I-205” <a href=\"https://web.archive.org/web/20261029181610/https://www.hsgac.senate.gov/wp-content/uploads/26-45805-Blumenthal-S1-SIGNED-Response-5.8.26.pdf\" title=\"Burke, Katharine J (CTR), “Letter to Senator Richard Blumenthal concerning administrative-warrant home entries”, 2026-05-08\">[30]</a>, “while I assess the policy.” <a href=\"https://web.archive.org/web/20261029181610/https://www.hsgac.senate.gov/wp-content/uploads/26-45805-Blumenthal-S1-SIGNED-Response-5.8.26.pdf\" title=\"Burke, Katharine J (CTR), “Letter to Senator Richard Blumenthal concerning administrative-warrant home entries”, 2026-05-08\">[30]</a></p>",
+   "html": "<p>Representative Thompson reported that DHS used earlier money to “break into homes without warrants” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Thompson, floor speech, Congressional Record, June 9, 2026\">[2]</a>, and said of S.2: “It does not require officers to get judicial warrants.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Thompson, floor speech, Congressional Record, June 9, 2026\">[2]</a> In May, the DHS secretary wrote that ICE “has not rescinded the memorandum; however, I have paused the practice of entering an illegal alien’s residence who is subject to a final order of removal with an I-205” <a href=\"https://web.archive.org/web/20261029181610/https://www.hsgac.senate.gov/wp-content/uploads/26-45805-Blumenthal-S1-SIGNED-Response-5.8.26.pdf\" title=\"Burke, Katharine J (CTR), “Letter to Senator Richard Blumenthal concerning administrative-warrant home entries”, 2026-05-08\">[30]</a>, “while I assess the policy.” <a href=\"https://web.archive.org/web/20261029181610/https://www.hsgac.senate.gov/wp-content/uploads/26-45805-Blumenthal-S1-SIGNED-Response-5.8.26.pdf\" title=\"Burke, Katharine J (CTR), “Letter to Senator Richard Blumenthal concerning administrative-warrant home entries”, 2026-05-08\">[30]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_oppose_07",
@@ -2488,31 +2620,21 @@
    ]
   },
   {
-   "id": "S2_B_RAIDTYPE_EV",
-   "role": "evidence",
-   "html": "<p>Reports before the June 9 vote described more targeted arrests and fewer large, visible sweeps, but also limits to the change. Tom Homan said people agents find during operations are still “not off the table” <a href=\"https://web.archive.org/web/20261029191957/https://www.cbsnews.com/news/tom-homan-interview-minneapolis-ice-mass-deportations/\" title=\"Camilo Montoya-Galvez, “Tom Homan: &quot;Things weren&#x27;t perfect&quot; in Minneapolis crackdown, but ICE not backing down on mass deportations”, May 5, 2026 (article states first publication May 5, 2026; retrieval metadata May 6, 2026)\">[15]</a>, and WBEZ reported that “people who weren’t the original targets but are nearby might also get arrested.” <a href=\"https://web.archive.org/web/20261029190747/https://www.wbez.org/immigration/2026/05/07/rapid-responders-immigration-enforcement-ice-puno-mimi-guiracoch-pilsen-unidos-nuestro-orgullo-casa-dupage-workers-center\" title=\"Adriana Cardona-Maguigad, “Rapid responders in Chicago shift tactics as low-profile ICE enforcement continues”, 2026-05-07\">[28]</a> Mark Krikorian said: “it’s not clear this means they’re actually stepping back from immigration.” <a href=\"https://web.archive.org/web/20261029185940/https://www.tricityrecordnm.com/articles/associated-press-new-mexico/after-major-enforcement-operations-the-trump-administration-recalibrates-its-immigration-crackdow/\" title=\"REBECCA SANTANA, “After major enforcement operations, the Trump administration recalibrates its immigration crackdown”, 2026-05-01\">[26]</a></p>",
+   "id": "S2_B_RAIDS_SCOPE",
+   "role": "qualification",
+   "html": "<p>This question concerns only large, visible raids or sweeps. A Yes or No here does not settle whether other earlier practices continue.</p>",
    "source_refs": [
     {
      "id": "S2_C37",
-     "field": "support_reading",
-     "quote": "not off the table"
-    },
-    {
-     "id": "S2_C37",
-     "field": "support_reading",
-     "quote": "people who weren’t the original targets but are nearby might also get arrested."
-    },
-    {
-     "id": "S2_C37",
-     "field": "support_reading",
-     "quote": "it’s not clear this means they’re actually stepping back from immigration."
+     "field": "scope_html",
+     "quote": "This question concerns only large, visible raids or sweeps. A Yes or No here does not settle whether other earlier practices continue."
     }
    ]
   },
   {
    "id": "S2_B_SESRAID_EV",
    "role": "evidence",
-   "html": "<p>During the Minneapolis enforcement operation, “Workers stayed home. Small businesses shuttered, and tens of thousands of residents were suddenly thrown into food and housing insecurity.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Thompson, floor speech, Congressional Record, June 9, 2026\">[34]</a></p>",
+   "html": "<p>During the Minneapolis enforcement operation, “Workers stayed home. Small businesses shuttered, and tens of thousands of residents were suddenly thrown into food and housing insecurity.” <a href=\"https://web.archive.org/web/20261003062606/https://www.govinfo.gov/content/pkg/CREC-2026-06-09/html/CREC-2026-06-09-pt1-PgH4017.htm\" title=\"Omar, floor speech, Congressional Record, June 9, 2026\">[34]</a></p>",
    "source_refs": [
     {
      "id": "S2_SES_oppose_07",
@@ -2541,7 +2663,7 @@
   {
    "id": "S2_B_FORCE_EV",
    "role": "evidence",
-   "html": "<p>Human Rights Watch documented agents “using excessive force against peaceful protestors, legal observers, volunteer street medics, and journalists outside an ICE detention facility.” <a href=\"https://web.archive.org/web/20261019211535/https://www.hrw.org/news/2026/06/16/us-congress-approves-immigration-funding-despite-abuses\" title=\"Human Rights Watch, analysis, June 16, 2026\">[19]</a> Representative McCollum reported: “Peaceful demonstrators were threatened and detained for exercising their First Amendment rights.” <a href=\"https://web.archive.org/web/20261029161359/https://mccollum.house.gov/media/press-releases/congresswoman-mccollum-votes-no-republicans-blank-check-ice-and-cbp\" title=\"McCollum, press release, June 10, 2026\">[31]</a></p>",
+   "html": "<p>Human Rights Watch documented agents “using excessive force against peaceful protestors, legal observers, volunteer street medics, and journalists outside an ICE detention facility.” <a href=\"https://web.archive.org/web/20261019211535/https://www.hrw.org/news/2026/06/16/us-congress-approves-immigration-funding-despite-abuses\" title=\"Human Rights Watch, analysis, June 16, 2026\">[19]</a> At Broadview, Illinois, its findings rest on witnesses and video: “Witnesses and video confirm that DHS agents used tear gas and fired projectiles directly into groups of protesters, including from the detention facility roof, often without warning, and without protesters appearing to pose any risk to agents.” <a href=\"https://web.archive.org/web/20261029192931/https://www.hrw.org/news/2025/10/23/united-states-federal-agents-use-excessive-force-in-illinois\" title=\"Human Rights Watch, “United States: Federal Agents Use Excessive Force in Illinois”, 2025-10-23\">[22]</a> Representative McCollum reported: “Peaceful demonstrators were threatened and detained for exercising their First Amendment rights.” <a href=\"https://web.archive.org/web/20261029161359/https://mccollum.house.gov/media/press-releases/congresswoman-mccollum-votes-no-republicans-blank-check-ice-and-cbp\" title=\"McCollum, press release, June 10, 2026\">[31]</a> The Brennan Center says Democratic legislators blocked more funding for the Department of Homeland Security and demanded reforms after “the killing of U.S. citizens Renee Good and Alex Pretti in Minneapolis.” <a href=\"https://web.archive.org/web/20261016060816/https://www.brennancenter.org/our-work/research-reports/ice-and-customs-and-border-protection-budgets-exceed-200-billion\" title=\"Brennan Center for Justice, “ICE and Customs and Border Protection Budgets to Exceed $200 Billion | Brennan Center for Justice”, June 25, 2026\">[18]</a></p>",
    "source_refs": [
     {
      "id": "S2_UNC_oppose_08",
@@ -2549,9 +2671,19 @@
      "quote": "using excessive force against peaceful protestors, legal observers, volunteer street medics, and journalists outside an ICE detention facility."
     },
     {
+     "id": "S2_UNT_oppose_05",
+     "field": "support_reading",
+     "quote": "Witnesses and video confirm that DHS agents used tear gas and fired projectiles directly into groups of protesters, including from the detention facility roof, often without warning, and without protesters appearing to pose any risk to agents."
+    },
+    {
      "id": "S2_UNC_oppose_08",
      "field": "support_reading",
      "quote": "Peaceful demonstrators were threatened and detained for exercising their First Amendment rights."
+    },
+    {
+     "id": "S2_UNC_oppose_08",
+     "field": "support_reading",
+     "quote": "the killing of U.S. citizens Renee Good and Alex Pretti in Minneapolis."
     }
    ]
   },
@@ -2604,6 +2736,18 @@
      "id": "S2_UNC_oppose_08",
      "field": "response_reading",
      "quote": "This does not show that such incidents have ended."
+    }
+   ]
+  },
+  {
+   "id": "S2_B_FORCE_SCOPE",
+   "role": "qualification",
+   "html": "<p>This question concerns only excessive force in public operations. A Yes or No here does not settle whether other earlier practices continue.</p>",
+   "source_refs": [
+    {
+     "id": "S2_C36",
+     "field": "scope_html",
+     "quote": "This question concerns only excessive force in public operations. A Yes or No here does not settle whether other earlier practices continue."
     }
    ]
   },
@@ -3099,12 +3243,17 @@
   {
    "id": "S2_B_HEALTHORD_EV",
    "role": "evidence",
-   "html": "<p>Border Patrol had an “immediate requirement to assist the Centers for Disease Control and Prevention (CDC) in implementing its May 18, 2026 Order” <a href=\"https://web.archive.org/web/20260923133715/https://www.cbp.gov/document/foia-record/cdc-order-implementation-title-42-expulsion-procedures-ebola-affected\" title=\"U.S. Customs and Border Protection, “CDC Order Implementation: Title 42 Expulsion Procedures for Ebola-Affected Countries”, 2026-07-13 (document release; describes the May 18, 2026 order)\">[19]</a>. The order said: “This order will be in effect for 30 days, effective immediately.” <a href=\"https://web.archive.org/web/20260525185625/https://www.cdc.gov/ebola/situation-summary/title-42-order.html\" title=\"Centers for Disease Control and Prevention, “CDC Statement on the Use of Public Health Travel Restrictions to Prevent the Introduction of Ebola Disease into the United States”, 2026-05-18\">[20]</a> The CDC’s goal was “preventing its introduction into the United States.” <a href=\"https://web.archive.org/web/20260525185625/https://www.cdc.gov/ebola/situation-summary/title-42-order.html\" title=\"Centers for Disease Control and Prevention, “CDC Statement on the Use of Public Health Travel Restrictions to Prevent the Introduction of Ebola Disease into the United States”, 2026-05-18\">[20]</a> “Ebola is a serious viral disease that spreads through direct contact with infected bodily fluids and can be fatal.” <a href=\"https://web.archive.org/web/20260524035606/https://www.cdc.gov/viral-hemorrhagic-fevers/travel-to-us/index.html\" title=\"Centers for Disease Control and Prevention, “What Travelers Need to Know About Returning to the United States from DRC, Uganda, and South Sudan”, 2026-05-21\">[21]</a> A continuing CDC order of June 21 asked DHS to help enforce it.</p>",
+   "html": "<p>Border Patrol had an “immediate requirement to assist the Centers for Disease Control and Prevention (CDC) in implementing its May 18, 2026 Order” <a href=\"https://web.archive.org/web/20260923133715/https://www.cbp.gov/document/foia-record/cdc-order-implementation-title-42-expulsion-procedures-ebola-affected\" title=\"U.S. Customs and Border Protection, “CDC Order Implementation: Title 42 Expulsion Procedures for Ebola-Affected Countries”, 2026-07-13 (document release; describes the May 18, 2026 order)\">[19]</a>, with guidance on “screening, processing, and expulsion procedures under Title 42 authority.” <a href=\"https://web.archive.org/web/20260923133715/https://www.cbp.gov/document/foia-record/cdc-order-implementation-title-42-expulsion-procedures-ebola-affected\" title=\"U.S. Customs and Border Protection, “CDC Order Implementation: Title 42 Expulsion Procedures for Ebola-Affected Countries”, 2026-07-13 (document release; describes the May 18, 2026 order)\">[19]</a> The order said: “This order will be in effect for 30 days, effective immediately.” <a href=\"https://web.archive.org/web/20260525185625/https://www.cdc.gov/ebola/situation-summary/title-42-order.html\" title=\"Centers for Disease Control and Prevention, “CDC Statement on the Use of Public Health Travel Restrictions to Prevent the Introduction of Ebola Disease into the United States”, 2026-05-18\">[20]</a> The CDC’s goal was “preventing its introduction into the United States.” <a href=\"https://web.archive.org/web/20260525185625/https://www.cdc.gov/ebola/situation-summary/title-42-order.html\" title=\"Centers for Disease Control and Prevention, “CDC Statement on the Use of Public Health Travel Restrictions to Prevent the Introduction of Ebola Disease into the United States”, 2026-05-18\">[20]</a> “Ebola is a serious viral disease that spreads through direct contact with infected bodily fluids and can be fatal.” <a href=\"https://web.archive.org/web/20260524035606/https://www.cdc.gov/viral-hemorrhagic-fevers/travel-to-us/index.html\" title=\"Centers for Disease Control and Prevention, “What Travelers Need to Know About Returning to the United States from DRC, Uganda, and South Sudan”, 2026-05-21\">[21]</a> A continuing CDC order of June 21 asked DHS to help enforce it.</p>",
    "source_refs": [
     {
      "id": "S2_SEP_support_08",
      "field": "support_reading",
      "quote": "immediate requirement to assist the Centers for Disease Control and Prevention (CDC) in implementing its May 18, 2026 Order"
+    },
+    {
+     "id": "S2_SEP_support_08",
+     "field": "support_reading",
+     "quote": "screening, processing, and expulsion procedures under Title 42 authority."
     },
     {
      "id": "S2_SEP_support_08",
@@ -3219,8 +3368,18 @@
   {
    "id": "S2_B_GANGS_EV",
    "role": "evidence",
-   "html": "<p>In a Justice Department case, “the defendants were also convicted of conspiring with each other and committing acts of violence” <a href=\"https://web.archive.org/web/20261021064138/https://www.justice.gov/archives/opa/pr/eighteen-ms-13-members-and-associates-sentenced-10-murders-seven-attempted-murders\" title=\"U.S. Department of Justice, Office of Public Affairs, “Eighteen MS-13 Members and Associates Sentenced for 10 Murders, Seven Attempted Murders, Kidnapping, Drug Trafficking, and Firearms Offenses”, 2024-07-18 (page updated 2025-02-06)\">[16]</a>, with HSI among the investigators, and “Throughout the course of the conspiracy, the MS-13 members committed several armed carjackings of citizens near the Nashville, Tennessee, area.” <a href=\"https://web.archive.org/web/20261021064138/https://www.justice.gov/archives/opa/pr/eighteen-ms-13-members-and-associates-sentenced-10-murders-seven-attempted-murders\" title=\"U.S. Department of Justice, Office of Public Affairs, “Eighteen MS-13 Members and Associates Sentenced for 10 Murders, Seven Attempted Murders, Kidnapping, Drug Trafficking, and Firearms Offenses”, 2024-07-18 (page updated 2025-02-06)\">[16]</a></p>",
+   "html": "<p>ICE’s 2024 report describes HSI gang cases involving “firearms trafficking and possession, violent crimes, terroristic acts” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"“U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (release date)\">[18]</a> and reports that gang investigations produced “2,189 indictments and 1,106 convictions.” <a href=\"https://web.archive.org/web/20261004223731/https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf\" title=\"“U.S. Immigration and Customs Enforcement Fiscal Year 2024 Annual Report”, 2024-12-19 (release date)\">[18]</a> In a Justice Department case, “the defendants were also convicted of conspiring with each other and committing acts of violence” <a href=\"https://web.archive.org/web/20261021064138/https://www.justice.gov/archives/opa/pr/eighteen-ms-13-members-and-associates-sentenced-10-murders-seven-attempted-murders\" title=\"U.S. Department of Justice, Office of Public Affairs, “Eighteen MS-13 Members and Associates Sentenced for 10 Murders, Seven Attempted Murders, Kidnapping, Drug Trafficking, and Firearms Offenses”, 2024-07-18 (page updated 2025-02-06)\">[16]</a>, with HSI among the investigators, and “Throughout the course of the conspiracy, the MS-13 members committed several armed carjackings of citizens near the Nashville, Tennessee, area.” <a href=\"https://web.archive.org/web/20261021064138/https://www.justice.gov/archives/opa/pr/eighteen-ms-13-members-and-associates-sentenced-10-murders-seven-attempted-murders\" title=\"U.S. Department of Justice, Office of Public Affairs, “Eighteen MS-13 Members and Associates Sentenced for 10 Murders, Seven Attempted Murders, Kidnapping, Drug Trafficking, and Firearms Offenses”, 2024-07-18 (page updated 2025-02-06)\">[16]</a></p>",
    "source_refs": [
+    {
+     "id": "S2_SES_support_06",
+     "field": "support_reading",
+     "quote": "firearms trafficking and possession, violent crimes, terroristic acts"
+    },
+    {
+     "id": "S2_SES_support_06",
+     "field": "support_reading",
+     "quote": "2,189 indictments and 1,106 convictions."
+    },
     {
      "id": "S2_SEP_support_06",
      "field": "support_reading",
@@ -3433,7 +3592,7 @@
   {
    "id": "S2_B_REPORT_EV",
    "role": "evidence",
-   "html": "<p>The 287(g) task force model “Allows officers trained by ICE to enforce immigration law during routine police activity, like traffic stops.” <a href=\"https://web.archive.org/web/20261029174240/https://www.americanimmigrationcouncil.org/blog/287g-agreements-ice-threaten-communities/\" title=\"“287(g) Agreements With ICE Threaten Welcoming Communities”, 2025-09-26\">[29]</a> A study of 2005–2014 survey data found “the activation of Secure Communities and 287(g) task force agreements significantly increased violent victimization risk among Latinos” <a href=\"https://web.archive.org/web/20261010011605/https://pmc.ncbi.nlm.nih.gov/articles/PMC11309025/\" title=\"Eric P. Baumer and Min Xie / Criminology &amp; Public Policy, “Federal-Local Partnerships on Immigration Law Enforcement: Are the Policies Effective in Reducing Violent Victimization?”, 2023-03-14 (final edited publication; author manuscript available in PMC 2024-08-08)\">[10]</a>. The Major Cities Chiefs Association’s president said: “Cooperation is not forthcoming from persons who see their police as immigration agents.” <a href=\"https://web.archive.org/web/20261029182308/https://www.judiciary.senate.gov/imo/media/doc/07-21-15%20Manger%20Testimony.pdf\" title=\"T2936M, “Testimony of Tom Manger — Oversight of the Administration’s Misdirected Immigration Enforcement Policies: Examining the Impact on Public Safety and Honoring the Victims”, 2015-07-21\">[30]</a> In a 2026 survey, 49.4% in Minneapolis and 46.1% in St. Paul said they were less likely to seek police help because of how federal agents carried out a large operation.</p>",
+   "html": "<p>The 287(g) task force model “Allows officers trained by ICE to enforce immigration law during routine police activity, like traffic stops.” <a href=\"https://web.archive.org/web/20261029174240/https://www.americanimmigrationcouncil.org/blog/287g-agreements-ice-threaten-communities/\" title=\"“287(g) Agreements With ICE Threaten Welcoming Communities”, 2025-09-26\">[29]</a> A study of 2005–2014 survey data found “the activation of Secure Communities and 287(g) task force agreements significantly increased violent victimization risk among Latinos” <a href=\"https://web.archive.org/web/20261010011605/https://pmc.ncbi.nlm.nih.gov/articles/PMC11309025/\" title=\"Eric P. Baumer and Min Xie / Criminology &amp; Public Policy, “Federal-Local Partnerships on Immigration Law Enforcement: Are the Policies Effective in Reducing Violent Victimization?”, 2023-03-14 (final edited publication; author manuscript available in PMC 2024-08-08)\">[10]</a>. Research on Secure Communities, another program linking local police to deportation, found that “Secure Communities reduced the likelihood that Hispanic victims reported crime to the police.” <a href=\"https://web.archive.org/web/20261029145138/https://econofact.org/can-heightened-immigration-enforcement-increase-crime\" title=\"Felipe Goncalves\">[33]</a> The same source says: “When crime reporting declines, police are less able to identify, prevent, and solve crimes when they occur, making it harder to apprehend offenders.” <a href=\"https://web.archive.org/web/20261029145138/https://econofact.org/can-heightened-immigration-enforcement-increase-crime\" title=\"Felipe Goncalves\">[33]</a> The Major Cities Chiefs Association’s president said: “Cooperation is not forthcoming from persons who see their police as immigration agents.” <a href=\"https://web.archive.org/web/20261029182308/https://www.judiciary.senate.gov/imo/media/doc/07-21-15%20Manger%20Testimony.pdf\" title=\"T2936M, “Testimony of Tom Manger — Oversight of the Administration’s Misdirected Immigration Enforcement Policies: Examining the Impact on Public Safety and Honoring the Victims”, 2015-07-21\">[30]</a> In a 2026 survey, 49.4% in Minneapolis and 46.1% in St. Paul said they were less likely to seek police help because of how federal agents carried out a large operation.</p>",
    "source_refs": [
     {
      "id": "S2_SEP_oppose_03",
@@ -3444,6 +3603,16 @@
      "id": "S2_SEP_oppose_03",
      "field": "support_reading",
      "quote": "the activation of Secure Communities and 287(g) task force agreements significantly increased violent victimization risk among Latinos"
+    },
+    {
+     "id": "S2_SES_oppose_03",
+     "field": "support_reading",
+     "quote": "Secure Communities reduced the likelihood that Hispanic victims reported crime to the police."
+    },
+    {
+     "id": "S2_SES_oppose_03",
+     "field": "support_reading",
+     "quote": "When crime reporting declines, police are less able to identify, prevent, and solve crimes when they occur, making it harder to apprehend offenders."
     },
     {
      "id": "S2_SEP_oppose_03",
@@ -3492,7 +3661,7 @@
   {
    "id": "S2_B_IMPOST_EV",
    "role": "evidence",
-   "html": "<p>WIRED reports an FBI bulletin: “Criminals posing as US immigration officers have carried out robberies, kidnappings, and sexual assaults in several states” <a href=\"https://web.archive.org/web/20261029190822/https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/\" title=\"Dell Cameron, Caroline Haskins\">[35]</a>, linking the rise to the “recent increase in ICE enforcement actions” <a href=\"https://web.archive.org/web/20261029190822/https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/\" title=\"Dell Cameron, Caroline Haskins\">[35]</a>. “The GOP bill does not restrict mask-wearing” <a href=\"https://web.archive.org/web/20261006050718/https://nymag.com/intelligencer/article/ice-won-dhs-spending-bill-trump.html\" title=\"New York Magazine / Intelligencer, “ICE Won”, June 29, 2026\">[33]</a>.</p>",
+   "html": "<p>WIRED reports an FBI bulletin: “Criminals posing as US immigration officers have carried out robberies, kidnappings, and sexual assaults in several states” <a href=\"https://web.archive.org/web/20261029190822/https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/\" title=\"Dell Cameron, Caroline Haskins\">[35]</a>, linking the rise to the “recent increase in ICE enforcement actions” <a href=\"https://web.archive.org/web/20261029190822/https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/\" title=\"Dell Cameron, Caroline Haskins\">[35]</a>. WIRED adds that “criminals are using Immigration and Custom Enforcement’s heightened profile to target vulnerable communities, making it harder for Americans to distinguish between lawful officers and imposters while eroding trust in law enforcement.” <a href=\"https://web.archive.org/web/20261029190822/https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/\" title=\"Dell Cameron, Caroline Haskins, “FBI Warns of Criminals Posing as ICE, Urges Agents to ID Themselves | WIRED”, 2025-11-04\">[32]</a> “The GOP bill does not restrict mask-wearing” <a href=\"https://web.archive.org/web/20261006050718/https://nymag.com/intelligencer/article/ice-won-dhs-spending-bill-trump.html\" title=\"New York Magazine / Intelligencer, “ICE Won”, June 29, 2026\">[33]</a>.</p>",
    "source_refs": [
     {
      "id": "S2_C07",
@@ -3503,6 +3672,11 @@
      "id": "S2_C07",
      "field": "support_reading",
      "quote": "recent increase in ICE enforcement actions"
+    },
+    {
+     "id": "S2_SEP_oppose_04",
+     "field": "support_reading",
+     "quote": "criminals are using Immigration and Custom Enforcement’s heightened profile to target vulnerable communities, making it harder for Americans to distinguish between lawful officers and imposters while eroding trust in law enforcement."
     },
     {
      "id": "S2_SEP_oppose_04",
@@ -4082,7 +4256,7 @@
   {
    "id": "S2_B_ARMOR_EV",
    "role": "evidence",
-   "html": "<p>HSI and partners investigated a supplier of unsafe helmets and body armor: “This case was investigated by Homeland Security Investigations, the Defense Criminal Investigative Service, and the General Services Administration Office of Inspector General” <a href=\"https://web.archive.org/web/20261029181744/https://www.gsaig.gov/BulletproofIT\" title=\"“Washington State Man Sentenced to Federal Prison for Marketing and Selling Low-Quality Ballistic Protective Equipment Produced in China to Dozens of Law Enforcement Agencies and the U.S. Military”, 2024-03-19\">[24]</a>. A Defense Department investigator said the supplier’s actions “put U.S. servicemembers at risk, degraded American warfighter readiness, and undermined the missions of our military services.” <a href=\"https://web.archive.org/web/20261029181744/https://www.gsaig.gov/BulletproofIT\" title=\"“Washington State Man Sentenced to Federal Prison for Marketing and Selling Low-Quality Ballistic Protective Equipment Produced in China to Dozens of Law Enforcement Agencies and the U.S. Military”, 2024-03-19\">[24]</a></p>",
+   "html": "<p>HSI and partners investigated a supplier of unsafe helmets and body armor: “This case was investigated by Homeland Security Investigations, the Defense Criminal Investigative Service, and the General Services Administration Office of Inspector General” <a href=\"https://web.archive.org/web/20261029181744/https://www.gsaig.gov/BulletproofIT\" title=\"“Washington State Man Sentenced to Federal Prison for Marketing and Selling Low-Quality Ballistic Protective Equipment Produced in China to Dozens of Law Enforcement Agencies and the U.S. Military”, 2024-03-19\">[24]</a>. A Defense Department investigator said the supplier’s actions “put U.S. servicemembers at risk, degraded American warfighter readiness, and undermined the missions of our military services.” <a href=\"https://web.archive.org/web/20261029181744/https://www.gsaig.gov/BulletproofIT\" title=\"“Washington State Man Sentenced to Federal Prison for Marketing and Selling Low-Quality Ballistic Protective Equipment Produced in China to Dozens of Law Enforcement Agencies and the U.S. Military”, 2024-03-19\">[24]</a> The supplier pleaded guilty to wire fraud: “Meining was charged by criminal information with wire fraud, and, on March 23, 2023, he pleaded guilty to the single charge.” <a href=\"https://web.archive.org/web/20261029181744/https://www.gsaig.gov/BulletproofIT\" title=\"“Washington State Man Sentenced to Federal Prison for Marketing and Selling Low-Quality Ballistic Protective Equipment Produced in China to Dozens of Law Enforcement Agencies and the U.S. Military”, 2024-03-19\">[24]</a></p>",
    "source_refs": [
     {
      "id": "S2_SES_support_12",
@@ -4093,6 +4267,11 @@
      "id": "S2_SES_support_12",
      "field": "support_reading",
      "quote": "put U.S. servicemembers at risk, degraded American warfighter readiness, and undermined the missions of our military services."
+    },
+    {
+     "id": "S2_SES_support_12",
+     "field": "support_reading",
+     "quote": "Meining was charged by criminal information with wire fraud, and, on March 23, 2023, he pleaded guilty to the single charge."
     }
    ]
   },
@@ -5706,12 +5885,18 @@
     "S2_SEP_support_03",
     "S2_SES_support_05",
     "S2_UNC_oppose_01",
+    "S2_UNC_oppose_02",
+    "S2_UNT_oppose_01",
     "S2_UNC_oppose_03",
     "S2_UNC_oppose_07",
     "S2_UNC_oppose_04",
     "S2_UNC_oppose_05",
     "S2_TR_oppose_01",
     "S2_UNC_oppose_06",
+    "S2_UNC_oppose_08",
+    "S2_UNT_oppose_05",
+    "S2_SEP_oppose_01",
+    "S2_SES_oppose_01",
     "S2_UNC_oppose_10",
     "S2_UNT_support_01",
     "S2_UNT_oppose_07",
@@ -5735,12 +5920,6 @@
     "S2_TR_oppose_04",
     "S2_TR_oppose_05",
     "S2_TR_oppose_07",
-    "S2_UNC_oppose_02",
-    "S2_UNT_oppose_01",
-    "S2_UNC_oppose_08",
-    "S2_UNT_oppose_05",
-    "S2_SEP_oppose_01",
-    "S2_SES_oppose_01",
     "S2_SEP_oppose_02"
    ],
    "value_id": null,
@@ -5787,36 +5966,6 @@
     "S2_SES_support_13",
     "S2_SEP_support_05",
     "S2_SEP_support_06"
-   ],
-   "value_id": null,
-   "direction": null
-  },
-  {
-   "id": "S2_K_TACTICS",
-   "kind": "causal",
-   "title": "Public-facing tactics of 2025–early 2026 continue",
-   "claim_html": "<p>At least some of the added enforcement would continue public-facing tactics from the 2025 and early-2026 record, despite the reported shift toward quieter enforcement.</p>",
-   "routes": [
-    {
-     "id": "S2_K_TACTICS_R1",
-     "requires": [
-      "S2_K_ADDENF"
-     ]
-    }
-   ],
-   "context_ids": [],
-   "block_ids": [
-    "S2_B_QUIET_CH"
-   ],
-   "argument_ids": [
-    "S2_UNC_oppose_02",
-    "S2_UNT_oppose_01",
-    "S2_UNC_oppose_08",
-    "S2_UNT_oppose_05",
-    "S2_SEP_oppose_01",
-    "S2_SES_oppose_01",
-    "S2_UNC_oppose_06",
-    "S2_SES_oppose_07"
    ],
    "value_id": null,
    "direction": null
@@ -6524,15 +6673,17 @@
     {
      "id": "S2_K_RACESTOPS_R1",
      "requires": [
-      "S2_K_TACTICS"
+      "S2_K_ADDENF"
      ]
     }
    ],
    "context_ids": [],
    "block_ids": [
     "S2_B_RACESTOPS_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_RACESTOPS_CH",
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_RACESTOPS_SCOPE"
    ],
    "argument_ids": [
     "S2_UNC_oppose_02",
@@ -6749,14 +6900,15 @@
     {
      "id": "S2_K_RAIDS_R1",
      "requires": [
-      "S2_K_TACTICS"
+      "S2_K_ADDENF"
      ]
     }
    ],
    "context_ids": [],
    "block_ids": [
-    "S2_B_RAIDTYPE_EV",
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
+    "S2_B_RAIDS_SCOPE"
    ],
    "argument_ids": [
     "S2_UNC_oppose_06",
@@ -6823,7 +6975,7 @@
     {
      "id": "S2_K_FORCE_R1",
      "requires": [
-      "S2_K_TACTICS"
+      "S2_K_ADDENF"
      ]
     }
    ],
@@ -6831,8 +6983,10 @@
    "block_ids": [
     "S2_B_FORCE_EV",
     "S2_B_AGENTVIOL_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_FORCE_CH",
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_FORCE_SCOPE"
    ],
    "argument_ids": [
     "S2_UNC_oppose_08",
@@ -8693,6 +8847,22 @@
   {
    "term": "P-3",
    "definition": "A specialized surveillance and command aircraft."
+  },
+  {
+   "term": "sextortion",
+   "definition": "Online sexual blackmail."
+  },
+  {
+   "term": "interdiction",
+   "definition": "Stopping and seizing."
+  },
+  {
+   "term": "TCO",
+   "definition": "A criminal group that works across countries."
+  },
+  {
+   "term": "Title 42",
+   "definition": "Public health law."
   }
  ],
  "value_subjects": {

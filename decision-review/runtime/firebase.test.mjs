@@ -123,6 +123,14 @@ test('Firebase Auth and Firestore emulator authorization, immutable history and 
    assert.equal((await assertSucceeds(getDocs(collection(db('owner'),'decisionReviews','one','sessions')))).size,2);
    await assertSucceeds(getDoc(doc(session(db('owner'),'one'),'revisions','1')));
   });
+  await t.test('earlier-release lists and the coordinator export are allowed only to their owners',async()=>{
+   const earlierId='rendered-'+'6'.repeat(64);await env.withSecurityRulesDisabled(context=>setDoc(session(context.firestore(),'one','session_earlier'),data({rendered_id:earlierId})));
+   const earlierQuery=database=>query(collection(database,'decisionReviews','one','sessions'),where('version','==','decision-review-v1'),where('bill_id','==',release.bill_id),where('rendered_id','in',[earlierId,'rendered-'+'7'.repeat(64)]),where('kind','==','qa'));
+   assert.equal((await assertSucceeds(getDocs(earlierQuery(db('one'))))).size,1);await assertFails(getDocs(earlierQuery(db('two'))));
+   const billQuery=(database,uid)=>query(collection(database,'decisionReviews',uid,'sessions'),where('version','==','decision-review-v1'),where('bill_id','==',release.bill_id));
+   assert((await assertSucceeds(getDocs(collection(db('owner'),'assignments')))).size>=4);assert.equal((await assertSucceeds(getDocs(billQuery(db('owner'),'one')))).size,3);
+   await assertFails(getDocs(collection(db('one'),'assignments')));await assertFails(getDocs(billQuery(db('one'),'one')));await assertFails(getDocs(billQuery(db('two'),'one')));
+  });
   await t.test('strict metadata, bounds, server timestamp and immutable bill/release/kind are enforced',async()=>{
    const invalid=[{extra:true},{version:'v1'},{bill_id:'unlisted-bill'},{rendered_id:'rendered-invalid'},{kind:'unknown'},{revision:0},{payload:'x'.repeat(700000)},{payload:''},{modifiedAt:new Date('2026-01-01')}];
    for(const [index,extra] of invalid.entries())await assertFails(atomic(db('two'),'two','session_invalid_'+index,data(extra)));

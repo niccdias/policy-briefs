@@ -37,7 +37,8 @@ Anyone can read a review without signing in. To record answers, a reviewer signs
 - **Where answers go.** Each change is kept first in this browser, under a namespace for that account, session type and release. It is then written to Firestore at `decisionReviews/<uid>/sessions/<session>`, with an immutable copy of every revision. A write succeeds only if the server's revision is the one the browser last saw. Answers count as saved only after the server confirms the write. Until then the page says the change is saved in this browser only, including when offline, and offers Retry.
 - **Conflicts.** If the server copy has changed on another device or in another tab, editing stops. The reviewer either uses the server version, discarding this browser's unsent changes to that session, or keeps this browser's version as a new session. Neither choice changes the server copy.
 - **What is not done.** The rules allow no client to delete a session or revision. Answers saved in a browser before sign-in was added are not uploaded automatically; only a JSON backup imported by hand becomes a new session. Records of the earlier coding app are neither migrated nor deleted. Accounts whose assignment has the coordinator role can read every reviewer's sessions.
-- **Copies.** JSON backup and CSV export remain available.
+- **Corrected releases.** Saved sessions from releases recorded in `session-history.json` are carried into the current release as new sessions; changed decisions and anything resting on them are marked for another look (see PROCEDURE.md#changes). `record-session-history.mjs` records an outgoing release.
+- **Copies.** JSON backup and CSV export remain available. CSV cells hold only counted values and record session type, account and carried origin. Coordinators can export every reviewer's sessions for a bill.
 
 ## Limits
 

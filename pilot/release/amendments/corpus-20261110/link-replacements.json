@@ -1,0 +1,508 @@
+{
+ "date": "2026-11-10",
+ "replacements": [
+  {
+   "bill": "119_H_R_4405",
+   "document": "H.R.4405, Engrossed in House (bill text)",
+   "old_href": "https://web.archive.org/web/20261029202828/https://www.congress.gov/119/bills/hr4405/BILLS-119hr4405eh.htm",
+   "new_href": "https://web.archive.org/web/20261018204517/https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+   "replacement_basis": "Wayback Machine capture of GovInfo's permanent HTML of the same document version, found with the CDX API (no capture of the congress.gov copy exists); no new capture was made",
+   "official_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+   "http_checks": {
+    "old_href": {
+     "url": "https://web.archive.org/web/20261029202828/https://www.congress.gov/119/bills/hr4405/BILLS-119hr4405eh.htm",
+     "status": 404,
+     "final_url": "https://web.archive.org/web/20261029202828/https://www.congress.gov/119/bills/hr4405/BILLS-119hr4405eh.htm",
+     "content_type": "text/html",
+     "bytes": 4662
+    },
+    "new_href": {
+     "url": "https://web.archive.org/web/20261018204517/https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+     "status": 200,
+     "final_url": "https://web.archive.org/web/20261018204517/https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+     "content_type": "text/html",
+     "bytes": 8685
+    },
+    "official_url": {
+     "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+     "status": 200,
+     "final_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/html/BILLS-119hr4405eh.htm",
+     "content_type": "text/html",
+     "bytes": 7012
+    },
+    "checked_on": "2026-11-10T14:41:07.196Z"
+   },
+   "replacement_matches_official_text": true,
+   "corpus_citations": 205,
+   "distinct_quotations": 45,
+   "quotations_cited_to_this_document": 40,
+   "all_quotations_in_replacement": true,
+   "saved_text_windows_in_replacement": 1,
+   "quotations_not_in_replacement": [],
+   "quotations": [
+    {
+     "quote": "redact",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "No record shall be withheld, delayed, or redacted on the basis of embarrassment, reputational harm, or political sensitivity, including to any government official, public figure, or foreign dignitary.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "segregable portions",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "would jeopardize an active federal investigation or ongoing prosecution, provided that such withholding is narrowly tailored and temporary",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "active federal investigation or ongoing prosecution",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "contain personally identifiable information of victims",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Any immunity deals, non-prosecution agreements, plea bargains, or sealed settlements involving Epstein or his associates",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Internal DOJ communications, including emails, memos, meeting notes, concerning decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Documentation of Epstein's detention or death",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Entities (corporate, nonprofit, academic, or governmental) with known or alleged ties to Epstein's trafficking or financial networks.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "No record shall be withheld, delayed, or redacted on the basis of embarrassment, reputational harm, or political sensitivity",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Any immunity deals, non-prosecution agreements, plea bargains, or sealed settlements involving Epstein or his associates.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "with known or alleged ties to Epstein's trafficking or financial networks",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "destruction, deletion, alteration, misplacement, or concealment of documents",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Documentation of Epstein's detention or death, including incident reports, witness interviews, medical examiner files, autopsy reports, and written records detailing the circumstances and cause of death.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "All redactions must be accompanied by a written justification published in the Federal Register and submitted to Congress.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "contains no penalties or enforcement mechanism.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "in a searchable and downloadable format",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "to charge, not charge, investigate, or decline to investigate.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "in fact properly classified",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "known or alleged ties to Epstein's trafficking or financial networks.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "embarrassment, reputational harm, or political sensitivity",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "personally identifiable information of victims",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Individuals, including government officials, named or referenced in connection with Epstein's criminal activities",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Internal DOJ communications, including emails, memos, meeting notes, concerning decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Flight logs or travel records",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "30 days after the date of enactment of this Act",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "all investigations, prosecutions, or custodial matters",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "concerning decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "the destruction, deletion, alteration, misplacement, or concealment of documents, recordings, or electronic data related to Epstein",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "A list of all government officials and politically exposed persons named or referenced in the released materials",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "searchable and downloadable format",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Jeffrey Epstein including all investigations, prosecutions, or custodial matters.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "depict or contain child sexual abuse materials (CSAM)",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "is not presumed to be a verbatim transcript,",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "facts learned elsewhere as part of the investigation or editorial content.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "narrowly tailored and temporary",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "OPR does not find that it resulted from improper factors.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "contain personally identifiable information of victims or victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "named or referenced in connection with Epstein's criminal activities, civil settlements, immunity or plea agreements, or investigatory proceedings",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "do not identify any person other than Epstein and Maxwell as having had sexual contact with a minor.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "personally identifiable information of victims or victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "an active federal investigation or ongoing prosecution",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    }
+   ]
+  },
+  {
+   "bill": "119_H_R_131",
+   "document": "H. Rept. 119-187 (committee report, including its print of existing law)",
+   "old_href": "https://web.archive.org/web/20261029210940/https://www.congress.gov/119/crpt/hrpt187/generated/CRPT-119hrpt187.htm",
+   "new_href": "https://web.archive.org/web/20260727153025/https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+   "replacement_basis": "Wayback Machine capture of GovInfo's permanent HTML of the same document version, found with the CDX API (no capture of the congress.gov copy exists); no new capture was made",
+   "official_url": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+   "http_checks": {
+    "old_href": {
+     "url": "https://web.archive.org/web/20261029210940/https://www.congress.gov/119/crpt/hrpt187/generated/CRPT-119hrpt187.htm",
+     "status": 404,
+     "final_url": "https://web.archive.org/web/20261029210940/https://www.congress.gov/119/crpt/hrpt187/generated/CRPT-119hrpt187.htm",
+     "content_type": "text/html",
+     "bytes": 4690
+    },
+    "new_href": {
+     "url": "https://web.archive.org/web/20260727153025/https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+     "status": 200,
+     "final_url": "https://web.archive.org/web/20260727153025/https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+     "content_type": "text/html",
+     "bytes": 23868
+    },
+    "official_url": {
+     "url": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+     "status": 200,
+     "final_url": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt187/html/CRPT-119hrpt187.htm",
+     "content_type": "text/html",
+     "bytes": 22199
+    },
+    "checked_on": "2026-11-10T14:41:23.916Z"
+   },
+   "replacement_matches_official_text": true,
+   "corpus_citations": 64,
+   "distinct_quotations": 23,
+   "quotations_cited_to_this_document": 18,
+   "all_quotations_in_replacement": true,
+   "saved_text_windows_in_replacement": 1,
+   "quotations_not_in_replacement": [],
+   "quotations": [
+    {
+     "quote": "100 percent federal construction financing, and 35 percent nonfederal repayment over a 50-year period, starting after project completion",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Nonfederal",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "within fifty years from the time the works are first available for the delivery of water,",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "a condition precedent to construction",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "the computed average interest rate payable by the Treasury upon its outstanding marketable public obligations",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "Without this legislation there will be a point where we will have to stop.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "we",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "stop",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "In 1962, President John F. Kennedy signed the Fryingpan- Arkansas Project Act (P.L. 87-590) into law.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "The authorized infrastructure included the Arkansas Valley Conduit (AVC)",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "fulfills a commitment the federal government made decades ago.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "as rapidly as is consistent with the contracting parties' ability to pay, but in any event, within fifty years.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "famously promised to build",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "will fulfill a project authorization from 1962.",
+     "in_replacement": false,
+     "in_saved_text": false,
+     "shares_citation_run_with_other_sources": true,
+     "cited_to_this_document": false
+    },
+    {
+     "quote": "computed average interest rate payable by the Treasury upon its outstanding marketable public obligations",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "100 percent federal construction financing",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "payment in an amount equal to 35 percent of the cost of the conduit",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "it would be infeasible for the communities involved to construct the works themselves, singly or jointly.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "increasing the repayment period from 50 years to 75 years",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "to nearly double from $640 million to $1.3 billion.",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "as rapidly as is consistent with the contracting parties' ability to pay",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "municipal, domestic, and industrial water supply allocations",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    },
+    {
+     "quote": "within not more than fifty years",
+     "in_replacement": true,
+     "in_saved_text": true,
+     "cited_to_this_document": true
+    }
+   ]
+  }
+ ]
+}

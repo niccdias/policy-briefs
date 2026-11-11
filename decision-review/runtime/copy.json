@@ -194,6 +194,16 @@
  "causal_question": "Does the evidence support this claim?",
  "claim_label": "Causal claim",
  "consequence_label": "Consequence to evaluate",
+ "csv_kind": "Session type",
+ "csv_account": "Account",
+ "csv_carried_from": "Carried from earlier session",
+ "csv_provisional": "Provisional",
+ "event_carry": "Carried from an earlier version",
+ "carry_notice": "Your saved answers from an earlier version of this review were carried into this corrected version as a new session. Decisions whose content changed, and answers that rest on them, are marked for another look and do not count until you answer them again. The earlier session is kept unchanged.",
+ "earlier_version": "earlier version",
+ "coordinator_export": "Export every reviewer’s sessions for this bill (CSV)",
+ "coordinator_error": "The reviewers’ sessions could not be exported. Nothing was changed.",
+ "csv_latest": "Latest research session for this account",
  "value_goals": {
   "UNN": [
    "caring for nature",

@@ -5,7 +5,7 @@ Author: Opus editorial author. Built only from the frozen `input/source.json`; n
 ## Shape
 
 - 5 contexts, not asked: the larger credits restored through 2028 (C01, C03), help above four times the poverty line (C02, C13), abortion coverage rules (C20), objecting buyers in requiring states (C21) and health care sharing ministries (C22). Their scope limits are qualification blocks shown beside every decision that relies on the context, so that coverage can bind them to decisions.
-- 55 causal claims, 53 value links, 158 blocks. All 78 arguments, 19 responses (all retained) and 97 qualifications are placed in `coverage.json`.
+- 55 causal claims, 53 value links, 160 blocks (158 before the November 10, 2026 amendment below). All 78 arguments, 19 responses (all retained) and 97 qualifications are placed in `coverage.json`.
 
 ## Causal claims
 
@@ -111,6 +111,39 @@ Under the consolidation rule, a value link is merged with OR routes when two arg
 ## Definitions
 
 On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 15 edits in 14 fields (3 contexts, 10 blocks and 1 claim) removed definitions of PTC, ESI, KFF, GHG, PV, health care sharing ministries, Medicaid, provider networks, cost sharing, uncompensated care, deficit-financed policy, marginal effects, criteria air pollutants and stand-level damage. One claim changed wording: the smog claim now says “ground-level ozone” without “(smog)”. 18 glossary entries were added. The premium entry reads “the price of health insurance”, because the evidence gives both monthly and yearly premiums. The displayed short description says “monthly premium” and “Affordable Care Act (ACA) Marketplaces” without glossing them; the frozen description is retained in `input/source.json`. The sentence noting that sources call the larger credits “enhanced” is kept because it tells readers how the evidence names them.
+
+## Amendment, November 10, 2026: evidence restored after consolidation
+
+The independent audit of November 10, 2026 (finding B5) found that consolidation had dropped evidence: 60 of 340 argument quotations and 15 of 66 response quotations in the frozen corpus were shown nowhere in the review. At the opioid claim, both supporting studies were missing while its limits still discussed "the Baltimore study" and "the emergency-department study". No route, claim, context or value link changed. The restored text comes only from the frozen arguments and responses; no new source was read. `author.py` was amended and regenerates both files.
+
+What changed:
+
+- Restored at the claims they support: the Baltimore and emergency-department studies and the community-resilience statement (opioid crisis); the abstract's own finding on distress, which had been paraphrased; uncompensated care (local health services); the terrorism planning (hospital disaster capacity); the reimbursement rule (health-center services); the farm workers who rely on individual coverage; the solar owners' 2014 account; the warming step (climate pollution); the dumping passage (plastic waste); the HHS commission passage, the no-monthly-bill reporting, the three-way-call exemption, the $5-charge status and the paused income check (unauthorized enrollment); the 27% and 20%-versus-13% network findings (doctor access); the deductible study's design and finding (treatment costs); the 37% dental finding and its health consequence; the Kansas exchange ban and its definition of "elective", and the self-funding exemption (Jewish-required care); the CRFB debt projection (fiscal crisis); the debt-service passage (emergency borrowing); the 60-day enrollment rule (downturns); and the California and Colorado subsidy shift (state budgets).
+- Restored at value links: the veterans' enrollment finding (medical bills); the reconciliation passage (income cliff); the medication loss (broker abuse); the finding that some women cannot obtain an abortion without coverage (unborn children); the complaint count and the conviction's harm to care (organized fraud); the cost pressure and Focus on the Family's support for mothers at home; the bishops' farm-inheritance passage; the clinic's expected demand and the Catholic mission statement; the bishops' extension-with-a-limit request; Washington's funding to keep the benefit offered; the bishops' description of IVF; the credit's insurance-only scope and the Galatians reference (mutual aid); and the joint-return rule and both premium-share tables (marriage).
+- Restored on the challenge side: WHO on sound waste management (toxic waste); a sentence answering the restored dumping passage (plastic); the GAO test's closed low-income signup route, the August 25, 2025 closure, the state-marketplace authentication point, the three-way call requirement, "In Effect For Open Enrollment (OE) 2026" and the change-in-circumstances qualifier (unauthorized enrollment); the fund-separation rule (Tolerance taxpayer link); the credit's insurance-only scope (Tolerance sharing link); the largest firms' hormone-therapy finding (transition care); and the excepted-benefits rule and the survey's dental-coverage caveat (dental).
+- Evenness: the marriage-cost links now both show their worked example with the IRS table quotations. Before, only the opposing link did.
+- New blocks: `SEPSERVICES_EV` (the "all members of their community" passage, at the Personal Security services link) and `CHURCH_WORSHIP_EV` (the Baptist worship passage, at the Tradition church link). `DOCTOR_LIM` no longer restates the 27% figure, which is now quoted in `DOCTOR_EV`, and the UNC_oppose_03 qualification row credits `DOCTOR_EV`. The `TRTAX_LIM` wording was adjusted so it does not repeat the bishops' request now quoted in `TRTAX_EV`. New glossary entries: SEP, OE, DMI, buprenorphine, ED, terra firma.
+
+Fourteen quotations stay out on purpose, because each duplicates text already shown or bears on no decision:
+
+- "These coverage losses" (UNN_support_06): a fragment naming a referent. The sentence it opens is shown through the same source at the local-services claim.
+- "a specific plan, called a benchmark" (UNC_support_05) and "the mid-level Marketplace plan used to determine how much help people get with premiums" (SEP_support_06): definitions only. A glossary entry was not added, because "benchmark plan" also names Washington's state benefit plan in this bill.
+- "the House-passed bill would increase the deficit by more than $80 billion" (UNC_oppose_04, 05, 06): duplicates CBO's 80,582 figure shown at the debt claim.
+- "Extension of Rules To Increase Premium Assistance Amounts" (responses to UNT_oppose_01, SEP_support_04, SES_oppose_06): a bill section heading. The context already states what the bill extends.
+- "This means that state and local governments will have more difficulties balancing their budgets…" (SES_support_05): the same public-services step, from the same jobs study chain, is quoted at the local jobs-and-revenue claim.
+- "at least $1 per enrollee per month" and "deposit these separate payments into segregated accounts" (TR_oppose_03): duplicate the $1 minimum and separate-collection rule in the abortion-rules context shown at that link.
+- "drop any numbers after the decimal point." (TR_oppose_09): a rounding instruction for the worked example.
+- "the framework for intimate companionship, the channel of sexual expression according to biblical standards" (TR_oppose_09): the second clause of a definition of marriage whose first clause is shown. It bears on no cost step.
+
+Counts, from `private/quote_survival.py` (Git-ignored; it applies the audit's own rule: a quotation of 20+ characters is "gone" when neither it nor any 25-character window of it appears in any context, block or claim):
+
+| Group | Before: gone / total | After: gone / total |
+|---|---|---|
+| Support arguments | 26 / 162 | 4 / 162 |
+| Oppose arguments | 34 / 178 | 7 / 178 |
+| Responses | 15 / 66 | 3 / 66 |
+
+The remaining 14 are exactly the exclusions above. Every added quotation is located by the generator as an exact plain-text substring of a named frozen field, and every added citation copies a frozen link-and-title pair from the same argument's reading.
 
 ## Limits
 

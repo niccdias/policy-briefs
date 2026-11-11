@@ -506,7 +506,6 @@
    "id": "S2_UNC_oppose_02",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_RACESTOPS",
     "S2_V_UNC_JUSTICE"
    ],
@@ -516,13 +515,14 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_RACESTOPS_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_RACESTOPS_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_RACESTOPS_SCOPE",
     "S2_B_JUSTICE_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Race-based stops continue. Value link: Concern: just treatment of people facing enforcement."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Race-based stops continue. Value link: Concern: just treatment of people facing enforcement."
   },
   {
    "id": "S2_UNC_oppose_03",
@@ -589,7 +589,6 @@
    "id": "S2_UNC_oppose_06",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_RAIDS",
     "S2_K_RAIDHARM",
     "S2_K_SCHOOLHARM",
@@ -601,16 +600,16 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CHANGELIMITS_EV",
     "S2_B_QUIET_CH",
-    "S2_B_RAIDTYPE_EV",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_RAIDS_SCOPE",
     "S2_B_RAIDS_EV",
     "S2_B_SESRAID_EV",
     "S2_B_RAIDS_CH",
     "S2_B_SCHOOL_EV",
     "S2_B_HARMS_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Large, visible raids and sweeps continue; Added community disruption from those raids; Children’s schooling harmed. Value link: Concern: harms to vulnerable people from added enforcement."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Large, visible raids and sweeps continue; Added community disruption from those raids; Children’s schooling harmed. Value link: Concern: harms to vulnerable people from added enforcement."
   },
   {
    "id": "S2_UNC_oppose_07",
@@ -635,7 +634,6 @@
    "id": "S2_UNC_oppose_08",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_FORCE",
     "S2_V_UNC_HARMS"
    ],
@@ -645,14 +643,15 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_FORCE_EV",
     "S2_B_AGENTVIOL_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_FORCE_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_FORCE_SCOPE",
     "S2_B_HARMS_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Concern: harms to vulnerable people from added enforcement."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Excessive force in public operations continues. Value link: Concern: harms to vulnerable people from added enforcement."
   },
   {
    "id": "S2_UNC_oppose_09",
@@ -775,7 +774,6 @@
    "id": "S2_UNT_oppose_01",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_RACESTOPS",
     "S2_V_UNT_GROUPS"
    ],
@@ -785,13 +783,14 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_RACESTOPS_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_RACESTOPS_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_RACESTOPS_SCOPE",
     "S2_B_GROUPS_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Race-based stops continue. Value link: Tolerance: accepting different ethnic, national and religious groups."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Race-based stops continue. Value link: Tolerance: accepting different ethnic, national and religious groups."
   },
   {
    "id": "S2_UNT_oppose_02",
@@ -846,7 +845,6 @@
    "id": "S2_UNT_oppose_05",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_FORCE",
     "S2_V_UNT_DISSENT"
    ],
@@ -856,14 +854,15 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_FORCE_EV",
     "S2_B_AGENTVIOL_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_FORCE_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_FORCE_SCOPE",
     "S2_B_DISSENT_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Tolerance: peaceful critics and those who report."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Excessive force in public operations continues. Value link: Tolerance: peaceful critics and those who report."
   },
   {
    "id": "S2_UNT_oppose_06",
@@ -1076,7 +1075,6 @@
    "id": "S2_SEP_oppose_01",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_FORCE",
     "S2_V_SEP_HARMSAFETY"
    ],
@@ -1086,14 +1084,15 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_FORCE_EV",
     "S2_B_AGENTVIOL_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_FORCE_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_FORCE_SCOPE",
     "S2_B_SEPHARMSAFE_BRIDGE"
    ],
-   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Excessive force in public operations continues. Value link: Personal Security: injury, assault and lost police protection."
+   "rationale": "Causal claims: Added immigration enforcement beyond the law in force; Excessive force in public operations continues. Value link: Personal Security: injury, assault and lost police protection."
   },
   {
    "id": "S2_SEP_oppose_02",
@@ -1480,7 +1479,6 @@
    "id": "S2_SES_oppose_01",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_LEVERAGE",
     "S2_K_FORCE",
     "S2_V_SES_PROTECTION"
@@ -1491,16 +1489,17 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
-    "S2_B_QUIET_CH",
     "S2_B_LEVERAGE_EV",
     "S2_B_LEVERAGE_LIM",
     "S2_B_FORCE_EV",
     "S2_B_AGENTVIOL_EV",
+    "S2_B_CHANGELIMITS_EV",
+    "S2_B_QUIET_CH",
     "S2_B_FORCE_CH",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_FORCE_SCOPE",
     "S2_B_SESPROT_BRIDGE"
    ],
-   "rationale": "Two routes: continued force needs its claim; the lost yearly leverage rests on the bill’s multiyear funding rule. Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Less yearly leverage over conditions and conduct; Excessive force in public operations continues. Value link: Societal Security: citizen protection and crime control."
+   "rationale": "Two routes: continued force needs its claim; the lost yearly leverage rests on the bill’s multiyear funding rule. Causal claims: Added immigration enforcement beyond the law in force; Less yearly leverage over conditions and conduct; Excessive force in public operations continues. Value link: Societal Security: citizen protection and crime control."
   },
   {
    "id": "S2_SES_oppose_03",
@@ -1586,7 +1585,6 @@
    "id": "S2_SES_oppose_07",
    "decision_ids": [
     "S2_K_ADDENF",
-    "S2_K_TACTICS",
     "S2_K_RAIDS",
     "S2_K_RAIDHARM",
     "S2_K_AVOIDLIFE",
@@ -1598,9 +1596,9 @@
     "S2_B_ICE_SCOPE",
     "S2_B_CBPIMM_SCOPE",
     "S2_B_MULTIYEAR_SCOPE",
+    "S2_B_CHANGELIMITS_EV",
     "S2_B_QUIET_CH",
-    "S2_B_RAIDTYPE_EV",
-    "S2_B_TACTIC_SCOPE",
+    "S2_B_RAIDS_SCOPE",
     "S2_B_RAIDS_EV",
     "S2_B_SESRAID_EV",
     "S2_B_RAIDS_CH",
@@ -1608,7 +1606,7 @@
     "S2_B_AVOIDLIFE_CH",
     "S2_B_SESSTAB_BRIDGE"
    ],
-   "rationale": "Two routes: visible raids need the shared raids claim; the KFF avoidance route needs its own fear claim. Causal claims: Added immigration enforcement beyond the law in force; Public-facing tactics of 2025–early 2026 continue; Large, visible raids and sweeps continue; Added community disruption from those raids; Fear keeps people from work, school and community life. Value link: Societal Security: stable communities, services and finances."
+   "rationale": "Two routes: visible raids need the shared raids claim; the KFF avoidance route needs its own fear claim. Causal claims: Added immigration enforcement beyond the law in force; Large, visible raids and sweeps continue; Added community disruption from those raids; Fear keeps people from work, school and community life. Value link: Societal Security: stable communities, services and finances."
   },
   {
    "id": "S2_SES_oppose_08",
@@ -2856,15 +2854,15 @@
     }
    ],
    "decision_ids": [
-    "S2_K_LEVERAGE",
-    "S2_K_TACTICS"
+    "S2_K_FORCE",
+    "S2_K_LEVERAGE"
    ],
    "block_ids": [
     "S2_B_QUIET_CH",
     "S2_B_LEVERAGE_EV"
    ],
    "disposition": "retained",
-   "rationale": "Shown as a challenge beside the claim or link it disputes: Less yearly leverage over conditions and conduct; Public-facing tactics of 2025–early 2026 continue."
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Excessive force in public operations continues; Less yearly leverage over conditions and conduct."
   },
   {
    "id": "S2_RESPONSE_S2_SES_oppose_04",
@@ -3166,13 +3164,13 @@
     }
    ],
    "decision_ids": [
-    "S2_K_TACTICS"
+    "S2_K_RACESTOPS"
    ],
    "block_ids": [
     "S2_B_QUIET_CH"
    ],
    "disposition": "retained",
-   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Race-based stops continue."
   },
   {
    "id": "S2_RESPONSE_S2_C09",
@@ -3323,13 +3321,13 @@
     }
    ],
    "decision_ids": [
-    "S2_K_TACTICS"
+    "S2_K_FORCE"
    ],
    "block_ids": [
     "S2_B_QUIET_CH"
    ],
    "disposition": "retained",
-   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Excessive force in public operations continues."
   },
   {
    "id": "S2_RESPONSE_S2_C37",
@@ -3345,13 +3343,13 @@
     }
    ],
    "decision_ids": [
-    "S2_K_TACTICS"
+    "S2_K_RAIDS"
    ],
    "block_ids": [
     "S2_B_QUIET_CH"
    ],
    "disposition": "retained",
-   "rationale": "Shown as a challenge beside the claim or link it disputes: Public-facing tactics of 2025–early 2026 continue."
+   "rationale": "Shown as a challenge beside the claim or link it disputes: Large, visible raids and sweeps continue."
   }
  ],
  "qualifications": [
@@ -4583,7 +4581,6 @@
     "S2_K_DRUGSUPPLY"
    ],
    "block_ids": [
-    "S2_B_DRUGS_EV",
     "S2_B_DRUGS_SCOPE"
    ],
    "rationale": "Shown in full beside: Seized drugs lower the supply that reaches people."
@@ -4627,7 +4624,7 @@
     "S2_K_RACESTOPS"
    ],
    "block_ids": [
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_RACESTOPS_SCOPE"
    ],
    "rationale": "Shown in full beside: Race-based stops continue."
   },
@@ -5351,7 +5348,7 @@
     "S2_K_FORCE"
    ],
    "block_ids": [
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_FORCE_SCOPE"
    ],
    "rationale": "Shown in full beside: Excessive force in public operations continues."
   },
@@ -5372,7 +5369,7 @@
     "S2_K_RAIDS"
    ],
    "block_ids": [
-    "S2_B_TACTIC_SCOPE"
+    "S2_B_RAIDS_SCOPE"
    ],
    "rationale": "Shown in full beside: Large, visible raids and sweeps continue."
   }

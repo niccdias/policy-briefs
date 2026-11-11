@@ -8,6 +8,7 @@ import {prepareCopy} from './runtime/build.mjs';
 import {plainText,sourceField} from './runtime/source.mjs';
 import {renderDecision} from './runtime/app.js';
 import {applyHr5408Amendment,verifyHr5408LegacyInputs} from './convert-hr5408.mjs';
+import {amendJson} from '../corpus_amendment_20261110/write-amendment.mjs';
 
 const root=new URL('./',import.meta.url),at='2026-11-09T00:00:00.000Z';
 const read=path=>readFile(new URL(path,root),'utf8'),json=async path=>JSON.parse(await read(path));
@@ -97,7 +98,7 @@ async function hrConversion(decisions,coverage,source,billCopy){
  const conversion=await json('bills/hr5408/conversion.json'),amendment=conversion.editorial_amendment;
  if(amendment){await verifyHr5408LegacyInputs(amendment,new URL('../bill_reasoning_pilot_20261108/hr5408/',root));const restored=applyHr5408Amendment(decisions,billCopy,amendment,true);decisions=restored.decisions;assert.deepEqual(restored.copy,{});}
  const pilot='../bill_reasoning_pilot_20261108/hr5408/',old=await json(pilot+'decision-tree/decisions.json'),reading=await json(pilot+'bill-wide/reading.json'),copy=await json(pilot+'decision-tree/copy.json'),oldCoverage=await json(pilot+'decision-tree/coverage.json'),oldSource=await json(pilot+'input/source.json');
- const {requirements,...withoutRequirements}=source;assert.deepEqual(withoutRequirements,oldSource,'Native migration changed frozen H.R.5408 source content.');
+ const {requirements,...withoutRequirements}=source;assert.deepEqual(withoutRequirements,amendJson(oldSource,oldSource.bill.id),'Native migration changed frozen H.R.5408 source content beyond the recorded corpus amendment.');
  assert.deepEqual(decisions.nodes,old.nodes.map(({source_node_ids,implication_ids,...node})=>node));assert.deepEqual(decisions.contexts,old.contexts);assert.deepEqual(decisions.glossary,[...reading.glossary,...copy.glossary_additions]);assert.deepEqual(decisions.value_subjects,copy.value_subjects);
  const oldBlocks=new Map([...reading.units.flatMap(unit=>unit.blocks),...old.blocks].map(item=>[item.id,item]));for(const block of decisions.blocks){const {id,role,html,source_refs}=oldBlocks.get(block.id);assert.deepEqual(block,{id,role,html,source_refs});}assert.deepEqual(decisions.blocks.map(item=>item.id),[...new Set(old.nodes.flatMap(node=>node.block_ids))]);
  assert.deepEqual(coverage.arguments,oldCoverage.arguments);assert.deepEqual(coverage.qualifications,oldCoverage.qualifications);assert.deepEqual(coverage.responses.map(({argument_ids,source_refs,...item})=>item),oldCoverage.challenges);

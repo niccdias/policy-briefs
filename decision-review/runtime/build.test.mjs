@@ -5,7 +5,7 @@ import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {createDecisionTree,createState,nextDecision,answerDecision,completion,derivedResults,validateState,exportBackup,importBackup} from './model.mjs';
+import {createDecisionTree,createState,nextDecision,answerDecision,completion,derivedResults,validateState,exportBackup,importBackup,carrySession,carriedFrom,decisionStates} from './model.mjs';
 import {createSessionStore,storagePrefix,sessionKey} from './storage.mjs';
 import {buildBill,loadBill,prepareCopy,renderCatalog,verifyParity} from './build.mjs';
 import {measurePaths,visibleText,words} from './measure.mjs';
@@ -33,20 +33,24 @@ function fixture(suffix='one'){
 }
 const modelFor=f=>createDecisionTree(f.source,f.decisions,f.coverage,f.copy,f.hashes);
 
-test('this presentation update resumes prior sessions and refuses changed content',async()=>{
- const compatibility=JSON.parse(await readFile(new URL('../session-compatibility.json',import.meta.url),'utf8'));
+test('sessions saved under each recorded earlier release carry forward; changed decisions need another look',async()=>{
  const manifest=JSON.parse(await readFile(new URL('../input-manifest.json',import.meta.url),'utf8'));
  for(const bill of manifest.bills){
-  const billDir=fileURLToPath(new URL('../bills/'+bill.slug+'/',import.meta.url)),{model,release,sessionRelease}=await loadBill({billDir});
-  assert.deepEqual(sessionRelease,compatibility.releases[bill.bill_id]);assert.notEqual(release.rendered_id,sessionRelease.rendered_id);
-  const previous=answerDecision(model,createState(model,sessionRelease,'previous_session_001',at),nextDecision(model,createState(model,sessionRelease,'previous_session_001',at)).id,'No',at,'Existing review note');
-  const storage=memory(),manager=locks(),oldStore=createSessionStore({storage,locks:manager,model,release:previous.release});assert(await oldStore.acquire(previous));assert(oldStore.save(previous).ok);await oldStore.close();
-  const currentStore=createSessionStore({storage,locks:manager,model,release:sessionRelease});assert.deepEqual(currentStore.active(),previous);assert(await currentStore.acquire(previous));assert(currentStore.save(previous).ok);await currentStore.close();
-  assert.throws(()=>importBackup(exportBackup(previous),model,release,'wrong_release_001',at),/different release/);
-  await assert.rejects(loadBill({billDir,commonCopyOverrides:{pilot_notice:'Changed content requires a new compatibility review.'}}),/changed content or decisions/);
+  const billDir=fileURLToPath(new URL('../bills/'+bill.slug+'/',import.meta.url)),{model,release}=await loadBill({billDir});
+  assert(model.carry.prior.size>=4,'Every published release of '+bill.slug+' must be recorded.');
+  for(const prior of model.carry.prior.values()){
+   let current=createState(model,release,'earlier_session_001',at);for(let step=0;step<6;step++){const next=nextDecision(model,current);if(!next)break;current=answerDecision(model,current,next.id,'Yes',at,'note '+step);}
+   const earlier={...structuredClone(current),release:structuredClone(prior.release)},carried=carrySession(model,release,earlier,'carried_session_001','2026-11-10T00:00:00.000Z');
+   assert.equal(validateState(carried,model,release),carried);assert.deepEqual(carriedFrom(carried),{session_id:'earlier_session_001',rendered_id:prior.release.rendered_id});
+   const states=decisionStates(model,carried);for(const id of Object.keys(current.answers)){if(prior.fingerprints[id]!==model.carry.fingerprints[id])assert.notEqual(states.get(id).status,'answered','Changed decision still counts: '+id);assert.equal(carried.answers[id].notes,current.answers[id].notes);}
+   if(Object.keys(current.answers).every(id=>prior.fingerprints[id]===model.carry.fingerprints[id]))for(const id of Object.keys(current.answers))assert.equal(states.get(id).status,'answered','Unchanged decision lost its answer: '+id);
+   const imported=importBackup(exportBackup(earlier),model,release,'imported_session_001','2026-11-10T00:00:00.000Z');assert.equal(imported.history[1].type,'carry');assert.equal(imported.session_id,'imported_session_001');
+  }
+  const unknown={...structuredClone(createState(model,release,'unknown_session_001',at)),release:{...release,rendered_id:'rendered-'+'9'.repeat(64)}};
+  assert.throws(()=>importBackup(exportBackup(unknown),model,release,'unknown_import_001',at),/different release/);
+  assert.throws(()=>carrySession(model,release,unknown,'unknown_carry_001',at),/not recorded here/);
  }
 });
-
 test('display descriptions can omit inline definitions without changing frozen source descriptions',()=>{
  const f=fixture(),original=f.source.bill.description;
  assert.equal(prepareCopy(f.source,baseCopy).bill_description,original);

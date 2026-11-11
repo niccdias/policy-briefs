@@ -8,6 +8,11 @@ import {identifyRenderedRelease} from './rendered-release.mjs';
 import {assertPublicationReady} from './publication-gate.mjs';
 import copy from './release/ui-copy.json' with {type:'json'};
 import {fromHtml} from 'hast-util-from-html';
+// The briefs show the frozen release with the recorded November 10, 2026 citation amendment applied
+// (Record speaker labels and two dead primary-text links). The frozen content.json stays byte-identical,
+// so the coding app and the S.1582 issue pilot keep their identities and saved sessions.
+import {amendJson} from './release/amendments/corpus-20261110/write-amendment.mjs';
+export const amendedRelease=content=>amendJson(content,null);
 const root=new URL('../',import.meta.url),source=new URL('release/content.json',import.meta.url);
 const sha=value=>createHash('sha256').update(value).digest('hex');
 const escape=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -74,7 +79,7 @@ export function verifyValue(content,value,text){
 }
 export async function publicView({write=false}={}){
  await assertPublicationReady();
- const content=JSON.parse(await readFile(source,'utf8'));content.release={...content.release,...await identifyRenderedRelease(content)};validateContent(content);if(content.values.length!==48||content.catalog.length!==567)throw new Error('Unexpected approved release coverage.');
+ const frozen=JSON.parse(await readFile(source,'utf8'));frozen.release={...frozen.release,...await identifyRenderedRelease(frozen)};validateContent(frozen);if(frozen.values.length!==48||frozen.catalog.length!==567)throw new Error('Unexpected approved release coverage.');const content=amendedRelease(frozen);validateContent(content);
  const rows=[];
  for(const value of content.values){
   const route=slug(value);if(!route)throw new Error(`Missing preserved route: ${value.id}`);
@@ -86,8 +91,8 @@ export async function publicView({write=false}={}){
  await mkdir(new URL('release/',import.meta.url),{recursive:true});if(write)await writeFile(new URL('release/parity.json',import.meta.url),JSON.stringify(manifest,null,2)+'\n');
  console.log(JSON.stringify({parity:'passed',arguments:content.arguments.length,values:content.values.length,content_id:manifest.content_id}));return manifest;
 }
-export async function verifyRenderedPublic(content){
- const rows=[];for(const value of content.values){const route=slug(value),text=await readFile(new URL(`public/arguments/${route.join('/')}.html`,root),'utf8');rows.push(verifyValue(content,value,text));if(!text.includes(`data-content-release="${content.release.content_id}"`))throw new Error(`Rendered public version mismatch: ${value.id}`);}
+export async function verifyRenderedPublic(frozen){
+ const content=amendedRelease(frozen),rows=[];for(const value of content.values){const route=slug(value),text=await readFile(new URL(`public/arguments/${route.join('/')}.html`,root),'utf8');rows.push(verifyValue(content,value,text));if(!text.includes(`data-content-release="${content.release.content_id}"`))throw new Error(`Rendered public version mismatch: ${value.id}`);}
  return rows;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url))await publicView({write:process.argv.includes('--write')});

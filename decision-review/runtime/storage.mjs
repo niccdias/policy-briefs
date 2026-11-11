@@ -1,4 +1,4 @@
-import {validateState,validateRelease,exportBackup} from './model.mjs';
+import {validateState,validateRelease,exportBackup,carriedFrom} from './model.mjs';
 
 const check=(condition,message)=>{if(!condition)throw new Error(message);};
 export function storagePrefix(release){validateRelease(release);return `policy-rationales:decision-review:v1:${release.bill_id}:${release.rendered_id}:`;}
@@ -11,7 +11,7 @@ export function createSessionStore({storage,locks,model,release,onStatus=()=>{}}
  function requireStorage(){check(storage&&typeof storage.getItem==='function'&&typeof storage.setItem==='function','Browser storage is unavailable.');return storage;}
  function load(id){const raw=requireStorage().getItem(sessionKey(release,id));if(raw===null)return null;const state=validateState(JSON.parse(raw),model,release);check(state.session_id===id,'Saved session identity differs from its storage key.');return state;}
  function active(){const id=requireStorage().getItem(activeKey(release));if(id===null)return null;check(/^[A-Za-z0-9_-]{8,100}$/.test(id),'Invalid active-session pointer.');return load(id);}
- function sessions(){const target=requireStorage(),prefix=storagePrefix(release)+'session:',result=[];for(let index=0;index<target.length;index++){const key=target.key(index);if(typeof key!=='string'||!key.startsWith(prefix))continue;const id=key.slice(prefix.length),state=load(id);check(state!==null,'Saved session disappeared during enumeration.');result.push({session_id:id,updated_at:state.updated_at,revision:state.revision});}return result.sort((a,b)=>b.updated_at.localeCompare(a.updated_at)||a.session_id.localeCompare(b.session_id));}
+ function sessions(){const target=requireStorage(),prefix=storagePrefix(release)+'session:',result=[];for(let index=0;index<target.length;index++){const key=target.key(index);if(typeof key!=='string'||!key.startsWith(prefix))continue;const id=key.slice(prefix.length),state=load(id);check(state!==null,'Saved session disappeared during enumeration.');result.push({session_id:id,updated_at:state.updated_at,revision:state.revision,carried_from:carriedFrom(state)});}return result.sort((a,b)=>b.updated_at.localeCompare(a.updated_at)||a.session_id.localeCompare(b.session_id));}
  async function acquire(state){
   validateState(state,model,release);check(!sessionId,'Close the existing session store before opening another session.');sessionId=state.session_id;closed=false;
   if(!locks||typeof locks.request!=='function'){report('lock_unavailable');return false;}

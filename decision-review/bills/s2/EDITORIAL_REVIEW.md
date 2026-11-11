@@ -12,17 +12,16 @@ Author: Opus editorial author. Built only from the frozen `input/source.json`. N
   - Money available until 2029 (C14).
 
   Each context's scope limits are qualification blocks shown beside every decision that relies on that context.
-- 90 causal claims, 31 value links and 223 blocks. `coverage.json` places all 98 arguments, all 71 responses (every one retained) and all 92 qualifications.
+- 89 causal claims, 31 value links and 225 blocks. `coverage.json` places all 98 arguments, all 71 responses (every one retained) and all 92 qualifications.
 
 ## Causal claims
 
-Each prediction about what the bill would do is asked. Three shared roots carry most of the enforcement and investigation arguments:
+Each prediction about what the bill would do is asked. Two shared roots carry most of the enforcement and investigation arguments:
 
 - Added immigration enforcement beyond the law in force (Sections 201 and 202 only; not the investigation, rescue, fire-warning or drug-inspection money).
 - Added HSI time for criminal investigations.
-- Public-facing tactics continuing.
 
-A fourth root, less yearly leverage over conditions and conduct, is independent of all three. The root for added immigration enforcement carries the "money already in law" limits from the context notes: the 2025 budget law amounts, the $62 billion not yet committed, the 11,000 hires, "base operations", and the June 9 offset plans. A No on it sets aside 46 decisions. The root for added HSI time carries the shared staff-reassignment challenge (C01, C31–C35) once. A No on it sets aside 17.
+A third root, less yearly leverage over conditions and conduct, is independent of both. The root for added immigration enforcement carries the "money already in law" limits from the context notes: the 2025 budget law amounts, the $62 billion not yet committed, the 11,000 hires, "base operations", and the June 9 offset plans. A No on it sets aside 45 decisions. The root for added HSI time carries the shared staff-reassignment challenge (C01, C31–C35) once. A No on it sets aside 17. Race-based stops, excessive force and large raids are three separate continuation claims, each resting directly on added enforcement (see the November 10 amendment).
 
 | Causal claim | Requires |
 |---|---|
@@ -46,7 +45,6 @@ A fourth root, less yearly leverage over conditions and conduct, is independent 
 | More aerial surveillance of environmental defenders | — |
 | Added immigration enforcement beyond the law in force | — |
 | Added HSI time for criminal investigations | — |
-| Public-facing tactics of 2025–early 2026 continue | Added immigration enforcement beyond the law in force |
 | More abused children identified and rescued | — |
 | More abuse-prevention teaching for families | Added HSI time for criminal investigations |
 | Added HSI time for human trafficking cases | Added HSI time for criminal investigations |
@@ -66,17 +64,17 @@ A fourth root, less yearly leverage over conditions and conduct, is independent 
 | More recorded encounters for review | — |
 | Safer work for agency staff | — |
 | More detention of people who pose no safety threat | Added immigration enforcement beyond the law in force |
-| Race-based stops continue | Public-facing tactics of 2025–early 2026 continue |
+| Race-based stops continue | Added immigration enforcement beyond the law in force |
 | Removal without a fair chance to reach a lawyer | Added immigration enforcement beyond the law in force |
 | Added risk of warrantless home entries | Added immigration enforcement beyond the law in force |
 | More broad collection of information about people | — |
 | More people held in dangerous conditions | Added immigration enforcement beyond the law in force |
 | Less yearly leverage over conditions and conduct | — |
 | More children separated from parents | Added immigration enforcement beyond the law in force |
-| Large, visible raids and sweeps continue | Public-facing tactics of 2025–early 2026 continue |
+| Large, visible raids and sweeps continue | Added immigration enforcement beyond the law in force |
 | Added community disruption from those raids | Large, visible raids and sweeps continue |
 | Children’s schooling harmed | Added immigration enforcement beyond the law in force |
-| Excessive force in public operations continues | Public-facing tactics of 2025–early 2026 continue |
+| Excessive force in public operations continues | Added immigration enforcement beyond the law in force |
 | Other workers lose jobs and earnings | Added immigration enforcement beyond the law in force |
 | More immigration cases against persecutors | Added immigration enforcement beyond the law in force |
 | Added HSI time against threats to foreign governments’ critics | Added HSI time for criminal investigations |
@@ -255,6 +253,49 @@ Claims shared across values:
 ## Definitions
 
 On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. Fourteen edits in 13 blocks removed definitions of precursor chemicals, autonomous capability, removal, pendency, transnational repression, invasive species, apprehension, contractionary, baptism, prescribed fires, laypeople and ministry, and the appositives for Cato and the P-3. Fourteen glossary entries were added. The displayed short description says that ICE deports noncitizens without the gloss (“removes”); the frozen description is retained in `input/source.json`. Kept: the agencies' roles in the description, the note that “platforms” is a general word, and the statement that removal is a civil process, which bears on the inference.
+
+## Amendment, November 10, 2026: tactics gate and dropped evidence
+
+This amendment answers findings B2 and B5 of the independent audit of November 10, 2026. It was made in `author.py`, and rerunning the generator reproduces both JSON files byte for byte. No source was read beyond the frozen `input/source.json`, and no evidence dated after July 17, 2026 was added.
+
+### The tactics gate is removed (B2)
+
+The package had added a gate, "Public-facing tactics of 2025–early 2026 continue", in front of the race-based stops, excessive force and large raids claims. Its only block was the quieter-tactics challenge. The frozen corpus does not have this step. It treats the three practices as separate judgments (C06, C36, C37), each with no prerequisite, its own supporting evidence, the same challenge, and a note that one answer does not settle the others. A No at the gate set aside four decisions (the three claims and the raid-disruption claim) carrying eight oppose arguments.
+
+- `S2_K_TACTICS` is removed. Race-based stops, excessive force and large raids each now require only added immigration enforcement. Their wording already says "the added enforcement" or "the added operations", so that root still applies. Each claim is otherwise unchanged, and every value link keeps its routes.
+- Each of the three claims now shows the corpus's shared supporting evidence: limits to the reported change (Homan, WBEZ, Krikorian) and Human Rights Watch's statement that Congress approved S.2 "without adopting essential oversight and accountability reforms", with the reforms proposed. This block (`S2_B_CHANGELIMITS_EV`, formerly `S2_B_RAIDTYPE_EV`, which had appeared only at the raids claim) sits beside each claim's own evidence.
+- The quieter-tactics challenge (`S2_B_QUIET_CH`) now appears at each of the three claims, as the corpus places it. Its response rows are credited only at the claim that carries their arguments: C06 at race-based stops, C36 at force, C37 at raids, and SES_oppose_01's at force and yearly leverage.
+- The shared scope note ("Each of these questions…") is replaced by each claim's own corpus scope sentence (`S2_B_RACESTOPS_SCOPE`, `S2_B_FORCE_SCOPE`, `S2_B_RAIDS_SCOPE`).
+- A No on added immigration enforcement now sets aside 45 decisions, one fewer than before because the gate is gone. A single No on race-based stops or on force sets aside nothing. A single No on raids sets aside only the raid-disruption claim.
+
+### Dropped evidence is restored (B5)
+
+Consolidation had left some claims with challenges or limits that point to evidence the reader could not see, and had dropped more support-side than oppose-side quotations. Material evidence from the frozen corpus is restored where it bears on the exact claim. Duplicate counts and extra illustrations of evidence already shown were not restored.
+
+- Claims whose shown limit or challenge referred to missing evidence:
+  - Violent offenders: ICE's custody-after-sentence statement, the 2024 arrest categories, the release-from-prison quotation for the child-rape case and the Massachusetts murder case (C05's own consolidated evidence). The limit now names which man was already in custody.
+  - Crime reporting: the Secure Communities reporting study and its point about police catching offenders, which the existing limit describes.
+  - Scanners: CBP's 127,000-pound seizure figure, which the challenge calls "earlier seizure totals".
+  - Unsafe equipment: the wire-fraud charge that the challenge discusses.
+  - Force: Human Rights Watch's Broadview witness-and-video finding, which the challenge's "rising tension at Broadview" answers, and the Brennan Center's reference to the killings of Renee Good and Alex Pretti.
+  - Impostors: WIRED's "heightened profile" sentence, which the challenge quotes.
+- Claims that lacked their own direct evidence for part of the claim:
+  - Fire warnings: the report that the fires were controlled.
+  - Child rescue: the 140 and 675 victims identified or rescued.
+  - Victim services: the interview specialists' safe spaces and the work removing victims from danger.
+  - Drug supply: CBP's statement that seizures keep drugs out of communities. The package's own sentence that seized drugs stay off the street was dropped as redundant; the scope note still says so, and the C04 scope row is now credited only to the scope block.
+  - Health orders: the Title 42 screening and expulsion guidance, which also bears on the existing classification limit.
+  - Gangs: HSI's 2024 gang case totals.
+  - Terrorism: HSI's cases against terrorist networks and the reported disruptions.
+  - Human rights: the crimes HSI investigates.
+  - Trafficking: the abuse in the 380-month case and the 2025 Delaware conviction.
+- Four glossary entries were added for words in the restored quotations: sextortion, interdiction, TCO and Title 42. Each definition follows the corpus's own gloss.
+
+The audit's dropped-quotation count was rerun with a reproduction script. A quotation in an argument's support or response text counts as traced when any five-word run of it appears in the reader text. Of the support arguments' 198 supporting quotations, 27 were dropped before and 5 after. Of the oppose arguments' 198, 11 were dropped before and 3 after. The audit's own script reported 25 and 9 of 196; it is not in the evidence folder, and the reproduction differs by a few borderline fragments. The remaining support-side items repeat evidence already shown: a romance-fraud count beside the elder-fraud totals, bill text on scanner purchases, a statement of HSI's role beside its trafficking totals, a third rescue example, and a cyber figure quoted in part. The remaining oppose-side items are the street-policing agreement text, a second citation of the victimization finding, and a mask quotation whose substance is shown. Response-side drops were not part of this amendment (15 of 103 for support arguments, 8 of 97 for oppose arguments, mostly short fragments such as "funds provided in this section" whose substance is shown).
+
+### Superseded figures
+
+The shape, roots and causal-claim table above reflect this amendment. Path counts under "Checks run" and in the audit-correction sections are as of their dates.
 
 ## Limits
 

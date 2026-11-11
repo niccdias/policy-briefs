@@ -30,7 +30,7 @@
       "bill_id": "119_H_R_5408",
       "bill": "H.R.5408",
       "title": "the Faster Labor Contracts Act",
-      "source_sha256": "b09381ff66e2e5566a756dcea032925da11b058a930630efd8100dd0dd4142e9",
+      "source_sha256": "50fb88de3db3f9c82dc30aad8b31fc961d2f9e4522b1b631a41128f4cc49da2c",
       "arguments": 69,
       "responses": 34,
       "qualifications": 62
@@ -40,7 +40,7 @@
       "bill_id": "119_H_R_131",
       "bill": "H.R.131",
       "title": "the Finish the Arkansas Valley Conduit Act",
-      "source_sha256": "b58fb3a4d382c1a50aff9e7a038ac706403aed0af4de9ac78c145f72f781b7e2",
+      "source_sha256": "541a616fbeccb276ebd2286e0b8ff5f4d882e606297a6852f532656c4f4d6473",
       "arguments": 32,
       "responses": 4,
       "qualifications": 61
@@ -50,7 +50,7 @@
       "bill_id": "119_H_R_4405",
       "bill": "H.R.4405",
       "title": "the Epstein Files Transparency Act",
-      "source_sha256": "0714a8f78512cca2b34a00adafc7b739c0550b8e9c792fe32c162700482d202b",
+      "source_sha256": "8b0a3b2144550ae95c72bf2594e168d17a9ee96e97fd7821fae084c3d9cc1b11",
       "arguments": 44,
       "responses": 12,
       "qualifications": 62
@@ -70,7 +70,7 @@
       "bill_id": "119_H_R_28",
       "bill": "H.R.28",
       "title": "the Protection of Women and Girls in Sports Act of 2025",
-      "source_sha256": "e0ea8864d227121537c60ba4e2fbfe8da7f0d81009693dc6a5ae55438df049e6",
+      "source_sha256": "112c76520961e2e00a203d03dbdd2b42ef04da4c3743a2e85ed27f58b1f319c2",
       "arguments": 33,
       "responses": 14,
       "qualifications": 49
@@ -80,7 +80,7 @@
       "bill_id": "119_S_2",
       "bill": "S.2",
       "title": "the Secure America Act",
-      "source_sha256": "1634249548c73327c92db5983440e3fb10096720075e90920fb3d7b2c8830bb6",
+      "source_sha256": "8d522e9f9120b9014d8d76b51f13bda4a0f96040aed3c2906daaf83b06d8a212",
       "arguments": 98,
       "responses": 71,
       "qualifications": 92

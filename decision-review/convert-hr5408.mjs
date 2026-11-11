@@ -23,6 +23,9 @@ export function applyHr5408Amendment(decisions,copy,amendment,reverse=false){
    assert.equal(change.field,change.collection==='nodes'?'claim_html':'html','Unsupported H.R.5408 amendment field.');
    assert(typeof change.before==='string'&&typeof change.after==='string','H.R.5408 text amendments require complete strings.');
    const matches=result.decisions[change.collection].filter(item=>item.id===change.id);assert.equal(matches.length,1,'Unknown H.R.5408 amendment owner: '+key);owner=matches[0];
+  }else if(change.collection==='decisions'&&change.field==='source_sha256'){
+   // The November 10, 2026 corpus amendment changed citation labels in the frozen source, and with it this binding.
+   assert.equal(change.id,undefined);assert(/^[a-f0-9]{64}$/.test(change.before)&&/^[a-f0-9]{64}$/.test(change.after),'Invalid H.R.5408 source binding amendment.');owner=result.decisions;
   }else if(change.collection==='decisions'&&change.field==='glossary'){
    assert.equal(change.id,undefined,'A glossary amendment must replace the complete glossary.');
    for(const entries of [change.before,change.after]){assert(Array.isArray(entries),'Invalid glossary amendment.');const terms=new Set();for(const entry of entries){assert.deepEqual(Object.keys(entry).sort(),['definition','term']);assert(typeof entry.term==='string'&&entry.term.trim()&&typeof entry.definition==='string'&&entry.definition.trim(),'Empty glossary amendment entry.');const term=entry.term.toLowerCase();assert(!terms.has(term),'Duplicate glossary term: '+entry.term);terms.add(term);}}

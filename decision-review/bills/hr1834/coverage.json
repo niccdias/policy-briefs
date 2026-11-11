@@ -750,7 +750,8 @@
    ],
    "block_ids": [
     "HR1834_B_PROVIDERS_EV",
-    "HR1834_B_CBO_TIMING"
+    "HR1834_B_CBO_TIMING",
+    "HR1834_B_SEPSERVICES_EV"
    ],
    "rationale": "Causal claims: Less pressure to cut local health services. Value link: Personal Security: hospitals and clinics for everyone."
   },
@@ -1135,7 +1136,8 @@
    "block_ids": [
     "HR1834_B_CHURCH_EV",
     "HR1834_B_CHURCH_LIM",
-    "HR1834_B_CREDITS_SCOPE"
+    "HR1834_B_CREDITS_SCOPE",
+    "HR1834_B_CHURCH_WORSHIP_EV"
    ],
    "rationale": "Causal claims: Less strain on churches and church giving. Value link: Tradition: congregations’ worship and teaching."
   },
@@ -2486,9 +2488,10 @@
    ],
    "block_ids": [
     "HR1834_B_JOBCOVER_LIM",
-    "HR1834_B_DOCTOR_LIM"
+    "HR1834_B_DOCTOR_LIM",
+    "HR1834_B_DOCTOR_EV"
    ],
-   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Covered access to a doctor lost; Fewer people with job-based coverage; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances."
+   "rationale": "Shown in full beside: Higher treatment costs after leaving job plans; Covered access to a doctor lost; Fewer people with job-based coverage; Personal Security: needed care lost after leaving job plans; Concern: sick patients’ care and finances. The 27% network figure is shown as quoted evidence at the doctor claim."
   },
   {
    "id": "HR1834_QUAL_HR1834_UNC_oppose_04_notes_html",

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {createDecisionTree,createState,decisionStates,decisionPriority,nextDecision,answerDecision,derivedResults,saveComparison,completion,navigate,validateState,exportBackup,importBackup,csvExport} from './model.mjs';
+import {createDecisionTree,createState,decisionStates,decisionPriority,nextDecision,answerDecision,derivedResults,saveComparison,completion,navigate,validateState,exportBackup,importBackup,csvExport,csvRows} from './model.mjs';
 import {createSessionStore,sessionKey,storagePrefix} from './storage.mjs';
 import {renderDecision,renderReview,renderResults,renderShell,renumberCitations,sourceRoute} from './app.js';
 import {prepareCopy} from './build.mjs';
@@ -124,10 +124,10 @@ test('accepted-claim references replace subheadings and inherited background, wh
  const revisited=navigate(model,state,{page:'review',decision_id:value.id,anchor:'context-LAW'},at(3));
  assert.deepEqual(markers(renderDecision(model,revisited,value.id,'review',true),'data-context-id'),['LAW','LOCAL_LAW']);
 });
-test('editorial lead labels are omitted while source emphasis and authored HTML are preserved',()=>{
+test('authored block HTML renders as written, including an opening bold sentence and source emphasis',()=>{
  const f=fixture(),authored='<p><strong>Scope.</strong> Evidence stays <em>qualified</em>.</p><blockquote><p><strong>Original emphasis.</strong> Keep it inside the quotation.</p></blockquote>';
  f.decisions.blocks[0].html=authored;const model=make(f),html=renderDecision(model,fresh(model),'A','review',true);
- assert(!html.includes('<h3 class="block-heading">'));assert(!html.includes('<strong>Scope.</strong>'),'Omit editorial lead labels from the reading.');
+ assert(!html.includes('<h3 class="block-heading">'));assert(html.includes('<p><strong>Scope.</strong> Evidence stays'),'An opening bold sentence is part of the authored reading and must not be stripped.');
  assert(html.includes('<em>qualified</em>'));assert(html.includes('<blockquote><p><strong>Original emphasis.</strong> Keep it inside the quotation.</p></blockquote>'),'Keep quoted emphasis intact.');
  assert.equal(model.blocks.get('NEW_BLOCK').html,authored);assert.equal(f.decisions.blocks[0].html,authored);
 });
@@ -141,3 +141,11 @@ test('second writer cannot overwrite and can acquire only after the original wri
 test('same-revision changed bytes are a conflict both with and without a storage event',async()=>{for(const observe of [false,true]){const model=make(),storage=memory(),manager=locks(),initial=fresh(model),local=answerDecision(model,initial,'A','Yes',at(1),'Local'),other=answerDecision(model,initial,'A','No',at(1),'Other'),store=createSessionStore({model,release,storage,locks:manager});assert(await store.acquire(initial));assert(store.save(local).ok);const key=sessionKey(release,initial.session_id),bytes=JSON.stringify(other);storage.setItem(key,bytes);if(observe)store.observe(key,bytes);assert.equal(store.save(answerDecision(model,local,'C','Yes',at(2))).ok,false);assert.equal(store.status,'conflict');assert.equal(storage.getItem(key),bytes);await store.close();}});
 test('storage failure leaves in-memory state exportable and later recovery retains all events',async()=>{const model=make(),storage=memory(),state=fresh(model),store=createSessionStore({model,release,storage,locks:locks()});assert(await store.acquire(state));assert(store.save(state).ok);storage.fail=true;const changed=answerDecision(model,state,'A','Yes',at(1));assert.equal(store.save(changed).status,'storage_failure');assert.equal(JSON.parse(exportBackup(changed)).state.answers.A.answer,'Yes');storage.fail=false;assert(store.save(changed).ok);assert.deepEqual(store.load(state.session_id),changed);await store.close();});
 test('new sessions/releases are isolated; malformed old data and missing locks never silently overwrite',async()=>{const model=make(),storage=memory(),manager=locks(),state=fresh(model),store=createSessionStore({model,release,storage,locks:manager});assert(await store.acquire(state));assert(store.save(state).ok);await store.close();const old=storage.getItem(sessionKey(release,state.session_id)),otherRelease={...release,rendered_id:'rendered-'+'8'.repeat(64)};assert.notEqual(storagePrefix(release),storagePrefix(otherRelease));const other=createSessionStore({model,release:otherRelease,storage,locks:manager}),newState=createState(model,otherRelease,'session_other_005',at(0));assert(await other.acquire(newState));assert(other.save(newState).ok);await other.close();assert.equal(storage.getItem(sessionKey(release,state.session_id)),old);const noLock=createSessionStore({model,release,storage});assert.equal(await noLock.acquire(state),false);assert.equal(noLock.status,'lock_unavailable');await noLock.close();storage.setItem(sessionKey(release,state.session_id),'{malformed');const bad=createSessionStore({model,release,storage,locks:manager});assert(await bad.acquire(state));assert.equal(bad.save(state).ok,false);assert.equal(storage.getItem(sessionKey(release,state.session_id)),'{malformed');await bad.close();});
+test('CSV answer, presence and strength cells hold only counted values; uncounted saved values are named in the status',()=>{
+ const model=make();let state=allYes(model);const valueId=source.values[0].id;state=saveComparison(model,state,valueId,'support',at(30));
+ const counted=csvRows(model,state,copy,{kind:'qa',account:'uid_1'}).find(row=>row[0]===copy.csv_type_value&&row[2]===valueId);assert.equal(counted[6],copy.strength_labels.support);assert.deepEqual(counted.slice(-3),['qa','uid_1','']);
+ state=answerDecision(model,state,'A',null,at(31));const rows=csvRows(model,state,copy),value=rows.find(row=>row[0]===copy.csv_type_value&&row[2]===valueId),decision=rows.find(row=>row[1]==='A');
+ assert.equal(value[6],'');assert(value[7].includes(copy.saved_answer+': '+copy.strength_labels.support));
+ for(const row of rows.filter(item=>item[0]===copy.csv_type_decision&&item[7].includes(copy.saved_answer)))assert.equal(row[4],copy.unanswered,'A saved answer that does not count must not fill the Answer cell.');
+ assert.equal(decision[4],copy.unanswered);
+});

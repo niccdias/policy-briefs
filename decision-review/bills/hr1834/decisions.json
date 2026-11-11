@@ -440,8 +440,13 @@
   {
    "id": "HR1834_B_POLL_CLIMATE",
    "role": "evidence",
-   "html": "<p>Medical facilities and their suppliers release gases that heat the planet. The UN climate science panel finds that biodiversity loss and damage to ecosystems “will continue to escalate with every increment of global warming (very high confidence)” <a href=\"https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/\" title=\"“Climate Change 2022: Impacts, Adaptation and Vulnerability — Summary for Policymakers”, 2022-02-28 (no public archived copy)\">[26]</a>.</p>",
+   "html": "<p>Medical facilities and their suppliers release gases that heat the planet. Health-care research describes “Changing climate due to an increase in greenhouse gas emissions” <a href=\"https://web.archive.org/web/20250804082912/https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30121-2/fulltext\" title=\"Manfred Lenzen, Arunima Malik, Mengyu Li, Jacob Fry, Helga Weisz, “The environmental footprint of health care: a global assessment - The Lancet Planetary Health”, 2020-07 (article publication history; fetch metadata mislabels it 2018-02-01)\">[25]</a>. The UN climate science panel finds that biodiversity loss and damage to ecosystems “will continue to escalate with every increment of global warming (very high confidence)” <a href=\"https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/\" title=\"“Climate Change 2022: Impacts, Adaptation and Vulnerability — Summary for Policymakers”, 2022-02-28 (no public archived copy)\">[26]</a>.</p>",
    "source_refs": [
+    {
+     "id": "HR1834_UNN_oppose_01",
+     "field": "support_reading",
+     "quote": "Changing climate due to an increase in greenhouse gas emissions"
+    },
     {
      "id": "HR1834_UNN_oppose_01",
      "field": "support_reading",
@@ -601,7 +606,7 @@
   {
    "id": "HR1834_B_POLL_TOXIC_CH",
    "role": "challenge",
-   "html": "<p>The incineration and hazardous-handling steps do not establish that added U.S. medical waste follows those harmful routes. The World Health Organization ties its warning to poor handling: “if those substances are not handled, stored and disposed in an environmentally sound manner” <a href=\"https://web.archive.org/web/20261023161859/https://www.who.int/news-room/fact-sheets/detail/health-care-waste\" title=\"“Health-care waste”, 2024-10-24\">[30]</a>. EPA reports that stricter rules for waste burners led to “an increase in the use of alternative technologies for treating medical waste” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, such as “Steam sterilization, such as autoclaving” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, after which treated waste goes to “solid waste in landfills or incinerators” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>. This challenge does not answer the separate U.S. footprint estimate, which attributes most ecotoxicity to waste management.</p>",
+   "html": "<p>The incineration and hazardous-handling steps do not establish that added U.S. medical waste follows those harmful routes. The World Health Organization ties its warning to poor handling: “if those substances are not handled, stored and disposed in an environmentally sound manner” <a href=\"https://web.archive.org/web/20261023161859/https://www.who.int/news-room/fact-sheets/detail/health-care-waste\" title=\"“Health-care waste”, 2024-10-24\">[30]</a>. EPA reports that stricter rules for waste burners led to “an increase in the use of alternative technologies for treating medical waste” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, such as “Steam sterilization, such as autoclaving” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, after which treated waste goes to “solid waste in landfills or incinerators” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>. The World Health Organization also states: “Measures to ensure the safe and environmentally sound management of health care wastes can prevent adverse health and environmental impacts from such waste including the unintended release of chemical or biological hazards.” <a href=\"https://web.archive.org/web/20261023161859/https://www.who.int/news-room/fact-sheets/detail/health-care-waste\" title=\"“Health-care waste”, 2024-10-24\">[30]</a> This challenge does not answer the separate U.S. footprint estimate, which attributes most ecotoxicity to waste management.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_oppose_06",
@@ -626,6 +631,11 @@
     {
      "id": "HR1834_UNN_oppose_06",
      "field": "response_reading",
+     "quote": "Measures to ensure the safe and environmentally sound management of health care wastes can prevent adverse health and environmental impacts from such waste including the unintended release of chemical or biological hazards."
+    },
+    {
+     "id": "HR1834_UNN_oppose_06",
+     "field": "response_reading",
      "quote": "This response does not answer the argument’s separate U.S. footprint estimate, which attributes most ecotoxicity to waste management."
     }
    ]
@@ -633,7 +643,7 @@
   {
    "id": "HR1834_B_POLL_PLASTIC",
    "role": "evidence",
-   "html": "<p>Care uses plastic “syringes, intravenous bags, catheters, test kits, and gloves” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a>. Much protective gear is “designed for single use and is made from polypropylene nonwoven fabrics that have poor biodegradability” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a>. The U.S. ocean agency explains: “Plastic marine debris can smother wildlife, restricting the flow of oxygen” <a href=\"https://web.archive.org/web/20260502183131/https://marinedebris.noaa.gov/why-marine-debris-problem/habitat-damage\" title=\"NOAA, NOS, OR&amp;R Marine Debris Program, “Habitat Damage”, 2023-02-07 (last updated date printed on the page) (archived copy; the original page was down when checked on October 29, 2026)\">[33]</a>.</p>",
+   "html": "<p>Care uses plastic “syringes, intravenous bags, catheters, test kits, and gloves” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a>. Much protective gear is “designed for single use and is made from polypropylene nonwoven fabrics that have poor biodegradability” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a>. The same article describes “dumping domestic and international health care waste into the earth’s terra firma and oceans” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a>. The U.S. ocean agency explains: “Plastic marine debris can smother wildlife, restricting the flow of oxygen” <a href=\"https://web.archive.org/web/20260502183131/https://marinedebris.noaa.gov/why-marine-debris-problem/habitat-damage\" title=\"NOAA, NOS, OR&amp;R Marine Debris Program, “Habitat Damage”, 2023-02-07 (last updated date printed on the page) (archived copy; the original page was down when checked on October 29, 2026)\">[33]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_oppose_07",
@@ -648,6 +658,11 @@
     {
      "id": "HR1834_UNN_oppose_07",
      "field": "support_reading",
+     "quote": "dumping domestic and international health care waste into the earth’s terra firma and oceans"
+    },
+    {
+     "id": "HR1834_UNN_oppose_07",
+     "field": "support_reading",
      "quote": "Plastic marine debris can smother wildlife, restricting the flow of oxygen"
     }
    ]
@@ -655,7 +670,7 @@
   {
    "id": "HR1834_B_POLL_PLASTIC_CH",
    "role": "challenge",
-   "html": "<p>Plastic persistence does not establish an added flow of U.S. medical plastic into habitats. The article’s disposal figure combines all plastics and two destinations: “91% of plastics, including those used in health care, are not recycled and either reside in landfills or have infiltrated natural environments.” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a> EPA describes treated medical waste going to “solid waste in landfills or incinerators” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, neither of which is open land or water. The ocean agency explains what escaped debris can do; it does not establish that the credits increase that escape or its risk.</p>",
+   "html": "<p>Plastic persistence does not establish an added flow of U.S. medical plastic into habitats. The article’s disposal figure combines all plastics and two destinations: “91% of plastics, including those used in health care, are not recycled and either reside in landfills or have infiltrated natural environments.” <a href=\"https://web.archive.org/web/20260907124505/https://journalofethics.ama-assn.org/article/how-should-us-health-care-lead-global-change-plastic-waste-disposal/2022-10\" title=\"Navami Jain, Desiree LaBeaud, “How Should US Health Care Lead Global Change in Plastic Waste Disposal?”, 2022-10-01\">[32]</a> EPA describes treated medical waste going to “solid waste in landfills or incinerators” <a href=\"https://web.archive.org/web/20261029142918/https://19january2021snapshot.epa.gov/rcra/medical-waste_.html\" title=\"“Medical Waste | Resource Conservation and Recovery Act (RCRA) Laws and Regulations | US EPA”, 2016-02-17; archived version as of 2021-01-19\">[31]</a>, neither of which is open land or water. The article’s broad claim about dumping does not establish how added U.S. medical supplies reach habitats. The ocean agency explains what escaped debris can do; it does not establish that the credits increase that escape or its risk.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_oppose_07",
@@ -671,6 +686,11 @@
      "id": "HR1834_UNN_oppose_07",
      "field": "response_reading",
      "quote": "Plastic persistence does not establish an added flow of U.S. medical plastic into habitats under this bill."
+    },
+    {
+     "id": "HR1834_UNN_oppose_07",
+     "field": "response_reading",
+     "quote": "The article’s broad claim about dumping and its combined disposal figure do not establish how added U.S. medical supplies reach habitats."
     }
    ]
   },
@@ -812,7 +832,7 @@
   {
    "id": "HR1834_B_FARMS_EV",
    "role": "evidence",
-   "html": "<p>Farmer Liz Krug ties the larger credits to staying on her farm: “make sure that we’re stewarding this land, and really one of the only options to do that is through the ACA tax credits.” <a href=\"https://web.archive.org/web/20260320162939/https://www.ms.now/news/farmers-aca-health-care-costs\" title=\"Jarvis DeBerry, “‘We don’t have a corporate job’: Expiration of ACA subsidies put these farmers’ lives in limbo”, 2026-02-11\">[4]</a> The Kimballs, who run “a USDA-certified organic fruit, vegetable, and flower farm” <a href=\"https://web.archive.org/web/20261029144724/https://dailyyonder.com/with-deadline-for-healthcare-premium-tax-credits-expiration-looming-farmers-brace-for-rate-hikes/2025/12/08/\" title=\"Claire Carlson, “With Deadline for Healthcare Premium Tax Credits Expiration Looming, Farmers Brace for Rate Hikes | The Daily Yonder”, 2025-12-08\">[5]</a>, were “bracing for an increase in their monthly expenses next year if the premium tax credits end.” <a href=\"https://web.archive.org/web/20261029144724/https://dailyyonder.com/with-deadline-for-healthcare-premium-tax-credits-expiration-looming-farmers-brace-for-rate-hikes/2025/12/08/\" title=\"Claire Carlson, “With Deadline for Healthcare Premium Tax Credits Expiration Looming, Farmers Brace for Rate Hikes | The Daily Yonder”, 2025-12-08\">[5]</a> At Harvest Tide Organics, “If the credits do expire and costs skyrocket, Allen says she may lose employees.” <a href=\"https://web.archive.org/web/20261029190838/https://www.wmtw.com/article/maine-farmer-shares-concern-over-expiring-aca-credits/69701292\" title=\"Cate McCusker, “Maine farmer shares concern over expiring ACA credits - WMTW”, 2025-12-11 (updated 10:21 p.m. EST)\">[8]</a> Minnesota Farmers Union warned that higher insurance costs were “forcing some to choose between buying health insurance, making their operating loan payments or in some cases, putting food on the table” <a href=\"https://web.archive.org/web/20261029163507/https://mfu.org/health-care-tax-credits-matter-for-family-farmers/\" title=\"Janet Kubat, “Health care tax credits matter for family farmers”, 2025-10-01\">[23]</a>.</p>",
+   "html": "<p>Farmer Liz Krug ties the larger credits to staying on her farm: “make sure that we’re stewarding this land, and really one of the only options to do that is through the ACA tax credits.” <a href=\"https://web.archive.org/web/20260320162939/https://www.ms.now/news/farmers-aca-health-care-costs\" title=\"Jarvis DeBerry, “‘We don’t have a corporate job’: Expiration of ACA subsidies put these farmers’ lives in limbo”, 2026-02-11\">[4]</a> The Kimballs, who run “a USDA-certified organic fruit, vegetable, and flower farm” <a href=\"https://web.archive.org/web/20261029144724/https://dailyyonder.com/with-deadline-for-healthcare-premium-tax-credits-expiration-looming-farmers-brace-for-rate-hikes/2025/12/08/\" title=\"Claire Carlson, “With Deadline for Healthcare Premium Tax Credits Expiration Looming, Farmers Brace for Rate Hikes | The Daily Yonder”, 2025-12-08\">[5]</a>, were “bracing for an increase in their monthly expenses next year if the premium tax credits end.” <a href=\"https://web.archive.org/web/20261029144724/https://dailyyonder.com/with-deadline-for-healthcare-premium-tax-credits-expiration-looming-farmers-brace-for-rate-hikes/2025/12/08/\" title=\"Claire Carlson, “With Deadline for Healthcare Premium Tax Credits Expiration Looming, Farmers Brace for Rate Hikes | The Daily Yonder”, 2025-12-08\">[5]</a> A report on Harvest Tide Organics says: “Allen says many of her employees and other farmers rely on individual market coverage for healthcare.” <a href=\"https://web.archive.org/web/20261029190838/https://www.wmtw.com/article/maine-farmer-shares-concern-over-expiring-aca-credits/69701292\" title=\"Cate McCusker, “Maine farmer shares concern over expiring ACA credits - WMTW”, 2025-12-11 (updated 10:21 p.m. EST)\">[8]</a> “If the credits do expire and costs skyrocket, Allen says she may lose employees.” <a href=\"https://web.archive.org/web/20261029190838/https://www.wmtw.com/article/maine-farmer-shares-concern-over-expiring-aca-credits/69701292\" title=\"Cate McCusker, “Maine farmer shares concern over expiring ACA credits - WMTW”, 2025-12-11 (updated 10:21 p.m. EST)\">[8]</a> Minnesota Farmers Union warned that higher insurance costs were “forcing some to choose between buying health insurance, making their operating loan payments or in some cases, putting food on the table” <a href=\"https://web.archive.org/web/20261029163507/https://mfu.org/health-care-tax-credits-matter-for-family-farmers/\" title=\"Janet Kubat, “Health care tax credits matter for family farmers”, 2025-10-01\">[23]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_support_01",
@@ -828,6 +848,11 @@
      "id": "HR1834_UNN_support_01",
      "field": "support_reading",
      "quote": "bracing for an increase in their monthly expenses next year if the premium tax credits end."
+    },
+    {
+     "id": "HR1834_UNN_support_01",
+     "field": "support_reading",
+     "quote": "Allen says many of her employees and other farmers rely on individual market coverage for healthcare."
     },
     {
      "id": "HR1834_UNN_support_01",
@@ -910,7 +935,7 @@
   {
    "id": "HR1834_B_SOLAR_EV",
    "role": "evidence",
-   "html": "<p>An analysis found that “the enhanced premium tax credits would decrease health insurance premiums” <a href=\"https://web.archive.org/web/20260513023336/https://www.americanprogress.org/article/congress-failure-to-extend-enhanced-premium-tax-credits-will-greatly-increase-health-insurance-costs-for-small-business-people/\" title=\"americanprogress.org, analysis, October 28, 2025\">[9]</a> for eligible business owners. In 2017, owners of a business offering solar power wrote: “Insurance costs were definitely the deciding factor in whether we would be able to continue our mission” <a href=\"https://web.archive.org/web/20261029184450/https://www.postindependent.com/opinion/letter-aca-saved-our-business/\" title=\"“Letter: ACA saved our business | PostIndependent.com”, 2017-03-26\">[10]</a>. A national laboratory review found that “Total life cycle GHG emissions from solar PV systems are similar to other renewables and nuclear energy, and much lower than coal.” <a href=\"https://web.archive.org/web/20261029144908/https://docs.nlr.gov/docs/fy13osti/56487.pdf\" title=\"Garvin Heath, and Debra Sandor: NREL, “Life Cycle Greenhouse Gas Emissions from Solar Photovoltaics”, 2012-11 (NREL/FS-6A20-56487)\">[11]</a></p>",
+   "html": "<p>An analysis found that “the enhanced premium tax credits would decrease health insurance premiums” <a href=\"https://web.archive.org/web/20260513023336/https://www.americanprogress.org/article/congress-failure-to-extend-enhanced-premium-tax-credits-will-greatly-increase-health-insurance-costs-for-small-business-people/\" title=\"americanprogress.org, analysis, October 28, 2025\">[9]</a> for eligible business owners. In 2017, owners of a business offering solar power wrote: “Insurance costs were definitely the deciding factor in whether we would be able to continue our mission” <a href=\"https://web.archive.org/web/20261029184450/https://www.postindependent.com/opinion/letter-aca-saved-our-business/\" title=\"“Letter: ACA saved our business | PostIndependent.com”, 2017-03-26\">[10]</a>. They added: “The Affordable Care Act came to our rescue in 2014. We’re still able to offer clean living options and solar opportunities to our neighbors, local businesses and even our town” <a href=\"https://web.archive.org/web/20261029184450/https://www.postindependent.com/opinion/letter-aca-saved-our-business/\" title=\"“Letter: ACA saved our business | PostIndependent.com”, 2017-03-26\">[10]</a>. A national laboratory review found that “Total life cycle GHG emissions from solar PV systems are similar to other renewables and nuclear energy, and much lower than coal.” <a href=\"https://web.archive.org/web/20261029144908/https://docs.nlr.gov/docs/fy13osti/56487.pdf\" title=\"Garvin Heath, and Debra Sandor: NREL, “Life Cycle Greenhouse Gas Emissions from Solar Photovoltaics”, 2012-11 (NREL/FS-6A20-56487)\">[11]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_support_02",
@@ -921,6 +946,11 @@
      "id": "HR1834_UNN_support_02",
      "field": "support_reading",
      "quote": "Insurance costs were definitely the deciding factor in whether we would be able to continue our mission"
+    },
+    {
+     "id": "HR1834_UNN_support_02",
+     "field": "support_reading",
+     "quote": "The Affordable Care Act came to our rescue in 2014. We’re still able to offer clean living options and solar opportunities to our neighbors, local businesses and even our town"
     },
     {
      "id": "HR1834_UNN_support_02",
@@ -1028,7 +1058,7 @@
   {
    "id": "HR1834_B_SGLT2_EV",
    "role": "evidence",
-   "html": "<p>“SGLT2 inhibitors are now widely used to reduce the risk of hospital admission and kidney failure in people with type 2 diabetes and chronic kidney disease.” <a href=\"https://doi.org/10.1016/s2542-5196(24)00281-x\" title=\"Ben Edward Michael Talbot, Robert A Fletcher, Bruce Charles Neal, Megumi Oshima, Fiona Adshead, Keith Moore, et al., “The potential for reducing greenhouse gas emissions through disease prevention: a secondary analysis of data from the CREDENCE trial”, 2024-12-01 (no public archived copy)\">[18]</a> Insurance coverage for them “was generally substantial” <a href=\"https://web.archive.org/web/20250923235100/https://pmc.ncbi.nlm.nih.gov/articles/PMC8920018/\" title=\"“Out-of-Pocket Costs for SGLT-2 (Sodium-Glucose Transport Protein-2) Inhibitors in the United States”, 2021-12-10 (published online); 2022-03 (issue)\">[19]</a>, while “out-of-pocket costs for uninsured individuals was high with an estimated average cost of $138 per month” <a href=\"https://web.archive.org/web/20250923235100/https://pmc.ncbi.nlm.nih.gov/articles/PMC8920018/\" title=\"“Out-of-Pocket Costs for SGLT-2 (Sodium-Glucose Transport Protein-2) Inhibitors in the United States”, 2021-12-10 (published online); 2022-03 (issue)\">[19]</a>. A study using a trial of one such medicine found: “Despite the greenhouse gas emissions associated with SGLT2 inhibitor production, the total emissions contribution was 20% lower in the treatment group” <a href=\"https://doi.org/10.1016/s2542-5196(24)00281-x\" title=\"Ben Edward Michael Talbot, Robert A Fletcher, Bruce Charles Neal, Megumi Oshima, Fiona Adshead, Keith Moore, et al., “The potential for reducing greenhouse gas emissions through disease prevention: a secondary analysis of data from the CREDENCE trial”, 2024-12-01 (no public archived copy)\">[18]</a>.</p>",
+   "html": "<p>“SGLT2 inhibitors are now widely used to reduce the risk of hospital admission and kidney failure in people with type 2 diabetes and chronic kidney disease.” <a href=\"https://doi.org/10.1016/s2542-5196(24)00281-x\" title=\"Ben Edward Michael Talbot, Robert A Fletcher, Bruce Charles Neal, Megumi Oshima, Fiona Adshead, Keith Moore, et al., “The potential for reducing greenhouse gas emissions through disease prevention: a secondary analysis of data from the CREDENCE trial”, 2024-12-01 (no public archived copy)\">[18]</a> A U.S. cost study found that “insurance coverage for therapy was generally substantial” <a href=\"https://web.archive.org/web/20250923235100/https://pmc.ncbi.nlm.nih.gov/articles/PMC8920018/\" title=\"“Out-of-Pocket Costs for SGLT-2 (Sodium-Glucose Transport Protein-2) Inhibitors in the United States”, 2021-12-10 (published online); 2022-03 (issue)\">[19]</a>, while “out-of-pocket costs for uninsured individuals was high with an estimated average cost of $138 per month” <a href=\"https://web.archive.org/web/20250923235100/https://pmc.ncbi.nlm.nih.gov/articles/PMC8920018/\" title=\"“Out-of-Pocket Costs for SGLT-2 (Sodium-Glucose Transport Protein-2) Inhibitors in the United States”, 2021-12-10 (published online); 2022-03 (issue)\">[19]</a>. A study using a trial of one such medicine found: “Despite the greenhouse gas emissions associated with SGLT2 inhibitor production, the total emissions contribution was 20% lower in the treatment group” <a href=\"https://doi.org/10.1016/s2542-5196(24)00281-x\" title=\"Ben Edward Michael Talbot, Robert A Fletcher, Bruce Charles Neal, Megumi Oshima, Fiona Adshead, Keith Moore, et al., “The potential for reducing greenhouse gas emissions through disease prevention: a secondary analysis of data from the CREDENCE trial”, 2024-12-01 (no public archived copy)\">[18]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNN_support_05",
@@ -1038,7 +1068,7 @@
     {
      "id": "HR1834_UNN_support_05",
      "field": "support_reading",
-     "quote": "was generally substantial"
+     "quote": "insurance coverage for therapy was generally substantial"
     },
     {
      "id": "HR1834_UNN_support_05",
@@ -1096,12 +1126,17 @@
   {
    "id": "HR1834_B_PROVIDERS_EV",
    "role": "evidence",
-   "html": "<p>An analysis links lower spending to “lower revenue for health care providers and fewer services rendered” <a href=\"https://web.archive.org/web/20261029194149/https://www.urban.org/research/publication/changes-health-care-spending-and-uncompensated-care-under-enhanced-tax-credit\" title=\"urban.org, analysis, September 25, 2025\">[1]</a>. Losing the larger credits would “reduce total spending on hospital services” <a href=\"https://web.archive.org/web/20260921024115/https://www.commonwealthfund.org/blog/2025/without-renewal-enhanced-premium-tax-credits-rural-hospital-revenues-will-drop-16-billion\" title=\"commonwealthfund.org, analysis, November 13, 2025\">[2]</a>, and “further reductions in revenue and increases in uncompensated care could force hospitals to reduce costs by eliminating services” <a href=\"https://web.archive.org/web/20260921024115/https://www.commonwealthfund.org/blog/2025/without-renewal-enhanced-premium-tax-credits-rural-hospital-revenues-will-drop-16-billion\" title=\"commonwealthfund.org, analysis, November 13, 2025\">[15]</a>. For community health centers, “As patients lose insurance, CHCs will face the prospect of having to meet the health needs of millions of people even as revenue falls.” <a href=\"https://web.archive.org/web/20260427195806/https://www.commonwealthfund.org/blog/2025/millions-community-health-center-patients-lose-coverage-when-tax-credits-expire\" title=\"commonwealthfund.org, analysis, October 23, 2025\">[3]</a></p>",
+   "html": "<p>An analysis links lower spending to “lower revenue for health care providers and fewer services rendered” <a href=\"https://web.archive.org/web/20261029194149/https://www.urban.org/research/publication/changes-health-care-spending-and-uncompensated-care-under-enhanced-tax-credit\" title=\"urban.org, analysis, September 25, 2025\">[1]</a> and to an “increase in uncompensated care sought by the uninsured” <a href=\"https://web.archive.org/web/20261029194149/https://www.urban.org/research/publication/changes-health-care-spending-and-uncompensated-care-under-enhanced-tax-credit\" title=\"urban.org, analysis, September 25, 2025\">[9]</a>. Losing the larger credits would “reduce total spending on hospital services” <a href=\"https://web.archive.org/web/20260921024115/https://www.commonwealthfund.org/blog/2025/without-renewal-enhanced-premium-tax-credits-rural-hospital-revenues-will-drop-16-billion\" title=\"commonwealthfund.org, analysis, November 13, 2025\">[2]</a>, and “further reductions in revenue and increases in uncompensated care could force hospitals to reduce costs by eliminating services” <a href=\"https://web.archive.org/web/20260921024115/https://www.commonwealthfund.org/blog/2025/without-renewal-enhanced-premium-tax-credits-rural-hospital-revenues-will-drop-16-billion\" title=\"commonwealthfund.org, analysis, November 13, 2025\">[15]</a>. For community health centers, “As patients lose insurance, CHCs will face the prospect of having to meet the health needs of millions of people even as revenue falls.” <a href=\"https://web.archive.org/web/20260427195806/https://www.commonwealthfund.org/blog/2025/millions-community-health-center-patients-lose-coverage-when-tax-credits-expire\" title=\"commonwealthfund.org, analysis, October 23, 2025\">[3]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_C09",
      "field": "support_reading",
      "quote": "lower revenue for health care providers and fewer services rendered"
+    },
+    {
+     "id": "HR1834_SES_support_02",
+     "field": "support_reading",
+     "quote": "increase in uncompensated care sought by the uninsured"
     },
     {
      "id": "HR1834_C09",
@@ -1258,7 +1293,7 @@
   {
    "id": "HR1834_B_BILLS_EV",
    "role": "evidence",
-   "html": "<p>Coverage “protects people against the health and financial risks of accidents or unexpected illnesses, and it helps people with chronic health needs afford care.” <a href=\"https://web.archive.org/web/20261012152111/https://www.cbpp.org/blog/setting-the-record-straight-on-premium-tax-credit-enhancements\" title=\"Center on Budget and Policy Priorities, “Setting the Record Straight on Premium Tax Credit Enhancements | Center on Budget and Policy Priorities”, January 12, 2026\">[1]</a> In Oregon, “Medicaid coverage led to a reduction in financial strain from medical costs, according to a number of self-reported measures.” <a href=\"https://web.archive.org/web/20260929203016/https://pmc.ncbi.nlm.nih.gov/articles/PMC3701298/\" title=\"New England Journal of Medicine; full author manuscript hosted by PubMed Central, “The Oregon Experiment — Effects of Medicaid on Clinical Outcomes”, 2013-05-02\">[7]</a> Some families have few public alternatives: “in Texas, their income is too high.” <a href=\"https://web.archive.org/web/20260205035402/https://www.cbpp.org/blog/in-their-own-words-marketplace-enrollees-would-struggle-to-afford-premium-hikes-if-congress\" title=\"cbpp.org, analysis, February 18, 2025\">[8]</a> For veterans, Veterans Affairs “services can be inaccessible for those who do not live near VA facilities.” <a href=\"https://web.archive.org/web/20261029202735/https://www.urban.org/sites/default/files/2025-09/Over-600,000-Nonelderly-Veterans-Would-Have-Subsidized-Marketplace-Coverage-in-2026-under-Enhanced-Premium-Tax-Credits.pdf\" title=\"urban.org, analysis, September 2025\">[10]</a></p>",
+   "html": "<p>Coverage “protects people against the health and financial risks of accidents or unexpected illnesses, and it helps people with chronic health needs afford care.” <a href=\"https://web.archive.org/web/20261012152111/https://www.cbpp.org/blog/setting-the-record-straight-on-premium-tax-credit-enhancements\" title=\"Center on Budget and Policy Priorities, “Setting the Record Straight on Premium Tax Credit Enhancements | Center on Budget and Policy Priorities”, January 12, 2026\">[1]</a> In Oregon, “Medicaid coverage led to a reduction in financial strain from medical costs, according to a number of self-reported measures.” <a href=\"https://web.archive.org/web/20260929203016/https://pmc.ncbi.nlm.nih.gov/articles/PMC3701298/\" title=\"New England Journal of Medicine; full author manuscript hosted by PubMed Central, “The Oregon Experiment — Effects of Medicaid on Clinical Outcomes”, 2013-05-02\">[7]</a> Some families have few public alternatives: “in Texas, their income is too high.” <a href=\"https://web.archive.org/web/20260205035402/https://www.cbpp.org/blog/in-their-own-words-marketplace-enrollees-would-struggle-to-afford-premium-hikes-if-congress\" title=\"cbpp.org, analysis, February 18, 2025\">[8]</a> For veterans, Veterans Affairs “services can be inaccessible for those who do not live near VA facilities.” <a href=\"https://web.archive.org/web/20261029202735/https://www.urban.org/sites/default/files/2025-09/Over-600,000-Nonelderly-Veterans-Would-Have-Subsidized-Marketplace-Coverage-in-2026-under-Enhanced-Premium-Tax-Credits.pdf\" title=\"urban.org, analysis, September 2025\">[10]</a> Urban Institute research found that “the expiration of enhanced PTCs would lead to lower enrollment” <a href=\"https://web.archive.org/web/20261029202735/https://www.urban.org/sites/default/files/2025-09/Over-600,000-Nonelderly-Veterans-Would-Have-Subsidized-Marketplace-Coverage-in-2026-under-Enhanced-Premium-Tax-Credits.pdf\" title=\"urban.org, analysis, September 2025\">[10]</a> in subsidized Marketplace coverage among veterans.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNC_support_01",
@@ -1279,6 +1314,11 @@
      "id": "HR1834_UNC_support_01",
      "field": "support_reading",
      "quote": "services can be inaccessible for those who do not live near VA facilities."
+    },
+    {
+     "id": "HR1834_UNC_support_01",
+     "field": "support_reading",
+     "quote": "the expiration of enhanced PTCs would lead to lower enrollment"
     }
    ]
   },
@@ -1426,7 +1466,7 @@
   {
    "id": "HR1834_B_CLIFF_EV",
    "role": "evidence",
-   "html": "<p>The restored credit caps eligible households’ payment for the benchmark plan at “8.5% of income” <a href=\"https://web.archive.org/web/20261029143805/https://bipartisanpolicy.org/wp-content/uploads/2025/11/Enhanced-PTC-Brief-D4.pdf\" title=\"bipartisanpolicy.org, analysis, October 2025\">[16]</a>. In a 2026 Urban Institute example, a 60-year-old in Cheyenne, Wyoming, earning $65,000 “would face a premium of $26,180—40 percent of their income.” <a href=\"https://web.archive.org/web/20261021142624/https://www.urban.org/sites/default/files/2025-12/Enhanced%20Premium%20Tax%20Credits%20Direct%20Almost%20All%20of%20Their%20Benefit%20to%20Lower-%20and%20Moderate-Income%20Americans_1218.pdf\" title=\"urban.org, analysis, December 2025\">[18]</a> At 8.5 percent, the yearly payment would be $5,525. The cutoff falls hardest on “older people, those in high-premium areas (which are heavily rural areas), and small business owners.” <a href=\"https://web.archive.org/web/20261010062230/https://www.urban.org/research/publication/eligibility-cliff-aca-tax-credits-would-make-health-care-unaffordable-middle\" title=\"urban.org, analysis, December 24, 2025\">[15]</a> Because advance credits are checked against actual income at tax time, the cutoff creates the risk that “a small income change triggers a large tax liability.” <a href=\"https://web.archive.org/web/20261010062230/https://www.urban.org/research/publication/eligibility-cliff-aca-tax-credits-would-make-health-care-unaffordable-middle\" title=\"urban.org, analysis, December 24, 2025\">[15]</a></p>",
+   "html": "<p>The restored credit caps eligible households’ payment for the benchmark plan at “8.5% of income” <a href=\"https://web.archive.org/web/20261029143805/https://bipartisanpolicy.org/wp-content/uploads/2025/11/Enhanced-PTC-Brief-D4.pdf\" title=\"bipartisanpolicy.org, analysis, October 2025\">[16]</a>. In a 2026 Urban Institute example, a 60-year-old in Cheyenne, Wyoming, earning $65,000 “would face a premium of $26,180—40 percent of their income.” <a href=\"https://web.archive.org/web/20261021142624/https://www.urban.org/sites/default/files/2025-12/Enhanced%20Premium%20Tax%20Credits%20Direct%20Almost%20All%20of%20Their%20Benefit%20to%20Lower-%20and%20Moderate-Income%20Americans_1218.pdf\" title=\"urban.org, analysis, December 2025\">[18]</a> At 8.5 percent, the yearly payment would be $5,525. The cutoff falls hardest on “older people, those in high-premium areas (which are heavily rural areas), and small business owners.” <a href=\"https://web.archive.org/web/20261010062230/https://www.urban.org/research/publication/eligibility-cliff-aca-tax-credits-would-make-health-care-unaffordable-middle\" title=\"urban.org, analysis, December 24, 2025\">[15]</a> Credits are paid before final yearly income is known: “The credit amounts then need to be reconciled with actual income at year’s end when enrollees file their federal taxes.” <a href=\"https://web.archive.org/web/20261021042615/https://www.commonwealthfund.org/publications/explainer/2025/feb/enhanced-premium-tax-credits-aca-health-plans\" title=\"commonwealthfund.org, analysis, February 18, 2025\">[4]</a> So the cutoff creates the risk that “a small income change triggers a large tax liability.” <a href=\"https://web.archive.org/web/20261010062230/https://www.urban.org/research/publication/eligibility-cliff-aca-tax-credits-would-make-health-care-unaffordable-middle\" title=\"urban.org, analysis, December 24, 2025\">[15]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_UNC_support_05",
@@ -1442,6 +1482,11 @@
      "id": "HR1834_UNC_support_05",
      "field": "support_reading",
      "quote": "older people, those in high-premium areas (which are heavily rural areas), and small business owners."
+    },
+    {
+     "id": "HR1834_UNC_support_05",
+     "field": "support_reading",
+     "quote": "The credit amounts then need to be reconciled with actual income at year’s end when enrollees file their federal taxes."
     },
     {
      "id": "HR1834_UNC_support_05",
@@ -1655,7 +1700,7 @@
   {
    "id": "HR1834_B_FRAUD_EV",
    "role": "evidence",
-   "html": "<p>The larger credits gave “access to plans with no premium contributions for those earning 100 to 150 percent of the federal poverty level.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[1]</a> HHS wrote that “the widespread availability of $0 premium plans created the incentive and opportunity for fraudulent and improper enrollments at scale” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a>. “Because these enrollees do not receive a monthly premium bill requiring action on their part, they may not be aware they are enrolled.” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a> Brokers are commonly paid “on a per-member, per-month basis.” <a href=\"https://web.archive.org/web/20261029155511/https://kffhealthnews.org/health-industry/fraudsters-duping-homeless-people-aca-obamacare-plans/\" title=\"Daniel Chang, “Fraudsters Are Duping Homeless People Into Signing Up for ACA Plans They Can’t Afford - KFF Health News”, 2023-06-13 (updated 2023-06-14)\">[32]</a> A planned $5 charge for some automatic renewals was blocked, so “Qualifying consumers will continue to be automatically re-enrolled with no premium responsibility” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[3]</a>. New applicants were exempt from the three-way call check, and a check of applicants’ income was paused for 2026.</p>",
+   "html": "<p>The larger credits gave “access to plans with no premium contributions for those earning 100 to 150 percent of the federal poverty level.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[1]</a> HHS wrote that “the widespread availability of $0 premium plans created the incentive and opportunity for fraudulent and improper enrollments at scale” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a>. “Because these enrollees do not receive a monthly premium bill requiring action on their part, they may not be aware they are enrolled.” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a> It added: “This lack of awareness allows agents, brokers, and web-brokers to continue earning monthly commission payments from issuers for these enrollments.” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[24]</a> Earlier reporting made the same point: “with no monthly bill, consumers have few ways of knowing they're in a plan.” <a href=\"https://web.archive.org/web/20261029205139/https://www.npr.org/sections/health-shots/2022/01/17/1073282236/some-insurance-brokers-enroll-people-in-aca-plans-without-consent\" title=\"Julie Appleby, “New rule to stop insurance brokers from fraudulently enrolling people in plans : Shots - Health News : NPR”, 2022-01-17\">[31]</a> Brokers are commonly paid “on a per-member, per-month basis.” <a href=\"https://web.archive.org/web/20261029155511/https://kffhealthnews.org/health-industry/fraudsters-duping-homeless-people-aca-obamacare-plans/\" title=\"Daniel Chang, “Fraudsters Are Duping Homeless People Into Signing Up for ACA Plans They Can’t Afford - KFF Health News”, 2023-06-13 (updated 2023-06-14)\">[32]</a></p><p>CMS listed a planned $5 charge for some automatic renewals as “Not In Effect for OE 2026 Due to Columbus v. Kennedy” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[25]</a>, a court case. As a result, “Qualifying consumers will continue to be automatically re-enrolled with no premium responsibility” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[3]</a>. A three-way call among the consumer, the agent and the Marketplace is meant to check a change of agent, but December 2025 reporting found: “Also, new ACA applicants were exempt from the three-way call rule, which leaves open the possibility of agents saying it’s a new consumer when it isn’t.” <a href=\"https://web.archive.org/web/20261029163141/https://kffhealthnews.org/insurance/obamacare-aca-fraud-gao-enrollment-marketplace-brokers/\" title=\"Julie Appleby, “Plan-Switching, Sign-Up Impersonations: Obamacare Enrollment Fraud Persists”, 2025-12-10\">[34]</a> CMS also paused an income check for 2026: “Income DMIs will not be opened for applicants when the Marketplace attempts to verify an applicant’s attested projected annual household income with the IRS, but the IRS returns no tax data.” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19 (date printed on presentation)\">[30]</a> Missing tax records would therefore not trigger this extra check.</p>",
    "source_refs": [
     {
      "id": "HR1834_C15",
@@ -1673,9 +1718,24 @@
      "quote": "Because these enrollees do not receive a monthly premium bill requiring action on their part, they may not be aware they are enrolled."
     },
     {
+     "id": "HR1834_SEP_oppose_01",
+     "field": "support_reading",
+     "quote": "This lack of awareness allows agents, brokers, and web-brokers to continue earning monthly commission payments from issuers for these enrollments."
+    },
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "support_reading",
+     "quote": "with no monthly bill, consumers have few ways of knowing they're in a plan."
+    },
+    {
      "id": "HR1834_UNC_oppose_02",
      "field": "support_reading",
      "quote": "on a per-member, per-month basis."
+    },
+    {
+     "id": "HR1834_SEP_oppose_01",
+     "field": "support_reading",
+     "quote": "Not In Effect for OE 2026 Due to Columbus v. Kennedy"
     },
     {
      "id": "HR1834_C15",
@@ -1685,19 +1745,19 @@
     {
      "id": "HR1834_UNC_oppose_02",
      "field": "support_reading",
-     "quote": "new ACA applicants were exempt from the three-way call rule"
+     "quote": "Also, new ACA applicants were exempt from the three-way call rule, which leaves open the possibility of agents saying it’s a new consumer when it isn’t."
     },
     {
      "id": "HR1834_SES_oppose_06",
      "field": "support_reading",
-     "quote": "Income DMIs will not be opened for applicants"
+     "quote": "Income DMIs will not be opened for applicants when the Marketplace attempts to verify an applicant’s attested projected annual household income with the IRS, but the IRS returns no tax data."
     }
    ]
   },
   {
    "id": "HR1834_B_FRAUD_CH",
    "role": "challenge",
-   "html": "<p>The evidence does not establish that larger credits add unauthorized enrollment under the rules in force on January 8, 2026. “Of adults who qualified for a free silver plan with enhanced premium tax credits, almost all (98%) would still qualify for a free bronze plan without enhanced premium tax credits.” <a href=\"https://web.archive.org/web/20261029182000/https://www.healthsystemtracker.org/brief/higher-premium-payments-or-higher-deductibles-the-tradeoffs-aca-enrollees-face/\" title=\"Emma Wager, Justin Lo, Cynthia Cox, “Higher Premium Payments or Higher Deductibles: The Tradeoffs ACA Enrollees Face”, 2026-01-14\">[6]</a> HHS tied the problem to enrollment “once every month through a special enrollment period” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a>, and CMS listed “Removal of Monthly Special Enrollment Period” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[3]</a> as in effect for 2026. The 2025 law “disallows the PTC for individuals who enroll in an exchange plan during an SEP on the basis of expected household income” <a href=\"https://web.archive.org/web/20261029215604/https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.2.pdf\" title=\"“Health Provisions in P.L. 119-21, the FY2025 Reconciliation Law”, 2025-08-18\">[7]</a>. Since July 2024, CMS has been “blocking agents and brokers from making changes to a consumer’s FFM enrollment unless the agent or broker is already associated” <a href=\"https://web.archive.org/web/20260924034857/https://www.cms.gov/newsroom/press-releases/cms-update-actions-prevent-unauthorized-agent-broker-marketplace-activity\" title=\"“CMS Update on Actions to Prevent Unauthorized Agent and Broker Marketplace Activity”, 2024-10-17\">[8]</a>. From 2028, existing law “requires people to actively affirm their eligibility to enroll in marketplace coverage and to claim the premium tax credit when they apply for that insurance.” <a href=\"https://web.archive.org/web/20261029170902/https://waysandmeans.house.gov/wp-content/uploads/2025/09/250902-Letter-CBO-Responds.pdf\" title=\"“Clarifications of Marketplace Coverage and Eligibility Under Public Law 119-21 (H.R. 1) and the 2025 Marketplace Integrity and Affordability Rule”, 2025-08-25\">[29]</a> GAO warned that its covert tests “cannot be generalized to the overall enrollment population.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[30]</a> In state-run marketplaces, unauthorized switching issues “are not common.” <a href=\"https://web.archive.org/web/20261029163141/https://kffhealthnews.org/insurance/obamacare-aca-fraud-gao-enrollment-marketplace-brokers/\" title=\"Julie Appleby, “Plan-Switching, Sign-Up Impersonations: Obamacare Enrollment Fraud Persists”, 2025-12-10\">[34]</a></p><p>These points do not answer the paused income check, the exemption for new applicants, the plan changes reported in 2025, the difference between free silver and free bronze plans, or the reporting that plans with no monthly bill make an unwanted enrollment harder to notice.</p>",
+   "html": "<p>The evidence does not establish that larger credits add unauthorized enrollment under the rules in force on January 8, 2026. “Of adults who qualified for a free silver plan with enhanced premium tax credits, almost all (98%) would still qualify for a free bronze plan without enhanced premium tax credits.” <a href=\"https://web.archive.org/web/20261029182000/https://www.healthsystemtracker.org/brief/higher-premium-payments-or-higher-deductibles-the-tradeoffs-aca-enrollees-face/\" title=\"Emma Wager, Justin Lo, Cynthia Cox, “Higher Premium Payments or Higher Deductibles: The Tradeoffs ACA Enrollees Face”, 2026-01-14\">[6]</a> HHS tied the problem to enrollment “once every month through a special enrollment period” <a href=\"https://web.archive.org/web/20261016234018/https://www.federalregister.gov/documents/2025/06/25/2025-11606/patient-protection-and-affordable-care-act-marketplace-integrity-and-affordability\" title=\"“Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability”, 2025-06-25\">[2]</a>, and CMS listed “Removal of Monthly Special Enrollment Period” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[3]</a> among provisions “In Effect For Open Enrollment (OE) 2026” <a href=\"https://web.archive.org/web/20260428113846/https://www.cms.gov/files/document/columbus-kennedy-impacts.pdf\" title=\"CMS, “Impacts of City of Columbus v. Kennedy on Open Enrollment (OE) 2026”, 2025-09-19\">[25]</a>. The 2025 law “disallows the PTC for individuals who enroll in an exchange plan during an SEP on the basis of expected household income” <a href=\"https://web.archive.org/web/20261029215604/https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.2.pdf\" title=\"“Health Provisions in P.L. 119-21, the FY2025 Reconciliation Law”, 2025-08-18\">[7]</a> when the enrollment is “not connected to a change in circumstances specified by the HHS Secretary.” <a href=\"https://web.archive.org/web/20261029215604/https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.2.pdf\" title=\"“Health Provisions in P.L. 119-21, the FY2025 Reconciliation Law (R48633)”, 2025-08-18\">[32]</a></p><p>Since July 2024, CMS has been “blocking agents and brokers from making changes to a consumer’s FFM enrollment unless the agent or broker is already associated” <a href=\"https://web.archive.org/web/20260924034857/https://www.cms.gov/newsroom/press-releases/cms-update-actions-prevent-unauthorized-agent-broker-marketplace-activity\" title=\"“CMS Update on Actions to Prevent Unauthorized Agent and Broker Marketplace Activity”, 2024-10-17\">[8]</a>; for a new broker to act, “the consumer must conduct a three-way call with the Marketplace Call Center” <a href=\"https://web.archive.org/web/20260924034857/https://www.cms.gov/newsroom/press-releases/cms-update-actions-prevent-unauthorized-agent-broker-marketplace-activity\" title=\"“CMS Update on Actions to Prevent Unauthorized Agent and Broker Marketplace Activity”, 2024-10-17\">[36]</a>. From 2028, existing law “requires people to actively affirm their eligibility to enroll in marketplace coverage and to claim the premium tax credit when they apply for that insurance.” <a href=\"https://web.archive.org/web/20261029170902/https://waysandmeans.house.gov/wp-content/uploads/2025/09/250902-Letter-CBO-Responds.pdf\" title=\"“Clarifications of Marketplace Coverage and Eligibility Under Public Law 119-21 (H.R. 1) and the 2025 Marketplace Integrity and Affordability Rule”, 2025-08-25\">[29]</a> GAO warned that its covert tests “cannot be generalized to the overall enrollment population.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[30]</a> Those tests used a route that has since closed: “We submitted the applications outside of the open enrollment period, using a special enrollment period for low-income applicants.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[30]</a> “Starting August 25, 2025, a consumer can no longer qualify for an SEP just because they have a low income.” <a href=\"https://web.archive.org/web/20261015202158/https://www.kff.org/affordable-care-act/8-things-to-watch-for-the-2026-aca-open-enrollment-period/\" title=\"Rayna Wallace, Jared Ortaliza, Matt McGough, Cynthia Cox, Emma Wager, “8 Things to Watch for the 2026 ACA Open Enrollment Period”, 2025-10-28\">[35]</a> The December 2025 reporting found unauthorized switching mainly in the federal enrollment system. In state-run marketplaces, “such issues are not common.” <a href=\"https://web.archive.org/web/20261029163141/https://kffhealthnews.org/insurance/obamacare-aca-fraud-gao-enrollment-marketplace-brokers/\" title=\"Julie Appleby, “Plan-Switching, Sign-Up Impersonations: Obamacare Enrollment Fraud Persists”, 2025-12-10\">[34]</a> States there say they “require more types of authentication” <a href=\"https://web.archive.org/web/20261029163141/https://kffhealthnews.org/insurance/obamacare-aca-fraud-gao-enrollment-marketplace-brokers/\" title=\"Julie Appleby, “Plan-Switching, Sign-Up Impersonations: Obamacare Enrollment Fraud Persists”, 2025-12-10\">[34]</a>.</p><p>These points do not answer the paused income check, the exemption for new applicants, the plan changes reported in 2025, the difference between free silver and free bronze plans, or the reporting that plans with no monthly bill make an unwanted enrollment harder to notice.</p>",
    "source_refs": [
     {
      "id": "HR1834_C15",
@@ -1715,14 +1775,29 @@
      "quote": "Removal of Monthly Special Enrollment Period"
     },
     {
+     "id": "HR1834_SEP_oppose_01",
+     "field": "response_reading",
+     "quote": "In Effect For Open Enrollment (OE) 2026"
+    },
+    {
      "id": "HR1834_C15",
      "field": "response_reading",
      "quote": "disallows the PTC for individuals who enroll in an exchange plan during an SEP on the basis of expected household income"
     },
     {
+     "id": "HR1834_SES_oppose_06",
+     "field": "response_reading",
+     "quote": "not connected to a change in circumstances specified by the HHS Secretary."
+    },
+    {
      "id": "HR1834_C15",
      "field": "response_reading",
      "quote": "blocking agents and brokers from making changes to a consumer’s FFM enrollment unless the agent or broker is already associated"
+    },
+    {
+     "id": "HR1834_SES_oppose_07",
+     "field": "response_reading",
+     "quote": "the consumer must conduct a three-way call with the Marketplace Call Center"
     },
     {
      "id": "HR1834_SEP_oppose_01",
@@ -1737,7 +1812,22 @@
     {
      "id": "HR1834_UNC_oppose_02",
      "field": "response_reading",
-     "quote": "are not common."
+     "quote": "We submitted the applications outside of the open enrollment period, using a special enrollment period for low-income applicants."
+    },
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "Starting August 25, 2025, a consumer can no longer qualify for an SEP just because they have a low income."
+    },
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "such issues are not common."
+    },
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "response_reading",
+     "quote": "require more types of authentication"
     },
     {
      "id": "HR1834_C15",
@@ -1796,7 +1886,7 @@
   {
    "id": "HR1834_B_BROKER_EV",
    "role": "evidence",
-   "html": "<p>Unauthorized enrollment or plan changes can cause “loss of access to medical providers and medications, higher copayments and deductibles, or repayment of APTC if income or other eligibility was misrepresented.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[30]</a> A 2023 report describes a homeless woman induced to enroll with false information: “Signing up for private insurance disqualified her from Ryan White coverage.” <a href=\"https://web.archive.org/web/20261029155511/https://kffhealthnews.org/health-industry/fraudsters-duping-homeless-people-aca-obamacare-plans/\" title=\"Daniel Chang, “Fraudsters Are Duping Homeless People Into Signing Up for ACA Plans They Can’t Afford - KFF Health News”, 2023-06-13 (updated 2023-06-14)\">[32]</a> The Ryan White program gives people with HIV care at little or no cost.</p>",
+   "html": "<p>Unauthorized enrollment or plan changes can cause “loss of access to medical providers and medications, higher copayments and deductibles, or repayment of APTC if income or other eligibility was misrepresented.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[30]</a> A 2023 report describes a homeless woman induced to enroll with false information: “Signing up for private insurance disqualified her from Ryan White coverage.” <a href=\"https://web.archive.org/web/20261029155511/https://kffhealthnews.org/health-industry/fraudsters-duping-homeless-people-aca-obamacare-plans/\" title=\"Daniel Chang, “Fraudsters Are Duping Homeless People Into Signing Up for ACA Plans They Can’t Afford - KFF Health News”, 2023-06-13 (updated 2023-06-14)\">[32]</a> The Ryan White program gives people with HIV care at little or no cost. The report records that “she went without medication for days” <a href=\"https://web.archive.org/web/20261029155511/https://kffhealthnews.org/health-industry/fraudsters-duping-homeless-people-aca-obamacare-plans/\" title=\"Daniel Chang, “Fraudsters Are Duping Homeless People Into Signing Up for ACA Plans They Can’t Afford - KFF Health News”, 2023-06-13 (updated 2023-06-14)\">[32]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNC_oppose_02",
@@ -1807,6 +1897,11 @@
      "id": "HR1834_UNC_oppose_02",
      "field": "support_reading",
      "quote": "Signing up for private insurance disqualified her from Ryan White coverage."
+    },
+    {
+     "id": "HR1834_UNC_oppose_02",
+     "field": "support_reading",
+     "quote": "she went without medication for days"
     }
    ]
   },
@@ -1886,8 +1981,13 @@
   {
    "id": "HR1834_B_DOCTOR_EV",
    "role": "evidence",
-   "html": "<p>“One analysis found that primary care networks for large group plans were 25% larger than those found on the Marketplaces.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[39]</a> KFF found that “people transitioning to a Marketplace plan from another coverage source may not have been able to find any plan that included their doctor.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[1]</a> “Among Marketplace enrollees who experienced this problem, 34% said that needed care was delayed, 34% said they were unable to get needed care, and 25% experienced a decline in health status.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[1]</a> Out-of-network patients “often face coverage denials or substantially higher out-of-pocket expenses.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[39]</a></p>",
+   "html": "<p>In its study of 2021 networks, KFF found: “On average, 27% of actively practicing physicians who submitted Medicare claims were not included in any Marketplace plan network offered to enrollees that year.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[18]</a> “One analysis found that primary care networks for large group plans were 25% larger than those found on the Marketplaces.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[39]</a> KFF found that “people transitioning to a Marketplace plan from another coverage source may not have been able to find any plan that included their doctor.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[1]</a> Its 2023 survey found “adults with Marketplace coverage were more likely than those with employer-sponsored health insurance to report that a particular doctor or hospital they needed was not covered by their insurance (20% vs. 13%)” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[18]</a>. “Among Marketplace enrollees who experienced this problem, 34% said that needed care was delayed, 34% said they were unable to get needed care, and 25% experienced a decline in health status.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[1]</a> Out-of-network patients “often face coverage denials or substantially higher out-of-pocket expenses.” <a href=\"https://web.archive.org/web/20261015011025/https://www.kff.org/private-insurance/how-narrow-or-broad-are-aca-marketplace-physician-networks/\" title=\"Matthew Rae, Karen Pollitz, Kaye Pestaina, Michelle Long, Justin Lo, “How Narrow or Broad Are ACA Marketplace Physician Networks?”, 2024-08-26\">[39]</a></p>",
    "source_refs": [
+    {
+     "id": "HR1834_SEP_oppose_02",
+     "field": "support_reading",
+     "quote": "On average, 27% of actively practicing physicians who submitted Medicare claims were not included in any Marketplace plan network offered to enrollees that year."
+    },
     {
      "id": "HR1834_UNC_oppose_03",
      "field": "support_reading",
@@ -1897,6 +1997,11 @@
      "id": "HR1834_UNC_oppose_03",
      "field": "support_reading",
      "quote": "people transitioning to a Marketplace plan from another coverage source may not have been able to find any plan that included their doctor."
+    },
+    {
+     "id": "HR1834_SEP_oppose_02",
+     "field": "support_reading",
+     "quote": "adults with Marketplace coverage were more likely than those with employer-sponsored health insurance to report that a particular doctor or hospital they needed was not covered by their insurance (20% vs. 13%)"
     },
     {
      "id": "HR1834_C23",
@@ -1913,17 +2018,12 @@
   {
    "id": "HR1834_B_DOCTOR_LIM",
    "role": "qualification",
-   "html": "<p>The network data are from 2021 to 2023 and measure whether doctors are in a plan’s list, not whether they have appointments. On average 27% of practicing physicians were in no Marketplace network in 2021. The 25% comparison concerns large group plans, and the 34% figures apply only to enrollees who reported a network problem. KFF says a narrow network may still give adequate access, and applying the benchmark credit to a higher-level gold plan can make more generous coverage relatively inexpensive.</p>",
+   "html": "<p>The network data are from 2021 to 2023 and measure whether doctors are in a plan’s list, not whether they have appointments. The 25% comparison concerns large group plans, and the 34% figures apply only to enrollees who reported a network problem. KFF says a narrow network may still give adequate access, and applying the benchmark credit to a higher-level gold plan can make more generous coverage relatively inexpensive.</p>",
    "source_refs": [
     {
      "id": "HR1834_C23",
      "field": "scope_html",
      "quote": "The data are from 2021 to 2023. They measure whether doctors are in a plan's list, not whether they have appointments."
-    },
-    {
-     "id": "HR1834_UNC_oppose_03",
-     "field": "notes_html",
-     "quote": "KFF also finds 27% of practicing physicians in no Marketplace network in 2021."
     },
     {
      "id": "HR1834_UNC_oppose_03",
@@ -1999,8 +2099,13 @@
   {
    "id": "HR1834_B_EMERG_EV",
    "role": "evidence",
-   "html": "<p>CBO says: “The size of the debt might make lawmakers feel constrained from using deficit-financed fiscal policy to respond to unforeseen events, promote economic activity, or further other goals.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> Downturns “have historically prompted lawmakers to enact legislation that further reduces revenues and increases federal spending in an effort to increase people’s income” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[42]</a>, and lawmakers might become “reluctant to increase spending to prepare for or respond to an international crisis” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"Congressional Budget Office, “The Long-Term Budget Outlook: 2025 to 2055”, 2025-03-27\">[24]</a>.</p>",
+   "html": "<p>CBO notes that debt raises exposure to interest costs: “the larger debt is, the more an increase in interest rates raises debt-service costs.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"Congressional Budget Office, “The Long-Term Budget Outlook: 2025 to 2055”, 2025-03-27\">[24]</a> It also says: “The size of the debt might make lawmakers feel constrained from using deficit-financed fiscal policy to respond to unforeseen events, promote economic activity, or further other goals.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> Downturns “have historically prompted lawmakers to enact legislation that further reduces revenues and increases federal spending in an effort to increase people’s income” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[42]</a>, and lawmakers might become “reluctant to increase spending to prepare for or respond to an international crisis” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"Congressional Budget Office, “The Long-Term Budget Outlook: 2025 to 2055”, 2025-03-27\">[24]</a>.</p>",
    "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_01",
+     "field": "support_reading",
+     "quote": "the larger debt is, the more an increase in interest rates raises debt-service costs."
+    },
     {
      "id": "HR1834_C17",
      "field": "support_reading",
@@ -2082,8 +2187,13 @@
   {
    "id": "HR1834_B_CRISIS_EV",
    "role": "evidence",
-   "html": "<p>“The likelihood of a fiscal crisis would increase if federal debt continued to grow faster than GDP, because mounting debt could erode investors’ confidence in the U.S. government’s fiscal position.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> Losses “could be large enough to cause some financial institutions to fail.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> “such a crisis could spread globally as liquidity declined and financial institutions reduced their lending, leading to an economic contraction.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[42]</a></p>",
+   "html": "<p>An August 2025 projection by the Committee for a Responsible Federal Budget, made without this bill, has debt growing faster than national output: “Debt held by the public will rise from about 100 percent of Gross Domestic Product (GDP) ($30 trillion) today to 120 percent of GDP ($53 trillion) by 2035.” <a href=\"https://web.archive.org/web/20261022061638/https://www.crfb.org/blogs/august-2025-budget-baseline\" title=\"Committee for a Responsible Federal Budget, “An August 2025 Budget Baseline”, 2025-08-20 (date displayed on article; includes an August 22, 2025 update)\">[25]</a> CBO explains: “The likelihood of a fiscal crisis would increase if federal debt continued to grow faster than GDP, because mounting debt could erode investors’ confidence in the U.S. government’s fiscal position.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> Losses “could be large enough to cause some financial institutions to fail.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[1]</a> “such a crisis could spread globally as liquidity declined and financial institutions reduced their lending, leading to an economic contraction.” <a href=\"https://web.archive.org/web/20260803013901/https://www.cbo.gov/publication/61270\" title=\"“The Long-Term Budget Outlook: 2025 to 2055 | Congressional Budget Office”, 2025-03-27\">[42]</a></p>",
    "source_refs": [
+    {
+     "id": "HR1834_SES_oppose_02",
+     "field": "support_reading",
+     "quote": "Debt held by the public will rise from about 100 percent of Gross Domestic Product (GDP) ($30 trillion) today to 120 percent of GDP ($53 trillion) by 2035."
+    },
     {
      "id": "HR1834_C19",
      "field": "support_reading",
@@ -2121,12 +2231,17 @@
   {
    "id": "HR1834_B_UNBORN_EV",
    "role": "evidence",
-   "html": "<p>The Guttmacher Institute reports: “Women who are low-income and lack insurance coverage for abortion often struggle to come up with the money to pay for the procedure.” <a href=\"https://web.archive.org/web/20261022210053/https://www.guttmacher.org/gpr/2016/07/abortion-lives-women-struggling-financially-why-insurance-coverage-matters\" title=\"Authors Heather D. Boonstra, “Abortion in the Lives of Women Struggling Financially: Why Insurance Coverage Matters”, 2016-07-14 (first published online date stated in the article; retrieval metadata says 2016-07-12)\">[45]</a> The World Health Organization defines induced abortion as “the deliberate interruption of an ongoing pregnancy by medical or surgical means” <a href=\"https://web.archive.org/web/20261022070532/https://www.who.int/news-room/fact-sheets/detail/abortion\" title=\"“Abortion”, 2025-12-08\">[46]</a>. Whether unborn children count among the vulnerable is a disputed moral premise; the argument applies only if that premise is accepted.</p>",
+   "html": "<p>The Guttmacher Institute reports: “Women who are low-income and lack insurance coverage for abortion often struggle to come up with the money to pay for the procedure.” <a href=\"https://web.archive.org/web/20261022210053/https://www.guttmacher.org/gpr/2016/07/abortion-lives-women-struggling-financially-why-insurance-coverage-matters\" title=\"Authors Heather D. Boonstra, “Abortion in the Lives of Women Struggling Financially: Why Insurance Coverage Matters”, 2016-07-14 (first published online date stated in the article; retrieval metadata says 2016-07-12)\">[45]</a> Its review of limits in Medicaid finds that some women “are unable to obtain one because of lack of abortion coverage.” <a href=\"https://web.archive.org/web/20261022210053/https://www.guttmacher.org/gpr/2016/07/abortion-lives-women-struggling-financially-why-insurance-coverage-matters\" title=\"Authors Heather D. Boonstra, “Abortion in the Lives of Women Struggling Financially: Why Insurance Coverage Matters”, 2016-07-14 (first published online date stated in the article; retrieval metadata says 2016-07-12)\">[45]</a> The World Health Organization defines induced abortion as “the deliberate interruption of an ongoing pregnancy by medical or surgical means” <a href=\"https://web.archive.org/web/20261022070532/https://www.who.int/news-room/fact-sheets/detail/abortion\" title=\"“Abortion”, 2025-12-08\">[46]</a>. Whether unborn children count among the vulnerable is a disputed moral premise; the argument applies only if that premise is accepted.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNC_oppose_07",
      "field": "support_reading",
      "quote": "Women who are low-income and lack insurance coverage for abortion often struggle to come up with the money to pay for the procedure."
+    },
+    {
+     "id": "HR1834_UNC_oppose_07",
+     "field": "support_reading",
+     "quote": "are unable to obtain one because of lack of abortion coverage."
     },
     {
      "id": "HR1834_UNC_oppose_07",
@@ -2189,12 +2304,17 @@
   {
    "id": "HR1834_B_CHCLANG_EV",
    "role": "evidence",
-   "html": "<p>Health centers are “a principal source of primary care” for Medicaid and Marketplace plans <a href=\"https://web.archive.org/web/20260427195806/https://www.commonwealthfund.org/blog/2025/millions-community-health-center-patients-lose-coverage-when-tax-credits-expire\" title=\"commonwealthfund.org, analysis, October 23, 2025\">[12]</a>. Federal standards require that “Health center patients with limited English proficiency are provided with interpretation and translation” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a>, and support for care “in a manner that is culturally appropriate and bridges linguistic and cultural differences.” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a> Language support takes “financial and staff resources.” <a href=\"https://web.archive.org/web/20261029183456/https://www.nachc.org/ensuring-equitable-pain-management-and-addiction-treatment-for-limited-english-proficiency-patients/\" title=\"Meg Meador | National Association of Community Health Centers (NACHC), “Ensuring Equitable Pain Management and Addiction Treatment for Limited English Proficiency Patients”, 2024-10-30\">[14]</a> Patient board members “must, as a group, represent the individuals who are served by the health center.” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a></p>",
+   "html": "<p>Health centers are “a principal source of primary care” for Medicaid and Marketplace plans <a href=\"https://web.archive.org/web/20260427195806/https://www.commonwealthfund.org/blog/2025/millions-community-health-center-patients-lose-coverage-when-tax-credits-expire\" title=\"commonwealthfund.org, analysis, October 23, 2025\">[12]</a>. Federal rules require them to seek payment for insured patients’ care: “The health center must make and continue to make every reasonable effort to collect appropriate reimbursement for its costs” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a>. Federal standards require that “Health center patients with limited English proficiency are provided with interpretation and translation” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a>, and support for care “in a manner that is culturally appropriate and bridges linguistic and cultural differences.” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a> Language support takes “financial and staff resources.” <a href=\"https://web.archive.org/web/20261029183456/https://www.nachc.org/ensuring-equitable-pain-management-and-addiction-treatment-for-limited-english-proficiency-patients/\" title=\"Meg Meador | National Association of Community Health Centers (NACHC), “Ensuring Equitable Pain Management and Addiction Treatment for Limited English Proficiency Patients”, 2024-10-30\">[14]</a> Patient board members “must, as a group, represent the individuals who are served by the health center.” <a href=\"https://web.archive.org/web/20260213144759/https://bphc.hrsa.gov/sites/default/files/bphc/compliance/hc-compliance-manual.pdf\" title=\"Health Resources and Services Administration (HRSA), “Health Center Program Compliance Manual”, 2018-08-20; technical revision 2025-11-20\">[13]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_UNT_support_04",
      "field": "support_reading",
      "quote": "a principal source of primary care"
+    },
+    {
+     "id": "HR1834_UNT_support_04",
+     "field": "support_reading",
+     "quote": "The health center must make and continue to make every reasonable effort to collect appropriate reimbursement for its costs"
     },
     {
      "id": "HR1834_UNT_support_04",
@@ -2323,12 +2443,17 @@
   {
    "id": "HR1834_B_TAXPAYER_CH",
    "role": "challenge",
-   "html": "<p>The bishops’ objection concerns what other people’s publicly supported plans may cover; their requested policy is that “plans offered by health insurance companies on ACA exchanges cannot cover elective abortion.” <a href=\"https://web.archive.org/web/20261029201649/https://www.usccb.org/resources/Letter_ACA_tax_credits_10.2025.pdf\" title=\"Ashling Kelly Preston, “Letter to Congress on enhanced Affordable Care Act premium tax credits”, 2025-10-10\">[21]</a> Fund separation identifies what the federal money buys. The decisive gap is between accepting religious taxpayers and adopting their limits on other people’s insurance; increasing the disputed spending does not by itself show a failure to accept the people who object.</p>",
+   "html": "<p>The bishops’ objection concerns what other people’s publicly supported plans may cover; their requested policy is that “plans offered by health insurance companies on ACA exchanges cannot cover elective abortion.” <a href=\"https://web.archive.org/web/20261029201649/https://www.usccb.org/resources/Letter_ACA_tax_credits_10.2025.pdf\" title=\"Ashling Kelly Preston, “Letter to Congress on enhanced Affordable Care Act premium tax credits”, 2025-10-10\">[21]</a> Fund separation identifies what the federal money buys: the account for other care must be “used exclusively to pay for services other than the services described in paragraph (d)(1) of this section” <a href=\"https://www.ecfr.gov/on/2025-08-25/title-45/subtitle-A/subchapter-B/part-156/subpart-C/section-156.280\" title=\"“45 CFR 156.280 — Segregation of funds for abortion services”, 2025-08-25 (historical version; last listed amendment 2021-09-27) (no public archived copy)\">[17]</a>, that is, other than abortions outside the federal funding exceptions. The decisive gap is between accepting religious taxpayers and adopting their limits on other people’s insurance; increasing the disputed spending does not by itself show a failure to accept the people who object.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNT_oppose_02",
      "field": "response_reading",
      "quote": "plans offered by health insurance companies on ACA exchanges cannot cover elective abortion."
+    },
+    {
+     "id": "HR1834_UNT_oppose_02",
+     "field": "response_reading",
+     "quote": "used exclusively to pay for services other than the services described in paragraph (d)(1) of this section"
     },
     {
      "id": "HR1834_UNT_oppose_02",
@@ -2357,8 +2482,13 @@
   {
    "id": "HR1834_B_SHARING_CH",
    "role": "challenge",
-   "html": "<p>Different support for Marketplace insurance and voluntary religious sharing does not establish less acceptance of a religious community. The ministries’ own alliance distinguishes their arrangement: “There are no contractually required payments by the HCSM.” <a href=\"https://web.archive.org/web/20261029143408/https://ahcsm.org/irsrule/\" title=\"“IRS Rule Comments Expose Anti-Christian and Anti-Freedom Attacks”, 2020-08-21\">[19]</a> Enlarging help to buy insurance does not make its rules a condition of belonging to a religious community, and respect for members does not depend on keeping insurance less affordable.</p>",
+   "html": "<p>Different support for Marketplace insurance and voluntary religious sharing does not establish less acceptance of a religious community. The credit pays for “health insurance obtained through the marketplaces established by the Affordable Care Act.” <a href=\"https://web.archive.org/web/20260109004859/https://www.cbo.gov/system/files/2026-01/hr1834_0.pdf\" title=\"Congressional Budget Office, cost estimate, January 8, 2026\">[3]</a> The ministries’ own alliance distinguishes their arrangement: “There are no contractually required payments by the HCSM.” <a href=\"https://web.archive.org/web/20261029143408/https://ahcsm.org/irsrule/\" title=\"“IRS Rule Comments Expose Anti-Christian and Anti-Freedom Attacks”, 2020-08-21\">[19]</a> Enlarging help to buy insurance does not make its rules a condition of belonging to a religious community, and respect for members does not depend on keeping insurance less affordable.</p>",
    "source_refs": [
+    {
+     "id": "HR1834_UNT_oppose_03",
+     "field": "response_reading",
+     "quote": "health insurance obtained through the marketplaces established by the Affordable Care Act."
+    },
     {
      "id": "HR1834_UNT_oppose_03",
      "field": "response_reading",
@@ -2374,7 +2504,7 @@
   {
    "id": "HR1834_B_JEWISH_EV",
    "role": "evidence",
-   "html": "<p>In a 2023 survey of firms with at least 200 workers, “32% cover abortion in most or all circumstances” <a href=\"https://web.archive.org/web/20261029210736/https://www.kff.org/womens-health-policy/coverage-of-abortion-in-large-employer-sponsored-plans-in-2023/\" title=\"Michelle Long, Matthew Rae, Alina Salganicoff, Laurie Sobel, “Coverage of Abortion in Large Employer-Sponsored Plans in 2023”, 2024-02-29\">[23]</a>, and self-funded job plans are generally exempt from state insurance limits. Kansas bars exchange plans from covering abortions it calls elective. The Rabbinical Assembly teaches that “late-term abortions are allowed and sometimes required, particularly when complications can develop that endanger a woman’s life or health, which includes her physical and mental health and her ability to bear future children.” <a href=\"https://archive.ph/D8C3o\" title=\"Rabbinical-Assembly, “Resolution Supporting Freedom of Access to Reproductive Health Care”, 2024-04-16\">[25]</a></p>",
+   "html": "<p>In a 2023 survey of firms with at least 200 workers, “32% cover abortion in most or all circumstances” <a href=\"https://web.archive.org/web/20261029210736/https://www.kff.org/womens-health-policy/coverage-of-abortion-in-large-employer-sponsored-plans-in-2023/\" title=\"Michelle Long, Matthew Rae, Alina Salganicoff, Laurie Sobel, “Coverage of Abortion in Large Employer-Sponsored Plans in 2023”, 2024-02-29\">[23]</a>. Job plans whose employers pay medical bills themselves need not follow state insurance limits: “This law generally exempts self-funded plans offered by private employers from state insurance regulations.” <a href=\"https://web.archive.org/web/20261029210736/https://www.kff.org/womens-health-policy/coverage-of-abortion-in-large-employer-sponsored-plans-in-2023/\" title=\"Michelle Long, Matthew Rae, Alina Salganicoff, Laurie Sobel, “Coverage of Abortion in Large Employer-Sponsored Plans in 2023”, 2024-02-29\">[23]</a> Kansas law, by contrast, says: “No health insurance exchange established within this state or any health insurance exchange administered by the federal government or its agencies within this state shall offer health insurance contracts, plans, or policies that provide coverage for elective abortions” <a href=\"https://web.archive.org/web/20261029182421/https://www.kslegislature.gov/media/statute/040_000_0000_chapter/040_002_0000_article/040_002_0190_section/040_002_0190_k.pdf\" title=\"“2025 Kansas Statutes, K.S.A. 40-2,190 — Health insurance abortion coverage; separate coverage; when required”, 2025 (statutory compilation; latest listed amendment effective 2023-07-01)\">[24]</a>, and its definition reaches abortions that protect health without preventing death: “\"Elective\" means an abortion for any reason other than to prevent the death of the mother” <a href=\"https://web.archive.org/web/20261029182421/https://www.kslegislature.gov/media/statute/040_000_0000_chapter/040_002_0000_article/040_002_0190_section/040_002_0190_k.pdf\" title=\"“2025 Kansas Statutes, K.S.A. 40-2,190 — Health insurance abortion coverage; separate coverage; when required”, 2025 (statutory compilation; latest listed amendment effective 2023-07-01)\">[24]</a>. The Rabbinical Assembly teaches that “late-term abortions are allowed and sometimes required, particularly when complications can develop that endanger a woman’s life or health, which includes her physical and mental health and her ability to bear future children.” <a href=\"https://archive.ph/D8C3o\" title=\"Rabbinical-Assembly, “Resolution Supporting Freedom of Access to Reproductive Health Care”, 2024-04-16\">[25]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_UNT_oppose_04",
@@ -2384,12 +2514,22 @@
     {
      "id": "HR1834_UNT_oppose_04",
      "field": "support_reading",
-     "quote": "late-term abortions are allowed and sometimes required, particularly when complications can develop that endanger a woman’s life or health, which includes her physical and mental health and her ability to bear future children."
+     "quote": "This law generally exempts self-funded plans offered by private employers from state insurance regulations."
     },
     {
      "id": "HR1834_UNT_oppose_04",
      "field": "support_reading",
-     "quote": "shall offer health insurance contracts, plans, or policies that provide coverage for elective abortions"
+     "quote": "No health insurance exchange established within this state or any health insurance exchange administered by the federal government or its agencies within this state shall offer health insurance contracts, plans, or policies that provide coverage for elective abortions"
+    },
+    {
+     "id": "HR1834_UNT_oppose_04",
+     "field": "support_reading",
+     "quote": "\"Elective\" means an abortion for any reason other than to prevent the death of the mother"
+    },
+    {
+     "id": "HR1834_UNT_oppose_04",
+     "field": "support_reading",
+     "quote": "late-term abortions are allowed and sometimes required, particularly when complications can develop that endanger a woman’s life or health, which includes her physical and mental health and her ability to bear future children."
     }
    ]
   },
@@ -2440,12 +2580,17 @@
   {
    "id": "HR1834_B_TRANS_CH",
    "role": "challenge",
-   "html": "<p>The argument does not establish that the bill makes workers with transition-care coverage more likely to lose it. Its employer evidence concerns “large employers (200 or more workers)” <a href=\"https://web.archive.org/web/20261023000923/https://www.kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers/\" title=\"Lindsey Dawson, Kaye Pestaina, Matthew Rae, “New Rule Proposes Changes to ACA Coverage of Gender-Affirming Care, Potentially Increasing Costs for Consumers”, 2025-03-24 (includes update reporting finalization on 2025-06-25)\">[27]</a>, and large employers face a penalty if they do not offer coverage, so the evidence does not show that those plans are among the ones dropped. KFF’s “fairly common” rests on 24% of large employers reporting coverage of gender-affirming hormone therapy, with 45% not knowing and 31% not offering it. A 2026 federal rule bars these procedures as essential health benefits with or without the bill; states can still require Marketplace plans to cover this care, and plans can choose to cover it.</p>",
+   "html": "<p>The argument does not establish that the bill makes workers with transition-care coverage more likely to lose it. Its employer evidence concerns “large employers (200 or more workers)” <a href=\"https://web.archive.org/web/20261023000923/https://www.kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers/\" title=\"Lindsey Dawson, Kaye Pestaina, Matthew Rae, “New Rule Proposes Changes to ACA Coverage of Gender-Affirming Care, Potentially Increasing Costs for Consumers”, 2025-03-24 (includes update reporting finalization on 2025-06-25)\">[27]</a>, and KFF also reports that the largest firms “were significantly more likely to report covering hormone therapy in their largest plan” <a href=\"https://web.archive.org/web/20261023000923/https://www.kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers/\" title=\"Lindsey Dawson, Kaye Pestaina, Matthew Rae, “New Rule Proposes Changes to ACA Coverage of Gender-Affirming Care, Potentially Increasing Costs for Consumers”, 2025-03-24 (includes update reporting finalization on 2025-06-25)\">[27]</a>. Large employers face a penalty if they do not offer coverage, so the evidence does not show that those plans are among the ones dropped. KFF’s “fairly common” rests on 24% of large employers reporting coverage of gender-affirming hormone therapy, with 45% not knowing and 31% not offering it. A 2026 federal rule bars these procedures as essential health benefits with or without the bill; states can still require Marketplace plans to cover this care, and plans can choose to cover it.</p>",
    "source_refs": [
     {
      "id": "HR1834_UNT_oppose_05",
      "field": "response_reading",
      "quote": "large employers (200 or more workers)"
+    },
+    {
+     "id": "HR1834_UNT_oppose_05",
+     "field": "response_reading",
+     "quote": "were significantly more likely to report covering hormone therapy in their largest plan"
     },
     {
      "id": "HR1834_UNT_oppose_05",
@@ -2555,7 +2700,7 @@
   {
    "id": "HR1834_B_DISTRESS_EV",
    "role": "evidence",
-   "html": "<p>The bill restores the extra help from the “American Rescue Plan Act of 2021” <a href=\"https://web.archive.org/web/20260109004859/https://www.cbo.gov/system/files/2026-01/hr1834_0.pdf\" title=\"Congressional Budget Office, cost estimate, January 8, 2026\">[3]</a>. A national study followed the same people before and after those enhancements, comparing them with people insured through work, and reports that lower premiums corresponded with a reduction in distress.</p>",
+   "html": "<p>The bill restores the extra help from the “American Rescue Plan Act of 2021” <a href=\"https://web.archive.org/web/20260109004859/https://www.cbo.gov/system/files/2026-01/hr1834_0.pdf\" title=\"Congressional Budget Office, cost estimate, January 8, 2026\">[3]</a>. A national study followed the same people before and after those enhancements, comparing them with people insured through work. Its published abstract reports that lower premiums “corresponded with a notable reduction in moderate-to-severe psychological distress.” <a href=\"https://archive.ph/TvACx\" title=\"Sankar Mukhopadhyay, “Health Insurance Premium and Psychological Distress: Evidence From the ARPA Enhanced Subsidies (PubMed abstract and bibliographic record)”, 2026-04-01\">[14]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SEP_support_04",
@@ -2565,7 +2710,7 @@
     {
      "id": "HR1834_SEP_support_04",
      "field": "support_reading",
-     "quote": "corresponded with a notable reduction"
+     "quote": "corresponded with a notable reduction in moderate-to-severe psychological distress."
     }
    ]
   },
@@ -2609,6 +2754,18 @@
    ]
   },
   {
+   "id": "HR1834_B_SEPSERVICES_EV",
+   "role": "evidence",
+   "html": "<p>A rural hospital analysis warns that falling revenue and more unpaid care can lead to “eliminating services that would affect all members of their community.” <a href=\"https://web.archive.org/web/20260921024115/https://www.commonwealthfund.org/blog/2025/without-renewal-enhanced-premium-tax-credits-rural-hospital-revenues-will-drop-16-billion\" title=\"commonwealthfund.org, analysis, November 13, 2025\">[22]</a></p>",
+   "source_refs": [
+    {
+     "id": "HR1834_SEP_support_08",
+     "field": "support_reading",
+     "quote": "eliminating services that would affect all members of their community."
+    }
+   ]
+  },
+  {
    "id": "HR1834_B_SEPFRAUD_EV",
    "role": "evidence",
    "html": "<p>Unauthorized enrollment and plan changes can cause “loss of access to medical providers and medications” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[23]</a>. CMS reported: “In 2025, CMS estimates that approximately 200,000 consumers had their desired plan selection changed without their consent.” <a href=\"https://web.archive.org/web/20261015195301/https://www.cms.gov/newsroom/fact-sheets/cms-actions-protect-consumers-strengthen-exchange-program-integrity\" title=\"Centers, “CMS Actions to Protect Consumers and Strengthen Exchange Program Integrity”, 2026-01-28\">[26]</a></p>",
@@ -2628,7 +2785,7 @@
   {
    "id": "HR1834_B_COSTSHARE_EV",
    "role": "evidence",
-   "html": "<p>Standard bronze and silver Marketplace plans “typically cover between 60 percent and 70 percent of an enrollee’s health care expenses” <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>, less than most job plans. Extra help with treatment costs disappears once income rises above 250 percent of the poverty line <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>, and the cheapest plans “typically impose substantial financial barriers through high deductibles” <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>. A study of a firm that moved all workers from free care to a high-deductible plan found that consumers reduced care across the board.</p>",
+   "html": "<p>Standard bronze and silver Marketplace plans “typically cover between 60 percent and 70 percent of an enrollee’s health care expenses” <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>, less than most job plans. Extra help with treatment costs disappears once income rises above 250 percent of the poverty line <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>, and the cheapest plans “typically impose substantial financial barriers through high deductibles” <a href=\"https://web.archive.org/web/20261011012310/https://www.commonwealthfund.org/publications/issue-briefs/2025/mar/low-marketplace-premiums-often-reflect-high-deductibles\" title=\"Authors John Holahan, Michael Simpson, Erik Wengle, “Low Marketplace Premiums Often Reflect High Deductibles”, 2025-03-19\">[30]</a>. A study followed a firm “which required all of its employees to switch from an insurance plan that provided free health care to a non-linear, high deductible plan.” <a href=\"https://web.archive.org/web/20261029201352/https://www.nber.org/system/files/working_papers/w21632/w21632.pdf\" title=\"Zarek C. Brot-Goldberg, Amitabh Chandra, Benjamin R. Handel, Jonathan T. Kolstad, “What Does a Deductible Do? The Impact of Cost-Sharing on Health Care Prices, Quantities, and Spending Dynamics”, 2015-10; revised 2015-11\">[32]</a> It found: “Consumers reduce quantities across the spectrum of health care services, including potentially valuable care (e.g. preventive services) and potentially wasteful care (e.g. imaging services).” <a href=\"https://web.archive.org/web/20261029201352/https://www.nber.org/system/files/working_papers/w21632/w21632.pdf\" title=\"Zarek C. Brot-Goldberg, Amitabh Chandra, Benjamin R. Handel, Jonathan T. Kolstad, “What Does a Deductible Do? The Impact of Cost-Sharing on Health Care Prices, Quantities, and Spending Dynamics”, 2015-10; revised 2015-11\">[32]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SEP_oppose_03",
@@ -2643,7 +2800,12 @@
     {
      "id": "HR1834_SEP_oppose_03",
      "field": "support_reading",
-     "quote": "Consumers reduce quantities across the spectrum"
+     "quote": "which required all of its employees to switch from an insurance plan that provided free health care to a non-linear, high deductible plan."
+    },
+    {
+     "id": "HR1834_SEP_oppose_03",
+     "field": "support_reading",
+     "quote": "Consumers reduce quantities across the spectrum of health care services, including potentially valuable care (e.g. preventive services) and potentially wasteful care (e.g. imaging services)."
     }
    ]
   },
@@ -2667,7 +2829,7 @@
   {
    "id": "HR1834_B_DENTAL_EV",
    "role": "evidence",
-   "html": "<p>“90% of small firms and 94% of large firms offer dental insurance programs to their employees.” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a> Adult dental care is “prohibited by agency regulation from being considered an EHB in individual and small group plans” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a>, and for separate dental plans “adult enrollees must typically cover the full cost of premiums without subsidies.” <a href=\"https://web.archive.org/web/20261029144210/https://chir.georgetown.edu/dental-coverage-through-the-marketplace-a-2024-snapshot-of-enrollment-market-participation-and-premiums/\" title=\"CHIR Faculty, “Dental Coverage Through the Marketplace: A 2024 Snapshot of Enrollment, Market Participation and Premiums”, 2025-04-29\">[34]</a> KFF reports that 37% of Marketplace enrollees delayed or skipped dental care because of cost.</p>",
+   "html": "<p>“90% of small firms and 94% of large firms offer dental insurance programs to their employees.” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a> Adult dental care is “prohibited by agency regulation from being considered an EHB in individual and small group plans” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a>, and for separate dental plans “adult enrollees must typically cover the full cost of premiums without subsidies.” <a href=\"https://web.archive.org/web/20261029144210/https://chir.georgetown.edu/dental-coverage-through-the-marketplace-a-2024-snapshot-of-enrollment-market-participation-and-premiums/\" title=\"CHIR Faculty, “Dental Coverage Through the Marketplace: A 2024 Snapshot of Enrollment, Market Participation and Premiums”, 2025-04-29\">[34]</a> KFF reports: “37% of Marketplace Enrollees Reported Delaying or Forgoing Dental Care Due To Cost Barriers” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a>, and explains: “Delaying needed dental care could lead to more serious health problems down the road.” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SEP_oppose_04",
@@ -2688,13 +2850,18 @@
      "id": "HR1834_SEP_oppose_04",
      "field": "support_reading",
      "quote": "37% of Marketplace Enrollees Reported Delaying or Forgoing Dental Care Due To Cost Barriers"
+    },
+    {
+     "id": "HR1834_SEP_oppose_04",
+     "field": "support_reading",
+     "quote": "Delaying needed dental care could lead to more serious health problems down the road."
     }
    ]
   },
   {
    "id": "HR1834_B_DENTAL_CH",
    "role": "challenge",
-   "html": "<p>A fall in job-based medical coverage does not establish the loss of job dental benefits. “only about 1.2% of commercial dental benefits are integrated into medical policies.” <a href=\"https://web.archive.org/web/20260606154336/https://www.nadp.org/nadp-report-shows-continued-decline-in-dental-benefits-enrollment/\" title=\"Stefanie Harris, Lauren Oakley, “NADP Report Shows Continued Decline in Dental Benefits Enrollment”, 2025-12-04\">[35]</a> Federal rules let “limited-scope vision or dental benefits” <a href=\"https://web.archive.org/web/20250418053945/https://www.federalregister.gov/documents/2014/10/01/2014-23323/amendments-to-excepted-benefits\" title=\"“Amendments to Excepted Benefits”, 2014-10-01\">[36]</a> be provided without a medical plan, and such benefits do not block eligibility for the premium credit. The 37% figure is not a measure of dental benefits lost through a change in medical insurance.</p>",
+   "html": "<p>A fall in job-based medical coverage does not establish the loss of job dental benefits. “only about 1.2% of commercial dental benefits are integrated into medical policies.” <a href=\"https://web.archive.org/web/20260606154336/https://www.nadp.org/nadp-report-shows-continued-decline-in-dental-benefits-enrollment/\" title=\"Stefanie Harris, Lauren Oakley, “NADP Report Shows Continued Decline in Dental Benefits Enrollment”, 2025-12-04\">[35]</a> Federal rules let “limited-scope vision or dental benefits” <a href=\"https://web.archive.org/web/20250418053945/https://www.federalregister.gov/documents/2014/10/01/2014-23323/amendments-to-excepted-benefits\" title=\"“Amendments to Excepted Benefits”, 2014-10-01\">[36]</a> be provided without a medical plan, and “eligibility for excepted benefits does not preclude an individual from eligibility for a premium tax credit under section 36B of the Code” <a href=\"https://web.archive.org/web/20250418053945/https://www.federalregister.gov/documents/2014/10/01/2014-23323/amendments-to-excepted-benefits\" title=\"“Amendments to Excepted Benefits”, 2014-10-01\">[36]</a>; here, excepted benefits include separate dental coverage. The 37% figure is not a measure of dental benefits lost through a change in medical insurance: “Consumers having insurance coverage does not mean that all consumers surveyed had dental coverage.” <a href=\"https://web.archive.org/web/20261003080218/https://www.kff.org/private-insurance/access-to-adult-dental-care-gets-renewed-focus-in-aca-marketplace-proposal/\" title=\"Rayna Wallace, Michelle Long, Kaye Pestaina, “Access to Adult Dental Care Gets Renewed Focus in ACA Marketplace Proposal”, 2024-03-08; updated 2025-02-20\">[33]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SEP_oppose_04",
@@ -2705,6 +2872,16 @@
      "id": "HR1834_SEP_oppose_04",
      "field": "response_reading",
      "quote": "limited-scope vision or dental benefits"
+    },
+    {
+     "id": "HR1834_SEP_oppose_04",
+     "field": "response_reading",
+     "quote": "eligibility for excepted benefits does not preclude an individual from eligibility for a premium tax credit under section 36B of the Code"
+    },
+    {
+     "id": "HR1834_SEP_oppose_04",
+     "field": "response_reading",
+     "quote": "Consumers having insurance coverage does not mean that all consumers surveyed had dental coverage."
     },
     {
      "id": "HR1834_SEP_oppose_04",
@@ -2750,7 +2927,7 @@
   {
    "id": "HR1834_B_EMERGENCY_EV",
    "role": "evidence",
-   "html": "<p>Small rural hospitals “are called upon to respond to a wide range of emergency situations in their communities” <a href=\"https://web.archive.org/web/20261029180809/https://www.flexmonitoring.org/sites/flexmonitoring.umn.edu/files/media/health_care_coalitions_cah_emergency_preparedness_2025.pdf\" title=\"Flex Monitoring Team, “Health Care Coalitions: A Resource to Support Critical Access Hospital Emergency Preparedness Planning”, April 2024 (printed in the report)\">[11]</a>, and their plans cover natural disasters and terrorism.</p>",
+   "html": "<p>Small rural hospitals “are called upon to respond to a wide range of emergency situations in their communities” <a href=\"https://web.archive.org/web/20261029180809/https://www.flexmonitoring.org/sites/flexmonitoring.umn.edu/files/media/health_care_coalitions_cah_emergency_preparedness_2025.pdf\" title=\"Flex Monitoring Team, “Health Care Coalitions: A Resource to Support Critical Access Hospital Emergency Preparedness Planning”, April 2024 (printed in the report)\">[11]</a>, and their plans cover natural disasters and “Terrorism and bioterrorism events – bombings, use of biological agents such as anthrax” <a href=\"https://web.archive.org/web/20261029180809/https://www.flexmonitoring.org/sites/flexmonitoring.umn.edu/files/media/health_care_coalitions_cah_emergency_preparedness_2025.pdf\" title=\"Flex Monitoring Team, “Health Care Coalitions: A Resource to Support Critical Access Hospital Emergency Preparedness Planning”, April 2024 (printed in the report)\">[11]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_SES_support_02",
@@ -2760,7 +2937,7 @@
     {
      "id": "HR1834_SES_support_02",
      "field": "support_reading",
-     "quote": "Terrorism and bioterrorism events"
+     "quote": "Terrorism and bioterrorism events – bombings, use of biological agents such as anthrax"
     }
    ]
   },
@@ -2779,7 +2956,7 @@
   {
    "id": "HR1834_B_OPIOID_EV",
    "role": "evidence",
-   "html": "<p>Marketplace plans must “offer substance use disorders benefits at parity with medical and surgical benefits” <a href=\"https://web.archive.org/web/20260623041836/https://pmc.ncbi.nlm.nih.gov/articles/PMC8328862/\" title=\"Psychiatric Services, “Effects of the ACA on Health Care Coverage for Adults with Substance Use Disorders”, 2021-05-07 (online); 2021-08-01 (issue)\">[6]</a>. Lack of insurance is a financial barrier to treatment, and medicines for opioid addiction, including buprenorphine, have “proven effectiveness at reducing mortality risks.” <a href=\"https://web.archive.org/web/20250602015437/https://jamanetwork.com/journals/jama-health-forum/fullarticle/2831936\" title=\"Sumedha Gupta, Aditya James, Jennifer Miles, Hillary Samples, Stephen Crystal, “Trends in Access to Medications for Opioid Use Disorder”, 2025-04-04\">[12]</a> The national health-security strategy says addiction makes it harder for communities to withstand crises.</p>",
+   "html": "<p>A paper on addiction benefits notes that Marketplace plans must “offer substance use disorders benefits at parity with medical and surgical benefits” <a href=\"https://web.archive.org/web/20260623041836/https://pmc.ncbi.nlm.nih.gov/articles/PMC8328862/\" title=\"Psychiatric Services, “Effects of the ACA on Health Care Coverage for Adults with Substance Use Disorders”, 2021-05-07 (online); 2021-08-01 (issue)\">[6]</a>. A study of people who injected drugs identifies “Financial barriers such as lack of insurance coverage” <a href=\"https://web.archive.org/web/20260414033448/https://pmc.ncbi.nlm.nih.gov/articles/PMC6556110/\" title=\"Journal of Substance Abuse Treatment, “Health Insurance Coverage is Associated with Access to Substance Use Treatment Among Individuals with Injection Drug Use: Evidence from a 12-year Prospective Study”, 2018-08-28 (online publication); 2019-01 (issue)\">[7]</a> as an obstacle to treatment. In that long-term study of Baltimore residents, private insurance “was associated with receipt of buprenorphine and having a regular source of medical care.” <a href=\"https://web.archive.org/web/20260414033448/https://pmc.ncbi.nlm.nih.gov/articles/PMC6556110/\" title=\"Journal of Substance Abuse Treatment, “Health Insurance Coverage is Associated with Access to Substance Use Treatment Among Individuals with Injection Drug Use: Evidence from a 12-year Prospective Study”, 2018-08-28 (online publication); 2019-01 (issue)\">[7]</a> Medicines for opioid addiction, including buprenorphine, have “proven effectiveness at reducing mortality risks.” <a href=\"https://web.archive.org/web/20250602015437/https://jamanetwork.com/journals/jama-health-forum/fullarticle/2831936\" title=\"Sumedha Gupta, Aditya James, Jennifer Miles, Hillary Samples, Stephen Crystal, “Trends in Access to Medications for Opioid Use Disorder”, 2025-04-04\">[12]</a></p><p>An earlier study of the ACA, covering states with and without Medicaid expansion, found: “Areas with higher uninsurance rates prior to the ACA saw larger reductions in opioid-related ED visits after the ACA took effect.” <a href=\"https://web.archive.org/web/20260409190911/https://www.rand.org/pubs/external_publications/EP69059.html\" title=\"Decker, Sandra L., Dworsky, Michael, Gibson, Teresa B., Henke, Rachel M., McDermott, Kimberly Walsh, “The Impact of the Affordable Care Act Insurance Expansions on Opioid-Related Emergency Department Visits (RAND research summary)”, 2022-10-27 (RAND posting)\">[8]</a> The effect emerged over several years. The national health-security strategy says addiction makes it harder for communities to withstand crises: “Community resilience plays a significant role in national health security.” <a href=\"https://web.archive.org/web/20261029174511/https://www.biosecuritycentral.org/static/e7b9be30b22cc3f8c576748364c46fa0/nhss-2023-2026-508..pdf\" title=\"HHS ASPR, “National Health Security Strategy 2023-2026”, 2023 (strategy for 2023-2026)\">[13]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SES_support_03",
@@ -2789,17 +2966,27 @@
     {
      "id": "HR1834_SES_support_03",
      "field": "support_reading",
-     "quote": "proven effectiveness at reducing mortality risks."
-    },
-    {
-     "id": "HR1834_SES_support_03",
-     "field": "support_reading",
      "quote": "Financial barriers such as lack of insurance coverage"
     },
     {
      "id": "HR1834_SES_support_03",
      "field": "support_reading",
-     "quote": "Community resilience plays a significant role"
+     "quote": "was associated with receipt of buprenorphine and having a regular source of medical care."
+    },
+    {
+     "id": "HR1834_SES_support_03",
+     "field": "support_reading",
+     "quote": "proven effectiveness at reducing mortality risks."
+    },
+    {
+     "id": "HR1834_SES_support_03",
+     "field": "support_reading",
+     "quote": "Areas with higher uninsurance rates prior to the ACA saw larger reductions in opioid-related ED visits after the ACA took effect."
+    },
+    {
+     "id": "HR1834_SES_support_03",
+     "field": "support_reading",
+     "quote": "Community resilience plays a significant role in national health security."
     }
    ]
   },
@@ -2911,7 +3098,7 @@
   {
    "id": "HR1834_B_STATEFUNDS_EV",
    "role": "evidence",
-   "html": "<p>“Connecticut allocated an additional $51 million after a November 2025 special legislative session” <a href=\"https://web.archive.org/web/20261015020620/https://www.commonwealthfund.org/blog/2026/some-states-blunted-impact-lost-federal-marketplace-subsidies-efforts-will-be-hard\" title=\"commonwealthfund.org, analysis, April 21, 2026\">[19]</a>. California and Colorado shifted state subsidies away from lowering treatment bills toward lowering premiums.</p>",
+   "html": "<p>“Connecticut allocated an additional $51 million after a November 2025 special legislative session” <a href=\"https://web.archive.org/web/20261015020620/https://www.commonwealthfund.org/blog/2026/some-states-blunted-impact-lost-federal-marketplace-subsidies-efforts-will-be-hard\" title=\"commonwealthfund.org, analysis, April 21, 2026\">[19]</a>. California and Colorado shifted state subsidies away from lowering treatment bills toward lowering premiums, “switching from a program that lowered out-of-pocket cost sharing (by reducing or eliminating deductibles and copayments) to one that lowers monthly premiums to help people purchase and maintain comprehensive coverage.” <a href=\"https://web.archive.org/web/20261015020620/https://www.commonwealthfund.org/blog/2026/some-states-blunted-impact-lost-federal-marketplace-subsidies-efforts-will-be-hard\" title=\"commonwealthfund.org, analysis, April 21, 2026\">[19]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SES_support_07",
@@ -2921,7 +3108,7 @@
     {
      "id": "HR1834_SES_support_07",
      "field": "support_reading",
-     "quote": "California and Colorado shifted state subsidies away from reducing deductibles and copayments to reducing premiums"
+     "quote": "switching from a program that lowered out-of-pocket cost sharing (by reducing or eliminating deductibles and copayments) to one that lowers monthly premiums to help people purchase and maintain comprehensive coverage."
     }
    ]
   },
@@ -2945,7 +3132,7 @@
   {
    "id": "HR1834_B_DOWNTURN_EV",
    "role": "evidence",
-   "html": "<p>“Because insurance coverage in the U.S. is closely tied to employment, economic downturns pose a serious threat to Americans’ access” to care <a href=\"https://web.archive.org/web/20250727110424/https://www.bakerinstitute.org/research/lessons-past-recessions-health-coverage-today\" title=\"bakerinstitute.org, analysis, May 29, 2025\">[20]</a>. People losing job coverage can enroll in the Marketplace outside the yearly window.</p>",
+   "html": "<p>“Because insurance coverage in the U.S. is closely tied to employment, economic downturns pose a serious threat to Americans’ access” to care <a href=\"https://web.archive.org/web/20250727110424/https://www.bakerinstitute.org/research/lessons-past-recessions-health-coverage-today\" title=\"bakerinstitute.org, analysis, May 29, 2025\">[20]</a>. People losing job coverage can enroll in the Marketplace outside the yearly window: “You’ll have 60 days to enroll in a Marketplace plan from the time your coverage ends, which may or may not be the last day of employment.” <a href=\"https://web.archive.org/web/20260212010036/https://www.cms.gov/marketplace/outreach-and-education/losing-job-based-coverage.pdf\" title=\"Centers for Medicare &amp; Medicaid Services, “Losing Job-based Coverage (CMS Product No. 11799)”, 2025-09 (printed in publication)\">[21]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SES_support_08",
@@ -2955,12 +3142,12 @@
     {
      "id": "HR1834_SES_support_08",
      "field": "support_reading",
-     "quote": "economic downturns pose a serious threat to Americans"
+     "quote": "You’ll have 60 days to enroll in a Marketplace plan from the time your coverage ends, which may or may not be the last day of employment."
     },
     {
      "id": "HR1834_SES_support_08",
      "field": "support_reading",
-     "quote": "You’ll have 60 days to enroll in a Marketplace plan"
+     "quote": "economic downturns pose a serious threat to Americans"
     }
    ]
   },
@@ -3059,12 +3246,17 @@
   {
    "id": "HR1834_B_HIDDEN_EV",
    "role": "evidence",
-   "html": "<p>GAO reported that CMS received about 275,000 complaints between January and August 2024 that consumers were enrolled or switched without consent. The November 2025 conviction also established harm to people’s coverage.</p>",
+   "html": "<p>GAO reported that CMS received “approximately 275,000 complaints between January and August 2024 that consumers were enrolled in a plan or had their plan changed without their consent.” <a href=\"https://web.archive.org/web/20261029211100/https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgH213.htm\" title=\"Government Accountability Office, report, December 3, 2025\">[35]</a> The November 2025 conviction also established harm: “some of these consumers experienced serious disruptions in their medical care and often lost their prior insurance coverage under Medicaid or other programs.” <a href=\"https://web.archive.org/web/20261014192153/https://www.justice.gov/opa/pr/president-insurance-brokerage-firm-and-ceo-marketing-company-convicted-233m-affordable-care\" title=\"U.S. Department of Justice, Office of Public Affairs, “President of Insurance Brokerage Firm and CEO of Marketing Company Convicted in $233M Affordable Care Act Enrollment Fraud Scheme”, 2025-11-17 (updated 2025-11-18)\">[31]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_SES_oppose_07",
      "field": "support_reading",
-     "quote": "approximately 275,000 complaints between January and August 2024"
+     "quote": "approximately 275,000 complaints between January and August 2024 that consumers were enrolled in a plan or had their plan changed without their consent."
+    },
+    {
+     "id": "HR1834_SES_oppose_07",
+     "field": "support_reading",
+     "quote": "some of these consumers experienced serious disruptions in their medical care and often lost their prior insurance coverage under Medicaid or other programs."
     }
    ]
   },
@@ -3098,8 +3290,18 @@
   {
    "id": "HR1834_B_HOME_EV",
    "role": "evidence",
-   "html": "<p>Focus on the Family connects caring for children at home to passing on faith: “The most effective place for us to learn that is not at church — it’s at home!” <a href=\"https://web.archive.org/web/20261021054433/https://www.focusonthefamily.com/parenting/the-value-of-stay-at-home-moms/\" title=\"“The Value of Stay-at-Home Moms”, 2007-01-01\">[11]</a></p>",
+   "html": "<p>An enrollee warned that losing the larger credits would mean “digging into basic necessities, like, food, car, gas, rent.” <a href=\"https://web.archive.org/web/20260205035402/https://www.cbpp.org/blog/in-their-own-words-marketplace-enrollees-would-struggle-to-afford-premium-hikes-if-congress\" title=\"cbpp.org, analysis, February 18, 2025\">[9]</a> Focus on the Family says: “Focus on the Family has always taken pains to express and provide support for mothers who choose to stay home with their young children.” <a href=\"https://web.archive.org/web/20261020132204/https://www.focusonthefamily.com/family-qa/leaving-job-to-become-a-stay-at-home-mom/\" title=\"“Leaving Job to Become a Stay-at-Home Mom”, 2017-05-12 (publication date in fetched metadata)\">[10]</a> It connects caring for children at home to passing on faith: “The most effective place for us to learn that is not at church — it’s at home!” <a href=\"https://web.archive.org/web/20261021054433/https://www.focusonthefamily.com/parenting/the-value-of-stay-at-home-moms/\" title=\"“The Value of Stay-at-Home Moms”, 2007-01-01\">[11]</a></p>",
    "source_refs": [
+    {
+     "id": "HR1834_TR_support_03",
+     "field": "support_reading",
+     "quote": "digging into basic necessities, like, food, car, gas, rent."
+    },
+    {
+     "id": "HR1834_TR_support_03",
+     "field": "support_reading",
+     "quote": "Focus on the Family has always taken pains to express and provide support for mothers who choose to stay home with their young children."
+    },
     {
      "id": "HR1834_TR_support_03",
      "field": "support_reading",
@@ -3127,12 +3329,37 @@
   {
    "id": "HR1834_B_MARRYS_EV",
    "role": "evidence",
-   "html": "<p>The cutoff can penalize two people who qualify separately but cross it when their incomes combine, because “the FPL for a couple is less than twice that for a single person” <a href=\"https://web.archive.org/web/20260316055030/https://www.heritage.org/health-care-reform/report/how-obamacare-undermines-american-values-penalizing-work-marriage\" title=\"Chris Jacobs, “How Obamacare Undermines American Values: Penalizing Work, Marriage, Citizenship, and the Disabled”, 2013-11-21\">[12]</a>. Evangelical teaching opposes “creating economic disincentives to marriage.” <a href=\"https://web.archive.org/web/20261029183108/https://www.nae.org/wp-content/uploads/2018/09/For-the-Health-of-the-Nation_pages.pdf\" title=\"“For the Health of the Nation: An Evangelical Call to Civic Responsibility”, 2018-03-08 (revised version adopted; copyright 2018)\">[4]</a></p>",
+   "html": "<p>The cutoff can penalize two people who qualify separately but cross it when their incomes combine, because “the FPL for a couple is less than twice that for a single person” <a href=\"https://web.archive.org/web/20260316055030/https://www.heritage.org/health-care-reform/report/how-obamacare-undermines-american-values-penalizing-work-marriage\" title=\"Chris Jacobs, “How Obamacare Undermines American Values: Penalizing Work, Marriage, Citizenship, and the Disabled”, 2013-11-21\">[12]</a>. In the argument’s example, two childless adults each have $46,950 in income counted for the credit: 300% of the “$15,650” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> one-person amount. Married, their $93,900 is 443% of the “$21,150” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> two-person amount, above the cutoff. With benchmark premiums totaling $20,000 a year, the ordinary 2026 table reads “At least 300% but not more than 400% 9.96% 9.96%” <a href=\"https://web.archive.org/web/20261023143428/https://www.irs.gov/pub/irs-drop/rp-25-25.pdf\" title=\"IRS, “Revenue Procedure 2025-25”, 2025-08-04 (published in Internal Revenue Bulletin 2025-32; https://www.irs.gov/irb/2025-32_IRB)\">[14]</a>, so they pay about $9,352 unmarried and the full $20,000 married: a $10,648 cost of marrying. Under the restored schedule, “300 | 0.0600” <a href=\"https://web.archive.org/web/20261029201243/https://www.irs.gov/pub/irs-prior/i8962--2025.pdf\" title=\"W:CAR:MP:FP, “2025 Instructions for Form 8962, Premium Tax Credit”, 2025-10-01 (date printed on page 1)\">[15]</a> gives about $5,634 unmarried and “400 or more | 0.0850” <a href=\"https://web.archive.org/web/20261029201243/https://www.irs.gov/pub/irs-prior/i8962--2025.pdf\" title=\"W:CAR:MP:FP, “2025 Instructions for Form 8962, Premium Tax Credit”, 2025-10-01 (date printed on page 1)\">[15]</a> about $7,982 married: a $2,348 cost. For this couple the bill lowers the cost of marrying by about $8,300. Evangelical teaching opposes “creating economic disincentives to marriage.” <a href=\"https://web.archive.org/web/20261029183108/https://www.nae.org/wp-content/uploads/2018/09/For-the-Health-of-the-Nation_pages.pdf\" title=\"“For the Health of the Nation: An Evangelical Call to Civic Responsibility”, 2018-03-08 (revised version adopted; copyright 2018)\">[4]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_TR_support_04",
      "field": "support_reading",
      "quote": "the FPL for a couple is less than twice that for a single person"
+    },
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "support_reading",
+     "quote": "$15,650"
+    },
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "support_reading",
+     "quote": "$21,150"
+    },
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "support_reading",
+     "quote": "At least 300% but not more than 400% 9.96% 9.96%"
+    },
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "support_reading",
+     "quote": "300 | 0.0600"
+    },
+    {
+     "id": "HR1834_TR_support_04",
+     "field": "support_reading",
+     "quote": "400 or more | 0.0850"
     },
     {
      "id": "HR1834_TR_support_04",
@@ -3149,7 +3376,7 @@
   {
    "id": "HR1834_B_CHURCH_EV",
    "role": "evidence",
-   "html": "<p>“Among the most affected are small congregations that usually can’t afford group plans and instead provide salary stipends to staff members for use in the ACA Marketplace” <a href=\"https://web.archive.org/web/20261029143817/https://baptistnews.com/article/aca-marketplace-increases-are-slamming-church-budgets/\" title=\"Jeff Brumley, “ACA Marketplace increases are slamming church budgets”, 2025-11-17\">[19]</a>. A Christian clergy fund said: “If Congress renews the subsidies at the 2025 levels, the program will not move forward.” <a href=\"https://web.archive.org/web/20261029164605/https://pensionfund.org/about/news/pension-fund-readies-one-time-emergency-aid-program-to-support-pastors-during-the-aca-subsidy-crisis-with-up-to-2-5mm\" title=\"“Pension Fund Readies One-Time Emergency Aid Program to Support Pastors During the ACA Subsidy Crisis with up to $2.5MM”, 2025-10-10\">[20]</a> The Southern Baptist confession says Christians “should contribute of their means cheerfully, regularly, systematically, proportionately” <a href=\"https://web.archive.org/web/20261022070616/https://bfm.sbc.net/bfm2000/\" title=\"“Baptist Faith and Message 2000, with its adopted preamble”, 2000-06-14 (adopted); Article VI amended 2023-06-14, as noted in the text\">[3]</a>, and one pastor projected attendance growth but flat giving for 2026 as more money went to premiums.</p>",
+   "html": "<p>“Among the most affected are small congregations that usually can’t afford group plans and instead provide salary stipends to staff members for use in the ACA Marketplace” <a href=\"https://web.archive.org/web/20261029143817/https://baptistnews.com/article/aca-marketplace-increases-are-slamming-church-budgets/\" title=\"Jeff Brumley, “ACA Marketplace increases are slamming church budgets”, 2025-11-17\">[19]</a>. A Christian clergy fund said: “If Congress renews the subsidies at the 2025 levels, the program will not move forward.” <a href=\"https://web.archive.org/web/20261029164605/https://pensionfund.org/about/news/pension-fund-readies-one-time-emergency-aid-program-to-support-pastors-during-the-aca-subsidy-crisis-with-up-to-2-5mm\" title=\"“Pension Fund Readies One-Time Emergency Aid Program to Support Pastors During the ACA Subsidy Crisis with up to $2.5MM”, 2025-10-10\">[20]</a> The Southern Baptist confession says Christians “should contribute of their means cheerfully, regularly, systematically, proportionately” <a href=\"https://web.archive.org/web/20261022070616/https://bfm.sbc.net/bfm2000/\" title=\"“Baptist Faith and Message 2000, with its adopted preamble”, 2000-06-14 (adopted); Article VI amended 2023-06-14, as noted in the text\">[3]</a>. A pastor reported: “Riverside Church is projecting 20% attendance growth but flat giving for 2026 as more dollars go to health insurance instead of tithing” <a href=\"https://web.archive.org/web/20261029143817/https://baptistnews.com/article/aca-marketplace-increases-are-slamming-church-budgets/\" title=\"Jeff Brumley, “ACA Marketplace increases are slamming church budgets”, 2025-11-17\">[19]</a>.</p>",
    "source_refs": [
     {
      "id": "HR1834_TR_support_06",
@@ -3169,12 +3396,12 @@
     {
      "id": "HR1834_TR_support_06",
      "field": "support_reading",
-     "quote": "Christians should contribute of their means cheerfully, regularly, systematically, proportionatel"
+     "quote": "Riverside Church is projecting 20% attendance growth but flat giving for 2026 as more dollars go to health insurance instead of tithing"
     },
     {
      "id": "HR1834_TR_support_06",
      "field": "support_reading",
-     "quote": "Riverside Church is projecting 20% attendance growth but flat giving for 2026"
+     "quote": "Christians should contribute of their means cheerfully, regularly, systematically, proportionatel"
     }
    ]
   },
@@ -3196,9 +3423,21 @@
    ]
   },
   {
+   "id": "HR1834_B_CHURCH_WORSHIP_EV",
+   "role": "evidence",
+   "html": "<p>The Southern Baptist confession says Sunday observance should include “exercises of worship and spiritual devotion, both public and private.” <a href=\"https://web.archive.org/web/20261022070616/https://bfm.sbc.net/bfm2000/\" title=\"“Baptist Faith and Message 2000, with its adopted preamble”, 2000-06-14 (adopted); Article VI amended 2023-06-14, as noted in the text\">[3]</a></p>",
+   "source_refs": [
+    {
+     "id": "HR1834_TR_support_06",
+     "field": "support_reading",
+     "quote": "exercises of worship and spiritual devotion, both public and private."
+    }
+   ]
+  },
+  {
    "id": "HR1834_B_CLINICS_EV",
    "role": "evidence",
-   "html": "<p>The Catholic Health Association says “the loss of coverage would put additional stress on local health care providers as they face more uncompensated care and bad debt.” <a href=\"https://web.archive.org/web/20250623192214/https://www.chausa.org/docs/default-source/advocacy/051325-cha-letter-to-ways-and-means-committee-on-reconciliation-bill.pdf?sfvrsn=510a1b35_1\" title=\"“CHA Letter to Ways and Means Committee on Reconciliation Bill”, 2025-05-13 (archived copy; the original page was down when checked on October 29, 2026)\">[21]</a> A church clinic, Bread of Healing at Cross Lutheran Church, was bracing for higher demand for free care, and Catholic providers describe serving “those most in need” as their religious mission.</p>",
+   "html": "<p>The Catholic Health Association says “the loss of coverage would put additional stress on local health care providers as they face more uncompensated care and bad debt.” <a href=\"https://web.archive.org/web/20250623192214/https://www.chausa.org/docs/default-source/advocacy/051325-cha-letter-to-ways-and-means-committee-on-reconciliation-bill.pdf?sfvrsn=510a1b35_1\" title=\"“CHA Letter to Ways and Means Committee on Reconciliation Bill”, 2025-05-13 (archived copy; the original page was down when checked on October 29, 2026)\">[21]</a> Reporting on a church clinic, Bread of Healing at Cross Lutheran Church, explains: “They are bracing for higher demand as more residents are expected to forgo insurance as a crucial tax credit is set to expire and premiums spike.” <a href=\"https://web.archive.org/web/20261029190931/https://www.wpr.org/news/wisconsin-free-clinics-gaps-thousands-expected-uninsured\" title=\"Addie Costello, “‘We don’t turn anyone away’: Wisconsin’s free clinics fill gaps as thousands expected to go uninsured”, 2025-12-11 (updated the same day)\">[22]</a> Catholic providers describe their religious mission: “Our health ministry is especially committed to serving those most in need, recognizing that our mission is not complete until quality, affordable, and accessible health care is a reality for all.” <a href=\"https://web.archive.org/web/20250623192214/https://www.chausa.org/docs/default-source/advocacy/051325-cha-letter-to-ways-and-means-committee-on-reconciliation-bill.pdf?sfvrsn=510a1b35_1\" title=\"“CHA Letter to Ways and Means Committee on Reconciliation Bill”, 2025-05-13 (archived copy; the original page was down when checked on October 29, 2026)\">[21]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_TR_support_07",
@@ -3208,29 +3447,29 @@
     {
      "id": "HR1834_TR_support_07",
      "field": "support_reading",
-     "quote": "those most in need"
+     "quote": "They are bracing for higher demand as more residents are expected to forgo insurance as a crucial tax credit is set to expire and premiums spike."
     },
     {
      "id": "HR1834_TR_support_07",
      "field": "support_reading",
-     "quote": "They are bracing for higher demand"
-    },
-    {
-     "id": "HR1834_TR_support_07",
-     "field": "support_reading",
-     "quote": "especially committed to serving those most in need"
+     "quote": "Our health ministry is especially committed to serving those most in need, recognizing that our mission is not complete until quality, affordable, and accessible health care is a reality for all."
     }
    ]
   },
   {
    "id": "HR1834_B_FAMFARM_EV",
    "role": "evidence",
-   "html": "<p>In a 2003 statement, U.S. Catholic bishops say they “stand with farmers, particularly those who own small and family farms here and abroad, in their struggle to live with dignity, to preserve a way of life, and to strengthen rural” communities <a href=\"https://web.archive.org/web/20261029200505/https://www.usccb.org/issues-and-action/human-life-and-dignity/agriculture-nutrition-rural-issues/for-i-was-hungry-pastoral-reflection-part-6\" title=\"“For I Was Hungry &amp; You Gave Me Food: Catholic Reflections on Food, Farmers, and Farmworkers (Pastoral Reflection, Parts 5–6)”, 2003-11 (statement approved; USCCB resource page lists web publication year 2012)\">[24]</a>.</p>",
+   "html": "<p>In a 2003 statement, U.S. Catholic bishops say they “stand with farmers, particularly those who own small and family farms here and abroad, in their struggle to live with dignity, to preserve a way of life, and to strengthen rural” communities <a href=\"https://web.archive.org/web/20261029200505/https://www.usccb.org/issues-and-action/human-life-and-dignity/agriculture-nutrition-rural-issues/for-i-was-hungry-pastoral-reflection-part-6\" title=\"“For I Was Hungry &amp; You Gave Me Food: Catholic Reflections on Food, Farmers, and Farmworkers (Pastoral Reflection, Parts 5–6)”, 2003-11 (statement approved; USCCB resource page lists web publication year 2012)\">[24]</a>. Of food and farming, they write: “They are about a way of life for farm families in the United States who are unable to meet debt payments and face selling a farm that has been in the family for generations.” <a href=\"https://web.archive.org/web/20261029200505/https://www.usccb.org/issues-and-action/human-life-and-dignity/agriculture-nutrition-rural-issues/for-i-was-hungry-pastoral-reflection-part-6\" title=\"“For I Was Hungry &amp; You Gave Me Food: Catholic Reflections on Food, Farmers, and Farmworkers (Pastoral Reflection, Parts 5–6)”, 2003-11 (statement approved; USCCB resource page lists web publication year 2012)\">[24]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_TR_support_08",
      "field": "support_reading",
      "quote": "stand with farmers, particularly those who own small and family farms here and abroad, in their struggle to live with dignity, to preserve a way of life, and to strengthen rural"
+    },
+    {
+     "id": "HR1834_TR_support_08",
+     "field": "support_reading",
+     "quote": "They are about a way of life for farm families in the United States who are unable to meet debt payments and face selling a farm that has been in the family for generations."
     },
     {
      "id": "HR1834_TR_support_08",
@@ -3271,12 +3510,17 @@
   {
    "id": "HR1834_B_TRTAX_EV",
    "role": "evidence",
-   "html": "<p>The Catholic bishops object that “federal taxpayer dollars are still paying for the plans that cover abortion” <a href=\"https://web.archive.org/web/20261029204312/https://www.usccb.org/resources/letter-congress-hyde-amendment-january-14-2026\" title=\"“Letter to Congress on the Hyde Amendment (January 14, 2026) | USCCB”, 2026-01-14\">[27]</a>. The Southern Baptist public-policy commission says “no taxpayer’s conscience should be violated by being forced—even indirectly—to pay for abortions.” <a href=\"https://web.archive.org/web/20261022084112/https://erlc.com/wp-content/uploads/2026/01/1.16.26-ERLC-Letter-to-President-Trump.pdf\" title=\"“1.16.26 ERLC Letter to President Trump”, 2026-01-16\">[26]</a></p>",
+   "html": "<p>The Catholic bishops object that “federal taxpayer dollars are still paying for the plans that cover abortion” <a href=\"https://web.archive.org/web/20261029204312/https://www.usccb.org/resources/letter-congress-hyde-amendment-january-14-2026\" title=\"“Letter to Congress on the Hyde Amendment (January 14, 2026) | USCCB”, 2026-01-14\">[27]</a>. Their October 2025 letter asks Congress to pair extension with a limit: “We urge Congress to extend the enhanced PTCs while amending all PTCs to disallow their being used for plans that cover elective abortion.” <a href=\"https://web.archive.org/web/20261029201649/https://www.usccb.org/resources/Letter_ACA_tax_credits_10.2025.pdf\" title=\"Ashling Kelly Preston, “Letter to Congress on ACA Enhanced Premium Tax Credits”, 2025-10-10\">[7]</a> H.R.1834 contains no such limit. The Southern Baptist public-policy commission says “no taxpayer’s conscience should be violated by being forced—even indirectly—to pay for abortions.” <a href=\"https://web.archive.org/web/20261022084112/https://erlc.com/wp-content/uploads/2026/01/1.16.26-ERLC-Letter-to-President-Trump.pdf\" title=\"“1.16.26 ERLC Letter to President Trump”, 2026-01-16\">[26]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_TR_oppose_02",
      "field": "support_reading",
      "quote": "federal taxpayer dollars are still paying for the plans that cover abortion"
+    },
+    {
+     "id": "HR1834_TR_oppose_02",
+     "field": "support_reading",
+     "quote": "We urge Congress to extend the enhanced PTCs while amending all PTCs to disallow their being used for plans that cover elective abortion."
     },
     {
      "id": "HR1834_TR_oppose_02",
@@ -3288,7 +3532,7 @@
   {
    "id": "HR1834_B_TRTAX_LIM",
    "role": "qualification",
-   "html": "<p>The premium credit itself continues without the bill; only the larger amounts end. The bishops’ October 2025 letter urges Congress to extend the larger credits while barring their use for plans covering elective abortion; H.R.1834 extends them without that bar.</p>",
+   "html": "<p>The premium credit itself continues without the bill; only the larger amounts end. The bishops’ letter itself supports extending the larger credits if that bar is added; H.R.1834 extends them without the bar.</p>",
    "source_refs": [
     {
      "id": "HR1834_TR_oppose_02",
@@ -3317,7 +3561,7 @@
   {
    "id": "HR1834_B_TRTRANS_EV",
    "role": "evidence",
-   "html": "<p>Washington’s benchmark plan “requires individual and small group health plans to cover gender-affirming treatment.” <a href=\"https://web.archive.org/web/20261029182007/https://www.insurance.wa.gov/sites/default/files/2025-12/2026-mandated-benefits-report.pdf\" title=\"OIC Policy, “2026 Mandated Benefits Report”, 2025-12-15\">[32]</a> Southern Baptists teach that “gender identity is determined by biological sex and not by one’s self-perception” <a href=\"https://web.archive.org/web/20261022112830/https://www.sbc.net/resource-library/resolutions/on-transgender-identity/\" title=\"“On Transgender Identity - SBC.net”, 2014-06-01\">[33]</a> and “we oppose efforts to alter one’s bodily identity” <a href=\"https://web.archive.org/web/20261022112830/https://www.sbc.net/resource-library/resolutions/on-transgender-identity/\" title=\"“On Transgender Identity - SBC.net”, 2014-06-01\">[33]</a>. Under the 2026 federal rule, “the state is required to defray the cost of the benefit.” <a href=\"https://web.archive.org/web/20261029182007/https://www.insurance.wa.gov/sites/default/files/2025-12/2026-mandated-benefits-report.pdf\" title=\"OIC Policy, “2026 Mandated Benefits Report”, 2025-12-15\">[32]</a>; larger federal credits still make the plan carrying it cheaper to buy.</p>",
+   "html": "<p>Washington’s benchmark plan “requires individual and small group health plans to cover gender-affirming treatment.” <a href=\"https://web.archive.org/web/20261029182007/https://www.insurance.wa.gov/sites/default/files/2025-12/2026-mandated-benefits-report.pdf\" title=\"OIC Policy, “2026 Mandated Benefits Report”, 2025-12-15\">[32]</a> Southern Baptists teach that “gender identity is determined by biological sex and not by one’s self-perception” <a href=\"https://web.archive.org/web/20261022112830/https://www.sbc.net/resource-library/resolutions/on-transgender-identity/\" title=\"“On Transgender Identity - SBC.net”, 2014-06-01\">[33]</a> and “we oppose efforts to alter one’s bodily identity” <a href=\"https://web.archive.org/web/20261022112830/https://www.sbc.net/resource-library/resolutions/on-transgender-identity/\" title=\"“On Transgender Identity - SBC.net”, 2014-06-01\">[33]</a>. Under the 2026 federal rule, “the state is required to defray the cost of the benefit.” <a href=\"https://web.archive.org/web/20261029182007/https://www.insurance.wa.gov/sites/default/files/2025-12/2026-mandated-benefits-report.pdf\" title=\"OIC Policy, “2026 Mandated Benefits Report”, 2025-12-15\">[32]</a> Washington appropriated money “so that the benefit can continue to be offered.” <a href=\"https://web.archive.org/web/20261029182007/https://www.insurance.wa.gov/sites/default/files/2025-12/2026-mandated-benefits-report.pdf\" title=\"OIC Policy, “2026 Mandated Benefits Report”, 2025-12-15\">[32]</a> Larger federal credits still make the plan carrying it cheaper to buy.</p>",
    "source_refs": [
     {
      "id": "HR1834_TR_oppose_04",
@@ -3338,6 +3582,11 @@
      "id": "HR1834_TR_oppose_04",
      "field": "support_reading",
      "quote": "the state is required to defray the cost of the benefit."
+    },
+    {
+     "id": "HR1834_TR_oppose_04",
+     "field": "support_reading",
+     "quote": "so that the benefit can continue to be offered."
     }
    ]
   },
@@ -3366,12 +3615,17 @@
   {
    "id": "HR1834_B_IVF_EV",
    "role": "evidence",
-   "html": "<p>In Illinois, “IVF and other fertility treatments are covered on individual and small-group plans” <a href=\"https://web.archive.org/web/20261029181839/https://www.healthinsurance.org/faqs/does-health-insurance-cover-ivf-and-other-fertility-treatments/\" title=\"Louise Norris, “Does health insurance cover IVF and other fertility treatments?”, 2025-12-05\">[34]</a>. The Catholic bishops teach that “procedures that assist the marital act in being procreative are morally acceptable, while those that substitute for it are not.” <a href=\"https://web.archive.org/web/20261029190339/https://www.usccb.org/beliefs-and-teachings/what-we-believe/love-and-sexuality/life-giving-love-in-an-age-of-technology\" title=\"“Life-Giving Love in an Age of Technology”, 2009-11 (approved by the bishops at their November 2009 General Meeting)\">[39]</a></p>",
+   "html": "<p>In Illinois, “IVF and other fertility treatments are covered on individual and small-group plans” <a href=\"https://web.archive.org/web/20261029181839/https://www.healthinsurance.org/faqs/does-health-insurance-cover-ivf-and-other-fertility-treatments/\" title=\"Louise Norris, “Does health insurance cover IVF and other fertility treatments?”, 2025-12-05\">[34]</a>. The Catholic bishops describe IVF as “joining egg and sperm in a glass dish, not in the mother’s body” <a href=\"https://web.archive.org/web/20261029190339/https://www.usccb.org/beliefs-and-teachings/what-we-believe/love-and-sexuality/life-giving-love-in-an-age-of-technology\" title=\"“Life-Giving Love in an Age of Technology”, 2009-11 (approved by the bishops at their November 2009 General Meeting)\">[39]</a> and teach that “procedures that assist the marital act in being procreative are morally acceptable, while those that substitute for it are not.” <a href=\"https://web.archive.org/web/20261029190339/https://www.usccb.org/beliefs-and-teachings/what-we-believe/love-and-sexuality/life-giving-love-in-an-age-of-technology\" title=\"“Life-Giving Love in an Age of Technology”, 2009-11 (approved by the bishops at their November 2009 General Meeting)\">[39]</a></p>",
    "source_refs": [
     {
      "id": "HR1834_TR_oppose_06",
      "field": "support_reading",
      "quote": "IVF and other fertility treatments are covered on individual and small-group plans"
+    },
+    {
+     "id": "HR1834_TR_oppose_06",
+     "field": "support_reading",
+     "quote": "joining egg and sperm in a glass dish, not in the mother’s body"
     },
     {
      "id": "HR1834_TR_oppose_06",
@@ -3400,20 +3654,35 @@
   {
    "id": "HR1834_B_MUTUALAID_EV",
    "role": "evidence",
-   "html": "<p>In these ministries, “Members affirm shared faith commitments and contribute to each other’s medical bills, supported by prayer and mutual encouragement.” <a href=\"https://web.archive.org/web/20261029161710/https://ahcsm.org/the-alliance-urges-christians-to-consider-faith-based-alternatives/\" title=\"Katie, “The Alliance urges Christians to consider faith-based alternatives as Q2 costs rise | Alliance of Health Care Sharing Ministries”, 2025-10-27\">[29]</a> For households receiving larger credits, Marketplace payments fall while ministry payments receive no credit.</p>",
+   "html": "<p>The credits pay for “health insurance obtained through the marketplaces established by the Affordable Care Act.” <a href=\"https://web.archive.org/web/20260109004859/https://www.cbo.gov/system/files/2026-01/hr1834_0.pdf\" title=\"Congressional Budget Office, cost estimate, January 8, 2026\">[1]</a> In these ministries, “Members affirm shared faith commitments and contribute to each other’s medical bills, supported by prayer and mutual encouragement.” <a href=\"https://web.archive.org/web/20261029161710/https://ahcsm.org/the-alliance-urges-christians-to-consider-faith-based-alternatives/\" title=\"Katie, “The Alliance urges Christians to consider faith-based alternatives as Q2 costs rise | Alliance of Health Care Sharing Ministries”, 2025-10-27\">[29]</a> Christian Healthcare Ministries ties this practice to “the command of Galatians 6:2” <a href=\"https://web.archive.org/web/20261029144427/https://chministries.org/blog/aca-insurance-changes-on-the-horizon-in-2025-and-beyond/\" title=\"Deven Fenn, “ACA/Insurance changes on the horizon in 2025 and beyond: What it means for the insured, uninsured, and how CHM can help - Christian Healthcare Ministries”, 2025-09-22\">[43]</a>. For households receiving larger credits, Marketplace payments fall while ministry payments receive no credit.</p>",
    "source_refs": [
     {
      "id": "HR1834_TR_oppose_08",
      "field": "support_reading",
+     "quote": "health insurance obtained through the marketplaces established by the Affordable Care Act."
+    },
+    {
+     "id": "HR1834_TR_oppose_08",
+     "field": "support_reading",
      "quote": "Members affirm shared faith commitments and contribute to each other’s medical bills, supported by prayer and mutual encouragement."
+    },
+    {
+     "id": "HR1834_TR_oppose_08",
+     "field": "support_reading",
+     "quote": "the command of Galatians 6:2"
     }
    ]
   },
   {
    "id": "HR1834_B_MARRYO_EV",
    "role": "evidence",
-   "html": "<p>Marriage combines a couple’s incomes for the credit, and the poverty-line amounts are “$15,650” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> for one person and “$21,150” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> for two. In the argument’s example, two childless adults each earning $39,125 are each at 250% of poverty, but at 369% when married. Under the ordinary 2026 credits, marrying raises their combined premium share by about $1,190 a year; under the restored schedule, by about $2,919. The bill thus adds about $1,729 a year to this couple’s cost of being married. The Southern Baptist confession calls marriage “the uniting of one man and one woman in covenant commitment for a lifetime” <a href=\"https://web.archive.org/web/20260909192332/https://bfm.sbc.net/wp-content/uploads/2024/08/BFM2000.pdf\" title=\"Jonathan Howe, “The Baptist Faith &amp; Message”, 2023-06-14 (amended version; adopted June 14, 2000)\">[45]</a>.</p>",
+   "html": "<p>Marriage combines a couple’s incomes for the credit: the law requires that “the taxpayer and the taxpayer's spouse file a joint return for the taxable year.” <a href=\"https://web.archive.org/web/20261029220208/https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleA-chap1-subchapA-partIV-subpartC-sec36B.htm\" title=\"“26 U.S.C. §36B, Refundable credit for coverage under a qualified health plan (2024 edition)”, 2024 edition (enhanced schedule enacted March 11, 2021, and extended August 16, 2022)\">[44]</a> The poverty-line amounts are “$15,650” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> for one person and “$21,150” <a href=\"https://web.archive.org/web/20260118234904/https://www.cms.gov/files/document/program-integrity-rule-overview-part-2.pdf\" title=\"CMS, “2025 Program Integrity Rule Overview, Part II”, 2025-10 (date printed in document)\">[13]</a> for two. In the argument’s example, two childless adults each earning $39,125 are each at 250% of poverty, but at 369% when married. The ordinary 2026 table reads “At least 250% but less than 300% 8.44% 9.96% At least 300% but not more than 400% 9.96% 9.96%” <a href=\"https://web.archive.org/web/20261023143428/https://www.irs.gov/pub/irs-drop/rp-25-25.pdf\" title=\"IRS, “Revenue Procedure 2025-25”, 2025-08-04 (published in Internal Revenue Bulletin 2025-32; https://www.irs.gov/irb/2025-32_IRB)\">[14]</a>, giving shares of 8.44% at 250% and 9.96% at 369%; the restored schedule gives “250 | 0.0400” <a href=\"https://web.archive.org/web/20261029201243/https://www.irs.gov/pub/irs-prior/i8962--2025.pdf\" title=\"W:CAR:MP:FP, “2025 Instructions for Form 8962, Premium Tax Credit”, 2025-10-01 (date printed on page 1)\">[15]</a> and “369 | 0.0773” <a href=\"https://web.archive.org/web/20261029201243/https://www.irs.gov/pub/irs-prior/i8962--2025.pdf\" title=\"W:CAR:MP:FP, “2025 Instructions for Form 8962, Premium Tax Credit”, 2025-10-01 (date printed on page 1)\">[15]</a>. Under the ordinary 2026 credits, marrying raises their combined premium share by about $1,190 a year; under the restored schedule, by about $2,919. The bill thus adds about $1,729 a year to this couple’s cost of being married. The Southern Baptist confession calls marriage “the uniting of one man and one woman in covenant commitment for a lifetime” <a href=\"https://web.archive.org/web/20260909192332/https://bfm.sbc.net/wp-content/uploads/2024/08/BFM2000.pdf\" title=\"Jonathan Howe, “The Baptist Faith &amp; Message”, 2023-06-14 (amended version; adopted June 14, 2000)\">[45]</a>.</p>",
    "source_refs": [
+    {
+     "id": "HR1834_TR_oppose_09",
+     "field": "support_reading",
+     "quote": "the taxpayer and the taxpayer's spouse file a joint return for the taxable year."
+    },
     {
      "id": "HR1834_TR_oppose_09",
      "field": "support_reading",
@@ -3423,6 +3692,21 @@
      "id": "HR1834_TR_oppose_09",
      "field": "support_reading",
      "quote": "$21,150"
+    },
+    {
+     "id": "HR1834_TR_oppose_09",
+     "field": "support_reading",
+     "quote": "At least 250% but less than 300% 8.44% 9.96% At least 300% but not more than 400% 9.96% 9.96%"
+    },
+    {
+     "id": "HR1834_TR_oppose_09",
+     "field": "support_reading",
+     "quote": "250 | 0.0400"
+    },
+    {
+     "id": "HR1834_TR_oppose_09",
+     "field": "support_reading",
+     "quote": "369 | 0.0773"
     },
     {
      "id": "HR1834_TR_oppose_09",
@@ -5416,6 +5700,7 @@
    ],
    "context_ids": [],
    "block_ids": [
+    "HR1834_B_SEPSERVICES_EV",
     "HR1834_B_CBO_TIMING"
    ],
    "argument_ids": [
@@ -6082,6 +6367,7 @@
    ],
    "context_ids": [],
    "block_ids": [
+    "HR1834_B_CHURCH_WORSHIP_EV",
     "HR1834_B_CHURCH_LIM"
    ],
    "argument_ids": [
@@ -6440,6 +6726,30 @@
   {
    "term": "cost sharing",
    "definition": "What patients pay when they get care."
+  },
+  {
+   "term": "SEP",
+   "definition": "A special enrollment period: a chance to enroll outside the yearly sign-up period."
+  },
+  {
+   "term": "OE",
+   "definition": "Open enrollment, the yearly sign-up period."
+  },
+  {
+   "term": "DMI",
+   "definition": "A data matching issue: a request for more information when records do not match."
+  },
+  {
+   "term": "buprenorphine",
+   "definition": "A medicine for opioid addiction."
+  },
+  {
+   "term": "ED",
+   "definition": "Emergency department."
+  },
+  {
+   "term": "terra firma",
+   "definition": "Land."
   }
  ],
  "value_subjects": {
