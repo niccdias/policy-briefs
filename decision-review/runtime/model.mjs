@@ -145,7 +145,7 @@ export function derivedResults(model,state){
   const reasons=acceptedReasons(model,state,value.id,states),unfinished=[...model.nodes.values()].filter(node=>node.kind==='value'&&node.value_id===value.id&&!['answered','pruned'].includes(states.get(node.id).status)).map(node=>node.id);
   const presence=reasons.support_ids.length?(reasons.oppose_ids.length?'Both':'Support'):reasons.oppose_ids.length?'Oppose':unfinished.length?null:'Neither';
   const comparison=state.comparisons[value.id],comparisonStale=Boolean(state.stale.comparisons[value.id]),status=unfinished.length?'incomplete':presence==='Both'?(!comparison?'comparison_required':comparisonStale?'stale':'current'):'current';
-  results.set(value.id,{presence,strength:presence==='Both'&&comparison&&!comparisonStale?comparison.strength:null,status,unfinished,...reasons});
+  results.set(value.id,{presence,strength:presence==='Both'&&comparison&&!comparisonStale&&!unfinished.length?comparison.strength:null,status,unfinished,...reasons});
  }return results;
 }
 export function saveComparison(model,state,valueId,strength,at,notes=''){
@@ -175,6 +175,18 @@ function applyCarry(model,state,payload,at){
 }
 export function carrySession(model,release,earlier,newId,at){
  check(record(earlier)&&earlier.schema_version===1&&record(earlier.answers)&&record(earlier.comparisons)&&record(earlier.stale)&&record(earlier.stale.decisions)&&record(earlier.stale.comparisons)&&Number.isInteger(earlier.revision),'Invalid earlier session.');
+ // The earlier release's model is not available here, so its history cannot be fully replayed. Its answers and
+ // comparisons must still be exactly what its own recorded events produce. A carry event supplies answers that
+ // its release may have dropped for removed decisions.
+ check(Array.isArray(earlier.history)&&earlier.history.length>0&&earlier.revision===earlier.history.length-1&&earlier.history.every((event,index)=>record(event)&&event.seq===index&&record(event.payload)),'Invalid earlier session history.');
+ const replayedAnswers={},replayedComparisons={},fromCarry=new Set();
+ for(const event of earlier.history){const payload=event.payload;
+  if(event.type==='answer'){replayedAnswers[payload.id]={answer:payload.answer,notes:payload.notes};fromCarry.delete(payload.id);}
+  else if(event.type==='reopen'){delete replayedAnswers[payload.id];fromCarry.delete(payload.id);}
+  else if(event.type==='comparison')replayedComparisons[payload.value_id]={strength:payload.strength,notes:payload.notes};
+  else if(event.type==='carry'&&record(payload.answers)&&record(payload.comparisons)){for(const [id,answer] of Object.entries(payload.answers)){replayedAnswers[id]={answer:answer?.answer,notes:answer?.notes};fromCarry.add(id);}for(const [id,comparison] of Object.entries(payload.comparisons))replayedComparisons[id]={strength:comparison?.strength,notes:comparison?.notes};}}
+ for(const id of fromCarry)if(!Object.hasOwn(earlier.answers,id))delete replayedAnswers[id];
+ check(same(replayedAnswers,Object.fromEntries(Object.entries(earlier.answers).map(([id,answer])=>[id,{answer:answer?.answer,notes:answer?.notes}])))&&same(replayedComparisons,Object.fromEntries(Object.entries(earlier.comparisons).map(([id,comparison])=>[id,{strength:comparison?.strength,notes:comparison?.notes}]))),'The earlier session’s answers do not match its own history.');
  const answers=Object.fromEntries(Object.entries(earlier.answers).map(([id,answer])=>[id,{answer:answer?.answer,notes:answer?.notes,stale:Boolean(earlier.stale.decisions[id])}]));
  const comparisons=Object.fromEntries(Object.entries(earlier.comparisons).map(([id,comparison])=>[id,{strength:comparison?.strength,notes:comparison?.notes,support_ids:comparison?.basis?.support_ids,oppose_ids:comparison?.basis?.oppose_ids,reason_basis:comparison?.basis?.reason_basis,stale:Boolean(earlier.stale.comparisons[id])}]));
  return applyCarry(model,createState(model,release,newId,at),{from_session_id:earlier.session_id,from_release:clone(earlier.release),from_revision:earlier.revision,answers,comparisons},at);

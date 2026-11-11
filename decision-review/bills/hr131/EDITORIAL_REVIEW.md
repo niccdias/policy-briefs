@@ -73,6 +73,10 @@ Effect on the all-Yes path: 19,977 presented words before, 17,543 after; the lar
 
 On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 44 edits in 30 fields (2 contexts and 28 blocks) removed lexical definitions (for example nonfederal, simple interest, total dissolved solids, fugitive dust, acre-feet, reject stream and “in perpetuity”), the CBO and DWSRF definitions and appositives, and parenthetical glosses such as vetoed (rejected), spur line (a smaller branch pipe) and radionuclides (radioactive substances). 33 glossary entries were added. The terms context names miscellaneous revenues where it had said “these revenues”. The short description is unchanged. Kept in the text: the introductions of the conduit, Reclamation, the Interior Department and the district, because who builds, who decides hardship and who repays matter to the claims; the Treasury's role in setting the interest rate; and the note explaining the quoted phrase “for most alternatives compared to No Action”.
 
+## Amendment of November 10, 2026
+
+The corpus amendment in `docs/argument_key/corpus_amendment_20261110/` corrects this bill's Congressional Record labels: 3 in the package and 6 in `input/source.json`, where documents on one Record page had shared the first document's label (audit finding B1). It also replaces the dead archive link to H. Rept. 119-187 (8 package citations) with an existing capture of GovInfo's copy of the same report (finding B10). Only citation titles and links changed.
+
 ## Limits
 
 Which claims became questions and where limits sit are editorial judgments for independent verification. The checks above do not show that any inference is valid or any prediction true. Reading time and workload are untested.

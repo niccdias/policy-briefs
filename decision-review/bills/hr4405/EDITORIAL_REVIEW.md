@@ -91,3 +91,7 @@ The rest of that block was checked against the frozen corpus: the public-records
 ## Limits
 
 Which claims became questions and where limits sit are editorial judgments for independent verification. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.
+
+## Corpus amendment of November 10, 2026
+
+The dead archive link to the engrossed bill text (35 package citations) now points to an existing capture of GovInfo's copy of the same version (audit finding B10; `docs/argument_key/corpus_amendment_20261110/`). Only links changed.

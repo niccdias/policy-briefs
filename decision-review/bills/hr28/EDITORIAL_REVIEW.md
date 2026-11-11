@@ -73,3 +73,7 @@ No route, block ID or coverage row changed. Congressional Record citation titles
 ## Limits
 
 Which claims became questions, and where limits sit, are editorial judgments for main and the independent verifier. Structural and quotation checks do not establish that any inference is valid or any prediction true. Human comprehension, reading time and workload are untested.
+
+## Corpus amendment of November 10, 2026
+
+The corpus amendment corrects 12 Congressional Record labels in this package and 49 in `input/source.json`, where documents on one Record page had shared the first document's label (audit finding B1). For example, Rep. Bonamici's words had been labelled as Rep. Walberg's. `author.py` now accepts a citation number shared on one Record page, and runs the amendment after writing, so it still reproduces the package byte for byte.

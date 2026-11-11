@@ -461,6 +461,11 @@
      "id": "HR4405_SEP_support_04",
      "field": "pro_html",
      "quote": "Epstein used personal assistants to recruit girls"
+    },
+    {
+     "id": "HR4405_SES_support_01",
+     "field": "pro_html",
+     "quote": "all investigations, prosecutions, or custodial matters"
     }
    ]
   },
@@ -1329,6 +1334,16 @@
      "id": "HR4405_UNN_oppose_01",
      "field": "pro_html",
      "quote": "Nearly every single prosecutor"
+    },
+    {
+     "id": "HR4405_SEP_oppose_05",
+     "field": "pro_html",
+     "quote": "30 days after the date of enactment of this Act"
+    },
+    {
+     "id": "HR4405_SEP_oppose_05",
+     "field": "pro_html",
+     "quote": "focused on white collar and violent crime cases"
     }
    ]
   },

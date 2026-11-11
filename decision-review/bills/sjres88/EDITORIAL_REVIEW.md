@@ -61,6 +61,10 @@ Value claims with several routes are worded as alternatives (“each of these co
 
 On November 9, 2026, definitions were moved out of the reading text and into the glossary, which shows them on hover, focus or tap. 115 edits in 82 fields (5 contexts and 77 blocks) removed definitions of tariffs and reciprocal tariffs, HTSUS, LNG, DoD, AUKUS, DNS, EMS, LDCs, liquidity, solvency, Treasury securities, offshoring and other terms, parenthetical glosses such as input costs, secondary sanctions, domestic law, ratified and “(ARTs), which are trade deals”, and identifying appositives and labels such as “(USTR), the U.S. trade agency”, “(CSIS), a research group” and “the research group Brookings”. 87 glossary entries were added. Where a word has another sense in this bill, only the intended uses carry an explicit key: labor union (not the European Union), import duty, water utility, party to an agreement and ratify. The displayed short description no longer restates what tariffs and reciprocal tariffs are; the frozen description is retained in `input/source.json`. The tariff-pressure background now states the incentive directly: another government that wants lower U.S. taxes has a reason to act. Kept: the name Agreements on Reciprocal Trade, the Center for American Progress's stated position, role descriptions that bear on the inference (Reekon Tools as a small tool company, Section 232 and Section 301 as separate trade laws), plain restatements of quoted passages, and full official names given with an abbreviation.
 
+## Amendment of November 10, 2026
+
+Four “Brief context note:” labels were removed from block data, because the runtime no longer removes opening bold text (audit finding B3). The blocks read exactly as before. No other change.
+
 ## Limits
 
 Which claims became questions and where limits sit are editorial judgments for independent verification. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.

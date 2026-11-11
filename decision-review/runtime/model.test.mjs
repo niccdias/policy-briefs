@@ -149,3 +149,8 @@ test('CSV answer, presence and strength cells hold only counted values; uncounte
  for(const row of rows.filter(item=>item[0]===copy.csv_type_decision&&item[7].includes(copy.saved_answer)))assert.equal(row[4],copy.unanswered,'A saved answer that does not count must not fill the Answer cell.');
  assert.equal(decision[4],copy.unanswered);
 });
+test('a value with an unfinished decision counts no strength even when its accepted reasons are unchanged',()=>{
+ const model=make();let state=allYes(model);const value=source.values.find(item=>derivedResults(model,state).get(item.id).presence==='Both');assert(value,'Fixture needs a value with both directions.');
+ state=saveComparison(model,state,value.id,'support',at(30));const node=[...model.nodes.values()].find(item=>item.kind==='value'&&item.value_id===value.id);state=answerDecision(model,state,node.id,null,at(31));
+ const result=derivedResults(model,state).get(value.id);assert.equal(result.status,'incomplete');assert.equal(result.strength,null);const row=csvRows(model,state,copy).find(item=>item[0]===copy.csv_type_value&&item[2]===value.id);assert.equal(row[6],'');
+});

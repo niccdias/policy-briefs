@@ -300,3 +300,7 @@ The shape, roots and causal-claim table above reflect this amendment. Path count
 ## Limits
 
 Which claims became questions, where limits sit and which value links were merged are editorial judgments for main and the independent verifier. Structural and quotation checks do not establish that any inference is valid or any prediction true. Human comprehension, reading time and workload were not tested.
+
+## Corpus amendment of November 10, 2026
+
+The corpus amendment corrects 3 Congressional Record labels in this package and 6 in `input/source.json` (audit finding B1). Only citation titles changed.

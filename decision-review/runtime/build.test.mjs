@@ -45,7 +45,10 @@ test('sessions saved under each recorded earlier release carry forward; changed 
    const states=decisionStates(model,carried);for(const id of Object.keys(current.answers)){if(prior.fingerprints[id]!==model.carry.fingerprints[id])assert.notEqual(states.get(id).status,'answered','Changed decision still counts: '+id);assert.equal(carried.answers[id].notes,current.answers[id].notes);}
    if(Object.keys(current.answers).every(id=>prior.fingerprints[id]===model.carry.fingerprints[id]))for(const id of Object.keys(current.answers))assert.equal(states.get(id).status,'answered','Unchanged decision lost its answer: '+id);
    const imported=importBackup(exportBackup(earlier),model,release,'imported_session_001','2026-11-10T00:00:00.000Z');assert.equal(imported.history[1].type,'carry');assert.equal(imported.session_id,'imported_session_001');
+   const again=carrySession(model,release,{...structuredClone(carried),release:structuredClone(prior.release)},'carried_again_001','2026-11-11T00:00:00.000Z');assert.deepEqual(Object.keys(again.answers).sort(),Object.keys(carried.answers).sort(),'A session carried twice keeps its answers.');
   }
+  {const prior=[...model.carry.prior.values()].at(-1);let current=createState(model,release,'edited_session_001',at);const next=nextDecision(model,current);current=answerDecision(model,current,next.id,'No',at,'');const edited={...structuredClone(current),release:structuredClone(prior.release)};edited.answers[next.id].answer='Yes';
+   assert.throws(()=>carrySession(model,release,edited,'edited_carry_001',at),/do not match its own history/);assert.throws(()=>importBackup(exportBackup(edited),model,release,'edited_import_001',at),/do not match its own history/);}
   const unknown={...structuredClone(createState(model,release,'unknown_session_001',at)),release:{...release,rendered_id:'rendered-'+'9'.repeat(64)}};
   assert.throws(()=>importBackup(exportBackup(unknown),model,release,'unknown_import_001',at),/different release/);
   assert.throws(()=>carrySession(model,release,unknown,'unknown_carry_001',at),/not recorded here/);
@@ -105,3 +108,13 @@ test('catalog consumes approved copy and supplied links, with the approved share
 });
 
 test('an empty native glossary leaves panel text untouched',()=>{markGlossaryTerms({querySelectorAll(){throw new Error('Panel traversal must be unnecessary without any terms.');}},[]);});
+test('coordinator export keeps each account and kind lineage separate',async()=>{
+ const {coordinatorCsv}=await import('./app.js'),{model,release}=await loadBill({billDir:fileURLToPath(new URL('../bills/hr28/',import.meta.url))}),prior=[...model.carry.prior.values()].at(-1);
+ let research=createState(model,release,'research_session_001',at);for(let step=0;step<4;step++)research=answerDecision(model,research,nextDecision(model,research).id,'Yes',at,'');
+ const earlier={...structuredClone(research),release:structuredClone(prior.release)},qaCopy=carrySession(model,release,earlier,'qa_session_001','2026-11-11T00:00:00.000Z');
+ const records=[{uid:'researcher_one',kind:'research',session_id:'research_session_001',rendered_id:prior.release.rendered_id,state:earlier},{uid:'researcher_two',kind:'qa',session_id:'qa_session_001',rendered_id:release.rendered_id,state:qaCopy}];
+ let csv=coordinatorCsv(model,release,records,'2026-11-11T00:00:00.000Z');assert(csv.includes('researcher_one')&&csv.includes('research_session_001'),'A QA copy by another account must not hide the research session.');
+ const ownCarry=carrySession(model,release,earlier,'research_session_002','2026-11-11T00:00:00.000Z');
+ csv=coordinatorCsv(model,release,[records[0],{uid:'researcher_one',kind:'research',session_id:'research_session_002',rendered_id:release.rendered_id,state:ownCarry}],'2026-11-11T00:00:00.000Z');
+ assert(!csv.includes('"research_session_001"'),'An earlier session carried by the same account and kind is shown once, as carried.');assert(csv.includes('research_session_002'));
+});

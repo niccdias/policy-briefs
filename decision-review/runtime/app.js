@@ -68,8 +68,11 @@ const ANSWER_PAUSE_MS=800;
 // Every reviewer's sessions for this bill, each scored as it counts in this release. Earlier-version sessions are
 // shown as carried (unless already carried into a saved session); the latest research session per account is marked.
 export function coordinatorCsv(model,release,records,at){
- const c=model.copy,carried=new Set(records.map(record=>record.state&&carriedFrom(record.state)?.session_id).filter(Boolean)),scored=[];
- for(const record of records){if(carried.has(record.session_id)&&record.rendered_id!==release.rendered_id)continue;let state=null,error='';try{state=record.rendered_id===release.rendered_id?validateState(record.state,model,release):earlierRelease(model,{rendered_id:record.rendered_id})?carrySession(model,release,record.state,record.session_id,at):null;if(!state)error=c.coordinator_error;}catch(failure){error=String(failure.message??failure);}scored.push({record,state,error});}
+ const c=model.copy,scored=[];
+ for(const record of records){let state=null,error='';try{state=record.rendered_id===release.rendered_id?validateState(record.state,model,release):earlierRelease(model,{rendered_id:record.rendered_id})?carrySession(model,release,record.state,record.session_id,at):null;if(!state)error=c.coordinator_error;}catch(failure){error=String(failure.message??failure);}scored.push({record,state,error,current:record.rendered_id===release.rendered_id});}
+ // An earlier session is left out only when a valid current session of the same account and kind was carried from it.
+ const replaced=new Set(scored.filter(item=>item.current&&item.state).map(item=>{const origin=carriedFrom(item.state);return origin?[item.record.uid,item.record.kind,origin.rendered_id,origin.session_id].join('|'):null;}).filter(Boolean));
+ for(let index=scored.length-1;index>=0;index--){const item=scored[index];if(!item.current&&replaced.has([item.record.uid,item.record.kind,item.record.rendered_id,item.record.session_id].join('|')))scored.splice(index,1);}
  const latest=new Map();for(const item of scored)if(item.state&&item.record.kind==='research'){const prior=latest.get(item.record.uid);if(!prior||item.record.state.updated_at>prior.record.state.updated_at)latest.set(item.record.uid,item);}
  const rows=[[...csvHeader(c),c.csv_latest]];for(const item of scored){const flag=latest.get(item.record.uid)===item?c.yes:'';if(item.state)for(const row of csvRows(model,item.state,c,{kind:item.record.kind,account:item.record.uid}))rows.push([...row,flag]);else rows.push(['','','','','','','',item.error,'','',item.record.session_id,item.record.rendered_id,'','','','',item.record.kind,item.record.uid,'','']);}
  return csvText(rows);

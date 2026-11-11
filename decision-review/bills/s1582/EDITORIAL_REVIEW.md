@@ -85,6 +85,10 @@ On November 9, 2026, definitions were moved out of the reading text and into the
 
 The displayed short description and the bill context now say that issuers must redeem the coins for a fixed dollar value, without restating what the terms mean; the frozen description is retained in `input/source.json`. Kept in the text: statutory definitions that decide coverage (lawful order, digital asset service provider, the list of regulators), explanations of effects such as how the automatic stay pauses collection, scope distinctions such as Bitcoin being a different asset and insured deposits, notes that say what a quoted pronoun refers to, actor introductions whose role bears on the inference (for example Circle as an issuer, World Liberty Financial, Segpay) and full official names given with an abbreviation.
 
+## Amendment of November 10, 2026
+
+The runtime no longer removes a paragraph's opening bold text (audit finding B3). That rule had removed the opening sentence of 14 challenge blocks; seven lost the point of the challenge. Eight openings are part of the reading and are now shown, including “The size figures are not forecasts.” and “A lender can take Treasury reserves first.” Six were editorial labels and were removed from the package data, so those blocks read exactly as before: `S1582_B_C18_RESPONSE_SECONDARY`, `S1582_B_C03_SUPPORT`, `S1582_B_MINING_SHARED_RESPONSE`, `S1582_B_C07_RESPONSE0_1_2`, `S1582_B_C19_RESPONSE0_1_2_4_5` and `S1582_B_DEEMED_APPROVAL_BACKGROUND`. No claim, route, source reference or coverage changed. Saved sessions carry forward; the decisions that show the restored sentences are marked for another look.
+
 ## Limits
 
 Which claims became questions, the consolidations and distinctions, and the placement of limits are editorial judgments for independent verification. The decomposition adds questions: the all-Yes path has 133 judgments, against 83 in the first version, with similar total words. The checks do not show that any inference is valid or any prediction true. Reading time and workload are untested.
