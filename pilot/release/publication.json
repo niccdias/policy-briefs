@@ -4,7 +4,7 @@
     "content_id": "approved-closure-20261107-d7b57ff714c5e55c3ecb",
     "procedure_id": "procedure-20261107-344e19dfc7b89622",
     "mapping_id": "mapping-236a7cfb3af2b65d",
-    "rendered_id": "rendered-dc1dfac91d99fa3fe475",
+    "rendered_id": "rendered-48b6275415aa183eebfc",
     "content_sha256": "654ead3cedbe5332e78d2fbe092ee02fffe5366e487bb1b8b8ab156e76e6f022",
     "procedure_sha256": "344e19dfc7b8962235c784cbafb5ae299d6653d5a3c9c58a448f45e7f6694558",
     "mapping_sha256": "236a7cfb3af2b65d32a2cce1168cc0d0a1f19db1da81167ef94f84c1d3c61864",
@@ -28,9 +28,13 @@
       "style.css": "8d216b2f4d9defce93ad7eb700ca5cd0eee710ad9b7de038694017332739e71f",
       "index.html": "e33477ffb9f36a1dfca3747e7b2da957d45b2f44c98e5dc2155ca2b9f133bbcd",
       "release/ui-copy.json": "ca8f30afcc447a953ffc6ae27db58445c5b928da6e1ef5ce3de3e781b3bf15bf",
-      "public-view.mjs": "222e3853fd0f44232f367fb2f7035939cddc379e18a9da4a9036efc67bfab138",
+      "public-view.mjs": "1f26aa1ea94aae6f25fb5c589e6da6b2dac080bd5a4a3121452be0af9adc9cda",
+      "release/amendments/corpus-20261110/apply-amendment.mjs": "4b49bf165e421f81fe9653040facf5880956e4cf19be8c8875bdcdbcbdd4775b",
+      "release/amendments/corpus-20261110/write-amendment.mjs": "274f5bdb7d12fc5cfb1109d45e163d7831c193cc3543ab4b6c85aa5283cbf6f3",
+      "release/amendments/corpus-20261110/record-attributions.json": "25d3487c1d92c951fb5d26a14b1f9a63de48f1964796f02f55802bea47f8d296",
+      "release/amendments/corpus-20261110/link-replacements.json": "4b607d44dbcd95cda79aea67e0fd13da2232a96e9034d4092b866664ad04ed12",
       "publication-gate.mjs": "ac8a867b2ff20d7c78a3eede276c68b44d9b3c721a58acfebc2592889548ac4a",
-      "rendered-release.mjs": "1cdde3f8ad75479a99180ed81becc0529929975b6f52da263fd59e26262df538",
+      "rendered-release.mjs": "36c7c0121671f6e0dba84a7dfbbad750c7c3575428bf3f1eb289ecc7f05e8cd6",
       "build.mjs": "8cb17aba4b6b400f8bc3264e77a1b9340689c01ed5ddbf57b4bd23ef0b9fc53f",
       "../.github/workflows/deploy.yml": "90961f61f4d0d4d47bc8582b89f8350685f86e5907a333c597b608b492f35778",
       "../quartz/styles/custom.scss": "e34c7ec01997825525b7dd484cd9326626edc8fc7f8f2e1c73760ce5d52e0222"
@@ -12336,12 +12340,12 @@
   ],
   "receipts": {
     "author": {
-      "path": "review-receipts/guided-cloud-build-author.json",
-      "sha256": "1b4df585acbcbb8abe602928fc922c2983ad2856fd01628cf91bb70e8e888f98"
+      "path": "review-receipts/corpus-amendment-20261110-author.json",
+      "sha256": "f4da5e03bc43d026d73f6cea34ab656933cdea914c8220df80cfb3874a17cb63"
     },
     "verification": {
-      "path": "review-receipts/guided-cloud-build-verification.json",
-      "sha256": "954c56fd166d9e219ad411667106f2a4f6dc3227aefa9efa17709b3a083705fb"
+      "path": "review-receipts/corpus-amendment-20261110-verification.json",
+      "sha256": "9ea71a4b368099a92f3c46e838e7bf89da9cb5c19b8ae216c7bac08af1fff5a6"
     }
   }
 }

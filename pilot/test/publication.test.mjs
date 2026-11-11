@@ -195,7 +195,7 @@ test('every publication entry point enforces closure before writing build output
  const publicView=await readFile(new URL('../public-view.mjs',import.meta.url),'utf8');
  const build=await readFile(new URL('../build.mjs',import.meta.url),'utf8');
  const workflow=await readFile(new URL('../../.github/workflows/deploy.yml',import.meta.url),'utf8');
- assert.ok(publicView.indexOf('await assertPublicationReady();')<publicView.indexOf('const content=JSON.parse(await readFile(source'));
+ assert.ok(publicView.indexOf('await assertPublicationReady();')<publicView.indexOf('const frozen=JSON.parse(await readFile(source'));
  assert.ok(build.indexOf('await assertPublicationReady();')<build.indexOf('await mkdir(out'));
  assert.ok(workflow.indexOf('node pilot/publication-gate.mjs')<workflow.indexOf('node pilot/public-view.mjs --write'));
 });
