@@ -2,61 +2,41 @@
   "schema_version": 1,
   "status": "passed",
   "open_findings": [],
-  "verified_date": "2026-11-10",
-  "scope": "Removal of Pending from the final comparison form and removal of its instructions. Existing sessions use their unchanged prior release identity; current rendered artifacts are hashed separately. Firebase service, configuration, rules and state schema are unchanged.",
+  "verified_date": "2026-11-11",
+  "scope": "Session carry-forward across releases (session-history.json), the earlier-session list and coordinator export (listEarlier, listAll), the 800 ms answer pause, and CSV exports with account and session type. Firebase configuration and rules are unchanged.",
   "input_sha256": {
-    "runtime/firebase.mjs": "90a635111bf2ccaa372536305e22e090f90804a060adda538d262530007da640",
-    "runtime/firebase.test.mjs": "04b9b4948aae0689564909bb76cada0309f4df73663c2d61e80364aaf2d03148",
-    "runtime/app.js": "bf8196be08c1aec81945649957356daed1ea2e31d3294309abbb500f298d5d58",
-    "runtime/build.mjs": "7e360d5a636275d1d5b80318074b5ce7a2428198756009faa5992cd89c35427f",
-    "runtime/copy.json": "79dec6af697f5ab1abaf32089847f47bf81c0ceb14e282219eb92cd9dad04440",
+    "runtime/firebase.mjs": "25f7d071e2b6d73ebb70ecde9f7618e2589959cc5b29e823331fd79bddec248b",
+    "runtime/firebase.test.mjs": "71ea0d1eaf6d5c421023a2a20c45185ba691556a8d08d1286ab94be7e3d6e1ae",
+    "runtime/app.js": "12f648d849ba7cb08d851c740489efb6deee0c74ab8d3d2e5858d0a3fa79cb99",
+    "runtime/build.mjs": "673999f2a7bab67101e3de3320746043f3fc2d8a050f0db6c2647b60febd484a",
+    "runtime/copy.json": "5aabf382bf541c84f3f4414357f83ee073a31dceb43b778e42da418b7f37ff3f",
     "site-copy.json": "3f373fcb984742f3f61aa7d9cb62fab9dd0f00ec6182b23023eed0a95a58d78d",
     "package.json": "f5029157811f90ad3296ec10e59d61f6b886dbfa59f611fff05162feffd05aad",
     "package-lock.json": "b8a82a616c6a7277c545be5d64f5f3ffddf4a930f9745b45fa17537f00e5b933",
     "firebase-config.json": "e2c6afbaf3c5bc8ef01f073e1dfc30e67494eed4ba9f6011488750aea7accc65",
     "firebase.json": "738c9194f7c24cb308c661a8e977502217dd232fa028e0eddd6fd65adcb2a686",
     "backend/firestore.rules": "1725c2e56594e7c1f9e4e83906e38ef7a9d3582eb0a6f96225f3bd397eec7206",
-    "browser-qa.mjs": "3146ad82c85a48ef43d9c39d1ca56834df6e346645b85a997728a0c8b9f2207a"
+    "browser-qa.mjs": "b2d2e7af615ed714b27a2096bd226dc7d6967796ce2592d763344d2ece4c1222",
+    "runtime/model.mjs": "78f34b9f7c4906e427a6dd9e17ba626791e01bd429bb449497ef655c7cb71ac3",
+    "runtime/storage.mjs": "7b058797a75f3d2847339152906434b1dcba8975b36ae04dd8aa58d472189872",
+    "session-history.json": "f8b523bbf7399ada4de395769d43d4abecec262593fa266b644b4818d32cd20f"
   },
   "tests": {
     "normal": {
       "command": "npm test",
-      "passed": 47,
+      "passed": 51,
       "failed": 0,
-      "skipped": 1,
-      "skip_reason": "The emulator suite ran separately with actual local Auth and Firestore."
+      "skipped": 1
     },
     "emulators": {
-      "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8095 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9105 node --test --test-concurrency=1 runtime/firebase.test.mjs",
-      "project": "demo-decision-review",
-      "passed": 15,
-      "failed": 0,
-      "skipped": 0,
-      "checks": [
-        "Unassigned, inactive, other-account, anonymous, unverified and non-Google identities rejected.",
-        "Allowed-kind lists are scoped; unrestricted and other-user queries rejected.",
-        "Current state and immutable history commit atomically; revision, metadata and deletion restrictions enforced.",
-        "Existing assignment and response authorization behavior unchanged.",
-        "Long native notes compress and roundtrip; stale revisions conflict; offline drafts retry."
-      ],
-      "scope": "Local Auth/Firestore demo-emulator run: 15 tests passed. Firebase service, configuration and rules are unchanged. Deployment CI repeats this suite on the final candidate.",
-      "previous_run_log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
+      "command": "npm run test:rules (Java 21, Auth and Firestore emulators)",
+      "passed": 16,
+      "failed": 0
     },
-    "all_bill_ui_report": "browser-verification.json",
-    "all_bill_ui_summary": {
-      "bills": 8,
-      "decisions": 709,
-      "comparisons": 45,
-      "layouts": 200,
-      "report_sha256": "b7a40d173b0daa75d17afb619bfa27d7974caa654337466a900d916eb2874c36"
-    },
-    "glossary_regression": {
-      "status": "passed",
-      "checks": [
-        "Introduction terms open and close on hover.",
-        "Reported S.1582 stablecoin, issuer, redeem, CRS, OCC and Brookings definitions open with exact glossary text and close on hover-out.",
-        "Existing actual-pointer hover checks, full decision walk, account lifecycle, offline retry and both conflict choices passed."
-      ]
+    "browser": {
+      "path": "browser-verification.json",
+      "sha256": "8167e26b31078f6ff535b56d51094bbdee0b5e930be5031d379671254176a076",
+      "status": "passed"
     }
   },
   "production_rules": {
@@ -310,12 +290,72 @@
     "request": "This should not be an option",
     "changes": "Only delete instructions offering Pending; no new participant-facing wording."
   },
-  "session_compatibility": {
-    "manifest": "session-compatibility.json",
-    "sha256": "a2d21605f42de0c374ffc68cf986ace8ac04a86789514120a9f3b70dcfe46a7c",
-    "existing_releases": 8,
-    "unit_resume_checks": "passed",
-    "browser_resume_checks": "passed",
-    "legacy_pending_records": "Preserved; the current form offers only support and oppose."
+  "session_carry": {
+    "history": "session-history.json",
+    "sha256": "f8b523bbf7399ada4de395769d43d4abecec262593fa266b644b4818d32cd20f",
+    "releases_recorded_per_bill": 4,
+    "rule": "A saved session from a recorded earlier release opens as a new session; an answer keeps counting only where the decision is unchanged; earlier-release JSON backups carry with every answer marked for another look; nothing is deleted."
+  },
+  "independent_review": {
+    "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol), through Paseo",
+    "report": {
+      "path": "release-review-20261111/report-3.json",
+      "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+    },
+    "runtime_status": "passed",
+    "open_findings": []
+  },
+  "previous_two_choice_release_verification": {
+    "verified_date": "2026-11-10",
+    "scope": "Removal of Pending from the final comparison form and removal of its instructions. Existing sessions use their unchanged prior release identity; current rendered artifacts are hashed separately. Firebase service, configuration, rules and state schema are unchanged.",
+    "tests": {
+      "normal": {
+        "command": "npm test",
+        "passed": 47,
+        "failed": 0,
+        "skipped": 1,
+        "skip_reason": "The emulator suite ran separately with actual local Auth and Firestore."
+      },
+      "emulators": {
+        "command": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8095 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9105 node --test --test-concurrency=1 runtime/firebase.test.mjs",
+        "project": "demo-decision-review",
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "checks": [
+          "Unassigned, inactive, other-account, anonymous, unverified and non-Google identities rejected.",
+          "Allowed-kind lists are scoped; unrestricted and other-user queries rejected.",
+          "Current state and immutable history commit atomically; revision, metadata and deletion restrictions enforced.",
+          "Existing assignment and response authorization behavior unchanged.",
+          "Long native notes compress and roundtrip; stale revisions conflict; offline drafts retry."
+        ],
+        "scope": "Local Auth/Firestore demo-emulator run: 15 tests passed. Firebase service, configuration and rules are unchanged. Deployment CI repeats this suite on the final candidate.",
+        "previous_run_log_sha256": "36e48a06df96e1e71ee1be78d9ec0149ad68c82c5d49da0e6d6c523bb1c307de"
+      },
+      "all_bill_ui_report": "browser-verification.json",
+      "all_bill_ui_summary": {
+        "bills": 8,
+        "decisions": 709,
+        "comparisons": 45,
+        "layouts": 200,
+        "report_sha256": "b7a40d173b0daa75d17afb619bfa27d7974caa654337466a900d916eb2874c36"
+      },
+      "glossary_regression": {
+        "status": "passed",
+        "checks": [
+          "Introduction terms open and close on hover.",
+          "Reported S.1582 stablecoin, issuer, redeem, CRS, OCC and Brookings definitions open with exact glossary text and close on hover-out.",
+          "Existing actual-pointer hover checks, full decision walk, account lifecycle, offline retry and both conflict choices passed."
+        ]
+      }
+    },
+    "session_compatibility": {
+      "manifest": "session-compatibility.json",
+      "sha256": "a2d21605f42de0c374ffc68cf986ace8ac04a86789514120a9f3b70dcfe46a7c",
+      "existing_releases": 8,
+      "unit_resume_checks": "passed",
+      "browser_resume_checks": "passed",
+      "legacy_pending_records": "Preserved; the current form offers only support and oppose."
+    }
   }
 }

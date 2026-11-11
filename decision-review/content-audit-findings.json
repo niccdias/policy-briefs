@@ -12538,7 +12538,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -16208,7 +16230,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -20871,7 +20915,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -24377,7 +24443,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -33115,7 +33203,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -38871,7 +38981,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     },
@@ -48989,8 +49121,31 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
-        "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
+        "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage.",
+        "quotation_candidate_note": "The one unmatched-curly candidate (S1582_B_SES_support_02_R, \"creating leverage .\") is a spacing artifact of the audit's plain-text conversion at the glossary span around \"leverage\"; the rendered quotation reads \"creating leverage. In periods…\", matching its source."
       }
     },
     "s2": {
@@ -65415,7 +65570,29 @@
         }
       ],
       "semantic_review": {
-        "status": "pending",
+        "status": "passed",
+        "reviewer": "Sol 6.1 at max effort (gpt-6.1-sol, max), run through Paseo with the Codex CLI; working alone, no edits.",
+        "reviewed_date": "2026-11-11",
+        "candidate_commit": "e02bf400a2250b0b92140a921ee1d55fc313990f",
+        "scope": "Every field changed from the live release dddc6ff: quotations exact in their named frozen source fields, attribution, no claim beyond the source, and the corpus amendment. Unchanged fields keep their earlier reviews.",
+        "evidence": [
+          {
+            "path": "release-review-20261111/BRIEF.md",
+            "sha256": "cab7161758756add490ccb31887884d605eb4cce177094a17a34ee15e7f9449f"
+          },
+          {
+            "path": "release-review-20261111/report.json",
+            "sha256": "d562abf2a30517e36ca7c6e358d873fd1f1ff0a4d51750be8119a74c4c1d3672"
+          },
+          {
+            "path": "release-review-20261111/report-2.json",
+            "sha256": "cbba16c4079bf5929390c2803ab021655458b0ac42a15beec55db46db380a9ac"
+          },
+          {
+            "path": "release-review-20261111/report-3.json",
+            "sha256": "2dc11edab5c62c151e842601fb3b985cd7885416faba6ef20ee26a78c3590915"
+          }
+        ],
         "coverage": "Each complete source field must be read; locator quotations alone do not establish substantive coverage."
       }
     }
