@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {applyHr5408Amendment} from '../convert-hr5408.mjs';
+import {readFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {applyHr5408Amendment,buildHr5408} from '../convert-hr5408.mjs';
 
 const sha=value=>createHash('sha256').update(JSON.stringify(value,null,2)+'\n').digest('hex');
 function fixture(){
@@ -31,4 +33,7 @@ test('amendments reject duplicate targets, unsupported fields and mismatched com
  const unsupported=structuredClone(amendment);unsupported.changes[0].field='source_refs';assert.throws(()=>applyHr5408Amendment(original.decisions,original.copy,unsupported),/Unsupported H.R.5408 amendment field/);
  const mismatch=structuredClone(amendment);mismatch.changes[0].before='A different paragraph.';assert.throws(()=>applyHr5408Amendment(original.decisions,original.copy,mismatch),/H.R.5408 amendment text mismatch/);
  const incomplete=structuredClone(amendment);incomplete.changes.pop();assert.throws(()=>applyHr5408Amendment(original.decisions,original.copy,incomplete),/Unexpected H.R.5408 amendment output/);
+});
+test('the converter rebuilds the committed H.R.5408 package byte for byte from the frozen pilot inputs',{skip:!existsSync(new URL('../../bill_reasoning_pilot_20261108/hr5408/',import.meta.url))&&'The frozen pilot inputs are kept only in the project.'},async()=>{
+ for(const [name,text] of Object.entries(await buildHr5408()))assert.equal(text,await readFile(new URL('../bills/hr5408/'+name,import.meta.url),'utf8'),'Converter output differs from bills/hr5408/'+name);
 });

@@ -173,7 +173,9 @@ function applyCarry(model,state,payload,at){
  for(const [id,carried] of Object.entries(payload.comparisons))if(model.sourceIndex.values.has(id)){next.comparisons[id]={strength:carried.strength,notes:carried.notes,basis:{support_ids:[...carried.support_ids],oppose_ids:[...carried.oppose_ids],reason_basis:clone(carried.reason_basis),revision:next.revision,at}};if(carried.stale)next.stale.comparisons[id]=[{decision_id:null,revision:next.revision}];}
  reconcile(model,next,null);return next;
 }
-export function carrySession(model,release,earlier,newId,at){
+// verified: the earlier state is the server's saved original. Without that, its stale flags and bases cannot be
+// checked (its release's model is not here), so every carried answer and comparison needs another look.
+export function carrySession(model,release,earlier,newId,at,{verified=false}={}){
  check(record(earlier)&&earlier.schema_version===1&&record(earlier.answers)&&record(earlier.comparisons)&&record(earlier.stale)&&record(earlier.stale.decisions)&&record(earlier.stale.comparisons)&&Number.isInteger(earlier.revision),'Invalid earlier session.');
  // The earlier release's model is not available here, so its history cannot be fully replayed. Its answers and
  // comparisons must still be exactly what its own recorded events produce. A carry event supplies answers that
@@ -185,10 +187,10 @@ export function carrySession(model,release,earlier,newId,at){
   else if(event.type==='reopen'){delete replayedAnswers[payload.id];fromCarry.delete(payload.id);}
   else if(event.type==='comparison')replayedComparisons[payload.value_id]={strength:payload.strength,notes:payload.notes};
   else if(event.type==='carry'&&record(payload.answers)&&record(payload.comparisons)){for(const [id,answer] of Object.entries(payload.answers)){replayedAnswers[id]={answer:answer?.answer,notes:answer?.notes};fromCarry.add(id);}for(const [id,comparison] of Object.entries(payload.comparisons))replayedComparisons[id]={strength:comparison?.strength,notes:comparison?.notes};}}
- for(const id of fromCarry)if(!Object.hasOwn(earlier.answers,id))delete replayedAnswers[id];
+ const earlierIds=earlierRelease(model,earlier.release)?.fingerprints??{};for(const id of fromCarry)if(!Object.hasOwn(earlier.answers,id)&&!Object.hasOwn(earlierIds,id))delete replayedAnswers[id];
  check(same(replayedAnswers,Object.fromEntries(Object.entries(earlier.answers).map(([id,answer])=>[id,{answer:answer?.answer,notes:answer?.notes}])))&&same(replayedComparisons,Object.fromEntries(Object.entries(earlier.comparisons).map(([id,comparison])=>[id,{strength:comparison?.strength,notes:comparison?.notes}]))),'The earlier session’s answers do not match its own history.');
- const answers=Object.fromEntries(Object.entries(earlier.answers).map(([id,answer])=>[id,{answer:answer?.answer,notes:answer?.notes,stale:Boolean(earlier.stale.decisions[id])}]));
- const comparisons=Object.fromEntries(Object.entries(earlier.comparisons).map(([id,comparison])=>[id,{strength:comparison?.strength,notes:comparison?.notes,support_ids:comparison?.basis?.support_ids,oppose_ids:comparison?.basis?.oppose_ids,reason_basis:comparison?.basis?.reason_basis,stale:Boolean(earlier.stale.comparisons[id])}]));
+ const answers=Object.fromEntries(Object.entries(earlier.answers).map(([id,answer])=>[id,{answer:answer?.answer,notes:answer?.notes,stale:!verified||Boolean(earlier.stale.decisions[id])}]));
+ const comparisons=Object.fromEntries(Object.entries(earlier.comparisons).map(([id,comparison])=>[id,{strength:comparison?.strength,notes:comparison?.notes,support_ids:comparison?.basis?.support_ids,oppose_ids:comparison?.basis?.oppose_ids,reason_basis:comparison?.basis?.reason_basis,stale:!verified||Boolean(earlier.stale.comparisons[id])}]));
  return applyCarry(model,createState(model,release,newId,at),{from_session_id:earlier.session_id,from_release:clone(earlier.release),from_revision:earlier.revision,answers,comparisons},at);
 }
 export function carriedFrom(state){const event=Array.isArray(state?.history)&&state.history.find(item=>item.type==='carry');return event?{session_id:event.payload.from_session_id,rendered_id:event.payload.from_release.rendered_id}:null;}
@@ -211,7 +213,7 @@ export function validateState(state,model,release){
  check(same(replay,state),'Saved state does not match its complete event history.');return state;
 }
 export function exportBackup(state){return JSON.stringify({backup_schema_version:1,state},null,2)+'\n';}
-export function importBackup(text,model,release,newId,at){check(typeof text==='string'&&text.length<=30000000,'Backup exceeds 30 MB.');const backup=JSON.parse(text);exact(backup,['backup_schema_version','state'],'backup');check(backup.backup_schema_version===1,'Unsupported backup schema.');date(at);if(record(backup.state)&&record(backup.state.release)&&earlierRelease(model,backup.state.release))return carrySession(model,release,backup.state,newId,new Date(Math.max(Date.parse(at),Date.parse(backup.state.updated_at)||0)).toISOString());const state=validateState(backup.state,model,release);return appendImport(state,newId,new Date(Math.max(Date.parse(at),Date.parse(state.updated_at))).toISOString());}
+export function importBackup(text,model,release,newId,at,{verifiedEarlier=false}={}){check(typeof text==='string'&&text.length<=30000000,'Backup exceeds 30 MB.');const backup=JSON.parse(text);exact(backup,['backup_schema_version','state'],'backup');check(backup.backup_schema_version===1,'Unsupported backup schema.');date(at);if(record(backup.state)&&record(backup.state.release)&&earlierRelease(model,backup.state.release))return carrySession(model,release,backup.state,newId,new Date(Math.max(Date.parse(at),Date.parse(backup.state.updated_at)||0)).toISOString(),{verified:verifiedEarlier});const state=validateState(backup.state,model,release);return appendImport(state,newId,new Date(Math.max(Date.parse(at),Date.parse(state.updated_at))).toISOString());}
 // Answer, presence and strength cells hold only what the runtime counts. A saved value that does not
 // count (stale, set aside or provisional) is named in the status cell instead.
 export function csvHeader(copy){return [copy.csv_record_type,copy.csv_decision,copy.csv_value,copy.csv_direction,copy.csv_answer,copy.csv_presence,copy.csv_strength,copy.csv_status,copy.csv_notes,copy.csv_basis,copy.csv_session,copy.csv_release,copy.content_id_label,copy.mapping_id_label,copy.procedure_id_label,copy.source_id_label,copy.csv_kind,copy.csv_account,copy.csv_carried_from];}

@@ -8,9 +8,13 @@ import {prepareCopy} from './runtime/build.mjs';
 import {plainText,sourceField} from './runtime/source.mjs';
 import {renderDecision} from './runtime/app.js';
 import {applyHr5408Amendment,verifyHr5408LegacyInputs} from './convert-hr5408.mjs';
-import {amendJson} from '../corpus_amendment_20261110/write-amendment.mjs';
+import {existsSync} from 'node:fs';
 
 const root=new URL('./',import.meta.url),at='2026-11-09T00:00:00.000Z';
+// The corpus amendment lives beside this folder in the project and under pilot/release/amendments/ on the website.
+const amendmentUrl=['../corpus_amendment_20261110/write-amendment.mjs','../pilot/release/amendments/corpus-20261110/write-amendment.mjs'].map(path=>new URL(path,root)).find(url=>existsSync(url));
+if(!amendmentUrl)throw new Error('Corpus amendment 2026-11-10 not found beside decision_review_20261109/ or under pilot/release/amendments/corpus-20261110/.');
+const {amendJson}=await import(amendmentUrl.href);
 const read=path=>readFile(new URL(path,root),'utf8'),json=async path=>JSON.parse(await read(path));
 const sha=value=>createHash('sha256').update(value).digest('hex');
 const normalized=value=>plainText(value).replace(/\s+/g,' ').trim();

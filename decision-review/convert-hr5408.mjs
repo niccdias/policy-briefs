@@ -47,17 +47,25 @@ export async function verifyHr5408LegacyInputs(amendment,pilotDir){
  for(const name of names)assert.equal(sha(await readFile(new URL(name,pilotDir))),amendment.legacy_inputs_sha256[name],'Approved H.R.5408 pilot changed: '+name);
 }
 
-async function main(){
+// Rebuilds the H.R.5408 package files from the frozen pilot inputs, as {file name: bytes}.
+export async function buildHr5408(){
 const sourceBytes=await readFile(new URL('bills/hr5408/input/source.json',root)),source=JSON.parse(sourceBytes),old=await read(new URL('decision-tree/decisions.json',pilot)),reading=await read(new URL('bill-wide/reading.json',pilot)),copy=await read(new URL('decision-tree/copy.json',pilot)),coverage=await read(new URL('decision-tree/coverage.json',pilot));
 const blocks=new Map(reading.units.flatMap(unit=>unit.blocks).concat(old.blocks).map(block=>[block.id,block]));
 const used=[...new Set(old.nodes.flatMap(node=>node.block_ids))];
-const decisions={schema_version:1,bill_id:source.bill.id,source_sha256:createHash('sha256').update(sourceBytes).digest('hex'),contexts:old.contexts,blocks:used.map(id=>{const {role,html,source_refs}=blocks.get(id);return {id,role,html,source_refs};}),nodes:old.nodes.map(({source_node_ids,implication_ids,...node})=>node),glossary:[...reading.glossary,...copy.glossary_additions],value_subjects:copy.value_subjects};
+// The initial conversion bound the original frozen source; the corpus amendment's recorded binding change
+// restores that hash, and must lead to the current source's.
+const conversion=await read(new URL('bills/hr5408/conversion.json',root)),amendment=conversion.editorial_amendment,sourceSha=sha(sourceBytes);
+const binding=amendment?.changes.find(change=>change.collection==='decisions'&&change.field==='source_sha256');
+if(binding)assert.equal(binding.after,sourceSha,'The H.R.5408 source binding amendment does not lead to the current source.');
+const decisions={schema_version:1,bill_id:source.bill.id,source_sha256:binding?binding.before:sourceSha,contexts:old.contexts,blocks:used.map(id=>{const {role,html,source_refs}=blocks.get(id);return {id,role,html,source_refs};}),nodes:old.nodes.map(({source_node_ids,implication_ids,...node})=>node),glossary:[...reading.glossary,...copy.glossary_additions],value_subjects:copy.value_subjects};
 const nativeCoverage={schema_version:1,arguments:coverage.arguments,responses:coverage.challenges.map(item=>({...source.requirements.responses.find(prior=>prior.id===item.id),decision_ids:item.decision_ids,block_ids:item.block_ids,disposition:item.disposition,rationale:item.rationale})),qualifications:coverage.qualifications};
 assert.equal(decisions.nodes.length,108);assert.equal(decisions.blocks.length,144);assert.equal(nativeCoverage.arguments.length,69);assert.equal(nativeCoverage.responses.length,34);assert.equal(nativeCoverage.qualifications.length,62);
-const conversion=await read(new URL('bills/hr5408/conversion.json',root)),amendment=conversion.editorial_amendment;
 if(amendment)await verifyHr5408LegacyInputs(amendment,pilot);
 const amended=amendment?applyHr5408Amendment(decisions,{},amendment):{decisions,copy:{}};
-for(const [name,value] of [['decisions.json',amended.decisions],['coverage.json',nativeCoverage],['copy.json',amended.copy]])await writeFile(new URL('bills/hr5408/'+name,root),JSON.stringify(value,null,name==='copy.json'?1:2)+'\n');
-console.log(JSON.stringify({bill:source.bill.id,decisions:decisions.nodes.length,blocks:decisions.blocks.length,source_sha256:decisions.source_sha256}));
+return Object.fromEntries([['decisions.json',amended.decisions],['coverage.json',nativeCoverage],['copy.json',amended.copy]].map(([name,value])=>[name,JSON.stringify(value,null,name==='copy.json'?1:2)+'\n']));
+}
+async function main(){
+ const files=await buildHr5408();for(const [name,text] of Object.entries(files))await writeFile(new URL('bills/hr5408/'+name,root),text);
+ console.log(JSON.stringify({bill:'119_H_R_5408',files:Object.keys(files)}));
 }
 if(process.argv[1]&&pathToFileURL(resolve(process.argv[1])).href===import.meta.url)await main();
